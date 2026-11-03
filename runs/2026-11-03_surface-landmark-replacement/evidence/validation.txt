@@ -1,0 +1,4 @@
+Command: python <EXPERIMENT>/validate.py
+Exit status: 0
+PASS: 20 frames; unique observations; coverage counts; covariance PSD; collisions, right-wrist rejection and paired-test eligibility.
+Assertions verify consistency, not actual accuracy.

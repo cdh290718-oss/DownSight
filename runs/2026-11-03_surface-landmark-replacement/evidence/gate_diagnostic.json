@@ -1,0 +1,159 @@
+{
+  "preliminary_diagnostic": "if using 3 times wrist sigma as correction threshold, without duplicate suppression, 00270 left and right elbows both pass correction alone",
+  "three_sigma_px": 38.86561369646677,
+  "cases": [
+    {
+      "frame": 270,
+      "name": "left_elbow",
+      "index": 7,
+      "score": [
+        0.50390625,
+        0.5859375
+      ],
+      "xy": [
+        [
+          709.6812133789062,
+          873.188232421875
+        ],
+        [
+          538.0438232421875,
+          893.5531005859375
+        ]
+      ],
+      "eligible": [
+        true,
+        true
+      ],
+      "stereo": false,
+      "reasons": [
+        "reprojection"
+      ],
+      "correction_l2_px": 15.943918855298282,
+      "range_m": 0.3270814666242705,
+      "sigma_max_m": 0.06758004960192467,
+      "xyz_cam2_m": null,
+      "cov_cam2_m2": null,
+      "recommended": "discard"
+    },
+    {
+      "frame": 270,
+      "name": "right_elbow",
+      "index": 8,
+      "score": [
+        0.359375,
+        0.39453125
+      ],
+      "xy": [
+        [
+          709.9894409179688,
+          872.0321655273438
+        ],
+        [
+          537.2068481445312,
+          901.0032348632812
+        ]
+      ],
+      "eligible": [
+        true,
+        true
+      ],
+      "stereo": false,
+      "reasons": [
+        "reprojection"
+      ],
+      "correction_l2_px": 22.156072280300297,
+      "range_m": 0.32594398117664525,
+      "sigma_max_m": 0.06704162499846825,
+      "xyz_cam2_m": null,
+      "cov_cam2_m2": null,
+      "recommended": "discard"
+    },
+    {
+      "frame": 270,
+      "name": "left_wrist",
+      "index": 62,
+      "score": [
+        0.703125,
+        0.73046875
+      ],
+      "xy": [
+        [
+          794.2472534179688,
+          645.2706298828125
+        ],
+        [
+          650.7581176757812,
+          650.5751953125
+        ]
+      ],
+      "eligible": [
+        true,
+        true
+      ],
+      "stereo": true,
+      "reasons": [],
+      "correction_l2_px": 0.9120277151641,
+      "range_m": 0.4543481938089394,
+      "sigma_max_m": 0.12690120589472897,
+      "xyz_cam2_m": [
+        -0.0341633866331196,
+        -0.0030180141659315726,
+        0.45305191294342395
+      ],
+      "cov_cam2_m2": [
+        [
+          0.0003747580826759226,
+          1.1748968493603428e-05,
+          -0.0021990631320725988
+        ],
+        [
+          1.1748968493603437e-05,
+          6.674162352457507e-05,
+          -8.408259183740599e-05
+        ],
+        [
+          -0.0021990631320725996,
+          -8.408259183740593e-05,
+          0.015796011061290312
+        ]
+      ],
+      "recommended": "3d_candidate"
+    },
+    {
+      "frame": 270,
+      "name": "right_wrist",
+      "index": 41,
+      "score": [
+        0.4609375,
+        0.5703125
+      ],
+      "xy": [
+        [
+          794.3347778320312,
+          646.1214599609375
+        ],
+        [
+          1513.4591064453125,
+          903.6203002929688
+        ]
+      ],
+      "eligible": [
+        true,
+        true
+      ],
+      "stereo": false,
+      "reasons": [
+        "depth",
+        "reprojection",
+        "uncertainty"
+      ],
+      "correction_l2_px": 589.9023852112406,
+      "range_m": 1127422.1198308782,
+      "sigma_max_m": 18708.701246590394,
+      "xyz_cam2_m": null,
+      "cov_cam2_m2": null,
+      "recommended": "discard"
+    }
+  ],
+  "caveat": "Correction test alone is not the full gate; 8px final gate and identity rejection apply in final outputs."
+}

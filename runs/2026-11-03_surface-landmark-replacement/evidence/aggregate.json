@@ -1,0 +1,153 @@
+{
+  "joint_recommendations": {
+    "nose": {
+      "out_of_scope": 20
+    },
+    "left_shoulder": {
+      "2d_candidate": 5,
+      "discard": 15
+    },
+    "right_shoulder": {
+      "discard": 13,
+      "2d_candidate": 7
+    },
+    "left_elbow": {
+      "discard": 5,
+      "2d_candidate": 15
+    },
+    "right_elbow": {
+      "discard": 4,
+      "2d_candidate": 16
+    },
+    "left_wrist": {
+      "3d_candidate": 20
+    },
+    "right_wrist": {
+      "3d_candidate": 19,
+      "discard": 1
+    },
+    "left_hip": {
+      "2d_candidate": 13,
+      "discard": 7
+    },
+    "right_hip": {
+      "discard": 7,
+      "2d_candidate": 13
+    },
+    "left_knee": {
+      "discard": 16,
+      "2d_candidate": 4
+    },
+    "right_knee": {
+      "2d_candidate": 5,
+      "discard": 15
+    },
+    "left_ankle": {
+      "discard": 15,
+      "2d_candidate": 5
+    },
+    "right_ankle": {
+      "discard": 13,
+      "2d_candidate": 7
+    }
+  },
+  "elbow_paired_comparison": {
+    "all": {
+      "n": 29,
+      "midpoint_median_cm": 8.624441746927076,
+      "direct_median_cm": 9.196203890499175,
+      "improved": 22,
+      "marker_separation_median_cm": 2.8700068320342784
+    },
+    "left": {
+      "n": 15,
+      "midpoint_median_cm": 10.515803069705338,
+      "direct_median_cm": 10.487027984658361,
+      "improved": 9,
+      "marker_separation_median_cm": 1.7107304894048037
+    },
+    "right": {
+      "n": 14,
+      "midpoint_median_cm": 4.975387224252872,
+      "direct_median_cm": 6.142174457097566,
+      "improved": 13,
+      "marker_separation_median_cm": 4.306611087211104
+    }
+  },
+  "body_reference_range_differences": {
+    "left_elbow": {
+      "n": 15,
+      "median_cm": 9.923748360333057,
+      "positive": 15
+    },
+    "left_hip": {
+      "n": 13,
+      "median_cm": 21.131732032065504,
+      "positive": 13
+    },
+    "right_elbow": {
+      "n": 16,
+      "median_cm": 6.095741879681341,
+      "positive": 15
+    },
+    "right_hip": {
+      "n": 12,
+      "median_cm": 11.061574375803552,
+      "positive": 12
+    }
+  },
+  "proximity": {
+    "olecranon": {
+      "n": 78,
+      "median_px": 7.929707350545863,
+      "under_10px": 48
+    },
+    "cubital_fossa": {
+      "n": 78,
+      "median_px": 11.621957165167599,
+      "under_10px": 32
+    }
+  },
+  "coverage_by_segment": {
+    "left_upper_arm": {
+      "old": 19,
+      "candidate": 4
+    },
+    "left_forearm": {
+      "old": 20,
+      "candidate": 17
+    },
+    "left_torso_pelvis": {
+      "old": 19,
+      "candidate": 3
+    },
+    "left_thigh": {
+      "old": 19,
+      "candidate": 3
+    },
+    "left_shin": {
+      "old": 19,
+      "candidate": 4
+    },
+    "right_upper_arm": {
+      "old": 19,
+      "candidate": 6
+    },
+    "right_forearm": {
+      "old": 20,
+      "candidate": 17
+    },
+    "right_torso_pelvis": {
+      "old": 19,
+      "candidate": 5
+    },
+    "right_thigh": {
+      "old": 19,
+      "candidate": 3
+    },
+    "right_shin": {
+      "old": 18,
+      "candidate": 3
+    }
+  }
+}

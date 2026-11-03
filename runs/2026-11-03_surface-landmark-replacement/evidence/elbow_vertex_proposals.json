@@ -1,0 +1,71 @@
+{
+  "model_sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+  "model_vertex_count": 10475,
+  "method": "neutral template elbow joint 18/19; |dx| < .012m, |dy| < .025m, radius < .09m; minimum z as posterior and maximum z as anterior. This is a coordinate heuristic, not manually validated.",
+  "proposals": {
+    "left_olecranon": {
+      "vertex_id": 4293,
+      "neutral_xyz_m": [
+        0.42472022771835327,
+        0.03576984256505966,
+        -0.0946703553199768
+      ],
+      "joint_xyz_m": [
+        0.4182038903236389,
+        0.01309278141707182,
+        -0.05821444094181061
+      ],
+      "neutral_distance_to_joint_m": 0.043425168842077255,
+      "candidate_count": 18,
+      "status": "unverified geometric proposal; not anatomical correspondence"
+    },
+    "left_cubital_fossa": {
+      "vertex_id": 4389,
+      "neutral_xyz_m": [
+        0.4107682406902313,
+        0.03262961283326149,
+        -0.013906591571867466
+      ],
+      "joint_xyz_m": [
+        0.4182038903236389,
+        0.01309278141707182,
+        -0.05821444094181061
+      ],
+      "neutral_distance_to_joint_m": 0.04899144917726517,
+      "candidate_count": 18,
+      "status": "unverified geometric proposal; not anatomical correspondence"
+    },
+    "right_olecranon": {
+      "vertex_id": 7017,
+      "neutral_xyz_m": [
+        -0.43370163440704346,
+        0.03750722482800484,
+        -0.09559767693281174
+      ],
+      "joint_xyz_m": [
+        -0.4229443669319153,
+        0.04394219070672989,
+        -0.04560968279838562
+      ],
+      "neutral_distance_to_joint_m": 0.05153568834066391,
+      "candidate_count": 16,
+      "status": "unverified geometric proposal; not anatomical correspondence"
+    },
+    "right_cubital_fossa": {
+      "vertex_id": 7039,
+      "neutral_xyz_m": [
+        -0.424628883600235,
+        0.029714327305555344,
+        -0.016764970496296883
+      ],
+      "joint_xyz_m": [
+        -0.4229443669319153,
+        0.04394219070672989,
+        -0.04560968279838562
+      ],
+      "neutral_distance_to_joint_m": 0.032206941395998,
+      "candidate_count": 16,
+      "status": "unverified geometric proposal; not anatomical correspondence"
+    }
+  }
+}

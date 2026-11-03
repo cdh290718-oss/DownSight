@@ -1,0 +1,115 @@
+{
+  "requested_baseline": "c5e57c6",
+  "actual_head_at_execution": "b377aea",
+  "baseline_relevant_dependencies_match": true,
+  "detector_sha256": "818420d996ef6ac327637ae9d73fa9a55d81c2c3c52e0b86515ed41d6283cd4a",
+  "dfm_sha256": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c",
+  "smplx_model_sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+  "smplx_vertex_ids_source_sha256": "1fa22bcbdb89eec7640224b70140a1e9404baf078fa8667f9e0118026b4276be",
+  "analysis_code_sha256": {
+    "analyze.py": "0c860b89702c342a9092df09ec37ee1ef170a0cadf5b0441bf5e14b9b3fd5fad",
+    "evaluate_reference.py": "ded64e61422db214508d741f419c0cb13296de2d959e66291ad3fc3f2bfea81b",
+    "propose_vertices.py": "1c492a93de64fa73d73dcf7d1312d6f31f0ddd1fe9c25ca676ace98fbcc2e572",
+    "validate.py": "c709b905646b8ba8f33febe5b4bdf55b99ac002b86986abec02aea9553e95f23"
+  },
+  "calibration": {
+    "cam2_ds": [
+      511.19896748111836,
+      513.3109708050919,
+      832.7420622679305,
+      648.0456313843042,
+      -0.0005945094752181941,
+      0.5700422566588201
+    ],
+    "cam3_ds": [
+      511.7944978760865,
+      513.7491203247247,
+      750.1689410139282,
+      650.7586486295488,
+      -0.0006841186977208799,
+      0.570219564148947
+    ],
+    "stereo_R32": [
+      [
+        0.9999341898071257,
+        0.004307818235094855,
+        -0.010632909141927003
+      ],
+      [
+        -0.004368876366137635,
+        0.9999740634972959,
+        -0.005725840724596804
+      ],
+      [
+        0.010607967480365623,
+        0.005771917771367804,
+        0.9999270753365848
+      ]
+    ],
+    "stereo_t32": [
+      0.05988330677516318,
+      -0.0012199667794268946,
+      -0.0007150179919347158
+    ],
+    "cam3_R_virtual_from_gen": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8757433260512403,
+        -0.48277699497460635
+      ],
+      [
+        0.0,
+        0.48277699497460635,
+        0.8757433260512403
+      ]
+    ],
+    "cam4_R_virtual_from_gen": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8784058201368476,
+        -0.4779154895477987
+      ],
+      [
+        0.0,
+        0.4779154895477987,
+        0.8784058201368476
+      ]
+    ],
+    "stereo_convention": "X_cam2 = stereo_R32 @ X_cam3 + stereo_t32"
+  },
+  "method": {
+    "score_min": 0.3,
+    "image_width": 1600,
+    "image_height": 1300,
+    "pixel_sigma": "1.4826 * median absolute deviation of pooled x/y wrist residuals from the component medians, reference dependent",
+    "stereo_reprojection_correction_l2_px_max": 8,
+    "range_m": [
+      0.12,
+      2.5
+    ],
+    "max_cov_sigma_m": 0.3,
+    "collision_distance_m": 0.03,
+    "collision_view_distance_px": 20,
+    "coverage": "two endpoint proxy: any camera score+in-frame for baseline; candidate endpoints from recommended body points or stereo surface candidates. Not an observability or visibility measurement."
+  },
+  "surface_vertex_reference": {
+    "left_acromion": 4481,
+    "right_acromion": 6627,
+    "left_big_toe": 5770,
+    "left_small_toe": 5780,
+    "left_heel": 8846,
+    "right_big_toe": 8463,
+    "right_small_toe": 8474,
+    "right_heel": 8635
+  }
+}
