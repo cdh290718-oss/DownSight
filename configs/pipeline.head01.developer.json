@@ -22,7 +22,11 @@
   },
   "checkpoint_sha256": {
     "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
-    "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4"
+    "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+    "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+    "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+    "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+    "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
   },
   "pipeline_profile": "mano_guided_original_seam_20260929_v1",
   "manifest": "frames.json",

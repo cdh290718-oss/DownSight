@@ -87,7 +87,7 @@ def observe(config, rows, output, env):
     return observed_rows
 
 
-def fingerprint(config, rows):
+def fingerprint(config, rows, integrity=None):
     import json
     hashes = {}
     for row in rows:
@@ -100,7 +100,7 @@ def fingerprint(config, rows):
             else:
                 hashes[row['id'] + ':' + key] = sha(value)
     code = {str(p.relative_to(PACKAGE_ROOT)): sha(p) for p in (PACKAGE_ROOT / 'egosmplx_pipeline').rglob('*.py')}
-    return hashlib.sha256(json.dumps(dict(config=config, inputs=hashes, code=code), sort_keys=True).encode()).hexdigest()
+    return hashlib.sha256(json.dumps(dict(config=config, inputs=hashes, code=code, integrity=integrity), sort_keys=True).encode()).hexdigest()
 
 
 def run(config_path, cached=False, resume=False):
@@ -113,10 +113,10 @@ def run(config_path, cached=False, resume=False):
     with (output / '.lock').open('w') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         from egosmplx_pipeline.provenance import record_run
-        with record_run(output, config, rows, cached, resume):
+        with record_run(output, config, rows, cached, resume, check):
             env = environment(config)
             write(output / 'preflight.json', check)
-            signature = fingerprint(config, rows)
+            signature = fingerprint(config, rows, {'resources': check['resources_sha256'], 'backend': check['backend']})
             state_path = output / 'run_state.json'
             if state_path.exists() and read(state_path)['fingerprint'] != signature:
                 raise ValueError('Inputs, code, or configuration changed; use a new output directory')

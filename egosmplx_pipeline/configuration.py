@@ -70,6 +70,9 @@ def preflight(config, frames, cached):
     for key in required:
         if key not in config['paths'] or not Path(config['paths'][key]).exists():
             raise FileNotFoundError('Required configured path: ' + key)
+    from egosmplx_pipeline.integrity import verify_resources, verify_backend
+    resources = verify_resources(config)
+    backend = verify_backend(config['paths']['egosmplx_repo'])
     for row in frames:
         image = cv2.imread(row['image'])
         if image is None:
@@ -94,5 +97,5 @@ def preflight(config, frames, cached):
             expected = config.get('checkpoint_sha256', {}).get(name)
             if expected is None or not re.fullmatch('[a-f0-9]{64}', expected):
                 raise ValueError('Configure checkpoint_sha256.' + name)
-    return dict(passed=True, frame_count=len(frames), cached_predictions=cached,
+    return dict(passed=True, frame_count=len(frames), cached_predictions=cached, resources_sha256=resources, backend=backend,
                 scope='paths, input sizes, cache image hashes; models are loaded strictly by workers')

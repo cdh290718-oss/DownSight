@@ -19,41 +19,58 @@ def digest(path):
     return h.hexdigest()
 
 
-def git_state(root):
+def git_state(root, patch_path=None):
     def git(*args):
         p = subprocess.run(['git', '-C', str(root), *args], stdout=subprocess.PIPE,
-                           stderr=subprocess.DEVNULL, text=True, check=False)
-        return p.stdout.strip() if p.returncode == 0 else None
-    status = git('status', '--porcelain=v1', '--untracked-files=normal')
-    return {'commit': git('rev-parse', 'HEAD'), 'dirty': bool(status) if status is not None else None,
-            'status_sha256': hashlib.sha256(status.encode()).hexdigest() if status is not None else None}
+                           stderr=subprocess.DEVNULL, check=False)
+        return p.stdout if p.returncode == 0 else None
+    repo_root = git('rev-parse', '--show-toplevel')
+    if repo_root is None:
+        return {'available': False, 'reason': 'not a git repository'}
+    repo_root = Path(os.fsdecode(repo_root.rstrip(b'\n')))
+    patch = git('diff', '--binary', '--no-ext-diff', 'HEAD', '--')
+    raw = git('ls-files', '--others', '--exclude-standard', '-z', '--full-name')
+    if patch is None or raw is None:
+        raise RuntimeError('Cannot capture git changes')
+    if patch_path is not None:
+        Path(patch_path).write_bytes(patch)
+    untracked = {}
+    for item in raw.split(b'\0'):
+        if not item:
+            continue
+        rel = os.fsdecode(item)
+        file = repo_root / rel
+        if file.is_symlink():
+            untracked[rel] = {'type': 'symlink', 'sha256': hashlib.sha256(os.fsencode(os.readlink(file))).hexdigest()}
+        elif file.is_file():
+            untracked[rel] = {'type': 'file', 'sha256': digest(file)}
+    commit = git('rev-parse', 'HEAD')
+    payload = json.dumps(untracked, sort_keys=True).encode()
+    return {'available': True, 'commit': commit.decode().strip() if commit else None,
+            'dirty': bool(patch or untracked), 'diff_sha256': hashlib.sha256(patch).hexdigest(),
+            'untracked': untracked, 'untracked_sha256': hashlib.sha256(payload).hexdigest()}
 
 
-def snapshot(config, rows, cached, resume):
-    # Store a digest of the complete expanded config instead of publishing local paths or secrets.
+def snapshot(config, rows, cached, resume, integrity, folder, run_id):
+    # Full config and patches remain in the local output; sanitize before publishing.
     encoded = json.dumps(config, sort_keys=True, default=str).encode()
     root = Path(__file__).resolve().parent.parent
     code = {str(p.relative_to(root)): digest(p) for p in sorted((root / 'egosmplx_pipeline').rglob('*.py'))}
     backend_value = config.get('paths', {}).get('egosmplx_repo')
     backend = Path(backend_value) if backend_value else None
-    backend_files = {}
-    for name in ['main/base.py', 'common/utils/human_models.py']:
-        p = backend / name if backend else None
-        if p is not None and p.is_file():
-            backend_files[name] = digest(p)
     inputs = {}
     for row in rows:
         inputs[row['id']] = {key: digest(row[key]) for key in ('image', 'calibration')}
-    return {'schema_version': 1, 'run_id': uuid.uuid4().hex,
+    return {'schema_version': 1, 'run_id': run_id,
             'started_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'state': 'running', 'cached_predictions': cached, 'resume': resume,
-            'config_sha256': hashlib.sha256(encoded).hexdigest(),
-            'pipeline_git': git_state(root), 'pipeline_files_sha256': code,
-            'backend_git': git_state(backend) if backend is not None and backend.is_dir() else None,
-            'backend_selected_files_sha256': backend_files, 'input_sha256': inputs,
+            'config_sha256': hashlib.sha256(encoded).hexdigest(), 'expanded_config': config,
+            'pipeline_git': git_state(root, folder / (run_id + '.pipeline.patch')), 'pipeline_files_sha256': code,
+            'backend_git': git_state(backend, folder / (run_id + '.backend.patch')) if backend is not None and backend.is_dir() else None,
+            'integrity': integrity, 'input_sha256': inputs,
             'configured_checkpoint_sha256': config.get('checkpoint_sha256', {}),
             'python': sys.version, 'platform': platform.platform(),
-            'note': 'Checkpoint digests are configured values; backend and environment coverage is partial.'}
+            'note': 'Full expanded configuration and patches are local only; sanitize before sharing.'}
 
 
 def save(path, data):
@@ -63,11 +80,12 @@ def save(path, data):
 
 
 @contextlib.contextmanager
-def record_run(output, config, rows, cached, resume):
-    data = snapshot(config, rows, cached, resume)
+def record_run(output, config, rows, cached, resume, integrity=None):
     folder = Path(output) / 'provenance'
     folder.mkdir(exist_ok=True)
-    path = folder / (data['run_id'] + '.json')
+    run_id = uuid.uuid4().hex
+    data = snapshot(config, rows, cached, resume, integrity, folder, run_id)
+    path = folder / (run_id + '.json')
     save(path, data)
     try:
         yield data
