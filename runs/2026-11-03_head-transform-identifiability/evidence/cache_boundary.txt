@@ -1,0 +1,6 @@
+The initial smoke test was launched without PYTHONDONTWRITEBYTECODE. A read-only mtime check found these four CPython 3.8 caches in <OLD_ARCHIVE>/source_double_sphere/egosmplx_pipeline/__pycache__, with modification times during the smoke startup:
+__init__.cpython-38.pyc 2026-11-03T12:57:03.926129467Z
+bootstrap.cpython-38.pyc 2026-11-03T12:57:03.927779006Z
+camera.cpython-38.pyc 2026-11-03T12:57:05.766552000Z
+projection.cpython-38.pyc 2026-11-03T12:57:05.768639086Z
+The preexisting state is unknown; the smoke test may have created or updated them. No cleanup or restoration was attempted. All subsequent workers set PYTHONDONTWRITEBYTECODE=1. Read-only search of <BACKEND>/common to depth five found no pyc modified since 12:55 UTC. Timestamps are evidence, not proof that no other external cache was affected.

@@ -1,0 +1,9 @@
+Incremental pre-push check, baseline remote HEAD 53f4ac5f0dcb65b73c45a4b079755e0e69c5a220.
+Scope: current working tree and index were inspected; this run's files and the commits to be pushed were checked. Other previously published history is not audited.
+Only this run directory is staged. Ignored outputs remain local and are excluded from the staged diff.
+No staged weight, dataset, video, image, .npz, .npy, model artifact, complete provenance or patch. Largest staged file is below 50 MB.
+No .env files, private-key headers, known GitHub token or OpenAI key patterns found by pattern scan; human review is also required and patterns are not exhaustive.
+Machine paths in published reports and log excerpts were replaced with placeholders; automated path-pattern scan found no unredacted host paths in this run.
+No Gen image is added. Gen image license was not established; prior history is outside this check.
+Remote state is rechecked immediately before push; a changed remote or unexpected staged file blocks push.
+Structural output validation, post-fit evaluator, probe and compilation checks succeeded. The batch runner exited 0.

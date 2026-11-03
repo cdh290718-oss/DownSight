@@ -1,0 +1,71 @@
+{
+  "perturbation": "right-multiply each local Head joint rotation by 5 degrees around local X",
+  "head_local_joint_body_pose_index": 14,
+  "frame_ids": [
+    0,
+    270,
+    540,
+    810,
+    1080,
+    1350,
+    1620,
+    1890,
+    2160,
+    2430
+  ],
+  "observed_joint_max_displacement_m": 0.0001202553539769724,
+  "head_joint_max_displacement_m": 0.0,
+  "head_visible_counts_before_cam2_cam3": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "head_visible_counts_after_cam2_cam3": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "interpretation": "Image joint locations are insensitive to this local head rotation. Hard visibility counts are not the soft training loss; pose prior and soft visibility can still select a value."
+}
