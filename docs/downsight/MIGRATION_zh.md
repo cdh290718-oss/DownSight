@@ -7,3 +7,5 @@
 - 待完成：固定回归输入与权重，补齐后端资源与版本，执行缓存及端到端回归，逐个把适合的历史实验重构成默认关闭的模块，核对完整数据迁移，再将旧目录退出运行路径。不能声称全部历史资料或训练结果已迁移。
 - 历史 pipeline 目录和相对基线的 Python 文件差异数见 `historical-pipeline-inventory.csv`；文件路径只标识原开发机历史位置。其他后端运行快照、打包文件和新增非 Python 文件未完整纳入。
 - 候选黄金样本及尚未验证的公差见 `GOLDEN_REGRESSION_zh.md`；不要将其中的跨环境候选公差视为已经验证。
+
+- 鱼眼相机：默认人体 encoder 配置为 `UndistortViT` / `UndistortPatch`，后者相对导入 backend 内部 `backbones/utils/fisheye_camera/FishEyeCalibrated.py`，不受顶层 `sys.modules["FishEyeCalibrated"]` 替换保证。当前该文件摘要与后端 main 相机一致，现已加入契约。此结论为静态调用链，缓存回归不执行主网络。

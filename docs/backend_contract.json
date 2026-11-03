@@ -16,6 +16,10 @@
     {
       "path": "main/config/config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
       "sha256": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+    },
+    {
+      "path": "main/transformer_utils/mmpose/models/backbones/utils/fisheye_camera/FishEyeCalibrated.py",
+      "sha256": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71"
     }
   ],
   "required_wilor_helper": "wilor.utils.yolo_loader.load_yolo_detector",

@@ -1,0 +1,1502 @@
+{
+  "baseline_fused/mesh.npz": {
+    "fields": {
+      "body_joints_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "faces": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          20908,
+          3
+        ]
+      },
+      "hand_joints_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          3
+        ]
+      },
+      "left_blend_weights": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "left_candidate": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "left_lifted_vertices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          3
+        ]
+      },
+      "left_local_to_mesh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "left_target_vertex_uv": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          2
+        ]
+      },
+      "left_wrist_loop_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          16
+        ]
+      },
+      "method": {
+        "equal": true
+      },
+      "right_blend_weights": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "right_candidate": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "right_lifted_vertices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          3
+        ]
+      },
+      "right_local_to_mesh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "right_target_vertex_uv": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          2
+        ]
+      },
+      "right_wrist_loop_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          16
+        ]
+      },
+      "vertices_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "baseline_fused/wilor_predictions.npz": {
+    "fields": {
+      "bbox_xyxy": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          4
+        ]
+      },
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          10
+        ]
+      },
+      "cam_t": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          3
+        ]
+      },
+      "detector_confidence": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "focal_length_px": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "global_orient_aa": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          3
+        ]
+      },
+      "hand_pose_aa": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          15,
+          3
+        ]
+      },
+      "image_size_wh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "is_right": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "joints_2d": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          2
+        ]
+      },
+      "joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          3
+        ]
+      },
+      "mano_faces": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1538,
+          3
+        ]
+      },
+      "vertices_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          778,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "body/params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "body_pose_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_delta_rotation": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "sapiens2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "sapiens2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "sapiens2_target_scores": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "stage2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "stage2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "body_fit/automatic/refined_params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "body_pose_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_delta_rotation": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "sapiens2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "sapiens2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "sapiens2_target_scores": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "stage2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "stage2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "fused/body_params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "body_pose_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_delta_rotation": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "sapiens2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "sapiens2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "sapiens2_target_scores": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "stage2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "stage2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "fused/mesh.npz": {
+    "fields": {
+      "body_joints_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "faces": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          20908,
+          3
+        ]
+      },
+      "hand_joints_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          3
+        ]
+      },
+      "left_candidate": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "left_legacy_blend_weights": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "left_lifted_vertices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          3
+        ]
+      },
+      "left_local_to_mesh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "left_target_vertex_uv": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          2
+        ]
+      },
+      "left_wrist_loop_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          16
+        ]
+      },
+      "method": {
+        "equal": true
+      },
+      "right_candidate": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "right_legacy_blend_weights": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "right_lifted_vertices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          3
+        ]
+      },
+      "right_local_to_mesh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778
+        ]
+      },
+      "right_target_vertex_uv": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          778,
+          2
+        ]
+      },
+      "right_wrist_loop_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          16
+        ]
+      },
+      "vertices_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "fused/wilor_predictions.npz": {
+    "fields": {
+      "bbox_xyxy": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          4
+        ]
+      },
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          10
+        ]
+      },
+      "cam_t": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          3
+        ]
+      },
+      "detector_confidence": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "focal_length_px": {
+        "max_abs_pairwise": 0.0,
+        "shape": []
+      },
+      "global_orient_aa": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          3
+        ]
+      },
+      "hand_pose_aa": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          15,
+          3
+        ]
+      },
+      "image_size_wh": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "is_right": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "joints_2d": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          2
+        ]
+      },
+      "joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          21,
+          3
+        ]
+      },
+      "mano_faces": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1538,
+          3
+        ]
+      },
+      "vertices_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          2,
+          778,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "guided_body/params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "body_pose_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_delta_rotation": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "sapiens2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "sapiens2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "sapiens2_target_scores": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "stage2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "stage2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_rigid_input": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "raw/params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  },
+  "rigid/optimized_params.npz": {
+    "fields": {
+      "betas": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "body_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          21,
+          3
+        ]
+      },
+      "expression": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          10
+        ]
+      },
+      "global_orient": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "global_orient_delta_rotation": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "global_orient_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "jaw_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "left_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "leye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "reye_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "right_hand_pose": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          15,
+          3
+        ]
+      },
+      "sapiens2_selected_joint_indices": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "sapiens2_target_joint_pixels": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13,
+          2
+        ]
+      },
+      "sapiens2_target_scores": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          13
+        ]
+      },
+      "smplx_body_joints_2d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          2
+        ]
+      },
+      "smplx_body_joints_3d_local": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_body_joints_3d_render_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          25,
+          3
+        ]
+      },
+      "smplx_joint_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_cam_root_relative": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          3
+        ]
+      },
+      "smplx_joint_img": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          137,
+          2
+        ]
+      },
+      "smplx_mesh_cam": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          10475,
+          3
+        ]
+      },
+      "transl": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      },
+      "transl_network": {
+        "max_abs_pairwise": 0.0,
+        "shape": [
+          1,
+          3
+        ]
+      }
+    },
+    "keys_equal": true
+  }
+}

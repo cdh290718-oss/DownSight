@@ -1,35 +1,24 @@
 """Verify the declared backend and actual runtime resource contents."""
 import json
-import os
 from pathlib import Path
 import re
-from egosmplx_pipeline.io import sha, write
+from egosmplx_pipeline.io import sha
 
 ROOT = Path(__file__).resolve().parent.parent
 CONTRACT = ROOT / 'docs/backend_contract.json'
-CACHE = ROOT / '.local/sha256-cache.json'
 RESOURCE_KEYS = {'egosmplx': 'egosmplx_checkpoint', 'pose': 'pose_checkpoint',
                  'seg': 'seg_checkpoint', 'wilor': 'wilor_checkpoint',
                  'detector': 'wilor_detector', 'egosmplx_config': 'egosmplx_config'}
 
 
-def cached_sha(path, cache_path=CACHE):
+def cached_sha(path, cache_path=None):
+    # Always hash content: some filesystems do not reliably advance metadata.
     path = Path(path).resolve(strict=True)
-    stat = path.stat()
-    key = json.dumps([str(path), stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns,
-                      stat.st_dev, stat.st_ino])
-    try:
-        cache = json.loads(Path(cache_path).read_text())
-    except (FileNotFoundError, ValueError, OSError):
-        cache = {}
-    if key in cache and re.fullmatch('[a-f0-9]{64}', cache[key]):
-        return cache[key]
+    before = path.stat()
     result = sha(path)
     after = path.stat()
-    if (stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns, stat.st_ino) != (after.st_size, after.st_mtime_ns, after.st_ctime_ns, after.st_ino):
+    if (before.st_size, before.st_mtime_ns, before.st_ctime_ns, before.st_ino) != (after.st_size, after.st_mtime_ns, after.st_ctime_ns, after.st_ino):
         raise ValueError('Resource changed while hashing: ' + str(path))
-    cache[key] = result
-    write(cache_path, cache)
     return result
 
 

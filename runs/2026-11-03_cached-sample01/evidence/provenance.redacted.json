@@ -1,0 +1,320 @@
+[
+  {
+    "backend_git": {
+      "available": false,
+      "reason": "not a git repository"
+    },
+    "cached_predictions": true,
+    "config_sha256": "2178efe51ce448dfa36cefe48c07b670ba26c0411fa8d16050834dce254739e5",
+    "configured_checkpoint_sha256": {
+      "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+      "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+      "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+      "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+      "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+      "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+    },
+    "finished_utc": "2026-11-03T12:01:01.759947+00:00",
+    "input_sha256": {
+      "sample_01_cam3": {
+        "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b",
+        "image": "b2628a1a8b26ba38f8c49558ee93143660def0be8e079192f639f9b61df2e123"
+      }
+    },
+    "integrity": {
+      "backend": {
+        "contract_sha256": "a5a341a7d0f20bff58587cf428d987e8c10c277dda6a4d9212379304f4c14f83",
+        "files_sha256": {
+          "common/utils/human_models.py": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+          "main/FishEyeCalibrated.py": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71",
+          "main/config/config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+          "tools/infer_downwardstereo_frames_detect.py": "dc652dbaf06078968519b70442aed9c01ee5d9c02a24a3e9c0a0c4f169996579"
+        }
+      },
+      "cached_predictions": true,
+      "frame_count": 1,
+      "passed": true,
+      "resources_sha256": {
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+      },
+      "scope": "paths, input sizes, cache image hashes; models are loaded strictly by workers"
+    },
+    "note": "Full expanded configuration and patches are local only; sanitize before sharing.",
+    "pipeline_files_sha256": {
+      "egosmplx_pipeline/__init__.py": "3156c13b782697ea05413424aac4e61c04da2861da59ab7f6ec6be25f10ccb9c",
+      "egosmplx_pipeline/__main__.py": "c0eec7823a51944b1c23c5ff2c7316a5dd93639548ee2a752f3f0c43a9b30957",
+      "egosmplx_pipeline/body_common.py": "6ce9a301389cdf4c6fe1fb9d0e5b67a7fe4250ae758622d69bab1a84817d8fe9",
+      "egosmplx_pipeline/body_pose.py": "ad1a3b37a6045b6d908b09cabb7fc7967af96c8270f7df5f88590d3a5028362c",
+      "egosmplx_pipeline/body_rigid.py": "42e47dd183bebbba3d5df5170efab3511d07cf304530298d13db53943e0155c8",
+      "egosmplx_pipeline/bootstrap.py": "dd937e20b5dae8e4cc4cfd2d704935f0b7391e7708349a334525661a047dd262",
+      "egosmplx_pipeline/camera.py": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37",
+      "egosmplx_pipeline/configuration.py": "50c9ce699dd29bf87e9a2f44ccf4407798239be0ae31fd7f90c2772d44877f7a",
+      "egosmplx_pipeline/egosmplx_predict.py": "6b4f976887b61b4e7a046d446b35130965d508db13f47ecdfb412bc9e2b1b663",
+      "egosmplx_pipeline/frame.py": "36ff4bf0086b1737cba4d81addbce621eb9ae4bc89517d120e285666d9f17f9a",
+      "egosmplx_pipeline/fusion.py": "3b3574f93702c69df35624366bdba25e564307e283ce78a45ad3e677edcefb21",
+      "egosmplx_pipeline/head_neck.py": "e8f041956cccbeddae63132955823f48d8aab8ce56d9f3221ffba7d3839e9ce2",
+      "egosmplx_pipeline/integrity.py": "edaf330985ff0bf35025c20674d363b186eeadf22d4520426de8abd8b92bc466",
+      "egosmplx_pipeline/io.py": "a86de8aefd93027eb35519fb0c4d30b14108cbeb97d92bdde3c5dc77b620843f",
+      "egosmplx_pipeline/lift.py": "4882a7a8708ffcfe1550bedc7ce981edb7566715764384f7b9fda62eee370cb4",
+      "egosmplx_pipeline/matching.py": "00a92782dbdf7aa09e3093fe02d8c1f3426c5b201718748f6f65aafbf6d5060d",
+      "egosmplx_pipeline/package.py": "4a37882807ba2341fcb3737c471bc7245f16da34d57c7af9b14c4950a81953b3",
+      "egosmplx_pipeline/pipeline.py": "e48eefd066ccc075f78f71ef62dcba5fda6412eb99e06d7ca830fb039e21ea6b",
+      "egosmplx_pipeline/profiles.py": "3f03c0af23e9369711d9f58f65a37de67ccebc61b9772ef5c827f379539959f8",
+      "egosmplx_pipeline/projection.py": "9408292b9a3e927637d2204f684a7f59630c372f2840a1eeb6110d6378ca651e",
+      "egosmplx_pipeline/provenance.py": "14eadd5b89fc4206e272e680842378e8e61b33fa2063215034c99f33c11435cf",
+      "egosmplx_pipeline/reference/__init__.py": "3716e39b63b4a0ca1b202b87e2b87efd8eb0e15bae648cdc6dad26762f0b0e6f",
+      "egosmplx_pipeline/reference/contour_refine.py": "5d293c492d19af7c11d1eb3995138ce18d22772de6d0adfb4323db359d936137",
+      "egosmplx_pipeline/reference/contour_refine_strong.py": "0c6a74e3f24c1aac712daa9423568deef70776d02aad99a7cf1474f8678c3d2f",
+      "egosmplx_pipeline/reference/contour_seam.py": "2e21521e2b1666973f91fd41ef518514d810490f4ca6736a9f77b83a97864627",
+      "egosmplx_pipeline/reference/finalize.py": "37e80d6c5ad654723686062acca6a692f6d31630cdb75199eaefb81099cdb6ad",
+      "egosmplx_pipeline/reference/guided_body.py": "ed8a691e25c82fb8952f1c775819544fd304818809160fd4cd3eb1c684e4ee40",
+      "egosmplx_pipeline/reference/guided_fuse.py": "b7ca4c58c74201e55f601c2f5abc8dfde5efa46b4b8dce755e30760f23dd1e15",
+      "egosmplx_pipeline/reference/pipeline.py": "d7959d8ed7e88d3d8236e1d3d3084629879ab5f233aa39792e658bca1ae79528",
+      "egosmplx_pipeline/reference/rebuild_archive.py": "f80ec73c476da92bc217802f61ba303f305b3a9a4a8ce7c0d694ad1c4429679f",
+      "egosmplx_pipeline/reference/select_candidates.py": "aba2beb30ea0c83110896bf2a4dae05cccb9a6423071b5df94cf91e80cd2fe89",
+      "egosmplx_pipeline/reference/silhouette.py": "4db85d4ebd266333ac714a8e828ad992b8bd56bb77fbb68b8fae4ade4b582625",
+      "egosmplx_pipeline/reference/support.py": "cc26f7c7bd88bb791112a74248a828c6fc9de5f9e253e035b2a9c9e3788e77ce",
+      "egosmplx_pipeline/reference/surface_audit.py": "9e2ff0ad1ef476276eaf79a8fd6c356755ce0e3558db0271192d4bc53a7375a5",
+      "egosmplx_pipeline/reference/wrist_refine.py": "fa3f93fd1034b07e342f873b472b5b4f1b4c6b9bff040c2047384224b127bbc1",
+      "egosmplx_pipeline/reference/wrist_seam.py": "e77f31399bb9ccd3e7d481da88895a72c1bb118651ada631a185f80ee86dcc57",
+      "egosmplx_pipeline/render.py": "81c9da722af543876e6ef83988e797b28015e9877feafb0a5b6a53b0dab7cd79",
+      "egosmplx_pipeline/report.py": "7bca7b6fef9ae1ce8b9d8a27113d0bc80123f27ab8dad0ce0c7d0601eec2b660",
+      "egosmplx_pipeline/sampling.py": "992d9289a7161ec6a8c14c8a696656f87878fe22ce3bcd648b0d65cdf190538c",
+      "egosmplx_pipeline/sapiens_pose.py": "99b1b58136d58348cc1e942a8f8739949ca1b577c1f37834162970958658b4b9",
+      "egosmplx_pipeline/sapiens_seg.py": "5fcffa66fb69cda3ac6587e6d3174367a3f6431d33a3205094c6f65cadf1a355",
+      "egosmplx_pipeline/topology.py": "83ceb5936e43aadd320865762cea4c4b4b288f3d6a1ff2de839165df6076af61",
+      "egosmplx_pipeline/wilor_predict.py": "67040371870919b2d5d1c24d4bd766b63b20fc6ae03b51b9a35878c18c32bd4b"
+    },
+    "pipeline_git": {
+      "available": true,
+      "commit": "5996cba4a1037de455180d927e6d513790959d62",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dirty": false,
+      "untracked_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.17",
+    "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+    "resume": false,
+    "run_id": "647298331f214971bef9fff6dbcae301",
+    "schema_version": 1,
+    "started_utc": "2026-11-03T11:57:21.336937+00:00",
+    "state": "complete"
+  },
+  {
+    "backend_git": {
+      "available": false,
+      "reason": "not a git repository"
+    },
+    "cached_predictions": true,
+    "config_sha256": "e3b0e96fd4744257fa74d1668a8a891871a0bdb6a8cbe00920777459941b2bab",
+    "configured_checkpoint_sha256": {
+      "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+      "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+      "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+      "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+      "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+      "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+    },
+    "finished_utc": "2026-11-03T12:04:38.083092+00:00",
+    "input_sha256": {
+      "sample_01_cam3": {
+        "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b",
+        "image": "b2628a1a8b26ba38f8c49558ee93143660def0be8e079192f639f9b61df2e123"
+      }
+    },
+    "integrity": {
+      "backend": {
+        "contract_sha256": "a5a341a7d0f20bff58587cf428d987e8c10c277dda6a4d9212379304f4c14f83",
+        "files_sha256": {
+          "common/utils/human_models.py": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+          "main/FishEyeCalibrated.py": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71",
+          "main/config/config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+          "tools/infer_downwardstereo_frames_detect.py": "dc652dbaf06078968519b70442aed9c01ee5d9c02a24a3e9c0a0c4f169996579"
+        }
+      },
+      "cached_predictions": true,
+      "frame_count": 1,
+      "passed": true,
+      "resources_sha256": {
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+      },
+      "scope": "paths, input sizes, cache image hashes; models are loaded strictly by workers"
+    },
+    "note": "Full expanded configuration and patches are local only; sanitize before sharing.",
+    "pipeline_files_sha256": {
+      "egosmplx_pipeline/__init__.py": "3156c13b782697ea05413424aac4e61c04da2861da59ab7f6ec6be25f10ccb9c",
+      "egosmplx_pipeline/__main__.py": "c0eec7823a51944b1c23c5ff2c7316a5dd93639548ee2a752f3f0c43a9b30957",
+      "egosmplx_pipeline/body_common.py": "6ce9a301389cdf4c6fe1fb9d0e5b67a7fe4250ae758622d69bab1a84817d8fe9",
+      "egosmplx_pipeline/body_pose.py": "ad1a3b37a6045b6d908b09cabb7fc7967af96c8270f7df5f88590d3a5028362c",
+      "egosmplx_pipeline/body_rigid.py": "42e47dd183bebbba3d5df5170efab3511d07cf304530298d13db53943e0155c8",
+      "egosmplx_pipeline/bootstrap.py": "dd937e20b5dae8e4cc4cfd2d704935f0b7391e7708349a334525661a047dd262",
+      "egosmplx_pipeline/camera.py": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37",
+      "egosmplx_pipeline/configuration.py": "50c9ce699dd29bf87e9a2f44ccf4407798239be0ae31fd7f90c2772d44877f7a",
+      "egosmplx_pipeline/egosmplx_predict.py": "6b4f976887b61b4e7a046d446b35130965d508db13f47ecdfb412bc9e2b1b663",
+      "egosmplx_pipeline/frame.py": "36ff4bf0086b1737cba4d81addbce621eb9ae4bc89517d120e285666d9f17f9a",
+      "egosmplx_pipeline/fusion.py": "3b3574f93702c69df35624366bdba25e564307e283ce78a45ad3e677edcefb21",
+      "egosmplx_pipeline/head_neck.py": "e8f041956cccbeddae63132955823f48d8aab8ce56d9f3221ffba7d3839e9ce2",
+      "egosmplx_pipeline/integrity.py": "edaf330985ff0bf35025c20674d363b186eeadf22d4520426de8abd8b92bc466",
+      "egosmplx_pipeline/io.py": "a86de8aefd93027eb35519fb0c4d30b14108cbeb97d92bdde3c5dc77b620843f",
+      "egosmplx_pipeline/lift.py": "4882a7a8708ffcfe1550bedc7ce981edb7566715764384f7b9fda62eee370cb4",
+      "egosmplx_pipeline/matching.py": "00a92782dbdf7aa09e3093fe02d8c1f3426c5b201718748f6f65aafbf6d5060d",
+      "egosmplx_pipeline/package.py": "4a37882807ba2341fcb3737c471bc7245f16da34d57c7af9b14c4950a81953b3",
+      "egosmplx_pipeline/pipeline.py": "e48eefd066ccc075f78f71ef62dcba5fda6412eb99e06d7ca830fb039e21ea6b",
+      "egosmplx_pipeline/profiles.py": "3f03c0af23e9369711d9f58f65a37de67ccebc61b9772ef5c827f379539959f8",
+      "egosmplx_pipeline/projection.py": "9408292b9a3e927637d2204f684a7f59630c372f2840a1eeb6110d6378ca651e",
+      "egosmplx_pipeline/provenance.py": "14eadd5b89fc4206e272e680842378e8e61b33fa2063215034c99f33c11435cf",
+      "egosmplx_pipeline/reference/__init__.py": "3716e39b63b4a0ca1b202b87e2b87efd8eb0e15bae648cdc6dad26762f0b0e6f",
+      "egosmplx_pipeline/reference/contour_refine.py": "5d293c492d19af7c11d1eb3995138ce18d22772de6d0adfb4323db359d936137",
+      "egosmplx_pipeline/reference/contour_refine_strong.py": "0c6a74e3f24c1aac712daa9423568deef70776d02aad99a7cf1474f8678c3d2f",
+      "egosmplx_pipeline/reference/contour_seam.py": "2e21521e2b1666973f91fd41ef518514d810490f4ca6736a9f77b83a97864627",
+      "egosmplx_pipeline/reference/finalize.py": "37e80d6c5ad654723686062acca6a692f6d31630cdb75199eaefb81099cdb6ad",
+      "egosmplx_pipeline/reference/guided_body.py": "ed8a691e25c82fb8952f1c775819544fd304818809160fd4cd3eb1c684e4ee40",
+      "egosmplx_pipeline/reference/guided_fuse.py": "b7ca4c58c74201e55f601c2f5abc8dfde5efa46b4b8dce755e30760f23dd1e15",
+      "egosmplx_pipeline/reference/pipeline.py": "d7959d8ed7e88d3d8236e1d3d3084629879ab5f233aa39792e658bca1ae79528",
+      "egosmplx_pipeline/reference/rebuild_archive.py": "f80ec73c476da92bc217802f61ba303f305b3a9a4a8ce7c0d694ad1c4429679f",
+      "egosmplx_pipeline/reference/select_candidates.py": "aba2beb30ea0c83110896bf2a4dae05cccb9a6423071b5df94cf91e80cd2fe89",
+      "egosmplx_pipeline/reference/silhouette.py": "4db85d4ebd266333ac714a8e828ad992b8bd56bb77fbb68b8fae4ade4b582625",
+      "egosmplx_pipeline/reference/support.py": "cc26f7c7bd88bb791112a74248a828c6fc9de5f9e253e035b2a9c9e3788e77ce",
+      "egosmplx_pipeline/reference/surface_audit.py": "9e2ff0ad1ef476276eaf79a8fd6c356755ce0e3558db0271192d4bc53a7375a5",
+      "egosmplx_pipeline/reference/wrist_refine.py": "fa3f93fd1034b07e342f873b472b5b4f1b4c6b9bff040c2047384224b127bbc1",
+      "egosmplx_pipeline/reference/wrist_seam.py": "e77f31399bb9ccd3e7d481da88895a72c1bb118651ada631a185f80ee86dcc57",
+      "egosmplx_pipeline/render.py": "81c9da722af543876e6ef83988e797b28015e9877feafb0a5b6a53b0dab7cd79",
+      "egosmplx_pipeline/report.py": "7bca7b6fef9ae1ce8b9d8a27113d0bc80123f27ab8dad0ce0c7d0601eec2b660",
+      "egosmplx_pipeline/sampling.py": "992d9289a7161ec6a8c14c8a696656f87878fe22ce3bcd648b0d65cdf190538c",
+      "egosmplx_pipeline/sapiens_pose.py": "99b1b58136d58348cc1e942a8f8739949ca1b577c1f37834162970958658b4b9",
+      "egosmplx_pipeline/sapiens_seg.py": "5fcffa66fb69cda3ac6587e6d3174367a3f6431d33a3205094c6f65cadf1a355",
+      "egosmplx_pipeline/topology.py": "83ceb5936e43aadd320865762cea4c4b4b288f3d6a1ff2de839165df6076af61",
+      "egosmplx_pipeline/wilor_predict.py": "67040371870919b2d5d1c24d4bd766b63b20fc6ae03b51b9a35878c18c32bd4b"
+    },
+    "pipeline_git": {
+      "available": true,
+      "commit": "5996cba4a1037de455180d927e6d513790959d62",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dirty": false,
+      "untracked_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.17",
+    "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+    "resume": false,
+    "run_id": "6cf1fc74cba24b50974b796ca26bde10",
+    "schema_version": 1,
+    "started_utc": "2026-11-03T12:01:02.014493+00:00",
+    "state": "complete"
+  },
+  {
+    "backend_git": {
+      "available": false,
+      "reason": "not a git repository"
+    },
+    "cached_predictions": true,
+    "config_sha256": "829638ed76a1969746b564d1f0e916209dbae360e8b4fb4e545f11508497c8cd",
+    "configured_checkpoint_sha256": {
+      "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+      "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+      "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+      "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+      "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+      "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+    },
+    "finished_utc": "2026-11-03T12:08:18.135705+00:00",
+    "input_sha256": {
+      "sample_01_cam3": {
+        "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b",
+        "image": "b2628a1a8b26ba38f8c49558ee93143660def0be8e079192f639f9b61df2e123"
+      }
+    },
+    "integrity": {
+      "backend": {
+        "contract_sha256": "a5a341a7d0f20bff58587cf428d987e8c10c277dda6a4d9212379304f4c14f83",
+        "files_sha256": {
+          "common/utils/human_models.py": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+          "main/FishEyeCalibrated.py": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71",
+          "main/config/config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+          "tools/infer_downwardstereo_frames_detect.py": "dc652dbaf06078968519b70442aed9c01ee5d9c02a24a3e9c0a0c4f169996579"
+        }
+      },
+      "cached_predictions": true,
+      "frame_count": 1,
+      "passed": true,
+      "resources_sha256": {
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456"
+      },
+      "scope": "paths, input sizes, cache image hashes; models are loaded strictly by workers"
+    },
+    "note": "Full expanded configuration and patches are local only; sanitize before sharing.",
+    "pipeline_files_sha256": {
+      "egosmplx_pipeline/__init__.py": "3156c13b782697ea05413424aac4e61c04da2861da59ab7f6ec6be25f10ccb9c",
+      "egosmplx_pipeline/__main__.py": "c0eec7823a51944b1c23c5ff2c7316a5dd93639548ee2a752f3f0c43a9b30957",
+      "egosmplx_pipeline/body_common.py": "6ce9a301389cdf4c6fe1fb9d0e5b67a7fe4250ae758622d69bab1a84817d8fe9",
+      "egosmplx_pipeline/body_pose.py": "ad1a3b37a6045b6d908b09cabb7fc7967af96c8270f7df5f88590d3a5028362c",
+      "egosmplx_pipeline/body_rigid.py": "42e47dd183bebbba3d5df5170efab3511d07cf304530298d13db53943e0155c8",
+      "egosmplx_pipeline/bootstrap.py": "dd937e20b5dae8e4cc4cfd2d704935f0b7391e7708349a334525661a047dd262",
+      "egosmplx_pipeline/camera.py": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37",
+      "egosmplx_pipeline/configuration.py": "50c9ce699dd29bf87e9a2f44ccf4407798239be0ae31fd7f90c2772d44877f7a",
+      "egosmplx_pipeline/egosmplx_predict.py": "6b4f976887b61b4e7a046d446b35130965d508db13f47ecdfb412bc9e2b1b663",
+      "egosmplx_pipeline/frame.py": "36ff4bf0086b1737cba4d81addbce621eb9ae4bc89517d120e285666d9f17f9a",
+      "egosmplx_pipeline/fusion.py": "3b3574f93702c69df35624366bdba25e564307e283ce78a45ad3e677edcefb21",
+      "egosmplx_pipeline/head_neck.py": "e8f041956cccbeddae63132955823f48d8aab8ce56d9f3221ffba7d3839e9ce2",
+      "egosmplx_pipeline/integrity.py": "edaf330985ff0bf35025c20674d363b186eeadf22d4520426de8abd8b92bc466",
+      "egosmplx_pipeline/io.py": "a86de8aefd93027eb35519fb0c4d30b14108cbeb97d92bdde3c5dc77b620843f",
+      "egosmplx_pipeline/lift.py": "4882a7a8708ffcfe1550bedc7ce981edb7566715764384f7b9fda62eee370cb4",
+      "egosmplx_pipeline/matching.py": "00a92782dbdf7aa09e3093fe02d8c1f3426c5b201718748f6f65aafbf6d5060d",
+      "egosmplx_pipeline/package.py": "4a37882807ba2341fcb3737c471bc7245f16da34d57c7af9b14c4950a81953b3",
+      "egosmplx_pipeline/pipeline.py": "e48eefd066ccc075f78f71ef62dcba5fda6412eb99e06d7ca830fb039e21ea6b",
+      "egosmplx_pipeline/profiles.py": "3f03c0af23e9369711d9f58f65a37de67ccebc61b9772ef5c827f379539959f8",
+      "egosmplx_pipeline/projection.py": "9408292b9a3e927637d2204f684a7f59630c372f2840a1eeb6110d6378ca651e",
+      "egosmplx_pipeline/provenance.py": "14eadd5b89fc4206e272e680842378e8e61b33fa2063215034c99f33c11435cf",
+      "egosmplx_pipeline/reference/__init__.py": "3716e39b63b4a0ca1b202b87e2b87efd8eb0e15bae648cdc6dad26762f0b0e6f",
+      "egosmplx_pipeline/reference/contour_refine.py": "5d293c492d19af7c11d1eb3995138ce18d22772de6d0adfb4323db359d936137",
+      "egosmplx_pipeline/reference/contour_refine_strong.py": "0c6a74e3f24c1aac712daa9423568deef70776d02aad99a7cf1474f8678c3d2f",
+      "egosmplx_pipeline/reference/contour_seam.py": "2e21521e2b1666973f91fd41ef518514d810490f4ca6736a9f77b83a97864627",
+      "egosmplx_pipeline/reference/finalize.py": "37e80d6c5ad654723686062acca6a692f6d31630cdb75199eaefb81099cdb6ad",
+      "egosmplx_pipeline/reference/guided_body.py": "ed8a691e25c82fb8952f1c775819544fd304818809160fd4cd3eb1c684e4ee40",
+      "egosmplx_pipeline/reference/guided_fuse.py": "b7ca4c58c74201e55f601c2f5abc8dfde5efa46b4b8dce755e30760f23dd1e15",
+      "egosmplx_pipeline/reference/pipeline.py": "d7959d8ed7e88d3d8236e1d3d3084629879ab5f233aa39792e658bca1ae79528",
+      "egosmplx_pipeline/reference/rebuild_archive.py": "f80ec73c476da92bc217802f61ba303f305b3a9a4a8ce7c0d694ad1c4429679f",
+      "egosmplx_pipeline/reference/select_candidates.py": "aba2beb30ea0c83110896bf2a4dae05cccb9a6423071b5df94cf91e80cd2fe89",
+      "egosmplx_pipeline/reference/silhouette.py": "4db85d4ebd266333ac714a8e828ad992b8bd56bb77fbb68b8fae4ade4b582625",
+      "egosmplx_pipeline/reference/support.py": "cc26f7c7bd88bb791112a74248a828c6fc9de5f9e253e035b2a9c9e3788e77ce",
+      "egosmplx_pipeline/reference/surface_audit.py": "9e2ff0ad1ef476276eaf79a8fd6c356755ce0e3558db0271192d4bc53a7375a5",
+      "egosmplx_pipeline/reference/wrist_refine.py": "fa3f93fd1034b07e342f873b472b5b4f1b4c6b9bff040c2047384224b127bbc1",
+      "egosmplx_pipeline/reference/wrist_seam.py": "e77f31399bb9ccd3e7d481da88895a72c1bb118651ada631a185f80ee86dcc57",
+      "egosmplx_pipeline/render.py": "81c9da722af543876e6ef83988e797b28015e9877feafb0a5b6a53b0dab7cd79",
+      "egosmplx_pipeline/report.py": "7bca7b6fef9ae1ce8b9d8a27113d0bc80123f27ab8dad0ce0c7d0601eec2b660",
+      "egosmplx_pipeline/sampling.py": "992d9289a7161ec6a8c14c8a696656f87878fe22ce3bcd648b0d65cdf190538c",
+      "egosmplx_pipeline/sapiens_pose.py": "99b1b58136d58348cc1e942a8f8739949ca1b577c1f37834162970958658b4b9",
+      "egosmplx_pipeline/sapiens_seg.py": "5fcffa66fb69cda3ac6587e6d3174367a3f6431d33a3205094c6f65cadf1a355",
+      "egosmplx_pipeline/topology.py": "83ceb5936e43aadd320865762cea4c4b4b288f3d6a1ff2de839165df6076af61",
+      "egosmplx_pipeline/wilor_predict.py": "67040371870919b2d5d1c24d4bd766b63b20fc6ae03b51b9a35878c18c32bd4b"
+    },
+    "pipeline_git": {
+      "available": true,
+      "commit": "5996cba4a1037de455180d927e6d513790959d62",
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "dirty": false,
+      "untracked_sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    "platform": "Linux-5.4.250-2-velinux1u1-amd64-x86_64-with-glibc2.17",
+    "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+    "resume": false,
+    "run_id": "81d866e5fe7e4eb38f51f0a0dbbba76b",
+    "schema_version": 1,
+    "started_utc": "2026-11-03T12:04:38.350048+00:00",
+    "state": "complete"
+  }
+]
