@@ -1,0 +1,7 @@
+Final staged file check: PASS (7 files).
+Files: AGENTS.md; this run's proposed specification, brief, report, review, baseline evidence, and this check record.
+File size: each below 50 MB.
+Staged paths: no weight, dataset, video, npz, npy, raw output, env file or patch.
+Staged content: no known token/private-key patterns; no unredacted machine paths in reports or logs; no complete local provenance.
+Pending commits before this change: none; remote main matched the baseline.
+Scope: current staged change only; no audit of previously pushed history. Pattern scans cannot rule out every form of sensitive material.
