@@ -1,0 +1,9 @@
+{
+  "test": "noiseless DS project/unproject/stereo triangulation",
+  "random_seed": 9,
+  "points": 1000,
+  "max_error_m": 1.3284740840464818e-13,
+  "median_error_m": 8.45770323189004e-15,
+  "status": "passed",
+  "note": "Algebra-only test; it does not test real correspondence accuracy or full fisheye occlusion."
+}

@@ -1,0 +1,2147 @@
+{
+  "note": "Each synthetic trial uses 12 frames, 7 initial offsets, the same known true shape and exact correspondences; two trials are not a statistical guarantee.",
+  "conditions": [
+    {
+      "axes": 1,
+      "per_axis_amplitude_deg": 0,
+      "completed": 2,
+      "spread_cm": [
+        11.230447143316269,
+        11.368915438652039
+      ],
+      "worst_start_error_cm": [
+        5.793399333953857,
+        5.780845642089844
+      ],
+      "max_actual_neck_rotation_deg": [
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 0.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 0.0,
+            "head_camera_rotation_max_error_deg": 0.0,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.003046581754460931,
+                0.11765856295824051,
+                -0.03045285865664482
+              ],
+              [
+                0.040859948843717575,
+                0.10416911542415619,
+                -0.016147654503583908
+              ],
+              [
+                -0.02463681809604168,
+                0.13814961910247803,
+                -0.04765233024954796
+              ],
+              [
+                0.0026181170251220465,
+                0.1252574473619461,
+                0.017635513097047806
+              ],
+              [
+                -0.033953920006752014,
+                0.13899986445903778,
+                -0.044002167880535126
+              ],
+              [
+                0.024276427924633026,
+                0.10486926883459091,
+                -0.03268586844205856
+              ],
+              [
+                -0.00085289659909904,
+                0.12985341250896454,
+                -0.0945211797952652
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              1.0291348695755005,
+              4.98907470703125,
+              3.154266595840454,
+              5.793399333953857,
+              3.9113693237304688,
+              2.9525928497314453,
+              5.541097640991211
+            ],
+            "max_pairwise_cm": 11.230447143316269,
+            "final_per_start_objective": [
+              0.1441963165998459,
+              0.1465449184179306,
+              0.14169324934482574,
+              0.1451716274023056,
+              0.14441780745983124,
+              0.14678049087524414,
+              0.14397454261779785
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 15.491777896881104
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 0.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 0.0,
+            "head_camera_rotation_max_error_deg": 0.0,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.0034109782427549362,
+                0.11955945193767548,
+                -0.03217010200023651
+              ],
+              [
+                0.041525814682245255,
+                0.1062588319182396,
+                -0.017663825303316116
+              ],
+              [
+                -0.023459237068891525,
+                0.1391632854938507,
+                -0.04967006668448448
+              ],
+              [
+                0.002183271339163184,
+                0.1267915964126587,
+                0.01736658439040184
+              ],
+              [
+                -0.03197448328137398,
+                0.14052070677280426,
+                -0.045564647763967514
+              ],
+              [
+                0.025122925639152527,
+                0.10646138340234756,
+                -0.03573900833725929
+              ],
+              [
+                -6.415607640519738e-05,
+                0.1317894160747528,
+                -0.0961904227733612
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.8551967144012451,
+              4.911331653594971,
+              3.1797447204589844,
+              5.780845642089844,
+              3.839833974838257,
+              2.88550066947937,
+              5.741392135620117
+            ],
+            "max_pairwise_cm": 11.368915438652039,
+            "final_per_start_objective": [
+              0.1513974964618683,
+              0.1450863480567932,
+              0.14853012561798096,
+              0.1474674642086029,
+              0.14799648523330688,
+              0.15236204862594604,
+              0.14875921607017517
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 14.353919267654419
+          }
+        }
+      ]
+    },
+    {
+      "axes": 1,
+      "per_axis_amplitude_deg": 10,
+      "completed": 2,
+      "spread_cm": [
+        10.231617093086243,
+        10.38644090294838
+      ],
+      "worst_start_error_cm": [
+        5.330165386199951,
+        5.327285289764404
+      ],
+      "max_actual_neck_rotation_deg": [
+        10.0,
+        10.0
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 10.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 10.0,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.0008591250516474247,
+                0.11966413259506226,
+                -0.03460684046149254
+              ],
+              [
+                0.04026782885193825,
+                0.10510097444057465,
+                -0.017782598733901978
+              ],
+              [
+                -0.02627248875796795,
+                0.14062218368053436,
+                -0.05102714151144028
+              ],
+              [
+                -0.0013385835336521268,
+                0.12686967849731445,
+                0.01284016016870737
+              ],
+              [
+                -0.03377443552017212,
+                0.1390853077173233,
+                -0.04176115244626999
+              ],
+              [
+                0.022282516583800316,
+                0.10596359521150589,
+                -0.03607163205742836
+              ],
+              [
+                0.0035809793043881655,
+                0.1250690221786499,
+                -0.08934181183576584
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.5471477508544922,
+              4.834347724914551,
+              3.517266273498535,
+              5.330165386199951,
+              3.8833789825439453,
+              2.6626362800598145,
+              4.973060131072998
+            ],
+            "max_pairwise_cm": 10.231617093086243,
+            "final_per_start_objective": [
+              0.14717833697795868,
+              0.1520882546901703,
+              0.1464083194732666,
+              0.1556152105331421,
+              0.14907966554164886,
+              0.15696372091770172,
+              0.15290892124176025
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 13.56614637374878
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 10.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 10.0,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.004506124649196863,
+                0.11853840202093124,
+                -0.03565400093793869
+              ],
+              [
+                0.04313889145851135,
+                0.1060117781162262,
+                -0.01969987154006958
+              ],
+              [
+                -0.022445855662226677,
+                0.13921578228473663,
+                -0.05260400101542473
+              ],
+              [
+                0.0024790135212242603,
+                0.12594890594482422,
+                0.012881580740213394
+              ],
+              [
+                -0.030778391286730766,
+                0.139140784740448,
+                -0.0436975359916687
+              ],
+              [
+                0.025079039856791496,
+                0.10674186050891876,
+                -0.03846075385808945
+              ],
+              [
+                0.008593175560235977,
+                0.12412213534116745,
+                -0.09078662097454071
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.6428772807121277,
+              4.968630790710449,
+              3.2123565673828125,
+              5.327285289764404,
+              3.643282890319824,
+              2.8409605026245117,
+              5.167316436767578
+            ],
+            "max_pairwise_cm": 10.38644090294838,
+            "final_per_start_objective": [
+              0.14969609677791595,
+              0.14791381359100342,
+              0.1470320224761963,
+              0.14752113819122314,
+              0.14906823635101318,
+              0.14935800433158875,
+              0.14691288769245148
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 12.309475183486938
+          }
+        }
+      ]
+    },
+    {
+      "axes": 1,
+      "per_axis_amplitude_deg": 20,
+      "completed": 2,
+      "spread_cm": [
+        9.49104130268097,
+        9.313605725765228
+      ],
+      "worst_start_error_cm": [
+        4.97916316986084,
+        4.920100688934326
+      ],
+      "max_actual_neck_rotation_deg": [
+        20.0,
+        20.0
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 20.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 20.0,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                -0.0015596783487126231,
+                0.11902662366628647,
+                -0.03602677956223488
+              ],
+              [
+                0.0367717407643795,
+                0.10452474653720856,
+                -0.023288961499929428
+              ],
+              [
+                -0.028621777892112732,
+                0.14090050756931305,
+                -0.05460669472813606
+              ],
+              [
+                -0.007930953986942768,
+                0.126528799533844,
+                0.008720443584024906
+              ],
+              [
+                -0.035411059856414795,
+                0.13920870423316956,
+                -0.04389200732111931
+              ],
+              [
+                0.018401600420475006,
+                0.10512355715036392,
+                -0.040819600224494934
+              ],
+              [
+                -0.0021452507935464382,
+                0.12614098191261292,
+                -0.08601266890764236
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.4377959370613098,
+              4.325394153594971,
+              3.833266258239746,
+              4.97916316986084,
+              4.04730224609375,
+              2.3676974773406982,
+              4.647019863128662
+            ],
+            "max_pairwise_cm": 9.49104130268097,
+            "final_per_start_objective": [
+              0.14780426025390625,
+              0.15487726032733917,
+              0.14683504402637482,
+              0.14726585149765015,
+              0.15704777836799622,
+              0.14670605957508087,
+              0.14948566257953644
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 11.425918817520142
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 20.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 20.0,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.0025618397630751133,
+                0.11956992000341415,
+                -0.039656009525060654
+              ],
+              [
+                0.03917055204510689,
+                0.10721616446971893,
+                -0.027121281251311302
+              ],
+              [
+                -0.024905502796173096,
+                0.14140726625919342,
+                -0.0573284737765789
+              ],
+              [
+                -0.0035934043116867542,
+                0.12641942501068115,
+                0.0044052014127373695
+              ],
+              [
+                -0.031247220933437347,
+                0.13993021845817566,
+                -0.046683862805366516
+              ],
+              [
+                0.022625915706157684,
+                0.10729146003723145,
+                -0.04321998357772827
+              ],
+              [
+                0.0017983881989493966,
+                0.12766967713832855,
+                -0.08856625109910965
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.26203662157058716,
+              4.3169660568237305,
+              3.713261604309082,
+              4.5010480880737305,
+              3.7660014629364014,
+              2.6149709224700928,
+              4.920100688934326
+            ],
+            "max_pairwise_cm": 9.313605725765228,
+            "final_per_start_objective": [
+              0.15996430814266205,
+              0.1534079611301422,
+              0.15329349040985107,
+              0.15491332113742828,
+              0.1534033864736557,
+              0.15378306806087494,
+              0.15593841671943665
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 9.363185405731201
+          }
+        }
+      ]
+    },
+    {
+      "axes": 1,
+      "per_axis_amplitude_deg": 40,
+      "completed": 2,
+      "spread_cm": [
+        7.125253230333328,
+        7.050362974405289
+      ],
+      "worst_start_error_cm": [
+        5.682154178619385,
+        5.624309062957764
+      ],
+      "max_actual_neck_rotation_deg": [
+        40.0,
+        40.0
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 40.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 40.0,
+            "head_camera_rotation_max_error_deg": 6.593214080671595e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                -0.012096795253455639,
+                0.1253381371498108,
+                -0.06587445735931396
+              ],
+              [
+                0.02179661951959133,
+                0.10928323119878769,
+                -0.05438284948468208
+              ],
+              [
+                -0.0298361424356699,
+                0.1408604234457016,
+                -0.05847317352890968
+              ],
+              [
+                -0.026093773543834686,
+                0.13120818138122559,
+                -0.024283606559038162
+              ],
+              [
+                -0.03592080995440483,
+                0.1397951990365982,
+                -0.051627885550260544
+              ],
+              [
+                0.012742470018565655,
+                0.10672391951084137,
+                -0.06055416539311409
+              ],
+              [
+                -0.011473456397652626,
+                0.1335298866033554,
+                -0.09398137778043747
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              2.9057111740112305,
+              2.8227789402008057,
+              4.0824151039123535,
+              3.2457873821258545,
+              4.2630534172058105,
+              2.7588014602661133,
+              5.682154178619385
+            ],
+            "max_pairwise_cm": 7.125253230333328,
+            "final_per_start_objective": [
+              0.17352911829948425,
+              0.17110984027385712,
+              0.1734483540058136,
+              0.17796270549297333,
+              0.17422649264335632,
+              0.1755480021238327,
+              0.1785859316587448
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 25.713746786117554
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 40.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 40.0,
+            "head_camera_rotation_max_error_deg": 6.593214080671595e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                -0.01101484801620245,
+                0.1248132735490799,
+                -0.06579296290874481
+              ],
+              [
+                0.023502076044678688,
+                0.1089768335223198,
+                -0.05602559447288513
+              ],
+              [
+                -0.027103662490844727,
+                0.1382753700017929,
+                -0.05688672512769699
+              ],
+              [
+                -0.024854041635990143,
+                0.1299952268600464,
+                -0.025121888145804405
+              ],
+              [
+                -0.03473424166440964,
+                0.13808396458625793,
+                -0.05217835307121277
+              ],
+              [
+                0.013215622864663601,
+                0.10705181956291199,
+                -0.06187889352440834
+              ],
+              [
+                -0.009738648310303688,
+                0.1326235681772232,
+                -0.09393597394227982
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              2.8456485271453857,
+              3.0507006645202637,
+              3.6793465614318848,
+              3.0642881393432617,
+              4.100987434387207,
+              2.8652994632720947,
+              5.624309062957764
+            ],
+            "max_pairwise_cm": 7.050362974405289,
+            "final_per_start_objective": [
+              0.1868508756160736,
+              0.17308275401592255,
+              0.16743575036525726,
+              0.1710008978843689,
+              0.16837118566036224,
+              0.167209655046463,
+              0.17227834463119507
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 10.991623878479004
+          }
+        }
+      ]
+    },
+    {
+      "axes": 1,
+      "per_axis_amplitude_deg": 60,
+      "completed": 2,
+      "spread_cm": [
+        7.472708076238632,
+        7.3773302137851715
+      ],
+      "worst_start_error_cm": [
+        7.0470051765441895,
+        6.647137641906738
+      ],
+      "max_actual_neck_rotation_deg": [
+        59.99999999999999,
+        59.99999999999999
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 60.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 59.99999999999999,
+            "head_camera_rotation_max_error_deg": 7.288697905333184e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                -0.018866952508687973,
+                0.13506683707237244,
+                -0.08978383243083954
+              ],
+              [
+                0.009059282019734383,
+                0.12053798139095306,
+                -0.09374601393938065
+              ],
+              [
+                -0.03070041909813881,
+                0.14398522675037384,
+                -0.07138849794864655
+              ],
+              [
+                -0.03928577899932861,
+                0.1419151872396469,
+                -0.04292433336377144
+              ],
+              [
+                -0.04176078364253044,
+                0.14654530584812164,
+                -0.06976918876171112
+              ],
+              [
+                0.008969249203801155,
+                0.11529167741537094,
+                -0.09338993579149246
+              ],
+              [
+                -0.013659420423209667,
+                0.13977648317813873,
+                -0.1062445342540741
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              5.532993316650391,
+              5.450682640075684,
+              5.003044128417969,
+              4.507992267608643,
+              5.774791240692139,
+              5.434244155883789,
+              7.0470051765441895
+            ],
+            "max_pairwise_cm": 7.472708076238632,
+            "final_per_start_objective": [
+              0.1977175921201706,
+              0.19572637975215912,
+              0.19517509639263153,
+              0.19986888766288757,
+              0.19143061339855194,
+              0.19754469394683838,
+              0.19552704691886902
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 25.223868370056152
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 1,
+            "amplitude_deg": 60.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 59.99999999999999,
+            "head_camera_rotation_max_error_deg": 7.288697905333184e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                -0.017830170691013336,
+                0.13322167098522186,
+                -0.08698364347219467
+              ],
+              [
+                0.009531925432384014,
+                0.1208445131778717,
+                -0.09155722707509995
+              ],
+              [
+                -0.02775234542787075,
+                0.14061994850635529,
+                -0.06664528697729111
+              ],
+              [
+                -0.03810559958219528,
+                0.14013522863388062,
+                -0.0403878353536129
+              ],
+              [
+                -0.03977956995368004,
+                0.1443198323249817,
+                -0.06604263186454773
+              ],
+              [
+                0.00860359612852335,
+                0.11563223600387573,
+                -0.09196646511554718
+              ],
+              [
+                -0.010701175779104233,
+                0.13655488193035126,
+                -0.10348121076822281
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              5.196335792541504,
+              5.243775844573975,
+              4.365027904510498,
+              4.3100056648254395,
+              5.340493679046631,
+              5.285463809967041,
+              6.647137641906738
+            ],
+            "max_pairwise_cm": 7.3773302137851715,
+            "final_per_start_objective": [
+              0.19082866609096527,
+              0.19087079167366028,
+              0.18847280740737915,
+              0.18731097877025604,
+              0.189947247505188,
+              0.19431430101394653,
+              0.18863235414028168
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 12.332510471343994
+          }
+        }
+      ]
+    },
+    {
+      "axes": 2,
+      "per_axis_amplitude_deg": 0,
+      "completed": 2,
+      "spread_cm": [
+        11.230447143316269,
+        11.368915438652039
+      ],
+      "worst_start_error_cm": [
+        5.793399333953857,
+        5.780845642089844
+      ],
+      "max_actual_neck_rotation_deg": [
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 0.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 0.0,
+            "head_camera_rotation_max_error_deg": 0.0,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.003046581754460931,
+                0.11765856295824051,
+                -0.03045285865664482
+              ],
+              [
+                0.040859948843717575,
+                0.10416911542415619,
+                -0.016147654503583908
+              ],
+              [
+                -0.02463681809604168,
+                0.13814961910247803,
+                -0.04765233024954796
+              ],
+              [
+                0.0026181170251220465,
+                0.1252574473619461,
+                0.017635513097047806
+              ],
+              [
+                -0.033953920006752014,
+                0.13899986445903778,
+                -0.044002167880535126
+              ],
+              [
+                0.024276427924633026,
+                0.10486926883459091,
+                -0.03268586844205856
+              ],
+              [
+                -0.00085289659909904,
+                0.12985341250896454,
+                -0.0945211797952652
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              1.0291348695755005,
+              4.98907470703125,
+              3.154266595840454,
+              5.793399333953857,
+              3.9113693237304688,
+              2.9525928497314453,
+              5.541097640991211
+            ],
+            "max_pairwise_cm": 11.230447143316269,
+            "final_per_start_objective": [
+              0.1441963165998459,
+              0.1465449184179306,
+              0.14169324934482574,
+              0.1451716274023056,
+              0.14441780745983124,
+              0.14678049087524414,
+              0.14397454261779785
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 24.717633724212646
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 0.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 0.0,
+            "head_camera_rotation_max_error_deg": 0.0,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.0034109782427549362,
+                0.11955945193767548,
+                -0.03217010200023651
+              ],
+              [
+                0.041525814682245255,
+                0.1062588319182396,
+                -0.017663825303316116
+              ],
+              [
+                -0.023459237068891525,
+                0.1391632854938507,
+                -0.04967006668448448
+              ],
+              [
+                0.002183271339163184,
+                0.1267915964126587,
+                0.01736658439040184
+              ],
+              [
+                -0.03197448328137398,
+                0.14052070677280426,
+                -0.045564647763967514
+              ],
+              [
+                0.025122925639152527,
+                0.10646138340234756,
+                -0.03573900833725929
+              ],
+              [
+                -6.415607640519738e-05,
+                0.1317894160747528,
+                -0.0961904227733612
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.8551967144012451,
+              4.911331653594971,
+              3.1797447204589844,
+              5.780845642089844,
+              3.839833974838257,
+              2.88550066947937,
+              5.741392135620117
+            ],
+            "max_pairwise_cm": 11.368915438652039,
+            "final_per_start_objective": [
+              0.1513974964618683,
+              0.1450863480567932,
+              0.14853012561798096,
+              0.1474674642086029,
+              0.14799648523330688,
+              0.15236204862594604,
+              0.14875921607017517
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 17.98692011833191
+          }
+        }
+      ]
+    },
+    {
+      "axes": 2,
+      "per_axis_amplitude_deg": 10,
+      "completed": 2,
+      "spread_cm": [
+        9.553232043981552,
+        9.687154740095139
+      ],
+      "worst_start_error_cm": [
+        4.918001174926758,
+        4.913093566894531
+      ],
+      "max_actual_neck_rotation_deg": [
+        12.24744871391589,
+        12.24744871391589
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 10.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 12.24744871391589,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.00357504072599113,
+                0.11875651776790619,
+                -0.0334065817296505
+              ],
+              [
+                0.04131327569484711,
+                0.10611724853515625,
+                -0.017214998602867126
+              ],
+              [
+                -0.023347685113549232,
+                0.1387626677751541,
+                -0.05226881802082062
+              ],
+              [
+                0.004647102672606707,
+                0.12298204004764557,
+                0.008660146966576576
+              ],
+              [
+                -0.031119296327233315,
+                0.1376330703496933,
+                -0.04264766350388527
+              ],
+              [
+                0.02474058046936989,
+                0.10519029200077057,
+                -0.03425829857587814
+              ],
+              [
+                0.005157431587576866,
+                0.12405550479888916,
+                -0.08686478435993195
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.7602651715278625,
+              4.918001174926758,
+              3.2367825508117676,
+              4.897242069244385,
+              3.58656644821167,
+              2.9400522708892822,
+              4.732181549072266
+            ],
+            "max_pairwise_cm": 9.553232043981552,
+            "final_per_start_objective": [
+              0.14577406644821167,
+              0.14612682163715363,
+              0.146569162607193,
+              0.14737027883529663,
+              0.14855122566223145,
+              0.146044060587883,
+              0.1491338163614273
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 24.57845115661621
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 10.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 12.24744871391589,
+            "head_camera_rotation_max_error_deg": 6.260162064978089e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.004775518551468849,
+                0.11891508847475052,
+                -0.03378409892320633
+              ],
+              [
+                0.04239200800657272,
+                0.10694443434476852,
+                -0.020086105912923813
+              ],
+              [
+                -0.02167237177491188,
+                0.1385718584060669,
+                -0.05394800752401352
+              ],
+              [
+                0.005425134673714638,
+                0.12364418804645538,
+                0.008694316260516644
+              ],
+              [
+                -0.029930710792541504,
+                0.13798768818378448,
+                -0.04417528957128525
+              ],
+              [
+                0.026953600347042084,
+                0.10623971372842789,
+                -0.03686957433819771
+              ],
+              [
+                0.007924330420792103,
+                0.12413636595010757,
+                -0.0881437361240387
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.7913281321525574,
+              4.862194061279297,
+              3.1767163276672363,
+              4.913093566894531,
+              3.5168702602386475,
+              3.042435646057129,
+              4.896656036376953
+            ],
+            "max_pairwise_cm": 9.687154740095139,
+            "final_per_start_objective": [
+              0.14866536855697632,
+              0.1519029587507248,
+              0.14922092854976654,
+              0.1536845862865448,
+              0.14937905967235565,
+              0.14937734603881836,
+              0.15227486193180084
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 21.923593521118164
+          }
+        }
+      ]
+    },
+    {
+      "axes": 2,
+      "per_axis_amplitude_deg": 20,
+      "completed": 2,
+      "spread_cm": [
+        8.828563243150711,
+        8.656743913888931
+      ],
+      "worst_start_error_cm": [
+        4.807823657989502,
+        4.890339374542236
+      ],
+      "max_actual_neck_rotation_deg": [
+        24.49489742783178,
+        24.49489742783178
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 20.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 24.49489742783178,
+            "head_camera_rotation_max_error_deg": 6.268376327274023e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.001272902125492692,
+                0.11684868484735489,
+                -0.04172980785369873
+              ],
+              [
+                0.036642905324697495,
+                0.10543017089366913,
+                -0.021823009476065636
+              ],
+              [
+                -0.0219326950609684,
+                0.1357041746377945,
+                -0.05779050663113594
+              ],
+              [
+                0.0011311339912936091,
+                0.11943931132555008,
+                0.00026734359562397003
+              ],
+              [
+                -0.027266710996627808,
+                0.13100478053092957,
+                -0.046804655343294144
+              ],
+              [
+                0.015969447791576385,
+                0.1070031151175499,
+                -0.03997693583369255
+              ],
+              [
+                0.0005782233201898634,
+                0.12428312003612518,
+                -0.08788357675075531
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.3813566267490387,
+              4.342102527618408,
+              3.231356382369995,
+              4.028712749481201,
+              3.0180823802948,
+              2.0589869022369385,
+              4.807823657989502
+            ],
+            "max_pairwise_cm": 8.828563243150711,
+            "final_per_start_objective": [
+              0.15319812297821045,
+              0.15085187554359436,
+              0.15608447790145874,
+              0.15367339551448822,
+              0.15359757840633392,
+              0.15455362200737,
+              0.15327993035316467
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 24.210981130599976
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 20.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 24.49489742783178,
+            "head_camera_rotation_max_error_deg": 6.268376327274023e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.004048947244882584,
+                0.11694426089525223,
+                -0.04392678663134575
+              ],
+              [
+                0.0381878986954689,
+                0.10590673238039017,
+                -0.025191286578774452
+              ],
+              [
+                -0.018735425546765327,
+                0.13433481752872467,
+                -0.0604872964322567
+              ],
+              [
+                0.00393603416159749,
+                0.1189831793308258,
+                -0.0022129847202450037
+              ],
+              [
+                -0.025188960134983063,
+                0.13141624629497528,
+                -0.04806198179721832
+              ],
+              [
+                0.01750057004392147,
+                0.10776543617248535,
+                -0.0421624556183815
+              ],
+              [
+                0.0030942782759666443,
+                0.1243988573551178,
+                -0.08860675990581512
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              0.641491711139679,
+              4.331551551818848,
+              3.124472141265869,
+              3.800506114959717,
+              2.8806421756744385,
+              2.146230936050415,
+              4.890339374542236
+            ],
+            "max_pairwise_cm": 8.656743913888931,
+            "final_per_start_objective": [
+              0.15357021987438202,
+              0.15277335047721863,
+              0.15952658653259277,
+              0.15715698897838593,
+              0.1533295214176178,
+              0.15368589758872986,
+              0.15583693981170654
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 24.597882509231567
+          }
+        }
+      ]
+    },
+    {
+      "axes": 2,
+      "per_axis_amplitude_deg": 40,
+      "completed": 2,
+      "spread_cm": [
+        7.218553125858307,
+        7.4281662702560425
+      ],
+      "worst_start_error_cm": [
+        6.43674898147583,
+        6.694584369659424
+      ],
+      "max_actual_neck_rotation_deg": [
+        48.98979485566356,
+        48.98979485566356
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 40.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 48.98979485566356,
+            "head_camera_rotation_max_error_deg": 6.074337377001693e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.006570599041879177,
+                0.1149333193898201,
+                -0.08023907244205475
+              ],
+              [
+                0.030598854646086693,
+                0.1040414497256279,
+                -0.06140196695923805
+              ],
+              [
+                -0.0017634304240345955,
+                0.12438832968473434,
+                -0.08616212755441666
+              ],
+              [
+                -0.0010282323928549886,
+                0.11002938449382782,
+                -0.03367532789707184
+              ],
+              [
+                -0.012780372053384781,
+                0.12068995833396912,
+                -0.06987151503562927
+              ],
+              [
+                0.013023841194808483,
+                0.10530403256416321,
+                -0.06215507537126541
+              ],
+              [
+                0.0052333432249724865,
+                0.125401571393013,
+                -0.10392659157514572
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              4.108560562133789,
+              4.060799598693848,
+              4.640376091003418,
+              1.1852082014083862,
+              3.2498021125793457,
+              2.9604716300964355,
+              6.43674898147583
+            ],
+            "max_pairwise_cm": 7.218553125858307,
+            "final_per_start_objective": [
+              0.1757328361272812,
+              0.1768421232700348,
+              0.17435398697853088,
+              0.1742728352546692,
+              0.17588362097740173,
+              0.17749254405498505,
+              0.17731492221355438
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 15.286572694778442
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 40.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 48.98979485566356,
+            "head_camera_rotation_max_error_deg": 6.074337377001693e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.006181798409670591,
+                0.11644071340560913,
+                -0.08182884752750397
+              ],
+              [
+                0.03196214511990547,
+                0.10495653748512268,
+                -0.0634835734963417
+              ],
+              [
+                -0.0013207183219492435,
+                0.125276580452919,
+                -0.08856777101755142
+              ],
+              [
+                -0.0009218861814588308,
+                0.11097199469804764,
+                -0.033981505781412125
+              ],
+              [
+                -0.01247501466423273,
+                0.12157876044511795,
+                -0.07175390422344208
+              ],
+              [
+                0.012347865849733353,
+                0.10730727761983871,
+                -0.06456886231899261
+              ],
+              [
+                0.006850135046988726,
+                0.12589041888713837,
+                -0.10633343458175659
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              4.243271827697754,
+              4.241889476776123,
+              4.887141227722168,
+              1.088930606842041,
+              3.415302276611328,
+              3.0285375118255615,
+              6.694584369659424
+            ],
+            "max_pairwise_cm": 7.4281662702560425,
+            "final_per_start_objective": [
+              0.1773422807455063,
+              0.17706196010112762,
+              0.1796177327632904,
+              0.17700812220573425,
+              0.1779697835445404,
+              0.17706450819969177,
+              0.1769162267446518
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 24.973480463027954
+          }
+        }
+      ]
+    },
+    {
+      "axes": 2,
+      "per_axis_amplitude_deg": 60,
+      "completed": 2,
+      "spread_cm": [
+        6.622988730669022,
+        7.008245587348938
+      ],
+      "worst_start_error_cm": [
+        10.250760078430176,
+        10.477118492126465
+      ],
+      "max_actual_neck_rotation_deg": [
+        73.48469228349535,
+        73.48469228349535
+      ],
+      "cases": [
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 60.0,
+            "trial": 0,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 73.48469228349535,
+            "head_camera_rotation_max_error_deg": 6.110651432960329e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.016641655936837196,
+                0.1264192909002304,
+                -0.12696243822574615
+              ],
+              [
+                0.03007107600569725,
+                0.11758118122816086,
+                -0.12223963439464569
+              ],
+              [
+                0.01704533025622368,
+                0.12953196465969086,
+                -0.13130658864974976
+              ],
+              [
+                0.009585410356521606,
+                0.10892275720834732,
+                -0.07805439084768295
+              ],
+              [
+                -0.004961033817380667,
+                0.1326272040605545,
+                -0.1163061112165451
+              ],
+              [
+                0.025958197191357613,
+                0.10805219411849976,
+                -0.1069202572107315
+              ],
+              [
+                0.023133231326937675,
+                0.13000239431858063,
+                -0.13936102390289307
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              8.877284049987793,
+              8.759839057922363,
+              9.337181091308594,
+              4.077649116516113,
+              7.750277996063232,
+              7.276605606079102,
+              10.250760078430176
+            ],
+            "max_pairwise_cm": 6.622988730669022,
+            "final_per_start_objective": [
+              0.2133018970489502,
+              0.21169492602348328,
+              0.21806226670742035,
+              0.21033698320388794,
+              0.2113063782453537,
+              0.2123153656721115,
+              0.21368616819381714
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 9.872593402862549
+          }
+        },
+        {
+          "status": "completed",
+          "result": {
+            "axes": 2,
+            "amplitude_deg": 60.0,
+            "trial": 1,
+            "steps": 800,
+            "frame_count": 12,
+            "points_per_frame": 128,
+            "max_neck_rotation_deg": 73.48469228349535,
+            "head_camera_rotation_max_error_deg": 6.110651432960329e-06,
+            "pixel_noise_std_px": 1.0,
+            "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+            "centers_m": [
+              [
+                0.014024953357875347,
+                0.12886251509189606,
+                -0.12904322147369385
+              ],
+              [
+                0.024707403033971786,
+                0.12216082215309143,
+                -0.12651242315769196
+              ],
+              [
+                0.012970237992703915,
+                0.13331477344036102,
+                -0.13330796360969543
+              ],
+              [
+                0.004971696995198727,
+                0.10975823551416397,
+                -0.07790719717741013
+              ],
+              [
+                -0.00534329516813159,
+                0.13393443822860718,
+                -0.11980591714382172
+              ],
+              [
+                0.02310129627585411,
+                0.11084607243537903,
+                -0.11187241971492767
+              ],
+              [
+                0.01845337077975273,
+                0.13436487317085266,
+                -0.14212797582149506
+              ]
+            ],
+            "true_center_m": [
+              0.0,
+              0.11999999731779099,
+              -0.03999999910593033
+            ],
+            "error_cm": [
+              9.057559967041016,
+              8.999735832214355,
+              9.514140129089355,
+              3.9579882621765137,
+              8.11893081665039,
+              7.604675769805908,
+              10.477118492126465
+            ],
+            "max_pairwise_cm": 7.008245587348938,
+            "final_per_start_objective": [
+              0.21047380566596985,
+              0.1995631903409958,
+              0.20144975185394287,
+              0.2036702036857605,
+              0.19895951449871063,
+              0.1995558738708496,
+              0.20325711369514465
+            ],
+            "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+            "elapsed_seconds": 9.118576765060425
+          }
+        }
+      ]
+    }
+  ],
+  "long_checks": [
+    {
+      "status": "completed",
+      "result": {
+        "axes": 2,
+        "amplitude_deg": 0.0,
+        "trial": 0,
+        "steps": 3000,
+        "frame_count": 12,
+        "points_per_frame": 128,
+        "max_neck_rotation_deg": 0.0,
+        "head_camera_rotation_max_error_deg": 0.0,
+        "pixel_noise_std_px": 1.0,
+        "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+        "centers_m": [
+          [
+            0.010509385727345943,
+            0.11874543130397797,
+            -0.000603750697337091
+          ],
+          [
+            0.04549853503704071,
+            0.11003659665584564,
+            0.012612937949597836
+          ],
+          [
+            -0.017291750758886337,
+            0.13151825964450836,
+            -0.022599829360842705
+          ],
+          [
+            0.009520853869616985,
+            0.12892836332321167,
+            0.035755809396505356
+          ],
+          [
+            -0.02583577111363411,
+            0.13473013043403625,
+            -0.02194288559257984
+          ],
+          [
+            0.02995990589261055,
+            0.10826744884252548,
+            -0.006679460871964693
+          ],
+          [
+            0.00046329558244906366,
+            0.12398654967546463,
+            -0.07587818056344986
+          ]
+        ],
+        "true_center_m": [
+          0.0,
+          0.11999999731779099,
+          -0.03999999910593033
+        ],
+        "error_cm": [
+          4.079320430755615,
+          7.026740074157715,
+          2.710056781768799,
+          7.68720006942749,
+          3.479257583618164,
+          4.631961345672607,
+          3.6101956367492676
+        ],
+        "max_pairwise_cm": 11.210980266332626,
+        "final_per_start_objective": [
+          0.14311298727989197,
+          0.14231239259243011,
+          0.14908090233802795,
+          0.14340072870254517,
+          0.14105898141860962,
+          0.1502039134502411,
+          0.14698085188865662
+        ],
+        "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+        "elapsed_seconds": 34.95885181427002
+      }
+    },
+    {
+      "status": "completed",
+      "result": {
+        "axes": 1,
+        "amplitude_deg": 40.0,
+        "trial": 0,
+        "steps": 3000,
+        "frame_count": 12,
+        "points_per_frame": 128,
+        "max_neck_rotation_deg": 40.0,
+        "head_camera_rotation_max_error_deg": 6.593214080671595e-06,
+        "pixel_noise_std_px": 1.0,
+        "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+        "centers_m": [
+          [
+            -0.010649270378053188,
+            0.12244778126478195,
+            -0.04827360808849335
+          ],
+          [
+            0.021077146753668785,
+            0.10889296233654022,
+            -0.03394269198179245
+          ],
+          [
+            -0.027076173573732376,
+            0.13662171363830566,
+            -0.035079699009656906
+          ],
+          [
+            -0.024934327229857445,
+            0.1331595927476883,
+            -0.012460333295166492
+          ],
+          [
+            -0.0319516658782959,
+            0.13677330315113068,
+            -0.03330650180578232
+          ],
+          [
+            0.01304308045655489,
+            0.10765568166971207,
+            -0.045002393424510956
+          ],
+          [
+            -0.011432270519435406,
+            0.12801222503185272,
+            -0.07597146928310394
+          ]
+        ],
+        "true_center_m": [
+          0.0,
+          0.11999999731779099,
+          -0.03999999910593033
+        ],
+        "error_cm": [
+          1.3705881834030151,
+          2.4582581520080566,
+          3.2149806022644043,
+          3.9412293434143066,
+          3.6702256202697754,
+          1.8642103672027588,
+          3.8585479259490967
+        ],
+        "max_pairwise_cm": 6.5134212374687195,
+        "final_per_start_objective": [
+          0.1755494773387909,
+          0.1738012135028839,
+          0.1711408793926239,
+          0.16940587759017944,
+          0.17119912803173065,
+          0.1697629690170288,
+          0.1798778474330902
+        ],
+        "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+        "elapsed_seconds": 34.33921217918396
+      }
+    },
+    {
+      "status": "completed",
+      "result": {
+        "axes": 1,
+        "amplitude_deg": 60.0,
+        "trial": 0,
+        "steps": 3000,
+        "frame_count": 12,
+        "points_per_frame": 128,
+        "max_neck_rotation_deg": 59.99999999999999,
+        "head_camera_rotation_max_error_deg": 7.288697905333184e-06,
+        "pixel_noise_std_px": 1.0,
+        "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+        "centers_m": [
+          [
+            -0.013816718943417072,
+            0.12846800684928894,
+            -0.07614419609308243
+          ],
+          [
+            0.012152648530900478,
+            0.11423635482788086,
+            -0.07719165831804276
+          ],
+          [
+            -0.023868296295404434,
+            0.13579684495925903,
+            -0.05296966806054115
+          ],
+          [
+            -0.031824927777051926,
+            0.1388854831457138,
+            -0.032381195574998856
+          ],
+          [
+            -0.033747848123311996,
+            0.14060327410697937,
+            -0.055696263909339905
+          ],
+          [
+            0.015308253467082977,
+            0.1109844222664833,
+            -0.08095931261777878
+          ],
+          [
+            -0.009066463448107243,
+            0.1303463578224182,
+            -0.0910964086651802
+          ]
+        ],
+        "true_center_m": [
+          0.0,
+          0.11999999731779099,
+          -0.03999999910593033
+        ],
+        "error_cm": [
+          3.9610755443573,
+          3.9549033641815186,
+          3.142368793487549,
+          3.7782716751098633,
+          4.254157066345215,
+          4.464626312255859,
+          5.29158878326416
+        ],
+        "max_pairwise_cm": 7.321092486381531,
+        "final_per_start_objective": [
+          0.19133047759532928,
+          0.19344782829284668,
+          0.19613239169120789,
+          0.19111518561840057,
+          0.20319412648677826,
+          0.19357168674468994,
+          0.1954578161239624
+        ],
+        "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+        "elapsed_seconds": 33.975244760513306
+      }
+    },
+    {
+      "status": "completed",
+      "result": {
+        "axes": 2,
+        "amplitude_deg": 40.0,
+        "trial": 0,
+        "steps": 3000,
+        "frame_count": 12,
+        "points_per_frame": 128,
+        "max_neck_rotation_deg": 48.98979485566356,
+        "head_camera_rotation_max_error_deg": 6.074337377001693e-06,
+        "pixel_noise_std_px": 1.0,
+        "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+        "centers_m": [
+          [
+            0.008678843267261982,
+            0.1093003898859024,
+            -0.056402090936899185
+          ],
+          [
+            0.03071187436580658,
+            0.10147669911384583,
+            -0.03709547594189644
+          ],
+          [
+            0.0006050660740584135,
+            0.11597026139497757,
+            -0.05831144005060196
+          ],
+          [
+            0.0025377250276505947,
+            0.11012394726276398,
+            -0.017420301213860512
+          ],
+          [
+            -0.006375524681061506,
+            0.11546391248703003,
+            -0.04596259444952011
+          ],
+          [
+            0.014654843136668205,
+            0.10500817745923996,
+            -0.041765280067920685
+          ],
+          [
+            0.006742422468960285,
+            0.11623143404722214,
+            -0.0793524757027626
+          ]
+        ],
+        "true_center_m": [
+          0.0,
+          0.11999999731779099,
+          -0.03999999910593033
+        ],
+        "error_cm": [
+          2.1420376300811768,
+          3.5982885360717773,
+          1.8759363889694214,
+          2.4775373935699463,
+          0.9837475419044495,
+          2.1038899421691895,
+          4.010336399078369
+        ],
+        "max_pairwise_cm": 6.237447634339333,
+        "final_per_start_objective": [
+          0.1794424057006836,
+          0.17715442180633545,
+          0.17430870234966278,
+          0.18626070022583008,
+          0.1750642955303192,
+          0.18606853485107422,
+          0.1787964403629303
+        ],
+        "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+        "elapsed_seconds": 34.050763845443726
+      }
+    },
+    {
+      "status": "completed",
+      "result": {
+        "axes": 2,
+        "amplitude_deg": 60.0,
+        "trial": 0,
+        "steps": 3000,
+        "frame_count": 12,
+        "points_per_frame": 128,
+        "max_neck_rotation_deg": 73.48469228349535,
+        "head_camera_rotation_max_error_deg": 6.110651432960329e-06,
+        "pixel_noise_std_px": 1.0,
+        "triangulation": "original Double Sphere fisheye rays, fixed 6 cm image-estimated relative pose",
+        "centers_m": [
+          [
+            0.011300320737063885,
+            0.12129896134138107,
+            -0.112092025578022
+          ],
+          [
+            0.026298893615603447,
+            0.11214705556631088,
+            -0.10526975989341736
+          ],
+          [
+            0.011523953638970852,
+            0.12319926917552948,
+            -0.11403210461139679
+          ],
+          [
+            0.011503688059747219,
+            0.10901372879743576,
+            -0.0681983083486557
+          ],
+          [
+            -0.005734858103096485,
+            0.1289733201265335,
+            -0.10398969799280167
+          ],
+          [
+            0.024403635412454605,
+            0.10708042979240417,
+            -0.09616496413946152
+          ],
+          [
+            0.017265142872929573,
+            0.12321101874113083,
+            -0.12244493514299393
+          ]
+        ],
+        "true_center_m": [
+          0.0,
+          0.11999999731779099,
+          -0.03999999910593033
+        ],
+        "error_cm": [
+          7.298387050628662,
+          7.080566883087158,
+          7.499192714691162,
+          3.2375569343566895,
+          6.486979961395264,
+          6.258559226989746,
+          8.429450988769531
+        ],
+        "max_pairwise_cm": 5.636890605092049,
+        "final_per_start_objective": [
+          0.20960772037506104,
+          0.20859766006469727,
+          0.20995473861694336,
+          0.21068736910820007,
+          0.21129435300827026,
+          0.2093634307384491,
+          0.21147513389587402
+        ],
+        "synthetic_conditions": "SMPL-X exact shape; identity correspondences; original-fisheye projected FOV only, no occlusion or clothing; true torso orientation used only as initial estimate; no DFM",
+        "elapsed_seconds": 35.770623207092285
+      }
+    }
+  ]
+}

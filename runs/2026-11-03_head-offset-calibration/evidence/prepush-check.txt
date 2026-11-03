@@ -1,0 +1,6 @@
+Incremental publication check against remote HEAD a65edb9b1845e5d849574618cdb3917ee6b76a77. Experimental baseline was b377aea30020ffca4e0ca054e80d257787559ff5. Another workflow advanced the shared branch without overlapping this run; previously published history is outside this check.
+Inspected worktree, staging and commits to push; only this run directory is selected. Ignored raw outputs and external assets remain local. No weights, datasets, Gen photographs or overlays, video, .npz, .npy, full provenance or patch are included; all selected files are below 50 MB.
+The two SVG files are graphs generated from numerical metrics and contain no embedded images. No Gen image is pushed by this run.
+No .env, private-key header, known GitHub or OpenAI token pattern, or unredacted machine path found in selected files. Automated checks and human review are not exhaustive.
+Formal Gen and synthetic batch results, true-value and label-isolation checks, noiseless stereo algebra, conditional noise check and compilation completed. Earlier rectified-view experiment and initial missing-matplotlib attempt failed and are documented; sphere optimizer nonconvergences are retained.
+Before push, check remote, working tree, staged file list and commit range again. Stop on unexpected files or non-fast-forward; do not force push.

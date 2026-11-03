@@ -1,0 +1,21 @@
+{
+  "description": "One simulated fixed head center; derived from training DFM only, not a physical calibration",
+  "training_frame_ids": [
+    0,
+    270,
+    540,
+    810,
+    1080,
+    1350,
+    1620,
+    1890,
+    2160,
+    2430
+  ],
+  "valid_training_count": 10,
+  "head_center_cam2_m": [
+    0.01360978291734432,
+    0.13702237368661963,
+    -0.029180860538148
+  ]
+}

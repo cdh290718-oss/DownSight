@@ -1,0 +1,86 @@
+{
+  "baseline_commit": "b377aea30020ffca4e0ca054e80d257787559ff5",
+  "worktree_at_start": "clean",
+  "assets": {
+    "simulated_calibration_train_DFM": {
+      "sha256": "83537a6e4bf70112bb0376e25544c771b54eb849cb53269333c3daada7680536",
+      "size_bytes": 373
+    },
+    "DFM_reference_simulated_calibration_and_evaluation": {
+      "sha256": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c",
+      "size_bytes": 1023498
+    },
+    "independent_image_calibration": {
+      "sha256": "bc99d07c02d62b6d99e9a87d51f9cf6fa858f7caff0a224697fbb7d7fb45cc66",
+      "size_bytes": 1410
+    },
+    "unlabelled_observations": {
+      "sha256": "ed246d86dac9b2d3334131884e5b6934eab89bb2398cb470299317092e4db4fa",
+      "size_bytes": 15120
+    },
+    "torso_cloud": {
+      "sha256": "1f63502f267bf9f24980022fcfc368e1c145c0c4120762dd92780fec712b997c",
+      "size_bytes": 67118
+    },
+    "synthetic_base_pose_unlabelled": {
+      "sha256": "caa42499c6cb9532a845849b8d269ef2aa67aa8567700ef265e7cf3ee0f2740e",
+      "size_bytes": 1159051
+    },
+    "synthetic_shape_initial": {
+      "sha256": "7328b045378dfc4a2226141358eb229c0d191537d6b800f5a3b7a72c8258ad73",
+      "size_bytes": 137236
+    },
+    "neutral_SMPLX_model": {
+      "sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+      "size_bytes": 108752058
+    },
+    "body_model_source": {
+      "sha256": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+      "size_bytes": 13713
+    }
+  },
+  "initial_predictions": {
+    "gen_00000_00_smplx.npz": "eac0485cc1867d0e6ea6fb062b6442e25f9ec51af672b29b7502e195dbcb0b3d",
+    "gen_00270_00_smplx.npz": "ebdffaf0fe14531103fc703d23d3b292b927ce2c762e1ef8550b005e71beb626",
+    "gen_00540_00_smplx.npz": "b2dc4a713816319fcaf9338fd9f6bd97c8991e2107334cb5586048bd3ee0829f",
+    "gen_00810_00_smplx.npz": "1b9231324063c89fef33a5c5ea355a6665965e3de340912fe7872fbab0454955",
+    "gen_01080_00_smplx.npz": "842d298b363a39e5b9616d6e40435910f6f117ddfd2ec5b07dde431d71eb0fdc",
+    "gen_01350_00_smplx.npz": "eb5247e13a52ec465211785c5db6637ecc8998ac62668408c5ee732e08539b2c",
+    "gen_01620_00_smplx.npz": "7afbfbf04a67e022cac389a351e3d7bdb0578e45191d4dfe8fa084add2068c77",
+    "gen_01890_00_smplx.npz": "490f3263d2e4605e6c92f17fdac76ac8911222a52c81d4220eafa2c81b08e9ee",
+    "gen_02160_00_smplx.npz": "e8a382ef3efb80fa56c12b6a6396862f9f45df1496ecb84b498b582001dcabc9",
+    "gen_02430_00_smplx.npz": "558c11f221a8c30fd47e412a7d15f1b5a415194216582be7c57ce242d41a8be2",
+    "gen_02700_00_smplx.npz": "7328b045378dfc4a2226141358eb229c0d191537d6b800f5a3b7a72c8258ad73",
+    "gen_02970_00_smplx.npz": "95751e894c804c72b59ea8bdba52ea5450adb234471b252a259046477460dcaa",
+    "gen_03240_00_smplx.npz": "ff111c9d12467c4feaa1324c20178faa9179fb01b6fe20ec0d576087f328d53e",
+    "gen_03510_00_smplx.npz": "b2edb30ef28bf8be21b082caaeb7e68fc8041c35474b4d831c92b0b95949dbca",
+    "gen_03780_00_smplx.npz": "0b194b472ecbd69013ccfd318c262dfe9894450039bf3e9dfd6d6305d27bf66c",
+    "gen_04050_00_smplx.npz": "b728f4423ca48d654a548027844752bad36f79604120232c56cff72a756c6f77",
+    "gen_04320_00_smplx.npz": "e9f9d415ba538548fe56d4bda799db26a9955d912dc04c14c1e6e19ea830dc63",
+    "gen_04590_00_smplx.npz": "b99255e47420cfd701ccfb88ff9b8ddfd8a3b64f318ab3ab78232bb5e1f59c4e",
+    "gen_04860_00_smplx.npz": "5c3950bec95e1343bb0c9cc85a9247ab67c99888751a2e0a66cc8624ed5dfab5",
+    "gen_05130_00_smplx.npz": "974600a607db924a72a4c0de89462bb05cc5f9a9b89a433cc2808cee94c18b5d"
+  },
+  "code_sha256": {
+    "collect_logs.py": "b2c1c0b4e7ed6b35d17c7a10708e45f446aa455766a485f0373cfa12f4d91340",
+    "collect_synthetic.py": "2d915a226f8e06c73756f60b1e804675f1571350497a223083be82931ab7ee48",
+    "curves_gen.py": "dd52d6174ca31c164e0b152c1031534769e86baf1514999f922ee5c4801d1c2f",
+    "curves_synthetic.py": "8422e48ede7a7ba92e9dd7f33b056cfdfceaef5165bdfc51489382423ef06db9",
+    "evaluate_gen.py": "109a0195b002d9053dbb46784ac07f1495bfb4b656ce3cb5d5f2b69bc29f4e07",
+    "fit_fixed.py": "f027723ea32ce87f468c619137b0d9b2b727107d1f6059770031aa9a29d28f91",
+    "run_gen.sh": "b8b0cb9152c2e7ff25812e2a8e961f63adf62344970245d6061d454783a1d5e8",
+    "run_gen_long.sh": "a937560edb95aa92987a6e20228a977846990920aa8f8ac882176884e9c272b1",
+    "run_synthetic.sh": "f912ff889cc018614e1722df4bb39c71bb7fd765992f13568938db286d330615",
+    "run_synthetic_long.sh": "8bee910e8064c70ee4ccabebaf1081ded324995283094ad3e7346c4dd3e7d1b3",
+    "simulate_calibration.py": "afe846382c8dc9550fcad9a5d15d40eceac747f28f895a841d82fd50f2f46f3a",
+    "smplx_motion_sim.py": "15575772f7b9ceccd1009863bce74dee04c010eff6767b26f5a0c550b63e7a09",
+    "smplx_motion_sim_rectified.py": "3e6d72c57df587ff89a6876f56a8424396773c369ae5ca496b6a274627a405a3",
+    "sphere_sim.py": "c51d8a492649b6143d932bf4b8bb7760e17539256f1c138cdb10a2c7da603267",
+    "sphere_sim_circular.py": "ef9833688f8222611386374f58fd283c38a5849f6921feafbd285e7aebd67901",
+    "validate.py": "a2d82cd8e8acaedb30a38caada0eea5eea7a4e4a557f3429a93b5576ba4248b1",
+    "validate_stereo.py": "5c9dccf5970b1261472d387e50f873893f0ece80bf7ba7528a0354411d8e6862",
+    "validate_stereo_noisy.py": "4b65eea2eb023d2f527da6a2a3a425df980fb5ae3037f4a31c7d4ad1d8bea6b1"
+  },
+  "environment": "EgoSMPLX Python 3.8.20, PyTorch 1.12.1 CUDA 11.3; base Python for SciPy oracle; one A100 GPU.",
+  "policy": "DFM was used to obtain one training-set fixed calibration value and later evaluate held-out joints. Optimizers do not access DFM per-frame annotations. Synthetic motion does not read DFM; fixed shape, vertex correspondence and torso-orientation initialization are favorable oracles. Raw assets and images are not included and may require owner authorization."
+}

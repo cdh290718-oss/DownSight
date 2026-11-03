@@ -1,0 +1,575 @@
+{
+  "note": "At each magnitude, maxima/minima are over six axis-aligned signed perturbations, each statistic is median over held-out frames; zero is one case.",
+  "curve": [
+    {
+      "offset_error_cm": 0,
+      "case_names": [
+        "zero"
+      ],
+      "metrics": {
+        "pelvis": {
+          "euclidean_vs_dfm": {
+            "min_cm": 16.191028853054977,
+            "max_cm": 16.191028853054977,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 6.675162293895191,
+            "max_cm": 6.675162293895191,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        },
+        "neck": {
+          "euclidean_vs_dfm": {
+            "min_cm": 7.492536943792478,
+            "max_cm": 7.492536943792478,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.3080805805333706,
+            "max_cm": 1.3080805805333706,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        },
+        "left_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 5.969775791866507,
+            "max_cm": 5.969775791866507,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.9518269856311425,
+            "max_cm": 2.9518269856311425,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        },
+        "right_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.787419861137146,
+            "max_cm": 3.787419861137146,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.7265648124966892,
+            "max_cm": 2.7265648124966892,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        },
+        "left_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.3366063401753867,
+            "max_cm": 3.3366063401753867,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.7659912622748974,
+            "max_cm": 2.7659912622748974,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        },
+        "right_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 2.0654341252816275,
+            "max_cm": 2.0654341252816275,
+            "worst_case": "zero"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.6937277796051808,
+            "max_cm": 1.6937277796051808,
+            "worst_case": "zero"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.0,
+            "max_cm": 0.0,
+            "worst_case": "zero"
+          }
+        }
+      }
+    },
+    {
+      "offset_error_cm": 1,
+      "case_names": [
+        "x_p_1",
+        "x_m_1",
+        "y_p_1",
+        "y_m_1",
+        "z_p_1",
+        "z_m_1"
+      ],
+      "metrics": {
+        "pelvis": {
+          "euclidean_vs_dfm": {
+            "min_cm": 15.487877925380747,
+            "max_cm": 17.042494768452315,
+            "worst_case": "z_p_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 6.006102380531986,
+            "max_cm": 7.2763198570058805,
+            "worst_case": "z_p_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.47735562548041344,
+            "max_cm": 0.953428354114294,
+            "worst_case": "z_p_1"
+          }
+        },
+        "neck": {
+          "euclidean_vs_dfm": {
+            "min_cm": 6.782039083440486,
+            "max_cm": 8.414461617731947,
+            "worst_case": "z_p_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 0.9752793354340563,
+            "max_cm": 1.514902179119705,
+            "worst_case": "z_m_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.4020067281089723,
+            "max_cm": 0.8697423618286848,
+            "worst_case": "y_p_1"
+          }
+        },
+        "left_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 5.938403124140914,
+            "max_cm": 6.129306826917623,
+            "worst_case": "z_m_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 3.1424544193086454,
+            "max_cm": 3.371022650692432,
+            "worst_case": "z_m_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.10713251540437341,
+            "max_cm": 0.22177703212946653,
+            "worst_case": "z_p_1"
+          }
+        },
+        "right_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.5711187054762275,
+            "max_cm": 3.712346559605531,
+            "worst_case": "z_m_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.7026841096308005,
+            "max_cm": 2.773252954882462,
+            "worst_case": "z_m_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.12399674160405993,
+            "max_cm": 0.2549602126237005,
+            "worst_case": "z_p_1"
+          }
+        },
+        "left_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.0486982274882912,
+            "max_cm": 3.2771451231282835,
+            "worst_case": "x_m_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.681549964528118,
+            "max_cm": 2.8307079782593463,
+            "worst_case": "z_p_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.155163329327479,
+            "max_cm": 0.3347289632074535,
+            "worst_case": "z_p_1"
+          }
+        },
+        "right_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 1.9964765971830525,
+            "max_cm": 2.211808971166324,
+            "worst_case": "y_p_1"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.6462262693729524,
+            "max_cm": 1.838474399205025,
+            "worst_case": "y_p_1"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.16439061728306115,
+            "max_cm": 0.30211377888917923,
+            "worst_case": "z_p_1"
+          }
+        }
+      }
+    },
+    {
+      "offset_error_cm": 2,
+      "case_names": [
+        "x_p_2",
+        "x_m_2",
+        "y_p_2",
+        "y_m_2",
+        "z_p_2",
+        "z_m_2"
+      ],
+      "metrics": {
+        "pelvis": {
+          "euclidean_vs_dfm": {
+            "min_cm": 13.541856075566749,
+            "max_cm": 17.612729954782385,
+            "worst_case": "y_p_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 5.219031221744384,
+            "max_cm": 7.727909812077524,
+            "worst_case": "z_p_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.962371937930584,
+            "max_cm": 1.8244970589876175,
+            "worst_case": "z_p_2"
+          }
+        },
+        "neck": {
+          "euclidean_vs_dfm": {
+            "min_cm": 6.155718186236384,
+            "max_cm": 9.178264018871927,
+            "worst_case": "z_p_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.0729692408492786,
+            "max_cm": 1.8795219113935926,
+            "worst_case": "y_m_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.835781660862267,
+            "max_cm": 1.7838509753346443,
+            "worst_case": "z_p_2"
+          }
+        },
+        "left_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 6.024875815575038,
+            "max_cm": 6.289134238774604,
+            "worst_case": "y_m_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 3.147213270104917,
+            "max_cm": 3.5927576281289197,
+            "worst_case": "y_m_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.16387166106142104,
+            "max_cm": 0.24399451212957501,
+            "worst_case": "z_m_2"
+          }
+        },
+        "right_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.5319757315284335,
+            "max_cm": 3.6635061665945865,
+            "worst_case": "z_m_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.66400836967522,
+            "max_cm": 2.8001398408872613,
+            "worst_case": "y_p_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.1604500226676464,
+            "max_cm": 0.21439583506435156,
+            "worst_case": "z_m_2"
+          }
+        },
+        "left_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 2.9989476002851787,
+            "max_cm": 4.035227171354807,
+            "worst_case": "z_p_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.555254794436286,
+            "max_cm": 3.719332856634599,
+            "worst_case": "z_p_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.2277384395711124,
+            "max_cm": 0.336886930745095,
+            "worst_case": "z_m_2"
+          }
+        },
+        "right_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 2.0124536205089942,
+            "max_cm": 2.3629690300602935,
+            "worst_case": "y_p_2"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.6069076339216,
+            "max_cm": 2.0399243684720294,
+            "worst_case": "y_p_2"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.20334877772256732,
+            "max_cm": 0.31420921441167593,
+            "worst_case": "x_m_2"
+          }
+        }
+      }
+    },
+    {
+      "offset_error_cm": 5,
+      "case_names": [
+        "x_p_5",
+        "x_m_5",
+        "y_p_5",
+        "y_m_5",
+        "z_p_5",
+        "z_m_5"
+      ],
+      "metrics": {
+        "pelvis": {
+          "euclidean_vs_dfm": {
+            "min_cm": 12.052736420730337,
+            "max_cm": 19.147560781349593,
+            "worst_case": "z_p_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 3.711158099044515,
+            "max_cm": 8.640868591374753,
+            "worst_case": "z_p_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 1.7872663214802742,
+            "max_cm": 4.290282540023327,
+            "worst_case": "z_m_5"
+          }
+        },
+        "neck": {
+          "euclidean_vs_dfm": {
+            "min_cm": 4.964275445554023,
+            "max_cm": 11.106126027604821,
+            "worst_case": "z_p_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.123286504534337,
+            "max_cm": 4.3793300055251105,
+            "worst_case": "y_m_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 1.8629678525030613,
+            "max_cm": 4.029985144734383,
+            "worst_case": "z_p_5"
+          }
+        },
+        "left_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 6.070085579104154,
+            "max_cm": 6.336298269549119,
+            "worst_case": "y_m_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.9883877278865496,
+            "max_cm": 3.5281150830391,
+            "worst_case": "x_p_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.14616598491556942,
+            "max_cm": 0.2948674140498042,
+            "worst_case": "x_m_5"
+          }
+        },
+        "right_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.526966565133009,
+            "max_cm": 3.7519378549376468,
+            "worst_case": "y_p_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.688115227461153,
+            "max_cm": 2.838050467320028,
+            "worst_case": "y_p_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.14920264948159456,
+            "max_cm": 0.24422056740149856,
+            "worst_case": "y_m_5"
+          }
+        },
+        "left_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 2.90120686085617,
+            "max_cm": 3.785471147667015,
+            "worst_case": "z_p_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.0484891043467095,
+            "max_cm": 3.197255832044432,
+            "worst_case": "z_p_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.24956843117251992,
+            "max_cm": 0.649351766332984,
+            "worst_case": "z_m_5"
+          }
+        },
+        "right_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 1.9624408672827922,
+            "max_cm": 2.3347373440604806,
+            "worst_case": "x_p_5"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.5044241533785652,
+            "max_cm": 1.8856584920286363,
+            "worst_case": "x_p_5"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.24473490193486214,
+            "max_cm": 0.35979142412543297,
+            "worst_case": "x_p_5"
+          }
+        }
+      }
+    },
+    {
+      "offset_error_cm": 10,
+      "case_names": [
+        "x_p_10",
+        "x_m_10",
+        "y_p_10",
+        "y_m_10",
+        "z_p_10",
+        "z_m_10"
+      ],
+      "metrics": {
+        "pelvis": {
+          "euclidean_vs_dfm": {
+            "min_cm": 11.440350365150877,
+            "max_cm": 21.52565141156185,
+            "worst_case": "z_p_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 0.8964900923540514,
+            "max_cm": 9.708771535240377,
+            "worst_case": "z_p_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 3.40602220967412,
+            "max_cm": 8.699587360024452,
+            "worst_case": "y_p_10"
+          }
+        },
+        "neck": {
+          "euclidean_vs_dfm": {
+            "min_cm": 4.792369178562826,
+            "max_cm": 13.995964010114347,
+            "worst_case": "z_p_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 0.9333680871139202,
+            "max_cm": 8.26063593198652,
+            "worst_case": "y_m_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 3.4264953806996346,
+            "max_cm": 8.402558043599129,
+            "worst_case": "y_m_10"
+          }
+        },
+        "left_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 6.0487775728483895,
+            "max_cm": 6.473614861097408,
+            "worst_case": "y_p_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.6844280332193287,
+            "max_cm": 3.8913441004215565,
+            "worst_case": "y_p_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.27849499601870775,
+            "max_cm": 0.5953717976808548,
+            "worst_case": "y_m_10"
+          }
+        },
+        "right_elbow": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.5756243071417733,
+            "max_cm": 3.9059560694241213,
+            "worst_case": "y_m_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.468303001261505,
+            "max_cm": 2.8716429021394956,
+            "worst_case": "x_p_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.20754325669258833,
+            "max_cm": 0.5218378035351634,
+            "worst_case": "x_m_10"
+          }
+        },
+        "left_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 3.239343635201915,
+            "max_cm": 6.280345891692376,
+            "worst_case": "y_m_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 2.5335479264177274,
+            "max_cm": 6.020466274613583,
+            "worst_case": "y_m_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.5316233960911632,
+            "max_cm": 1.1046964209526777,
+            "worst_case": "z_p_10"
+          }
+        },
+        "right_wrist": {
+          "euclidean_vs_dfm": {
+            "min_cm": 1.8559054992837352,
+            "max_cm": 2.467950704644393,
+            "worst_case": "y_p_10"
+          },
+          "radial_vs_dfm": {
+            "min_cm": 1.3893317117200896,
+            "max_cm": 2.1760355217556064,
+            "worst_case": "y_p_10"
+          },
+          "displacement_from_zero_fit": {
+            "min_cm": 0.29565240256488323,
+            "max_cm": 0.7512084906920791,
+            "worst_case": "x_m_10"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "test": "independent 1px Gaussian noise per camera, 25-40cm z, Double Sphere triangulation",
+  "random_seed": 9,
+  "points": 1000,
+  "max_error_m": 0.036854449116905864,
+  "median_error_m": 0.004373346505117049,
+  "p90_error_m": 0.010848933952651168,
+  "p90_depth_error_m": 0.009685387985059376,
+  "median_depth_error_m": 0.00388194415519838,
+  "status": "completed",
+  "note": "No clothing, pose, calibration or correspondence errors; results are only a conditional noise model."
+}
