@@ -1,0 +1,101 @@
+{
+  "scope": "identified direct historical inputs; not exhaustive; availability at audit time only",
+  "resources": {
+    "dfm_reference_virtual": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/dfm_reference_virtual.npz",
+      "sha256": "a329b7f18a89e6703c3bbcb089df9f84621239d8bd6b13a96110a8521c3ecd93",
+      "size_bytes": 99607
+    },
+    "experiment_c_body_parameters": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/frames/gen_00000_cam3/body/params.npz",
+      "sha256": "5df8dfb3ad821c9213961a6ad008e341b747bc04ee0bd07c2984a5407fca52fd",
+      "size_bytes": 123332
+    },
+    "camera_cam3": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+      "sha256": "a1e62bfbd0c0872ae230d4a3ec3e6541fdb9529581c96184bebd1c8f6edb87e1",
+      "size_bytes": 2033
+    },
+    "camera_cam4": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam3_virtual_cam4.egosmplx.json",
+      "sha256": "7eb603b7ae742a6297b8e985c41bd07fad544db54661eb13229fcdd5d2e3c273",
+      "size_bytes": 2032
+    },
+    "relative_pose_diagnostic": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/transform.json",
+      "sha256": "ca5fdf04fa04344dfc6deec3a181506020e5106d9ef26bb00508d046772e8ea7",
+      "size_bytes": 571
+    },
+    "segmentation_classes": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/observations/segmentation/classes.json",
+      "sha256": "11a213c69e6470f72733424730b595ddd6bdde8336312edff6ab8c2402af9729",
+      "size_bytes": 2681
+    },
+    "gen_00000_cam3_image": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/images/cam3/gen_00000.png",
+      "sha256": "62e90ec9a9f29442a644889179ef7eb2571e898618a04ca811f65910db84910f",
+      "size_bytes": 1266711
+    },
+    "gen_00000_cam3_pose": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/observations/gen_00000_cam3/sapiens/keypoints.json",
+      "sha256": "eee9b6e58e4438003b2e9aa23b32c01d7aaf654faeb034ef93e503ab2b218a41",
+      "size_bytes": 59397
+    },
+    "gen_00000_cam3_segmentation_labels": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/observations/segmentation/frames/gen_00000_cam3/labels.npy",
+      "sha256": "042c313313e54eb0f2a4761691a2bdf8e5c7cb2e0aaaa70b791228c026d39096",
+      "size_bytes": 921728
+    },
+    "gen_00000_cam4_image": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/images/cam4/gen_00000.png",
+      "sha256": "1dbbe6a095671e852acb086a5aeea002c4ee4a7bea993f10b8f911f84300ac62",
+      "size_bytes": 1294244
+    },
+    "gen_00000_cam4_pose": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/observations/gen_00000_cam4/sapiens/keypoints.json",
+      "sha256": "d1b34d5616625ef70d9af746c5ce938f1f0b10729c391ae5160723644d9028e9",
+      "size_bytes": 59571
+    },
+    "gen_00000_cam4_segmentation_labels": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/observations/segmentation/frames/gen_00000_cam4/labels.npy",
+      "sha256": "62132fcaaedc8eadc3e8a0b0b28320a4f4231a4e90c11322f5901c50b0c815fc",
+      "size_bytes": 921728
+    },
+    "gen_00270_cam3_image": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/images/cam3/gen_00270.png",
+      "sha256": "a3992096d48f127a68e94d095dc4d1c9e594fd547002435b6d01b8c376f21f88",
+      "size_bytes": 1167422
+    },
+    "gen_00270_cam3_pose": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/new_sapiens/gen_00270_cam3/keypoints.json",
+      "sha256": "0c31359a2be8ef4760fa5d2f8350e15caa36a6f2549e916912f303339a3de5b7",
+      "size_bytes": 59088
+    },
+    "gen_00270_cam4_image": {
+      "status": "present",
+      "location": "<WORKSPACE>/gen_egosmplx_run/images/cam4/gen_00270.png",
+      "sha256": "d9e7624e825c843ac5045c5f4aee9f081027df524febad49861650136fa4f70c",
+      "size_bytes": 1154525
+    },
+    "gen_00270_cam4_pose": {
+      "status": "present",
+      "location": "<WORKSPACE>/EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/new_sapiens/gen_00270_cam4/keypoints.json",
+      "sha256": "f0e6d80cc25c36076cd6d48470c5c168d438db74363469a63717bd49988150e7",
+      "size_bytes": 59090
+    }
+  }
+}

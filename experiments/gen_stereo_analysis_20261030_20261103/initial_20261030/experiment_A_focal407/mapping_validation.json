@@ -1,0 +1,51 @@
+{
+  "inference_started": false,
+  "checks": [
+    {
+      "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+      "new_k": [
+        [
+          407.6,
+          0.0,
+          639.5
+        ],
+        [
+          0.0,
+          407.6,
+          359.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "map_point_max_error_px": 0.0,
+      "analytic_round_trip_max_error_px": 0.00015619193413840549,
+      "sample_count": 840
+    },
+    {
+      "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam3_virtual_cam4.egosmplx.json",
+      "new_k": [
+        [
+          407.6,
+          0.0,
+          639.5
+        ],
+        [
+          0.0,
+          407.6,
+          359.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "map_point_max_error_px": 0.0,
+      "analytic_round_trip_max_error_px": 0.00014059249633646687,
+      "sample_count": 840
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+patching file egosmplx_pipeline/head_anchor.py
+patching file egosmplx_pipeline/pipeline.py
+patching file egosmplx_pipeline/camera.py
+patching file egosmplx_pipeline/head_neck.py
+patching file egosmplx_pipeline/body_rigid.py
+patching file egosmplx_pipeline/body_pose.py
+patching file egosmplx_pipeline/reference/support.py
+patching file egosmplx_pipeline/reference/wrist_refine.py
+patching file egosmplx_pipeline/reference/contour_refine.py
+patching file egosmplx_pipeline/reference/contour_refine_strong.py
+patching file egosmplx_pipeline/reference/guided_body.py
+patching file egosmplx_pipeline/reference/select_candidates.py
+patching file egosmplx_pipeline/report.py

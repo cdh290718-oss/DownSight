@@ -1,0 +1,24 @@
+[
+  {
+    "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+    "zero_target_loss": 0.0,
+    "offset_0_1m_loss": 0.1,
+    "gradient": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "reference_center_preserved": true
+  },
+  {
+    "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam3_virtual_cam4.egosmplx.json",
+    "zero_target_loss": 0.0,
+    "offset_0_1m_loss": 0.1,
+    "gradient": [
+      2.0,
+      0.0,
+      0.0
+    ],
+    "reference_center_preserved": true
+  }
+]

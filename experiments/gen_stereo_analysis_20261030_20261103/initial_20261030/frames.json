@@ -1,0 +1,16 @@
+{
+  "frames": [
+    {
+      "id": "gen_00000_cam3",
+      "camera": "cam3",
+      "image": "<WORKSPACE>/gen_egosmplx_run/images/cam3/gen_00000.png",
+      "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_00000_cam4",
+      "camera": "cam4",
+      "image": "<WORKSPACE>/gen_egosmplx_run/images/cam4/gen_00000.png",
+      "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    }
+  ]
+}

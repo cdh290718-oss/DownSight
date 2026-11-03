@@ -1,0 +1,33 @@
+{
+  "frame_count": 2,
+  "matched_hands": 4,
+  "body_target_count": 9,
+  "hand_target_count": 84,
+  "body_rmse_px": 4.686516702275935,
+  "hand_rmse_px": 14.038853358231188,
+  "all_reload_checks_passed": true,
+  "manual_annotations_used": false,
+  "dataset_head_anchor_used": true,
+  "head_joint_anchor_configuration": {
+    "enabled": true,
+    "weight": 0.1,
+    "scale_m": 0.1,
+    "targets_by_calibration": {
+      "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json": [
+        0.018,
+        0.139,
+        0.032
+      ],
+      "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam3_virtual_cam4.egosmplx.json": [
+        -0.037765594108055044,
+        0.14040909229857088,
+        0.029285453025320308
+      ]
+    }
+  },
+  "local_surface_optimizer": true,
+  "pipeline_profile": "mano_guided_original_seam_20260929_v1",
+  "local_surface_pass_count": 2,
+  "local_surface_audited_count": 2,
+  "reference": "Sapiens2 body points / WiLoR hand points; not human ground truth"
+}

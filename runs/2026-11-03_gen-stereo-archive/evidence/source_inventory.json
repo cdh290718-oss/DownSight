@@ -1,0 +1,812 @@
+{
+  "files": [
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/report.md",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/report.md",
+      "source_sha256": "839d36cf883d2ccbee5e5c3172152ee7505f6b7819558206dbf99222037bf5bc",
+      "published_sha256": "ec75242396c3f22989da48d80ab11700834cffdf240ce4406b24d29f74d1e994",
+      "redacted": false,
+      "change_note": "Only changed relative link to relocated earlier report."
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/joints.csv",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/joints.csv",
+      "source_sha256": "3a38a86a78734927db47ec20f5a41ae82b1e61272092ae7d496689adc9b12540",
+      "published_sha256": "3a38a86a78734927db47ec20f5a41ae82b1e61272092ae7d496689adc9b12540",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/bones.csv",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/bones.csv",
+      "source_sha256": "3fbe84dd4898163e4719e3133c1359d8fd8d0beac068eb719f9b5712ce7f5880",
+      "published_sha256": "3fbe84dd4898163e4719e3133c1359d8fd8d0beac068eb719f9b5712ce7f5880",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/measurements.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/measurements.json",
+      "source_sha256": "b22053b6eedf5efab0807b4bb904eb2596be9bbc3c06aa99f89cd09347d32ff7",
+      "published_sha256": "a128b909bd2c43ffabe4a0b6dad4862908fc3b36036ee1031d85571cbca79f75",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/validation.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/validation.json",
+      "source_sha256": "11a08ac5b1ac370723c01887eb48e0dd30b1376713f42f95036b98fdb23d03e6",
+      "published_sha256": "11a08ac5b1ac370723c01887eb48e0dd30b1376713f42f95036b98fdb23d03e6",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/analyze.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/analyze.py",
+      "source_sha256": "cfa06fc0d38f236c36015709484a48ed993d235107299a58e284b919ce075dd3",
+      "published_sha256": "cfa06fc0d38f236c36015709484a48ed993d235107299a58e284b919ce075dd3",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/make_report.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/make_report.py",
+      "source_sha256": "9b43a17fcd6bff2f9bb1434d082dc6abf37a6fb9bd64a8d085d86b2ee59282af",
+      "published_sha256": "9b43a17fcd6bff2f9bb1434d082dc6abf37a6fb9bd64a8d085d86b2ee59282af",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/all_joints_00000.png",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/all_joints_00000.png",
+      "source_sha256": "f2c5c5c84819862ff2eb6bf9cdd377eb7dcf23bf8ef2ffde55ca39fd8bcd1866",
+      "published_sha256": "f2c5c5c84819862ff2eb6bf9cdd377eb7dcf23bf8ef2ffde55ca39fd8bcd1866",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/all_joints_00270.png",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/all_joints_00270.png",
+      "source_sha256": "d57e99ac8303ff23a0ec9175a66192b3552d4ffd9a5a1b092fde83eff98f459f",
+      "published_sha256": "d57e99ac8303ff23a0ec9175a66192b3552d4ffd9a5a1b092fde83eff98f459f",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/elbow_evidence.png",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/elbow_evidence.png",
+      "source_sha256": "6f1983e3ae2e0496c224906bdf838b9941748504eb82811623b6bd10d1bd11ce",
+      "published_sha256": "6f1983e3ae2e0496c224906bdf838b9941748504eb82811623b6bd10d1bd11ce",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/elbow_segmentation_00000.png",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/elbow_segmentation_00000.png",
+      "source_sha256": "08235adcede0c06a6de43bb3ad051c099254bed21e5c72aa1a0f21befe626359",
+      "published_sha256": "08235adcede0c06a6de43bb3ad051c099254bed21e5c72aa1a0f21befe626359",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/analysis.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/logs/analysis.log.txt",
+      "source_sha256": "5b631137a692afab30a1b5dbefac9ab7aa0d6da1a86d8879ac365b9569779930",
+      "published_sha256": "5b631137a692afab30a1b5dbefac9ab7aa0d6da1a86d8879ac365b9569779930",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/report_build.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/logs/report_build.log.txt",
+      "source_sha256": "7b0d290cdda4677c7669b7318955a2be804e7d526bd4e2cc662db70d74f6382c",
+      "published_sha256": "7b0d290cdda4677c7669b7318955a2be804e7d526bd4e2cc662db70d74f6382c",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_stereo_3d_diagnostic_20261103_zpbdmt81/sapiens.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/two_frame_20261103/logs/sapiens.log.txt",
+      "source_sha256": "96aab35598d2f6eeb41556055bb38f5b3cacce29836bc6cedf70ed440cfb9809",
+      "published_sha256": "96aab35598d2f6eeb41556055bb38f5b3cacce29836bc6cedf70ed440cfb9809",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/report.md",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/first_stereo_20261031/report.md",
+      "source_sha256": "79a7db143d399766b63cd91c1a7595849bf4ca661ddae8e1a099e9233f9be910",
+      "published_sha256": "79a7db143d399766b63cd91c1a7595849bf4ca661ddae8e1a099e9233f9be910",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/joints.csv",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/first_stereo_20261031/joints.csv",
+      "source_sha256": "4b32f1ac478819d07f2dabeeb78648340be9f31e282097113b156482bfc84f7d",
+      "published_sha256": "4b32f1ac478819d07f2dabeeb78648340be9f31e282097113b156482bfc84f7d",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/transform.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/first_stereo_20261031/transform.json",
+      "source_sha256": "ca5fdf04fa04344dfc6deec3a181506020e5106d9ef26bb00508d046772e8ea7",
+      "published_sha256": "ca5fdf04fa04344dfc6deec3a181506020e5106d9ef26bb00508d046772e8ea7",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/analyze.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/first_stereo_20261031/analyze.py",
+      "source_sha256": "792bd842950dd1b9a7bc5effbbc0132053550d20e42f82cdc23eec8bd62be9e3",
+      "published_sha256": "792bd842950dd1b9a7bc5effbbc0132053550d20e42f82cdc23eec8bd62be9e3",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/stereo_diagnostic_20261031_rkk9qawi/keypoints.png",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/first_stereo_20261031/keypoints.png",
+      "source_sha256": "840869aeacd624b1f1bc1c20511f40481c42e9d685fb88f650864b8dea9dadaf",
+      "published_sha256": "840869aeacd624b1f1bc1c20511f40481c42e9d685fb88f650864b8dea9dadaf",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/diagnostic_results_AB_20261030/report.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/comparison_AB.json",
+      "source_sha256": "61d4a8471782e3b6a9ead2f00fe514f6a8e30ff3454889c9a21efebe3a689144",
+      "published_sha256": "db96dfb63476ed4775b95c10e2b4ab2fe9d518a4697e5ecb87e37a8f4c4002b3",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/pipeline.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/pipeline.json",
+      "source_sha256": "8538acc6b5e929144d993f836b593ba887d3c34f8a491c5765083dde6ea45d02",
+      "published_sha256": "ec6c01e2fa4098b7361e86ce6b11d3b238ea21ea0d476df066fa308aaccd8757",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/run_start.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/run_start.json",
+      "source_sha256": "2bf1bbccacdca51ea60c150e389cbe35dbc140d9e3ba80b2ca4a95da82b44ad2",
+      "published_sha256": "4744e5b9f98091770e757d9ff082e5497b1cd7adb2decce31dcf463cc981ac37",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/run_finished.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/run_finished.json",
+      "source_sha256": "ab32d8c6b678dca492eb588a4c3ae48a5ae10f8351a34ab6c679cc58a938f848",
+      "published_sha256": "ab32d8c6b678dca492eb588a4c3ae48a5ae10f8351a34ab6c679cc58a938f848",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/mapping_validation.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/mapping_validation.json",
+      "source_sha256": "986b648711746978b46190c8284c061223f8d7a268f75c00add39422d316a1db",
+      "published_sha256": "d155779c96b199b8960334807425131297fb46ee8bc357f4879770e83554d8a1",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/run.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/logs/run.log.txt",
+      "source_sha256": "2c718325b5d454cef6c6905ff2c5e34dae7d0d5a50b9123ff2680f4088989a94",
+      "published_sha256": "e6f9af5be75501a19f91773932a3e1595c72f16b26eab179eae23ed1c3642763",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/summary.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/output/summary.json",
+      "source_sha256": "213e15e63a0a7bce7cb5d8524c30d7960cc7e71a09e83d2a90b1360c1a868056",
+      "published_sha256": "213e15e63a0a7bce7cb5d8524c30d7960cc7e71a09e83d2a90b1360c1a868056",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/run_state.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/output/run_state.json",
+      "source_sha256": "c6c7f4e4e46335707c3ed5b4613cf709e59e23123b9906e4946c8641547e028c",
+      "published_sha256": "c6c7f4e4e46335707c3ed5b4613cf709e59e23123b9906e4946c8641547e028c",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/preflight.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/output/preflight.json",
+      "source_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "published_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/gen_00000_cam3.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/logs/output_gen_00000_cam3.log.txt",
+      "source_sha256": "b55a64ba6b9775e4e6f575300937447d7a055153df8f48ab4fa446ebac86af4d",
+      "published_sha256": "0a5900813adda8c72351ce60f12422a0bad4f209557fb1fec47113a7fc98bdc5",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/gen_00000_cam4.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/logs/output_gen_00000_cam4.log.txt",
+      "source_sha256": "dfd5e0f329d87163034ed562500fac8f6f0b07f432b64a1508601833a9644b62",
+      "published_sha256": "97f9da3ae829fd53b6d349e2e4c5ce0ad93f1747881fd1b1eb2f949513ca7659",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/reference.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_A_focal407/logs/output_reference.log.txt",
+      "source_sha256": "73784a9cce6fb45c1272cd0c8b405c3ec68992a880d916bf1686f6f38b2e8119",
+      "published_sha256": "37f0d5e6969902db3b30d37fb3df607d5ce63f45316ab567ab23ae914cb5f836",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/pipeline.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/pipeline.json",
+      "source_sha256": "3f8b0bcebf76117472ca4dc506245efdeea4ba2173fddcc8ddb065994ff9e505",
+      "published_sha256": "c1985b65ff36ae98315f318fa97ff7172f7f6b3b9339d28fee564b24b076887d",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/run_start.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/run_start.json",
+      "source_sha256": "cf7f54ed71e1e2534739646a2438cb655d6097805e271455694da366dd62842b",
+      "published_sha256": "8ae4c0b8988f8341951d67a86985da234caf0495f9f49bdfb2375afa71799334",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/run_finished.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/run_finished.json",
+      "source_sha256": "f71077dfbfc5ee97a03f87cddf38c882b8754e7000d9d8ac0aee4007f44fa8ef",
+      "published_sha256": "f71077dfbfc5ee97a03f87cddf38c882b8754e7000d9d8ac0aee4007f44fa8ef",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/anchor_validation.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/anchor_validation.json",
+      "source_sha256": "57aab7b6366e24c674c6382ec78f1709e406347ed4fc6385092239a6cc7ab8b1",
+      "published_sha256": "6bd42abe8fc37479783b1c4eb49f48f4c7b5d5926a0ca7f901a5ae3056206f2c",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/run.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/logs/run.log.txt",
+      "source_sha256": "b8cf9def68524eff31f74241d82ad1de4b4bf6be78fd2e700c2ed2748cbd3ee3",
+      "published_sha256": "96237b8115dd8ad5743a1df0b286825aec56abfa2cd03eddc5b1c9f004cd3e94",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/patch_application.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/logs/patch_application.log.txt",
+      "source_sha256": "17840a1547380af1eff4bb4f4150ae9bc679e91be567b282926ab383f653d74c",
+      "published_sha256": "17840a1547380af1eff4bb4f4150ae9bc679e91be567b282926ab383f653d74c",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/run_state.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/output/run_state.json",
+      "source_sha256": "0f4c8a1400399ac6670175ade0d9e4188413df562d3cc3c89a9e74519419a212",
+      "published_sha256": "0f4c8a1400399ac6670175ade0d9e4188413df562d3cc3c89a9e74519419a212",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/preflight.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/output/preflight.json",
+      "source_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "published_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/gen_00000_cam3.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_B_head_anchor/logs/output_gen_00000_cam3.log.txt",
+      "source_sha256": "53c937830e29a4d2620ec3fd5082df46d2a9a874abf3a16da0bed36a08ffcc0b",
+      "published_sha256": "3d5849b4c9c0f596331ca824461bf87e858d52cd43c821f14c54079e2be81e58",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/pipeline.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/pipeline.json",
+      "source_sha256": "6da41c477b3caf4b5ec9c8735d016209638cbdb4bb5ff378e916fbbb061c64fd",
+      "published_sha256": "9313188febebe20fe56081c100817a0a1bd8942d930e3e95baff028eda7c5ad6",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/run.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/logs/run.log.txt",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/run_launch2.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/logs/run_launch2.log.txt",
+      "source_sha256": "55441990d87c2e9ca46386513991ed08c06d74dfb3b4b2d212bf6cee3c4ca3bc",
+      "published_sha256": "b8ee1b582fa38f63df08fcdab9af8ef7b9047240765f4eca0ac52beeee86c8b5",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/run_state.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/output/run_state.json",
+      "source_sha256": "0a1e839d02602c545b8dfa1b15aa6a2bc2167ef5462e304eba20c92ed50a99d6",
+      "published_sha256": "0a1e839d02602c545b8dfa1b15aa6a2bc2167ef5462e304eba20c92ed50a99d6",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/preflight.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/output/preflight.json",
+      "source_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "published_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/gen_00000_cam3.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_C/logs/output_gen_00000_cam3.log.txt",
+      "source_sha256": "232e15650a07f87beaa0df3c7a379c820cbfb5f472a437cc32ea66cd0a8dbdbe",
+      "published_sha256": "c23387907f9bd40112a1398824657e1dd5bf9f034c909ab59648fc7b4bdad1cf",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/pipeline.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/pipeline.json",
+      "source_sha256": "4e9a5ad3ff931398856b582e35102aa9299636c68f21d24f08c6f3d9f78db15f",
+      "published_sha256": "b0dd76ef81176fccca1fa29cf7c0275b40eadca080e4078326bf37e0469c0efe",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/pipeline_run2.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/pipeline_run2.json",
+      "source_sha256": "da39d5e5baac4f0384c469fb116adfebeb1c5fb182a4f47808ee2d9386c41bd0",
+      "published_sha256": "cfda78dce133d535820411c277ff96c53f5fbbc359b13359eba9510b346ba28c",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/run.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/run.log.txt",
+      "source_sha256": "4a79c8307aa13ce84b9240a1a8144b24e284b722babd150951a8ecad585217be",
+      "published_sha256": "7c68822b4a7f6b910217293d2cee81d0388987235b8b767dba55f14bbf32c780",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/run2.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/run2.log.txt",
+      "source_sha256": "4c7be1fb0ff8d59b6a72ad40c2c05668636d07a266b0d783eabfb0c319d0903b",
+      "published_sha256": "c1d0eaaf233d7303ee373fbf6c3a4955c2e1ffbfbcf64e73ef8c9c0022ec79bc",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/run_state.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/output/run_state.json",
+      "source_sha256": "94858b4ebd9f8377ec01a549807d0f986fffa1353910388c95dec2f59cf8a197",
+      "published_sha256": "94858b4ebd9f8377ec01a549807d0f986fffa1353910388c95dec2f59cf8a197",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/preflight.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/output/preflight.json",
+      "source_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "published_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/gen_00000_cam3.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_gen_00000_cam3.log.txt",
+      "source_sha256": "11a0e67b80727849c2d4dd9871cdeb621c928ef425d982ee99787f131e87209c",
+      "published_sha256": "d1b21fc7786b2d196d83065eb4fce1b23b9b7b9ec877492e23a7fc9b34e9f85e",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/gen_00000_cam4.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_gen_00000_cam4.log.txt",
+      "source_sha256": "b9d23769755f86aebeffe919777a6add45578ee864f4eddc1b5fc3e5e5e3d3c9",
+      "published_sha256": "b54b75bff5c8717fe04a438b48d90d9e89447fbf7add2f95834a51454d613c3a",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/reference.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_reference.log.txt",
+      "source_sha256": "a4709c0af628f059ffd1732ea790fa625cbd3c1d9e565740f6892d27f864778c",
+      "published_sha256": "2fcff2f5c8a25a2b5119320bd90b8be2912476b08d2a73f153616d48b0300bf5",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/summary.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/output_run2/summary.json",
+      "source_sha256": "921f4900cf738d27fefbf0e81039048cf7adc9f21ad14d38b72f58f30b787d51",
+      "published_sha256": "77c8c6ec57dc314c09e740d9ed7e38793205b5fdc1122f03d487dc5e7233dc34",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/run_state.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/output_run2/run_state.json",
+      "source_sha256": "12c98fd1eae019427fba25ae2e3da2e436f89b18af1ccded67418ec3f62b4111",
+      "published_sha256": "12c98fd1eae019427fba25ae2e3da2e436f89b18af1ccded67418ec3f62b4111",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/preflight.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/output_run2/preflight.json",
+      "source_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "published_sha256": "ea215c11cf8a392720935c546749c8fbb8c586a519bf3b1f956aa91186b2a155",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/gen_00000_cam3.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_run2_gen_00000_cam3.log.txt",
+      "source_sha256": "6fdd698e3d4d3829b6e06da649de426d40c72bf76ebb2767284068b27a932b93",
+      "published_sha256": "457944aa8b6882aa43b6d93fea6d454d4610911ceee3cf8807c110f4f9ba08c5",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/gen_00000_cam4.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_run2_gen_00000_cam4.log.txt",
+      "source_sha256": "c9f0d48955db4f5bbb9cddaa50e4cce80e611202045af5f5751c14d6726cbb2f",
+      "published_sha256": "86de64ec3f8026855479a8bbfd4f73a29c4acc8950cf0f93b5702f322eb2578b",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2/reference.log",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/experiment_D/logs/output_run2_reference.log.txt",
+      "source_sha256": "73784a9cce6fb45c1272cd0c8b405c3ec68992a880d916bf1686f6f38b2e8119",
+      "published_sha256": "37f0d5e6969902db3b30d37fb3df607d5ce63f45316ab567ab23ae914cb5f836",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/pipeline.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/pipeline.json",
+      "source_sha256": "5507e3b3babb95fb9b0f5a8147c68cc398f1b84ee793cc0174f831f34f5fbdfa",
+      "published_sha256": "73bd52db86279e662194753e1f5262882c3040840deb765cce24d548cad9c27e",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/pipeline_double_sphere.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/pipeline_double_sphere.json",
+      "source_sha256": "699e9f385c50f3b986e2e97571f5702bba064218d269012d4dd9413259ab60ba",
+      "published_sha256": "cd17088fc91ee1a628a069293ce692ec0c2648962b88d09c118cf8585f30a9cd",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/pipeline_double_sphere_retry_20261030.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/pipeline_double_sphere_retry_20261030.json",
+      "source_sha256": "07a95ad942aa793601069064a30223815f8ce79c248a717a150978af9653b62e",
+      "published_sha256": "87c189c32228b2b7b3e5887aceac92b3c4a3d16c825319c2d6b7af2f72e723c4",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/frames.json",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/frames.json",
+      "source_sha256": "39d802103e6650563566ae54480b143733841b07308259353032faa3bf20a233",
+      "published_sha256": "d357a00aecf79eeeec72e35e13099a1e8ccbd5f1c3f1ca670022b3e4425ce2a3",
+      "redacted": true
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_double_sphere/egosmplx_pipeline/egosmplx_predict.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_double_sphere/egosmplx_pipeline/egosmplx_predict.py",
+      "source_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "published_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_focal407/egosmplx_pipeline/egosmplx_predict.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_focal407/egosmplx_pipeline/egosmplx_predict.py",
+      "source_sha256": "e4694aa05bed6e107327cb47a0d0cbb5d31cb2dcb079b0ab7a5ff91432c189b9",
+      "published_sha256": "e4694aa05bed6e107327cb47a0d0cbb5d31cb2dcb079b0ab7a5ff91432c189b9",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/body_pose.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/body_pose.py",
+      "source_sha256": "4eedd0f26a09ad5662958502e28c897021031a2f602d918e9f82860003e06b68",
+      "published_sha256": "4eedd0f26a09ad5662958502e28c897021031a2f602d918e9f82860003e06b68",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/body_rigid.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/body_rigid.py",
+      "source_sha256": "4ec68f1d5cee2b18e30d0b33904bde3a5a7f4af1b482a7f0933b78a206452a84",
+      "published_sha256": "4ec68f1d5cee2b18e30d0b33904bde3a5a7f4af1b482a7f0933b78a206452a84",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/camera.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/camera.py",
+      "source_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "published_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/egosmplx_predict.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/egosmplx_predict.py",
+      "source_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "published_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/head_anchor.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/head_anchor.py",
+      "source_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "published_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/head_neck.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/head_neck.py",
+      "source_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "published_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/pipeline.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/pipeline.py",
+      "source_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "published_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/contour_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/contour_refine.py",
+      "source_sha256": "c7f3263f4c95e2caefb38c5dd5d3f752655acf101cfe5aae0c5a2887d65f0200",
+      "published_sha256": "c7f3263f4c95e2caefb38c5dd5d3f752655acf101cfe5aae0c5a2887d65f0200",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "source_sha256": "15040aa0ae8832d421f7ae132f5362c850f1671ffaa9cc66093d46aea9fa5977",
+      "published_sha256": "15040aa0ae8832d421f7ae132f5362c850f1671ffaa9cc66093d46aea9fa5977",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/guided_body.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/guided_body.py",
+      "source_sha256": "48fa6c7a52d13baeca91b1501395ec82162fb643ad11da6f51c88d4eb3226dfc",
+      "published_sha256": "48fa6c7a52d13baeca91b1501395ec82162fb643ad11da6f51c88d4eb3226dfc",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/select_candidates.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/select_candidates.py",
+      "source_sha256": "fab8c1c90f06621eb452b1c61a3efbf96d4aa732ff367746ff7498784e30e6eb",
+      "published_sha256": "fab8c1c90f06621eb452b1c61a3efbf96d4aa732ff367746ff7498784e30e6eb",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/support.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/support.py",
+      "source_sha256": "f3c0bbb3c91ac043fcfcf9381e750fbca0cb4b1f65817f98891611adbc4abb89",
+      "published_sha256": "f3c0bbb3c91ac043fcfcf9381e750fbca0cb4b1f65817f98891611adbc4abb89",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/reference/wrist_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/reference/wrist_refine.py",
+      "source_sha256": "9b93ce9e03f0f466678fe60ea044ae263c44ed5c2acf46ed7b8199de031b1d10",
+      "published_sha256": "9b93ce9e03f0f466678fe60ea044ae263c44ed5c2acf46ed7b8199de031b1d10",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/report.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/source_ds_head_anchor/egosmplx_pipeline/report.py",
+      "source_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "published_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/body_pose.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/body_pose.py",
+      "source_sha256": "ac91744409e9a1d451c191b3848549c822a6b171ee9847bac050c7095c6164b8",
+      "published_sha256": "ac91744409e9a1d451c191b3848549c822a6b171ee9847bac050c7095c6164b8",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/body_rigid.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/body_rigid.py",
+      "source_sha256": "4ec68f1d5cee2b18e30d0b33904bde3a5a7f4af1b482a7f0933b78a206452a84",
+      "published_sha256": "4ec68f1d5cee2b18e30d0b33904bde3a5a7f4af1b482a7f0933b78a206452a84",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/camera.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/camera.py",
+      "source_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "published_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/egosmplx_predict.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/egosmplx_predict.py",
+      "source_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "published_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/head_anchor.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/head_anchor.py",
+      "source_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "published_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/head_neck.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/head_neck.py",
+      "source_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "published_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/pipeline.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/pipeline.py",
+      "source_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "published_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/contour_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/contour_refine.py",
+      "source_sha256": "c7f3263f4c95e2caefb38c5dd5d3f752655acf101cfe5aae0c5a2887d65f0200",
+      "published_sha256": "c7f3263f4c95e2caefb38c5dd5d3f752655acf101cfe5aae0c5a2887d65f0200",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "source_sha256": "15040aa0ae8832d421f7ae132f5362c850f1671ffaa9cc66093d46aea9fa5977",
+      "published_sha256": "15040aa0ae8832d421f7ae132f5362c850f1671ffaa9cc66093d46aea9fa5977",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/guided_body.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/guided_body.py",
+      "source_sha256": "48fa6c7a52d13baeca91b1501395ec82162fb643ad11da6f51c88d4eb3226dfc",
+      "published_sha256": "48fa6c7a52d13baeca91b1501395ec82162fb643ad11da6f51c88d4eb3226dfc",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/select_candidates.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/select_candidates.py",
+      "source_sha256": "fab8c1c90f06621eb452b1c61a3efbf96d4aa732ff367746ff7498784e30e6eb",
+      "published_sha256": "fab8c1c90f06621eb452b1c61a3efbf96d4aa732ff367746ff7498784e30e6eb",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/support.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/support.py",
+      "source_sha256": "f3c0bbb3c91ac043fcfcf9381e750fbca0cb4b1f65817f98891611adbc4abb89",
+      "published_sha256": "f3c0bbb3c91ac043fcfcf9381e750fbca0cb4b1f65817f98891611adbc4abb89",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/reference/wrist_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/reference/wrist_refine.py",
+      "source_sha256": "9b93ce9e03f0f466678fe60ea044ae263c44ed5c2acf46ed7b8199de031b1d10",
+      "published_sha256": "9b93ce9e03f0f466678fe60ea044ae263c44ed5c2acf46ed7b8199de031b1d10",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/report.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_C/egosmplx_pipeline/report.py",
+      "source_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "published_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/body_common.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/body_common.py",
+      "source_sha256": "042470c1be73809f113c3867a24dfdedb2ae0d312bb9af2fd334deb9297c0319",
+      "published_sha256": "042470c1be73809f113c3867a24dfdedb2ae0d312bb9af2fd334deb9297c0319",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/body_pose.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/body_pose.py",
+      "source_sha256": "4f5e08a45c840be19248e76a0fc3de2e19d554064b84784427b003d14ce0959f",
+      "published_sha256": "4f5e08a45c840be19248e76a0fc3de2e19d554064b84784427b003d14ce0959f",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/body_rigid.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/body_rigid.py",
+      "source_sha256": "dab257376f36bfb28bc35cb7c05d2d4b718735454d271ac803b9fe2eedc63c83",
+      "published_sha256": "dab257376f36bfb28bc35cb7c05d2d4b718735454d271ac803b9fe2eedc63c83",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/camera.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/camera.py",
+      "source_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "published_sha256": "1ff8c539ca0b73067d8b9328f89634aaa6d6ce817fd9ecd9996d84b124dd5e35",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/egosmplx_predict.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/egosmplx_predict.py",
+      "source_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "published_sha256": "de23be8c1bb24654d390d7dd6236c60b1c5be1f349155da22b844e62dc27a602",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/fusion.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/fusion.py",
+      "source_sha256": "a5190d97de5f7a542d8701e11c628178be3ca33c26cc29ba73f352ab18ffbcc5",
+      "published_sha256": "a5190d97de5f7a542d8701e11c628178be3ca33c26cc29ba73f352ab18ffbcc5",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/head_anchor.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/head_anchor.py",
+      "source_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "published_sha256": "6903d24cb0aa41480db9a42deea6318553e6bc812af859006f580768b870ce96",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/head_neck.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/head_neck.py",
+      "source_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "published_sha256": "4b83c683882648cbf830333ba3d3c0de7abb0f692c1762867c532916f4a9af8a",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/pipeline.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/pipeline.py",
+      "source_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "published_sha256": "e066c7f752aa76cc10302b4f2c5659e89c736001174b003750876545ce935e78",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/contour_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/contour_refine.py",
+      "source_sha256": "105e523c96367a0255808248079128015830af1a9551b9504f48e43f8bf6ee9d",
+      "published_sha256": "105e523c96367a0255808248079128015830af1a9551b9504f48e43f8bf6ee9d",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/contour_refine_strong.py",
+      "source_sha256": "22e9e5ade837255e5db6d9da4b9d11b398b2b399b1510d0edb1f28e143202c70",
+      "published_sha256": "22e9e5ade837255e5db6d9da4b9d11b398b2b399b1510d0edb1f28e143202c70",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/contour_seam.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/contour_seam.py",
+      "source_sha256": "6b0a6fb6bfe41384df95e75a2581f6291aa60d91f1775c8b682a6629022ebdab",
+      "published_sha256": "6b0a6fb6bfe41384df95e75a2581f6291aa60d91f1775c8b682a6629022ebdab",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/finalize.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/finalize.py",
+      "source_sha256": "8b66e941c76a9756b0250d4e9aa61373e88035eb20b5253914db5a295b15dc42",
+      "published_sha256": "8b66e941c76a9756b0250d4e9aa61373e88035eb20b5253914db5a295b15dc42",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/guided_body.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/guided_body.py",
+      "source_sha256": "ef63a28e92865e99164b459daec12704f521729ce8cc2eae9289833c48a01b10",
+      "published_sha256": "ef63a28e92865e99164b459daec12704f521729ce8cc2eae9289833c48a01b10",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/guided_fuse.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/guided_fuse.py",
+      "source_sha256": "2ea7108e7f8f3cb07f9e1d0c4f3603873022f4bfab9b6d0e30a7d691c6bdc8f7",
+      "published_sha256": "2ea7108e7f8f3cb07f9e1d0c4f3603873022f4bfab9b6d0e30a7d691c6bdc8f7",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/select_candidates.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/select_candidates.py",
+      "source_sha256": "48eabfa5548edf5dbd6f6b513693fd55421d7243c89c765bcb76b2b0d865bf46",
+      "published_sha256": "48eabfa5548edf5dbd6f6b513693fd55421d7243c89c765bcb76b2b0d865bf46",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/support.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/support.py",
+      "source_sha256": "f48954dc6a6074f318ea383212e5e6712090c5a0e9435920ac5a2eddbbcebd5c",
+      "published_sha256": "f48954dc6a6074f318ea383212e5e6712090c5a0e9435920ac5a2eddbbcebd5c",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/wrist_refine.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/wrist_refine.py",
+      "source_sha256": "408abbbbbaee57618ec07245a6b3ef94f28eee838bfa970aeb90cb22d8698a27",
+      "published_sha256": "408abbbbbaee57618ec07245a6b3ef94f28eee838bfa970aeb90cb22d8698a27",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/wrist_seam.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/reference/wrist_seam.py",
+      "source_sha256": "c30d522ae55f5f703ee5485a3e12caf2cd8a309cc53bcc7003f09d62562c379a",
+      "published_sha256": "c30d522ae55f5f703ee5485a3e12caf2cd8a309cc53bcc7003f09d62562c379a",
+      "redacted": false
+    },
+    {
+      "source": "EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/report.py",
+      "destination": "experiments/gen_stereo_analysis_20261030_20261103/initial_20261030/source_variants/experiment_D/egosmplx_pipeline/report.py",
+      "source_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "published_sha256": "1c83ec06bb00510d827c23b962d2822900af3def0a3c4bf56f8f5db2c63b26e6",
+      "redacted": false
+    }
+  ],
+  "report_link_adjusted": "two_frame_20261103/report.md",
+  "redaction": "<WORKSPACE> for development-machine root in logs/config/JSON and CSV; historical source code unchanged"
+}

@@ -1,0 +1,133 @@
+{
+  "baseline_source_unchanged": true,
+  "experiments": {
+    "baseline": {
+      "status": "complete",
+      "summary": {
+        "frame_count": 2,
+        "matched_hands": 4,
+        "body_target_count": 20,
+        "hand_target_count": 84,
+        "body_rmse_px": 62.87918990347206,
+        "hand_rmse_px": 15.352992741992477,
+        "all_reload_checks_passed": true,
+        "manual_annotations_used": false,
+        "local_surface_optimizer": true,
+        "pipeline_profile": "mano_guided_original_seam_20260929_v1",
+        "local_surface_pass_count": 1,
+        "local_surface_audited_count": 2,
+        "reference": "Sapiens2 body points / WiLoR hand points; not human ground truth"
+      },
+      "summary_path": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/output_double_sphere_retry_20261030/summary.json",
+      "frames": [
+        {
+          "id": "gen_00000_cam3",
+          "mesh_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/output_double_sphere_retry_20261030/frames/gen_00000_cam3/fused/mesh.npz",
+          "acceptance_json": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/output_double_sphere_retry_20261030/frames/gen_00000_cam3/fused/acceptance.json",
+          "reference_head_center_cam_m": [
+            0.08914842456579208,
+            0.2014261931180954,
+            0.2419710010290146
+          ],
+          "local_surface_accepted": false
+        },
+        {
+          "id": "gen_00000_cam4",
+          "mesh_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/output_double_sphere_retry_20261030/frames/gen_00000_cam4/fused/mesh.npz",
+          "acceptance_json": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/output_double_sphere_retry_20261030/frames/gen_00000_cam4/fused/acceptance.json",
+          "reference_head_center_cam_m": [
+            0.006879943888634443,
+            0.1551968902349472,
+            0.22078552842140198
+          ],
+          "local_surface_accepted": true
+        }
+      ]
+    },
+    "A": {
+      "status": "complete",
+      "summary": {
+        "frame_count": 2,
+        "matched_hands": 4,
+        "body_target_count": 20,
+        "hand_target_count": 84,
+        "body_rmse_px": 178.63708915073127,
+        "hand_rmse_px": 107.4911397884694,
+        "all_reload_checks_passed": true,
+        "manual_annotations_used": false,
+        "local_surface_optimizer": true,
+        "pipeline_profile": "mano_guided_original_seam_20260929_v1",
+        "local_surface_pass_count": 1,
+        "local_surface_audited_count": 2,
+        "reference": "Sapiens2 body points / WiLoR hand points; not human ground truth"
+      },
+      "summary_path": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/summary.json",
+      "frames": [
+        {
+          "id": "gen_00000_cam3",
+          "mesh_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/frames/gen_00000_cam3/fused/mesh.npz",
+          "acceptance_json": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/frames/gen_00000_cam3/fused/acceptance.json",
+          "reference_head_center_cam_m": [
+            -0.004523215349763632,
+            0.17361357808113098,
+            0.2594589293003082
+          ],
+          "local_surface_accepted": true
+        },
+        {
+          "id": "gen_00000_cam4",
+          "mesh_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/frames/gen_00000_cam4/fused/mesh.npz",
+          "acceptance_json": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_A_focal407/output/frames/gen_00000_cam4/fused/acceptance.json",
+          "reference_head_center_cam_m": [
+            1.1499388217926025,
+            0.35466092824935913,
+            1.653932809829712
+          ],
+          "local_surface_accepted": false
+        }
+      ],
+      "execution": {
+        "returncode": 0,
+        "elapsed_seconds": 751.4894530773163,
+        "finish_utc": "2026-10-30T13:11:25.125716+00:00"
+      }
+    },
+    "B": {
+      "status": "failed",
+      "execution": {
+        "returncode": 1,
+        "elapsed_seconds": 309.87532019615173,
+        "finish_utc": "2026-10-30T13:16:44.412502+00:00"
+      },
+      "summary_path": null,
+      "fused_mesh_npz": null,
+      "acceptance_json": null,
+      "reference_head_center_cam_m": null,
+      "exception": "RuntimeError: No feasible refinement candidate",
+      "worker_log": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/gen_00000_cam3.log",
+      "rigid_report": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/frames/gen_00000_cam3/rigid/optimization_report.json",
+      "rigid_head_joint_anchor": {
+        "enabled": true,
+        "joint": "SMPL-X native Head (index 15)",
+        "target_head_joint_cam_m": [
+          0.018,
+          0.139,
+          0.032
+        ],
+        "actual_head_joint_cam_m": [
+          0.022773370146751404,
+          0.1446094512939453,
+          0.05732506513595581
+        ],
+        "head_joint_error_m": 0.026374418107655884,
+        "weight": 0.1,
+        "scale_m": 0.1,
+        "loss": 0.006956098135560751,
+        "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+        "supervision": "user cam3 target; cam4 DFM 20-frame head mean"
+      },
+      "rigid_minimum_vertex_z_m": -0.09462416172027588,
+      "note": "Head joint anchor and rigid head-surface centroid are distinct quantities; no final B results."
+    }
+  }
+}

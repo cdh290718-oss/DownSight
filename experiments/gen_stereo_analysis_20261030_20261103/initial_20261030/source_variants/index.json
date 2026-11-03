@@ -1,0 +1,81 @@
+{
+  "reference_commit": "269ec28d10b779045136b907d1fe2f9ee2acf0f7",
+  "scope": "Python files only; not a standalone working tree",
+  "variants": {
+    "source_double_sphere": {
+      "changed_or_added": [
+        "egosmplx_predict.py"
+      ],
+      "missing_from_snapshot": []
+    },
+    "source_ds_focal407": {
+      "changed_or_added": [
+        "egosmplx_predict.py"
+      ],
+      "missing_from_snapshot": []
+    },
+    "source_ds_head_anchor": {
+      "changed_or_added": [
+        "body_pose.py",
+        "body_rigid.py",
+        "camera.py",
+        "egosmplx_predict.py",
+        "head_anchor.py",
+        "head_neck.py",
+        "pipeline.py",
+        "reference/contour_refine.py",
+        "reference/contour_refine_strong.py",
+        "reference/guided_body.py",
+        "reference/select_candidates.py",
+        "reference/support.py",
+        "reference/wrist_refine.py",
+        "report.py"
+      ],
+      "missing_from_snapshot": []
+    },
+    "experiment_C": {
+      "changed_or_added": [
+        "body_pose.py",
+        "body_rigid.py",
+        "camera.py",
+        "egosmplx_predict.py",
+        "head_anchor.py",
+        "head_neck.py",
+        "pipeline.py",
+        "reference/contour_refine.py",
+        "reference/contour_refine_strong.py",
+        "reference/guided_body.py",
+        "reference/select_candidates.py",
+        "reference/support.py",
+        "reference/wrist_refine.py",
+        "report.py"
+      ],
+      "missing_from_snapshot": []
+    },
+    "experiment_D": {
+      "changed_or_added": [
+        "body_common.py",
+        "body_pose.py",
+        "body_rigid.py",
+        "camera.py",
+        "egosmplx_predict.py",
+        "fusion.py",
+        "head_anchor.py",
+        "head_neck.py",
+        "pipeline.py",
+        "reference/contour_refine.py",
+        "reference/contour_refine_strong.py",
+        "reference/contour_seam.py",
+        "reference/finalize.py",
+        "reference/guided_body.py",
+        "reference/guided_fuse.py",
+        "reference/select_candidates.py",
+        "reference/support.py",
+        "reference/wrist_refine.py",
+        "reference/wrist_seam.py",
+        "report.py"
+      ],
+      "missing_from_snapshot": []
+    }
+  }
+}

@@ -1,0 +1,4 @@
+source_inventory_files_verified: 115
+syntax_json_csv_images_and_relative_links: PASS
+file_types: {".csv": 3, ".json": 33, ".md": 4, ".png": 5, ".py": 53, ".txt": 21}
+scope: read-only historical material inspection; no models or experiments rerun

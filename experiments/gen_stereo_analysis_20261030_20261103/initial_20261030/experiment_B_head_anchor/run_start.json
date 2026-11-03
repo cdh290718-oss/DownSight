@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-u",
+    "-m",
+    "egosmplx_pipeline",
+    "run",
+    "--config",
+    "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/pipeline.json"
+  ],
+  "cwd": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor",
+  "start_utc": "2026-10-30T13:11:34.537945+00:00"
+}

@@ -1,0 +1,11 @@
+{'passed': True, 'frame_count': 2, 'cached_predictions': False, 'scope': 'paths, input sizes, cache image hashes; models are loaded strictly by workers'}
+RUN network.log
+RUN sapiens.log
+RUN network.log
+RUN sapiens.log
+RUN wilor.log
+RUN segmentation.log
+RUN gen_00000_cam3.log
+RUN gen_00000_cam4.log
+RUN reference.log
+<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output_run2

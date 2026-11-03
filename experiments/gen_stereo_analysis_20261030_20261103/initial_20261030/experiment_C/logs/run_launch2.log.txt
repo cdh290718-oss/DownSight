@@ -1,0 +1,25 @@
+{'passed': True, 'frame_count': 2, 'cached_predictions': False, 'scope': 'paths, input sizes, cache image hashes; models are loaded strictly by workers'}
+RUN network.log
+RUN sapiens.log
+RUN network.log
+RUN sapiens.log
+RUN wilor.log
+RUN segmentation.log
+RUN gen_00000_cam3.log
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/__main__.py", line 36, in <module>
+    main()
+    ~~~~^^
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/__main__.py", line 29, in main
+    print(run(args.config, args.cached_predictions, args.resume))
+          ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/pipeline.py", line 149, in run
+    command([config['paths']['body_python'], '-m', 'egosmplx_pipeline.frame', '--job', job_path],
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            output / (row['id'] + '.log'), PACKAGE_ROOT, env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/source/egosmplx_pipeline/pipeline.py", line 23, in command
+    raise RuntimeError('Worker failed; inspect ' + str(log))
+RuntimeError: Worker failed; inspect <WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_C/output/gen_00000_cam3.log

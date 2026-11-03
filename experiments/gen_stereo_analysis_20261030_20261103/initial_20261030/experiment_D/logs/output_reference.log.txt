@@ -1,0 +1,25 @@
+RUN 01_wrist.log
+RUN 02_wrist_active.log
+RUN 03_wrist_surface.log
+RUN 04_contour_standard.log
+RUN 05_contour_strong.log
+RUN 06_select.log
+RUN 07_surface.log
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/pipeline.py", line 211, in <module>
+    main()
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/pipeline.py", line 207, in main
+    run(job['config'], job['rows'], job['output'])
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/pipeline.py", line 198, in run
+    run_workers(config, prepared, output)
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/pipeline.py", line 82, in run_workers
+    execute('finalize', [], '07_surface')
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/reference/pipeline.py", line 67, in execute
+    command([config['paths']['body_python'], '-m',
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/source/egosmplx_pipeline/pipeline.py", line 23, in command
+    raise RuntimeError('Worker failed; inspect ' + str(log))
+RuntimeError: Worker failed; inspect <WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/reference/07_surface.log

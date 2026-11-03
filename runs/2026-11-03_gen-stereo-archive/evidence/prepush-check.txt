@@ -1,0 +1,6 @@
+PASS staged_files 124 (before adding this check record)
+PASS no model/data archives, npz/npy, videos, model weights, patch or env filenames; each file < 50 MB
+PASS known secret patterns and developer paths in reports, logs, JSON and CSV
+PASS no complete local provenance or complete raw output directories; images are selected diagnostic overlays
+PASS no pre-existing unpushed commits; checked this branch against origin/main
+LIMITS pattern scanning is not proof of absence of every secret; prior history not re-audited

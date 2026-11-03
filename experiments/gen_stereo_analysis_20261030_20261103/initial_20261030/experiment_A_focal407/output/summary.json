@@ -1,0 +1,15 @@
+{
+  "frame_count": 2,
+  "matched_hands": 4,
+  "body_target_count": 20,
+  "hand_target_count": 84,
+  "body_rmse_px": 178.63708915073127,
+  "hand_rmse_px": 107.4911397884694,
+  "all_reload_checks_passed": true,
+  "manual_annotations_used": false,
+  "local_surface_optimizer": true,
+  "pipeline_profile": "mano_guided_original_seam_20260929_v1",
+  "local_surface_pass_count": 1,
+  "local_surface_audited_count": 2,
+  "reference": "Sapiens2 body points / WiLoR hand points; not human ground truth"
+}

@@ -1,0 +1,353 @@
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+{
+  "source_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/frames/gen_00000_cam3/raw/params.npz",
+  "image": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/observations/images/gen_00000_cam3.png",
+  "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+  "sapiens2_keypoints": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_B_head_anchor/output/observations/gen_00000_cam3/sapiens/keypoints.json",
+  "optimized_parameters": [
+    "global_orient",
+    "cam_trans"
+  ],
+  "fixed_parameters": [
+    "body_pose",
+    "betas",
+    "left_hand_pose",
+    "right_hand_pose",
+    "jaw_pose",
+    "leye_pose",
+    "reye_pose",
+    "expression"
+  ],
+  "fixed_parameters_bitwise_equal": true,
+  "network_was_rerun": false,
+  "manual_labels_used_for_optimization": false,
+  "dataset_head_anchor_used": true,
+  "head_joint_anchor": {
+    "enabled": true,
+    "joint": "SMPL-X native Head (index 15)",
+    "target_head_joint_cam_m": [
+      0.018,
+      0.139,
+      0.032
+    ],
+    "actual_head_joint_cam_m": [
+      0.022773370146751404,
+      0.1446094512939453,
+      0.05732506513595581
+    ],
+    "head_joint_error_m": 0.026374418107655884,
+    "weight": 0.1,
+    "scale_m": 0.1,
+    "loss": 0.006956098135560751,
+    "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+    "supervision": "user cam3 target; cam4 DFM 20-frame head mean"
+  },
+  "score_threshold": 0.3,
+  "score_weight": "clip(score,0,1)^2; scores are not calibrated visibility probabilities",
+  "selected": [
+    {
+      "name": "left_shoulder",
+      "model_name": "L_Shoulder",
+      "index": 8,
+      "x": 523.3845687786322,
+      "y": 682.9507382931517,
+      "score": 0.41796875
+    },
+    {
+      "name": "right_shoulder",
+      "model_name": "R_Shoulder",
+      "index": 9,
+      "x": 1054.104553542212,
+      "y": 689.0636363442768,
+      "score": 0.4765625
+    },
+    {
+      "name": "left_elbow",
+      "model_name": "L_Elbow",
+      "index": 10,
+      "x": 657.6460625613547,
+      "y": 488.1867802407812,
+      "score": 0.7109375
+    },
+    {
+      "name": "right_elbow",
+      "model_name": "R_Elbow",
+      "index": 11,
+      "x": 1059.216807100785,
+      "y": 609.2629092005245,
+      "score": 0.78125
+    },
+    {
+      "name": "left_wrist",
+      "model_name": "L_Wrist",
+      "index": 12,
+      "x": 790.0740730325588,
+      "y": 264.07246076718866,
+      "score": 0.8046875
+    },
+    {
+      "name": "right_wrist",
+      "model_name": "R_Wrist",
+      "index": 13,
+      "x": 1023.9525472431283,
+      "y": 340.4691337107297,
+      "score": 0.8203125
+    },
+    {
+      "name": "left_hip",
+      "model_name": "L_Hip",
+      "index": 1,
+      "x": 789.1314473576572,
+      "y": 489.8719568513334,
+      "score": 0.462890625
+    },
+    {
+      "name": "right_hip",
+      "model_name": "R_Hip",
+      "index": 2,
+      "x": 910.8687827225128,
+      "y": 510.3193876481232,
+      "score": 0.53125
+    },
+    {
+      "name": "left_knee",
+      "model_name": "L_Knee",
+      "index": 3,
+      "x": 732.3849215682262,
+      "y": 441.80465884835394,
+      "score": 0.33203125
+    }
+  ],
+  "excluded": [
+    {
+      "name": "nose",
+      "prediction": {
+        "index": 0,
+        "name": "nose",
+        "x": 1004.8682918848169,
+        "y": 705.1970865049784,
+        "score": 0.267578125,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, outside image, or below score threshold"
+    },
+    {
+      "name": "right_knee",
+      "prediction": {
+        "index": 12,
+        "name": "right_knee",
+        "x": 881.4256150809881,
+        "y": 455.4211309596458,
+        "score": 0.279296875,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, outside image, or below score threshold"
+    },
+    {
+      "name": "left_ankle",
+      "prediction": {
+        "index": 13,
+        "name": "left_ankle",
+        "x": 765.511353178174,
+        "y": 445.62282659485936,
+        "score": 0.244140625,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, outside image, or below score threshold"
+    },
+    {
+      "name": "right_ankle",
+      "prediction": {
+        "index": 14,
+        "name": "right_ankle",
+        "x": 874.4685659358638,
+        "y": 452.9798524580019,
+        "score": 0.18359375,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, outside image, or below score threshold"
+    }
+  ],
+  "initial_cam_trans_m": [
+    -0.02943969890475273,
+    0.5677055716514587,
+    0.6246265172958374
+  ],
+  "optimized_cam_trans_m": [
+    0.08976239711046219,
+    0.8319166302680969,
+    0.5503285527229309
+  ],
+  "initial_global_orient": [
+    [
+      0.011296605691313744,
+      2.0713109970092773,
+      -2.157989978790283
+    ]
+  ],
+  "optimized_global_orient": [
+    [
+      -0.662000298500061,
+      1.4371129274368286,
+      -2.54343843460083
+    ]
+  ],
+  "global_orient_delta_deg": 38.435855865478516,
+  "source_reconstruction_max_abs_m": {
+    "mesh": 0.0,
+    "joints": 5.960464477539063e-08
+  },
+  "source_reconstruction_tolerance_m": 0.001,
+  "optimization_device": "cpu",
+  "saved_parameter_regeneration_max_abs_m": 4.172325134277344e-07,
+  "saved_parameter_regeneration_max_abs_px": 0.0008544921875,
+  "source_npz_sha256": "05962376c5be053b1c6c4f20d2bd85b289429e161a799dcfe3140eb984c8e8c4",
+  "raw_to_sapiens2": {
+    "rmse_px": 255.99917602539062,
+    "mean_px": 246.89794921875,
+    "median_px": 229.9805908203125
+  },
+  "optimized_to_sapiens2": {
+    "rmse_px": 188.89744567871094,
+    "mean_px": 153.381103515625,
+    "median_px": 93.76731872558594
+  },
+  "history": [
+    {
+      "step": 0,
+      "loss": 0.2307540476322174,
+      "reprojection": 0.18793722987174988
+    },
+    {
+      "step": 100,
+      "loss": 0.14556685090065002,
+      "reprojection": 0.11270357668399811
+    },
+    {
+      "step": 200,
+      "loss": 0.10538621991872787,
+      "reprojection": 0.08143175393342972
+    },
+    {
+      "step": 300,
+      "loss": 0.09681384265422821,
+      "reprojection": 0.07586069405078888
+    },
+    {
+      "step": 400,
+      "loss": 0.09217826277017593,
+      "reprojection": 0.07173710316419601
+    },
+    {
+      "step": 500,
+      "loss": 0.09209709614515305,
+      "reprojection": 0.07192596793174744
+    },
+    {
+      "step": 600,
+      "loss": 0.09209708124399185,
+      "reprojection": 0.07192680239677429
+    },
+    {
+      "step": 700,
+      "loss": 0.0921192392706871,
+      "reprojection": 0.07198826223611832
+    },
+    {
+      "step": 800,
+      "loss": 0.09209710359573364,
+      "reprojection": 0.07192660868167877
+    },
+    {
+      "step": 900,
+      "loss": 0.09209748357534409,
+      "reprojection": 0.07192368060350418
+    },
+    {
+      "step": 1000,
+      "loss": 0.09209715574979782,
+      "reprojection": 0.0719284638762474
+    },
+    {
+      "step": 1100,
+      "loss": 0.09209713339805603,
+      "reprojection": 0.07192636281251907
+    },
+    {
+      "step": 1200,
+      "loss": 0.09209971874952316,
+      "reprojection": 0.07194410264492035
+    },
+    {
+      "step": 1300,
+      "loss": 0.09211127460002899,
+      "reprojection": 0.07190731167793274
+    },
+    {
+      "step": 1400,
+      "loss": 0.09212979674339294,
+      "reprojection": 0.07190868258476257
+    },
+    {
+      "step": 1500,
+      "loss": 0.09209791570901871,
+      "reprojection": 0.07193480432033539
+    },
+    {
+      "step": 1600,
+      "loss": 0.09209711104631424,
+      "reprojection": 0.07192706316709518
+    },
+    {
+      "step": 1700,
+      "loss": 0.09209718555212021,
+      "reprojection": 0.07192915678024292
+    },
+    {
+      "step": 1800,
+      "loss": 0.09209717065095901,
+      "reprojection": 0.0719284936785698
+    }
+  ],
+  "minimum_vertex_z_m": -0.09462416172027588,
+  "geometry_convention": "SMPL-X vertices/joints include global orientation; add transl; rotate about SMPL-X pelvis",
+  "preserved_network_fields": "Fields containing network or model_output and positionnet are original inference diagnostics"
+}
+automatic {'step': 0, 'loss': 0.8956705927848816, 'reprojection': 0.11215537041425705, 'feasible': False, 'minimum_z_m': -0.09462416172027588}
+automatic {'step': 100, 'loss': 0.3365279734134674, 'reprojection': 0.09348825365304947, 'feasible': False, 'minimum_z_m': -0.006517946720123291}
+automatic {'step': 200, 'loss': 0.3053164780139923, 'reprojection': 0.08566372841596603, 'feasible': False, 'minimum_z_m': -0.002830028533935547}
+automatic {'step': 300, 'loss': 0.29399609565734863, 'reprojection': 0.0784016028046608, 'feasible': False, 'minimum_z_m': -0.0036186575889587402}
+automatic {'step': 400, 'loss': 0.28558629751205444, 'reprojection': 0.07356712967157364, 'feasible': False, 'minimum_z_m': -0.0027008056640625}
+automatic {'step': 500, 'loss': 0.27862006425857544, 'reprojection': 0.07225082814693451, 'feasible': False, 'minimum_z_m': -0.0009049773216247559}
+automatic {'step': 600, 'loss': 0.27573585510253906, 'reprojection': 0.07085967808961868, 'feasible': False, 'minimum_z_m': -0.0006437301635742188}
+automatic {'step': 700, 'loss': 0.27429455518722534, 'reprojection': 0.0698191225528717, 'feasible': False, 'minimum_z_m': -0.0004469752311706543}
+automatic {'step': 800, 'loss': 0.2733270823955536, 'reprojection': 0.06871906667947769, 'feasible': False, 'minimum_z_m': -4.9173831939697266e-05}
+automatic {'step': 900, 'loss': 0.27255862951278687, 'reprojection': 0.06713199615478516, 'feasible': False, 'minimum_z_m': -0.0004404783248901367}
+automatic {'step': 1000, 'loss': 0.2718472480773926, 'reprojection': 0.06564770638942719, 'feasible': False, 'minimum_z_m': -0.000632166862487793}
+automatic {'step': 1100, 'loss': 0.27120837569236755, 'reprojection': 0.06418959051370621, 'feasible': False, 'minimum_z_m': -0.0009002089500427246}
+automatic {'step': 1200, 'loss': 0.27065718173980713, 'reprojection': 0.06275559961795807, 'feasible': False, 'minimum_z_m': -0.0010089874267578125}
+automatic {'step': 1300, 'loss': 0.270191490650177, 'reprojection': 0.062008049339056015, 'feasible': False, 'minimum_z_m': -0.0010582208633422852}
+automatic {'step': 1400, 'loss': 0.26979881525039673, 'reprojection': 0.061430513858795166, 'feasible': False, 'minimum_z_m': -0.0009502172470092773}
+automatic {'step': 1500, 'loss': 0.26946884393692017, 'reprojection': 0.06092729791998863, 'feasible': False, 'minimum_z_m': -0.0011048316955566406}
+automatic {'step': 1600, 'loss': 0.2691567540168762, 'reprojection': 0.06051317974925041, 'feasible': False, 'minimum_z_m': -0.0010414719581604004}
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/frame.py", line 140, in <module>
+    main()
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/frame.py", line 136, in main
+    run(job['config'], job['row'], Path(job['output']))
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/frame.py", line 65, in run
+    invoke(body_pose.main, common + ['--source-npz', output / 'rigid/optimized_params.npz',
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/frame.py", line 27, in invoke
+    function()
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/body_pose.py", line 215, in main
+    automatic = fit('automatic', auto_xy)
+  File "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/source_ds_head_anchor/egosmplx_pipeline/body_pose.py", line 162, in fit
+    raise RuntimeError('No feasible refinement candidate')
+RuntimeError: No feasible refinement candidate

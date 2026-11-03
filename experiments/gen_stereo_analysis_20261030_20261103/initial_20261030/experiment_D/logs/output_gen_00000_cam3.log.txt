@@ -1,0 +1,384 @@
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+{
+  "source_npz": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/frames/gen_00000_cam3/raw/params.npz",
+  "image": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/observations/images/gen_00000_cam3.png",
+  "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+  "sapiens2_keypoints": "<WORKSPACE>/EgoFishPose/experiments/gen_egosmplx_two_frames_20261030/experiment_D/output/observations/gen_00000_cam3/sapiens/keypoints.json",
+  "optimized_parameters": [
+    "global_orient",
+    "cam_trans"
+  ],
+  "fixed_parameters": [
+    "body_pose",
+    "betas",
+    "left_hand_pose",
+    "right_hand_pose",
+    "jaw_pose",
+    "leye_pose",
+    "reye_pose",
+    "expression"
+  ],
+  "fixed_parameters_bitwise_equal": true,
+  "network_was_rerun": false,
+  "manual_labels_used_for_optimization": false,
+  "dataset_head_anchor_used": true,
+  "head_joint_anchor": {
+    "enabled": true,
+    "joint": "SMPL-X native Head (index 15)",
+    "target_head_joint_cam_m": [
+      0.018,
+      0.139,
+      0.032
+    ],
+    "actual_head_joint_cam_m": [
+      0.02146986313164234,
+      0.13592535257339478,
+      0.03685635328292847
+    ],
+    "head_joint_error_m": 0.006713983479192595,
+    "weight": 0.1,
+    "scale_m": 0.1,
+    "loss": 0.00045077555114403367,
+    "calibration": "<WORKSPACE>/gen_egosmplx_run/calibration/gen_cam2_virtual_cam3.egosmplx.json",
+    "supervision": "user cam3 target; cam4 DFM 20-frame head mean"
+  },
+  "score_threshold": 0.3,
+  "score_weight": "clip(score,0,1)^2; scores are not calibrated visibility probabilities",
+  "selected": [
+    {
+      "name": "left_elbow",
+      "model_name": "L_Elbow",
+      "index": 10,
+      "x": 657.6460625613547,
+      "y": 488.1867802407812,
+      "score": 0.7109375
+    },
+    {
+      "name": "right_elbow",
+      "model_name": "R_Elbow",
+      "index": 11,
+      "x": 1059.216807100785,
+      "y": 609.2629092005245,
+      "score": 0.78125
+    },
+    {
+      "name": "left_wrist",
+      "model_name": "L_Wrist",
+      "index": 12,
+      "x": 790.0740730325588,
+      "y": 264.07246076718866,
+      "score": 0.8046875
+    },
+    {
+      "name": "right_wrist",
+      "model_name": "R_Wrist",
+      "index": 13,
+      "x": 1023.9525472431283,
+      "y": 340.4691337107297,
+      "score": 0.8203125
+    }
+  ],
+  "excluded": [
+    {
+      "name": "nose",
+      "prediction": {
+        "index": 0,
+        "name": "nose",
+        "x": 1004.8682918848169,
+        "y": 705.1970865049784,
+        "score": 0.267578125,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "left_shoulder",
+      "prediction": {
+        "index": 5,
+        "name": "left_shoulder",
+        "x": 523.3845687786322,
+        "y": 682.9507382931517,
+        "score": 0.41796875,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "right_shoulder",
+      "prediction": {
+        "index": 6,
+        "name": "right_shoulder",
+        "x": 1054.104553542212,
+        "y": 689.0636363442768,
+        "score": 0.4765625,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "left_hip",
+      "prediction": {
+        "index": 9,
+        "name": "left_hip",
+        "x": 789.1314473576572,
+        "y": 489.8719568513334,
+        "score": 0.462890625,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "right_hip",
+      "prediction": {
+        "index": 10,
+        "name": "right_hip",
+        "x": 910.8687827225128,
+        "y": 510.3193876481232,
+        "score": 0.53125,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "left_knee",
+      "prediction": {
+        "index": 11,
+        "name": "left_knee",
+        "x": 732.3849215682262,
+        "y": 441.80465884835394,
+        "score": 0.33203125,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "right_knee",
+      "prediction": {
+        "index": 12,
+        "name": "right_knee",
+        "x": 881.4256150809881,
+        "y": 455.4211309596458,
+        "score": 0.279296875,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "left_ankle",
+      "prediction": {
+        "index": 13,
+        "name": "left_ankle",
+        "x": 765.511353178174,
+        "y": 445.62282659485936,
+        "score": 0.244140625,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    },
+    {
+      "name": "right_ankle",
+      "prediction": {
+        "index": 14,
+        "name": "right_ankle",
+        "x": 874.4685659358638,
+        "y": 452.9798524580019,
+        "score": 0.18359375,
+        "inside_image": true
+      },
+      "reason": "missing, nonfinite, near image edge, excluded lower-body joint, or below score threshold"
+    }
+  ],
+  "initial_cam_trans_m": [
+    -0.02943969890475273,
+    0.5677055716514587,
+    0.6246265172958374
+  ],
+  "optimized_cam_trans_m": [
+    -0.0022552439477294683,
+    0.8443669080734253,
+    0.5194969773292542
+  ],
+  "initial_global_orient": [
+    [
+      0.011296605691313744,
+      2.0713109970092773,
+      -2.157989978790283
+    ]
+  ],
+  "optimized_global_orient": [
+    [
+      -0.4414774775505066,
+      1.3221797943115234,
+      -2.5558738708496094
+    ]
+  ],
+  "global_orient_delta_deg": 37.481201171875,
+  "source_reconstruction_max_abs_m": {
+    "mesh": 0.0,
+    "joints": 5.960464477539063e-08
+  },
+  "source_reconstruction_tolerance_m": 0.001,
+  "optimization_device": "cpu",
+  "saved_parameter_regeneration_max_abs_m": 4.76837158203125e-07,
+  "saved_parameter_regeneration_max_abs_px": 0.00042724609375,
+  "source_npz_sha256": "05962376c5be053b1c6c4f20d2bd85b289429e161a799dcfe3140eb984c8e8c4",
+  "raw_to_sapiens2": {
+    "rmse_px": 307.5322265625,
+    "mean_px": 301.7161865234375,
+    "median_px": 295.24627685546875
+  },
+  "optimized_to_sapiens2": {
+    "rmse_px": 77.76107025146484,
+    "mean_px": 59.8717155456543,
+    "median_px": 50.00082015991211
+  },
+  "history": [
+    {
+      "step": 0,
+      "loss": 0.24325665831565857,
+      "reprojection": 0.21998289227485657
+    },
+    {
+      "step": 100,
+      "loss": 0.11770164966583252,
+      "reprojection": 0.07863898575305939
+    },
+    {
+      "step": 200,
+      "loss": 0.054067350924015045,
+      "reprojection": 0.049168918281793594
+    },
+    {
+      "step": 300,
+      "loss": 0.036542780697345734,
+      "reprojection": 0.0341147743165493
+    },
+    {
+      "step": 400,
+      "loss": 0.024901894852519035,
+      "reprojection": 0.02393769845366478
+    },
+    {
+      "step": 500,
+      "loss": 0.02324843779206276,
+      "reprojection": 0.022792847827076912
+    },
+    {
+      "step": 600,
+      "loss": 0.023215219378471375,
+      "reprojection": 0.02269660495221615
+    },
+    {
+      "step": 700,
+      "loss": 0.02321510761976242,
+      "reprojection": 0.022692881524562836
+    },
+    {
+      "step": 800,
+      "loss": 0.023215122520923615,
+      "reprojection": 0.02269282378256321
+    },
+    {
+      "step": 900,
+      "loss": 0.023215124383568764,
+      "reprojection": 0.022692814469337463
+    },
+    {
+      "step": 1000,
+      "loss": 0.023215120658278465,
+      "reprojection": 0.02269280143082142
+    },
+    {
+      "step": 1100,
+      "loss": 0.023215128108859062,
+      "reprojection": 0.022692803293466568
+    },
+    {
+      "step": 1200,
+      "loss": 0.02322045899927616,
+      "reprojection": 0.02268596738576889
+    },
+    {
+      "step": 1300,
+      "loss": 0.023219386115670204,
+      "reprojection": 0.022687878459692
+    },
+    {
+      "step": 1400,
+      "loss": 0.023218896239995956,
+      "reprojection": 0.02268635854125023
+    },
+    {
+      "step": 1500,
+      "loss": 0.023219279944896698,
+      "reprojection": 0.022686179727315903
+    },
+    {
+      "step": 1600,
+      "loss": 0.023219259455800056,
+      "reprojection": 0.022685959935188293
+    },
+    {
+      "step": 1700,
+      "loss": 0.0232190303504467,
+      "reprojection": 0.022686131298542023
+    },
+    {
+      "step": 1800,
+      "loss": 0.023219209164381027,
+      "reprojection": 0.022685715928673744
+    }
+  ],
+  "minimum_vertex_z_m": -0.11392802000045776,
+  "geometry_convention": "SMPL-X vertices/joints include global orientation; add transl; rotate about SMPL-X pelvis",
+  "preserved_network_fields": "Fields containing network or model_output and positionnet are original inference diagnostics"
+}
+automatic {'step': 0, 'loss': 0.025703802704811096, 'reprojection': 0.02525302767753601, 'feasible': True, 'minimum_z_m': -0.11392802000045776, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3233106732368469, 0.31715890765190125], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.030443161725997925, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 100, 'loss': 0.0014743804931640625, 'reprojection': 0.0010076273465529084, 'feasible': True, 'minimum_z_m': -0.11382758617401123, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.32696497440338135, 0.3481080234050751], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.02989596128463745, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 200, 'loss': 0.0002748465340118855, 'reprojection': 1.5123481134082795e-08, 'feasible': True, 'minimum_z_m': -0.1161876916885376, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3144620358943939, 0.3475624620914459], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029883742332458496, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 300, 'loss': 0.000274194055236876, 'reprojection': 7.802849921745292e-09, 'feasible': True, 'minimum_z_m': -0.11616891622543335, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3141750991344452, 0.3471487760543823], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029885470867156982, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 400, 'loss': 0.000273540907073766, 'reprojection': 7.888060871152902e-09, 'feasible': True, 'minimum_z_m': -0.1161680817604065, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3137379586696625, 0.34662818908691406], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029885470867156982, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 500, 'loss': 0.0002813268802128732, 'reprojection': 6.881125955260359e-06, 'feasible': True, 'minimum_z_m': -0.11626577377319336, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.31319984793663025, 0.3460879325866699], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029783010482788086, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 600, 'loss': 0.00028262261184863746, 'reprojection': 8.462779078399763e-06, 'feasible': True, 'minimum_z_m': -0.1160578727722168, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.31282082200050354, 0.3454243242740631], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.030010223388671875, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 700, 'loss': 0.0002723964280448854, 'reprojection': 5.931017881266598e-07, 'feasible': True, 'minimum_z_m': -0.116199791431427, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.31215620040893555, 0.34483373165130615], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.02984774112701416, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 800, 'loss': 0.0002714925794862211, 'reprojection': 2.4158703126886394e-07, 'feasible': True, 'minimum_z_m': -0.11619436740875244, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3115788698196411, 0.34419605135917664], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029852867126464844, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 900, 'loss': 0.0002706352970562875, 'reprojection': 1.8764957587791287e-08, 'feasible': True, 'minimum_z_m': -0.11615830659866333, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.31099507212638855, 0.3435207009315491], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029890745878219604, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1000, 'loss': 0.00027219386538490653, 'reprojection': 1.7212371403729776e-06, 'feasible': True, 'minimum_z_m': -0.1162063479423523, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.31033021211624146, 0.34284645318984985], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029832839965820312, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1100, 'loss': 0.00027848928584717214, 'reprojection': 7.102800736902282e-06, 'feasible': True, 'minimum_z_m': -0.11604887247085571, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3098207116127014, 0.342153936624527], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.030014514923095703, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1200, 'loss': 0.00027032115031033754, 'reprojection': 8.379693099413998e-07, 'feasible': True, 'minimum_z_m': -0.1161963939666748, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.30904027819633484, 0.34145376086235046], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029846251010894775, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1300, 'loss': 0.0002695942239370197, 'reprojection': 5.786154133602395e-07, 'feasible': True, 'minimum_z_m': -0.11618435382843018, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.30839109420776367, 0.3407517969608307], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.02985405921936035, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1400, 'loss': 0.0002765194221865386, 'reprojection': 6.4832629504962824e-06, 'feasible': True, 'minimum_z_m': -0.11604738235473633, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.30784615874290466, 0.34005042910575867], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.03001159429550171, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1500, 'loss': 0.0002859800006262958, 'reprojection': 1.5526309653068893e-05, 'feasible': True, 'minimum_z_m': -0.11627435684204102, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.3069937825202942, 0.3393668532371521], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.029758960008621216, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+automatic {'step': 1600, 'loss': 0.00026785751106217504, 'reprojection': 7.153971637308132e-08, 'feasible': True, 'minimum_z_m': -0.11614423990249634, 'head_guard_passed': True, 'wrist_guard_passed': True, 'body_depth_passed': True, 'head_guard_max_violation': -1.0, 'head_guard_tolerance': 1e-05, 'wrist_camera_distance_m': [0.306450217962265, 0.33865976333618164], 'wrist_floor_m': [0.15000000596046448, 0.15000000596046448], 'body_minimum_z_m': 0.02988821268081665, 'required_body_minimum_z_m': 0.02, 'distance_tolerance_m': 1e-06}
+AUTOMATIC_ONLY {
+  "rigid_shared_input": {
+    "against_sapiens2": {
+      "rmse_px": 77.76107025146484,
+      "mean_px": 59.8717155456543,
+      "median_px": 50.00082015991211,
+      "per_joint_px": {
+        "left_elbow": 135.42837524414062,
+        "right_elbow": 4.05683708190918,
+        "left_wrist": 70.36829376220703,
+        "right_wrist": 29.63334846496582
+      }
+    }
+  },
+  "automatic_stage2": {
+    "against_sapiens2": {
+      "rmse_px": 0.016538450494408607,
+      "mean_px": 0.016193967312574387,
+      "median_px": 0.0144955450668931,
+      "per_joint_px": {
+        "left_elbow": 0.014228655025362968,
+        "right_elbow": 0.014762435108423233,
+        "left_wrist": 0.013804473914206028,
+        "right_wrist": 0.02198030613362789
+      }
+    }
+  }
+}
+FRAME_COMPLETE gen_00000_cam3 0.016538450494408607 16.00216858541059
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(

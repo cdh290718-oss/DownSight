@@ -1,0 +1,20 @@
+{
+  "0": {
+    "independent_cv2_dlt_reference_max_error_m": 1.0141577410742285e-14,
+    "original_dfm_uv_reprojection_max_error_px": [
+      0.0,
+      0.0
+    ],
+    "image_hashes_match_sapiens": true
+  },
+  "270": {
+    "independent_cv2_dlt_reference_max_error_m": 1.5562662873505405e-14,
+    "original_dfm_uv_reprojection_max_error_px": [
+      0.0,
+      0.0
+    ],
+    "image_hashes_match_sapiens": true
+  },
+  "C_max_reproject_difference_vs_saved_px": 6.754312949547092e-05,
+  "limitations": "Synthetic consistency checks reuse DFM-derived relative pose and do not independently validate calibration or ground truth."
+}

@@ -1,0 +1,6 @@
+usage: sapiens_pose.py [-h] --repo-root REPO_ROOT
+                       [--dependencies DEPENDENCIES] --checkpoint CHECKPOINT
+                       --checkpoint-sha256 CHECKPOINT_SHA256 --image IMAGE
+                       --output-dir OUTPUT_DIR [--size {1b,5b}]
+                       [--bbox BBOX BBOX BBOX BBOX]
+sapiens_pose.py: error: the following arguments are required: --image
