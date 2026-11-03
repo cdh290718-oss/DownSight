@@ -115,4 +115,4 @@ head_center_cam2_m = [ 0.028508,  0.020231, -0.072616]
 - 深度误差的左右腕表现不一致；消融是一次固定权重的单次运行，不是多随机种子或显著性检验。2D 检测左右手身份、遮挡和手指对应仍可能出错。
 - 叠加图是顶点点云而非遮挡正确的网格渲染，不能单凭点云评价近场表面遮挡。
 
-完整可复现结果：[metrics_v3.json](metrics_v3.json)、[无标注观测](observations.npz)、[标定](camera_calibration.json)、[优化器](optimizer_v2.py)、[评测脚本](evaluate_v2.py) 和 [逐帧扩展评测](stability_report_v1.py)。
+实验材料：[metrics_v3.json](metrics_v3.json)、[标定](camera_calibration.json)、[优化器](optimizer_v2.py)、[评测脚本](evaluate_v2.py) 和 [逐帧扩展评测](stability_report_v1.py)。无标注观测、网络初始化、DFM 参考数据、模型及运行环境仍保存在原开发机，未包含在仓库中；目前不能仅凭此目录完整复现。详见 [实验说明](README.md)。
