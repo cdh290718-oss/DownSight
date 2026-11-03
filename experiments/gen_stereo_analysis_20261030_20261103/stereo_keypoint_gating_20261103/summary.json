@@ -1,0 +1,334 @@
+{
+  "frames": [
+    0,
+    270,
+    540,
+    810,
+    1080,
+    1350,
+    1620,
+    1890,
+    2160,
+    2430,
+    2700,
+    2970,
+    3240,
+    3510,
+    3780,
+    4050,
+    4320,
+    4590,
+    4860,
+    5130
+  ],
+  "scope": [
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle",
+    "left_big_toe",
+    "left_small_toe",
+    "left_heel",
+    "right_big_toe",
+    "right_small_toe",
+    "right_heel",
+    "right_thumb4",
+    "right_thumb3",
+    "right_thumb2",
+    "right_thumb_third_joint",
+    "right_forefinger4",
+    "right_forefinger3",
+    "right_forefinger2",
+    "right_forefinger_third_joint",
+    "right_middle_finger4",
+    "right_middle_finger3",
+    "right_middle_finger2",
+    "right_middle_finger_third_joint",
+    "right_ring_finger4",
+    "right_ring_finger3",
+    "right_ring_finger2",
+    "right_ring_finger_third_joint",
+    "right_pinky_finger4",
+    "right_pinky_finger3",
+    "right_pinky_finger2",
+    "right_pinky_finger_third_joint",
+    "right_wrist",
+    "left_thumb4",
+    "left_thumb3",
+    "left_thumb2",
+    "left_thumb_third_joint",
+    "left_forefinger4",
+    "left_forefinger3",
+    "left_forefinger2",
+    "left_forefinger_third_joint",
+    "left_middle_finger4",
+    "left_middle_finger3",
+    "left_middle_finger2",
+    "left_middle_finger_third_joint",
+    "left_ring_finger4",
+    "left_ring_finger3",
+    "left_ring_finger2",
+    "left_ring_finger_third_joint",
+    "left_pinky_finger4",
+    "left_pinky_finger3",
+    "left_pinky_finger2",
+    "left_pinky_finger_third_joint",
+    "left_wrist"
+  ],
+  "counts": {
+    "stereo_3d": 724,
+    "2d_only": 28,
+    "discard": 408
+  },
+  "old_views": 505,
+  "new_views": 1495,
+  "added": 1086,
+  "removed": 96,
+  "wrist": [
+    {
+      "frame": 0,
+      "joint": "left_wrist",
+      "before_cm": 2.278480821246489,
+      "after_cm": 2.2744299281044746
+    },
+    {
+      "frame": 0,
+      "joint": "right_wrist",
+      "before_cm": 1.947772496442597,
+      "after_cm": 1.8415370212776627
+    },
+    {
+      "frame": 270,
+      "joint": "left_wrist",
+      "before_cm": 2.1759713166045076,
+      "after_cm": 2.1747988446359066
+    },
+    {
+      "frame": 540,
+      "joint": "left_wrist",
+      "before_cm": 3.298286748530546,
+      "after_cm": 3.3906787259199906
+    },
+    {
+      "frame": 540,
+      "joint": "right_wrist",
+      "before_cm": 1.5281813530431116,
+      "after_cm": 1.5555473138036233
+    },
+    {
+      "frame": 810,
+      "joint": "left_wrist",
+      "before_cm": 2.7886480019008664,
+      "after_cm": 2.8659150984737805
+    },
+    {
+      "frame": 810,
+      "joint": "right_wrist",
+      "before_cm": 1.8260782793551673,
+      "after_cm": 1.8340348254108871
+    },
+    {
+      "frame": 1080,
+      "joint": "left_wrist",
+      "before_cm": 4.290711281017178,
+      "after_cm": 4.316279972354511
+    },
+    {
+      "frame": 1080,
+      "joint": "right_wrist",
+      "before_cm": 1.7111693670563983,
+      "after_cm": 1.7411230431583662
+    },
+    {
+      "frame": 1350,
+      "joint": "left_wrist",
+      "before_cm": 2.5301347227916633,
+      "after_cm": 2.5527892280212914
+    },
+    {
+      "frame": 1350,
+      "joint": "right_wrist",
+      "before_cm": 1.7690586924275578,
+      "after_cm": 1.7675731356562867
+    },
+    {
+      "frame": 1620,
+      "joint": "left_wrist",
+      "before_cm": 1.5602133264883773,
+      "after_cm": 1.6041592637150401
+    },
+    {
+      "frame": 1620,
+      "joint": "right_wrist",
+      "before_cm": 2.793884282350998,
+      "after_cm": 2.728721163243391
+    },
+    {
+      "frame": 1890,
+      "joint": "left_wrist",
+      "before_cm": 4.213022287936775,
+      "after_cm": 4.297619546542608
+    },
+    {
+      "frame": 1890,
+      "joint": "right_wrist",
+      "before_cm": 2.7370504221395815,
+      "after_cm": 2.6962035980694186
+    },
+    {
+      "frame": 2160,
+      "joint": "left_wrist",
+      "before_cm": 1.3825392486462222,
+      "after_cm": 1.4101449740204528
+    },
+    {
+      "frame": 2160,
+      "joint": "right_wrist",
+      "before_cm": 2.0012340492147818,
+      "after_cm": 1.9902501543805555
+    },
+    {
+      "frame": 2430,
+      "joint": "left_wrist",
+      "before_cm": 3.6848680107497125,
+      "after_cm": 3.7112390288490475
+    },
+    {
+      "frame": 2430,
+      "joint": "right_wrist",
+      "before_cm": 3.1199060826963736,
+      "after_cm": 2.986451230892581
+    },
+    {
+      "frame": 2700,
+      "joint": "left_wrist",
+      "before_cm": 2.7891164381293763,
+      "after_cm": 2.9454229974910264
+    },
+    {
+      "frame": 2700,
+      "joint": "right_wrist",
+      "before_cm": 2.062146519313719,
+      "after_cm": 2.043994943777867
+    },
+    {
+      "frame": 2970,
+      "joint": "left_wrist",
+      "before_cm": 1.6731641650272397,
+      "after_cm": 1.6419728380193133
+    },
+    {
+      "frame": 2970,
+      "joint": "right_wrist",
+      "before_cm": 1.1928953929676145,
+      "after_cm": 1.1840738168123894
+    },
+    {
+      "frame": 3240,
+      "joint": "left_wrist",
+      "before_cm": 1.3682884918732756,
+      "after_cm": 1.382530317601383
+    },
+    {
+      "frame": 3240,
+      "joint": "right_wrist",
+      "before_cm": 2.0175652352095943,
+      "after_cm": 1.8882779898926443
+    },
+    {
+      "frame": 3510,
+      "joint": "left_wrist",
+      "before_cm": 2.8763174826474076,
+      "after_cm": 3.0462161185121293
+    },
+    {
+      "frame": 3510,
+      "joint": "right_wrist",
+      "before_cm": 1.0043465819559017,
+      "after_cm": 1.0101099413412007
+    },
+    {
+      "frame": 3780,
+      "joint": "left_wrist",
+      "before_cm": 1.533750932290991,
+      "after_cm": 1.7136718991661872
+    },
+    {
+      "frame": 3780,
+      "joint": "right_wrist",
+      "before_cm": 1.7490975657900227,
+      "after_cm": 1.4754566405114922
+    },
+    {
+      "frame": 4050,
+      "joint": "left_wrist",
+      "before_cm": 2.19808434899678,
+      "after_cm": 2.079746417366883
+    },
+    {
+      "frame": 4050,
+      "joint": "right_wrist",
+      "before_cm": 1.924096557093883,
+      "after_cm": 1.7966358958394517
+    },
+    {
+      "frame": 4320,
+      "joint": "left_wrist",
+      "before_cm": 3.0459907176275482,
+      "after_cm": 3.158259397722058
+    },
+    {
+      "frame": 4320,
+      "joint": "right_wrist",
+      "before_cm": 2.093035872852052,
+      "after_cm": 1.984515340543303
+    },
+    {
+      "frame": 4590,
+      "joint": "left_wrist",
+      "before_cm": 1.285978742352028,
+      "after_cm": 1.2850888847259883
+    },
+    {
+      "frame": 4590,
+      "joint": "right_wrist",
+      "before_cm": 1.5352320058096052,
+      "after_cm": 1.4645387120621864
+    },
+    {
+      "frame": 4860,
+      "joint": "left_wrist",
+      "before_cm": 2.1985329764880857,
+      "after_cm": 2.2026528893387427
+    },
+    {
+      "frame": 4860,
+      "joint": "right_wrist",
+      "before_cm": 1.420167521755838,
+      "after_cm": 1.4123344954262063
+    },
+    {
+      "frame": 5130,
+      "joint": "left_wrist",
+      "before_cm": 2.2150617778355,
+      "after_cm": 2.388265466783283
+    },
+    {
+      "frame": 5130,
+      "joint": "right_wrist",
+      "before_cm": 1.5817673123177074,
+      "after_cm": 1.5740034885720746
+    }
+  ],
+  "baseline_m": 0.0599,
+  "sha256": {
+    "det_sapiens2.npz": "818420d996ef6ac327637ae9d73fa9a55d81c2c3c52e0b86515ed41d6283cd4a",
+    "dfm_reference.npz": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c"
+  }
+}

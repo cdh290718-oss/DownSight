@@ -1,0 +1,9 @@
+{
+  "test": "project Double Sphere synthetic points into both original cameras, unproject and triangulate; assert positive ray depths and error < 1e-10 m",
+  "errors_m": [
+    1.1316993474494503e-15,
+    1.1527756336890508e-15,
+    1.2484175620846391e-14
+  ],
+  "exit_status": 0
+}

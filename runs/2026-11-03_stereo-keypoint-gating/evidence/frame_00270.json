@@ -1,0 +1,271 @@
+[
+  {
+    "frame": 270,
+    "joint": "left_elbow",
+    "status": "discard",
+    "reason": "reprojection_correction_over_8px;left_right_duplicate_ambiguous",
+    "old_cam2": 1,
+    "old_cam3": 1,
+    "use_cam2": 0,
+    "use_cam3": 0,
+    "score_cam2": 0.50390625,
+    "score_cam3": 0.5859375,
+    "border_cam2_px": 426.811767578125,
+    "border_cam3_px": 406.4468994140625,
+    "raw_uv": [
+      [
+        709.6812133789062,
+        873.188232421875
+      ],
+      [
+        538.0438232421875,
+        893.5531005859375
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 15.943918855298282,
+    "range_m": 0.3270814666242705,
+    "largest_sigma_m": 0.04173152141924464
+  },
+  {
+    "frame": 270,
+    "joint": "right_elbow",
+    "status": "discard",
+    "reason": "reprojection_correction_over_8px;left_right_duplicate_ambiguous",
+    "old_cam2": 1,
+    "old_cam3": 1,
+    "use_cam2": 0,
+    "use_cam3": 0,
+    "score_cam2": 0.359375,
+    "score_cam3": 0.39453125,
+    "border_cam2_px": 427.96783447265625,
+    "border_cam3_px": 398.99676513671875,
+    "raw_uv": [
+      [
+        709.9894409179688,
+        872.0321655273438
+      ],
+      [
+        537.2068481445312,
+        901.0032348632812
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 22.156072280300297,
+    "range_m": 0.32594398117664525,
+    "largest_sigma_m": 0.041399037527857487
+  },
+  {
+    "frame": 270,
+    "joint": "left_knee",
+    "status": "2d_only",
+    "reason": "depth_uncertainty_over_30cm",
+    "old_cam2": 0,
+    "old_cam3": 0,
+    "use_cam2": 1,
+    "use_cam3": 1,
+    "score_cam2": 0.3671875,
+    "score_cam3": 0.625,
+    "border_cam2_px": 230.9508056640625,
+    "border_cam3_px": 217.03076171875,
+    "raw_uv": [
+      [
+        937.1614379882812,
+        1069.0491943359375
+      ],
+      [
+        821.80126953125,
+        1082.96923828125
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 3.071453057932234,
+    "range_m": 0.9823028985577459,
+    "largest_sigma_m": 0.307630928977746
+  },
+  {
+    "frame": 270,
+    "joint": "right_knee",
+    "status": "discard",
+    "reason": "reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+    "old_cam2": 0,
+    "old_cam3": 0,
+    "use_cam2": 0,
+    "use_cam3": 0,
+    "score_cam2": 0.28125,
+    "score_cam3": 0.251953125,
+    "border_cam2_px": 230.5068359375,
+    "border_cam3_px": 194.053466796875,
+    "raw_uv": [
+      [
+        950.2431640625,
+        1069.4931640625
+      ],
+      [
+        854.2686157226562,
+        1105.946533203125
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 19.53871662928323,
+    "range_m": 1.888051010475442,
+    "largest_sigma_m": 1.133701109555244
+  },
+  {
+    "frame": 270,
+    "joint": "left_ankle",
+    "status": "2d_only",
+    "reason": "depth_uncertainty_over_30cm",
+    "old_cam2": 0,
+    "old_cam3": 0,
+    "use_cam2": 0,
+    "use_cam3": 1,
+    "score_cam2": 0.298828125,
+    "score_cam3": 0.66796875,
+    "border_cam2_px": 261.0828857421875,
+    "border_cam3_px": 257.2156982421875,
+    "raw_uv": [
+      [
+        955.091064453125,
+        1038.9171142578125
+      ],
+      [
+        852.0029907226562,
+        1042.7843017578125
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 3.7314899294805906,
+    "range_m": 1.4758833434298484,
+    "largest_sigma_m": 0.7127620486927987
+  },
+  {
+    "frame": 270,
+    "joint": "right_ankle",
+    "status": "discard",
+    "reason": "reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+    "old_cam2": 0,
+    "old_cam3": 0,
+    "use_cam2": 0,
+    "use_cam3": 0,
+    "score_cam2": 0.2314453125,
+    "score_cam3": 0.240234375,
+    "border_cam2_px": 261.18798828125,
+    "border_cam3_px": 240.1844482421875,
+    "raw_uv": [
+      [
+        966.1868896484375,
+        1038.81201171875
+      ],
+      [
+        871.4886474609375,
+        1059.8155517578125
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 8.609293514528344,
+    "range_m": 2.07744216383377,
+    "largest_sigma_m": 1.4101945462904497
+  },
+  {
+    "frame": 270,
+    "joint": "right_wrist",
+    "status": "discard",
+    "reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+    "old_cam2": 1,
+    "old_cam3": 1,
+    "use_cam2": 0,
+    "use_cam3": 0,
+    "score_cam2": 0.4609375,
+    "score_cam3": 0.5703125,
+    "border_cam2_px": 646.1214599609375,
+    "border_cam3_px": 86.5408935546875,
+    "raw_uv": [
+      [
+        794.3347778320312,
+        646.1214599609375
+      ],
+      [
+        1513.4591064453125,
+        903.6203002929688
+      ]
+    ],
+    "corrected_uv": null,
+    "xyz_cam2_m": null,
+    "cov_cam2_m2": null,
+    "correction_norm_px": 589.902409075159,
+    "range_m": 433693.4491883837,
+    "largest_sigma_m": 299971269436.06635
+  },
+  {
+    "frame": 270,
+    "joint": "left_wrist",
+    "status": "stereo_3d",
+    "reason": "stereo_consistent_candidate",
+    "old_cam2": 1,
+    "old_cam3": 1,
+    "use_cam2": 1,
+    "use_cam3": 1,
+    "score_cam2": 0.703125,
+    "score_cam3": 0.73046875,
+    "border_cam2_px": 645.2706298828125,
+    "border_cam3_px": 649.4248046875,
+    "raw_uv": [
+      [
+        794.2472534179688,
+        645.2706298828125
+      ],
+      [
+        650.7581176757812,
+        650.5751953125
+      ]
+    ],
+    "corrected_uv": [
+      [
+        794.2338535899936,
+        644.629738426264
+      ],
+      [
+        650.7688200039202,
+        651.2238543900849
+      ]
+    ],
+    "xyz_cam2_m": [
+      -0.0341633866331196,
+      -0.0030180141659315726,
+      0.45305191294342395
+    ],
+    "cov_cam2_m2": [
+      [
+        0.00014290335742408439,
+        4.480135643819182e-06,
+        -0.0008385503056179642
+      ],
+      [
+        4.480135643819182e-06,
+        2.54500236885986e-05,
+        -3.2062509736114475e-05
+      ],
+      [
+        -0.0008385503056179641,
+        -3.2062509736114475e-05,
+        0.006023360452824162
+      ]
+    ],
+    "correction_norm_px": 0.9120277151641,
+    "range_m": 0.4543481938089394,
+    "largest_sigma_m": 0.0783630734679579
+  }
+]

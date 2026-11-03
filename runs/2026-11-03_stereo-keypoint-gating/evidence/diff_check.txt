@@ -1,0 +1,2 @@
+Command: git diff --cached --check
+Exit status: 0 after normalizing generated CSV line endings. Initial check failed on CSV CRLF; no content values changed.

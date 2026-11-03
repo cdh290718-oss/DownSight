@@ -1,0 +1,3 @@
+Command: python <analysis validation script>
+Exit status: 0
+Checks: 1160 rows; each changed view has an overlay; covariance symmetric positive semidefinite within 1e-10; old + added - removed = new; 00270 right wrist discarded.

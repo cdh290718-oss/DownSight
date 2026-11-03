@@ -1,0 +1,5 @@
+Pre-push audit of staged task files before this log and report update:
+Command: git status --short; git ls-remote origin refs/heads/main; staged file size, extension and sensitive-pattern scan.
+Remote main and local baseline: 1efae3cd8eb5cf9950efe7619b51ae6378b971e8.
+1202 staged files, maximum 2742797 bytes, total 10979856 bytes. No .npz, .npy, .mp4, .mov, .avi or .env files; no file >= 50,000,000 bytes. No machine-root paths or tested token/private-key patterns in staged text. Text scan is heuristic, not a guarantee. Images are derived labelled crops, not full source frames. No local provenance or patches are staged.
+Workspace has an unrelated untracked torso-position-identifiability run, not staged. Its contents were not audited; this audit covers this task's staged increment and baseline-to-push commit, not existing repository history. The subsequent report/log changes and final commit must be rechecked.

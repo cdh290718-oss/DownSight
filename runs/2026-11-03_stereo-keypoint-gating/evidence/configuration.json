@@ -1,0 +1,93 @@
+{
+  "source_commit": "1efae3c",
+  "analysis_sha256": "51261ca7e33df6d03839713c2b78ec0a0a154b81b4575c6794fb0d191d6bfa49",
+  "camera_calibration": {
+    "cam2_ds": [
+      511.19896748111836,
+      513.3109708050919,
+      832.7420622679305,
+      648.0456313843042,
+      -0.0005945094752181941,
+      0.5700422566588201
+    ],
+    "cam3_ds": [
+      511.7944978760865,
+      513.7491203247247,
+      750.1689410139282,
+      650.7586486295488,
+      -0.0006841186977208799,
+      0.570219564148947
+    ],
+    "stereo_R32": [
+      [
+        0.9999341898071257,
+        0.004307818235094855,
+        -0.010632909141927003
+      ],
+      [
+        -0.004368876366137635,
+        0.9999740634972959,
+        -0.005725840724596804
+      ],
+      [
+        0.010607967480365623,
+        0.005771917771367804,
+        0.9999270753365848
+      ]
+    ],
+    "stereo_t32": [
+      0.05988330677516318,
+      -0.0012199667794268946,
+      -0.0007150179919347158
+    ],
+    "cam3_R_virtual_from_gen": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8757433260512403,
+        -0.48277699497460635
+      ],
+      [
+        0.0,
+        0.48277699497460635,
+        0.8757433260512403
+      ]
+    ],
+    "cam4_R_virtual_from_gen": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.8784058201368476,
+        -0.4779154895477987
+      ],
+      [
+        0.0,
+        0.4779154895477987,
+        0.8784058201368476
+      ]
+    ],
+    "stereo_convention": "X_cam2 = stereo_R32 @ X_cam3 + stereo_t32"
+  },
+  "old_score_min": 0.3,
+  "old_border_px": 40,
+  "candidate_score_min": 0.15,
+  "candidate_border_px": 10,
+  "range_min_m": 0.12,
+  "range_max_m": 2.5,
+  "correction_l2_max_px": 8,
+  "sigma_px": 8,
+  "max_position_sigma_m": 0.3,
+  "duplicate_3d_m": 0.03,
+  "duplicate_2d_px": 20,
+  "scope_selection": "detector indices 5:63",
+  "mapping": "virtual cam3 corresponds to original cam2; virtual cam4 corresponds to original cam3; coordinate rotations apply",
+  "analysis_change_after_execution": "CSV line endings only"
+}
