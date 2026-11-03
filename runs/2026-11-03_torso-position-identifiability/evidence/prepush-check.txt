@@ -1,0 +1,7 @@
+Incremental pre-push check against remote HEAD c5e57c6e7e77a1b59b3ccdfa845a646460eb9820. The base used for the experiments was 1efae3cd8eb5cf9950efe7619b51ae6378b971e8. Another workflow advanced the shared worktree; its changes do not overlap this run.
+Checked working tree, staged files and commits to be pushed; only this run directory is staged. Ignored raw outputs and external assets remain local. Existing published history was not audited.
+No weight, dataset, image, video, .npz, .npy, complete provenance, full raw output or patch is staged; all staged files are below 50 MB.
+No .env, private-key headers, known GitHub token or OpenAI key patterns detected; human inspection and pattern matching are not exhaustive. Machine-specific paths in report and log excerpts are redacted.
+No Gen image is added by this run. The Gen image license has not been established; previously published content is outside this incremental check.
+Formal fitting batch, long optimization batch, post-fit evaluation, structural validation, point-cloud residuals and Python compilation completed successfully. The preliminary batch was interrupted by the operator (exit 130), retained locally and excluded from formal metrics.
+Remote and staged content are checked again immediately before push; a non-fast-forward or unexpected file stops the push.

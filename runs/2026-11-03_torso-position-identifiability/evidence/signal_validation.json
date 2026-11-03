@@ -1,0 +1,796 @@
+{
+  "estimation": {
+    "training_frames": [
+      0,
+      270,
+      540,
+      810,
+      1080,
+      1350,
+      1620,
+      1890,
+      2160,
+      2430
+    ],
+    "matches_per_frame": [
+      1465,
+      943,
+      1338,
+      1571,
+      1605,
+      1612,
+      1562,
+      1617,
+      1534,
+      1456
+    ],
+    "rays": 13295,
+    "ransac_inliers": 6852,
+    "pose_inliers": 5834,
+    "R_cam2_to_cam3": [
+      [
+        0.9999384512112175,
+        -0.003630452637405829,
+        0.010483968855296726
+      ],
+      [
+        0.0035700824433300866,
+        0.9999769729285096,
+        0.0057713190938174395
+      ],
+      [
+        -0.010504679940821854,
+        -0.005733535242970883,
+        0.9999283865722377
+      ]
+    ],
+    "translation_direction_cam3": [
+      -0.9982149896972174,
+      0.018065872979322807,
+      0.05692502593129597
+    ],
+    "rotation_disagreement_deg": 0.04290359942253937,
+    "translation_direction_disagreement_deg": 1.980159688604431,
+    "note": "Training image feature matches; translation scale cannot be recovered from images alone. Comparison is to supplied calibration; this test does not establish its provenance or ground truth."
+  },
+  "baseline_m": 0.05999999999999998,
+  "frame_counts": [
+    403,
+    209,
+    127,
+    308,
+    268,
+    278,
+    278,
+    324,
+    327,
+    272,
+    106,
+    290,
+    325,
+    342,
+    341,
+    359,
+    376,
+    498,
+    358,
+    372
+  ],
+  "frames": [
+    0,
+    270,
+    540,
+    810,
+    1080,
+    1350,
+    1620,
+    1890,
+    2160,
+    2430,
+    2700,
+    2970,
+    3240,
+    3510,
+    3780,
+    4050,
+    4320,
+    4590,
+    4860,
+    5130
+  ],
+  "synthetic_rectification_reconstruction_error_m": 1.9088208603528993e-14,
+  "synthetic_vertical_error_px": 2.3874235921539366e-12,
+  "segmentation_per_frame_pixel_counts": [
+    {
+      "frame": 0,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 264185
+      },
+      "input_image_sha256": "fb1bb707e9537065741d266b37449f890f23f0c0128e7a926a13b4dc68a1a079",
+      "label_sha256": "937a6c5bc44428ae5b5a32236320e054969b1a4c90ad20bcfe15ed525717a085"
+    },
+    {
+      "frame": 0,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 280910
+      },
+      "input_image_sha256": "7f2714cd68dd9a4b89b4ef8ea7d413806eb8e87f339382887068055cb04ecacf",
+      "label_sha256": "f6c6cee069bc2b0a85da2b928e1a24fdb7218e5eca4466f83edb161118f73471"
+    },
+    {
+      "frame": 270,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 209373
+      },
+      "input_image_sha256": "e1cf3aae1a970739790b32a577dcee4f704c7009d90f2184ca8dd4dad2ae306b",
+      "label_sha256": "e7af8bea2e1cedbedc8a7637a4ed8cff0c7bc0f6af35c21e3adb537bc02f4e76"
+    },
+    {
+      "frame": 270,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 250125
+      },
+      "input_image_sha256": "68bea40cdc70960f6b06bb40fa4a0017ed007aa86aa79a157f9a6d7641fd9720",
+      "label_sha256": "e680b5de4eb200bbbe579f888a102234e5518c96d652303ad0a75e562a67d113"
+    },
+    {
+      "frame": 540,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 56,
+        "23": 200833
+      },
+      "input_image_sha256": "b81008faf6f23bcc3584cc811e1ea3a941bad06adac2b94dc7ef5df1de8204ad",
+      "label_sha256": "ddaec653aeee6519fbc5449a25a069905fcee4d3a1803767f2f313ffb02b9562"
+    },
+    {
+      "frame": 540,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 198568
+      },
+      "input_image_sha256": "079a7920dda70b5cbb5b868fb969ae9ba3f92cc58598312ee31d946924d941f9",
+      "label_sha256": "c040b055c6dbbed03e1827373d00dd28f67deb57a75cb2f178d8751d99f5c96c"
+    },
+    {
+      "frame": 810,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 306506
+      },
+      "input_image_sha256": "618c582e2db85a726fe0e8faa854bbe180c422bf09af4db4bd9408b3ea059bdd",
+      "label_sha256": "645d5f8d9c9b453a92a7f2f4512441a46c3d5c2bf1f5561e0789e1717860fcdd"
+    },
+    {
+      "frame": 810,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 32,
+        "23": 321383
+      },
+      "input_image_sha256": "9c1454b4c6933e821b147e2acb8a7808767d7f8aafb9cb71af1b9d559f1dacee",
+      "label_sha256": "427d83e7a048b3600e3da7c5ee49a6ef8eaf0353c38e24697f4edeb70da4ddbe"
+    },
+    {
+      "frame": 1080,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 536,
+        "23": 306146
+      },
+      "input_image_sha256": "77829af1679756cb4605bf56c74f62eb466e8a9eb33edaf73dd706bfce6f6674",
+      "label_sha256": "e1678e1b0111f46d9ae776e44da6a8446ceea651d627e20de3a19cba2122dfef"
+    },
+    {
+      "frame": 1080,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 320812
+      },
+      "input_image_sha256": "df23613e41b987bcdbfb0e0db9323936400445bc803026ce3d90f9c1f29c0cf4",
+      "label_sha256": "65c8b9401217165bf1fa2b089e8a07124678c54a7a773b496a021bd79a248eda"
+    },
+    {
+      "frame": 1350,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 310,
+        "23": 294360
+      },
+      "input_image_sha256": "3a75f78e454ee272dc0d00ddb33cd39c193a66e24581a0f61a0f3a57c27cc14a",
+      "label_sha256": "680d434df32bc3adb9a7354b9577777b9edd626bb367ba2bbe0597cd4794d935"
+    },
+    {
+      "frame": 1350,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 314485
+      },
+      "input_image_sha256": "266d3ee02faba8e64d11de23e45658108e4490fe9cb63788f34d47a1426b7613",
+      "label_sha256": "8a2f1d8d7b0d7a697c43290e12a00e03b9c30dadddcdd4ff31f11b36ac22694e"
+    },
+    {
+      "frame": 1620,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 7,
+        "23": 280110
+      },
+      "input_image_sha256": "704de8a76500de4063406a5d12dd83d4d28acac103f0889b13c89e43962ed94e",
+      "label_sha256": "297e6d119e78c6efa4c4f49fdec008fd39ad020a1ad1ce353422dd7e0cbb2e2c"
+    },
+    {
+      "frame": 1620,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 290830
+      },
+      "input_image_sha256": "d00de1adceb037bf06d79a17b7211d3c02fcee30d29448e0c99929020f25f8f3",
+      "label_sha256": "8bf743b208aa745bed33da248ddbd9794a82ac78f90f915ac612c212af951629"
+    },
+    {
+      "frame": 1890,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 438,
+        "23": 314269
+      },
+      "input_image_sha256": "60ea8852d67a8590c4cd6ee7ec82fd1746c5aa5ca1dc6441170760a9bc1fd4f6",
+      "label_sha256": "84bf51ba76885e52e1870fe33f89a75608f94a80abc7df51319ad7dfe754cfb4"
+    },
+    {
+      "frame": 1890,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 327623
+      },
+      "input_image_sha256": "7a29ea319f76f9d159a216dbda0ad5ad8090de9bf38b7a36bf3d0a4a09e94d4f",
+      "label_sha256": "399a9be8135b7a094a1b1aa656670dcde66493ccc9afa90e3b74f69d90392e56"
+    },
+    {
+      "frame": 2160,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 569,
+        "23": 312989
+      },
+      "input_image_sha256": "adf2825e26e006ffc34da540fc97c706e3ee8b834b250201548e0bf438cb53e6",
+      "label_sha256": "8d3c3122f214a5d478005419b47242bd559dc51d927dbc4d7593f3de667cdab7"
+    },
+    {
+      "frame": 2160,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 326415
+      },
+      "input_image_sha256": "38bd8c5092c7c1480c05276f9fa8d1cd6d965de9068de181815711064ce6a1a2",
+      "label_sha256": "60ee991936fc2e5dc3e2c648cec4db4850d52e100f0eae2effb6744de8c0634e"
+    },
+    {
+      "frame": 2430,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 298657
+      },
+      "input_image_sha256": "a08585b102612bdcb9c5178830ee334d21759bed7530e26ee30bf85f08210572",
+      "label_sha256": "f88857ca2ca2c0e49cb3b53c303e14a4a7585680d3c1b693bf9a9bb14e4e920c"
+    },
+    {
+      "frame": 2430,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 313760
+      },
+      "input_image_sha256": "aac01a1d36100604a4536272765222fff8d7d633f453a048737aa37ff43a3141",
+      "label_sha256": "6cbb0fe8210092bdb1ca1d1a52ef03f906a09ba08c26273adf01568bf839ad88"
+    },
+    {
+      "frame": 2700,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 152,
+        "23": 187378
+      },
+      "input_image_sha256": "0487fe0c5512569ed231cbcfa6a53b7ad6d0cfd7a3b753e07ddd2a8c565ff2ac",
+      "label_sha256": "22317a25116741320ea83074e6eb62fee9af9b09402d353ec2ff38e1a7c9ba80"
+    },
+    {
+      "frame": 2700,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 192290
+      },
+      "input_image_sha256": "00de74a29df0d36ea50711e7cca185107a7b16daefccb2d26d6d84a4b10782f5",
+      "label_sha256": "60b115944c7892b5f5db05368b48ddff36d1fa6f66a2de6944655fa784473772"
+    },
+    {
+      "frame": 2970,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 324314
+      },
+      "input_image_sha256": "900f49e48df028b4ca0d6fbc6c64eb675fe91f09947348d159acc57bdc580a25",
+      "label_sha256": "fa268450c7f95d94ce2b0221e15360a0efee9f272d313406e2f4dec94d2a6e7a"
+    },
+    {
+      "frame": 2970,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 350532
+      },
+      "input_image_sha256": "81b863ec584603d8da140b0bc491864a0a5adda6df17bcfb17578b46dfc64a2a",
+      "label_sha256": "22ff14c6003943184f4f833e3248ce5d67a0d87f73dbc479aeeb7cab7888a095"
+    },
+    {
+      "frame": 3240,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 2,
+        "23": 335108
+      },
+      "input_image_sha256": "a619ffcd8fbb981d7da3420e18c8f679e464accd4f14100fb88a76af501e0458",
+      "label_sha256": "fbd6dfbcb847937c3d97446b5157ed020350e2a325750cf3a39f50ce8c12da3c"
+    },
+    {
+      "frame": 3240,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 361782
+      },
+      "input_image_sha256": "f21e5c10686343f6b5b8f3fe39a25f3612243908d8ff573a3c6d546a72b21f01",
+      "label_sha256": "d4d25180d13795e47e82bb5b0ae326e816f0d41bd154c02e2890bda9cbaf087e"
+    },
+    {
+      "frame": 3510,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 333093
+      },
+      "input_image_sha256": "7af593e886b1d36ddd4b85888b9a7865e18760b7eed9471eaea1335aceeb1bf5",
+      "label_sha256": "17ae322d261d4f0e6ea6df0f11090eddb0c41989024d2709fdbc0b29e01a3892"
+    },
+    {
+      "frame": 3510,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 191,
+        "23": 355478
+      },
+      "input_image_sha256": "47f04de1976b0cadf9503a5457866e0b0efc1c12bd82add75116c894e6a636b7",
+      "label_sha256": "89cbbd6cd886e0640cc1b1c4743ec2c35f4873744c9479f8878edc31ebe7bf00"
+    },
+    {
+      "frame": 3780,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 329004
+      },
+      "input_image_sha256": "46ec9607b436295bec5a828221bdffd511376a9b8f6e23b2326ed32bc89c0a23",
+      "label_sha256": "6a117902e549c4200098357424456859f6d5d8d954f0eeb92d90875ad86b7484"
+    },
+    {
+      "frame": 3780,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 350256
+      },
+      "input_image_sha256": "307e47b548f74b56b889246627b61c8f8e32db5531e8c3b0cc829eec292785f2",
+      "label_sha256": "e2e4a08e8c06f5b82b1c6f8e4bc65a7044d2f6aac89352fbf3d5ce1dbb1f293a"
+    },
+    {
+      "frame": 4050,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 43,
+        "23": 297013
+      },
+      "input_image_sha256": "82e97c01a5f1094746e217bc2d191f87e1c5060ec76f15d9bdf40dc892a614ea",
+      "label_sha256": "4d5083e59a162a1648bce6a7358353af08bfe36fc2a890615e8ecb253de7f728"
+    },
+    {
+      "frame": 4050,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 328986
+      },
+      "input_image_sha256": "83d9bc7c9005e192c34aa341a8d969429749a12cb6a2a7af83c7775b03bcffe0",
+      "label_sha256": "c99be8ecd79b343b62c6e4bf211d61a2cb91f9c5d2f373ac990561116cb5fd32"
+    },
+    {
+      "frame": 4320,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 144,
+        "23": 324094
+      },
+      "input_image_sha256": "f2586182ff914a2469eed36daff8a6f90482fb84c907b8c0d83bb1b99fe2a2da",
+      "label_sha256": "7e49a10ffafc9cb21f871a16b6ca809ee29fb0d312604fe1b6bb6a5a14ebee68"
+    },
+    {
+      "frame": 4320,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 349503
+      },
+      "input_image_sha256": "cd7088fff3e4081c96626a269e1238912c4277b96e0c451ee41b6151804ee101",
+      "label_sha256": "78208e2057f186525bf560651a531f9a0dd24918cbd2cdac8952ea1aa0f46e81"
+    },
+    {
+      "frame": 4590,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 108,
+        "23": 347298
+      },
+      "input_image_sha256": "263a1db8607ff1539ebd4a1a737d9e3cdf21717fe47afa2b14d02b89aff212e0",
+      "label_sha256": "b95a8075461615d7987e7cbb450295aa7bd5ea5c9639b8a4e5fc8f6948ef3351"
+    },
+    {
+      "frame": 4590,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 368472
+      },
+      "input_image_sha256": "d49c8054fab65af7d79188de2ceed25d9eafa7bcef8ca76b8faf62c86dd216f1",
+      "label_sha256": "99747c9ed1a79f8c557229523c5bac6e1d116a862904268469c6cdd1cefeae5f"
+    },
+    {
+      "frame": 4860,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 79,
+        "23": 334885
+      },
+      "input_image_sha256": "a2cbfc9c79eec5ccfb0e4efeb4f97093c2f62a7bc9c02182f593e5024933eab2",
+      "label_sha256": "9ffc58f61b5b7df7726ab2083a35820f1fac37fd6fc565c477ae04d07dbaaf90"
+    },
+    {
+      "frame": 4860,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 22,
+        "23": 358212
+      },
+      "input_image_sha256": "e81efedeaa29f49ebdb3be20c444bb996883f37f956899ccc8b0f4bef191f61d",
+      "label_sha256": "ceec716861a51e031d3fd2fe2e4fdc9fadcbee9b398b5eaf7fe43758f6b18183"
+    },
+    {
+      "frame": 5130,
+      "camera": 2,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 319817
+      },
+      "input_image_sha256": "271f75b67289e0e1eca1604b0f1da013f511ebc56249be60466bfbca549e84ce",
+      "label_sha256": "2f6817a7318cac9a2a8ac948a68c40651ce47243f162ae3a8889ad515cf03e67"
+    },
+    {
+      "frame": 5130,
+      "camera": 3,
+      "counts": {
+        "11": 0,
+        "20": 0,
+        "22": 0,
+        "23": 340365
+      },
+      "input_image_sha256": "04b9bf54440d424888eee9bcd91efed1830a90c94308eb9547c3121af64033a9",
+      "label_sha256": "180b61be35185e9e6a94ee7bcce985753f8686a058a22209298b0983b93cd3db"
+    }
+  ],
+  "note": "Candidate counts and synthetic algebra do not establish correspondence accuracy, torso specificity, depth precision or clothing-to-body geometry.",
+  "dense_stereo_metadata": {
+    "method": "SGBM, both mask classes 11/20/22/23, 1.5 px left-right, 8px image sampling",
+    "stats": [
+      {
+        "frame": 0,
+        "count": 403,
+        "range_m_median": 0.37167932760905353,
+        "disparity_px_median": 60.3125,
+        "mask_pixels_cam2_cam3": [
+          59104,
+          63158
+        ]
+      },
+      {
+        "frame": 270,
+        "count": 209,
+        "range_m_median": 0.29727945316258736,
+        "disparity_px_median": 72.9375,
+        "mask_pixels_cam2_cam3": [
+          38789,
+          42836
+        ]
+      },
+      {
+        "frame": 540,
+        "count": 127,
+        "range_m_median": 0.4189573009162156,
+        "disparity_px_median": 57.875,
+        "mask_pixels_cam2_cam3": [
+          24109,
+          26241
+        ]
+      },
+      {
+        "frame": 810,
+        "count": 308,
+        "range_m_median": 0.4227857870124806,
+        "disparity_px_median": 55.0625,
+        "mask_pixels_cam2_cam3": [
+          40269,
+          51665
+        ]
+      },
+      {
+        "frame": 1080,
+        "count": 268,
+        "range_m_median": 0.40608631602524375,
+        "disparity_px_median": 58.625,
+        "mask_pixels_cam2_cam3": [
+          46125,
+          59278
+        ]
+      },
+      {
+        "frame": 1350,
+        "count": 278,
+        "range_m_median": 0.3891426193906212,
+        "disparity_px_median": 60.0,
+        "mask_pixels_cam2_cam3": [
+          55950,
+          68877
+        ]
+      },
+      {
+        "frame": 1620,
+        "count": 278,
+        "range_m_median": 0.3850603737368309,
+        "disparity_px_median": 62.1875,
+        "mask_pixels_cam2_cam3": [
+          61339,
+          67914
+        ]
+      },
+      {
+        "frame": 1890,
+        "count": 324,
+        "range_m_median": 0.3909468924608689,
+        "disparity_px_median": 59.875,
+        "mask_pixels_cam2_cam3": [
+          58263,
+          72253
+        ]
+      },
+      {
+        "frame": 2160,
+        "count": 327,
+        "range_m_median": 0.3758417492704605,
+        "disparity_px_median": 62.0,
+        "mask_pixels_cam2_cam3": [
+          70928,
+          79326
+        ]
+      },
+      {
+        "frame": 2430,
+        "count": 272,
+        "range_m_median": 0.3974211479793804,
+        "disparity_px_median": 61.0,
+        "mask_pixels_cam2_cam3": [
+          49475,
+          64878
+        ]
+      },
+      {
+        "frame": 2700,
+        "count": 106,
+        "range_m_median": 0.4478061514039896,
+        "disparity_px_median": 54.03125,
+        "mask_pixels_cam2_cam3": [
+          12517,
+          23184
+        ]
+      },
+      {
+        "frame": 2970,
+        "count": 290,
+        "range_m_median": 0.40476605929219395,
+        "disparity_px_median": 54.625,
+        "mask_pixels_cam2_cam3": [
+          61007,
+          77409
+        ]
+      },
+      {
+        "frame": 3240,
+        "count": 325,
+        "range_m_median": 0.39594748356889264,
+        "disparity_px_median": 56.3125,
+        "mask_pixels_cam2_cam3": [
+          56446,
+          68116
+        ]
+      },
+      {
+        "frame": 3510,
+        "count": 342,
+        "range_m_median": 0.400868416451706,
+        "disparity_px_median": 56.03125,
+        "mask_pixels_cam2_cam3": [
+          67216,
+          80770
+        ]
+      },
+      {
+        "frame": 3780,
+        "count": 341,
+        "range_m_median": 0.3954684149199982,
+        "disparity_px_median": 56.625,
+        "mask_pixels_cam2_cam3": [
+          65499,
+          81519
+        ]
+      },
+      {
+        "frame": 4050,
+        "count": 359,
+        "range_m_median": 0.3921533026075022,
+        "disparity_px_median": 55.8125,
+        "mask_pixels_cam2_cam3": [
+          67338,
+          75457
+        ]
+      },
+      {
+        "frame": 4320,
+        "count": 376,
+        "range_m_median": 0.38457756804474624,
+        "disparity_px_median": 57.25,
+        "mask_pixels_cam2_cam3": [
+          71863,
+          82941
+        ]
+      },
+      {
+        "frame": 4590,
+        "count": 498,
+        "range_m_median": 0.3639457846055275,
+        "disparity_px_median": 66.375,
+        "mask_pixels_cam2_cam3": [
+          86884,
+          92763
+        ]
+      },
+      {
+        "frame": 4860,
+        "count": 358,
+        "range_m_median": 0.39852141308618894,
+        "disparity_px_median": 54.84375,
+        "mask_pixels_cam2_cam3": [
+          64016,
+          75878
+        ]
+      },
+      {
+        "frame": 5130,
+        "count": 372,
+        "range_m_median": 0.38797274757370004,
+        "disparity_px_median": 57.0,
+        "mask_pixels_cam2_cam3": [
+          74651,
+          80195
+        ]
+      }
+    ],
+    "translation_magnitude_m": 0.05999999999999998
+  },
+  "warnings": [
+    "invalid value encountered in matmul"
+  ],
+  "stereo_extraction_exit_status": 0
+}
