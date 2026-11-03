@@ -1,0 +1,6 @@
+PASS committed additions: 125
+PASS staged additions before adding this check record: 3
+PASS selected files under 50 MB; no prohibited weights, raw datasets, video, npz/npy, env, patch or complete provenance
+PASS known credential patterns and developer paths in reports, logs, JSON and CSV
+PASS diagnostic figures are selected derived overlays; no complete original output directories
+LIMIT current increment only; pattern scan is not exhaustive and previous history is not re-audited
