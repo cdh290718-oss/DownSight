@@ -1,0 +1,344 @@
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+{
+  "source_npz": "<WORKSPACE>/DownSight/outputs/repro_20260930_v1/frames/sample_01_cam3/raw/params.npz",
+  "image": "<WORKSPACE>/EgoFishPose/experiments/session_hand6_full_pipeline_20260926_v1/input/sample_01/cam3_left_lower_t009.699s_f000576.jpg",
+  "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json",
+  "sapiens2_keypoints": "<WORKSPACE>/EgoFishPose/experiments/session_hand6_full_pipeline_20260926_v1/frames/sample_01/cam3/sapiens2/keypoints.json",
+  "optimized_parameters": [
+    "global_orient",
+    "cam_trans"
+  ],
+  "fixed_parameters": [
+    "body_pose",
+    "betas",
+    "left_hand_pose",
+    "right_hand_pose",
+    "jaw_pose",
+    "leye_pose",
+    "reye_pose",
+    "expression"
+  ],
+  "fixed_parameters_bitwise_equal": true,
+  "network_was_rerun": false,
+  "manual_labels_used_for_optimization": false,
+  "score_threshold": 0.3,
+  "score_weight": "clip(score,0,1)^2; scores are not calibrated visibility probabilities",
+  "selected": [
+    {
+      "name": "nose",
+      "model_name": "Nose",
+      "index": 24,
+      "x": 928.7415381626306,
+      "y": 710.3429962351479,
+      "score": 0.5234375
+    },
+    {
+      "name": "left_shoulder",
+      "model_name": "L_Shoulder",
+      "index": 8,
+      "x": 555.7908494559881,
+      "y": 695.3511667416815,
+      "score": 0.7109375
+    },
+    {
+      "name": "right_shoulder",
+      "model_name": "R_Shoulder",
+      "index": 9,
+      "x": 1032.1849435536649,
+      "y": 669.5256213624687,
+      "score": 0.859375
+    },
+    {
+      "name": "left_elbow",
+      "model_name": "L_Elbow",
+      "index": 10,
+      "x": 545.2474256585406,
+      "y": 472.6582881860875,
+      "score": 0.9453125
+    },
+    {
+      "name": "right_elbow",
+      "model_name": "R_Elbow",
+      "index": 11,
+      "x": 1016.8858904613874,
+      "y": 429.9088514998555,
+      "score": 0.9453125
+    },
+    {
+      "name": "left_wrist",
+      "model_name": "L_Wrist",
+      "index": 12,
+      "x": 678.6401111542866,
+      "y": 262.27124555812156,
+      "score": 1.0078125
+    },
+    {
+      "name": "right_wrist",
+      "model_name": "R_Wrist",
+      "index": 13,
+      "x": 909.0773529532069,
+      "y": 267.3232648711214,
+      "score": 0.953125
+    },
+    {
+      "name": "left_hip",
+      "model_name": "L_Hip",
+      "index": 1,
+      "x": 691.4289256789921,
+      "y": 339.97587392562446,
+      "score": 0.76171875
+    },
+    {
+      "name": "right_hip",
+      "model_name": "R_Hip",
+      "index": 2,
+      "x": 817.0852293643652,
+      "y": 311.52758814401045,
+      "score": 0.7890625
+    },
+    {
+      "name": "left_knee",
+      "model_name": "L_Knee",
+      "index": 3,
+      "x": 698.1570450548102,
+      "y": 261.175261633427,
+      "score": 0.83203125
+    },
+    {
+      "name": "right_knee",
+      "model_name": "R_Knee",
+      "index": 4,
+      "x": 809.993775053174,
+      "y": 259.17445748181035,
+      "score": 0.8203125
+    },
+    {
+      "name": "left_ankle",
+      "model_name": "L_Ankle",
+      "index": 5,
+      "x": 718.9500930546465,
+      "y": 238.03692254467933,
+      "score": 0.75
+    },
+    {
+      "name": "right_ankle",
+      "model_name": "R_Ankle",
+      "index": 6,
+      "x": 789.2242463596203,
+      "y": 243.76679109652696,
+      "score": 0.66796875
+    }
+  ],
+  "excluded": [],
+  "initial_cam_trans_m": [
+    -0.035213958472013474,
+    0.2437538355588913,
+    0.5703988075256348
+  ],
+  "optimized_cam_trans_m": [
+    0.16303220391273499,
+    0.34931838512420654,
+    0.7115237712860107
+  ],
+  "initial_global_orient": [
+    [
+      -0.3448733985424042,
+      -2.7652597427368164,
+      1.3364841938018799
+    ]
+  ],
+  "optimized_global_orient": [
+    [
+      0.1622008979320526,
+      -2.627896308898926,
+      1.4204682111740112
+    ]
+  ],
+  "global_orient_delta_deg": 20.496936798095703,
+  "source_reconstruction_max_abs_m": {
+    "mesh": 0.0,
+    "joints": 5.960464477539063e-08
+  },
+  "source_reconstruction_tolerance_m": 0.001,
+  "optimization_device": "cpu",
+  "saved_parameter_regeneration_max_abs_m": 3.5762786865234375e-07,
+  "saved_parameter_regeneration_max_abs_px": 0.001708984375,
+  "source_npz_sha256": "18e78fbc5a315bbbc686b2e9210c424b28acc3a156951d97afaa5b52fb02933f",
+  "raw_to_sapiens2": {
+    "rmse_px": 944.3323364257812,
+    "mean_px": 444.9054870605469,
+    "median_px": 198.982177734375
+  },
+  "optimized_to_sapiens2": {
+    "rmse_px": 81.33575439453125,
+    "mean_px": 53.32468795776367,
+    "median_px": 40.4353141784668
+  },
+  "history": [
+    {
+      "step": 0,
+      "loss": 0.21821051836013794,
+      "reprojection": 0.21704331040382385
+    },
+    {
+      "step": 100,
+      "loss": 0.03710687533020973,
+      "reprojection": 0.03708452731370926
+    },
+    {
+      "step": 200,
+      "loss": 0.02846832387149334,
+      "reprojection": 0.02842986397445202
+    },
+    {
+      "step": 300,
+      "loss": 0.028424259275197983,
+      "reprojection": 0.02838616818189621
+    },
+    {
+      "step": 400,
+      "loss": 0.028424257412552834,
+      "reprojection": 0.02838616631925106
+    },
+    {
+      "step": 500,
+      "loss": 0.028424251824617386,
+      "reprojection": 0.028386160731315613
+    },
+    {
+      "step": 600,
+      "loss": 0.028424253687262535,
+      "reprojection": 0.028386162593960762
+    },
+    {
+      "step": 700,
+      "loss": 0.028424255549907684,
+      "reprojection": 0.02838616445660591
+    },
+    {
+      "step": 800,
+      "loss": 0.028424261137843132,
+      "reprojection": 0.02838617004454136
+    },
+    {
+      "step": 900,
+      "loss": 0.028424251824617386,
+      "reprojection": 0.028386160731315613
+    },
+    {
+      "step": 1000,
+      "loss": 0.028424255549907684,
+      "reprojection": 0.02838616445660591
+    },
+    {
+      "step": 1100,
+      "loss": 0.028424261137843132,
+      "reprojection": 0.02838617004454136
+    },
+    {
+      "step": 1200,
+      "loss": 0.02842426300048828,
+      "reprojection": 0.028386171907186508
+    },
+    {
+      "step": 1300,
+      "loss": 0.028424259275197983,
+      "reprojection": 0.02838616818189621
+    },
+    {
+      "step": 1400,
+      "loss": 0.028424259275197983,
+      "reprojection": 0.02838616818189621
+    },
+    {
+      "step": 1500,
+      "loss": 0.028424261137843132,
+      "reprojection": 0.02838617004454136
+    },
+    {
+      "step": 1600,
+      "loss": 0.028424261137843132,
+      "reprojection": 0.02838617004454136
+    },
+    {
+      "step": 1700,
+      "loss": 0.02842426300048828,
+      "reprojection": 0.028386171907186508
+    },
+    {
+      "step": 1800,
+      "loss": 0.028424261137843132,
+      "reprojection": 0.02838617004454136
+    }
+  ],
+  "minimum_vertex_z_m": 0.10719645023345947,
+  "geometry_convention": "SMPL-X vertices/joints include global orientation; add transl; rotate about SMPL-X pelvis",
+  "preserved_network_fields": "Fields containing network or model_output and positionnet are original inference diagnostics"
+}
+automatic {'step': 0, 'loss': 0.034015655517578125, 'reprojection': 0.034015655517578125, 'feasible': True, 'minimum_z_m': 0.10719645023345947}
+automatic {'step': 100, 'loss': 0.011683931574225426, 'reprojection': 0.011622126214206219, 'feasible': True, 'minimum_z_m': 0.036690354347229004}
+automatic {'step': 200, 'loss': 0.006944018416106701, 'reprojection': 0.006804213393479586, 'feasible': True, 'minimum_z_m': 0.0295107364654541}
+automatic {'step': 300, 'loss': 0.006195543799549341, 'reprojection': 0.006022959016263485, 'feasible': True, 'minimum_z_m': 0.029486358165740967}
+automatic {'step': 400, 'loss': 0.0060661109164357185, 'reprojection': 0.005870404187589884, 'feasible': True, 'minimum_z_m': 0.02950054407119751}
+automatic {'step': 500, 'loss': 0.005987389944493771, 'reprojection': 0.005758571904152632, 'feasible': True, 'minimum_z_m': 0.029492557048797607}
+automatic {'step': 600, 'loss': 0.005921986885368824, 'reprojection': 0.0056500243954360485, 'feasible': True, 'minimum_z_m': 0.029486477375030518}
+automatic {'step': 700, 'loss': 0.005881023593246937, 'reprojection': 0.005592309404164553, 'feasible': True, 'minimum_z_m': 0.029472947120666504}
+automatic {'step': 800, 'loss': 0.0058222278021276, 'reprojection': 0.005525178741663694, 'feasible': True, 'minimum_z_m': 0.02947080135345459}
+automatic {'step': 900, 'loss': 0.005715720355510712, 'reprojection': 0.0054115597158670425, 'feasible': True, 'minimum_z_m': 0.02946251630783081}
+automatic {'step': 1000, 'loss': 0.0055930172093212605, 'reprojection': 0.005281222052872181, 'feasible': True, 'minimum_z_m': 0.02943599224090576}
+automatic {'step': 1100, 'loss': 0.005533220246434212, 'reprojection': 0.005222902167588472, 'feasible': True, 'minimum_z_m': 0.02948695421218872}
+automatic {'step': 1200, 'loss': 0.005485873203724623, 'reprojection': 0.005175685044378042, 'feasible': True, 'minimum_z_m': 0.029495298862457275}
+automatic {'step': 1300, 'loss': 0.005474260076880455, 'reprojection': 0.0051658544689416885, 'feasible': True, 'minimum_z_m': 0.02948451042175293}
+automatic {'step': 1400, 'loss': 0.005465638358145952, 'reprojection': 0.005155965220183134, 'feasible': True, 'minimum_z_m': 0.029467642307281494}
+automatic {'step': 1500, 'loss': 0.0054551600478589535, 'reprojection': 0.005147250834852457, 'feasible': True, 'minimum_z_m': 0.02949988842010498}
+automatic {'step': 1600, 'loss': 0.005453882273286581, 'reprojection': 0.005143999122083187, 'feasible': True, 'minimum_z_m': 0.029485046863555908}
+AUTOMATIC_ONLY {
+  "rigid_shared_input": {
+    "against_sapiens2": {
+      "rmse_px": 81.33575439453125,
+      "mean_px": 53.32468795776367,
+      "median_px": 40.4353141784668,
+      "per_joint_px": {
+        "nose": 229.01669311523438,
+        "left_shoulder": 61.47954559326172,
+        "right_shoulder": 118.48857879638672,
+        "left_elbow": 89.4093017578125,
+        "right_elbow": 55.252655029296875,
+        "left_wrist": 32.80545425415039,
+        "right_wrist": 1.5810842514038086,
+        "left_hip": 42.35062026977539,
+        "right_hip": 40.4353141784668,
+        "left_knee": 2.441934108734131,
+        "right_knee": 11.515867233276367,
+        "left_ankle": 5.840921878814697,
+        "right_ankle": 2.6029446125030518
+      }
+    }
+  },
+  "automatic_stage2": {
+    "against_sapiens2": {
+      "rmse_px": 30.978612899780273,
+      "mean_px": 12.862833023071289,
+      "median_px": 0.7674008011817932,
+      "per_joint_px": {
+        "nose": 0.7674008011817932,
+        "left_shoulder": 102.7079849243164,
+        "right_shoulder": 2.933504581451416,
+        "left_elbow": 1.4293864965438843,
+        "right_elbow": 0.25941139459609985,
+        "left_wrist": 1.5767663717269897,
+        "right_wrist": 0.020751414820551872,
+        "left_hip": 40.246707916259766,
+        "right_hip": 17.12432098388672,
+        "left_knee": 0.038451336324214935,
+        "right_knee": 0.0705982893705368,
+        "left_ankle": 0.01179167814552784,
+        "right_ankle": 0.029726017266511917
+      }
+    }
+  }
+}
+FRAME_COMPLETE sample_01_cam3 30.978614807128906 22.59257922130501
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(

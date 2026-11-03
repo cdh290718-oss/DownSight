@@ -1,0 +1,812 @@
+{
+  "historical": {
+    "body_rmse_px": 24.193575241018337,
+    "hand_rmse_px": 11.73983920158647,
+    "passed": true,
+    "matched_hands": 2,
+    "body_reload_max_abs_m": 0.0,
+    "fusion_reload_max_abs_m": 0.0,
+    "obj_reload_max_abs_m": 0.0
+  },
+  "new": {
+    "body_rmse_px": 24.193575241018337,
+    "hand_rmse_px": 11.73983920158647,
+    "passed": true,
+    "matched_hands": 2,
+    "body_reload_max_abs_m": 0.0,
+    "fusion_reload_max_abs_m": 0.0,
+    "obj_reload_max_abs_m": 0.0
+  },
+  "npz_comparison": {
+    "raw/params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "rigid/optimized_params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_delta_rotation": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_scores": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "body_fit/automatic/refined_params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_delta_rotation": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_scores": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "body/params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_delta_rotation": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_scores": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "baseline_fused/mesh.npz": {
+      "keys_equal": true,
+      "fields": {
+        "body_joints_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "faces": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "hand_joints_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_blend_weights": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_candidate": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_lifted_vertices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_local_to_mesh": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_target_vertex_uv": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_wrist_loop_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "method": {
+          "equal": true
+        },
+        "right_blend_weights": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_candidate": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_lifted_vertices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_local_to_mesh": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_target_vertex_uv": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_wrist_loop_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "vertices_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "guided_body/params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_delta_rotation": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_scores": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "fused/body_params.npz": {
+      "keys_equal": true,
+      "fields": {
+        "betas": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "body_pose_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "expression": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_delta_rotation": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "global_orient_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "jaw_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "leye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "reye_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_hand_pose": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "sapiens2_target_scores": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_2d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_body_joints_3d_render_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_cam_root_relative": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_joint_img": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "smplx_mesh_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_selected_joint_indices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "stage2_target_joint_pixels": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_network": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "transl_rigid_input": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    },
+    "fused/mesh.npz": {
+      "keys_equal": true,
+      "fields": {
+        "body_joints_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "faces": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "hand_joints_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_candidate": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_legacy_blend_weights": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_lifted_vertices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_local_to_mesh": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_target_vertex_uv": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "left_wrist_loop_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "method": {
+          "equal": true
+        },
+        "right_candidate": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_legacy_blend_weights": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_lifted_vertices": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_local_to_mesh": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_target_vertex_uv": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "right_wrist_loop_local": {
+          "equal": true,
+          "max_abs": 0.0
+        },
+        "vertices_cam": {
+          "equal": true,
+          "max_abs": 0.0
+        }
+      }
+    }
+  }
+}

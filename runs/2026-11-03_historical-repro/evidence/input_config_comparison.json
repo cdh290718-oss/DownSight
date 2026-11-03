@@ -1,0 +1,26 @@
+{
+  "cached_input_sha256": {
+    "image": "b2628a1a8b26ba38f8c49558ee93143660def0be8e079192f639f9b61df2e123",
+    "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b",
+    "egosmplx": "5df87af2595f19a0e3adcfb9e4e5c8c434432d39780e72c119cfd51c7391727c",
+    "sapiens": "96a1882490992e23e96c079532635deaa41e06cfbc55ace6da4801259a047275",
+    "segmentation/labels.npy": "cd9b9125b52359d5d6891662d41997e72ea500b294ede36715e0c2df0b330336",
+    "segmentation/probabilities.npz": "0b798c7d95e9c2b71574e8814cde925a9b1d5cd28e3b2fc7a546bbe2adffd1e5",
+    "wilor": "ea247b1f903b4a7ae1c82bd29afaf3c2cc665ed10ecc40e0cb32506919097719"
+  },
+  "input_hashes_equal": true,
+  "config_differences_excluding_output_manifest": {
+    "head_neck": {
+      "old": null,
+      "head01": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      }
+    }
+  },
+  "code_change": "git diff 5996cba..32119e2 -- egosmplx_pipeline: integrity.py only"
+}

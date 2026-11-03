@@ -70,9 +70,10 @@ def preflight(config, frames, cached):
     for key in required:
         if key not in config['paths'] or not Path(config['paths'][key]).exists():
             raise FileNotFoundError('Required configured path: ' + key)
-    from egosmplx_pipeline.integrity import verify_resources, verify_backend
+    from egosmplx_pipeline.integrity import verify_resources, verify_backend, backend_source_manifest
     resources = verify_resources(config)
     backend = verify_backend(config['paths']['egosmplx_repo'])
+    backend['source_tree'] = backend_source_manifest(config['paths']['egosmplx_repo'])
     for row in frames:
         image = cv2.imread(row['image'])
         if image is None:

@@ -1,0 +1,16 @@
+{
+  "calibration_sha256": "3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3",
+  "backend_camera_sha256": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71",
+  "bundled_camera_sha256": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37",
+  "pixel_samples": 187,
+  "point_samples": 187,
+  "backprojection_numpy_max_m": 0.0,
+  "ray_numpy_max": 0.0,
+  "backprojection_torch_max_m": 0.0,
+  "projection_numpy_max_px": 0.0,
+  "projection_torch_class_max_px": 0.0,
+  "projection_torch_runtime_patch_vs_backend_max_px": 1.561920166015625,
+  "projection_backend_torch_vs_numpy_max_px": 1.5619218359495335,
+  "projection_patch_vs_numpy_max_px": 6.046931684977608e-05,
+  "scope": "CPU finite samples; no assertion of equality outside sampled points or GPU behavior"
+}
