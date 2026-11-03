@@ -1,0 +1,4 @@
+Before: candidate worktree clean including ignored; candidate commit is ancestor of main; no process had its cwd inside target; remote refs matched local.
+Deleted: GitHub branch experiment/gen-stereo-diagnostics-20261103; local worktree and local branch of the same name.
+After: git worktree list reports only main; git branch --list reports no candidate; git ls-remote reports main but no candidate; main experiment report exists.
+Other untracked work was not staged, changed, or deleted.

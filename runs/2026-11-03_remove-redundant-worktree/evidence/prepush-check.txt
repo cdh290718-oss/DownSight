@@ -1,0 +1,4 @@
+PASS staged clean-up records before adding this check file: 5
+PASS file types, size, known secret patterns and redacted paths
+PASS no pre-existing unpushed commits; historical GitHub content not re-audited
+LIMIT pattern scanning is not exhaustive
