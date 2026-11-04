@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "501ffb4",
+  "resources": {
+    "matched_WiLoR_observations": {
+      "sha256": "21ac78c302d81c42a6f0b55f77e433fba4ce15be3ca11d1aa7fd5fb8f5b911f0",
+      "bytes": 329886
+    },
+    "v0_calibration": {
+      "sha256": "bc99d07c02d62b6d99e9a87d51f9cf6fa858f7caff0a224697fbb7d7fb45cc66",
+      "bytes": 1410
+    },
+    "previous_published_metrics": {
+      "sha256": "e0e6b887ecbf77f402d2291f8bb3a797890eaec56bf7efa141716043a84124bb",
+      "bytes": 264038
+    },
+    "previous_fit_inventory": {
+      "sha256": "96d1f02fa7ae098e8fce62e73e05a98dbbd16db52afec6baea621105f2599271",
+      "bytes": 11562
+    },
+    "previous_simulated_head_calibration": {
+      "sha256": "83537a6e4bf70112bb0376e25544c771b54eb849cb53269333c3daada7680536",
+      "bytes": 373
+    }
+  },
+  "code_sha256": {
+    "evaluate.py": "237dedf03f12797b0aeea8108079141b686841004308cd59fce7d3b9b1a2d9de",
+    "fit_hands.py": "c2c07d7efe475c75d6c05fa9f12fe51062a41989ff0c5b755ee09aa52c860409",
+    "run.sh": "af622ed51b3d5c04c0e965ce585be8675c7566533365408068d0408a6bf65b63",
+    "validate.py": "af3eecffd24f7086b60e1b920c1e611f98466ebd2ebd117b66889cd065319d71"
+  },
+  "previous_180_frame_inputs": "see previous run inputs.json and fit_inventory.json",
+  "assets": "restricted local assets; no labels used in hand optimization"
+}

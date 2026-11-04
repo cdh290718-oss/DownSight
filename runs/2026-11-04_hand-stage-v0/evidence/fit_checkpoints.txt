@@ -1,0 +1,39 @@
+first90_v2: exit 0; 9 batches reached step 1499, 9 structural checks passed
+batch 0 step 1499 loss 0.27802884578704834
+batch 10 step 1499 loss 0.19797074794769287
+batch 20 step 1499 loss 0.2458963245153427
+batch 30 step 1499 loss 0.24793367087841034
+batch 40 step 1499 loss 0.24797454476356506
+batch 50 step 1499 loss 0.2938693165779114
+batch 60 step 1499 loss 0.3029169738292694
+batch 70 step 1499 loss 0.2537460923194885
+batch 80 step 1499 loss 0.18208211660385132
+done batch 0 arm_max_m 0.0 missing_hand_count 5
+done batch 10 arm_max_m 0.0 missing_hand_count 5
+done batch 20 arm_max_m 0.0 missing_hand_count 0
+done batch 30 arm_max_m 0.0 missing_hand_count 1
+done batch 40 arm_max_m 0.0 missing_hand_count 1
+done batch 50 arm_max_m 0.0 missing_hand_count 0
+done batch 60 arm_max_m 0.0 missing_hand_count 0
+done batch 70 arm_max_m 0.0 missing_hand_count 0
+done batch 80 arm_max_m 0.0 missing_hand_count 4
+last90_v2: exit 0; 9 batches reached step 1499, 9 structural checks passed
+batch 90 step 1499 loss 0.2070893794298172
+batch 100 step 1499 loss 0.18239726126194
+batch 110 step 1499 loss 0.14820589125156403
+batch 120 step 1499 loss 0.17726898193359375
+batch 130 step 1499 loss 0.1237279549241066
+batch 140 step 1499 loss 0.21945364773273468
+batch 150 step 1499 loss 0.19075851142406464
+batch 160 step 1499 loss 0.2155720442533493
+batch 170 step 1499 loss 0.16267912089824677
+done batch 90 arm_max_m 0.0 missing_hand_count 4
+done batch 100 arm_max_m 0.0 missing_hand_count 2
+done batch 110 arm_max_m 0.0 missing_hand_count 4
+done batch 120 arm_max_m 0.0 missing_hand_count 5
+done batch 130 arm_max_m 0.0 missing_hand_count 7
+done batch 140 arm_max_m 0.0 missing_hand_count 3
+done batch 150 arm_max_m 0.0 missing_hand_count 2
+done batch 160 arm_max_m 0.0 missing_hand_count 1
+done batch 170 arm_max_m 0.0 missing_hand_count 3
+Initial first90 and last90 runs: exit 1 at no-observation wrist-rotation assertion after step 1499; structural arm-position check had already passed; no batch files were written. See execution_notes.txt.

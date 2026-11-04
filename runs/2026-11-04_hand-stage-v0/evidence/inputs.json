@@ -1,0 +1,37 @@
+{
+  "baseline_commit": "501ffb4",
+  "resources": {
+    "matched_WiLoR_observations": {
+      "sha256": "21ac78c302d81c42a6f0b55f77e433fba4ce15be3ca11d1aa7fd5fb8f5b911f0",
+      "bytes": 329886
+    },
+    "v0_calibration": {
+      "sha256": "bc99d07c02d62b6d99e9a87d51f9cf6fa858f7caff0a224697fbb7d7fb45cc66",
+      "bytes": 1410
+    },
+    "previous_published_metrics": {
+      "sha256": "e0e6b887ecbf77f402d2291f8bb3a797890eaec56bf7efa141716043a84124bb",
+      "bytes": 264038
+    },
+    "previous_fit_inventory": {
+      "sha256": "96d1f02fa7ae098e8fce62e73e05a98dbbd16db52afec6baea621105f2599271",
+      "bytes": 11562
+    },
+    "previous_simulated_head_calibration": {
+      "sha256": "83537a6e4bf70112bb0376e25544c771b54eb849cb53269333c3daada7680536",
+      "bytes": 373
+    }
+  },
+  "code_sha256": {
+    "evaluate.py": "237dedf03f12797b0aeea8108079141b686841004308cd59fce7d3b9b1a2d9de",
+    "fit_hands.py": "e5049f82036e471e230b4e8bdb418f1e1841270b1f35e74e4ea34fa6f19a3234",
+    "run.sh": "af622ed51b3d5c04c0e965ce585be8675c7566533365408068d0408a6bf65b63",
+    "summarize.py": "1d66434d99c3fa3ba4891600002fc8de70933c1481dcbc8762369b386f4b3b05",
+    "validate.py": "3bb62285184627dcf0de0af73ae5831a665d76c04daeddd66092ab2becc4e596",
+    "verify_metrics.py": "f86f5c45809858b5587d53a709e4f31a807789b45285342c7b56ed60f23a5d6f"
+  },
+  "previous_180_frame_inputs": "see previous run inputs.json and fit_inventory.json",
+  "assets": "restricted local assets; no labels used in hand optimization",
+  "dfm_evaluation_reference_sha256": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c",
+  "prior_backend_fingerprints": "See runs/2026-11-04_v0-expanded-evaluation/evidence/backend_sources.json"
+}

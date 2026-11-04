@@ -1,0 +1,549 @@
+{
+  "batch_count": 18,
+  "unique_predicted_frames": 179,
+  "missing_frame_ids": [
+    120
+  ],
+  "max_joint_drift_m": {
+    "left_elbow": 0.0,
+    "right_elbow": 0.0,
+    "left_wrist": 0.0,
+    "right_wrist": 0.0
+  },
+  "mean_joint_drift_m": {
+    "left_elbow": 0.0,
+    "right_elbow": 0.0,
+    "left_wrist": 0.0,
+    "right_wrist": 0.0
+  },
+  "hand_without_any_2d_or_stereo_observation_counts": {
+    "left": 43,
+    "right": 4
+  },
+  "unobserved_hand_joint_drift": {
+    "left": {
+      "max_m": 0.0025750724598765373,
+      "per_frame": [
+        {
+          "frame": 150,
+          "max_point_difference_m": 0.0
+        },
+        {
+          "frame": 180,
+          "max_point_difference_m": 0.001643999246880412
+        },
+        {
+          "frame": 210,
+          "max_point_difference_m": 0.0018042708979919553
+        },
+        {
+          "frame": 450,
+          "max_point_difference_m": 0.0016617224318906665
+        },
+        {
+          "frame": 540,
+          "max_point_difference_m": 0.0018321553943678737
+        },
+        {
+          "frame": 570,
+          "max_point_difference_m": 0.00033928800257854164
+        },
+        {
+          "frame": 1080,
+          "max_point_difference_m": 0.002004992449656129
+        },
+        {
+          "frame": 1470,
+          "max_point_difference_m": 0.0016808287473395467
+        },
+        {
+          "frame": 2520,
+          "max_point_difference_m": 0.0018388911848887801
+        },
+        {
+          "frame": 2550,
+          "max_point_difference_m": 0.0025750724598765373
+        },
+        {
+          "frame": 2580,
+          "max_point_difference_m": 0.0012350132456049323
+        },
+        {
+          "frame": 2670,
+          "max_point_difference_m": 0.0016433754935860634
+        },
+        {
+          "frame": 2700,
+          "max_point_difference_m": 0.0006702657556161284
+        },
+        {
+          "frame": 2730,
+          "max_point_difference_m": 0.0006551321130245924
+        },
+        {
+          "frame": 2760,
+          "max_point_difference_m": 0.0003426350012887269
+        },
+        {
+          "frame": 2940,
+          "max_point_difference_m": 0.000983993406407535
+        },
+        {
+          "frame": 3000,
+          "max_point_difference_m": 0.0003460173902567476
+        },
+        {
+          "frame": 3210,
+          "max_point_difference_m": 0.0019014043500646949
+        },
+        {
+          "frame": 3420,
+          "max_point_difference_m": 0.000804309151135385
+        },
+        {
+          "frame": 3450,
+          "max_point_difference_m": 0.0007404476054944098
+        },
+        {
+          "frame": 3480,
+          "max_point_difference_m": 0.0009194552549161017
+        },
+        {
+          "frame": 3510,
+          "max_point_difference_m": 0.0011463620467111468
+        },
+        {
+          "frame": 3690,
+          "max_point_difference_m": 0.0006938502774573863
+        },
+        {
+          "frame": 3720,
+          "max_point_difference_m": 0.0013839303283020854
+        },
+        {
+          "frame": 3750,
+          "max_point_difference_m": 0.000978597323410213
+        },
+        {
+          "frame": 3810,
+          "max_point_difference_m": 0.0005052066408097744
+        },
+        {
+          "frame": 3870,
+          "max_point_difference_m": 0.0009412947692908347
+        },
+        {
+          "frame": 3930,
+          "max_point_difference_m": 0.0009807830210775137
+        },
+        {
+          "frame": 3960,
+          "max_point_difference_m": 0.0008157705888152122
+        },
+        {
+          "frame": 3990,
+          "max_point_difference_m": 0.0005885196151211858
+        },
+        {
+          "frame": 4020,
+          "max_point_difference_m": 0.001632099156267941
+        },
+        {
+          "frame": 4050,
+          "max_point_difference_m": 0.000551488483324647
+        },
+        {
+          "frame": 4140,
+          "max_point_difference_m": 0.000410085340263322
+        },
+        {
+          "frame": 4170,
+          "max_point_difference_m": 0.0005302593344822526
+        },
+        {
+          "frame": 4320,
+          "max_point_difference_m": 0.0009659730130806565
+        },
+        {
+          "frame": 4380,
+          "max_point_difference_m": 0.0013558310456573963
+        },
+        {
+          "frame": 4440,
+          "max_point_difference_m": 0.0019934866577386856
+        },
+        {
+          "frame": 4530,
+          "max_point_difference_m": 0.0006845698808319867
+        },
+        {
+          "frame": 4770,
+          "max_point_difference_m": 0.0006993408896960318
+        },
+        {
+          "frame": 4920,
+          "max_point_difference_m": 0.00043254427146166563
+        },
+        {
+          "frame": 5250,
+          "max_point_difference_m": 0.0007934918394312263
+        },
+        {
+          "frame": 5310,
+          "max_point_difference_m": 0.0011192422825843096
+        },
+        {
+          "frame": 5370,
+          "max_point_difference_m": 0.0004862721252720803
+        }
+      ]
+    },
+    "right": {
+      "max_m": 0.0011786875547841191,
+      "per_frame": [
+        {
+          "frame": 150,
+          "max_point_difference_m": 0.0
+        },
+        {
+          "frame": 270,
+          "max_point_difference_m": 0.0009482446475885808
+        },
+        {
+          "frame": 300,
+          "max_point_difference_m": 0.0010967485141009092
+        },
+        {
+          "frame": 330,
+          "max_point_difference_m": 0.0011786875547841191
+        }
+      ]
+    }
+  },
+  "batches": [
+    {
+      "batch": 0,
+      "frames": [
+        0,
+        30,
+        60,
+        90,
+        150,
+        180,
+        210,
+        240,
+        270
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "d482a6823ee6159645c3221971ac5214c815199d670d259aecae5e1bfa014cc2"
+    },
+    {
+      "batch": 10,
+      "frames": [
+        300,
+        330,
+        360,
+        390,
+        420,
+        450,
+        480,
+        510,
+        540,
+        570
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "39de2d8971cf798ea04a749c62a395534b129934c098ecdcf60115cf6f211acf"
+    },
+    {
+      "batch": 20,
+      "frames": [
+        600,
+        630,
+        660,
+        690,
+        720,
+        750,
+        780,
+        810,
+        840,
+        870
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "e134f4263a39b554401a42395ba22bf6ecb3778db9c228fc848674b6f0c0cf75"
+    },
+    {
+      "batch": 30,
+      "frames": [
+        900,
+        930,
+        960,
+        990,
+        1020,
+        1050,
+        1080,
+        1110,
+        1140,
+        1170
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "c2b61db28f668aa5d87638993bae22b29d1c0a43aa16bbafe20f7f64fe2fdd45"
+    },
+    {
+      "batch": 40,
+      "frames": [
+        1200,
+        1230,
+        1260,
+        1290,
+        1320,
+        1350,
+        1380,
+        1410,
+        1440,
+        1470
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "fcf52662db1359c06c57ea319c95ce3a670b8047c2bbcd2bc003467a41e7c34c"
+    },
+    {
+      "batch": 50,
+      "frames": [
+        1500,
+        1530,
+        1560,
+        1590,
+        1620,
+        1650,
+        1680,
+        1710,
+        1740,
+        1770
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "725fe080f1328a996a9bd08e2e67f8ff449d431feecf80b01d97d461023b17e3"
+    },
+    {
+      "batch": 60,
+      "frames": [
+        1800,
+        1830,
+        1860,
+        1890,
+        1920,
+        1950,
+        1980,
+        2010,
+        2040,
+        2070
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "030761a2934be2bdde1b069f4dabf1ac4548e341454b538981a5ec4e8d67882d"
+    },
+    {
+      "batch": 70,
+      "frames": [
+        2100,
+        2130,
+        2160,
+        2190,
+        2220,
+        2250,
+        2280,
+        2310,
+        2340,
+        2370
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "cbe5257cd58c000a69455e19a3c0f3053883757ace45e79b4ca9d9d81d1eda4f"
+    },
+    {
+      "batch": 80,
+      "frames": [
+        2400,
+        2430,
+        2460,
+        2490,
+        2520,
+        2550,
+        2580,
+        2610,
+        2640,
+        2670
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "ee8e005213765c0f1e908bf83328fa846ef3d7146e15125b1390cb7bcd1e4259"
+    },
+    {
+      "batch": 90,
+      "frames": [
+        2700,
+        2730,
+        2760,
+        2790,
+        2820,
+        2850,
+        2880,
+        2910,
+        2940,
+        2970
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "efcc713c141f532287b544bd84fcf271b2a08d295e2ae50f533829b609381293"
+    },
+    {
+      "batch": 100,
+      "frames": [
+        3000,
+        3030,
+        3060,
+        3090,
+        3120,
+        3150,
+        3180,
+        3210,
+        3240,
+        3270
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "85be843f08187812c16d657946fef7a16e217d2b4febe8e8af6045fd498a31b4"
+    },
+    {
+      "batch": 110,
+      "frames": [
+        3300,
+        3330,
+        3360,
+        3390,
+        3420,
+        3450,
+        3480,
+        3510,
+        3540,
+        3570
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "716806830b73759e4027343b8fcc95bbcf202ec6699452ca603cb3fda2c9ca59"
+    },
+    {
+      "batch": 120,
+      "frames": [
+        3600,
+        3630,
+        3660,
+        3690,
+        3720,
+        3750,
+        3780,
+        3810,
+        3840,
+        3870
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "0e2c6ec6c3ae7ae1fc379f583f0685a15ab69e81f7a0785d130105bb78a43f82"
+    },
+    {
+      "batch": 130,
+      "frames": [
+        3900,
+        3930,
+        3960,
+        3990,
+        4020,
+        4050,
+        4080,
+        4110,
+        4140,
+        4170
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "8d3eaf88bad54ec0b1f24d6893241752ff76f2e1f0f2fac403800c68b4229863"
+    },
+    {
+      "batch": 140,
+      "frames": [
+        4200,
+        4230,
+        4260,
+        4290,
+        4320,
+        4350,
+        4380,
+        4410,
+        4440,
+        4470
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "4f381d19e7939dbd95bfe0866f1270f7e7e967bab625854b121fb319ceb62656"
+    },
+    {
+      "batch": 150,
+      "frames": [
+        4500,
+        4530,
+        4560,
+        4590,
+        4620,
+        4650,
+        4680,
+        4710,
+        4740,
+        4770
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "b6939637f95e007b360eae063dc3b6e29e8fa62485b859480baeac1ae2a65435"
+    },
+    {
+      "batch": 160,
+      "frames": [
+        4800,
+        4830,
+        4860,
+        4890,
+        4920,
+        4950,
+        4980,
+        5010,
+        5040,
+        5070
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "7cc915d848b8fdff7e5c7a400433d404453edf3d9d11e8315a38a33b324195af"
+    },
+    {
+      "batch": 170,
+      "frames": [
+        5100,
+        5130,
+        5160,
+        5190,
+        5220,
+        5250,
+        5280,
+        5310,
+        5340,
+        5370
+      ],
+      "max_arm_diff_m": 0.0,
+      "initial_reconstruction_max_m": 0.0,
+      "sha256": "af4e84d4a3c3c0081adba8ff9989c2c05b66451854e2ecd946aff8bcc70ffbec"
+    }
+  ],
+  "dfm_used": false
+}

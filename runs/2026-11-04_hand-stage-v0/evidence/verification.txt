@@ -1,0 +1,6 @@
+PASS: frozen protocol SHA-256 unchanged; 6 source-file hashes verified; Python syntax valid
+PASS: 13 report links resolve; all evidence JSON parses
+PASS: 18 fitted batches, 179 unique frames, missing 00120; wrist and elbow center drift exactly zero
+PASS: 8 predeclared wrist median/p90 checks fall within v0 intervals
+PASS: independently recomputed 48 hand median/p90 values from per-frame evidence (absolute tolerance 1e-9)
+LIMITATION: no-observation local hand parameters match v0 exactly, but hand landmarks drift by at most 2.5751 mm left and 1.1787 mm right; see validation_v2.json

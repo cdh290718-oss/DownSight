@@ -1,0 +1,6 @@
+Push preflight for this incremental run
+Initial tracked worktree: clean. Baseline and remote main at preflight: 501ffb4ae0fd1514dbe6a357e99415f6f0695c95.
+Staged files and outgoing commit are limited to this run; ignored local inputs, weights and raw outputs are not staged.
+No images, weights, data sets, videos, npz/npy, full raw outputs, credentials, .env, full local provenance or patch; each file below 50 MB.
+Text checked for workstation paths and common credential patterns; evidence consists of sanitized logs, derived metrics and resource hashes.
+This incremental check is not an audit of already-published history.
