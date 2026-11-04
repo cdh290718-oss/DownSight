@@ -1,0 +1,26 @@
+{
+  "old_011": {
+    "accepted": 0,
+    "rejections": {
+      "missing_or_conflicted_identity": 42
+    }
+  },
+  "old_012": {
+    "accepted": 0,
+    "rejections": {
+      "missing_or_conflicted_identity": 42
+    }
+  },
+  "new_001": {
+    "accepted": 42,
+    "rejections": {}
+  },
+  "new_022": {
+    "accepted": 42,
+    "rejections": {}
+  },
+  "new_100": {
+    "accepted": 42,
+    "rejections": {}
+  }
+}

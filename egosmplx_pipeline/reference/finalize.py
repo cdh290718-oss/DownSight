@@ -1,3 +1,4 @@
+from egosmplx_pipeline import v2_policy as v2
 from pathlib import Path
 import os
 import sys,argparse,shutil
@@ -17,7 +18,7 @@ def main():
   # Freeze exact target strips from pre-optimization geometry for fair before/after comparison.
   oldp=load(PREV/'final_frames'/row['condition']/row['camera']/'body_params.npz');data=targets(row,oldp,matches,w,cam,dst)
   mesh,report=build(p,w,matches,cam,data);oldmesh=load(PREV/'final_frames'/row['condition']/row['camera']/'hybrid_mesh.npz');bodyonly,_=previous_build(p,w,matches,cam)
-  check=constraints(p,load(row['source_npz']),load(row['rigid_npz']),cam,lookup);check.update(identities_unchanged=True,manual_annotations_used=False,topology_preserved=bool(np.array_equal(mesh['faces'],oldmesh['faces'])),minimum_mesh_depth_m=float(mesh['vertices_cam'][:,2].min()))
+  check=constraints(p,load(row['source_npz']),load(row['rigid_npz']),cam,lookup);check.update(identities_unchanged=True,manual_annotations_used=False,topology_preserved=bool(np.array_equal(mesh['faces'],oldmesh['faces'])),minimum_mesh_depth_m=float(v2.min_z(mesh['vertices_cam'])))
   assert check['topology_preserved'] and check['minimum_mesh_depth_m']>=.02
   rec=dict(id=row['id'],condition=row['condition'],camera=row['camera'],hands=report,silhouette_baseline=metrics(oldmesh['vertices_cam'],cam,data),silhouette_body_only=metrics(bodyonly['vertices_cam'],cam,data),silhouette_final=metrics(mesh['vertices_cam'],cam,data))
   if a.verify:

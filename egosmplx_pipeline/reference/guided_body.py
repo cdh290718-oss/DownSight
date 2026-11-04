@@ -3,6 +3,7 @@
 Numerical optimization migrated from the verified 2026-09-29 eight-frame run.
 The manifest is built from this run's automatic observations, never manual data.
 """
+from egosmplx_pipeline import v2_policy as v2
 from pathlib import Path
 import os,argparse,copy,time,hashlib
 import numpy as np,cv2,torch
@@ -37,7 +38,7 @@ def context(row):
  return p,source,rigid,w,old,matches,cam,lookup,data
 
 def metrics(p,w,old,matches,cam,lookup,data):
- v,j=geometry(p);uv=cam.world2camera(j.astype(np.float64));names=[n for n in JOINT_MAPPING if lookup[n]['score']>=.3 and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
+ v,j=geometry(p);uv=cam.world2camera(j.astype(np.float64));names=[n for n in JOINT_MAPPING if v2.body_allowed(n,lookup[n]) and lookup[n]['score']>=.3 and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
  errs={n:float(np.linalg.norm(uv[JI[JOINT_MAPPING[n]]]-[lookup[n]['x'],lookup[n]['y']])) for n in names}
  hands={}
  for side,m in matches.items():
@@ -53,11 +54,11 @@ def fit(row,steps):
  dev='cuda' if torch.cuda.is_available() else 'cpu';torch.set_num_threads(2);torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False
  layer=copy.deepcopy(smpl_x.layer['neutral']).to(dev).eval();layer.requires_grad_(False);t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)
  hn=head_neck_context(rigid,cam,lookup,dev)
- data=prepare(data,dev);names=[n for n in JOINT_MAPPING if lookup[n]['score']>=.3 and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
+ data=prepare(data,dev);names=[n for n in JOINT_MAPPING if v2.body_allowed(n,lookup[n]) and lookup[n]['score']>=.3 and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
  bi=torch.tensor([JI[JOINT_MAPPING[n]] for n in names],device=dev);bt=t([[lookup[n]['x'],lookup[n]['y']] for n in names]);bw=t([lookup[n]['score']**2 for n in names]);bw/=bw.mean()
  active=list(MAX_DELTA_DEG);ai=torch.tensor([BODY_POSE_NAMES.index(n) for n in active],device=dev);caps=t(np.deg2rad([MAX_DELTA_DEG[n] for n in active]));b0=t(rigid['body_pose']).reshape(21,3);g0=t(rigid['global_orient']).reshape(3);tr0=t(rigid['transl']).reshape(3)
  delta=(t(p['body_pose']).reshape(21,3)-b0)[ai].clone().requires_grad_();gd=(t(p['global_orient']).reshape(3)-g0).clone().requires_grad_();tr=t(p['transl']).reshape(3).clone().requires_grad_();variables=[delta,gd,tr]
- _,sj=geometry(source);_,rj=geometry(rigid);floor=t(np.maximum(np.linalg.norm(sj[[12,13]],axis=1),np.linalg.norm(rj[[12,13]],axis=1))*.85)
+ _,sj=geometry(source);_,rj=geometry(rigid);floor=t(np.maximum(np.linalg.norm(sj[[12,13]],axis=1),np.linalg.norm(rj[[12,13]],axis=1))*v2.wrist_fraction())
  _,initial_j=geometry(p)
  bodylimit=min(rmse(cam.world2camera(sj.astype(np.float64))[bi.cpu().numpy()],arr(bt))+5,rmse(cam.world2camera(initial_j.astype(np.float64))[bi.cpu().numpy()],arr(bt))+.5)
  wi=torch.tensor([12+SIDES.index(s) for s in matches],device=dev);wg=t([w['joints_2d'][m['candidate'],0] for s,m in matches.items()])
@@ -78,10 +79,10 @@ def fit(row,steps):
   palm=torch.stack([huber(uv[ix],g).mean() for ix,g in zip(pis,pgs)]).mean()
   loop=torch.stack([huber(cam.world2camera_pytorch(v[ix]),g).mean() for ix,g in zip(ids,goals)]).mean()
   priors=.003*(delta/caps[:,None]).square().mean()+.001*((tr-tr0)/t([.10,.10,.18])).square().mean()+.001*(gd/np.deg2rad(8)).square().mean()
-  return 4*body+4*wrist+1*palm+5*loop+1.5*sil_loss(v,cam,data)+priors+hn.loss(v,uv)
+  return (4*hn.v2.observation(v,j,uv) if v2.enabled() else 4*body+4*wrist+1*palm)+5*loop+1.5*sil_loss(v,cam,data)+priors+hn.loss(v,uv)
  def clip():
   delta.mul_(torch.minimum(torch.ones_like(caps),caps/delta.norm(dim=1).clamp_min(1e-8))[:,None]);gd.mul_(torch.clamp(t(np.deg2rad(8))/gd.norm().clamp_min(1e-8),max=1));tr[2].clamp_(.05,3)
- def violations(v,j,uv):return torch.cat([(torch.sqrt((uv[bi]-bt).square().sum(1).mean())-bodylimit+.01).reshape(1)/10,(.0205-v[:,2].min()).reshape(1)/.02,(floor+1e-5-j[[12,13]].norm(dim=1))/.05,hn.violations(v)])
+ def violations(v,j,uv):return torch.cat([(torch.sqrt((uv[bi]-bt).square().sum(1).mean())-bodylimit+.01).reshape(1)/10,(.0205-v2.min_z(v)).reshape(1)/.02,(floor+1e-5-j[[12,13]].norm(dim=1))/.05,hn.violations(v)])
  def valid(v,j,uv):return bool(violations(v,j,uv).max()<=0)
  opt=torch.optim.Adam([{'params':[delta],'lr':.002},{'params':[gd],'lr':.0008},{'params':[tr],'lr':.0015}]);start=time.time();trace=[]
  with torch.no_grad():v,j,uv=forward();bestloss=float(objective(v,j,uv));best=[x.clone() for x in variables]
@@ -133,7 +134,7 @@ def fit(row,steps):
  after=metrics(q,w,old,matches,cam,lookup,data)
  lengths=lambda a:np.array([np.linalg.norm(a[i]-a[k]) for i,k in [(8,10),(10,12),(9,11),(11,13)]])
  _,j0=geometry(p);boneerr=float(np.max(np.abs(lengths(j)-lengths(j0))));assert boneerr<1e-5
- write(dst/'optimization.json',dict(row=row,baseline='Current run automatic wrist/contour-refined body',algorithm_source='EgoFishPose/06f5472',method='single continuation; Sapiens joints + native MANO MCP and 16 corresponding wrist-loop pixels + frozen contour; no body-shifted hand targets',manual_inputs=False,max_steps=steps,actual_steps=step+1,early_stop_patience=200,elapsed_seconds=time.time()-start,initial=initial,after=after,trace=trace,acceptance=check,fixed_shape=True,cpu_feasibility_step_fraction=alpha,body_bone_max_change_m=boneerr,body_reload_max_abs_m=float(np.abs(vv-v).max())))
+ write(dst/'optimization.json',dict(row=row,baseline='Current run automatic wrist/contour-refined body',algorithm_source='EgoFishPose/06f5472',method=('v2 grouped Sapiens body and WiLoR stereo observations; original wrist-loop and contour terms' if v2.enabled() else 'single continuation; Sapiens joints + native MANO MCP and 16 corresponding wrist-loop pixels + frozen contour; no body-shifted hand targets'),manual_inputs=False,max_steps=steps,actual_steps=step+1,early_stop_patience=200,elapsed_seconds=time.time()-start,initial=initial,after=after,trace=trace,acceptance=check,fixed_shape=True,cpu_feasibility_step_fraction=alpha,body_bone_max_change_m=boneerr,body_reload_max_abs_m=float(np.abs(vv-v).max())))
  print('DONE',row['condition'],after,flush=True)
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--steps',type=int,default=1400);a=ap.parse_args()

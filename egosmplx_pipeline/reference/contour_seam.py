@@ -1,4 +1,5 @@
 """Standard-shape bounded wrist loop plus harmonic displacement on both sides."""
+from egosmplx_pipeline import v2_policy as v2
 from pathlib import Path
 import os
 import sys,argparse
@@ -87,12 +88,12 @@ def build(p,w,matches,cam,sil_data=None):
    ratio=np.linalg.norm(proposal[be[:,0]]-proposal[be[:,1]],axis=1)/bl
    nn=normals(proposal,touched_faces);areas=np.linalg.norm(nn,axis=1)/np.maximum(1e-12,np.linalg.norm(bn,axis=1))
    lr=float(np.linalg.norm(proposal[global_b]-proposal[global_b].mean(0),axis=1).mean()/standard_radius)
-   ok=bool(np.isfinite(proposal).all() and proposal[:,2].min()>=.02 and ratio.min()>=.70 and ratio.max()<=1.40 and areas.min()>=.4 and areas.max()<=2.2 and (np.sum(nn*bn,axis=1)>0).all() and .85<=lr<=1.15)
+   ok=bool(np.isfinite(proposal).all() and v2.min_z(proposal)>=.02 and ratio.min()>=.70 and ratio.max()<=1.40 and areas.min()>=.4 and areas.max()<=2.2 and (np.sum(nn*bn,axis=1)>0).all() and .85<=lr<=1.15)
    hm=hand_metrics(proposal[ids],target,mf)
    if hm['normal_reversals_vs_target']>before['normal_reversals_vs_target']:ok=False
    # Separate geometric acceptance from 2D visual accuracy; no manual input.
-   px=cam.world2camera((smpl_x.orig_hand_regressor[s]@proposal).astype(np.float64));goal=w['joints_2d'][a['candidate']];err=float(np.sqrt(np.mean(np.sum((px-goal)**2,axis=1))))
-   oldpx=cam.world2camera((smpl_x.orig_hand_regressor[s]@v).astype(np.float64));olderr=float(np.sqrt(np.mean(np.sum((oldpx-goal)**2,axis=1))))
+   px=cam.world2camera((smpl_x.orig_hand_regressor[s]@proposal).astype(np.float64));goal=w['joints_2d'][a['candidate']];err=v2.hand_rmse(px,goal)
+   oldpx=cam.world2camera((smpl_x.orig_hand_regressor[s]@v).astype(np.float64));olderr=v2.hand_rmse(oldpx,goal)
    if err>olderr+3:ok=False
    sm=metrics(proposal,cam,sidedata).get(s,dict(score=0.))
    sm['wrist_loop_outside_mse_normalized']=loop_penalty(proposal)
@@ -100,7 +101,7 @@ def build(p,w,matches,cam,sil_data=None):
    score=hm['edge_log_rms']+.002*err+.01*hm['normal_reversals_vs_target']+5*sm['score']
    diag=dict(alpha=alpha,accepted=ok,hand_metrics=hm,hand_rmse_px=err,forearm_edge_ratio_min=float(ratio.min()),forearm_edge_ratio_max=float(ratio.max()),forearm_area_ratio_min=float(areas.min()),forearm_area_ratio_max=float(areas.max()),loop_radius_over_standard=lr,score=score,silhouette=sm)
    candidates.append((diag,proposal))
-  originalpx=cam.world2camera((smpl_x.orig_hand_regressor[s]@v).astype(np.float64));originalerr=float(np.sqrt(np.mean(np.sum((originalpx-w['joints_2d'][a['candidate']])**2,axis=1))))
+  originalpx=cam.world2camera((smpl_x.orig_hand_regressor[s]@v).astype(np.float64));originalerr=v2.hand_rmse(originalpx,w['joints_2d'][a['candidate']])
   oldscore=before['edge_log_rms']+.002*originalerr+.01*before['normal_reversals_vs_target']+5*original_sil['score']
   valid=[c for c in candidates if c[0]['accepted'] and c[0]['score']<oldscore]
   if valid:

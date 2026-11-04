@@ -1,0 +1,44 @@
+{
+  "commands": [
+    {
+      "name": "formal_batch",
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/run_batch.py --inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out outputs/session_hand6_v2_20261104/batch_cpu --workers 2",
+      "exit_status": 0,
+      "per_frame_commands": "execution.json"
+    },
+    {
+      "name": "fixed_view_evaluation",
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/evaluate.py --inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out outputs/session_hand6_v2_20261104/evaluation --wait-seconds 2400",
+      "exit_status": 0
+    },
+    {
+      "name": "output_validation",
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/validate.py --inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out runs/2026-11-04_session-hand6-v2/evidence/output_validation.json",
+      "exit_status": 0
+    },
+    {
+      "name": "unit_tests_published",
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <PYTHON> -m pytest tests -q -p no:cacheprovider",
+      "exit_status": 0,
+      "log": "pytest-published.txt"
+    },
+    {
+      "name": "synthetic_geometry",
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/check_geometry.py --manifest <ARCHIVE>/manifest.json --out runs/2026-11-04_session-hand6-v2/evidence/synthetic_geometry.json",
+      "exit_status": 0
+    },
+    {
+      "name": "build_site",
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/build_site.py --evaluation outputs/session_hand6_v2_20261104/evaluation --output runs/2026-11-04_session-hand6-v2/site",
+      "exit_status": 0
+    }
+  ],
+  "python": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8",
+  "archive_id": "session_hand6_stereo_joint_currentcalib_20261025_v2",
+  "prior_failures": {
+    "root_pytest_exit_status": 3,
+    "first_full_pilot_exit_status": 1,
+    "stopped_pilot_signal": "SIGTERM",
+    "logs_retained": true
+  }
+}

@@ -3,6 +3,7 @@
 
 Shape, hands, feet and facial parameters stay fixed. No local surface deformation.
 """
+from egosmplx_pipeline import v2_policy as v2
 import argparse
 import hashlib
 import json
@@ -44,7 +45,7 @@ def main():
     assert auto['image_sha256'] == hashlib.sha256(a.image.read_bytes()).hexdigest()
     lookup = {j['name']: j for j in auto['keypoints']}
     # Filter automatic observations before optimization.
-    names = [n for n in JOINT_MAPPING if n in lookup and np.isfinite([lookup[n][k] for k in ['x', 'y', 'score']]).all()
+    names = [n for n in JOINT_MAPPING if n in lookup and v2.body_allowed(n,lookup[n],(w,h)) and np.isfinite([lookup[n][k] for k in ['x', 'y', 'score']]).all()
              and lookup[n]['score'] >= .3 and 0 <= lookup[n]['x'] < w and 0 <= lookup[n]['y'] < h]
     if len(names) < 4:
         raise ValueError('Too few usable automatic targets')
@@ -70,7 +71,7 @@ def main():
     with torch.no_grad():
         initial = tuple(v.clone() for v in forward(body0, glob0, cam0))
         initial_wrists = initial[2][wrists].norm(dim=1)
-        wrist_floor = initial_wrists * .85
+        wrist_floor = initial_wrists * v2.wrist_fraction()
         source_error = float((initial[0] - t(raw['smplx_mesh_cam'])).abs().max())
         assert source_error < 1e-5
     from egosmplx_pipeline.head_neck import HeadNeck
@@ -89,7 +90,7 @@ def main():
                     pose_prior_weight=.0008, camera_prior_weight=.0002, orient_prior_weight=.0004,
                     smooth_l1_beta=.003, max_global_axis_angle_increment_deg=8.,
                     body_axis_angle_increment_limits_deg=MAX_DELTA_DEG,
-                    wrist_distance_floor_fraction=.85, wrist_guard_weight=.002,
+                    wrist_distance_floor_fraction=v2.wrist_fraction(), wrist_guard_weight=.002,
                     wrist_distance_floor_m=cpu(wrist_floor).tolist(), minimum_vertex_z_m=.02,
                     depth_barrier_onset_m=.03, depth_barrier_scale_m=.02, depth_barrier_weight=.02,
                     best_candidate_rule='lowest total objective among candidates satisfying depth guards; manual evaluation never used')
@@ -109,6 +110,8 @@ def main():
             body[active_indices] = body[active_indices] + delta
             mesh, local, joints, pixels = forward(body, glob0 + gd, cam)
             rep = F.smooth_l1_loss((pixels[indices] - target) / t([w, h]), torch.zeros_like(target), beta=.003)
+            if v2.enabled():
+                rep = head_neck.v2.observation(mesh,joints,pixels)
             pp = (delta / caps[:, None]).square().mean()
             cp = ((cam - cam0) / t([.10, .10, .18])).square().mean()
             gp = (gd / np.deg2rad(8.)).square().mean()
@@ -116,18 +119,18 @@ def main():
             guard = F.relu((wrist_floor - wrist_dist) / .05).square().mean()
             # Start the barrier before the hard near plane. The legacy penalty
             # in raw meters was too weak relative to normalized pixel residuals.
-            depth = F.relu((.03 - mesh[:, 2].min()) / .02).square()
+            depth = F.relu((.03 - v2.min_z(mesh)) / .02).square()
             loss = rep + .0008*pp + .0002*cp + .0004*gp + .002*guard + .02*depth + head_neck.loss(mesh,pixels)
             if not torch.isfinite(loss):
                 raise RuntimeError('Nonfinite objective')
-            feasible = head_neck.feasible(mesh) and bool((wrist_dist >= wrist_floor - 1e-6).all() and mesh[:, 2].min() >= .02 - 1e-6)
+            feasible = head_neck.feasible(mesh) and bool((wrist_dist >= wrist_floor - 1e-6).all() and v2.min_z(mesh) >= .02 - 1e-6)
             value = float(loss.detach())
             if feasible and value < best_loss:
                 best_loss = value
                 best = (delta.detach().clone(), gd.detach().clone(), cam.detach().clone(), step)
             if step % 100 == 0 or step == a.steps:
                 item = dict(step=step, loss=value, reprojection=float(rep.detach()), feasible=feasible,
-                            minimum_z_m=float(mesh[:, 2].min().detach()))
+                            minimum_z_m=float(v2.min_z(mesh).detach()))
                 history.append(item)
                 print(label, item, flush=True)
             if step == a.steps:
@@ -205,7 +208,7 @@ def main():
                       global_geodesic_change_deg=angle_between(cpu(final_global), cpu(glob0)),
                       cam_trans_m=cpu(cc).tolist(), cam_trans_change_m=cpu(cc-cam0).tolist(),
                       wrist_camera_distance_m=cpu(joints[wrists].norm(dim=1)).tolist(),
-                      initial_wrist_camera_distance_m=cpu(initial_wrists).tolist(), minimum_vertex_z_m=float(mesh[:, 2].min()),
+                      initial_wrist_camera_distance_m=cpu(initial_wrists).tolist(), minimum_vertex_z_m=float(v2.min_z(mesh)),
                       fixed_fields_bitwise_equal=fixed_keys, reload_mesh_error_m=reload_mesh_error, reload_pixel_error_px=reload_pixel_error,
                       head_neck=head_neck.report(mesh,pixels), history=history)
         (dst / 'refinement_report.json').write_text(json.dumps(report, indent=2)+'\n')

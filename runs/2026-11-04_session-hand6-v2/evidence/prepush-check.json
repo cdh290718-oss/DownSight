@@ -1,0 +1,1428 @@
+{
+  "passed": true,
+  "scope": "worktree increment and site; no historical audit; working-tree output audit excludes its own changing file",
+  "base": "HEAD",
+  "ref": null,
+  "failures": [],
+  "files": [
+    {
+      "path": "docs/downsight/STEREO_V2_zh.md",
+      "bytes": 3516,
+      "sha256": "13ac5b1e5aee874f1772eee9d37ea26898579bf2b9835a062678561318e8f4b5"
+    },
+    {
+      "path": "egosmplx_pipeline/body_pose.py",
+      "bytes": 15633,
+      "sha256": "45bfdc111e33cfd961509a6ea2e64278daf77dfe0c3b292f79a16b6bd0b15355"
+    },
+    {
+      "path": "egosmplx_pipeline/body_rigid.py",
+      "bytes": 14505,
+      "sha256": "6231cab0dfe5c3df279e68286cbbc4a6091e9950862a22a4ae889411adbfc6f1"
+    },
+    {
+      "path": "egosmplx_pipeline/frame.py",
+      "bytes": 8393,
+      "sha256": "f3ad7172235f1e4e4e39103ca884b7169a0d964c1eea04e0cfdb0b22ab10393b"
+    },
+    {
+      "path": "egosmplx_pipeline/fusion.py",
+      "bytes": 6356,
+      "sha256": "abba7a607c9eb1ac8a7814526701bc80cf85bad50d7636dbc6ed5808a83a5321"
+    },
+    {
+      "path": "egosmplx_pipeline/head_neck.py",
+      "bytes": 8883,
+      "sha256": "05a022d9599a56d35c51fbe9297e580f97edfa43cc54c2fa2917991e19d01449"
+    },
+    {
+      "path": "egosmplx_pipeline/pipeline.py",
+      "bytes": 9381,
+      "sha256": "e6de5517dc854067f8f3a3e9234b0ab937ab88a3f630b93882ae49336e948a05"
+    },
+    {
+      "path": "egosmplx_pipeline/profiles.py",
+      "bytes": 601,
+      "sha256": "ee64abf7c36fd929eec6086b28d6adcf6497b2607053832ab21f64e3a1c99834"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine.py",
+      "bytes": 10244,
+      "sha256": "f51fefc4f8d9f0b4726c109384f228cb481d305c7994a3f98aadc44b0b149840"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine_strong.py",
+      "bytes": 10369,
+      "sha256": "04815352e354192961172b39bccb0852a513383432b7f1b81cd64d0c9314bc84"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_seam.py",
+      "bytes": 8344,
+      "sha256": "e4acb27680bb9467beb6dbdc311870ee3938b5b7cbae4a756e1284d4c1ecb7a9"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/finalize.py",
+      "bytes": 3314,
+      "sha256": "fcdd3558a9254493f975b1dbd1ed0d5b4d3438de296fb44c88f5b09fa89cd9fc"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/guided_body.py",
+      "bytes": 12311,
+      "sha256": "9e4ecf446c4e7cee40c2d673ed3fafc869b7c857fdc3d4838bd4d4d90afe2e7c"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/guided_fuse.py",
+      "bytes": 4611,
+      "sha256": "cf24b271bdd822e965b6d6b1123116c47c334755bf4b8267068707b80969d104"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/pipeline.py",
+      "bytes": 13071,
+      "sha256": "481194e6760671939bab12ee453256a2107040e48751c543141775b84f35930e"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/select_candidates.py",
+      "bytes": 4393,
+      "sha256": "0502845efc62d878357eb4cd906b8762e296b1083a74cb62f188023769f91b36"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/support.py",
+      "bytes": 3784,
+      "sha256": "c5eb5f9b3f4e6daa99150fbe2d2867afceec977061d3541a06347e0f0c2ac540"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/wrist_refine.py",
+      "bytes": 9839,
+      "sha256": "0aee37bf2f66cf0706ecb818849078461b83198429d2bbadb64d380ce484cd8e"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/wrist_seam.py",
+      "bytes": 9277,
+      "sha256": "e90c1ec06198f6a52383d6b72eced4934ee580dbda535b1039d6c289e2b8b531"
+    },
+    {
+      "path": "egosmplx_pipeline/report.py",
+      "bytes": 4044,
+      "sha256": "41938683c5c0d4a25d685e60ddda5048548ca68795035745e6ed05dbd67f6796"
+    },
+    {
+      "path": "egosmplx_pipeline/v2_policy.py",
+      "bytes": 8105,
+      "sha256": "28cd960b5e98348fb32cd44990dca95562491a31e9cfb0ff75b85f288467fe3d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/brief.md",
+      "bytes": 1282,
+      "sha256": "0fa8df36c6003586c692dbd1410f21981856ac48ee5186708797e035e44adeaf"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/build_site.py",
+      "bytes": 10351,
+      "sha256": "3e56a0ef5b261ea6313f7fa6089b7bcef5163b627d179bc869d365b520649724"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/check_geometry.py",
+      "bytes": 1248,
+      "sha256": "0c113b4908370ffbd63afcd5d4681b36adbe02a8fcd6c1167fa070515cdc1a5d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/check_publication.py",
+      "bytes": 4104,
+      "sha256": "0e2940dc9ad42e1bd37340a5a7fa0747ae9278067d0ab2246983664a727126b5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/collect_evidence.py",
+      "bytes": 3635,
+      "sha256": "3d1ae6a6b905c10c4e04e97d422e9b76119f74ae84c13106a7e105dcbe273ba0"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/evaluate.py",
+      "bytes": 7346,
+      "sha256": "4c82823b23a61e068ea76371f286e01dc3ee232e3e76a40562aa75e99d23f895"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/prepare.py",
+      "bytes": 7237,
+      "sha256": "ff655c21fe7032577f417624b52008640c461777b9bd6bd0f9bc9b9e0dff1d2a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/publish.py",
+      "bytes": 2869,
+      "sha256": "754767aba74c88b093de736127555c1299016ffd4ef561487c8717e5b932bba5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/run_batch.py",
+      "bytes": 1740,
+      "sha256": "ffd80c3039887d9d77e5b762c402f36a7da3758da9c4c3cec7ca40c9b8aa1413"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/summarize.py",
+      "bytes": 2080,
+      "sha256": "df0da8c27f03ec4a47fa0301615917b42b343d692aaee75c37a4033ab86dc588"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/summarize_inputs.py",
+      "bytes": 1458,
+      "sha256": "c0c3e41a2f28711e8c9417b49324d51ee50623cd832405496698dd90bf960fe0"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/validate.py",
+      "bytes": 2172,
+      "sha256": "69841db13d44a27c65a7396968beef007c5804c8c53f2fa3a8ac6e87c273efcc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/code/verify_site.py",
+      "bytes": 1478,
+      "sha256": "73ef9a10a0454b0167fb4af80d2afeda1c0099669795833a50fcc93200f648ea"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/aggregate.json",
+      "bytes": 6591,
+      "sha256": "c68e48bcb5a42355b83342ac54aa1446bd662f4c9154eec2f1762b234c8e6fde"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/audit_whitespace_note.txt",
+      "bytes": 316,
+      "sha256": "af4619de12972e8b90086246879ddfe10b9c2a16309c9f8724766f5c14079cac"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/backend_source_58d33a919aaf.json",
+      "bytes": 104145,
+      "sha256": "6341c95fdbacca2d0d095fbcfccd5a9be3fbd0c8dc90dfbc0000b282d6256f01"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/baseline_transition.json",
+      "bytes": 2526,
+      "sha256": "66a57df447b7514a026dc7871e0e0b8d121672b9722e7a73f8fb720464fe0291"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam3_f00000932_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam3_f00000932_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "dec835efd129738f427ef04828a39eda9532da0f6e594a89239b438e2ea961ea"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam3_f00001018_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam3_f00001018_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "eb4d99d5f51593a79539b3a22dc3097e5df89c86257f665d3e81e9c8d5065bcd"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam4_f00000928_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam4_f00000928_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "718e64e49592fc38e02cd7b3bc2b9c15d4d4af46d9bbd36b93aa393c49f488ff"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam4_f00001014_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/cam4_f00001014_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "c746f64969149151135dada3ed978b9a41216bb5834669ac4e6449c1b6ce4812"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/config_summary.json",
+      "bytes": 20553,
+      "sha256": "b63a5cc52c26dbd1652635e9a6ec06afaccd889d5dcb999ffb91bc604ddd793d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/execution.json",
+      "bytes": 4965,
+      "sha256": "82457312394f12dba31292274c5f42ea39fcc12a81920f13b7ddeb5cd0df1339"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/execution_notes.txt",
+      "bytes": 1372,
+      "sha256": "24aa7d5cf2deabcf9912f4f12c756b976a9a514c6cd030fa5e2ceaffca3a9ceb"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/execution_source_validation.json",
+      "bytes": 2049,
+      "sha256": "897195ef1a9c313af18be7bb46badc7c089f472ffbaf49d7e8623234709c7928"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/input_hashes.json",
+      "bytes": 7429,
+      "sha256": "53ea85f381eb5e99c82e9fa9eb7ff767fafefefab6eeee977a5cae0761c79033"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/input_summary.json",
+      "bytes": 13494,
+      "sha256": "e1d7db4fc18f6765173306db1311b95e4e3c5f72c664b67e84af0f8f64aa461e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch__cam3_f00000932.txt",
+      "bytes": 41,
+      "sha256": "747418519b543d50738644bf1bffcce8c60ee27757251530fde0d595c09a2afc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam3_f00000932.txt",
+      "bytes": 41,
+      "sha256": "747418519b543d50738644bf1bffcce8c60ee27757251530fde0d595c09a2afc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam3_f00001018.txt",
+      "bytes": 41,
+      "sha256": "5624437932c696e1eda3d5c10da22d03f67c4389f7de058cc8e7c772fe4ab66a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam4_f00000928.txt",
+      "bytes": 41,
+      "sha256": "28d133798cfceef88f6d0a6d3cfe2a1231f1875c7d2a496c37f77610b6c50652"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam4_f00001014.txt",
+      "bytes": 41,
+      "sha256": "6c81d2342fdeda02f6d00265a6e554a27c77de30e9958b59ba52729460748f49"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s001_cam3_f00001711.txt",
+      "bytes": 46,
+      "sha256": "99637493023e00de4291d38b9888a39ad2d776ef652cd3c5f129196fa097620a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s001_cam4_f00001701.txt",
+      "bytes": 46,
+      "sha256": "e85ff977d2c48c1b7598ea7ae67e3da181e697c46228449e0d085c5bc4a08d18"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s022_cam3_f00001834.txt",
+      "bytes": 46,
+      "sha256": "ef83c19f8241d2f3f5cd66c6eeac17234e7cad457c42161676c35df462e4555b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s022_cam4_f00001824.txt",
+      "bytes": 46,
+      "sha256": "6977a3a644cb312049c64fc0970f89f5b10fbf50efc39fddea595ceb6034b622"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s100_cam3_f00002299.txt",
+      "bytes": 46,
+      "sha256": "0668739c2c589a9d7f65d85b5b0f805478b85aeb6e9f6f2e4b20d80aa1b0d065"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s100_cam4_f00002281.txt",
+      "bytes": 46,
+      "sha256": "b1d3550a9d56ac6ca49cfcf75a82e5719a504c5e70fa3295733c3062ea094ace"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_first-full-attempt2.txt",
+      "bytes": 46,
+      "sha256": "99637493023e00de4291d38b9888a39ad2d776ef652cd3c5f129196fa097620a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_first-full.txt",
+      "bytes": 968,
+      "sha256": "83aa607b1c817d9b5714a31469a70e55062fdd2b9b300bf0608efe5b4acec1b6"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__cam3_f00000932.txt",
+      "bytes": 2596,
+      "sha256": "66f481c75de3c771acbda17a67cf64254379a4d21e00370c3db98f27b4588408"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference.txt",
+      "bytes": 215,
+      "sha256": "72bb9c8bbb2cdc47b3e403be56db1185a4978e64072f9fdf5ca0e2f7baac5cfc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__01_wrist.txt",
+      "bytes": 318,
+      "sha256": "3c2f5540e26149eef2391f5dda7bc3cd52449126ce869bb383185dddd926fb00"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__02_wrist_active.txt",
+      "bytes": 260,
+      "sha256": "e0e7b6763ccf64966fc0a4348674e557717918e96cb522fa1ea4ec2fba6b8db3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__03_wrist_surface.txt",
+      "bytes": 56,
+      "sha256": "dcebb48414c59324009c34f24bc6f79128b94aec6091a88ef756a2b97b027ee5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__04_contour_standard.txt",
+      "bytes": 259,
+      "sha256": "85d925706f0304643fb116d95b3d09879ac18b27aabedcfaadb078efd72c5b43"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__05_contour_strong.txt",
+      "bytes": 259,
+      "sha256": "8705c123304ebb15f663ae984fa851113ce9300d49e3d3cda8e48b22d3ada81a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__07_surface.txt",
+      "bytes": 148,
+      "sha256": "3099a625aaba9add71d937c088ff9d5c86bf79476af3c8772200e6e0d7b4b441"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__08_independent_reload.txt",
+      "bytes": 151,
+      "sha256": "e50cbca2b5c47b10967550e8512af276f2d699addc5a5617a6dd4b760d3d0659"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__09_mano_guided_body.txt",
+      "bytes": 166,
+      "sha256": "779dcc52177933a1726432a386c1fdd723e2783ebcf9ff58ec02591663024e0a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__s001_cam3_f00001711__s001_cam3_f00001711.txt",
+      "bytes": 1498,
+      "sha256": "84160b723df7134560a3003cf3d0567c797d48fa0f8b1f88ecd96b6ce88dd4f6"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference.txt",
+      "bytes": 215,
+      "sha256": "72bb9c8bbb2cdc47b3e403be56db1185a4978e64072f9fdf5ca0e2f7baac5cfc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__01_wrist.txt",
+      "bytes": 459,
+      "sha256": "7fc79a98462ae58e927f45a0b5bbcf021d180e40dfe01427b9daa63d534799c4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__02_wrist_active.txt",
+      "bytes": 376,
+      "sha256": "fee574a2a1a487e07b000f655b1ceb3cdb8368eeb69978b5660872a66d03ed9b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__03_wrist_surface.txt",
+      "bytes": 97,
+      "sha256": "7d01260e2f7cfa4e4a72d147f39182447fee8e7d834288dbd178495e462b93f8"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__04_contour_standard.txt",
+      "bytes": 375,
+      "sha256": "eff6d264a499f19faaee21fdb7363df69e285297afebbf6cd765e04e392e028b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__05_contour_strong.txt",
+      "bytes": 363,
+      "sha256": "b954164a2fc9fe1e086d48956770f0f2ddcd9d55005c59274e2ea1ec8ae92e91"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__07_surface.txt",
+      "bytes": 281,
+      "sha256": "edb58b7272c6bbe59e7345f3a59003de2b1cee519b5862dbe38fa06695556cb4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__08_independent_reload.txt",
+      "bytes": 284,
+      "sha256": "92208a4f722535f47c73d5b3c932ced3b4cee980813819b86e628f7e738a2a9f"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__09_mano_guided_body.txt",
+      "bytes": 426,
+      "sha256": "6fe4d55b0861823ef229e0314221c732aa071a82f848e1d8db4739f581afe7f3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__s001_cam3_f00001711.txt",
+      "bytes": 2588,
+      "sha256": "660588f0287a97476a1887504cc328150b272ba4d4d4f4f786e9e5da7607f409"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__cam3_f00000932.txt",
+      "bytes": 2596,
+      "sha256": "66f481c75de3c771acbda17a67cf64254379a4d21e00370c3db98f27b4588408"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__01_wrist.txt",
+      "bytes": 302,
+      "sha256": "5f4b7564655ba4f6bb62cdae20fabd4735a7c19924b9c167ce7316950ad62a96"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__02_wrist_active.txt",
+      "bytes": 245,
+      "sha256": "d55d619b863b2a573dec41ededa5db10be9ce10610e94175dfd6592ccdca5b45"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__03_wrist_surface.txt",
+      "bytes": 56,
+      "sha256": "dcebb48414c59324009c34f24bc6f79128b94aec6091a88ef756a2b97b027ee5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__04_contour_standard.txt",
+      "bytes": 259,
+      "sha256": "f253ce4f3af224993a7f999df3ee009bde4208566d09da0473482bd6e2a596a1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__05_contour_strong.txt",
+      "bytes": 261,
+      "sha256": "a9ab98703ab1c4c589552540b0b3427ffe5b87d720c38ce8da9e010b16bb8d59"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__07_surface.txt",
+      "bytes": 149,
+      "sha256": "4c9ec5468797fd22931c2450b70a84d1ef536666eda808f719964f6f8b481742"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__08_independent_reload.txt",
+      "bytes": 152,
+      "sha256": "a595ba56de28c067bb65baab16e745652bf8aad7e09415e51e4915a6561eaf51"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__09_mano_guided_body.txt",
+      "bytes": 1143,
+      "sha256": "6b7a5302ba2e838e83fe4469318de2909609ff74d45665327e7bec7f58a3650e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__10_original_seam.txt",
+      "bytes": 27,
+      "sha256": "fd790c7fcd4cd694b7c5a0144fc48823c33c9963cd8b539edfc6fe5fb580f250"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__11_guided_independent_reload.txt",
+      "bytes": 24,
+      "sha256": "6a9e492ea8094bbcaafe77ebd50072822b99e0d33c621cf8541e481960d79c6e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__cam3_f00001018.txt",
+      "bytes": 2602,
+      "sha256": "d3b33805fd2ac22fbcf684eca7d652582f7f333c100f2d701fc9f32083363ab8"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__01_wrist.txt",
+      "bytes": 314,
+      "sha256": "aef7f5c4f547a0963baf5d82deb8f0927f3040d488c3b7118797e8d2acdf1d5c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__02_wrist_active.txt",
+      "bytes": 258,
+      "sha256": "3a1e83a6a72efd4fecceefaecac4e07fc3f5936aaaaca67da8dff3bb583750af"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__03_wrist_surface.txt",
+      "bytes": 57,
+      "sha256": "84b796ee28161b092c78951278b4bf9623aadc63d3ba14b9e94b928d35394c5c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__04_contour_standard.txt",
+      "bytes": 261,
+      "sha256": "3c683d2c6f6afcc54e4d768d3c36c8beb5cb29b4c27dd03dcbd310b9d343d254"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__05_contour_strong.txt",
+      "bytes": 260,
+      "sha256": "1f3294eca6bcd3eaa5e30af97b5523e9062c8c96f9b38124cfa0fa60df5c2152"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__07_surface.txt",
+      "bytes": 148,
+      "sha256": "0bd60ff3738db98836f0bd5287fc6a9e7d32c2bd4a000bd71570b29bdaa5e950"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__08_independent_reload.txt",
+      "bytes": 151,
+      "sha256": "5ade58c17ac4f32e6891558b5a7d66a44d9434e9045b57147f3555d80ae4cb83"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__09_mano_guided_body.txt",
+      "bytes": 1146,
+      "sha256": "c05475914bc80a0c476093ee6b84a1a6d32a6a8486461e5f1ebe24870bae61a2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__10_original_seam.txt",
+      "bytes": 26,
+      "sha256": "bde2895b7ce03b773c68cd0bf9ce69f2d3f1d6a99f8732ea88d19a1f7cbcd247"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__11_guided_independent_reload.txt",
+      "bytes": 24,
+      "sha256": "98b944a94260c3694ec699490c1244d932d6ae2404726a5934b9bae628926919"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__cam4_f00000928.txt",
+      "bytes": 2586,
+      "sha256": "e39a8807217bb6efd5308973c6a8a702efc716fbc86d6588da992c6be405aabd"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__01_wrist.txt",
+      "bytes": 436,
+      "sha256": "dd5bed6b6167fe5b1feef2d21342da66f646c577510306ab19c9d36ae1ef59e4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__02_wrist_active.txt",
+      "bytes": 357,
+      "sha256": "626af61eefc236eb205bbb1da29c008e5b264f9f6a8e5673b2021532983e2896"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__03_wrist_surface.txt",
+      "bytes": 92,
+      "sha256": "6b99adec2d49e96ab8727f2f6698af76dbe67626870aa76b7f88f54e19dfa215"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__04_contour_standard.txt",
+      "bytes": 357,
+      "sha256": "131953fffb56ecba30f2f1dd0a286e65f381cd0d7345993da482685db0a5983c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__05_contour_strong.txt",
+      "bytes": 356,
+      "sha256": "c29b781d76e9b7a6e807967782b85cd1ca63ea8d36737406410fc65f5e83f030"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__07_surface.txt",
+      "bytes": 149,
+      "sha256": "3ac8f317619df40047098f4aa0b2b1e954c32fe7af0af2afa3d551e5ff7a53fa"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__08_independent_reload.txt",
+      "bytes": 152,
+      "sha256": "9c56f795429e139219861fae2cb0f95c91b6acc8438a780751f466f578dc767a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__09_mano_guided_body.txt",
+      "bytes": 1472,
+      "sha256": "03ef74b83b660080c6c3d76540a92655e0d26c8dcd7aae6ce5718580e59973e2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__10_original_seam.txt",
+      "bytes": 27,
+      "sha256": "dca56ba33b99e88ea548a066dfe5d1dcf64d0e4d6d8436031f879988f2283e43"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__11_guided_independent_reload.txt",
+      "bytes": 24,
+      "sha256": "8bb9ee6d3cca99119a31ef25ccd0a9ced86a96cce3db0e6a9c9fd661e75929ea"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__cam4_f00001014.txt",
+      "bytes": 2598,
+      "sha256": "4397b8a4e8a735b79c234220d48edc0506910740596f4a2e8f0d0d103f7bcc84"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__01_wrist.txt",
+      "bytes": 315,
+      "sha256": "f1aba6131d9425ca7ab14310e30149554b6851c352802ccf1bb60069290a7098"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__02_wrist_active.txt",
+      "bytes": 260,
+      "sha256": "d5f868afd334c426917af6f39a5601efb950746c85d464374a4d0f8ef3ff5b7c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__03_wrist_surface.txt",
+      "bytes": 58,
+      "sha256": "e11a018fd63d4d7708c989b7b3d9619113973e669b326015e764dfa6ad53ab97"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__04_contour_standard.txt",
+      "bytes": 260,
+      "sha256": "5eca8119979d84a9def8fe73bb5dfd4c9c47537502859c19ca6cd88326638178"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__05_contour_strong.txt",
+      "bytes": 234,
+      "sha256": "1ccce8478135a65508c10980357d2a6be797162c42bf872a57aca691e6f068e4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__07_surface.txt",
+      "bytes": 150,
+      "sha256": "24f5998ac8eb1ee9b420f9dd5c228cb200c1479356418146ba6ada88de13b829"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__08_independent_reload.txt",
+      "bytes": 153,
+      "sha256": "ed3324f23f77563d277ca0274e52077477a04b8ba29c9d9ecd13501890f2c940"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__09_mano_guided_body.txt",
+      "bytes": 1287,
+      "sha256": "bbfaf04e18b43537dbbe7ed96c8b8098e6218a86df8ecdbfeb48a4a8031ea2b4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__10_original_seam.txt",
+      "bytes": 26,
+      "sha256": "d9117d39149a12ea5a01096c7e184ebdd0309235de14c28a0204dbe309356a24"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__11_guided_independent_reload.txt",
+      "bytes": 24,
+      "sha256": "caa1994d85e80cef4d26cc4acb201a7c55237e3c9ebb3432dd209bb7e349e795"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__01_wrist.txt",
+      "bytes": 428,
+      "sha256": "61e797b6a776d9049585f7fdcc467e3611e0de78a905b5dab7625813b3164875"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__02_wrist_active.txt",
+      "bytes": 349,
+      "sha256": "f8acc1fa4d9c54381952466cd332bdc607930148ce573c8d39aaee0834c6251d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__03_wrist_surface.txt",
+      "bytes": 99,
+      "sha256": "f50055c06b6549358530be880bbcdd0d1ccb80ea687cbfcfab1378ee31e090ac"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__04_contour_standard.txt",
+      "bytes": 378,
+      "sha256": "5678dbb712569b48d68a4527b9e8c43ae8c7fa018564d469c2dc979ca9ed8033"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__05_contour_strong.txt",
+      "bytes": 376,
+      "sha256": "95eae50c42dd1fc292e07b857d28376613123cd43c7a1d95116e54bcacfc627a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__07_surface.txt",
+      "bytes": 281,
+      "sha256": "28cfb4c076529c57955e472f8b4f6d514e9fc020dd325cf0e3a975c5b4002dd3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__08_independent_reload.txt",
+      "bytes": 284,
+      "sha256": "32e9998861c9e3d8740b98f1134e643f7b4b6df054b5ecb7343e62d93928787c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__09_mano_guided_body.txt",
+      "bytes": 2066,
+      "sha256": "89c487f74f6d6c4fdbe164d1ae8c334a30c14f5b5b50de4f8776af8a06a15f7b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "f4bf80ba641a0733d2ec93d04243c60fffeadbe552959a82e3cdc07aa945e0b7"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "0fa5a9b236988a73df51d69a506e2a4b0aa9a29a6f7161a3aa85d1da7dc5f4ea"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__s001_cam3_f00001711.txt",
+      "bytes": 2588,
+      "sha256": "660588f0287a97476a1887504cc328150b272ba4d4d4f4f786e9e5da7607f409"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__01_wrist.txt",
+      "bytes": 429,
+      "sha256": "da0fe7fda2078ac7dc9d01909f0b0fc161db506a0432e519be9cf6feae48b1dc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__02_wrist_active.txt",
+      "bytes": 377,
+      "sha256": "949e065aabcb42c5b4e1422ffd1b7c5681597005d9a89c7158b79198d6116b06"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__03_wrist_surface.txt",
+      "bytes": 99,
+      "sha256": "b658f3c60de111d14fa833ebc010de6a0d5531520094d86f15566ad7df848aee"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__04_contour_standard.txt",
+      "bytes": 378,
+      "sha256": "64a10c0cb9a4bb9ac1b8b30ed35a98926193b086d29649516c850dc34ec32cf8"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__05_contour_strong.txt",
+      "bytes": 365,
+      "sha256": "e3ec9a0cf7cd25b170158acbfa9fdc5c586276850bf6a9443b15b52b319e69a5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__07_surface.txt",
+      "bytes": 283,
+      "sha256": "974c6d3fc0676c90cf968bfbd5f490504916b95d36acb7521d19b918153a85cd"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__08_independent_reload.txt",
+      "bytes": 286,
+      "sha256": "cc74cd6dc209ccf962f159d4f1bb7d8e56470725f528fc67b3f325f50131dbcd"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__09_mano_guided_body.txt",
+      "bytes": 1845,
+      "sha256": "a56affbe738e1ecb29ba90b80854c71caeb63cdd0b7023bb5c92076f186bdad9"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "d105971cc46d7d941a60cb3aba7bc2cc483a74eff7d92dfd82adfdf5265e1a0e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "013f6573b2780ee59a93b11885e94468f5ecf7a41a907e26ccf7733be77e4c0a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__s001_cam4_f00001701.txt",
+      "bytes": 2591,
+      "sha256": "b6b3cb8d9cc639954af9de49cce4e7f0877f8337b59e52c74773ac326d5c754b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__01_wrist.txt",
+      "bytes": 460,
+      "sha256": "ef342d9bbbcde4c1ad9957acebd0dfc3f93b8f90cd06b9f031accb544a626e68"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__02_wrist_active.txt",
+      "bytes": 380,
+      "sha256": "25d0d15aeaa9a5b08717f9423311297d0c7ebcdfc1a5f516c88674f86d4f48cd"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__03_wrist_surface.txt",
+      "bytes": 97,
+      "sha256": "219860d0637429b56a69b1eee66fae4506a34c0cd9f7d8e361cc977b063a3d20"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__04_contour_standard.txt",
+      "bytes": 383,
+      "sha256": "2ee2b1304a8b5e146de402cf9a90e1f835c330f96b96c330a1f2f5f97e72af57"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__05_contour_strong.txt",
+      "bytes": 355,
+      "sha256": "ab996d84d931df1c0151634fb945da2f3364d0eb0125e55e94f31cd998001d17"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__07_surface.txt",
+      "bytes": 282,
+      "sha256": "221fa5ef1dd0ca1743c5c156044ad8dd5de58427ef6f2766c153cd2052416f6d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__08_independent_reload.txt",
+      "bytes": 285,
+      "sha256": "ffcc5d37b280f609d42b2432467d76c87824376b823d942c63acf7ddbad8e1c2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__09_mano_guided_body.txt",
+      "bytes": 2081,
+      "sha256": "3b1e8b012afa1ee612f63637593006f3888ebd3fa0d651ef69b23bd4ccb3da3b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "f3a8848e589e9d808709b558d54e842c1418586f992a2af4af77013e99131d76"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "240e860d7051ec189821d91e7551f80c34d1d76b376047ff7bb9dbd730f8681c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__s022_cam3_f00001834.txt",
+      "bytes": 2602,
+      "sha256": "e11b3621fb333c632429fd549ef688c9031e2cb7ffc2953c277d2deb77b334a2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__01_wrist.txt",
+      "bytes": 453,
+      "sha256": "952d12e77a839c9599f73303d349982c464a475b2525144026e28d9ba891a3d7"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__02_wrist_active.txt",
+      "bytes": 372,
+      "sha256": "36cddc75c5e5896d05f8da49030e61066aec515ff50378b351c6dba5b526f84f"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__03_wrist_surface.txt",
+      "bytes": 99,
+      "sha256": "f270af9be9e41fe29a477e4d2379694270178865fd5273d2f80de011f5202369"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__04_contour_standard.txt",
+      "bytes": 384,
+      "sha256": "6c560f8f38d51f62f708dd89e8fa22222b5f8e65ce3090f3de8ef387bb0d832e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__05_contour_strong.txt",
+      "bytes": 367,
+      "sha256": "5659fa8d82a3cb6f2b581dd59b18a0f0636a856f3946ef64eee8f07f84cde855"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__07_surface.txt",
+      "bytes": 283,
+      "sha256": "6af7bc3b8971beeb54f49508fb0b92ed16fe9b03f051706c60ea591d67aa7a1e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__08_independent_reload.txt",
+      "bytes": 286,
+      "sha256": "4a837482ff994bd7d58953c6b75200d52fcd2f92732f15a0a125e4074e59fe94"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__09_mano_guided_body.txt",
+      "bytes": 2461,
+      "sha256": "0e91116c1ea2303956cea194d06304f077ca199d1e71e124ad22174ade693a4a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "36ad9b26e7a8edd4b13f7ba44d7b18ede025e80d168e87cb841a30bb73fb9464"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "12d91e8bea70e60ff0850fc4b3964be1e1507548e3107051fa253d09644bc15f"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__s022_cam4_f00001824.txt",
+      "bytes": 2600,
+      "sha256": "8ec02a255fa7ba7520d6c0fbcfcd84258e237badcff6183ff63d9351754d4f05"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__01_wrist.txt",
+      "bytes": 417,
+      "sha256": "ef52ed57ff00428a5a89b5b25e86d5cebfef3aef57cdb26c1e47d98d3d1e08ee"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__02_wrist_active.txt",
+      "bytes": 337,
+      "sha256": "391a0ff25420b6e7ac0ed01d8ea8aafba0d6d5f18b9b429bcea9cee32a756251"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__03_wrist_surface.txt",
+      "bytes": 100,
+      "sha256": "8517272558efd6a22ee6f3e6a9b97671c9af9f4256ea2fc3fbff3056587f4dd5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__04_contour_standard.txt",
+      "bytes": 376,
+      "sha256": "a26d866927e6b08130d4780a4e54a9801a47e517540da3aef4b83fbb28d7319b"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__05_contour_strong.txt",
+      "bytes": 364,
+      "sha256": "122bb23dc0fa94d2fec5cc90032d769e5874464d528d0a4eb4c3023e365eba86"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__07_surface.txt",
+      "bytes": 279,
+      "sha256": "9887d9cc47d3d206508ee3c322f806c30096e28d2d1babacc598765b2911ab84"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__08_independent_reload.txt",
+      "bytes": 282,
+      "sha256": "ddb474b03ab2ccfe97f1f67caff09f319f604b3117378701886ec9131717011e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__09_mano_guided_body.txt",
+      "bytes": 2266,
+      "sha256": "56d3ed61044c960de1f6f0d3ae27353d69f190b619144706a75a3d55d5a42160"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "a803fd559327c4ad02df92a952da610acdd5b78628f90938f6892c8402fb4887"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "be779ac5a4347a341a4009c86cfc258796190b3692cf7f264ca7a2bf82dc8fb8"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__s100_cam3_f00002299.txt",
+      "bytes": 2585,
+      "sha256": "e2ac451422ba7756b64f1f51030901cbbd98efebcf5a200adee260e50aac3fd3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference.txt",
+      "bytes": 277,
+      "sha256": "a10c4212441cc797c35211983b0a38bce4023fc1b96d24c263fb1909333fd55c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__01_wrist.txt",
+      "bytes": 442,
+      "sha256": "fdf160a76debbedc3740df3baf060c551f062be9dd77f7522b53a43a678e442a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__02_wrist_active.txt",
+      "bytes": 363,
+      "sha256": "20fa0a40dff85831a9d58b8bebe269ed8de317ee11626e96c9149c0e69b3bc3e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__03_wrist_surface.txt",
+      "bytes": 101,
+      "sha256": "9a2b2b2e475875228606c483bad4a2545ed15e0207e1b886783edb2761cfade2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__04_contour_standard.txt",
+      "bytes": 377,
+      "sha256": "a3d1748ece97f26c13700fc4be774ba799ce90e586782fca576eb1eceb3717f9"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__05_contour_strong.txt",
+      "bytes": 377,
+      "sha256": "9c0dd1e8fed0efd60c37aa3eed6866c73fca9ab2feb177d2783a55547fc8f1e4"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__07_surface.txt",
+      "bytes": 280,
+      "sha256": "3ac8d9b8f875cbde69e90de0459a2ca7c5195b9b12759300766f3cdfc0044b15"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__08_independent_reload.txt",
+      "bytes": 283,
+      "sha256": "dc9c4a3d84cb0fd4df60cc8701f689cdd44ed645f105d4fc4a1228a432203dda"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__09_mano_guided_body.txt",
+      "bytes": 2058,
+      "sha256": "9f05d482430b5df555a28ee4ed7d2331bb788729b9677010936168bb559c5717"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__10_original_seam.txt",
+      "bytes": 31,
+      "sha256": "265e5279b2aa0ed9c1821b9e9a4ee7b3f6c52a9a0e38c3838de15c22cfaa350c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__11_guided_independent_reload.txt",
+      "bytes": 29,
+      "sha256": "0c84858bedcf1e5c1cd13dd1af23e382af95ffb26bafa1eae214062bbc45485d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__s100_cam4_f00002281.txt",
+      "bytes": 2591,
+      "sha256": "feeeb12b0b492f3636856007b652573b9f3d25b35c00cf9d029dee4804dd1044"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/metrics.json",
+      "bytes": 275829,
+      "sha256": "b5fc5a69513f5d7e73107d187f093fae97ab8a5610852e02808a277deaa2535e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/output_validation.json",
+      "bytes": 4797,
+      "sha256": "7c6fe7bc18b6a8fdb6c6d1c73e9f3ce1b3710e87ff88b7f93d5f2071f0d8b0fb"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/postrun_metadata.json",
+      "bytes": 1849,
+      "sha256": "e75d50f2ae28fb762e39981a654383d55df49dbb186ca83c2120b4cefe39ad44"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/postrun_metadata.redacted.patch",
+      "bytes": 8563,
+      "sha256": "f906e5bb57831315d5d7b2dd859692de7ff2274a7aa4ae4db4574f6a35d36337"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/prepush-initial-self-match.json",
+      "bytes": 62672,
+      "sha256": "62045490c3af145686540b6f5493d9ef7e702b9270deaa13c052a7dc80cb6a79"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/pytest-final.txt",
+      "bytes": 99,
+      "sha256": "3848bc12306fa162e11490920e9b11d91fcd140c217f4c970d2a9a75904b29e2"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/pytest-initial.txt",
+      "bytes": 9419,
+      "sha256": "0a1bd12832d50591a8a501c75d01ea6f247759af5d3617806b6f09e7e5bad2cc"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/pytest-published.txt",
+      "bytes": 99,
+      "sha256": "7c3a0b37c11c4f639c10f97bfa592fbca62a4ec3d0261ec86546c1619dccf260"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/pytest-tests.txt",
+      "bytes": 99,
+      "sha256": "46734593d5e854fdf0729f9dcebf86b991fc1f422ff44cad09685932943ef44a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s001_cam3_f00001711_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s001_cam3_f00001711_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "e64458f85239f237ae2da27ddf725635b22add4e65053b2b8b67d55b3014b29c"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s001_cam4_f00001701_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s001_cam4_f00001701_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "97c63b31e384057f8dd0c91558d248130b6d410ea48173e1c06fe8d63c96ecb8"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s022_cam3_f00001834_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s022_cam3_f00001834_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "e437fa39b4e39d1a44e39c1936e5d7c35cd5d3c1c1bda13cb960da407b5d9421"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s022_cam4_f00001824_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s022_cam4_f00001824_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "67058e1393228d896f78ec1717ea0dcc7a94fafb9a69f55d19d2918278533d1d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s100_cam3_f00002299_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s100_cam3_f00002299_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "b0c386491bd275b6c85d641a00b4226b36ce057965867467cb6bb3b90df5c647"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s100_cam4_f00002281_preflight.json",
+      "bytes": 3151,
+      "sha256": "56fcd5ecad938690a990ebccf497638274fcd78f7fc8aa706c9c4a9b55cb4177"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/s100_cam4_f00002281_provenance_summary.json",
+      "bytes": 5903,
+      "sha256": "2a9161d15b5a82c9e7be58c30ff78e7fecd7ca7176dd3c3efded8e3c37db7de6"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/settings.json",
+      "bytes": 1104,
+      "sha256": "3185fe54fbc180f7a08c3c7599ea63776003d5545ae7737fc4264411ce5b14d1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/source_hashes.json",
+      "bytes": 4970,
+      "sha256": "afb6f45f2d89fa5ea4bff29277674f813a0c67768ebdd8827c41cee0c9d9b9c1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/staged_check.json",
+      "bytes": 87784,
+      "sha256": "90ac6124713a8e5b395de29cd246e81712350a4e0f28afb441f528e67609fcb9"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/stopped_pilot.json",
+      "bytes": 1739,
+      "sha256": "7d0a9448955ba6ad739d7b59cfef9fbb939fd384973101af4621bd59e7a62d1a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/synthetic_geometry.json",
+      "bytes": 5136,
+      "sha256": "06c911faef18c19027ebbdf76a460947c4366d408ab8152d785794715943eef3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/triangulation.json",
+      "bytes": 203082,
+      "sha256": "4ddac37eb4fe768293dd133f0c7cad424c6f2d67c80822ff7439041c326bd9a1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/triangulation_summary.json",
+      "bytes": 402,
+      "sha256": "f5a00def1d636b10608b616f7cc6f42bc8c13d4e1e9936b33d79eababb198d94"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/verification_commands.json",
+      "bytes": 1949,
+      "sha256": "0b780d8d1acdc60d68e014d44783e194313faa1913b9d4d18dc442c02610ee25"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/report.md",
+      "bytes": 9165,
+      "sha256": "0ecb284dd888bbc87df329fc53413f189c38f5aec81df1469799606db56fc111"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam3-original.jpg",
+      "bytes": 256195,
+      "sha256": "4e117720c1cfacd61f04b8b5c1570b21c4ec0eec22a07590702542cc7808d421"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam3-v2.jpg",
+      "bytes": 240085,
+      "sha256": "889a7117eddc96df705a6e52f05ca4bb536950104f136e116a039fef70ca88f5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam4-original.jpg",
+      "bytes": 255574,
+      "sha256": "20ab7b3e7ce5fa931738858b877f621be8785c99156b8a88414e9e7b1f4382e7"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam4-v2.jpg",
+      "bytes": 243929,
+      "sha256": "1bdb35d84a6a4d34f7c1845b104f35bae22c9346088d823588002f1182ea3ce5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam3-original.jpg",
+      "bytes": 240450,
+      "sha256": "379904f7d3a7220a0ea1506f6d1615e890a1b9fe5ff719c27c2741d951519912"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam3-v2.jpg",
+      "bytes": 225257,
+      "sha256": "456e5f45f98b33dadf2ac4dbeec7b8cc95460c0a96a31ed7752651276085b014"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam4-original.jpg",
+      "bytes": 251823,
+      "sha256": "5acb935e63f6ee66e3963f3c0153e558f1f724e7b301c4aa673872fed1b80b28"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam4-v2.jpg",
+      "bytes": 238636,
+      "sha256": "06bebd8f71c6e28b06bbcf9149ede529a6d115d54332851da6008b9956b1ecf1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam3-original.jpg",
+      "bytes": 255790,
+      "sha256": "1ba68d026f15dfe65db2d73e8a53d17a22e0fccdef0e2b52c1249673e5df747a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam3-v2.jpg",
+      "bytes": 240527,
+      "sha256": "833801624df2321145651d154ff3bb66fd5d5f54c7b7a321e828d27b993a324a"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam4-original.jpg",
+      "bytes": 265653,
+      "sha256": "f3168077a22fd45947d053fe2b8f7591d8c5e1763b7a9c4cf8be59e374595167"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam4-v2.jpg",
+      "bytes": 255452,
+      "sha256": "ee6d3fa895e253e8404584bee635c81d3eca06582b6f734342b27de6f3780be5"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam3-original.jpg",
+      "bytes": 259405,
+      "sha256": "3e7b3464c2f8bed6feb3ce452250a04c48af0843b35242d4139448d4cf9db153"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam3-v2.jpg",
+      "bytes": 260785,
+      "sha256": "b436fd750a9a9b87980a3fb3a5cc8f7fb7e41cc9501db6d8ee3772d031fa60c3"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam4-original.jpg",
+      "bytes": 244407,
+      "sha256": "871417766ccc5897c35d60ea317f6f45e72d2d4f6deb3e3635880b319a33a404"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam4-v2.jpg",
+      "bytes": 254158,
+      "sha256": "01ff5722c9d0c01bb073532b494c0d567fc62e7187a87acdd15aaff5d6c241a1"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam3-original.jpg",
+      "bytes": 256018,
+      "sha256": "169655a528f7d90c4ac0ad13b329a7cbf55210fe06b6c3a4dc68ba71e979724e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam3-v2.jpg",
+      "bytes": 258699,
+      "sha256": "4a7f6ab83102f140c17467417f16b31a5499f5fc397ec71cc99c66362579be20"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam4-original.jpg",
+      "bytes": 216867,
+      "sha256": "59164001cc4da66f345eaa6876738e1156a3378ead6681a0cb1b01c9291d4d90"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam4-v2.jpg",
+      "bytes": 213400,
+      "sha256": "7ba86f361173692135a9b28e5c001acc60c6b0a3d453302fac9cc3bdd3685c76"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/index.html",
+      "bytes": 24700,
+      "sha256": "c1e965deb826efc7a6455af16da938db51c2b1d7ec0870ff00f3384a197493bf"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site/metrics.json",
+      "bytes": 275829,
+      "sha256": "b5fc5a69513f5d7e73107d187f093fae97ab8a5610852e02808a277deaa2535e"
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/site_manifest.json",
+      "bytes": 2294,
+      "sha256": "8565f421ec6c9d937075cd1b8ba0e0cad6682cc1a799006941fbe4cd52106ca9"
+    },
+    {
+      "path": "tests/test_v2_policy.py",
+      "bytes": 1901,
+      "sha256": "b5156c5b46d589c37b8ee569f929d7f9d6cbe0061d6938e3922a612ceec095f1"
+    }
+  ],
+  "site": [
+    {
+      "path": "index.html",
+      "bytes": 24700,
+      "sha256": "c1e965deb826efc7a6455af16da938db51c2b1d7ec0870ff00f3384a197493bf"
+    },
+    {
+      "path": "metrics.json",
+      "bytes": 275829,
+      "sha256": "b5fc5a69513f5d7e73107d187f093fae97ab8a5610852e02808a277deaa2535e"
+    },
+    {
+      "path": "assets/new_100-cam4-original.jpg",
+      "bytes": 265653,
+      "sha256": "f3168077a22fd45947d053fe2b8f7591d8c5e1763b7a9c4cf8be59e374595167"
+    },
+    {
+      "path": "assets/new_100-cam3-original.jpg",
+      "bytes": 255790,
+      "sha256": "1ba68d026f15dfe65db2d73e8a53d17a22e0fccdef0e2b52c1249673e5df747a"
+    },
+    {
+      "path": "assets/new_001-cam3-original.jpg",
+      "bytes": 256195,
+      "sha256": "4e117720c1cfacd61f04b8b5c1570b21c4ec0eec22a07590702542cc7808d421"
+    },
+    {
+      "path": "assets/new_100-cam4-v2.jpg",
+      "bytes": 255452,
+      "sha256": "ee6d3fa895e253e8404584bee635c81d3eca06582b6f734342b27de6f3780be5"
+    },
+    {
+      "path": "assets/old_011-cam4-original.jpg",
+      "bytes": 244407,
+      "sha256": "871417766ccc5897c35d60ea317f6f45e72d2d4f6deb3e3635880b319a33a404"
+    },
+    {
+      "path": "assets/new_001-cam3-v2.jpg",
+      "bytes": 240085,
+      "sha256": "889a7117eddc96df705a6e52f05ca4bb536950104f136e116a039fef70ca88f5"
+    },
+    {
+      "path": "assets/old_012-cam3-v2.jpg",
+      "bytes": 258699,
+      "sha256": "4a7f6ab83102f140c17467417f16b31a5499f5fc397ec71cc99c66362579be20"
+    },
+    {
+      "path": "assets/old_012-cam4-v2.jpg",
+      "bytes": 213400,
+      "sha256": "7ba86f361173692135a9b28e5c001acc60c6b0a3d453302fac9cc3bdd3685c76"
+    },
+    {
+      "path": "assets/new_001-cam4-v2.jpg",
+      "bytes": 243929,
+      "sha256": "1bdb35d84a6a4d34f7c1845b104f35bae22c9346088d823588002f1182ea3ce5"
+    },
+    {
+      "path": "assets/new_022-cam3-original.jpg",
+      "bytes": 240450,
+      "sha256": "379904f7d3a7220a0ea1506f6d1615e890a1b9fe5ff719c27c2741d951519912"
+    },
+    {
+      "path": "assets/old_012-cam3-original.jpg",
+      "bytes": 256018,
+      "sha256": "169655a528f7d90c4ac0ad13b329a7cbf55210fe06b6c3a4dc68ba71e979724e"
+    },
+    {
+      "path": "assets/old_012-cam4-original.jpg",
+      "bytes": 216867,
+      "sha256": "59164001cc4da66f345eaa6876738e1156a3378ead6681a0cb1b01c9291d4d90"
+    },
+    {
+      "path": "assets/new_022-cam4-original.jpg",
+      "bytes": 251823,
+      "sha256": "5acb935e63f6ee66e3963f3c0153e558f1f724e7b301c4aa673872fed1b80b28"
+    },
+    {
+      "path": "assets/old_011-cam3-v2.jpg",
+      "bytes": 260785,
+      "sha256": "b436fd750a9a9b87980a3fb3a5cc8f7fb7e41cc9501db6d8ee3772d031fa60c3"
+    },
+    {
+      "path": "assets/new_001-cam4-original.jpg",
+      "bytes": 255574,
+      "sha256": "20ab7b3e7ce5fa931738858b877f621be8785c99156b8a88414e9e7b1f4382e7"
+    },
+    {
+      "path": "assets/old_011-cam3-original.jpg",
+      "bytes": 259405,
+      "sha256": "3e7b3464c2f8bed6feb3ce452250a04c48af0843b35242d4139448d4cf9db153"
+    },
+    {
+      "path": "assets/new_022-cam4-v2.jpg",
+      "bytes": 238636,
+      "sha256": "06bebd8f71c6e28b06bbcf9149ede529a6d115d54332851da6008b9956b1ecf1"
+    },
+    {
+      "path": "assets/old_011-cam4-v2.jpg",
+      "bytes": 254158,
+      "sha256": "01ff5722c9d0c01bb073532b494c0d567fc62e7187a87acdd15aaff5d6c241a1"
+    },
+    {
+      "path": "assets/new_022-cam3-v2.jpg",
+      "bytes": 225257,
+      "sha256": "456e5f45f98b33dadf2ac4dbeec7b8cc95460c0a96a31ed7752651276085b014"
+    },
+    {
+      "path": "assets/new_100-cam3-v2.jpg",
+      "bytes": 240527,
+      "sha256": "833801624df2321145651d154ff3bb66fd5d5f54c7b7a321e828d27b993a324a"
+    }
+  ],
+  "remote": "8ba4cd3aa468116adec77815cf8994943a84166f\trefs/heads/main",
+  "status": "A  docs/downsight/STEREO_V2_zh.md\nM  egosmplx_pipeline/body_pose.py\nM  egosmplx_pipeline/body_rigid.py\nM  egosmplx_pipeline/frame.py\nM  egosmplx_pipeline/fusion.py\nM  egosmplx_pipeline/head_neck.py\nM  egosmplx_pipeline/pipeline.py\nM  egosmplx_pipeline/profiles.py\nM  egosmplx_pipeline/reference/contour_refine.py\nM  egosmplx_pipeline/reference/contour_refine_strong.py\nM  egosmplx_pipeline/reference/contour_seam.py\nM  egosmplx_pipeline/reference/finalize.py\nM  egosmplx_pipeline/reference/guided_body.py\nM  egosmplx_pipeline/reference/guided_fuse.py\nM  egosmplx_pipeline/reference/pipeline.py\nM  egosmplx_pipeline/reference/select_candidates.py\nM  egosmplx_pipeline/reference/support.py\nM  egosmplx_pipeline/reference/wrist_refine.py\nM  egosmplx_pipeline/reference/wrist_seam.py\nM  egosmplx_pipeline/report.py\nA  egosmplx_pipeline/v2_policy.py\nA  runs/2026-11-04_session-hand6-v2/brief.md\nA  runs/2026-11-04_session-hand6-v2/code/build_site.py\nA  runs/2026-11-04_session-hand6-v2/code/check_geometry.py\nA  runs/2026-11-04_session-hand6-v2/code/check_publication.py\nA  runs/2026-11-04_session-hand6-v2/code/collect_evidence.py\nA  runs/2026-11-04_session-hand6-v2/code/evaluate.py\nA  runs/2026-11-04_session-hand6-v2/code/prepare.py\nA  runs/2026-11-04_session-hand6-v2/code/publish.py\nA  runs/2026-11-04_session-hand6-v2/code/run_batch.py\nA  runs/2026-11-04_session-hand6-v2/code/summarize.py\nA  runs/2026-11-04_session-hand6-v2/code/summarize_inputs.py\nA  runs/2026-11-04_session-hand6-v2/code/validate.py\nA  runs/2026-11-04_session-hand6-v2/code/verify_site.py\nA  runs/2026-11-04_session-hand6-v2/evidence/aggregate.json\nA  runs/2026-11-04_session-hand6-v2/evidence/audit_whitespace_note.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/backend_source_58d33a919aaf.json\nA  runs/2026-11-04_session-hand6-v2/evidence/baseline_transition.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam3_f00000932_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam3_f00000932_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam3_f00001018_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam3_f00001018_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam4_f00000928_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam4_f00000928_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam4_f00001014_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/cam4_f00001014_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/config_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/execution.json\nA  runs/2026-11-04_session-hand6-v2/evidence/execution_notes.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/execution_source_validation.json\nA  runs/2026-11-04_session-hand6-v2/evidence/input_hashes.json\nA  runs/2026-11-04_session-hand6-v2/evidence/input_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch__cam3_f00000932.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam3_f00000932.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam3_f00001018.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam4_f00000928.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__cam4_f00001014.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s001_cam3_f00001711.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s001_cam4_f00001701.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s022_cam3_f00001834.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s022_cam4_f00001824.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s100_cam3_f00002299.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_batch_cpu__s100_cam4_f00002281.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_first-full-attempt2.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_first-full.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__cam3_f00000932.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__cam3_f00000932__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full__s001_cam3_f00001711__s001_cam3_f00001711.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_attempt2__s001_cam3_f00001711__s001_cam3_f00001711.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__cam3_f00000932.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00000932__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__cam3_f00001018.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam3_f00001018__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__cam4_f00000928.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00000928__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__cam4_f00001014.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__cam4_f00001014__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam3_f00001711__s001_cam3_f00001711.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s001_cam4_f00001701__s001_cam4_f00001701.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam3_f00001834__s022_cam3_f00001834.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s022_cam4_f00001824__s022_cam4_f00001824.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam3_f00002299__s100_cam3_f00002299.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__01_wrist.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__02_wrist_active.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__03_wrist_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__04_contour_standard.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__05_contour_strong.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__07_surface.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__08_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__09_mano_guided_body.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__10_original_seam.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__reference__11_guided_independent_reload.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/log_prepared__full_cpu_v1__s100_cam4_f00002281__s100_cam4_f00002281.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/metrics.json\nA  runs/2026-11-04_session-hand6-v2/evidence/output_validation.json\nA  runs/2026-11-04_session-hand6-v2/evidence/postrun_metadata.json\nA  runs/2026-11-04_session-hand6-v2/evidence/postrun_metadata.redacted.patch\nA  runs/2026-11-04_session-hand6-v2/evidence/prepush-check.json\nA  runs/2026-11-04_session-hand6-v2/evidence/prepush-initial-self-match.json\nA  runs/2026-11-04_session-hand6-v2/evidence/pytest-final.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/pytest-initial.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/pytest-published.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/pytest-tests.txt\nA  runs/2026-11-04_session-hand6-v2/evidence/s001_cam3_f00001711_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s001_cam3_f00001711_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s001_cam4_f00001701_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s001_cam4_f00001701_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s022_cam3_f00001834_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s022_cam3_f00001834_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s022_cam4_f00001824_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s022_cam4_f00001824_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s100_cam3_f00002299_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s100_cam3_f00002299_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s100_cam4_f00002281_preflight.json\nA  runs/2026-11-04_session-hand6-v2/evidence/s100_cam4_f00002281_provenance_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/settings.json\nA  runs/2026-11-04_session-hand6-v2/evidence/source_hashes.json\nA  runs/2026-11-04_session-hand6-v2/evidence/staged_check.json\nA  runs/2026-11-04_session-hand6-v2/evidence/stopped_pilot.json\nA  runs/2026-11-04_session-hand6-v2/evidence/synthetic_geometry.json\nA  runs/2026-11-04_session-hand6-v2/evidence/triangulation.json\nA  runs/2026-11-04_session-hand6-v2/evidence/triangulation_summary.json\nA  runs/2026-11-04_session-hand6-v2/evidence/verification_commands.json\nA  runs/2026-11-04_session-hand6-v2/report.md\nA  runs/2026-11-04_session-hand6-v2/review.md\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam3-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam3-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam4-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_001-cam4-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam3-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam3-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam4-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_022-cam4-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam3-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam3-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam4-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/new_100-cam4-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam3-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam3-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam4-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_011-cam4-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam3-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam3-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam4-original.jpg\nA  runs/2026-11-04_session-hand6-v2/site/assets/old_012-cam4-v2.jpg\nA  runs/2026-11-04_session-hand6-v2/site/index.html\nA  runs/2026-11-04_session-hand6-v2/site/metrics.json\nA  runs/2026-11-04_session-hand6-v2/site_manifest.json\nA  tests/test_v2_policy.py\n"
+}

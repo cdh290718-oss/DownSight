@@ -1,3 +1,4 @@
+from egosmplx_pipeline import v2_policy as v2
 from pathlib import Path
 import os
 import sys,shutil
@@ -9,7 +10,7 @@ import torch
 BASE=OUT.parent/'baseline'
 def merit(p,row,lookup,w,matches,cam,oldmesh):
  v,j=geometry(p);uv=cam.world2camera(j.astype(np.float64));rig=load(row['rigid_npz'])
- names=[n for n in JOINT_MAPPING if lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
+ names=[n for n in JOINT_MAPPING if v2.body_allowed(n,lookup[n]) and lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
  bi=[JI[JOINT_MAPPING[n]] for n in names];bt=np.array([[lookup[n]['x'],lookup[n]['y']] for n in names]);bw=np.array([min(1,lookup[n]['score'])**2 for n in names]);bw/=bw.mean()
  huber=lambda x:np.where(np.abs(x)<.003,x*x/(2*.003),np.abs(x)-.0015)
  body=float((huber((uv[bi]-bt)/[1280,720]).mean(1)*bw).mean());wrist=[];shape=[]
@@ -21,10 +22,11 @@ def merit(p,row,lookup,w,matches,cam,oldmesh):
  ai=[BODY_POSE_NAMES.index(n) for n in MAX_DELTA_DEG];caps=np.deg2rad(list(MAX_DELTA_DEG.values()))
  pp=.0008*np.mean(((p['body_pose'].reshape(21,3)[ai]-rig['body_pose'].reshape(21,3)[ai])/caps[:,None])**2)
  pp+=.0002*np.mean(((p['transl'].reshape(3)-rig['transl'].reshape(3)) / [.1,.1,.18])**2)+.0004*np.mean(((p['global_orient']-rig['global_orient'])/np.deg2rad(8))**2)
- depth=.02*max(0,(.03-v[:,2].min())/.02)**2
+ depth=.02*max(0,(.03-v2.min_z(v))/.02)**2
  hn=head_neck_context(rig,cam,lookup)
  extra=float(hn.loss(torch.as_tensor(v),torch.as_tensor(uv)))
- return float(body+4*np.mean(wrist)+.0008*np.mean(shape)+pp+depth+extra)
+ observations=float(hn.v2.observation(torch.as_tensor(v),torch.as_tensor(j),torch.as_tensor(uv))) if v2.enabled() else body+4*np.mean(wrist)
+ return float(observations+.0008*np.mean(shape)+pp+depth+extra)
 
 for row in read(BASE/'automatic_input_manifest.json')['frames']:
  dst=OUT/'selected_frames'/row['condition']/row['camera'];dst.mkdir(parents=True,exist_ok=True)
@@ -36,7 +38,7 @@ for row in read(BASE/'automatic_input_manifest.json')['frames']:
  for name,path in paths.items():
   if not (path/'body_params.npz').exists():continue
   p=load(path/'body_params.npz');constraints(p,load(row['source_npz']),load(row['rigid_npz']),cam,lookup);v,j=geometry(p);uv=cam.world2camera(j.astype(np.float64))
-  safe=all(np.linalg.norm(uv[12+SIDES.index(s)]-w['joints_2d'][a['candidate'],0])<=np.linalg.norm(inituv[12+SIDES.index(s)]-w['joints_2d'][a['candidate'],0])+3.001 for s,a in matches.items())
+  safe=all((v2.enabled() and not bool(v2.interior(w['joints_2d'][a['candidate'],0]))) or np.linalg.norm(uv[12+SIDES.index(s)]-w['joints_2d'][a['candidate'],0])<=np.linalg.norm(inituv[12+SIDES.index(s)]-w['joints_2d'][a['candidate'],0])+3.001 for s,a in matches.items())
   mm=metrics(v,cam,data);sil=float(np.mean([x['score'] for x in mm.values()])) if mm else 0.;base=merit(p,row,lookup,w,matches,cam,om)
   diag[name]=dict(merit_without_silhouette=base,silhouette=sil,wrist_guard_passed=safe)
   if safe:scores[name]=base+.4*sil

@@ -1,0 +1,564 @@
+{
+  "frames": [
+    {
+      "pair": "old_011",
+      "frame": "cam3_f00000932",
+      "camera": "cam3",
+      "body_original_valid": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_retained": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.7741734385490417,
+          "wrist_distance_px": 59.61630542466448,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        0
+      ],
+      "hand_3d_retained_by_side": [
+        0,
+        0
+      ],
+      "time_difference_seconds": 0.10073333333333423
+    },
+    {
+      "pair": "old_011",
+      "frame": "cam4_f00000928",
+      "camera": "cam4",
+      "body_original_valid": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_retained": [
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_excluded_by_margin": [
+        "right_elbow"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 1,
+          "confidence": 0.6150477528572083,
+          "wrist_distance_px": 112.76863982884159,
+          "detector_handedness_agrees": false,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 0,
+          "confidence": 0.6824084520339966,
+          "wrist_distance_px": 6.1323988299338055,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        0,
+        0
+      ],
+      "time_difference_seconds": 0.10073333333333423
+    },
+    {
+      "pair": "old_012",
+      "frame": "cam3_f00001018",
+      "camera": "cam3",
+      "body_original_valid": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_retained": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.7328537106513977,
+          "wrist_distance_px": 48.21511778588554,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        0
+      ],
+      "hand_3d_retained_by_side": [
+        0,
+        0
+      ],
+      "time_difference_seconds": 0.10054999999999836
+    },
+    {
+      "pair": "old_012",
+      "frame": "cam4_f00001014",
+      "camera": "cam4",
+      "body_original_valid": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_retained": [
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "body_excluded_by_margin": [
+        "right_elbow"
+      ],
+      "matches": {
+        "right": {
+          "candidate": 0,
+          "confidence": 0.6881812214851379,
+          "wrist_distance_px": 5.026667800889027,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        0,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        0,
+        0
+      ],
+      "time_difference_seconds": 0.10054999999999836
+    },
+    {
+      "pair": "new_001",
+      "frame": "s001_cam3_f00001711",
+      "camera": "cam3",
+      "body_original_valid": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 1,
+          "confidence": 0.8132026195526123,
+          "wrist_distance_px": 13.081034095139737,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 0,
+          "confidence": 0.8270707130432129,
+          "wrist_distance_px": 14.960253496410056,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": 0.00023333333333397377
+    },
+    {
+      "pair": "new_001",
+      "frame": "s001_cam4_f00001701",
+      "camera": "cam4",
+      "body_original_valid": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 1,
+          "confidence": 0.8232094645500183,
+          "wrist_distance_px": 12.305546816009388,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 0,
+          "confidence": 0.8334488868713379,
+          "wrist_distance_px": 12.46091746771165,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": 0.00023333333333397377
+    },
+    {
+      "pair": "new_022",
+      "frame": "s022_cam3_f00001834",
+      "camera": "cam3",
+      "body_original_valid": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.7953292727470398,
+          "wrist_distance_px": 14.771752692792553,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 1,
+          "confidence": 0.5923345685005188,
+          "wrist_distance_px": 10.204095686583042,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": 6.666666666532706e-05
+    },
+    {
+      "pair": "new_022",
+      "frame": "s022_cam4_f00001824",
+      "camera": "cam4",
+      "body_original_valid": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.8234453797340393,
+          "wrist_distance_px": 11.077226362256956,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 1,
+          "confidence": 0.16629458963871002,
+          "wrist_distance_px": 9.100649464213607,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2_and_two_sided_short_gap",
+          "valid_keypoints": 21,
+          "recovered": true,
+          "temporal_box_iou": 0.8238597103043509,
+          "original_detector_threshold": 0.2,
+          "original_assignment_threshold": 0.25
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": 6.666666666532706e-05
+    },
+    {
+      "pair": "new_100",
+      "frame": "s100_cam3_f00002299",
+      "camera": "cam3",
+      "body_original_valid": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.8401589393615723,
+          "wrist_distance_px": 14.760338521515125,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 1,
+          "confidence": 0.8204393982887268,
+          "wrist_distance_px": 14.142221878571899,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": -0.0001166666666705396
+    },
+    {
+      "pair": "new_100",
+      "frame": "s100_cam4_f00002281",
+      "camera": "cam4",
+      "body_original_valid": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_retained": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "body_excluded_by_margin": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "matches": {
+        "left": {
+          "candidate": 0,
+          "confidence": 0.8031164407730103,
+          "wrist_distance_px": 18.64140260690715,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        },
+        "right": {
+          "candidate": 1,
+          "confidence": 0.7927073836326599,
+          "wrist_distance_px": 9.2135790839511,
+          "detector_handedness_agrees": true,
+          "anchor_source": "Sapiens2",
+          "valid_keypoints": 21
+        }
+      },
+      "hand_2d_retained_by_side": [
+        21,
+        21
+      ],
+      "hand_3d_retained_by_side": [
+        21,
+        21
+      ],
+      "time_difference_seconds": -0.0001166666666705396
+    }
+  ]
+}

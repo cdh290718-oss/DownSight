@@ -83,6 +83,11 @@ def run(config, row, output):
         raise ValueError('WiLoR image size mismatch')
     lookup = {q['name']: q for q in targets['keypoints']}
     matches = assign(hands, lookup, body['smplx_joint_img'], *image.shape[1::-1])
+    if config.get('stereo_v2', False):
+        matches = read(lookup['_v2_context']['path'])['matches']
+        candidates = [m['candidate'] for m in matches.values()]
+        if len(set(candidates)) != len(candidates):
+            raise ValueError('Frozen matching is not one-to-one')
     mesh, hand_reports = fusion.stitch(body, hands, matches, camera)
     fused = output / 'fused'
     fused.mkdir()

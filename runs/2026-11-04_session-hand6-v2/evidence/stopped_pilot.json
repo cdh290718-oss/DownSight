@@ -1,0 +1,34 @@
+{
+  "reason": "Use a uniform CPU run; terminate only Codex-started pilot process trees, retain output",
+  "signal": "SIGTERM",
+  "processes": [
+    {
+      "pid": 375251,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline run --config outputs/session_hand6_v2_20261104/prepared/configs/s001_cam3_f00001711.json --cached-predictions"
+    },
+    {
+      "pid": 376839,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline.reference.pipeline --job <REPO>/outputs/session_hand6_v2_20261104/prepared/full_attempt2/s001_cam3_f00001711/jobs/reference.json"
+    },
+    {
+      "pid": 377117,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 runs/2026-11-04_session-hand6-v2/code/run_batch.py --inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out outputs/session_hand6_v2_20261104/batch --skip s001_cam3_f00001711 --workers 1"
+    },
+    {
+      "pid": 377119,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline run --config <REPO>/outputs/session_hand6_v2_20261104/prepared/configs/cam3_f00000932.json --cached-predictions"
+    },
+    {
+      "pid": 377809,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline.reference.pipeline --job <REPO>/outputs/session_hand6_v2_20261104/prepared/full/cam3_f00000932/jobs/reference.json"
+    },
+    {
+      "pid": 385054,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline.reference.guided_body --steps 1400"
+    },
+    {
+      "pid": 386006,
+      "command": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8 -m egosmplx_pipeline.reference.guided_body --steps 1400"
+    }
+  ]
+}

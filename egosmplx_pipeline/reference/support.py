@@ -1,4 +1,5 @@
 """Project helpers for the archived algorithm; model implementations stay external."""
+from egosmplx_pipeline import v2_policy as v2
 import os
 from pathlib import Path
 import numpy as np
@@ -46,10 +47,10 @@ def constraints(p, source, rigid, cam, lookup):
     assert np.array_equal(p['body_pose'].reshape(21,3)[[9,10]],source['body_pose'].reshape(21,3)[[9,10]])
     assert np.linalg.norm(p['global_orient']-rigid['global_orient'])<=np.deg2rad(8)+1e-6
     assert .05<=p['transl'].reshape(3)[2]<=3
-    floor=np.maximum(np.linalg.norm(j0[[12,13]],axis=1),np.linalg.norm(jr[[12,13]],axis=1))*.85
+    floor=np.maximum(np.linalg.norm(j0[[12,13]],axis=1),np.linalg.norm(jr[[12,13]],axis=1))*v2.wrist_fraction()
     assert np.all(np.linalg.norm(j[[12,13]],axis=1)>=floor-1e-6)
-    assert v[:,2].min()>=.02-1e-6
-    names=[n for n in JOINT_MAPPING if lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
+    assert v2.min_z(v)>=.02-1e-6
+    names=[n for n in JOINT_MAPPING if v2.body_allowed(n,lookup[n]) and lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
     idx=[JI[JOINT_MAPPING[n]] for n in names]; target=np.array([[lookup[n]['x'],lookup[n]['y']] for n in names])
     before=rmse(cam.world2camera(j0.astype(np.float64))[idx],target)
     after=rmse(cam.world2camera(j.astype(np.float64))[idx],target)
@@ -59,4 +60,4 @@ def constraints(p, source, rigid, cam, lookup):
     head_report=hn.report(torch.as_tensor(v),torch.as_tensor(cam.world2camera(j.astype(np.float64))))
     assert head_report['head_guard_passed']
     return dict(passed=True,head_neck=head_report,body_delta_deg=dict(zip(active,map(float,delta))),sapiens_body_rmse_px=after,
-                sapiens_body_source_rmse_px=before,wrist_floor_m=floor.tolist(),body_minimum_z_m=float(v[:,2].min()))
+                sapiens_body_source_rmse_px=before,wrist_floor_m=floor.tolist(),body_minimum_z_m=float(v2.min_z(v)))

@@ -1,4 +1,5 @@
 """Fixed-shape SMPL-X wrist and projected seam compatibility refinement."""
+from egosmplx_pipeline import v2_policy as v2
 from pathlib import Path
 import os
 import sys,copy,argparse,time
@@ -30,10 +31,10 @@ def main():
   init_path=OUT/'frames'/row['condition']/row['camera']/'body_params.npz'
   initp=p
   delta=(t(initp['body_pose']).reshape(21,3)-b0)[ai].clone().requires_grad_();gd=(t(initp['global_orient']).reshape(3)-g0).clone().requires_grad_();tr=t(initp['transl']).reshape(3).clone().requires_grad_()
-  names=[n for n in JOINT_MAPPING if lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
+  names=[n for n in JOINT_MAPPING if v2.body_allowed(n,lookup[n]) and lookup[n]['score']>=.3 and np.isfinite([lookup[n]['x'],lookup[n]['y']]).all() and 0<=lookup[n]['x']<1280 and 0<=lookup[n]['y']<720]
   bi=torch.tensor([JI[JOINT_MAPPING[n]] for n in names],device=dev);bt=t([[lookup[n]['x'],lookup[n]['y']] for n in names]);bw=t([min(1,lookup[n]['score'])**2 for n in names]);bw/=bw.mean()
   ix=torch.tensor([12+SIDES.index(s) for s in matches],device=dev);goals=t([w['joints_2d'][m['candidate'],0] for s,m in matches.items()])
-  _,srcj=geometry(source);_,rigj=geometry(rigid);floor=t(np.maximum(np.linalg.norm(srcj[[12,13]],axis=1),np.linalg.norm(rigj[[12,13]],axis=1))*.85)
+  _,srcj=geometry(source);_,rigj=geometry(rigid);floor=t(np.maximum(np.linalg.norm(srcj[[12,13]],axis=1),np.linalg.norm(rigj[[12,13]],axis=1))*v2.wrist_fraction())
   bodylimit=float(np.sqrt(np.mean(np.sum((cam.world2camera(srcj.astype(np.float64))[bi.cpu().numpy()]-arr(bt))**2,axis=1))))+5
   sv,sj=geometry(p);initial_werr=np.linalg.norm(cam.world2camera(sj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1)
   loopids=[];loopgoals=[]
@@ -47,8 +48,8 @@ def main():
   def forward():
    o=layer(**params());v=o.vertices[0]+tr;j=o.joints[0,smpl_x.joint_idx]+tr;uv=cam.world2camera_pytorch(j);return v,j,uv
   def feasible(v,j,uv):
-   err=(uv[ix]-goals).norm(dim=1)
-   return hn.feasible(v) and bool(v[:,2].min()>=.020001 and (j[[12,13]].norm(dim=1)>=floor+1e-6).all() and torch.sqrt((uv[bi]-bt).square().sum(1).mean())<=bodylimit-1e-4 and (err<=t(initial_werr)+3).all())
+   err=(uv[ix]-goals).norm(dim=1)*v2.wrist_mask(goals)
+   return hn.feasible(v) and bool(v2.min_z(v)>=.020001 and (j[[12,13]].norm(dim=1)>=floor+1e-6).all() and torch.sqrt((uv[bi]-bt).square().sum(1).mean())<=bodylimit-1e-4 and (err<=t(initial_werr)+3).all())
   def objective(v,j,uv):
    body=(F.smooth_l1_loss((uv[bi]-bt)/t([1280,720]),torch.zeros_like(bt),beta=.003,reduction='none').mean(1)*bw).mean()
    wrists=F.smooth_l1_loss((uv[ix]-goals)/t([1280,720]),torch.zeros_like(goals),beta=.003)
@@ -57,8 +58,8 @@ def main():
     q=cam.world2camera_pytorch(v[ids]);q=q-q.mean(0);radius=q.square().sum(1).mean().sqrt();rr=target.square().sum(1).mean().sqrt();seam.append(torch.log(radius/rr.clamp_min(1)).square())
    shape=torch.stack(seam).mean()
    priors=.0008*(delta/caps[:,None]).square().mean()+.0002*((tr-tr0)/t([.10,.10,.18])).square().mean()+.0004*(gd/np.deg2rad(8)).square().mean()
-   depth=.02*F.relu((.03-v[:,2].min())/.02).square();guard=.002*F.relu((floor-j[[12,13]].norm(dim=1))/.05).square().mean()
-   return body+4*wrists+.0008*shape+priors+depth+guard+.08*silhouette_loss(v,cam,sil_data)+hn.loss(v,uv)
+   depth=.02*F.relu((.03-v2.min_z(v))/.02).square();guard=.002*F.relu((floor-j[[12,13]].norm(dim=1))/.05).square().mean()
+   return (hn.v2.observation(v,j,uv) if v2.enabled() else body+4*wrists)+.0008*shape+priors+depth+guard+.08*silhouette_loss(v,cam,sil_data)+hn.loss(v,uv)
   opt=torch.optim.Adam([{'params':[delta],'lr':.0015},{'params':[gd],'lr':.0005},{'params':[tr],'lr':.0008}])
   with torch.no_grad():v,j,uv=forward();bestloss=float(objective(v,j,uv));best=[x.detach().clone() for x in [delta,gd,tr]]
   rejected=0;start=time.time()
@@ -72,7 +73,7 @@ def main():
       delta.mul_(torch.minimum(torch.ones_like(caps),caps/delta.norm(dim=1).clamp_min(1e-8))[:,None]);gd.mul_(torch.clamp(t(np.deg2rad(8))/gd.norm().clamp_min(1e-8),max=1));tr[2].clamp_(.05,3)
      pv,pj,pu=forward()
      br=(pu[bi]-bt).square().sum(1).mean().sqrt()
-     violations=torch.cat([(br-bodylimit+.02).reshape(1)/5,(.02001-pv[:,2].min()).reshape(1)/.02,(floor+1e-5-pj[[12,13]].norm(dim=1))/.05,((pu[ix]-goals).norm(dim=1)-t(initial_werr)-2.99)/5])
+     violations=torch.cat([(br-bodylimit+.02).reshape(1)/5,(.02001-v2.min_z(pv)).reshape(1)/.02,(floor+1e-5-pj[[12,13]].norm(dim=1))/.05,((pu[ix]-goals).norm(dim=1)*v2.wrist_mask(goals)-t(initial_werr)-2.99)/5])
      violations=torch.cat([violations,hn.violations(pv)])
      g=violations.max()
      if float(g)<=0:break
@@ -115,7 +116,7 @@ def main():
   lengths=lambda j:np.array([np.linalg.norm(j[a]-j[b]) for a,b in [(8,10),(10,12),(9,11),(11,13)]])
   boneerr=float(np.max(np.abs(lengths(jj)-lengths(sj))));assert boneerr<1e-5
   np.savez_compressed(dst/'body_params.npz',**saved)
-  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=True,body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
+  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=not v2.enabled(),depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),radial_wrist_floor_enabled=not v2.enabled(),body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
   report.update(silhouette_before=sil_before,silhouette_after=silhouette_metrics(vv,cam,sil_data),silhouette_weight=.08,previous_identity_preserved=True)
   write(dst/'refinement.json',report);print('DONE',row['id'],report['wrist_after_px'],flush=True)
 if __name__=='__main__':main()

@@ -12,7 +12,7 @@ import cv2
 from egosmplx_pipeline.io import read, write, load, sha
 from egosmplx_pipeline.configuration import PACKAGE_ROOT
 from egosmplx_pipeline.pipeline import command, environment
-from egosmplx_pipeline.profiles import CURRENT, LEGACY, selected
+from egosmplx_pipeline.profiles import CURRENT, LEGACY, V2, selected
 
 PROFILE = LEGACY  # Historical compatibility; select the configured profile for every run.
 
@@ -81,7 +81,7 @@ def run_workers(config, rows, output):
     execute('select_candidates', [], '06_select')
     execute('finalize', [], '07_surface')
     execute('finalize', ['--verify'], '08_independent_reload')
-    if selected(config) == CURRENT:
+    if selected(config) in (CURRENT, V2):
         execute('guided_body', ['--steps', str(config.get('fitting', {}).get('mano_guided_steps', 1400))], '09_mano_guided_body')
         execute('guided_fuse', [], '10_original_seam')
         execute('guided_fuse', ['--verify'], '11_guided_independent_reload')
@@ -99,6 +99,7 @@ def export(config, rows, prepared, output):
         frame = output / 'frames' / row['id']
         report = read(frame / 'validation.json')
         report['pipeline_profile'] = selected(config)
+        report['stereo_v2'] = bool(config.get('stereo_v2',False))
         report['head_neck_settings'] = config.get('head_neck', {})
         if row['id'] in mapping:
             reference_row = mapping[row['id']]
@@ -106,7 +107,7 @@ def export(config, rows, prepared, output):
             legacy_source = output / 'reference/contour/final_frames' / relative
             source = legacy_source
             fused = frame / 'fused'
-            if selected(config) == CURRENT:
+            if selected(config) in (CURRENT, V2):
                 source = output / 'reference/guided/frames' / relative
                 reload = read(source / 'reload_validation.json')
                 if not reload.get('passed') or not reload.get('independent_reconstruction'):
@@ -176,7 +177,7 @@ def export(config, rows, prepared, output):
                           hand_reports=read(fused / 'geometry_report.json')['hands'], local_surface_optimizer=True,
                           selected_body_candidate=read(fused / 'refinement.json')['selected_candidate'])
             write(fused / 'recipe.json', dict(matches=matches, pipeline_profile=selected(config),
-                  method=('MANO_guided_body_plus_original_bounded_contour_seam' if selected(config) == CURRENT else 'bounded_standard_wrist_harmonic_seam_with_visible_contour'),
+                  method=('MANO_guided_body_plus_original_bounded_contour_seam' if selected(config) in (CURRENT, V2) else 'bounded_standard_wrist_harmonic_seam_with_visible_contour'),
                   body_parameter_path='body_params.npz', frozen_targets='silhouette_targets.json',
                   segmentation_labels='segmentation_labels.npy', local_surface_optimizer=True,
                   baseline_smoothstep_rings=7, manual_annotations_used=False,

@@ -1,0 +1,1 @@
+First staged diff check exited 2: two retained failure logs had blank lines at EOF, and blank context lines inside the metadata patch appeared as trailing whitespace. Only terminal whitespace was normalized; the patch was re-encoded with zero context. Original numerical values and failure tracebacks are unchanged.

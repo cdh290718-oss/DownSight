@@ -1,0 +1,20 @@
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<REPO>/egosmplx_pipeline/frame.py", line 145, in <module>
+    main()
+  File "<REPO>/egosmplx_pipeline/frame.py", line 141, in main
+    run(job['config'], job['row'], Path(job['output']))
+  File "<REPO>/egosmplx_pipeline/frame.py", line 63, in run
+    invoke(body_rigid.main, common + ['--source-npz', raw_dir / 'params.npz', '--keypoints', predictions['sapiens'],
+  File "<REPO>/egosmplx_pipeline/frame.py", line 27, in invoke
+    function()
+  File "<REPO>/egosmplx_pipeline/body_rigid.py", line 204, in main
+    minimum_vertex_z_m=float(rebuilt_v2.min_z(mesh)),
+NameError: name 'rebuilt_v2' is not defined

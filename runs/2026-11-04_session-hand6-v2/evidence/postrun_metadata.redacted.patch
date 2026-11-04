@@ -1,0 +1,47 @@
+--- a/egosmplx_pipeline/report.py
++++ b/egosmplx_pipeline/report.py
+@@ -1 +1 @@
+-"""Static, shareable three-stage comparison without remote asset dependencies."""
++"""Static, shareable stage comparison without remote asset dependencies."""
+@@ -7 +7 @@
+-from egosmplx_pipeline.profiles import CURRENT, LEGACY
++from egosmplx_pipeline.profiles import CURRENT, LEGACY, V2
+@@ -17,2 +17,2 @@
+-    stages = [('raw', 'Raw EgoSMPLX'), ('body', 'Sapiens2 two-stage body fit')]
+-    if profile == CURRENT:
++    stages = [('raw', 'Raw EgoSMPLX'), ('body', 'Stereo-guided body fit' if profile == V2 else 'Sapiens2 two-stage body fit')]
++    if profile in (CURRENT, V2):
+@@ -20 +20 @@
+-    stages.append(('fused', 'Guided body + original seam' if profile == CURRENT else 'MANO + contour + harmonic surface'))
++    stages.append(('fused', 'Guided body + original seam' if profile in (CURRENT, V2) else 'MANO + contour + harmonic surface'))
+@@ -56 +56 @@
+-           '<h1>EgoSmplx V1.0 分阶段输出</h1><p>自动目标拟合误差，不是人工真值精度。重载通过和局部表面检查分别报告，穿插未通过的结果仍保留供诊断。</p>' + ''.join(sections) + '</html>'
++           '<h1>EgoSmplx ' + ('v2' if profile == V2 else 'V1.0') + ' 分阶段输出</h1><p>自动目标拟合误差，不是人工真值精度。重载通过和局部表面检查分别报告，穿插未通过的结果仍保留供诊断。</p>' + ''.join(sections) + '</html>'
+--- a/egosmplx_pipeline/reference/guided_fuse.py
++++ b/egosmplx_pipeline/reference/guided_fuse.py
+@@ -1 +1 @@
+-"""Fuse the enhanced body using the unchanged original bounded contour seam."""
++"""Fuse the enhanced body using the original bounded contour seam geometry."""
+@@ -37 +37 @@
+- rec=dict(route='MANO-guided body + original bounded contour seam',manual_inputs=False,original_seam_code_unchanged=True,fixed_mano_wrist_algorithm_used=False,matches=matches,body_constraints=bodycheck,seam_edges_two_opposite_faces=True,topology_unchanged=True,minimum_depth_m=float(v2.min_z(new['vertices_cam'])),silhouette_before=silhouette_metrics(old['vertices_cam'],cam,data),silhouette_after=silhouette_metrics(new['vertices_cam'],cam,data),local_intersection_checks=checks,all_local_crossing_checks_passed=all(q['after']['proper_crossings']==0 for q in checks.values()),intersection_scope='Local forearm/seam faces versus full surface; shared-vertex pairs excluded; no coplanar overlap or whole-body collision certificate')
++ rec=dict(route='MANO-guided body + original bounded contour seam',manual_inputs=False,original_seam_code_unchanged=not v2.enabled(),original_lifting_and_seam_geometry_preserved=True,depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),fixed_mano_wrist_algorithm_used=False,matches=matches,body_constraints=bodycheck,seam_edges_two_opposite_faces=True,topology_unchanged=True,minimum_depth_m=float(v2.min_z(new['vertices_cam'])),silhouette_before=silhouette_metrics(old['vertices_cam'],cam,data),silhouette_after=silhouette_metrics(new['vertices_cam'],cam,data),local_intersection_checks=checks,all_local_crossing_checks_passed=all(q['after']['proper_crossings']==0 for q in checks.values()),intersection_scope='Local forearm/seam faces versus full surface; shared-vertex pairs excluded; no coplanar overlap or whole-body collision certificate')
+--- a/egosmplx_pipeline/reference/guided_body.py
++++ b/egosmplx_pipeline/reference/guided_body.py
+@@ -137 +137 @@
+- write(dst/'optimization.json',dict(row=row,baseline='Current run automatic wrist/contour-refined body',algorithm_source='EgoFishPose/06f5472',method='single continuation; Sapiens joints + native MANO MCP and 16 corresponding wrist-loop pixels + frozen contour; no body-shifted hand targets',manual_inputs=False,max_steps=steps,actual_steps=step+1,early_stop_patience=200,elapsed_seconds=time.time()-start,initial=initial,after=after,trace=trace,acceptance=check,fixed_shape=True,cpu_feasibility_step_fraction=alpha,body_bone_max_change_m=boneerr,body_reload_max_abs_m=float(np.abs(vv-v).max())))
++ write(dst/'optimization.json',dict(row=row,baseline='Current run automatic wrist/contour-refined body',algorithm_source='EgoFishPose/06f5472',method=('v2 grouped Sapiens body and WiLoR stereo observations; original wrist-loop and contour terms' if v2.enabled() else 'single continuation; Sapiens joints + native MANO MCP and 16 corresponding wrist-loop pixels + frozen contour; no body-shifted hand targets'),manual_inputs=False,max_steps=steps,actual_steps=step+1,early_stop_patience=200,elapsed_seconds=time.time()-start,initial=initial,after=after,trace=trace,acceptance=check,fixed_shape=True,cpu_feasibility_step_fraction=alpha,body_bone_max_change_m=boneerr,body_reload_max_abs_m=float(np.abs(vv-v).max())))
+--- a/egosmplx_pipeline/reference/wrist_refine.py
++++ b/egosmplx_pipeline/reference/wrist_refine.py
+@@ -116 +116 @@
+-  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=True,body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
++  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=not v2.enabled(),depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),radial_wrist_floor_enabled=not v2.enabled(),body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
+--- a/egosmplx_pipeline/reference/contour_refine.py
++++ b/egosmplx_pipeline/reference/contour_refine.py
+@@ -119 +119 @@
+-  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=True,body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
++  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=not v2.enabled(),depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),radial_wrist_floor_enabled=not v2.enabled(),body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
+--- a/egosmplx_pipeline/reference/contour_refine_strong.py
++++ b/egosmplx_pipeline/reference/contour_refine_strong.py
+@@ -122 +122 @@
+-  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=True,body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)
++  report=dict(id=row['id'],active_constraint_projection=a.active_projection,steps=a.steps,cpu_feasibility_step_fraction=cpu_alpha,elapsed_seconds=time.time()-start,manual_inputs=False,original_hard_bounds_preserved=not v2.enabled(),depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),radial_wrist_floor_enabled=not v2.enabled(),body_shape_fixed=True,bone_length_max_change_m=boneerr,wrist_before_px=initial_werr.tolist(),wrist_after_px=np.linalg.norm(cam.world2camera(jj.astype(np.float64))[ix.cpu().numpy()]-arr(goals),axis=1).tolist(),matches=matches,loss=bestloss,rejected_steps=rejected,acceptance=acceptance)

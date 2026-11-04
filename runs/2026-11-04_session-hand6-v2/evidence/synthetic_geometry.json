@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "point": [
+        -0.15,
+        -0.1,
+        0.4
+      ],
+      "error_m": 1.5775033020159914e-12,
+      "covariance_rotation_eigenvalue_error": 4.336808689942018e-19
+    },
+    {
+      "point": [
+        -0.15,
+        -0.1,
+        0.7
+      ],
+      "error_m": 4.09369525704672e-12,
+      "covariance_rotation_eigenvalue_error": 8.673617379884035e-19
+    },
+    {
+      "point": [
+        -0.15,
+        -0.1,
+        1.0
+      ],
+      "error_m": 1.0995411676803395e-11,
+      "covariance_rotation_eigenvalue_error": 1.3877787807814457e-17
+    },
+    {
+      "point": [
+        -0.15,
+        0.1,
+        0.4
+      ],
+      "error_m": 4.900293481839342e-13,
+      "covariance_rotation_eigenvalue_error": 4.336808689942018e-19
+    },
+    {
+      "point": [
+        -0.15,
+        0.1,
+        0.7
+      ],
+      "error_m": 1.4222308369790952e-11,
+      "covariance_rotation_eigenvalue_error": 8.673617379884035e-19
+    },
+    {
+      "point": [
+        -0.15,
+        0.1,
+        1.0
+      ],
+      "error_m": 1.369530639398244e-11,
+      "covariance_rotation_eigenvalue_error": 4.255493527005605e-18
+    },
+    {
+      "point": [
+        -0.15,
+        0.2,
+        0.4
+      ],
+      "error_m": 1.4175466165403712e-12,
+      "covariance_rotation_eigenvalue_error": 2.710505431213761e-20
+    },
+    {
+      "point": [
+        -0.15,
+        0.2,
+        0.7
+      ],
+      "error_m": 3.3549995626017782e-12,
+      "covariance_rotation_eigenvalue_error": 8.673617379884035e-19
+    },
+    {
+      "point": [
+        -0.15,
+        0.2,
+        1.0
+      ],
+      "error_m": 4.576981692184228e-11,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.05,
+        -0.1,
+        0.4
+      ],
+      "error_m": 2.7927199735180448e-12,
+      "covariance_rotation_eigenvalue_error": 2.168404344971009e-19
+    },
+    {
+      "point": [
+        0.05,
+        -0.1,
+        0.7
+      ],
+      "error_m": 9.554477675407904e-12,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.05,
+        -0.1,
+        1.0
+      ],
+      "error_m": 2.78012384397646e-11,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.05,
+        0.1,
+        0.4
+      ],
+      "error_m": 1.6620099147170719e-12,
+      "covariance_rotation_eigenvalue_error": 4.0657581468206416e-20
+    },
+    {
+      "point": [
+        0.05,
+        0.1,
+        0.7
+      ],
+      "error_m": 1.523499550064256e-11,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.05,
+        0.1,
+        1.0
+      ],
+      "error_m": 2.552474710428185e-11,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.05,
+        0.2,
+        0.4
+      ],
+      "error_m": 2.87696097222807e-13,
+      "covariance_rotation_eigenvalue_error": 4.336808689942018e-19
+    },
+    {
+      "point": [
+        0.05,
+        0.2,
+        0.7
+      ],
+      "error_m": 7.691832457148342e-12,
+      "covariance_rotation_eigenvalue_error": 1.734723475976807e-18
+    },
+    {
+      "point": [
+        0.05,
+        0.2,
+        1.0
+      ],
+      "error_m": 4.250158206823885e-12,
+      "covariance_rotation_eigenvalue_error": 1.3877787807814457e-17
+    },
+    {
+      "point": [
+        0.15,
+        -0.1,
+        0.4
+      ],
+      "error_m": 1.7764059219097524e-12,
+      "covariance_rotation_eigenvalue_error": 1.3552527156068805e-19
+    },
+    {
+      "point": [
+        0.15,
+        -0.1,
+        0.7
+      ],
+      "error_m": 2.338378331746558e-12,
+      "covariance_rotation_eigenvalue_error": 1.734723475976807e-18
+    },
+    {
+      "point": [
+        0.15,
+        -0.1,
+        1.0
+      ],
+      "error_m": 6.9495377808911284e-12,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    },
+    {
+      "point": [
+        0.15,
+        0.1,
+        0.4
+      ],
+      "error_m": 1.053152521195962e-12,
+      "covariance_rotation_eigenvalue_error": 6.505213034913027e-19
+    },
+    {
+      "point": [
+        0.15,
+        0.1,
+        0.7
+      ],
+      "error_m": 1.6958898815713424e-12,
+      "covariance_rotation_eigenvalue_error": 1.0842021724855044e-18
+    },
+    {
+      "point": [
+        0.15,
+        0.1,
+        1.0
+      ],
+      "error_m": 4.199319053990058e-12,
+      "covariance_rotation_eigenvalue_error": 3.686287386450715e-18
+    },
+    {
+      "point": [
+        0.15,
+        0.2,
+        0.4
+      ],
+      "error_m": 1.266753776884827e-12,
+      "covariance_rotation_eigenvalue_error": 2.0328790734103208e-19
+    },
+    {
+      "point": [
+        0.15,
+        0.2,
+        0.7
+      ],
+      "error_m": 2.307232311093705e-12,
+      "covariance_rotation_eigenvalue_error": 1.734723475976807e-18
+    },
+    {
+      "point": [
+        0.15,
+        0.2,
+        1.0
+      ],
+      "error_m": 3.4332518733650513e-12,
+      "covariance_rotation_eigenvalue_error": 3.469446951953614e-18
+    }
+  ],
+  "maximum_error_m": 4.576981692184228e-11
+}

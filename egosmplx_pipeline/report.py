@@ -1,10 +1,10 @@
-"""Static, shareable three-stage comparison without remote asset dependencies."""
+"""Static, shareable stage comparison without remote asset dependencies."""
 import html
 from pathlib import Path
 import cv2
 import numpy as np
 from egosmplx_pipeline.io import write
-from egosmplx_pipeline.profiles import CURRENT, LEGACY
+from egosmplx_pipeline.profiles import CURRENT, LEGACY, V2
 
 
 def build(output, records):
@@ -14,10 +14,10 @@ def build(output, records):
     if len(profiles) != 1:
         raise ValueError('Cannot mix different pipeline profiles in one report')
     profile = next(iter(profiles))
-    stages = [('raw', 'Raw EgoSMPLX'), ('body', 'Sapiens2 two-stage body fit')]
-    if profile == CURRENT:
+    stages = [('raw', 'Raw EgoSMPLX'), ('body', 'Stereo-guided body fit' if profile == V2 else 'Sapiens2 two-stage body fit')]
+    if profile in (CURRENT, V2):
         stages.append(('guided_body', 'MANO-guided body'))
-    stages.append(('fused', 'Guided body + original seam' if profile == CURRENT else 'MANO + contour + harmonic surface'))
+    stages.append(('fused', 'Guided body + original seam' if profile in (CURRENT, V2) else 'MANO + contour + harmonic surface'))
     for row in records:
         identifier = row['id']
         panels = []
@@ -53,5 +53,5 @@ def build(output, records):
     write(output / 'summary.json', summary)
     text = '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width">' + \
            '<title>EgoSmplx 分阶段对比</title><style>body{background:#161b22;color:#eee;font:16px sans-serif;margin:24px}img{width:100%}section{margin:32px 0}</style>' + \
-           '<h1>EgoSmplx V1.0 分阶段输出</h1><p>自动目标拟合误差，不是人工真值精度。重载通过和局部表面检查分别报告，穿插未通过的结果仍保留供诊断。</p>' + ''.join(sections) + '</html>'
+           '<h1>EgoSmplx ' + ('v2' if profile == V2 else 'V1.0') + ' 分阶段输出</h1><p>自动目标拟合误差，不是人工真值精度。重载通过和局部表面检查分别报告，穿插未通过的结果仍保留供诊断。</p>' + ''.join(sections) + '</html>'
     (output / 'index.html').write_text(text, encoding='utf-8')

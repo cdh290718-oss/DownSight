@@ -5,6 +5,7 @@ Reuses the existing calibrated-fisheye rigid-fit helpers. Only automatic Sapiens
 The body rotates about the SMPL-X pelvis; saved parameters are regenerated and
 checked against the optimized geometry before any result is delivered.
 """
+from egosmplx_pipeline import v2_policy as v2
 import argparse
 import hashlib
 import json
@@ -82,11 +83,13 @@ def main():
     lookup = {j['name']: j for j in payload['keypoints']}
     if len(lookup) != len(payload['keypoints']):
         raise ValueError('Duplicate keypoint names')
+    stereo = v2.Context(lookup,camera,smpl_x,dev)
     selected, excluded = [], []
     for name, model_name in JOINT_MAPPING.items():
         j = lookup.get(name)
         valid = j is not None and np.isfinite([j['x'], j['y'], j['score']]).all()
         valid = valid and 0 <= j['x'] < w and 0 <= j['y'] < h and j['score'] >= a.score_threshold
+        valid = valid and v2.body_allowed(name,j,(w,h))
         if valid:
             selected.append(dict(name=name, model_name=model_name, index=smpl_x.joints_name.index(model_name), x=j['x'], y=j['y'], score=j['score']))
         else:
@@ -119,8 +122,12 @@ def main():
         residual = (pixels[indices] - target) / scale
         robust = F.smooth_l1_loss(residual, torch.zeros_like(residual), beta=.005, reduction='none').mean(1)
         reprojection = (robust * weights).sum() / weights.sum()
+        if stereo.active:
+            reprojection = stereo.observation(mesh,joints,pixels)
         prior_t = (((cam - cam0) / t([.25, .25, .50]))**2).mean()
-        loss = reprojection + 1e-4 * prior_t + 2e-4 * delta.square().mean() + F.relu(.02 - mesh[:, 2].min()).square()
+        loss = reprojection + 1e-4 * prior_t + 2e-4 * delta.square().mean() + F.relu(.02 - v2.min_z(mesh)).square()
+        if stereo.active:
+            loss = loss + stereo.visibility(mesh)
         if not torch.isfinite(loss):
             raise RuntimeError('Nonfinite optimization objective')
         value = float(loss.detach())
@@ -194,7 +201,7 @@ def main():
                   source_npz_sha256=hashlib.sha256(a.source_npz.read_bytes()).hexdigest(),
                   raw_to_sapiens2=errors(cpu(before[indices]), cpu(target)),
                   optimized_to_sapiens2=errors(cpu(rebuilt_pixels[indices]), cpu(target)), history=history,
-                  minimum_vertex_z_m=float(rebuilt_mesh[:, 2].min()),
+                  minimum_vertex_z_m=float(v2.min_z(rebuilt_mesh)),
                   geometry_convention='SMPL-X vertices/joints include global orientation; add transl; rotate about SMPL-X pelvis',
                   preserved_network_fields='Fields containing network or model_output and positionnet are original inference diagnostics')
     a.output_dir.mkdir(parents=True, exist_ok=False)

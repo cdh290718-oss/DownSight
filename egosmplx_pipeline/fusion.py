@@ -1,4 +1,5 @@
 """Seven-ring baseline used before the archived wrist/contour/surface refinement."""
+from egosmplx_pipeline import v2_policy as v2
 from collections import Counter
 import numpy as np
 import cv2
@@ -86,7 +87,7 @@ def stitch(p,w,matches,cam):
             assert directions[u,v]==directions[v,u]==1
         reports[side]['seam_and_hand_edges_two_opposite_faces']=True
     hand_joints=np.stack([smpl_x.orig_hand_regressor[s]@vertices for s in SIDES]).astype(np.float32)
-    assert np.isfinite(vertices).all() and vertices[:,2].min()>=.02-1e-6
+    assert np.isfinite(vertices).all() and v2.min_z(vertices)>=.02-1e-6
     untouched=np.ones(len(vertices),bool)
     for s in matches: untouched[extra[s+'_local_to_mesh']]=False
     assert np.array_equal(vertices[untouched],original[untouched])

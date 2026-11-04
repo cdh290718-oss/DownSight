@@ -1,0 +1,492 @@
+[
+  {
+    "frame": "cam3_f00000932",
+    "config_sha256": "f89c4cf01225f2d58f518424b2f75fd8d593e76823f6a1652d78aec1100a209e",
+    "manifest_sha256": "51ba3fc17405add61c9bf3a7835941025c1368c83bc40ee1f0798000aecf09b6",
+    "context_sha256": "2c28ab0a83e5658b85f49581d401381e0e6023527d5473f8a656f34212129b4a",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "cam4_f00000928",
+    "config_sha256": "b51e8686a25af6d7737f41b167b7a8f81284773e03840c5ac4bc20244a18a093",
+    "manifest_sha256": "208ed3e05e6267f5032bfafa06b566056a15cbeaa7259119b6d2bbe7991cd740",
+    "context_sha256": "aa914af52b5b9e2bf898f389792646ffa93e6308c2233c5c2430205875ae9368",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "cam3_f00001018",
+    "config_sha256": "cb85e4868928bed904f490d95e3174593d9f6d7497a3d3d4296de744ab52fbb0",
+    "manifest_sha256": "78969708e2b64b024eee494d639f319b88f3c9a19d38b4eef8d225ff67a90e61",
+    "context_sha256": "d151cebf6ed7ef907cf5b8b2c3ad649f6d9bfb863ad8395bc03e0038ba9a4408",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "cam4_f00001014",
+    "config_sha256": "ca1642be3ed1f5db74c4f0b466abdb093cac01023510cbc668376cb05d24134b",
+    "manifest_sha256": "838bf7c9840940e54da2aaa79cf40bfcb42a2c5ddb406f68aa139fbbb1f409ea",
+    "context_sha256": "b1de97f46958e721f7f3f85db2d7f4ec4eda159ff0706bc484b2588e3b1ce3f3",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s001_cam3_f00001711",
+    "config_sha256": "d9cd5ab0fb211c6f35fa508b5b6d9b979f562ce2eca27604bd730a2fcc2ef52d",
+    "manifest_sha256": "0591ac9bba7d89749741bde43e4bfe33ff9f212431c463f18e10cb054fc800e1",
+    "context_sha256": "37ac7ddff5b1603758290fe2204589180fc715b15c8811e216a7058704c0ba9e",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s001_cam4_f00001701",
+    "config_sha256": "eb6cecc29c654a206d25c716a1e6525e58b42b77496d123e1577f5494a206ac0",
+    "manifest_sha256": "a9205e76b054301e8f890ebc405b9789db00d7774b45620793998e75c9ca06de",
+    "context_sha256": "b20407ee5e70e0ef8b73a221fc3b6498eefd689a3f8208a696a38264b2dd947e",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s022_cam3_f00001834",
+    "config_sha256": "90892ffc42097b8648aafab125f4eb37fe8fd2c467fd1e2a0b71ffc975a1bd6a",
+    "manifest_sha256": "01db6aef93ea88491471bb776be9fe594d28aaa1cfd9487f86a61725018525d4",
+    "context_sha256": "ce570cf319123861ced2b5eec77746f63902b058bfd23fac79694ca00811964a",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s022_cam4_f00001824",
+    "config_sha256": "302a82f34c5b4ba7a1093b2e835ea98b42bf60b6a5f8b98c956e6b3b72ed828c",
+    "manifest_sha256": "adb1c930dfea2f81420b581bfbd96b24023e27cd55f5e4664d3d0a520ca904d9",
+    "context_sha256": "990b15d0469b89e440e42773f8deeb9ab53785c8bc32198be329ec670c943c06",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s100_cam3_f00002299",
+    "config_sha256": "5e165fd549014cd7a1d2bc106f3880efee726b27dfca7da57fd2dac7751269c2",
+    "manifest_sha256": "3353d386ced6f16a9d46cd2a0ff4eef126f24edbedd89026bad1df3f711579a9",
+    "context_sha256": "7d3c1cb23b980aa94409349b0aa1eb04ab375a68c694c9318ca042e3c8e3ae5c",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  },
+  {
+    "frame": "s100_cam4_f00002281",
+    "config_sha256": "b531b35b0a6323af61faacf1adf1d0074480e319e6deed20d214b06f701f01b3",
+    "manifest_sha256": "5796fd5f4927af2b68f5362c1f9fc18a1a80f9d66495a1f7ecec7726c86314c1",
+    "context_sha256": "e33ca7ee8e468b42d16574eeb8af8dbdd363f3be1a951f166d83e88061392391",
+    "settings": {
+      "fitting": {
+        "rigid_steps": 1800,
+        "pose_steps": 1600,
+        "mano_guided_steps": 1400
+      },
+      "checkpoint_sha256": {
+        "pose": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+        "seg": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+        "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+        "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+        "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033",
+        "egosmplx_config": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad"
+      },
+      "pipeline_profile": "stereo_guided_original_seam_v2_20261104",
+      "head_neck": {
+        "enabled": true,
+        "neck_enabled": false,
+        "guard_enabled": false,
+        "shoulders_enabled": false,
+        "rigid_head_enabled": true,
+        "rigid_head_weight": 0.1
+      },
+      "stereo_v2": true,
+      "cached_wilor_focal_px": 25000,
+      "gpu": ""
+    },
+    "resource_identifiers": {
+      "body_python": "python3.8",
+      "pose_python": "python3.10",
+      "wilor_python": "python3.10",
+      "egosmplx_repo": "EgoSMPLX",
+      "egosmplx_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "egosmplx_checkpoint": "snapshot_11.pth.tar",
+      "sapiens_repo": "sapiens2",
+      "sapiens_dependencies": "sapiens_deps",
+      "pose_checkpoint": "sapiens2_1b_pose.safetensors",
+      "seg_checkpoint": "sapiens2_1b_seg.safetensors",
+      "wilor_repo": "WiLoR",
+      "wilor_checkpoint": "wilor_final.ckpt",
+      "wilor_config": "model_config.yaml",
+      "wilor_detector": "detector.pt"
+    }
+  }
+]

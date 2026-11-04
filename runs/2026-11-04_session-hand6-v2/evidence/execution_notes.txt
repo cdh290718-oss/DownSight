@@ -1,0 +1,7 @@
+Initial source baseline: 21cdefc2a9cb58cf3dbc4072ec878742a4b90ad2, modified worktree for v2.
+No network inference, installation, external backend edits, or historical output replacement.
+Initial pytest discovery from repository root also imported old run scripts with required argparse arguments: collection failed (exit 3); no tests ran. Scoped suite `python -m pytest tests -q -p no:cacheprovider` subsequently passed. The original failed collection log is retained.
+First full pilot failed after rigid optimization at the report-writing line due to a misspelled variable in the depth helper substitution. Corrected; restarted in a fresh output directory, no failed output overwritten.
+GPU pilots were stopped with SIGTERM only for Codex-started process trees; their logs and outputs retained. Formal evaluation uses new CPU output directories, fixed full iteration budgets and two independent view workers. The existing shared GPU jobs were untouched.
+Thresholds and objective weights were fixed before evaluating the formal results; no metric-driven tuning is part of this run.
+Initial public-file scan matched its own single-quoted path-pattern string in publish.py. The scanner was corrected to stop at either quote delimiter; the initial failed scan is retained as prepush-initial-self-match.json. No credential or developer path was found in the public increment.

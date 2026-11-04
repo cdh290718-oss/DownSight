@@ -1,0 +1,36 @@
+{
+  "scope": "Labels, report metadata, local stage report UI only; no numerical objective or geometry change; raw outputs retained",
+  "files": [
+    {
+      "path": "egosmplx_pipeline/report.py",
+      "execution_sha256": "7bca7b6fef9ae1ce8b9d8a27113d0bc80123f27ab8dad0ce0c7d0601eec2b660",
+      "published_sha256": "41938683c5c0d4a25d685e60ddda5048548ca68795035745e6ed05dbd67f6796"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/guided_fuse.py",
+      "execution_sha256": "cf1bcec60816e2baf8b3435c5ab6881741e416705b04bb7278f83c80e68939a9",
+      "published_sha256": "cf24b271bdd822e965b6d6b1123116c47c334755bf4b8267068707b80969d104"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/guided_body.py",
+      "execution_sha256": "a514ad0bb5722b4ea65883048ba5ca8616a64de080182d3138cad3e66fb03fda",
+      "published_sha256": "9e4ecf446c4e7cee40c2d673ed3fafc869b7c857fdc3d4838bd4d4d90afe2e7c"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/wrist_refine.py",
+      "execution_sha256": "c5609a6b383a39b00e9bfe6fff08b82ceb9834089505555ba4c2394d794623e3",
+      "published_sha256": "0aee37bf2f66cf0706ecb818849078461b83198429d2bbadb64d380ce484cd8e"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine.py",
+      "execution_sha256": "3c50e477b08dca61ee236720fb50a1395e4887d3a4385f7fde66018945a9d127",
+      "published_sha256": "f51fefc4f8d9f0b4726c109384f228cb481d305c7994a3f98aadc44b0b149840"
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine_strong.py",
+      "execution_sha256": "7b535d9df60a6d54ce1f63b9163afe6f16d2b6ddcb791e18acf7515f82d9f5b8",
+      "published_sha256": "04815352e354192961172b39bccb0852a513383432b7f1b81cd64d0c9314bc84"
+    }
+  ],
+  "patch_format": "Zero-context unified diff; reverse with git apply --unidiff-zero -R if reconstructing the numerical execution source."
+}

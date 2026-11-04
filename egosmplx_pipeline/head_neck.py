@@ -40,6 +40,11 @@ def settings():
 
 class HeadNeck:
     def __init__(self, rigid_vertices, head_ids, neck_index, lookup, size, device='cpu', project=None):
+        from egosmplx_pipeline import v2_policy
+        self.v2 = None
+        if v2_policy.enabled():
+            from utils.human_models import smpl_x
+            self.v2 = v2_policy.Context(lookup,project.__self__,smpl_x,device)
         self.cfg = settings()
         self.enabled = self.cfg['enabled']
         self.neck_index = neck_index
@@ -98,6 +103,8 @@ class HeadNeck:
 
     def loss(self, vertices, pixels):
         result = vertices.new_zeros(())
+        if self.v2 is not None:
+            result = result + self.v2.visibility(vertices)
         if self.rigid_head_active:
             displacement_sq = (vertices[self.ids]-self.reference_vertices).square().sum(1).mean()
             result = result + self.cfg['rigid_head_weight']*displacement_sq/self.reference_radius_sq

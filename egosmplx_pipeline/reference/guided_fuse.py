@@ -1,4 +1,5 @@
-"""Fuse the enhanced body using the unchanged original bounded contour seam."""
+"""Fuse the enhanced body using the original bounded contour seam geometry."""
+from egosmplx_pipeline import v2_policy as v2
 import argparse
 import numpy as np,cv2
 from egosmplx_pipeline.reference.guided_body import (get_rows,frame_dir,context,read,write,load,geometry,constraints,smpl_x,SIDES,FACES,render,draw_geometry,write_obj,metrics)
@@ -13,7 +14,7 @@ def run(row,verify=False):
  v,j=geometry(p);assert np.max(np.abs(v-p['smplx_mesh_cam']))<1e-6
  bodycheck=constraints(p,source,rigid,cam,lookup)
  new,seam=build(p,w,matches,cam,data);new['method']=np.array('MANO_guided_body_plus_original_bounded_contour_seam')
- assert np.array_equal(new['faces'],old['faces']);assert float(new['vertices_cam'][:,2].min())>=.02-1e-6
+ assert np.array_equal(new['faces'],old['faces']);assert float(v2.min_z(new['vertices_cam']))>=.02-1e-6
  counts=edge_counts(new['faces']);directions=oriented_edges(new['faces']);topology=True
  for side in matches:
   seeds=set(map(int,new[side+'_local_to_mesh'][new[side+'_wrist_loop_local']]))
@@ -33,7 +34,7 @@ def run(row,verify=False):
   eligible=(weights[:,18+si]+weights[:,20+si]>.5)&~np.isin(np.arange(len(v)),allhands)
   support=np.flatnonzero(((d>0)&(d<14)&eligible)|np.isin(np.arange(len(v)),seeds))
   checks[side]=dict(support_vertices=support.tolist(),before=audit.local_intersections(old['vertices_cam'].astype(float),old['faces'],support),after=audit.local_intersections(new['vertices_cam'].astype(float),new['faces'],support))
- rec=dict(route='MANO-guided body + original bounded contour seam',manual_inputs=False,original_seam_code_unchanged=True,fixed_mano_wrist_algorithm_used=False,matches=matches,body_constraints=bodycheck,seam_edges_two_opposite_faces=True,topology_unchanged=True,minimum_depth_m=float(new['vertices_cam'][:,2].min()),silhouette_before=silhouette_metrics(old['vertices_cam'],cam,data),silhouette_after=silhouette_metrics(new['vertices_cam'],cam,data),local_intersection_checks=checks,all_local_crossing_checks_passed=all(q['after']['proper_crossings']==0 for q in checks.values()),intersection_scope='Local forearm/seam faces versus full surface; shared-vertex pairs excluded; no coplanar overlap or whole-body collision certificate')
+ rec=dict(route='MANO-guided body + original bounded contour seam',manual_inputs=False,original_seam_code_unchanged=not v2.enabled(),original_lifting_and_seam_geometry_preserved=True,depth_guard_scope=('non_head_neck' if v2.enabled() else 'all_vertices'),fixed_mano_wrist_algorithm_used=False,matches=matches,body_constraints=bodycheck,seam_edges_two_opposite_faces=True,topology_unchanged=True,minimum_depth_m=float(v2.min_z(new['vertices_cam'])),silhouette_before=silhouette_metrics(old['vertices_cam'],cam,data),silhouette_after=silhouette_metrics(new['vertices_cam'],cam,data),local_intersection_checks=checks,all_local_crossing_checks_passed=all(q['after']['proper_crossings']==0 for q in checks.values()),intersection_scope='Local forearm/seam faces versus full surface; shared-vertex pairs excluded; no coplanar overlap or whole-body collision certificate')
  write(dst/'geometry_validation.json',rec)
  im=cv2.imread(row['image']);cv2.imwrite(str(dst/'fusion_wireframe.jpg'),render(im,new['vertices_cam'].astype(float),new['faces'],cam,.12));cv2.imwrite(str(dst/'fusion_skeleton.jpg'),draw_geometry(im.copy(),cam,new))
  print('FUSED',row['id'],rec['all_local_crossing_checks_passed'],flush=True)
