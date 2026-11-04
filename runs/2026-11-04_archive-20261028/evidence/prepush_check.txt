@@ -1,0 +1,12 @@
+归档和推送前自检（2026-11-04，执行于基线 21cdefc2a9cb58cf3dbc4072ec878742a4b90ad2）
+
+命令：Python 读取各历史 summary.json；解析归档 configs/*.json；计算两张归档对比图 SHA-256 并与历史源文件清单比较；检查逐帧局部表面结果。
+结果：12 份摘要均有一次局部检查，仅 b_left_0008、b_right_0008 通过；两张图摘要匹配；JSON 可解析。退出状态 0。
+
+命令：git status --short --untracked-files=all；git diff --cached --name-only；Python 检查工作区可见变更及暂存文件的大小、资源扩展名、常见凭据模式和报告/证据中开发机路径；git diff --cached --check。
+结果：检查到工作区有本轮之外的未提交改动，不在本轮暂存范围；暂存范围仅本轮实验及报告。扫描无不允许的资源、50 MB 及以上文件、常见凭据模式或未脱敏机器路径。退出状态 0。此检查不证明不存在所有可能形式的秘密。
+
+本轮仅归档精简历史配置、原始摘要、资源清单及两张用户要求的派生对比图；未提交权重、数据集、视频、npz/npy、完整原始输出、完整本地 provenance 或 patch。最大派生图 4077367 字节。
+
+命令：git ls-remote origin refs/heads/main；git log -1 --format='%H %s'。
+结果：远端 main 和归档前本地 HEAD 均为 21cdefc2a9cb58cf3dbc4072ec878742a4b90ad2；退出状态 0。将推送的增量仅含本轮新建归档。历史提交未做全面审计。

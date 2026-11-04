@@ -1,0 +1,81 @@
+{
+  "historical_run": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028",
+  "access": "开发机只读存档；其他机器需联系数据持有人获取及确认访问权限。",
+  "assets": [
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0002.jpg",
+      "sha256": "58d6f8dd567a1e0de4f001c2459e8165ed822543bb643525e0b6c10463298c14",
+      "bytes": 256456
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0003.jpg",
+      "sha256": "8cb804570db6dea2b42c8e9c3d21ac5a240925f0eed0e85c754cc6300d7698b3",
+      "bytes": 263764
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0005.jpg",
+      "sha256": "f59cf8e56602d3edf4147862be66ce7bc102c1f6b6cafc5ff2034cba6d63022d",
+      "bytes": 284687
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0008.jpg",
+      "sha256": "4ea81a23114ce430f64d519d8963ce8650a75fd7cf79a99d181db3ae673da343",
+      "bytes": 254264
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0100.png",
+      "sha256": "ed9b4035c893ccc8b68347dedaad65c4c861654ed629baa0d6c3b6405f3d83d6",
+      "bytes": 1460580
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_left_0200.png",
+      "sha256": "84e084bd1145cdd1b03f8b9dbf1464ae9eca17224732db143db62bd3c01fa9bf",
+      "bytes": 1330260
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0002.jpg",
+      "sha256": "965157e41d7de0e9ac441b5adf8294645328010f92e5d443590abde16b6f2f75",
+      "bytes": 256833
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0003.jpg",
+      "sha256": "af503e98298f98636f6fc736e2e901bb9d1e3b9d42dfa01b284bfb7ef8827868",
+      "bytes": 257392
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0005.jpg",
+      "sha256": "c090a51eee15031db24deb81a0a68c1c371a7bcb90e2c9b629b8e9189740015e",
+      "bytes": 284530
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0008.jpg",
+      "sha256": "28326a934c8486e708a37adfcdcce4d84a890a221a1d730dc2652c4948904f6d",
+      "bytes": 246330
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0100.png",
+      "sha256": "bf9047e4640b7cb7b8709008ad208605248ed0fb4961c40ce810d7213b98fe74",
+      "bytes": 1312438
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/inputs/b_right_0200.png",
+      "sha256": "57179aa61353704477330dca881ae8ff7ab7ed4655fe5ee0986d62db48f260b7",
+      "bytes": 1286697
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/eight_stage_comparisons.jpg",
+      "sha256": "c7023febcb47dd0f1a1a484aa858b98bd47185e674d6d610ff76ffa4157040e5",
+      "bytes": 4077367
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/four_stage_comparisons_0100_0200.jpg",
+      "sha256": "ecbd2938600d2d28cbc9bc4c9758c127779bd1c914b04d338ddd26369129336b",
+      "bytes": 1876730
+    },
+    {
+      "resource": "<HISTORICAL_RUN>/final_contact_sheet.jpg",
+      "sha256": "b2a4c42c0f002b432b0e23ce457056912ae6e8366028924f130dbc5e7c4cd605",
+      "bytes": 773720
+    }
+  ]
+}

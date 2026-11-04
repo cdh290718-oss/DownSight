@@ -1,0 +1,61 @@
+{
+  "github_commit": "269ec28d10b779045136b907d1fe2f9ee2acf0f7",
+  "frames": [
+    {
+      "id": "b_left_0002",
+      "camera": "cam3",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_left_0002.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json",
+      "sha256": "58d6f8dd567a1e0de4f001c2459e8165ed822543bb643525e0b6c10463298c14"
+    },
+    {
+      "id": "b_right_0002",
+      "camera": "cam4",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_right_0002.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam4_right_lower.egosmplx.json",
+      "sha256": "965157e41d7de0e9ac441b5adf8294645328010f92e5d443590abde16b6f2f75"
+    },
+    {
+      "id": "b_left_0003",
+      "camera": "cam3",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_left_0003.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json",
+      "sha256": "8cb804570db6dea2b42c8e9c3d21ac5a240925f0eed0e85c754cc6300d7698b3"
+    },
+    {
+      "id": "b_right_0003",
+      "camera": "cam4",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_right_0003.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam4_right_lower.egosmplx.json",
+      "sha256": "af503e98298f98636f6fc736e2e901bb9d1e3b9d42dfa01b284bfb7ef8827868"
+    },
+    {
+      "id": "b_left_0005",
+      "camera": "cam3",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_left_0005.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json",
+      "sha256": "f59cf8e56602d3edf4147862be66ce7bc102c1f6b6cafc5ff2034cba6d63022d"
+    },
+    {
+      "id": "b_right_0005",
+      "camera": "cam4",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_right_0005.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam4_right_lower.egosmplx.json",
+      "sha256": "c090a51eee15031db24deb81a0a68c1c371a7bcb90e2c9b629b8e9189740015e"
+    },
+    {
+      "id": "b_left_0008",
+      "camera": "cam3",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_left_0008.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json",
+      "sha256": "4ea81a23114ce430f64d519d8963ce8650a75fd7cf79a99d181db3ae673da343"
+    },
+    {
+      "id": "b_right_0008",
+      "camera": "cam4",
+      "image": "<WORKSPACE>/EgoFishPose/cui_local_computer_files/inference_github_269ec28d_20261028/inputs/b_right_0008.jpg",
+      "calibration": "<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam4_right_lower.egosmplx.json",
+      "sha256": "28326a934c8486e708a37adfcdcce4d84a890a221a1d730dc2652c4948904f6d"
+    }
+  ]
+}
