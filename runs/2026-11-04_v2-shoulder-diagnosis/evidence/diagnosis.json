@@ -1,0 +1,822 @@
+{
+  "reference": "Automatic Sapiens/WiLoR observations, not ground truth",
+  "scope": "Six new views; no refitting. Pixel radial derivatives are not full parameter gradients.",
+  "rows": [
+    {
+      "pair": "new_001",
+      "camera": "cam3",
+      "frame": "s001_cam3_f00001711",
+      "selected_body_names": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.69921875,
+          "error_px": 88.91155289528739,
+          "fraction_of_body_group_weight": 0.09208420958850075,
+          "robust_radial_derivative": 0.021410890814476002,
+          "derivative_relative_to_20px": 0.42821781628952005,
+          "observation_radial_derivative": 1.971604957236714e-05
+        },
+        "right_shoulder": {
+          "score": 0.7734375,
+          "error_px": 202.07998153517332,
+          "fraction_of_body_group_weight": 0.11267030843942398,
+          "robust_radial_derivative": 0.009801067929591508,
+          "derivative_relative_to_20px": 0.19602135859183015,
+          "observation_radial_derivative": 1.104289346662822e-05
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 150.7509312997885,
+        "body_pose": 158.8652064071259,
+        "before_guided": 157.2188873591402,
+        "final": 156.1114716724999
+      },
+      "body_pose_limits": [
+        "L_Hip",
+        "Neck",
+        "Head",
+        "L_Collar",
+        "R_Collar",
+        "L_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 18.000001907348633,
+        "R_Hip": 9.402684211730957,
+        "Spine_1": 7.159491062164307,
+        "Spine_2": 3.437091112136841,
+        "Spine_3": 2.5307493209838867,
+        "L_Knee": 2.3417160511016846,
+        "R_Knee": 14.38040542602539,
+        "L_Ankle": 6.020887851715088,
+        "R_Ankle": 9.899408340454102,
+        "Neck": 11.999999046325684,
+        "Head": 11.999999046325684,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 28.0,
+        "R_Shoulder": 26.730260848999023,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 25.0,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.08133728802204132,
+      "body_pose_head_displacement_rmse_m": 0.008073048666119576,
+      "body_pose_head_reference_loss": 0.0009851350367709585,
+      "body_pose_objective": 0.03474821150302887,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 78.322573436914,
+            "mean": 77.61474564035825,
+            "median": 77.61474564035825,
+            "p90": 86.01957354677589,
+            "values": [
+              67.1087107573362,
+              88.1207805233803
+            ]
+          },
+          "pelvis_z_m": 0.6948378682136536,
+          "projected_shoulder_distance_px": 328.74877258265064
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 163.54373754548413,
+            "mean": 154.11800749529505,
+            "median": 154.11800749529505,
+            "p90": 197.8933894794295,
+            "values": [
+              99.39878001512699,
+              208.8372349754631
+            ]
+          },
+          "pelvis_z_m": 0.8774120211601257,
+          "projected_shoulder_distance_px": 237.5596775585707
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 156.1114716724999,
+            "mean": 145.49576721523036,
+            "median": 145.49576721523036,
+            "p90": 190.76313867118472,
+            "values": [
+              88.91155289528739,
+              202.07998153517332
+            ]
+          },
+          "pelvis_z_m": 0.8499854207038879,
+          "projected_shoulder_distance_px": 251.90298101329537
+        }
+      }
+    },
+    {
+      "pair": "new_001",
+      "camera": "cam4",
+      "frame": "s001_cam4_f00001701",
+      "selected_body_names": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.8125,
+          "error_px": 151.2186776432857,
+          "fraction_of_body_group_weight": 0.11473457816531814,
+          "robust_radial_derivative": 0.012998504548608753,
+          "derivative_relative_to_20px": 0.25997009097217505,
+          "observation_radial_derivative": 1.4913779361645943e-05
+        },
+        "right_shoulder": {
+          "score": 0.6953125,
+          "error_px": 119.6905518342415,
+          "fraction_of_body_group_weight": 0.08402483299255593,
+          "robust_radial_derivative": 0.016255866932817546,
+          "derivative_relative_to_20px": 0.3251173386563509,
+          "observation_radial_derivative": 1.3658965041792069e-05
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 152.78517639113292,
+        "body_pose": 139.7560374319044,
+        "before_guided": 138.94313496570228,
+        "final": 136.36883197154916
+      },
+      "body_pose_limits": [
+        "Neck",
+        "Head",
+        "L_Collar",
+        "R_Collar",
+        "L_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 10.27685546875,
+        "R_Hip": 17.23032569885254,
+        "Spine_1": 6.565834045410156,
+        "Spine_2": 3.178495407104492,
+        "Spine_3": 7.141944885253906,
+        "L_Knee": 17.465160369873047,
+        "R_Knee": 12.488771438598633,
+        "L_Ankle": 7.274012565612793,
+        "R_Ankle": 9.350096702575684,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 27.999998092651367,
+        "R_Shoulder": 21.413511276245117,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.0824078619480133,
+      "body_pose_head_displacement_rmse_m": 0.004691775422543287,
+      "body_pose_head_reference_loss": 0.0003241433666997454,
+      "body_pose_objective": 0.03140191733837128,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 85.95864322518847,
+            "mean": 85.83319708201543,
+            "median": 85.83319708201543,
+            "p90": 89.5470090359098,
+            "values": [
+              81.19093213964746,
+              90.47546202438339
+            ]
+          },
+          "pelvis_z_m": 0.7063255310058594,
+          "projected_shoulder_distance_px": 320.7119376910008
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 138.38777160269115,
+            "mean": 137.60471795023224,
+            "median": 137.60471795023224,
+            "p90": 149.3654506347723,
+            "values": [
+              152.3056338059073,
+              122.90380209455721
+            ]
+          },
+          "pelvis_z_m": 0.84145587682724,
+          "projected_shoulder_distance_px": 253.95173164341682
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 136.36883197154916,
+            "mean": 135.4546147387636,
+            "median": 135.4546147387636,
+            "p90": 148.06586506238128,
+            "values": [
+              151.2186776432857,
+              119.69055183424152
+            ]
+          },
+          "pelvis_z_m": 0.83452308177948,
+          "projected_shoulder_distance_px": 258.8648223856015
+        }
+      }
+    },
+    {
+      "pair": "new_022",
+      "camera": "cam3",
+      "frame": "s022_cam3_f00001834",
+      "selected_body_names": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.70703125,
+          "error_px": 113.57821266884523,
+          "fraction_of_body_group_weight": 0.07736577117811531,
+          "robust_radial_derivative": 0.017079417130110068,
+          "derivative_relative_to_20px": 0.34158834260220133,
+          "observation_radial_derivative": 1.3213622775436786e-05
+        },
+        "right_shoulder": {
+          "score": 0.73046875,
+          "error_px": 173.97999086954673,
+          "fraction_of_body_group_weight": 0.08258000831255195,
+          "robust_radial_derivative": 0.011345644116878623,
+          "derivative_relative_to_20px": 0.22691288233757245,
+          "observation_radial_derivative": 9.369233854830928e-06
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 155.58087956518057,
+        "body_pose": 149.50216048283713,
+        "before_guided": 147.87055018572246,
+        "final": 146.9167240582518
+      },
+      "body_pose_limits": [
+        "Spine_1",
+        "Neck",
+        "Head",
+        "L_Collar",
+        "R_Collar",
+        "R_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 11.746689796447754,
+        "R_Hip": 7.953136920928955,
+        "Spine_1": 9.999999046325684,
+        "Spine_2": 6.455661296844482,
+        "Spine_3": 11.130745887756348,
+        "L_Knee": 13.774273872375488,
+        "R_Knee": 10.610163688659668,
+        "L_Ankle": 6.327276706695557,
+        "R_Ankle": 7.781551361083984,
+        "Neck": 11.999999046325684,
+        "Head": 12.000000953674316,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 19.688875198364258,
+        "R_Shoulder": 28.0,
+        "L_Elbow": 25.0,
+        "R_Elbow": 24.999996185302734,
+        "L_Wrist": 15.000000953674316,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.08105173707008362,
+      "body_pose_head_displacement_rmse_m": 0.0062562632374465466,
+      "body_pose_head_reference_loss": 0.0005958066876163598,
+      "body_pose_objective": 0.02417091652750969,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 87.79704489991065,
+            "mean": 87.44298094492248,
+            "median": 87.44298094492248,
+            "p90": 93.74453258230692,
+            "values": [
+              79.56604139819194,
+              95.31992049165302
+            ]
+          },
+          "pelvis_z_m": 0.6959565877914429,
+          "projected_shoulder_distance_px": 324.54697971307667
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 148.37965753083432,
+            "mean": 146.2626125567675,
+            "median": 146.2626125567675,
+            "p90": 166.2429378720225,
+            "values": [
+              121.2872059126987,
+              171.23801920083628
+            ]
+          },
+          "pelvis_z_m": 0.8428184390068054,
+          "projected_shoulder_distance_px": 250.40943130363814
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 146.9167240582518,
+            "mean": 143.77910176919596,
+            "median": 143.77910176919596,
+            "p90": 167.93981304947658,
+            "values": [
+              113.57821266884523,
+              173.97999086954673
+            ]
+          },
+          "pelvis_z_m": 0.835171103477478,
+          "projected_shoulder_distance_px": 255.41644512362717
+        }
+      }
+    },
+    {
+      "pair": "new_022",
+      "camera": "cam4",
+      "frame": "s022_cam4_f00001824",
+      "selected_body_names": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.7890625,
+          "error_px": 141.76526113726183,
+          "fraction_of_body_group_weight": 0.09634628371199062,
+          "robust_radial_derivative": 0.013832518795663903,
+          "derivative_relative_to_20px": 0.27665037591327807,
+          "observation_radial_derivative": 1.3327117803384775e-05
+        },
+        "right_shoulder": {
+          "score": 0.65625,
+          "error_px": 142.99302217022006,
+          "fraction_of_body_group_weight": 0.0666424250438002,
+          "robust_radial_derivative": 0.013718328014850142,
+          "derivative_relative_to_20px": 0.27436656029700285,
+          "observation_radial_derivative": 9.14222646455915e-06
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 147.9762749038861,
+        "body_pose": 140.54748270733805,
+        "before_guided": 142.08922326965723,
+        "final": 142.38046504820997
+      },
+      "body_pose_limits": [
+        "Spine_1",
+        "Spine_3",
+        "Neck",
+        "Head",
+        "L_Collar",
+        "R_Collar",
+        "L_Shoulder",
+        "R_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 9.070547103881836,
+        "R_Hip": 12.661333084106445,
+        "Spine_1": 10.0,
+        "Spine_2": 9.383953094482422,
+        "Spine_3": 12.0,
+        "L_Knee": 8.381723403930664,
+        "R_Knee": 10.44312858581543,
+        "L_Ankle": 4.919228553771973,
+        "R_Ankle": 8.268657684326172,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.000000953674316,
+        "R_Collar": 15.000000953674316,
+        "L_Shoulder": 27.999996185302734,
+        "R_Shoulder": 28.0,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.08241835236549377,
+      "body_pose_head_displacement_rmse_m": 0.004223737865686417,
+      "body_pose_head_reference_loss": 0.0002626310425819389,
+      "body_pose_objective": 0.020437469705939293,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 77.41831264894101,
+            "mean": 74.52324379024958,
+            "median": 74.52324379024958,
+            "p90": 91.30192108521095,
+            "values": [
+              53.54989717154787,
+              95.49659040895129
+            ]
+          },
+          "pelvis_z_m": 0.669855535030365,
+          "projected_shoulder_distance_px": 354.121319171226
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 145.8582758711507,
+            "mean": 145.85700300780604,
+            "median": 145.85700300780604,
+            "p90": 146.34448711909684,
+            "values": [
+              145.24764786869258,
+              146.46635814691953
+            ]
+          },
+          "pelvis_z_m": 0.8290195465087891,
+          "projected_shoulder_distance_px": 273.98814134914915
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 142.38046504820997,
+            "mean": 142.37914165374093,
+            "median": 142.37914165374093,
+            "p90": 142.87024606692424,
+            "values": [
+              141.76526113726183,
+              142.99302217022006
+            ]
+          },
+          "pelvis_z_m": 0.8223494291305542,
+          "projected_shoulder_distance_px": 274.59420611541447
+        }
+      }
+    },
+    {
+      "pair": "new_100",
+      "camera": "cam3",
+      "frame": "s100_cam3_f00002299",
+      "selected_body_names": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.671875,
+          "error_px": 79.2165203367541,
+          "fraction_of_body_group_weight": 0.07217352482672645,
+          "robust_radial_derivative": 0.023734372839311818,
+          "derivative_relative_to_20px": 0.47468745678623636,
+          "observation_radial_derivative": 1.712993347364854e-05
+        },
+        "right_shoulder": {
+          "score": 0.796875,
+          "error_px": 186.56820863391158,
+          "fraction_of_body_group_weight": 0.10152695406939724,
+          "robust_radial_derivative": 0.010598149116497448,
+          "derivative_relative_to_20px": 0.21196298232994895,
+          "observation_radial_derivative": 1.0759977985712594e-05
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 169.29612316865138,
+        "body_pose": 155.034031771949,
+        "before_guided": 154.14803051836043,
+        "final": 143.3229806540635
+      },
+      "body_pose_limits": [
+        "Spine_1",
+        "Neck",
+        "L_Collar",
+        "R_Collar",
+        "L_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 7.97344446182251,
+        "R_Hip": 8.75875186920166,
+        "Spine_1": 9.999998092651367,
+        "Spine_2": 5.628963947296143,
+        "Spine_3": 9.703584671020508,
+        "L_Knee": 10.455349922180176,
+        "R_Knee": 8.232894897460938,
+        "L_Ankle": 3.5229556560516357,
+        "R_Ankle": 2.805922746658325,
+        "Neck": 12.0,
+        "Head": 8.328965187072754,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 28.0,
+        "R_Shoulder": 21.18723487854004,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.08106319606304169,
+      "body_pose_head_displacement_rmse_m": 0.009728378616273403,
+      "body_pose_head_reference_loss": 0.001440235407802454,
+      "body_pose_objective": 0.03770134970545769,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 56.56961468989591,
+            "mean": 56.38500214456625,
+            "median": 56.38500214456625,
+            "p90": 60.038194880400134,
+            "values": [
+              60.95149306435861,
+              51.81851122477389
+            ]
+          },
+          "pelvis_z_m": 0.6607962250709534,
+          "projected_shoulder_distance_px": 380.1891218600816
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 146.56683987713322,
+            "mean": 135.8886281895463,
+            "median": 135.8886281895463,
+            "p90": 179.8239936644433,
+            "values": [
+              80.96942134592503,
+              190.80783503316755
+            ]
+          },
+          "pelvis_z_m": 0.7862335443496704,
+          "projected_shoulder_distance_px": 270.84479632306574
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 143.3229806540635,
+            "mean": 132.89236448533285,
+            "median": 132.89236448533285,
+            "p90": 175.83303980419583,
+            "values": [
+              79.2165203367541,
+              186.56820863391158
+            ]
+          },
+          "pelvis_z_m": 0.786691427230835,
+          "projected_shoulder_distance_px": 272.8140292484393
+        }
+      }
+    },
+    {
+      "pair": "new_100",
+      "camera": "cam4",
+      "frame": "s100_cam4_f00002281",
+      "selected_body_names": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "shoulders": {
+        "left_shoulder": {
+          "score": 0.8125,
+          "error_px": 107.40700788207667,
+          "fraction_of_body_group_weight": 0.10353558317738222,
+          "robust_radial_derivative": 0.017996752720052366,
+          "derivative_relative_to_20px": 0.3599350544010473,
+          "observation_radial_derivative": 1.8633042881697616e-05
+        },
+        "right_shoulder": {
+          "score": 0.6953125,
+          "error_px": 117.66929441101595,
+          "fraction_of_body_group_weight": 0.07582335006916092,
+          "robust_radial_derivative": 0.016519552900085104,
+          "derivative_relative_to_20px": 0.33039105800170204,
+          "observation_radial_derivative": 1.2525678425291754e-05
+        }
+      },
+      "shoulder_rmse_by_stage_px": {
+        "rigid": 147.3294061451482,
+        "body_pose": 126.23294942282568,
+        "before_guided": 123.72238184552258,
+        "final": 112.65506688419929
+      },
+      "body_pose_limits": [
+        "Spine_1",
+        "Neck",
+        "L_Collar",
+        "R_Collar",
+        "L_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "body_pose_increments_deg": {
+        "L_Hip": 7.465473175048828,
+        "R_Hip": 8.538835525512695,
+        "Spine_1": 9.999999046325684,
+        "Spine_2": 5.27856969833374,
+        "Spine_3": 8.162861824035645,
+        "L_Knee": 8.54963207244873,
+        "R_Knee": 7.240977764129639,
+        "L_Ankle": 3.9898552894592285,
+        "R_Ankle": 10.11971378326416,
+        "Neck": 12.0,
+        "Head": 5.549799919128418,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 27.999998092651367,
+        "R_Shoulder": 15.335443496704102,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 14.999998092651367,
+        "R_Wrist": 15.0
+      },
+      "rigid_head_reference_radius_m": 0.08220925182104111,
+      "body_pose_head_displacement_rmse_m": 0.007268618326634169,
+      "body_pose_head_reference_loss": 0.000781740006400898,
+      "body_pose_objective": 0.03626116365194321,
+      "historical_and_final": {
+        "original": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 61.668256878754676,
+            "mean": 57.431943198782214,
+            "median": 57.431943198782214,
+            "p90": 75.40162089206856,
+            "values": [
+              34.96984608217427,
+              79.89404031539016
+            ]
+          },
+          "pelvis_z_m": 0.6816548109054565,
+          "projected_shoulder_distance_px": 364.60356988285906
+        },
+        "edge40": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 116.24313341246217,
+            "mean": 115.84348487278595,
+            "median": 115.84348487278595,
+            "p90": 123.54815683002721,
+            "values": [
+              106.21264492623436,
+              125.47432481933753
+            ]
+          },
+          "pelvis_z_m": 0.7757818698883057,
+          "projected_shoulder_distance_px": 297.29328430842946
+        },
+        "no_margin": {
+          "body_shoulders": {
+            "count": 2,
+            "rmse": 112.65506688419929,
+            "mean": 112.53815114654631,
+            "median": 112.53815114654631,
+            "p90": 116.64306575812202,
+            "values": [
+              107.40700788207667,
+              117.66929441101595
+            ]
+          },
+          "pelvis_z_m": 0.7756441235542297,
+          "projected_shoulder_distance_px": 299.8916183867061
+        }
+      }
+    }
+  ],
+  "mean_shoulder_rmse_by_stage_px": {
+    "rigid": 153.95313191229795,
+    "body_pose": 144.98964470399667,
+    "before_guided": 143.99870135735088,
+    "final": 139.6259233814623
+  },
+  "mean_shoulder_rmse_by_method_px": {
+    "original": 74.62240762993412,
+    "edge40": 143.16323597329261,
+    "no_margin": 139.6259233814623
+  },
+  "mean_shoulder_width_px": {
+    "original": 345.48695015014914,
+    "edge40": 264.00784374771166,
+    "no_margin": 268.91401704551396
+  },
+  "mean_pelvis_z_m": {
+    "original": 0.6849044263362885,
+    "edge40": 0.8254535496234894,
+    "no_margin": 0.8173940976460775
+  },
+  "joint_limit_view_counts": {
+    "L_Collar": 6,
+    "R_Collar": 6,
+    "L_Shoulder": 5,
+    "R_Shoulder": 2,
+    "L_Elbow": 6,
+    "R_Elbow": 6
+  },
+  "selected_shoulder_observations": 12,
+  "source_sha256": {
+    "runs/2026-11-04_v2-no-margin-rerun/evidence/metrics.json": "dd35bc3d4df0b18802a32979507d5210b25044235227af68a9206e6b2c052334",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam3_f00001711/frames/s001_cam3_f00001711/rigid/optimization_report.json": "cdd4bb801abc2baefa2c7c5c7f11212bd3198327412221dc6d770dd7a3b71814",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam3_f00001711/frames/s001_cam3_f00001711/body_fit/automatic/refinement_report.json": "3a129219fba4de75c7f692a8bd38562ae7935b48d07109712e4604ad4991dc5f",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam3_f00001711/frames/s001_cam3_f00001711/guided_body/optimization.json": "3dfea0fbfae4ef49cc50f8c44f4f59059fb7da1be08c9d77b0a965a277a7f2a9",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam4_f00001701/frames/s001_cam4_f00001701/rigid/optimization_report.json": "c930f04c0d4528851f23d1c90149f3a59634da869baa6b845f96e50e0cabf9b1",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam4_f00001701/frames/s001_cam4_f00001701/body_fit/automatic/refinement_report.json": "56820495533682a57ec687ed3a821607d1d958879cdd12374664e788753baafd",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s001_cam4_f00001701/frames/s001_cam4_f00001701/guided_body/optimization.json": "de6130ba17b62b621195f6d35fe79fe4e01bca2ee54208942e602e8827a45b11",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam3_f00001834/frames/s022_cam3_f00001834/rigid/optimization_report.json": "92bc9aa72f2d661f310370de5e06c65c9a86e60c88151279dd0375ef499676c8",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam3_f00001834/frames/s022_cam3_f00001834/body_fit/automatic/refinement_report.json": "051506c7bcfca829f34357cef014e08d9ac3f3d2df1e1c6931359021883f7159",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam3_f00001834/frames/s022_cam3_f00001834/guided_body/optimization.json": "9647f129e872f7118f4b3d2951f9a6787ef4bcf4eff14095f22fe1f5c695a135",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam4_f00001824/frames/s022_cam4_f00001824/rigid/optimization_report.json": "d9b6d3c543852b47494ea2042dcceb8eeb47db9b8091e547fc3784fc750ecfbe",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam4_f00001824/frames/s022_cam4_f00001824/body_fit/automatic/refinement_report.json": "8aad78931f50efe4c4f4d02809793de5426c7c6cfefc9eb3a5aca161b318ab83",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s022_cam4_f00001824/frames/s022_cam4_f00001824/guided_body/optimization.json": "e038293b03ec98bebc20eb460a86702b1908dab7785a228dbf365274a1c46985",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam3_f00002299/frames/s100_cam3_f00002299/rigid/optimization_report.json": "45ae6efae642c9da75204a6c792ab7087aa28bb4d24117fed78ec575fe44d19a",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam3_f00002299/frames/s100_cam3_f00002299/body_fit/automatic/refinement_report.json": "8ece9dfbaa14f7a07875daf6026abfa982604a4777a53bc05e4ccb41c77d763e",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam3_f00002299/frames/s100_cam3_f00002299/guided_body/optimization.json": "dd9d4940ceb9daa497966681f822572bb061a1321051d89325884b6fc670885b",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam4_f00002281/frames/s100_cam4_f00002281/rigid/optimization_report.json": "f64b69180fce0d85fe39962a37dc8543c12a0b41d9fa43684145247043625ad0",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam4_f00002281/frames/s100_cam4_f00002281/body_fit/automatic/refinement_report.json": "54a49e967ca9403f60244043e225378cb763a0cebc077b7c84c007a3f4b2fac8",
+    "outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/full_cpu_v1/s100_cam4_f00002281/frames/s100_cam4_f00002281/guided_body/optimization.json": "ca0426d1165ff41348627bc40ce14f50c5adbccf6d91f767aeae700d3ce05597"
+  }
+}

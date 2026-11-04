@@ -1,0 +1,6 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 python runs/2026-11-04_v2-shoulder-diagnosis/analyze.py",
+  "exit_code": 0,
+  "stdout": "{\n  \"reference\": \"Automatic Sapiens/WiLoR observations, not ground truth\",\n  \"scope\": \"Six new views; no refitting. Pixel radial derivatives are not full parameter gradients.\",\n  \"mean_shoulder_rmse_by_stage_px\": {\n    \"rigid\": 153.95313191229795,\n    \"body_pose\": 144.98964470399667,\n    \"before_guided\": 143.99870135735088,\n    \"final\": 139.6259233814623\n  },\n  \"mean_shoulder_rmse_by_method_px\": {\n    \"original\": 74.62240762993412,\n    \"edge40\": 143.16323597329261,\n    \"no_margin\": 139.6259233814623\n  },\n  \"mean_shoulder_width_px\": {\n    \"original\": 345.48695015014914,\n    \"edge40\": 264.00784374771166,\n    \"no_margin\": 268.91401704551396\n  },\n  \"mean_pelvis_z_m\": {\n    \"original\": 0.6849044263362885,\n    \"edge40\": 0.8254535496234894,\n    \"no_margin\": 0.8173940976460775\n  },\n  \"joint_limit_view_counts\": {\n    \"L_Collar\": 6,\n    \"R_Collar\": 6,\n    \"L_Shoulder\": 5,\n    \"R_Shoulder\": 2,\n    \"L_Elbow\": 6,\n    \"R_Elbow\": 6\n  },\n  \"selected_shoulder_observations\": 12\n}\n",
+  "stderr": ""
+}

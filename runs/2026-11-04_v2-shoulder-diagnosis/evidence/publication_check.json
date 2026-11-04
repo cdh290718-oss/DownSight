@@ -1,0 +1,23 @@
+{
+  "result": "passed",
+  "checked_files": [
+    "runs/2026-11-04_v2-shoulder-diagnosis/analyze.py",
+    "runs/2026-11-04_v2-shoulder-diagnosis/brief.md",
+    "runs/2026-11-04_v2-shoulder-diagnosis/evidence/diagnosis.json",
+    "runs/2026-11-04_v2-shoulder-diagnosis/evidence/execution.json",
+    "runs/2026-11-04_v2-shoulder-diagnosis/report.md",
+    "runs/2026-11-04_v2-shoulder-diagnosis/review.md"
+  ],
+  "scope": "new run only; existing untracked followup excluded; historical commits not audited",
+  "remote_main_before_commit": "d3f87936da25dcfc896b09f224eb71a0739b0054",
+  "checks": [
+    "increment allowlist",
+    "file size below 50 MB",
+    "no binary assets or full outputs",
+    "no environment or credential files",
+    "no machine absolute paths",
+    "staged text secret-pattern scan",
+    "remote equals baseline",
+    "git diff --check"
+  ]
+}
