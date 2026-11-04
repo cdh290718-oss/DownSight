@@ -1,0 +1,6 @@
+PASS: 12 distinct frames, selection and all wrist/hand values exactly match previous committed per-frame evidence
+PASS: 12 original-batch reconstructions match prior saved vertices and joints within 1e-5 m
+PASS: 12 images, each 1600 x 2176, EXIF absent; image hashes recorded in images_manifest.json
+PASS: 48 render panels and selected frames match; synthetic z-buffer order test and 36-sample stereo/fisheye geometry test passed
+PASS: 9 source-file hashes match inputs.json; Python syntax valid; all evidence JSON parses; 36 local links resolve
+LIMITATION: scene-depth mask is partial and approximate; median valid coverage 16.14417899941562% of visible mesh pixels, not guaranteed complete real-scene occlusion.

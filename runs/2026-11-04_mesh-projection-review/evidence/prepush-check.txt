@@ -1,0 +1,6 @@
+Push preflight for this incremental run
+Initial tracked worktree: clean. Baseline and remote main at preflight: d9312f12ed3da7b4ab0b67f459556c3abcbbb57b.
+Staged and outgoing files are limited to this run. Ignored local images, data, weights, depth arrays, reconstructed meshes and raw outputs are not staged.
+No weights, data sets, videos, npz/npy, complete raw outputs, credentials, .env, full provenance or patch; every staged file is less than 50 MB.
+Text scanned for workstation paths and common credential patterns. All 12 derived Gen images are user-authorized, annotated/resized and EXIF-free; SHA-256 values are in images_manifest.json. License text was not independently obtained.
+This incremental check does not audit previously published history.

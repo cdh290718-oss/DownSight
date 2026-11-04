@@ -1,0 +1,664 @@
+{
+  "frames": [
+    {
+      "frame": 270,
+      "file": "frame_00270.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 11281,
+          "rejected_near_or_long": 9230,
+          "visible_pixels": 427679,
+          "visible_head_pixels": 0,
+          "frame": 270,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 61132,
+          "scene_occluded_pixels": 4655,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 11280,
+          "rejected_near_or_long": 9232,
+          "visible_pixels": 428510,
+          "visible_head_pixels": 0,
+          "frame": 270,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 61329,
+          "scene_occluded_pixels": 4870,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 11298,
+          "rejected_near_or_long": 9208,
+          "visible_pixels": 347018,
+          "visible_head_pixels": 681,
+          "frame": 270,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 54648,
+          "scene_occluded_pixels": 3832,
+          "visible_head_after_scene": 681
+        },
+        {
+          "projected_faces": 11297,
+          "rejected_near_or_long": 9210,
+          "visible_pixels": 346476,
+          "visible_head_pixels": 690,
+          "frame": 270,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 54683,
+          "scene_occluded_pixels": 4723,
+          "visible_head_after_scene": 690
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 3060,
+      "file": "frame_03060.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10860,
+          "rejected_near_or_long": 9357,
+          "visible_pixels": 383107,
+          "visible_head_pixels": 0,
+          "frame": 3060,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 75896,
+          "scene_occluded_pixels": 3793,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10855,
+          "rejected_near_or_long": 9364,
+          "visible_pixels": 378572,
+          "visible_head_pixels": 0,
+          "frame": 3060,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 72975,
+          "scene_occluded_pixels": 4130,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10581,
+          "rejected_near_or_long": 9341,
+          "visible_pixels": 383524,
+          "visible_head_pixels": 0,
+          "frame": 3060,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 78572,
+          "scene_occluded_pixels": 4778,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10585,
+          "rejected_near_or_long": 9345,
+          "visible_pixels": 379593,
+          "visible_head_pixels": 0,
+          "frame": 3060,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 75664,
+          "scene_occluded_pixels": 5565,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 4770,
+      "file": "frame_04770.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10850,
+          "rejected_near_or_long": 9356,
+          "visible_pixels": 369496,
+          "visible_head_pixels": 0,
+          "frame": 4770,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 62401,
+          "scene_occluded_pixels": 3171,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10851,
+          "rejected_near_or_long": 9358,
+          "visible_pixels": 364568,
+          "visible_head_pixels": 0,
+          "frame": 4770,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 60265,
+          "scene_occluded_pixels": 3449,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10602,
+          "rejected_near_or_long": 9328,
+          "visible_pixels": 368643,
+          "visible_head_pixels": 0,
+          "frame": 4770,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 61852,
+          "scene_occluded_pixels": 1843,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10611,
+          "rejected_near_or_long": 9325,
+          "visible_pixels": 362714,
+          "visible_head_pixels": 0,
+          "frame": 4770,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 59483,
+          "scene_occluded_pixels": 2046,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 540,
+      "file": "frame_00540.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 8856,
+          "rejected_near_or_long": 10129,
+          "visible_pixels": 222748,
+          "visible_head_pixels": 0,
+          "frame": 540,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 27886,
+          "scene_occluded_pixels": 2915,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 8852,
+          "rejected_near_or_long": 10121,
+          "visible_pixels": 220304,
+          "visible_head_pixels": 0,
+          "frame": 540,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 27168,
+          "scene_occluded_pixels": 4221,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 8628,
+          "rejected_near_or_long": 10055,
+          "visible_pixels": 196319,
+          "visible_head_pixels": 548,
+          "frame": 540,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 31193,
+          "scene_occluded_pixels": 5761,
+          "visible_head_after_scene": 548
+        },
+        {
+          "projected_faces": 8629,
+          "rejected_near_or_long": 10054,
+          "visible_pixels": 190804,
+          "visible_head_pixels": 410,
+          "frame": 540,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 29697,
+          "scene_occluded_pixels": 7291,
+          "visible_head_after_scene": 410
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 4680,
+      "file": "frame_04680.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10699,
+          "rejected_near_or_long": 9410,
+          "visible_pixels": 354591,
+          "visible_head_pixels": 0,
+          "frame": 4680,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 63029,
+          "scene_occluded_pixels": 5269,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10699,
+          "rejected_near_or_long": 9415,
+          "visible_pixels": 343102,
+          "visible_head_pixels": 0,
+          "frame": 4680,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 59684,
+          "scene_occluded_pixels": 6553,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10388,
+          "rejected_near_or_long": 9374,
+          "visible_pixels": 351620,
+          "visible_head_pixels": 0,
+          "frame": 4680,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 64451,
+          "scene_occluded_pixels": 5001,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10390,
+          "rejected_near_or_long": 9380,
+          "visible_pixels": 340132,
+          "visible_head_pixels": 0,
+          "frame": 4680,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 61490,
+          "scene_occluded_pixels": 6665,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 5100,
+      "file": "frame_05100.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10761,
+          "rejected_near_or_long": 9437,
+          "visible_pixels": 367963,
+          "visible_head_pixels": 0,
+          "frame": 5100,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 64301,
+          "scene_occluded_pixels": 6903,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10759,
+          "rejected_near_or_long": 9450,
+          "visible_pixels": 360155,
+          "visible_head_pixels": 0,
+          "frame": 5100,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 60797,
+          "scene_occluded_pixels": 9768,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10480,
+          "rejected_near_or_long": 9404,
+          "visible_pixels": 361356,
+          "visible_head_pixels": 0,
+          "frame": 5100,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 67001,
+          "scene_occluded_pixels": 8067,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10482,
+          "rejected_near_or_long": 9419,
+          "visible_pixels": 356734,
+          "visible_head_pixels": 0,
+          "frame": 5100,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 64807,
+          "scene_occluded_pixels": 12450,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 4710,
+      "file": "frame_04710.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10868,
+          "rejected_near_or_long": 9323,
+          "visible_pixels": 404666,
+          "visible_head_pixels": 0,
+          "frame": 4710,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 77491,
+          "scene_occluded_pixels": 16318,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10862,
+          "rejected_near_or_long": 9327,
+          "visible_pixels": 403036,
+          "visible_head_pixels": 0,
+          "frame": 4710,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 76731,
+          "scene_occluded_pixels": 17657,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10569,
+          "rejected_near_or_long": 9293,
+          "visible_pixels": 399415,
+          "visible_head_pixels": 0,
+          "frame": 4710,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 79476,
+          "scene_occluded_pixels": 16959,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10579,
+          "rejected_near_or_long": 9301,
+          "visible_pixels": 396865,
+          "visible_head_pixels": 0,
+          "frame": 4710,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 78672,
+          "scene_occluded_pixels": 17753,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 870,
+      "file": "frame_00870.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10722,
+          "rejected_near_or_long": 9442,
+          "visible_pixels": 336783,
+          "visible_head_pixels": 0,
+          "frame": 870,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 49987,
+          "scene_occluded_pixels": 7091,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10721,
+          "rejected_near_or_long": 9444,
+          "visible_pixels": 328188,
+          "visible_head_pixels": 0,
+          "frame": 870,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 48831,
+          "scene_occluded_pixels": 7749,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10471,
+          "rejected_near_or_long": 9421,
+          "visible_pixels": 331835,
+          "visible_head_pixels": 0,
+          "frame": 870,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 52083,
+          "scene_occluded_pixels": 7196,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10473,
+          "rejected_near_or_long": 9426,
+          "visible_pixels": 319659,
+          "visible_head_pixels": 0,
+          "frame": 870,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 49650,
+          "scene_occluded_pixels": 6608,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 4320,
+      "file": "frame_04320.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10823,
+          "rejected_near_or_long": 9351,
+          "visible_pixels": 365422,
+          "visible_head_pixels": 0,
+          "frame": 4320,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 65456,
+          "scene_occluded_pixels": 4732,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10834,
+          "rejected_near_or_long": 9348,
+          "visible_pixels": 360173,
+          "visible_head_pixels": 0,
+          "frame": 4320,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 64214,
+          "scene_occluded_pixels": 4904,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10540,
+          "rejected_near_or_long": 9328,
+          "visible_pixels": 364960,
+          "visible_head_pixels": 0,
+          "frame": 4320,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 68643,
+          "scene_occluded_pixels": 6085,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10544,
+          "rejected_near_or_long": 9326,
+          "visible_pixels": 359452,
+          "visible_head_pixels": 0,
+          "frame": 4320,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 67712,
+          "scene_occluded_pixels": 6370,
+          "visible_head_after_scene": 0
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 300,
+      "file": "frame_00300.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 9391,
+          "rejected_near_or_long": 10725,
+          "visible_pixels": 311435,
+          "visible_head_pixels": 0,
+          "frame": 300,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 44945,
+          "scene_occluded_pixels": 704,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 9405,
+          "rejected_near_or_long": 10734,
+          "visible_pixels": 302012,
+          "visible_head_pixels": 0,
+          "frame": 300,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 43601,
+          "scene_occluded_pixels": 2380,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 9313,
+          "rejected_near_or_long": 10676,
+          "visible_pixels": 308477,
+          "visible_head_pixels": 66,
+          "frame": 300,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 47161,
+          "scene_occluded_pixels": 619,
+          "visible_head_after_scene": 66
+        },
+        {
+          "projected_faces": 9313,
+          "rejected_near_or_long": 10692,
+          "visible_pixels": 301366,
+          "visible_head_pixels": 947,
+          "frame": 300,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 45197,
+          "scene_occluded_pixels": 2397,
+          "visible_head_after_scene": 947
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 150,
+      "file": "frame_00150.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 10509,
+          "rejected_near_or_long": 9331,
+          "visible_pixels": 327921,
+          "visible_head_pixels": 0,
+          "frame": 150,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 26927,
+          "scene_occluded_pixels": 721,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10509,
+          "rejected_near_or_long": 9331,
+          "visible_pixels": 327921,
+          "visible_head_pixels": 0,
+          "frame": 150,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 26927,
+          "scene_occluded_pixels": 721,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10329,
+          "rejected_near_or_long": 9296,
+          "visible_pixels": 294209,
+          "visible_head_pixels": 495,
+          "frame": 150,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 27475,
+          "scene_occluded_pixels": 891,
+          "visible_head_after_scene": 495
+        },
+        {
+          "projected_faces": 10329,
+          "rejected_near_or_long": 9296,
+          "visible_pixels": 294209,
+          "visible_head_pixels": 495,
+          "frame": 150,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 27475,
+          "scene_occluded_pixels": 891,
+          "visible_head_after_scene": 495
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    },
+    {
+      "frame": 240,
+      "file": "frame_00240.jpg",
+      "cameras_and_modes": [
+        {
+          "projected_faces": 11031,
+          "rejected_near_or_long": 9215,
+          "visible_pixels": 413232,
+          "visible_head_pixels": 0,
+          "frame": 240,
+          "camera": 2,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 57268,
+          "scene_occluded_pixels": 6189,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 11023,
+          "rejected_near_or_long": 9215,
+          "visible_pixels": 413174,
+          "visible_head_pixels": 0,
+          "frame": 240,
+          "camera": 2,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 52783,
+          "scene_occluded_pixels": 5998,
+          "visible_head_after_scene": 0
+        },
+        {
+          "projected_faces": 10886,
+          "rejected_near_or_long": 9198,
+          "visible_pixels": 421592,
+          "visible_head_pixels": 257,
+          "frame": 240,
+          "camera": 3,
+          "method": "v0",
+          "scene_depth_available_on_mesh": 48390,
+          "scene_occluded_pixels": 4276,
+          "visible_head_after_scene": 257
+        },
+        {
+          "projected_faces": 10884,
+          "rejected_near_or_long": 9198,
+          "visible_pixels": 423374,
+          "visible_head_pixels": 286,
+          "frame": 240,
+          "camera": 3,
+          "method": "two-stage",
+          "scene_depth_available_on_mesh": 44952,
+          "scene_occluded_pixels": 4015,
+          "visible_head_after_scene": 286
+        }
+      ],
+      "note": "Mesh has exact self-depth testing; scene-depth occlusion is conservative, partial and can be wrong."
+    }
+  ]
+}

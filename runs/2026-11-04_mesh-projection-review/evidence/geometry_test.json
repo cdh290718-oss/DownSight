@@ -1,0 +1,9 @@
+{
+  "samples": 36,
+  "max_reprojection_difference_px_cam2_cam3": [
+    1.1368683772161603e-13,
+    9.050786155737634e-12
+  ],
+  "method": "project Q-reconstructed rays and compare independent native DS rectification mapping; no labels",
+  "pass": true
+}

@@ -1,0 +1,77 @@
+{
+  "note": "Sparse stereo image depth, LR check and 3px splat; approximate visibility only; no ground-truth scene depth.",
+  "frames": [
+    {
+      "frame": 270,
+      "rectified_consistent_samples": 104315,
+      "cam2_valid_pixels": 241487,
+      "cam3_valid_pixels": 239391
+    },
+    {
+      "frame": 3060,
+      "rectified_consistent_samples": 58074,
+      "cam2_valid_pixels": 145639,
+      "cam3_valid_pixels": 148812
+    },
+    {
+      "frame": 4770,
+      "rectified_consistent_samples": 57967,
+      "cam2_valid_pixels": 151775,
+      "cam3_valid_pixels": 154193
+    },
+    {
+      "frame": 540,
+      "rectified_consistent_samples": 36263,
+      "cam2_valid_pixels": 96257,
+      "cam3_valid_pixels": 95902
+    },
+    {
+      "frame": 4680,
+      "rectified_consistent_samples": 57708,
+      "cam2_valid_pixels": 151260,
+      "cam3_valid_pixels": 153148
+    },
+    {
+      "frame": 5100,
+      "rectified_consistent_samples": 58026,
+      "cam2_valid_pixels": 151492,
+      "cam3_valid_pixels": 154267
+    },
+    {
+      "frame": 4710,
+      "rectified_consistent_samples": 56853,
+      "cam2_valid_pixels": 146817,
+      "cam3_valid_pixels": 149066
+    },
+    {
+      "frame": 870,
+      "rectified_consistent_samples": 45073,
+      "cam2_valid_pixels": 112631,
+      "cam3_valid_pixels": 113980
+    },
+    {
+      "frame": 4320,
+      "rectified_consistent_samples": 57230,
+      "cam2_valid_pixels": 148109,
+      "cam3_valid_pixels": 150553
+    },
+    {
+      "frame": 300,
+      "rectified_consistent_samples": 46766,
+      "cam2_valid_pixels": 115554,
+      "cam3_valid_pixels": 115696
+    },
+    {
+      "frame": 150,
+      "rectified_consistent_samples": 19886,
+      "cam2_valid_pixels": 48603,
+      "cam3_valid_pixels": 47987
+    },
+    {
+      "frame": 240,
+      "rectified_consistent_samples": 103300,
+      "cam2_valid_pixels": 245665,
+      "cam3_valid_pixels": 240484
+    }
+  ]
+}
