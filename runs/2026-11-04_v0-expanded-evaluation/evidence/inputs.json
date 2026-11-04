@@ -1,0 +1,40 @@
+{
+  "baseline_commit": "e6021e5",
+  "resources": {
+    "native_images": {
+      "count": 360,
+      "sha256_of_sorted_relative_name_and_digest": "c301570533a3a9876fefb73dc27fb952ea8c5bb6eee7cd634ac2de909b528d2b"
+    },
+    "sapiens_detections": "818420d996ef6ac327637ae9d73fa9a55d81c2c3c52e0b86515ed41d6283cd4a",
+    "dfm_evaluation_reference": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c",
+    "image_estimated_stereo_calibration": "bc99d07c02d62b6d99e9a87d51f9cf6fa858f7caff0a224697fbb7d7fb45cc66"
+  },
+  "run_code_sha256": {
+    "collect_fits.py": "c4ff224400af9a560c3deadd64cfde4609d413d6c951ae28f9cd9a54c7176cb5",
+    "collect_inputs.py": "f1bb66e13b0c068e924af18ab9acf421c91ecf1981abc02e8e2e412baa86de65",
+    "collect_logs.py": "a731367f9214dfb0161f04509fde6a175a65250be83a15841f6f0ad533dc5180",
+    "evaluate.py": "c00bfbf7910e424531bebfc620ae01866fd6da74eb3924791388814ed802656e",
+    "evaluate_prior_hands.py": "110bfb610a1ca4db6ee9fd20433797f6f81bc2318aba917057f853e7b9143578",
+    "failure_examples.py": "5a0a200f3ad7da84e36c7db809ac0717871f2a3f32eb9c961ba2cdb4fd5c2596",
+    "fit_180.py": "30c45baa7f8644204635327d66f2d5d51a9ac1bb83847831037687c0d358de50",
+    "prepare_observations.py": "298ee67b73fc9d95e53fba545b087e1a0ce1c7c13d1980659612b560da535355",
+    "prepare_virtual.py": "5796ff7ff0441f9b758ec0595fab87854ccc2ce9e90c9d0891f01ea37ba958b0",
+    "prepare_wilor_manifest.py": "f25110754aa3384ca1be6137ce7373a494f4a75851cc9cc5c053c1427ce5eb6c",
+    "prepare_wilor_observations.py": "05153184cb4c338fed7069bb8d2b84e1d8e1e1fcb42aba37038ea1e9a37967f7",
+    "render_tables.py": "8cb8c035f1ddb7f56e792aeb64de2d03f2f7591bda041c37b9face885619b3f4",
+    "run_fit.sh": "1e23522cbd52586cf61eb01fdcc08a39b2acb0838d365d93776f5d633d6fbfa3",
+    "run_network.sh": "982ce17155405ed6d7f8c48baaea566c9f7607f4ac3efbe1f6f9959da21bbddb",
+    "run_segmentation.sh": "79fca99a87a7f93b69b6857e78fd05e86ce7958046f5babdb3930a592f55551f",
+    "run_wilor.sh": "8378213b7c7ba3885bda0f7a4f1fd2c3e5460a7c91c759f26f8484f991f16b57",
+    "stop_at_partition.py": "dcb45890ff3668bccc483bef853e4997f857157b9116d440eb9f7e1a52bb9217"
+  },
+  "checkpoint_sha256": {
+    "egosmplx": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+    "sapiens_segmentation": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+    "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+    "wilor_detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033"
+  },
+  "checkpoint_hash_source": "existing recorded project configuration; segmentation also rehashed during inference",
+  "asset_access": "local restricted assets; not included in repository",
+  "simulated_calibration": "DFM head of ten prior training frames, explicitly disclosed exception"
+}

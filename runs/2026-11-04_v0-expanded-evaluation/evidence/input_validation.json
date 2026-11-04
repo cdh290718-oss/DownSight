@@ -1,0 +1,33 @@
+{
+  "network": {
+    "processed_images": 180,
+    "images_without_detection": 1,
+    "projected_persons": 179
+  },
+  "missing_network_frame_ids": [
+    120
+  ],
+  "old20_observation_comparison": {
+    "xy_score_valid_and_tri_mask_exact": true,
+    "valid_tri_max_difference_m": 0.0,
+    "valid_whitening_max_difference": 0.0,
+    "note": "Invalid Sapiens fingertip entries intentionally zeroed; masks make them unused."
+  },
+  "wilor_coverage": {
+    "left": {
+      "cam2_frames": 136,
+      "any_stereo_frames": 122,
+      "accepted_stereo_points": 2408
+    },
+    "right": {
+      "cam2_frames": 176,
+      "any_stereo_frames": 175,
+      "accepted_stereo_points": 3500
+    }
+  },
+  "torso_cloud": {
+    "frames": 180,
+    "frames_nonempty": 180
+  },
+  "dfm_used": false
+}

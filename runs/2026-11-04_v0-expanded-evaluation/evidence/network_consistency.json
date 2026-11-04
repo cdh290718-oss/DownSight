@@ -1,0 +1,225 @@
+{
+  "note": "Same network and virtual-camera protocol; recomputation from JPEG images can differ numerically from previous PNG inputs. Not an accuracy evaluation.",
+  "frames": [
+    {
+      "frame": 0,
+      "max_abs_differences": {
+        "body_pose": 0.03299999237060547,
+        "global_orient_network": 0.005010519176721573,
+        "transl_network": 0.0014077872037887573,
+        "left_hand_pose": 0.013401158154010773,
+        "right_hand_pose": 0.0006497204303741455,
+        "betas": 0.03143501281738281
+      }
+    },
+    {
+      "frame": 270,
+      "max_abs_differences": {
+        "body_pose": 0.019067436456680298,
+        "global_orient_network": 0.027460969984531403,
+        "transl_network": 0.003280818462371826,
+        "left_hand_pose": 0.0838807225227356,
+        "right_hand_pose": 0.011748943477869034,
+        "betas": 0.018267571926116943
+      }
+    },
+    {
+      "frame": 540,
+      "max_abs_differences": {
+        "body_pose": 0.022246330976486206,
+        "global_orient_network": 0.005037784576416016,
+        "transl_network": 0.002945840358734131,
+        "left_hand_pose": 0.008025318384170532,
+        "right_hand_pose": 0.0009405016899108887,
+        "betas": 0.0302734375
+      }
+    },
+    {
+      "frame": 810,
+      "max_abs_differences": {
+        "body_pose": 0.015736699104309082,
+        "global_orient_network": 0.06456398963928223,
+        "transl_network": 0.007037997245788574,
+        "left_hand_pose": 0.02182716131210327,
+        "right_hand_pose": 0.02536623179912567,
+        "betas": 0.02282613515853882
+      }
+    },
+    {
+      "frame": 1080,
+      "max_abs_differences": {
+        "body_pose": 0.11790725588798523,
+        "global_orient_network": 0.0367046594619751,
+        "transl_network": 0.029423832893371582,
+        "left_hand_pose": 0.007270693778991699,
+        "right_hand_pose": 0.06389645673334599,
+        "betas": 0.1302701234817505
+      }
+    },
+    {
+      "frame": 1350,
+      "max_abs_differences": {
+        "body_pose": 0.008346706628799438,
+        "global_orient_network": 0.0025796443223953247,
+        "transl_network": 0.00035327672958374023,
+        "left_hand_pose": 0.0005899295210838318,
+        "right_hand_pose": 0.0002983510494232178,
+        "betas": 0.0019311308860778809
+      }
+    },
+    {
+      "frame": 1620,
+      "max_abs_differences": {
+        "body_pose": 0.028008341789245605,
+        "global_orient_network": 0.002966657280921936,
+        "transl_network": 0.0012931525707244873,
+        "left_hand_pose": 0.0091863963752985,
+        "right_hand_pose": 0.0019873976707458496,
+        "betas": 0.004862427711486816
+      }
+    },
+    {
+      "frame": 1890,
+      "max_abs_differences": {
+        "body_pose": 0.14556145668029785,
+        "global_orient_network": 4.698721170425415,
+        "transl_network": 0.02916779462248087,
+        "left_hand_pose": 0.12103939056396484,
+        "right_hand_pose": 0.010325223207473755,
+        "betas": 0.32941216230392456
+      }
+    },
+    {
+      "frame": 2160,
+      "max_abs_differences": {
+        "body_pose": 0.1698511838912964,
+        "global_orient_network": 0.038741469383239746,
+        "transl_network": 0.005080521106719971,
+        "left_hand_pose": 0.00364801287651062,
+        "right_hand_pose": 0.011321038007736206,
+        "betas": 0.10965985059738159
+      }
+    },
+    {
+      "frame": 2430,
+      "max_abs_differences": {
+        "body_pose": 0.12063860893249512,
+        "global_orient_network": 0.03338146209716797,
+        "transl_network": 0.005028583109378815,
+        "left_hand_pose": 0.010523468255996704,
+        "right_hand_pose": 0.0013614296913146973,
+        "betas": 0.05723661184310913
+      }
+    },
+    {
+      "frame": 2700,
+      "max_abs_differences": {
+        "body_pose": 0.03130285441875458,
+        "global_orient_network": 0.0212554931640625,
+        "transl_network": 0.003714323043823242,
+        "left_hand_pose": 0.012496739625930786,
+        "right_hand_pose": 0.004396647214889526,
+        "betas": 0.005220890045166016
+      }
+    },
+    {
+      "frame": 2970,
+      "max_abs_differences": {
+        "body_pose": 0.017109572887420654,
+        "global_orient_network": 0.014822006225585938,
+        "transl_network": 0.00715366005897522,
+        "left_hand_pose": 0.020777523517608643,
+        "right_hand_pose": 0.0017831027507781982,
+        "betas": 0.04167032241821289
+      }
+    },
+    {
+      "frame": 3240,
+      "max_abs_differences": {
+        "body_pose": 0.08417053893208504,
+        "global_orient_network": 0.0719228982925415,
+        "transl_network": 0.02269156347028911,
+        "left_hand_pose": 0.4235903024673462,
+        "right_hand_pose": 0.005371510982513428,
+        "betas": 0.4015513062477112
+      }
+    },
+    {
+      "frame": 3510,
+      "max_abs_differences": {
+        "body_pose": 0.17071598768234253,
+        "global_orient_network": 0.0534062385559082,
+        "transl_network": 0.012396007776260376,
+        "left_hand_pose": 0.005725398659706116,
+        "right_hand_pose": 0.011287428438663483,
+        "betas": 0.1107710599899292
+      }
+    },
+    {
+      "frame": 3780,
+      "max_abs_differences": {
+        "body_pose": 0.10670822858810425,
+        "global_orient_network": 0.05819845199584961,
+        "transl_network": 0.0099409818649292,
+        "left_hand_pose": 0.0005174651741981506,
+        "right_hand_pose": 0.0014392845332622528,
+        "betas": 0.08639204502105713
+      }
+    },
+    {
+      "frame": 4050,
+      "max_abs_differences": {
+        "body_pose": 1.6001822426915169,
+        "global_orient_network": 5.420267581939697,
+        "transl_network": 0.06738556083291769,
+        "left_hand_pose": 0.15329847112298012,
+        "right_hand_pose": 0.06700432300567627,
+        "betas": 0.062188148498535156
+      }
+    },
+    {
+      "frame": 4320,
+      "max_abs_differences": {
+        "body_pose": 0.2266063690185547,
+        "global_orient_network": 0.06102609634399414,
+        "transl_network": 0.014669954776763916,
+        "left_hand_pose": 0.05600649997359142,
+        "right_hand_pose": 0.015598565340042114,
+        "betas": 0.15607333183288574
+      }
+    },
+    {
+      "frame": 4590,
+      "max_abs_differences": {
+        "body_pose": 0.0305330753326416,
+        "global_orient_network": 0.01953756809234619,
+        "transl_network": 0.00288313627243042,
+        "left_hand_pose": 0.006132572889328003,
+        "right_hand_pose": 0.0027825236320495605,
+        "betas": 0.028223752975463867
+      }
+    },
+    {
+      "frame": 4860,
+      "max_abs_differences": {
+        "body_pose": 0.2100534439086914,
+        "global_orient_network": 0.055161237716674805,
+        "transl_network": 0.009376078844070435,
+        "left_hand_pose": 0.009131103754043579,
+        "right_hand_pose": 0.0009664595127105713,
+        "betas": 0.04150843620300293
+      }
+    },
+    {
+      "frame": 5130,
+      "max_abs_differences": {
+        "body_pose": 0.023573577404022217,
+        "global_orient_network": 0.02146768569946289,
+        "transl_network": 0.004467040300369263,
+        "left_hand_pose": 0.07557709142565727,
+        "right_hand_pose": 0.0016504526138305664,
+        "betas": 0.09013700485229492
+      }
+    }
+  ]
+}

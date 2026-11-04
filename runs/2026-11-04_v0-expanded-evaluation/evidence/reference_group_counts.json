@@ -1,0 +1,24 @@
+{
+  "frames": 180,
+  "wrist_distance_lt_10cm_frame_ids": [],
+  "any_hand_point_lt_5cm_exploratory_frame_ids": [
+    3060,
+    4590
+  ],
+  "any_hand_point_min_distance_cm_for_selected": [
+    4.377095247728089,
+    4.180565843659368
+  ],
+  "wrist_outside_cases": [
+    {
+      "frame": 270,
+      "side": "right",
+      "camera": 2,
+      "uv": [
+        1616.795750510656,
+        841.7528974911221
+      ]
+    }
+  ],
+  "note": "DFM-reference-only analysis after protocol freeze; near-hand criterion is exploratory and does not enter the fitter."
+}

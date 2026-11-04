@@ -1,0 +1,88 @@
+{
+  "v0": {
+    "either_view_wrist_outside": {
+      "count_frames": 1,
+      "count_wrist_frames": 1,
+      "gt5_or_missing": 1,
+      "failure_fraction": 1.0,
+      "examples": [
+        {
+          "frame": 270,
+          "side": "right",
+          "error_cm": 50.72052498707983,
+          "image": "v0_either_view_wrist_outside_right_00270.jpg"
+        }
+      ]
+    },
+    "hands_within_10cm": {
+      "count_frames": 0,
+      "count_wrist_frames": 0,
+      "gt5_or_missing": 0,
+      "failure_fraction": null,
+      "examples": []
+    },
+    "hands_21_points_within_5cm_exploratory": {
+      "count_frames": 2,
+      "count_wrist_frames": 4,
+      "gt5_or_missing": 0,
+      "failure_fraction": 0.0,
+      "examples": [
+        {
+          "frame": 3060,
+          "side": "right",
+          "error_cm": 1.7598015911431626,
+          "image": "v0_hands_21_points_within_5cm_exploratory_right_03060.jpg"
+        },
+        {
+          "frame": 4590,
+          "side": "right",
+          "error_cm": 1.5217247149802313,
+          "image": "v0_hands_21_points_within_5cm_exploratory_right_04590.jpg"
+        }
+      ]
+    }
+  },
+  "wilor": {
+    "either_view_wrist_outside": {
+      "count_frames": 1,
+      "count_wrist_frames": 1,
+      "gt5_or_missing": 1,
+      "failure_fraction": 1.0,
+      "examples": [
+        {
+          "frame": 270,
+          "side": "right",
+          "error_cm": 52.022380587901736,
+          "image": "wilor_either_view_wrist_outside_right_00270.jpg"
+        }
+      ]
+    },
+    "hands_within_10cm": {
+      "count_frames": 0,
+      "count_wrist_frames": 0,
+      "gt5_or_missing": 0,
+      "failure_fraction": null,
+      "examples": []
+    },
+    "hands_21_points_within_5cm_exploratory": {
+      "count_frames": 2,
+      "count_wrist_frames": 4,
+      "gt5_or_missing": 0,
+      "failure_fraction": 0.0,
+      "examples": [
+        {
+          "frame": 4590,
+          "side": "left",
+          "error_cm": 4.853536587073739,
+          "image": "wilor_hands_21_points_within_5cm_exploratory_left_04590.jpg"
+        },
+        {
+          "frame": 4590,
+          "side": "right",
+          "error_cm": 2.860547660145906,
+          "image": "wilor_hands_21_points_within_5cm_exploratory_right_04590.jpg"
+        }
+      ]
+    }
+  }
+}

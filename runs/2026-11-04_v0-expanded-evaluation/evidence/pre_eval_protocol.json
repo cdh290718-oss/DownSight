@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "a9600f68046d7fca57e7ace91455680d506853fc01325205f76a867a3e230081",
+  "freeze": "before 180-frame fitting and DFM evaluation",
+  "baseline_commit": "e6021e5",
+  "note": "previous 20 frames already inspected during development; simulated calibration uses DFM training heads"
+}

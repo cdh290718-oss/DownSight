@@ -1,0 +1,25 @@
+{
+  "frame": 270,
+  "side": "right",
+  "v0_sapiens_score": [
+    0.4609375,
+    0.5703125
+  ],
+  "v0_sapiens_2d_accepted": [
+    true,
+    true
+  ],
+  "v0_sapiens_uv": [
+    [
+      794.3347778320312,
+      646.1214599609375
+    ],
+    [
+      1513.4591064453125,
+      903.6203002929688
+    ]
+  ],
+  "v0_wrist_stereo_accepted": false,
+  "wilor_right_hand_stereo_points": 0,
+  "note": "Automatic observation-only; DFM projected position and fit errors are recorded separately in reference_group_counts.json and metrics.json."
+}

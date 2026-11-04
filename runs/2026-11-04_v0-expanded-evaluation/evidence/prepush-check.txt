@@ -1,0 +1,7 @@
+Push preflight for this run's incremental commit
+Initial tracked worktree: clean. Baseline and remote main at preflight: e6021e564b6af16916e51f47f220373c04cc102f.
+Staged and outgoing files are limited to this run; ignored local input data, weights and full outputs are not staged.
+No weights, dataset, video, npz/npy, complete raw output, credentials, .env, full local provenance or patch; each staged file is below 50 MB.
+Text checked for developer-machine paths and common credential patterns. Local resource hashes and sanitized logs only.
+Six user-authorized derived Gen overlays have no EXIF and are listed with SHA-256 in images_manifest.json. Dataset license text itself was not independently obtained; the user confirmed publication permission.
+This check covers the outgoing incremental commit and worktree, not an audit of older published history.

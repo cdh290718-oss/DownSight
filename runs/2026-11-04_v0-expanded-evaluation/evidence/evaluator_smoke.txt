@@ -1,0 +1,4 @@
+Evaluator smoke test: PASS; exit status 0.
+Inputs: 10 previously fitted test frames and the 180-frame DFM reference, with 170 absent predictions deliberately retained.
+The resulting v0 left-wrist median is 1.8704676238604119 cm, matching the prior 10-frame wrist-only evaluation; mean 21-point left-hand relative-error median is 5.741868804580977 cm, matching prior_10_hand_metrics.json. The missing prediction count is 170/180 and their inclusion yields failure fraction 0.9444444444444444 (all 10 available wrists <=5 cm).
+Failure overlay generator smoke test: PASS; exit status 0. This test is not a new 180-frame experiment or a performance result.

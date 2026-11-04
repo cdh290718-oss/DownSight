@@ -1,0 +1,6 @@
+PASS: frozen protocol SHA-256 unchanged
+PASS: 17 source-file hashes match inputs.json and all Python files parse
+PASS: all evidence JSON parses; 27 local report/table links resolve
+PASS: 6 user-authorized derived overlay images, EXIF absent, maximum 265766 bytes; hashes in images_manifest.json
+PASS: 8 per-side/subset wrist median, p90 and failure fractions independently recomputed from per-frame evidence
+PASS: 36 completed batches, 179 predictions per method, one shared missing initialization, head constraint max < 1e-6 m

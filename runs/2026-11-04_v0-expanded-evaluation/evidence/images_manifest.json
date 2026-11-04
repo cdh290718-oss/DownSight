@@ -1,0 +1,41 @@
+{
+  "authorization": "User explicitly confirmed permission to publish Gen-derived overlays; license text not independently obtained.",
+  "images": [
+    {
+      "file": "failure_examples/v0_either_view_wrist_outside_right_00270.jpg",
+      "bytes": 218434,
+      "sha256": "ece92813c984e064cffd81ed19cd08f4ce32a447c7c87b3077247b3d77ba12b8",
+      "exif": false
+    },
+    {
+      "file": "failure_examples/v0_hands_21_points_within_5cm_exploratory_right_03060.jpg",
+      "bytes": 265766,
+      "sha256": "3cf918649f9cb34c2db14f75aabf83b8007d752e2bc065b76ef2ebc79191a757",
+      "exif": false
+    },
+    {
+      "file": "failure_examples/v0_hands_21_points_within_5cm_exploratory_right_04590.jpg",
+      "bytes": 259419,
+      "sha256": "8facab5c36a892933049287e74d9dbc2bce58ff606caac4201af6c2dac1d6bd7",
+      "exif": false
+    },
+    {
+      "file": "failure_examples/wilor_either_view_wrist_outside_right_00270.jpg",
+      "bytes": 218682,
+      "sha256": "8d8cdb9898d8501bedcad03725847b31d79c4fa47b09e06fb22110a5f811061b",
+      "exif": false
+    },
+    {
+      "file": "failure_examples/wilor_hands_21_points_within_5cm_exploratory_left_04590.jpg",
+      "bytes": 259519,
+      "sha256": "bbfa20fb0154a15e8b8eb8b512497a7db7434277d7b1985ae849faebf5dab961",
+      "exif": false
+    },
+    {
+      "file": "failure_examples/wilor_hands_21_points_within_5cm_exploratory_right_04590.jpg",
+      "bytes": 259464,
+      "sha256": "10d04b5c9bcdf135a582159af7696685fdebb384deb040d468976627147e12b9",
+      "exif": false
+    }
+  ]
+}
