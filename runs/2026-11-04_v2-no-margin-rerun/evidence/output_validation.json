@@ -1,0 +1,176 @@
+{
+  "frames": [
+    {
+      "frame": "cam3_f00000932",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.07118117809295654,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "cam4_f00000928",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": false,
+      "masked_depth_m": 0.2570253014564514,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "cam3_f00001018",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.0629645586013794,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "cam4_f00001014",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": false,
+      "masked_depth_m": 0.5394128561019897,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s001_cam3_f00001711",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.3359254002571106,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s001_cam4_f00001701",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.35182613134384155,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s022_cam3_f00001834",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.36599278450012207,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s022_cam4_f00001824",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.33848974108695984,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s100_cam3_f00002299",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.258314311504364,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": "s100_cam4_f00002281",
+      "complete": true,
+      "profile": "stereo_guided_original_seam_v2_20261104",
+      "reload": true,
+      "matches_unchanged": true,
+      "head_reference_weight": 0.1,
+      "cpu": true,
+      "fixed_shape_and_hand_parameters": true,
+      "fused_obj_error_m": 0.0,
+      "local_surface_accepted": true,
+      "masked_depth_m": 0.2213258147239685,
+      "wrist_floor_m": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "all_complete": true,
+  "scope": "fixed shape/fingers, original frozen matching, CPU route, no radial wrist floor, masked depth, reconstruction"
+}

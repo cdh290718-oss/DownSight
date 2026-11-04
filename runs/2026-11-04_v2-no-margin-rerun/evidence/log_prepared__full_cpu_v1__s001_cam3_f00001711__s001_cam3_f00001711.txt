@@ -1,0 +1,19 @@
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+automatic {'step': 0, 'loss': 0.06644880771636963, 'reprojection': 0.0599750392138958, 'feasible': True, 'minimum_z_m': 0.3463442325592041}
+automatic {'step': 100, 'loss': 0.04298152029514313, 'reprojection': 0.0367400161921978, 'feasible': True, 'minimum_z_m': 0.34014612436294556}
+automatic {'step': 200, 'loss': 0.03894972801208496, 'reprojection': 0.03279268741607666, 'feasible': True, 'minimum_z_m': 0.3407118320465088}
+automatic {'step': 300, 'loss': 0.03672885522246361, 'reprojection': 0.030438877642154694, 'feasible': True, 'minimum_z_m': 0.3402824401855469}
+automatic {'step': 400, 'loss': 0.035351455211639404, 'reprojection': 0.028988156467676163, 'feasible': True, 'minimum_z_m': 0.3406786322593689}
+automatic {'step': 500, 'loss': 0.03497115522623062, 'reprojection': 0.028557568788528442, 'feasible': True, 'minimum_z_m': 0.34118568897247314}
+automatic {'step': 600, 'loss': 0.03485077619552612, 'reprojection': 0.028432657942175865, 'feasible': True, 'minimum_z_m': 0.3413293957710266}
+automatic {'step': 700, 'loss': 0.0348031185567379, 'reprojection': 0.028370587155222893, 'feasible': True, 'minimum_z_m': 0.3413981795310974}
+automatic {'step': 800, 'loss': 0.034788116812705994, 'reprojection': 0.028342153877019882, 'feasible': True, 'minimum_z_m': 0.3414512872695923}
+automatic {'step': 900, 'loss': 0.034765567630529404, 'reprojection': 0.02831050381064415, 'feasible': True, 'minimum_z_m': 0.34148281812667847}
+automatic {'step': 1000, 'loss': 0.034754473716020584, 'reprojection': 0.028291160240769386, 'feasible': True, 'minimum_z_m': 0.341505765914917}
+automatic {'step': 1100, 'loss': 0.03474891930818558, 'reprojection': 0.02827913872897625, 'feasible': True, 'minimum_z_m': 0.3415270447731018}
+automatic {'step': 1200, 'loss': 0.034762416034936905, 'reprojection': 0.028293393552303314, 'feasible': True, 'minimum_z_m': 0.34154242277145386}
+automatic {'step': 1300, 'loss': 0.03477746620774269, 'reprojection': 0.028306519612669945, 'feasible': True, 'minimum_z_m': 0.3415677547454834}
+automatic {'step': 1400, 'loss': 0.03479401394724846, 'reprojection': 0.02832178771495819, 'feasible': True, 'minimum_z_m': 0.34157705307006836}
+automatic {'step': 1500, 'loss': 0.034829031676054, 'reprojection': 0.028360281139612198, 'feasible': True, 'minimum_z_m': 0.3416534662246704}
+automatic {'step': 1600, 'loss': 0.034839607775211334, 'reprojection': 0.02836550585925579, 'feasible': True, 'minimum_z_m': 0.3415911793708801}
+FRAME_COMPLETE s001_cam3_f00001711 67.29420471191406 7.952566846551397

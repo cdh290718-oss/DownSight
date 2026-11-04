@@ -1,0 +1,51 @@
+{
+  "commands": [
+    {
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/prepare.py --archive <ARCHIVE> --out outputs/session_hand6_v2_no_margin_rerun_20261104/prepared --evidence runs/2026-11-04_v2-no-margin-rerun/evidence",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/run_batch.py --inputs outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/inputs.json --out outputs/session_hand6_v2_no_margin_rerun_20261104/batch_cpu --workers 4",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_v2-no-margin-rerun/code/evaluate.py --inputs outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/inputs.json --out outputs/session_hand6_v2_no_margin_rerun_20261104/evaluation_corrected --previous-metrics runs/2026-11-04_session-hand6-v2/evidence/metrics.json --previous-inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --wait-seconds 2400",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_session-hand6-v2/code/validate.py --inputs outputs/session_hand6_v2_no_margin_rerun_20261104/prepared/inputs.json --out runs/2026-11-04_v2-no-margin-rerun/evidence/output_validation.json",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_v2-no-margin-rerun/code/validate_rerun.py --root outputs/session_hand6_v2_no_margin_rerun_20261104 --previous-inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out runs/2026-11-04_v2-no-margin-rerun/evidence/source_and_input_validation.json",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_v2-no-margin-rerun/code/summarize.py --metrics outputs/session_hand6_v2_no_margin_rerun_20261104/evaluation_corrected/metrics.json --out runs/2026-11-04_v2-no-margin-rerun/evidence/aggregate.json",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> runs/2026-11-04_v2-no-margin-rerun/code/build_site.py --evaluation outputs/session_hand6_v2_no_margin_rerun_20261104/evaluation_corrected --previous-site runs/2026-11-04_session-hand6-v2/site --point-selection runs/2026-11-04_v2-no-margin-rerun/evidence/point_selection.json --output runs/2026-11-04_v2-no-margin-rerun/site",
+      "exit_status": 0
+    }
+  ],
+  "python": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8",
+  "common_env": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "."
+  },
+  "evaluation_env": {
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "2"
+  },
+  "helpers_sha256": {
+    "runs/2026-11-04_v2-no-margin-rerun/code/collect_evidence.py": "2b3edfa978647923e2c9505adc32a729bef71143b0b3946a8f50975865615fb0",
+    "runs/2026-11-04_v2-no-margin-rerun/code/check_publication.py": "9bbf20892acfe86753dfe98d217fbeec0284c32b87b3c5ce07d624e4f1b4e739",
+    "runs/2026-11-04_v2-no-margin-rerun/code/validate_rerun.py": "01c2354323e25dbf2aa39b38b385c01a926e0d4033a31ffdc4b5d07625633aa6",
+    "runs/2026-11-04_v2-no-margin-rerun/code/summarize.py": "6b45e766a4283380c13509b4b95fbe780284a8c333e9f011e0b4ca1b46cbc0ac",
+    "runs/2026-11-04_v2-no-margin-rerun/code/build_site.py": "f68212b1c99043a827f4f11b263134a17ec07cee0312741d550019ebf7660b53",
+    "runs/2026-11-04_v2-no-margin-rerun/code/evaluate.py": "ad99232a88e12bea1a0ca007327a7ca704340b59d78857dd1a563db8f2e833fd"
+  },
+  "earlier_evaluation_stopped_status": 143
+}

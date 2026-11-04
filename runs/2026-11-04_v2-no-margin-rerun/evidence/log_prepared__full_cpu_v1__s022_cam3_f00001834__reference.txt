@@ -1,0 +1,11 @@
+RUN 01_wrist.log
+RUN 02_wrist_active.log
+RUN 03_wrist_surface.log
+RUN 04_contour_standard.log
+RUN 05_contour_strong.log
+RUN 06_select.log
+RUN 07_surface.log
+RUN 08_independent_reload.log
+RUN 09_mano_guided_body.log
+RUN 10_original_seam.log
+RUN 11_guided_independent_reload.log

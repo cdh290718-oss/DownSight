@@ -1,0 +1,380 @@
+{
+  "aggregation": "Arithmetic mean of per-view body RMSE or per-side/per-view hand RMSE, fixed samples; automatic reference only",
+  "subsets": {
+    "all": {
+      "original": {
+        "body_all": {
+          "mean_view_rmse_px": 47.62260028605864,
+          "views": 10
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 42.8035564629737,
+          "views": 10
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 71.03237003325818,
+          "views": 8
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 14.980055292122607,
+          "hand_views": 17
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 14.980055292122607,
+          "hand_views": 17
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.0698712017150386,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.06712501599405918,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011953663968711175,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.05456922566359151,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 3973,
+        "local_crossings_total": 328,
+        "views": 10
+      },
+      "edge40": {
+        "body_all": {
+          "mean_view_rmse_px": 61.525642265835735,
+          "views": 10
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 31.904561645348327,
+          "views": 10
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 146.0339180928223,
+          "views": 8
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 16.676343033945077,
+          "hand_views": 17
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 16.676343033945077,
+          "hand_views": 17
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.031016429020725014,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.02822302089192051,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011931317946910207,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.028690845030055465,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 1981,
+        "local_crossings_total": 77,
+        "views": 10
+      },
+      "no_margin": {
+        "body_all": {
+          "mean_view_rmse_px": 59.071317916601075,
+          "views": 10
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 42.15440320939297,
+          "views": 10
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 121.17379029880985,
+          "views": 8
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 12.291558936241708,
+          "hand_views": 17
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 12.291558936241708,
+          "hand_views": 17
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.03016075128746117,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.02734387866746967,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011850351965258266,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.027617999951026425,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 2185,
+        "local_crossings_total": 80,
+        "views": 10
+      }
+    },
+    "new": {
+      "original": {
+        "body_all": {
+          "mean_view_rmse_px": 57.63632343223862,
+          "views": 6
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 52.78194057445716,
+          "views": 6
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 74.62240762993412,
+          "views": 6
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 10.645265025896682,
+          "hand_views": 12
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 10.645265025896682,
+          "hand_views": 12
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.0698712017150386,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.06712501599405918,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011953663968711175,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.05456922566359151,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 0,
+        "local_crossings_total": 283,
+        "views": 6
+      },
+      "edge40": {
+        "body_all": {
+          "mean_view_rmse_px": 64.928300242794,
+          "views": 6
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 37.85574005657385,
+          "views": 6
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 143.16323597329261,
+          "views": 6
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 8.85888522313291,
+          "hand_views": 12
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 8.85888522313291,
+          "hand_views": 12
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.031016429020725014,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.02822302089192051,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011931317946910207,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.028690845030055465,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 1609,
+        "local_crossings_total": 39,
+        "views": 6
+      },
+      "no_margin": {
+        "body_all": {
+          "mean_view_rmse_px": 63.65328887661895,
+          "views": 6
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 37.77486388163491,
+          "views": 6
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 139.6259233814623,
+          "views": 6
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 8.849156974093313,
+          "hand_views": 12
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 8.849156974093313,
+          "hand_views": 12
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": 0.03016075128746117,
+          "hand_views": 12
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": 0.02734387866746967,
+          "hand_views": 12
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": 0.011850351965258266,
+          "hand_views": 12
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": 0.027617999951026425,
+          "hand_views": 12
+        },
+        "head_visible_vertices_total": 1615,
+        "local_crossings_total": 39,
+        "views": 6
+      }
+    },
+    "old": {
+      "original": {
+        "body_all": {
+          "mean_view_rmse_px": 32.60201556678869,
+          "views": 4
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 27.835980295748534,
+          "views": 4
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 60.26225724323035,
+          "views": 2
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 25.383551931064826,
+          "hand_views": 5
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 25.383551931064826,
+          "hand_views": 5
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": null,
+          "hand_views": 0
+        },
+        "head_visible_vertices_total": 3973,
+        "local_crossings_total": 45,
+        "views": 4
+      },
+      "edge40": {
+        "body_all": {
+          "mean_view_rmse_px": 56.42165530039834,
+          "views": 4
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 22.97779402851004,
+          "views": 4
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 154.64596445141126,
+          "views": 2
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 35.43824177989428,
+          "hand_views": 5
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 35.43824177989428,
+          "hand_views": 5
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": null,
+          "hand_views": 0
+        },
+        "head_visible_vertices_total": 372,
+        "local_crossings_total": 38,
+        "views": 4
+      },
+      "no_margin": {
+        "body_all": {
+          "mean_view_rmse_px": 52.19836147657426,
+          "views": 4
+        },
+        "body_retained": {
+          "mean_view_rmse_px": 48.72371220103004,
+          "views": 4
+        },
+        "body_shoulders": {
+          "mean_view_rmse_px": 65.81739105085258,
+          "views": 2
+        },
+        "hand_all": {
+          "mean_hand_view_rmse_px": 20.553323645397846,
+          "hand_views": 5
+        },
+        "hand_retained": {
+          "mean_hand_view_rmse_px": 20.553323645397846,
+          "hand_views": 5
+        },
+        "triangulated_3d_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_depth_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_transverse_m": {
+          "mean_hand_view_rmse_m": null,
+          "hand_views": 0
+        },
+        "triangulated_wrist_m": {
+          "mean_distance_m": null,
+          "hand_views": 0
+        },
+        "head_visible_vertices_total": 570,
+        "local_crossings_total": 41,
+        "views": 4
+      }
+    }
+  }
+}

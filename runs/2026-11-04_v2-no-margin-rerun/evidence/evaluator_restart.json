@@ -1,0 +1,10 @@
+{
+  "reason": "Inspection caught incorrect historical-method dictionary key introduced while preparing comparison helper. Stop evaluator before it reaches that branch; fitting workers untouched. Preserve partial rendering directory and restart evaluation in new directory.",
+  "signal": "SIGTERM",
+  "processes": [
+    434796
+  ],
+  "exit_status": 143,
+  "stopped_output_directory": "outputs/session_hand6_v2_no_margin_rerun_20261104/evaluation",
+  "successful_output_directory": "outputs/session_hand6_v2_no_margin_rerun_20261104/evaluation_corrected"
+}

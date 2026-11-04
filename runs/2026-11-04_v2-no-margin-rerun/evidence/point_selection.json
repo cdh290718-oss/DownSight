@@ -1,0 +1,460 @@
+{
+  "passed": true,
+  "full_fitting_rerun": false,
+  "frames": [
+    {
+      "frame": "cam3_f00000932",
+      "pair": "old_011",
+      "camera": "cam3",
+      "original_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "previous_v2_points": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "current_v2_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "cam4_f00000928",
+      "pair": "old_011",
+      "camera": "cam4",
+      "original_points": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "previous_v2_points": [
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "current_v2_points": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "restored_points": [
+        "right_elbow"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "cam3_f00001018",
+      "pair": "old_012",
+      "camera": "cam3",
+      "original_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "previous_v2_points": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "current_v2_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "cam4_f00001014",
+      "pair": "old_012",
+      "camera": "cam4",
+      "original_points": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "previous_v2_points": [
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "current_v2_points": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip"
+      ],
+      "restored_points": [
+        "right_elbow"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s001_cam3_f00001711",
+      "pair": "new_001",
+      "camera": "cam3",
+      "original_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s001_cam4_f00001701",
+      "pair": "new_001",
+      "camera": "cam4",
+      "original_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s022_cam3_f00001834",
+      "pair": "new_022",
+      "camera": "cam3",
+      "original_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s022_cam4_f00001824",
+      "pair": "new_022",
+      "camera": "cam4",
+      "original_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s100_cam3_f00002299",
+      "pair": "new_100",
+      "camera": "cam3",
+      "original_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    },
+    {
+      "frame": "s100_cam4_f00002281",
+      "pair": "new_100",
+      "camera": "cam4",
+      "original_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "previous_v2_points": [
+        "nose",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "current_v2_points": [
+        "nose",
+        "left_shoulder",
+        "right_shoulder",
+        "left_elbow",
+        "right_elbow",
+        "left_wrist",
+        "right_wrist",
+        "left_hip",
+        "right_hip",
+        "left_knee",
+        "right_knee",
+        "left_ankle",
+        "right_ankle"
+      ],
+      "restored_points": [
+        "left_shoulder",
+        "right_shoulder"
+      ],
+      "existing_hand_observations_unchanged": true,
+      "point_filter": "in_image_no_margin"
+    }
+  ],
+  "shoulders_before": 1,
+  "shoulders_after": 16,
+  "body_points_before": 83,
+  "body_points_after": 100
+}

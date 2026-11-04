@@ -1,0 +1,54 @@
+{
+  "profile": "guided original seam plus stereo_v2",
+  "item7_implemented": false,
+  "raw_network_rerun": false,
+  "head_reference_weight": 0.1,
+  "observation_multiplier": 0.01,
+  "body_2d": 1,
+  "sapiens_wrist_2d": 1,
+  "wilor_wrist_2d_each": 0.5,
+  "wrist_3d_each": 0.5,
+  "hand_2d_each": 0.5,
+  "hand_3d_each": 0.25,
+  "head_visibility_weight": 0.03,
+  "pixel_scale": 20,
+  "hand_min_weight_denominator": 4,
+  "head_depth_smooth_m": 0.01,
+  "head_border_smooth_px": 10,
+  "steps": {
+    "rigid_steps": 1800,
+    "pose_steps": 1600,
+    "mano_guided_steps": 1400
+  },
+  "pair_timestamps": [
+    {
+      "pair": "old_011",
+      "difference_seconds": 0.10073333333333423
+    },
+    {
+      "pair": "old_012",
+      "difference_seconds": 0.10054999999999836
+    },
+    {
+      "pair": "new_001",
+      "difference_seconds": 0.00023333333333397377
+    },
+    {
+      "pair": "new_022",
+      "difference_seconds": 6.666666666532706e-05
+    },
+    {
+      "pair": "new_100",
+      "difference_seconds": -0.0001166666666705396
+    }
+  ],
+  "device": "cpu",
+  "workers": 4,
+  "threads_per_worker": 2,
+  "point_filter": "in_image_no_margin",
+  "comparison_methods": [
+    "historical_original",
+    "previous_v2_edge40",
+    "current_v2_no_margin"
+  ]
+}
