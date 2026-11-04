@@ -1,0 +1,7 @@
+Verification: PASS
+Code SHA-256 matches inputs.json: 24 files
+Python syntax: 19 files parsed successfully
+Report local links: 41 resolve
+Evidence JSON: all parsed successfully
+Derived annotated images: 28; EXIF absent; maximum size 301009 bytes
+Fit and observation checks: see validation_final.json, first10_validation.json and fixedden_metrics.json

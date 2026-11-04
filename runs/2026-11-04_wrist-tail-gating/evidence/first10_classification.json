@@ -1,0 +1,996 @@
+{
+  "rule": "Either baseline or candidate 500/1500 Euclidean DFM difference >= 5cm",
+  "cases": [
+    {
+      "frame": 0,
+      "side": "left",
+      "category": "cross-hand duplicate retained / unresolved",
+      "explanation": "Multiple left and right fingertip detections coincide in both views. The rule removes none for this side because wrist-distance margin is insufficient; both fits remain above threshold.",
+      "wrist_stereo_vs_dfm_cm": 2.1161831025919073,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 7.776727504716787,
+        "baseline_1500": 7.359979169922683,
+        "published_gate_cross_hand_500": 7.909647063392969,
+        "published_gate_cross_hand_1500": 7.823663504445339
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 0,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            4.751908302307129,
+            3.1228270530700684
+          ],
+          "left_right_3d_separation_cm": 4.454782962799072,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 18.310115814208984,
+              "opposite_wrist_distance_cm": 13.681817054748535,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.378217697143555,
+              "opposite_wrist_distance_cm": 16.908273696899414,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 0,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            4.666556358337402,
+            6.179486274719238
+          ],
+          "left_right_3d_separation_cm": 0.4566199481487274,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 17.80021858215332,
+              "opposite_wrist_distance_cm": 15.372175216674805,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 14.986054420471191,
+              "opposite_wrist_distance_cm": 17.880409240722656,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 0,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            6.606531620025635,
+            11.910262107849121
+          ],
+          "left_right_3d_separation_cm": 1.607492208480835,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 14.605985641479492,
+              "opposite_wrist_distance_cm": 11.456971168518066,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.296455383300781,
+              "opposite_wrist_distance_cm": 15.053017616271973,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 0,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            7.161755084991455,
+            10.135754585266113
+          ],
+          "left_right_3d_separation_cm": 1.0257439613342285,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 13.636178970336914,
+              "opposite_wrist_distance_cm": 9.7002592086792,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 9.315207481384277,
+              "opposite_wrist_distance_cm": 14.095476150512695,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 0,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            6.963855266571045,
+            9.024031639099121
+          ],
+          "left_right_3d_separation_cm": 0.6956783533096313,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 13.080838203430176,
+              "opposite_wrist_distance_cm": 8.869145393371582,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 8.42325496673584,
+              "opposite_wrist_distance_cm": 13.546686172485352,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_00000.jpg",
+        "identity": "first10_identity_overlays/frame_00000.jpg"
+      }
+    },
+    {
+      "frame": 270,
+      "side": "left",
+      "category": "fit conflict / nearby cross-hand ambiguity",
+      "explanation": "Wrist triangulation is close to DFM and the candidate reduces, but does not conclusively isolate, the source of the baseline difference; the opposite wrist has a serious detection ambiguity.",
+      "wrist_stereo_vs_dfm_cm": 2.222756912756524,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 5.441886191007611,
+        "baseline_1500": 5.579570799811105,
+        "published_gate_cross_hand_500": 4.316661684444876,
+        "published_gate_cross_hand_1500": 3.4768663758719835
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 270,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            689.9126586914062,
+            721.17431640625
+          ],
+          "left_right_3d_separation_cm": 56.78239440917969,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            1.642676830291748,
+            768.377197265625
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            0.5093973278999329,
+            815.4163208007812
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            2.4333384037017822,
+            851.7499389648438
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": false
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            1.920352816581726,
+            884.5525512695312
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "2d_only",
+              "published_gate_reason": "low_score_or_border_or_nonfinite",
+              "cam2_valid": true,
+              "cam3_valid": false
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_00270.jpg",
+        "identity": "first10_identity_overlays/frame_00270.jpg"
+      }
+    },
+    {
+      "frame": 270,
+      "side": "right",
+      "category": "outside-view and wrong-side observation / insufficient constraint",
+      "explanation": "DFM projects outside cam2. The detector right wrist in cam2 is near its left wrist, stereo fails and published gating discards the right wrist; both models have large DFM difference.",
+      "wrist_stereo_vs_dfm_cm": null,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 40.13965544911752,
+        "baseline_1500": 43.979774858290945,
+        "published_gate_cross_hand_500": 32.45220472542981,
+        "published_gate_cross_hand_1500": 32.2357275622972
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 270,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            689.9126586914062,
+            721.17431640625
+          ],
+          "left_right_3d_separation_cm": 56.78239440917969,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            1.642676830291748,
+            768.377197265625
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            0.5093973278999329,
+            815.4163208007812
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            2.4333384037017822,
+            851.7499389648438
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px;depth_uncertainty_over_30cm",
+              "cam2_valid": true,
+              "cam3_valid": false
+            }
+          }
+        },
+        {
+          "frame": 270,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            1.920352816581726,
+            884.5525512695312
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "2d_only",
+              "published_gate_reason": "low_score_or_border_or_nonfinite",
+              "cam2_valid": true,
+              "cam3_valid": false
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_00270.jpg",
+        "identity": "first10_identity_overlays/frame_00270.jpg"
+      }
+    },
+    {
+      "frame": 810,
+      "side": "right",
+      "category": "wrist fit vs observation conflict / unresolved",
+      "explanation": "Stereo wrist differs from DFM by about 3 cm and both fits remain about 5 cm from DFM; no confirmed cross-hand identity error or unique root cause.",
+      "wrist_stereo_vs_dfm_cm": 3.163771529071207,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 5.458019792889366,
+        "baseline_1500": 4.839969388235757,
+        "published_gate_cross_hand_500": 5.322157171326536,
+        "published_gate_cross_hand_1500": 5.0079007230592225
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 810,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            476.0863952636719,
+            491.79901123046875
+          ],
+          "left_right_3d_separation_cm": 35.46697235107422,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 10.365201950073242,
+              "opposite_wrist_distance_cm": 37.01823043823242,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 12.064169883728027,
+              "opposite_wrist_distance_cm": 44.2179069519043,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 810,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            447.0673522949219,
+            459.6982116699219
+          ],
+          "left_right_3d_separation_cm": 34.056888580322266,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 12.57956600189209,
+              "opposite_wrist_distance_cm": 35.29798889160156,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 12.164665222167969,
+              "opposite_wrist_distance_cm": 44.941917419433594,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 810,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            451.3495788574219,
+            467.6639099121094
+          ],
+          "left_right_3d_separation_cm": 37.75289535522461,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.600335121154785,
+              "opposite_wrist_distance_cm": 36.730628967285156,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 13.305464744567871,
+              "opposite_wrist_distance_cm": 47.31971740722656,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 810,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            462.6638488769531,
+            481.1961364746094
+          ],
+          "left_right_3d_separation_cm": 41.14725875854492,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.015069961547852,
+              "opposite_wrist_distance_cm": 37.456512451171875,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 15.420183181762695,
+              "opposite_wrist_distance_cm": 50.100975036621094,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 810,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            484.9494934082031,
+            510.41796875
+          ],
+          "left_right_3d_separation_cm": 44.75922393798828,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 9.873836517333984,
+              "opposite_wrist_distance_cm": 36.899356842041016,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 17.75061798095703,
+              "opposite_wrist_distance_cm": 53.4818229675293,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_00810.jpg",
+        "identity": "first10_identity_overlays/frame_00810.jpg"
+      }
+    },
+    {
+      "frame": 1080,
+      "side": "left",
+      "category": "cross-hand 2D mismatch / original gate removes conflicting points",
+      "explanation": "Several left fingertips coincide with right fingertips in one view but not the other; original gate rejects them for stereo inconsistency and the combined candidate sharply reduces the wrist difference.",
+      "wrist_stereo_vs_dfm_cm": 4.064981736497929,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 22.44770282104995,
+        "baseline_1500": 22.23986797767307,
+        "published_gate_cross_hand_500": 0.9723122062503666,
+        "published_gate_cross_hand_1500": 1.1699507383353656
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 1080,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            421.84783935546875,
+            429.0313720703125
+          ],
+          "left_right_3d_separation_cm": 29.5128231048584,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 10.335602760314941,
+              "opposite_wrist_distance_cm": 33.303993225097656,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.734085083007812,
+              "opposite_wrist_distance_cm": 38.28387451171875,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 1080,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            3.7479255199432373,
+            398.8497619628906
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 14.111275672912598,
+              "opposite_wrist_distance_cm": 40.121482849121094,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 1080,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            4.427313327789307,
+            389.1567077636719
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 11.184346199035645,
+              "opposite_wrist_distance_cm": 37.3126335144043,
+              "published_gate_status": "discard",
+              "published_gate_reason": "reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 1080,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            4.22678279876709,
+            395.630615234375
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 10.734103202819824,
+              "opposite_wrist_distance_cm": 37.85765075683594,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 1080,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            2.2445361614227295,
+            409.7806701660156
+          ],
+          "left_right_3d_separation_cm": null,
+          "sides": {
+            "left": {
+              "stereo_available": false,
+              "same_wrist_distance_cm": null,
+              "opposite_wrist_distance_cm": null,
+              "published_gate_status": "discard",
+              "published_gate_reason": "depth_out_of_range;reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 15.038273811340332,
+              "opposite_wrist_distance_cm": 41.00928497314453,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_01080.jpg",
+        "identity": "first10_identity_overlays/frame_01080.jpg"
+      }
+    },
+    {
+      "frame": 2160,
+      "side": "left",
+      "category": "overlap / suspected cross-hand fingertip conflict",
+      "explanation": "Hands overlap in the image; the candidate removes a left fingertip closer to the opposite wrist. The combined gate reduces wrist difference, but other gate changes prevent attribution to this one point alone.",
+      "wrist_stereo_vs_dfm_cm": 1.4089938490561722,
+      "fit_vs_dfm_cm": {
+        "baseline_500": 11.23263699851062,
+        "baseline_1500": 11.246090369619347,
+        "published_gate_cross_hand_500": 3.53009544558918,
+        "published_gate_cross_hand_1500": 3.700473454002293
+      },
+      "cross_hand_dropped": [],
+      "identity_diagnostics": [
+        {
+          "frame": 2160,
+          "finger": "thumb4",
+          "left_right_uv_separation_px": [
+            7.614973545074463,
+            94.2566909790039
+          ],
+          "left_right_3d_separation_cm": 14.41301155090332,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 23.702665328979492,
+              "opposite_wrist_distance_cm": 20.49205207824707,
+              "published_gate_status": "discard",
+              "published_gate_reason": "reprojection_correction_over_8px",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 12.498744010925293,
+              "opposite_wrist_distance_cm": 17.939939498901367,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 2160,
+          "finger": "forefinger4",
+          "left_right_uv_separation_px": [
+            33.57331848144531,
+            53.119205474853516
+          ],
+          "left_right_3d_separation_cm": 8.010948181152344,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 16.275110244750977,
+              "opposite_wrist_distance_cm": 13.265594482421875,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 13.177031517028809,
+              "opposite_wrist_distance_cm": 19.110748291015625,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 2160,
+          "finger": "middle_finger4",
+          "left_right_uv_separation_px": [
+            42.644134521484375,
+            73.5477294921875
+          ],
+          "left_right_3d_separation_cm": 13.135355949401855,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 15.96363353729248,
+              "opposite_wrist_distance_cm": 13.628692626953125,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 13.792594909667969,
+              "opposite_wrist_distance_cm": 19.574369430541992,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 2160,
+          "finger": "ring_finger4",
+          "left_right_uv_separation_px": [
+            58.20015335083008,
+            100.46131134033203
+          ],
+          "left_right_3d_separation_cm": 18.954505920410156,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 15.845593452453613,
+              "opposite_wrist_distance_cm": 13.99711799621582,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 16.15956687927246,
+              "opposite_wrist_distance_cm": 22.297359466552734,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        },
+        {
+          "frame": 2160,
+          "finger": "pinky_finger4",
+          "left_right_uv_separation_px": [
+            84.40528106689453,
+            130.27345275878906
+          ],
+          "left_right_3d_separation_cm": 21.399850845336914,
+          "sides": {
+            "left": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 15.565262794494629,
+              "opposite_wrist_distance_cm": 13.926236152648926,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            },
+            "right": {
+              "stereo_available": true,
+              "same_wrist_distance_cm": 16.830236434936523,
+              "opposite_wrist_distance_cm": 24.89768409729004,
+              "published_gate_status": "stereo_3d",
+              "published_gate_reason": "stereo_consistent_candidate",
+              "cam2_valid": true,
+              "cam3_valid": true
+            }
+          }
+        }
+      ],
+      "overlays": {
+        "wrist": "first10_crops/frame_02160.jpg",
+        "identity": "first10_identity_overlays/frame_02160.jpg"
+      }
+    }
+  ],
+  "note": "Descriptions use image and ablation evidence; DFM is an unvalidated model reference."
+}

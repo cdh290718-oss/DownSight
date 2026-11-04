@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "checks": {
+    "baseline": {
+      "test_cam3_only_not_consumed": 8,
+      "test_stereo_count": 98,
+      "test_cam2_count": 122,
+      "fit_checks": {
+        "500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        },
+        "1500": {
+          "head_max_error_m": 5.961192073300481e-08,
+          "passed": true
+        }
+      }
+    },
+    "published_gate": {
+      "test_cam3_only_not_consumed": 0,
+      "test_stereo_count": 103,
+      "test_cam2_count": 103,
+      "fit_checks": {
+        "500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        },
+        "1500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        }
+      }
+    },
+    "recomputed_gate": {
+      "test_cam3_only_not_consumed": 0,
+      "test_stereo_count": 99,
+      "test_cam2_count": 99,
+      "fit_checks": {
+        "500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        },
+        "1500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        }
+      }
+    },
+    "wrist_only": {
+      "test_cam3_only_not_consumed": 0,
+      "test_stereo_count": 20,
+      "test_cam2_count": 40,
+      "fit_checks": {
+        "500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        },
+        "1500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        }
+      }
+    },
+    "published_gate_wrist_only": {
+      "test_cam3_only_not_consumed": 0,
+      "test_stereo_count": 35,
+      "test_cam2_count": 35,
+      "fit_checks": {
+        "500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        },
+        "1500": {
+          "head_max_error_m": 2.4232290840586757e-08,
+          "passed": true
+        }
+      }
+    }
+  }
+}

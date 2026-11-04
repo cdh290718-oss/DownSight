@@ -1,0 +1,110 @@
+{
+  "baseline_commit": "3fc4751d2cc698953cebbf2e81aeba61439fe8be",
+  "worktree_at_start": "clean",
+  "assets": {
+    "published_gating_decisions": {
+      "sha256": "9a41e6ae318efe55509ff210ec2dbfa6ef934dba78e21261ae17053dda5efbc4",
+      "size_bytes": 1227093
+    },
+    "Sapiens_detections": {
+      "sha256": "818420d996ef6ac327637ae9d73fa9a55d81c2c3c52e0b86515ed41d6283cd4a",
+      "size_bytes": 925053
+    },
+    "DFM_postfit_reference": {
+      "sha256": "a1756c76d0f31358940505e016f74df8a08459396998f51dd879e905b12a189c",
+      "size_bytes": 1023498
+    },
+    "simulated_calibration_DFM_training_heads": {
+      "sha256": "83537a6e4bf70112bb0376e25544c771b54eb849cb53269333c3daada7680536",
+      "size_bytes": 373
+    },
+    "image_estimated_calibration": {
+      "sha256": "bc99d07c02d62b6d99e9a87d51f9cf6fa858f7caff0a224697fbb7d7fb45cc66",
+      "size_bytes": 1410
+    },
+    "baseline_automatic_observations": {
+      "sha256": "ed246d86dac9b2d3334131884e5b6934eab89bb2398cb470299317092e4db4fa",
+      "size_bytes": 15120
+    },
+    "torso_cloud": {
+      "sha256": "1f63502f267bf9f24980022fcfc368e1c145c0c4120762dd92780fec712b997c",
+      "size_bytes": 67118
+    },
+    "previous_zero_fit": {
+      "sha256": "b74e7c47b1d45262ec320cb2d64b254c9dacad12267fad01eb8e55df7b9c9c62",
+      "size_bytes": 1153042
+    },
+    "smplx_neutral": {
+      "sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+      "size_bytes": 108752058
+    },
+    "backend_human_models": {
+      "sha256": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+      "size_bytes": 13713
+    },
+    "prior_fitter": {
+      "sha256": "f027723ea32ce87f468c619137b0d9b2b727107d1f6059770031aa9a29d28f91",
+      "size_bytes": 12517
+    }
+  },
+  "variant_observations": {
+    "baseline": "ed246d86dac9b2d3334131884e5b6934eab89bb2398cb470299317092e4db4fa",
+    "finger_2d_only": "7b36a4f4bf930fe6508b8121ddaca861202f1ae799f518627caa4e3d67fb042c",
+    "finger_3d_only": "5932080c73f16c520e3698856e34ba70ffa9af66aa8e9af5cb62e63b7dfda4e4",
+    "published_gate": "3b39c76054cf9c3c999b8f58e13e974ace4d47e0d57a9b20f8880e6e7da5cbcd",
+    "published_gate_cross_hand": "57ba786a5562d1a34ec6f66cdd734b284291accb50bf51e7ec8f9b4e1834da11",
+    "published_gate_wrist_only": "cebeadd78d5505b36de5fdee77590b0d97ba223d3a4ae3e4de12abb7bb6e85aa",
+    "recomputed_gate": "abbf180bc0573a66340dcf5f08247d92732637ccc89b6819f3deacc4d8412287",
+    "wrist_only": "29e2a19e2d82f02fb08e32ab0bb0a9bea4fd4a1b8a89914d63239c60332f7e3c"
+  },
+  "initial_predictions": {
+    "gen_00000_00_smplx.npz": "eac0485cc1867d0e6ea6fb062b6442e25f9ec51af672b29b7502e195dbcb0b3d",
+    "gen_00270_00_smplx.npz": "ebdffaf0fe14531103fc703d23d3b292b927ce2c762e1ef8550b005e71beb626",
+    "gen_00540_00_smplx.npz": "b2dc4a713816319fcaf9338fd9f6bd97c8991e2107334cb5586048bd3ee0829f",
+    "gen_00810_00_smplx.npz": "1b9231324063c89fef33a5c5ea355a6665965e3de340912fe7872fbab0454955",
+    "gen_01080_00_smplx.npz": "842d298b363a39e5b9616d6e40435910f6f117ddfd2ec5b07dde431d71eb0fdc",
+    "gen_01350_00_smplx.npz": "eb5247e13a52ec465211785c5db6637ecc8998ac62668408c5ee732e08539b2c",
+    "gen_01620_00_smplx.npz": "7afbfbf04a67e022cac389a351e3d7bdb0578e45191d4dfe8fa084add2068c77",
+    "gen_01890_00_smplx.npz": "490f3263d2e4605e6c92f17fdac76ac8911222a52c81d4220eafa2c81b08e9ee",
+    "gen_02160_00_smplx.npz": "e8a382ef3efb80fa56c12b6a6396862f9f45df1496ecb84b498b582001dcabc9",
+    "gen_02430_00_smplx.npz": "558c11f221a8c30fd47e412a7d15f1b5a415194216582be7c57ce242d41a8be2",
+    "gen_02700_00_smplx.npz": "7328b045378dfc4a2226141358eb229c0d191537d6b800f5a3b7a72c8258ad73",
+    "gen_02970_00_smplx.npz": "95751e894c804c72b59ea8bdba52ea5450adb234471b252a259046477460dcaa",
+    "gen_03240_00_smplx.npz": "ff111c9d12467c4feaa1324c20178faa9179fb01b6fe20ec0d576087f328d53e",
+    "gen_03510_00_smplx.npz": "b2edb30ef28bf8be21b082caaeb7e68fc8041c35474b4d831c92b0b95949dbca",
+    "gen_03780_00_smplx.npz": "0b194b472ecbd69013ccfd318c262dfe9894450039bf3e9dfd6d6305d27bf66c",
+    "gen_04050_00_smplx.npz": "b728f4423ca48d654a548027844752bad36f79604120232c56cff72a756c6f77",
+    "gen_04320_00_smplx.npz": "e9f9d415ba538548fe56d4bda799db26a9955d912dc04c14c1e6e19ea830dc63",
+    "gen_04590_00_smplx.npz": "b99255e47420cfd701ccfb88ff9b8ddfd8a3b64f318ab3ab78232bb5e1f59c4e",
+    "gen_04860_00_smplx.npz": "5c3950bec95e1343bb0c9cc85a9247ab67c99888751a2e0a66cc8624ed5dfab5",
+    "gen_05130_00_smplx.npz": "974600a607db924a72a4c0de89462bb05cc5f9a9b89a433cc2808cee94c18b5d"
+  },
+  "code_sha256": {
+    "classify_first10.py": "3caa0b2c3a185d957535b5e18760bb8a71bde3cf4e20b5738dc196e784df3e51",
+    "classify_primary.py": "a429e924bf7c1f177a90318f497e87935c483808ecc2b75b63d0cc9870890022",
+    "collect_evidence.py": "45f94799abe158dfc887166bc52f6065e910b2a8b4f0601c81261c607c820dd4",
+    "evaluate.py": "f7801ae12cabaa08c12facda5f86acc1d240766049ead6a3cd4ca87c6f50ab0c",
+    "evaluate_first10.py": "5012785014f9c9e47d39da6e1ebbed058a13cf608f453dc3c72c108c76906c50",
+    "evaluate_fixedden.py": "2fd2d4963a44079355110bd8da07e00be55d468b24be600a70439c619a3b6c75",
+    "first10_crops.py": "f048c6929e266d527191c04e5632f5789e325c0c01a1c8a6a3d5547a3cdff7e8",
+    "fit_first10.py": "b16a18445f3f2c23c465ea23c58a41a953f3d09958f2e08f55fc385e356f8c45",
+    "fit_fixed_denominator.py": "6f9fe21dfd8b9cf9e8919daca183c75177d6bbebaf2aa14b7dce0746c884399a",
+    "identity_audit.py": "16e25103b2fead6a3353caaa7d8a5ef48464c034029c30aa9cc4bb7b5d0666f5",
+    "identity_overlays.py": "bcf37ece5e89f5c90c12322301a54253ee22491be732674a383c4a01710131a3",
+    "overlays.py": "49ac7556b74ab14e14549a97c59061fea4ffda189f9006ebd61e21d178e94d70",
+    "prepare_cross_hand.py": "cf6acf439bb97a6826521dc35b9935f3fc4f34fd4289bd0103a24b6cac43a721",
+    "prepare_finger_ablation.py": "c8f7a81df8727a782b1e35c81de24ce4d17064f4bb3f2e5fdaca3b757257a2d1",
+    "prepare_variants.py": "38de55684d8e318b9baa545bb6b6b1907d38f83dfc88f7f96e979ec95bd6c38e",
+    "recompute_gating.py": "9e17cd28df6b78cb2e4c7c4bd01258c67d7f9740bc69a3a639534c4282cc2f9c",
+    "run_cross_hand.sh": "318a888ac68a5dfeb1714c933a2ed83491610b06366a893efcbb2ee4a3ce6328",
+    "run_finger_ablation.sh": "f1b8300f0dc9becb0e3e9c6091ac06ffe3ac9fd626093e06d85be43bf1d6e871",
+    "run_first10.sh": "5e3e6d385dbd8e593085913d10bb928f9692df5ea219c49baa90dbd1c98e969c",
+    "run_fits.sh": "18efc50ad5d834842dcf3f285673f580eb091ad52e72772b16adbdc0115cdbb7",
+    "run_fixed_denominator.sh": "88a8e6824fb2c3764aa5b2fc97aa173693923507645fd9646d13a9bd31bbd523",
+    "validate.py": "346493fb4bca43a38daec2708bc495d5e08b3e15fade0868d07be63c7851bfb2",
+    "validate_first10.py": "3293d3bfa64bac4ade546fdfc1a490e1ebc59be4a3401425428e349f00e2e204",
+    "wrist_crops.py": "6ad13509e63ece0cfa9540f00873b9681350521145930d6c392cec10cd1e8c82"
+  },
+  "environment": "Existing EgoSMPLX Python 3.8.20, PyTorch 1.12.1 CUDA 11.3, one A100; no package installations.",
+  "policy": "DFM used for existing simulated head calibration and post-fit evaluation only; automatic gating and cross-hand screening do not read DFM. Gen image overlays shared under explicit user-confirmed authorization."
+}

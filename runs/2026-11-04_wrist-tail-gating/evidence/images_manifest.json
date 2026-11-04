@@ -1,0 +1,173 @@
+{
+  "policy": "User explicitly confirmed holding authorization to publicly release the Gen frames and derived overlays; public dataset page indicates other and detailed access conditions were not independently reviewed.",
+  "images": [
+    {
+      "path": "first10_crops/frame_00000.jpg",
+      "sha256": "e7833b112a40fd4bba9cfd7dc31951589582b2b4dae76d67633c02b34fc59dcb",
+      "size_bytes": 174005,
+      "has_exif": false
+    },
+    {
+      "path": "first10_crops/frame_00270.jpg",
+      "sha256": "1339174dc0b853e66092b73d0c29858961734291a6e13fee83abd8d43b1b720e",
+      "size_bytes": 123110,
+      "has_exif": false
+    },
+    {
+      "path": "first10_crops/frame_00810.jpg",
+      "sha256": "a68cf9f2d9206ce844493e9a6a0df7562e001e2e4f8ddbbf7a5d846ed639be68",
+      "size_bytes": 168082,
+      "has_exif": false
+    },
+    {
+      "path": "first10_crops/frame_01080.jpg",
+      "sha256": "c326c665ba57cfe7987aafcb6880779b1820ccfbd66f00ec1621774bf5489656",
+      "size_bytes": 173870,
+      "has_exif": false
+    },
+    {
+      "path": "first10_crops/frame_02160.jpg",
+      "sha256": "c8b22c37501c07675f6a6c46e52ad1238ed6b53011137e816b8393fc0ce375a3",
+      "size_bytes": 173850,
+      "has_exif": false
+    },
+    {
+      "path": "first10_identity_overlays/frame_00000.jpg",
+      "sha256": "4dd5b162f1092dd4cfd14fc67054044fda1090d8985e4f91b02fc2f6bec67620",
+      "size_bytes": 276105,
+      "has_exif": false
+    },
+    {
+      "path": "first10_identity_overlays/frame_00270.jpg",
+      "sha256": "76f9e1cb0a18c776baea94a6b087669bf0fc387290069ff32647d15edf6b6148",
+      "size_bytes": 236502,
+      "has_exif": false
+    },
+    {
+      "path": "first10_identity_overlays/frame_00810.jpg",
+      "sha256": "0deef7f3e9e489b866ddece61c73396e4e3eeb6705dec0471ac2dedd892e787f",
+      "size_bytes": 299823,
+      "has_exif": false
+    },
+    {
+      "path": "first10_identity_overlays/frame_01080.jpg",
+      "sha256": "259c440efa4003c55a0c5284868b35896137ef583ccd9b0a25c4681495989d96",
+      "size_bytes": 301009,
+      "has_exif": false
+    },
+    {
+      "path": "first10_identity_overlays/frame_02160.jpg",
+      "sha256": "c9ca168aa782ab23d46bcb48cbb7111609ba3290b4b957baa93d4e61a625dfbb",
+      "size_bytes": 295310,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_02700.jpg",
+      "sha256": "6f66470183f647eda30eae518e1b0d2edfe875fd90df5040671ca07a369cddea",
+      "size_bytes": 237995,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_02970.jpg",
+      "sha256": "037de6af50a4984d4c29e5083047e2447eddaf84c64898ce10ac81d02cedbb40",
+      "size_bytes": 272670,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_03240.jpg",
+      "sha256": "ff6ff573869330212ba138ff3834349d7a06315171b75b6cd249bac082a4b03b",
+      "size_bytes": 275073,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_03780.jpg",
+      "sha256": "f61f1efc46c71d2af11c3fb2db14146261e04e919f4f493eea0f251e9692f3bd",
+      "size_bytes": 275091,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_04320.jpg",
+      "sha256": "112a28e9c336e20e685b734a6bf494b3b56897819421d042950ec300b7d59418",
+      "size_bytes": 273762,
+      "has_exif": false
+    },
+    {
+      "path": "identity_overlays/frame_04860.jpg",
+      "sha256": "1f7fbfd017f650efa90c7d7f4d642be3830ad0607bb586b094c4fdabff6e0adb",
+      "size_bytes": 269010,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_02700.jpg",
+      "sha256": "b37510af2516623dd8b680d963557a5640d7698bb117141677d933f56a7a2eb5",
+      "size_bytes": 143137,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_02970.jpg",
+      "sha256": "d517b40b69ddd453e8d74eb64c7cae12a846a10756c4c779ca151fdcb3117888",
+      "size_bytes": 164273,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_03240.jpg",
+      "sha256": "bbac41b93f4caf51ac9964ea624c58b87d0e8acede75af1122c8aa970e3a160c",
+      "size_bytes": 167438,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_03780.jpg",
+      "sha256": "d54cf51766143c49ca8babb7de419004e80429fb3d11a94afeae83e29c4aaafb",
+      "size_bytes": 170460,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_04320.jpg",
+      "sha256": "622d8d60a6805d497792d52d2563a19deeefb17cc6f7eae775c21c4163124f46",
+      "size_bytes": 165990,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops/frame_04860.jpg",
+      "sha256": "5aeff06b46333cc7b709235d2deb842d64e388e7af2c3342cf972204fa0af11e",
+      "size_bytes": 164364,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_02700.jpg",
+      "sha256": "3157dadb3064584388fc0d330432f525d8196d7e4ac3703faab40e1cf34d1af8",
+      "size_bytes": 143096,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_02970.jpg",
+      "sha256": "d3debe405bac19defb6750ddfc1fd539d09b251e4125d6c1d09a5ae41a91b322",
+      "size_bytes": 164132,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_03240.jpg",
+      "sha256": "3f4d976709d6234ff001e89e1b10b144ac046f72cfc2e54243daf178b62cc1b5",
+      "size_bytes": 167360,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_03780.jpg",
+      "sha256": "e3a0de9f767eaa9495e4d22f894052663d79a5c23a37d919930fe7e608f552ca",
+      "size_bytes": 170475,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_04320.jpg",
+      "sha256": "c32e8e9c27512ad25efc1ada7b3e7d1f810404f3adf9ba539a92ba4263688549",
+      "size_bytes": 166071,
+      "has_exif": false
+    },
+    {
+      "path": "wrist_crops_1500/frame_04860.jpg",
+      "sha256": "151c946963807146f3f438fd5cc1d11e2e9b2b6f223d99edd8d69c02be0aa0e5",
+      "size_bytes": 164377,
+      "has_exif": false
+    }
+  ]
+}

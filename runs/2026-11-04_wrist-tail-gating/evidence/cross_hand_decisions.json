@@ -1,0 +1,1605 @@
+{
+  "policy": "post-hoc candidate; suspect observations removed, never relabelled",
+  "decisions": [
+    {
+      "frame": 0,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.1850547343492508,
+      "opposite_wrist_m": 0.13832664489746094,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.17799578607082367,
+      "opposite_wrist_m": 0.15282057225704193,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.14606668055057526,
+      "opposite_wrist_m": 0.11494101583957672,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.13637416064739227,
+      "opposite_wrist_m": 0.09753327071666718,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.130802184343338,
+      "opposite_wrist_m": 0.08900794386863708,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.1148597002029419,
+      "opposite_wrist_m": 0.16974592208862305,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.14914217591285706,
+      "opposite_wrist_m": 0.17897182703018188,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.1135992631316185,
+      "opposite_wrist_m": 0.15106059610843658,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.09359531104564667,
+      "opposite_wrist_m": 0.141137033700943,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 0,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.08437091112136841,
+      "opposite_wrist_m": 0.13548770546913147,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "right_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "right_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 270,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.11466653645038605,
+      "opposite_wrist_m": 0.2469869703054428,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.10665436834096909,
+      "opposite_wrist_m": 0.2521739900112152,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.09251327812671661,
+      "opposite_wrist_m": 0.24459081888198853,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.10907239466905594,
+      "opposite_wrist_m": 0.2657756507396698,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "right_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.21011459827423096,
+      "opposite_wrist_m": 0.3312148451805115,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.16578330099582672,
+      "opposite_wrist_m": 0.2961407005786896,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 540,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.13536739349365234,
+      "opposite_wrist_m": 0.2738250195980072,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.10378199070692062,
+      "opposite_wrist_m": 0.3703300654888153,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.1257038563489914,
+      "opposite_wrist_m": 0.35387668013572693,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.11606352031230927,
+      "opposite_wrist_m": 0.3674220144748688,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.11019125580787659,
+      "opposite_wrist_m": 0.37469398975372314,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.09880560636520386,
+      "opposite_wrist_m": 0.3693684935569763,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.1208198070526123,
+      "opposite_wrist_m": 0.44239291548728943,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.12184881418943405,
+      "opposite_wrist_m": 0.4498193860054016,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.13455767929553986,
+      "opposite_wrist_m": 0.4747757017612457,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.16462992131710052,
+      "opposite_wrist_m": 0.5093205571174622,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 810,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.20276930928230286,
+      "opposite_wrist_m": 0.5540980100631714,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.10378717631101608,
+      "opposite_wrist_m": 0.3337290287017822,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.11780262738466263,
+      "opposite_wrist_m": 0.3833240568637848,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.14257313311100006,
+      "opposite_wrist_m": 0.402958482503891,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.10795081406831741,
+      "opposite_wrist_m": 0.37961429357528687,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1080,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.1501297652721405,
+      "opposite_wrist_m": 0.4108180105686188,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.11263831704854965,
+      "opposite_wrist_m": 0.18428435921669006,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.1776953786611557,
+      "opposite_wrist_m": 0.13760145008563995,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.17280398309230804,
+      "opposite_wrist_m": 0.13448405265808105,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.12138808518648148,
+      "opposite_wrist_m": 0.1777936965227127,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.13317818939685822,
+      "opposite_wrist_m": 0.1812957376241684,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.12879078090190887,
+      "opposite_wrist_m": 0.19055300951004028,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.12978310883045197,
+      "opposite_wrist_m": 0.20507031679153442,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1350,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.12353656440973282,
+      "opposite_wrist_m": 0.23200885951519012,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.1156662255525589,
+      "opposite_wrist_m": 0.23689667880535126,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.1135931983590126,
+      "opposite_wrist_m": 0.25295624136924744,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.1333731710910797,
+      "opposite_wrist_m": 0.27249059081077576,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.15557724237442017,
+      "opposite_wrist_m": 0.3052666485309601,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1620,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.14896832406520844,
+      "opposite_wrist_m": 0.31661713123321533,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.11186007410287857,
+      "opposite_wrist_m": 0.2913610339164734,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.13965755701065063,
+      "opposite_wrist_m": 0.2610807716846466,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.12148255854845047,
+      "opposite_wrist_m": 0.2683914601802826,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.10076048970222473,
+      "opposite_wrist_m": 0.2838720381259918,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.090352863073349,
+      "opposite_wrist_m": 0.2904037833213806,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.13316874206066132,
+      "opposite_wrist_m": 0.3678715229034424,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.17306283116340637,
+      "opposite_wrist_m": 0.39255011081695557,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.13865096867084503,
+      "opposite_wrist_m": 0.36338919401168823,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.12409508973360062,
+      "opposite_wrist_m": 0.35833191871643066,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 1890,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.10128963738679886,
+      "opposite_wrist_m": 0.35117584466934204,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.165287047624588,
+      "opposite_wrist_m": 0.1326013207435608,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.16214343905448914,
+      "opposite_wrist_m": 0.13587026298046112,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.16128018498420715,
+      "opposite_wrist_m": 0.13958528637886047,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.15884019434452057,
+      "opposite_wrist_m": 0.13906143605709076,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.124787837266922,
+      "opposite_wrist_m": 0.18166625499725342,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.13183891773223877,
+      "opposite_wrist_m": 0.1921866238117218,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.14155149459838867,
+      "opposite_wrist_m": 0.1982983499765396,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.17310546338558197,
+      "opposite_wrist_m": 0.23055744171142578,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2160,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.16966451704502106,
+      "opposite_wrist_m": 0.24940426647663116,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.09418011456727982,
+      "opposite_wrist_m": 0.25369957089424133,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.28272029757499695,
+      "opposite_wrist_m": 0.13932235538959503,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.11929961293935776,
+      "opposite_wrist_m": 0.2842271625995636,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.13700854778289795,
+      "opposite_wrist_m": 0.2856523394584656,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.13436156511306763,
+      "opposite_wrist_m": 0.28778842091560364,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.1164894625544548,
+      "opposite_wrist_m": 0.29180872440338135,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2430,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.10324427485466003,
+      "opposite_wrist_m": 0.3060726225376129,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.1779717355966568,
+      "opposite_wrist_m": 0.4580128788948059,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.1958393007516861,
+      "opposite_wrist_m": 0.47101715207099915,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.0978994220495224,
+      "opposite_wrist_m": 0.4201553463935852,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "right_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.16790808737277985,
+      "opposite_wrist_m": 0.50588059425354,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.1818259060382843,
+      "opposite_wrist_m": 0.5130480527877808,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2700,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.21026164293289185,
+      "opposite_wrist_m": 0.5295515656471252,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.12628374993801117,
+      "opposite_wrist_m": 0.3301244080066681,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.11656180024147034,
+      "opposite_wrist_m": 0.2721611559391022,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.11573288589715958,
+      "opposite_wrist_m": 0.2691078186035156,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.13597474992275238,
+      "opposite_wrist_m": 0.2857682406902313,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 2970,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.11301158368587494,
+      "opposite_wrist_m": 0.28357985615730286,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.08555353432893753,
+      "opposite_wrist_m": 0.24149486422538757,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.2732114791870117,
+      "opposite_wrist_m": 0.12448184192180634,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.262345552444458,
+      "opposite_wrist_m": 0.0947469100356102,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.26201292872428894,
+      "opposite_wrist_m": 0.08554912358522415,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.2611611783504486,
+      "opposite_wrist_m": 0.09156942367553711,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.10994407534599304,
+      "opposite_wrist_m": 0.2753126919269562,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.11995284259319305,
+      "opposite_wrist_m": 0.26662489771842957,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.09051644057035446,
+      "opposite_wrist_m": 0.2628619074821472,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.08236289769411087,
+      "opposite_wrist_m": 0.26372861862182617,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3240,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.09131263196468353,
+      "opposite_wrist_m": 0.26493170857429504,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.09415274113416672,
+      "opposite_wrist_m": 0.24646598100662231,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.37298041582107544,
+      "opposite_wrist_m": 0.5118074417114258,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.24509526789188385,
+      "opposite_wrist_m": 0.3967340886592865,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.18362896144390106,
+      "opposite_wrist_m": 0.3422161936759949,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.10731348395347595,
+      "opposite_wrist_m": 0.24861815571784973,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.1138574406504631,
+      "opposite_wrist_m": 0.25098109245300293,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.11328806728124619,
+      "opposite_wrist_m": 0.2524968981742859,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.12457273155450821,
+      "opposite_wrist_m": 0.2685864567756653,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3510,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.12370637059211731,
+      "opposite_wrist_m": 0.2860562205314636,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "left_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.26536595821380615,
+      "opposite_wrist_m": 0.12678951025009155,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.25015443563461304,
+      "opposite_wrist_m": 0.13972924649715424,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.25007620453834534,
+      "opposite_wrist_m": 0.14055752754211426,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.25144585967063904,
+      "opposite_wrist_m": 0.13985833525657654,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.11545863747596741,
+      "opposite_wrist_m": 0.2748432159423828,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.12137395143508911,
+      "opposite_wrist_m": 0.2681772708892822,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.14389704167842865,
+      "opposite_wrist_m": 0.2537926435470581,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.14144322276115417,
+      "opposite_wrist_m": 0.2502727806568146,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 3780,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.13418541848659515,
+      "opposite_wrist_m": 0.25128546357154846,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.08993739634752274,
+      "opposite_wrist_m": 0.2184637039899826,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.15298032760620117,
+      "opposite_wrist_m": 0.19585414230823517,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.16539689898490906,
+      "opposite_wrist_m": 0.21362851560115814,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.3323424160480499,
+      "opposite_wrist_m": 0.3929811418056488,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4050,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.3710768222808838,
+      "opposite_wrist_m": 0.4455655813217163,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.17041052877902985,
+      "opposite_wrist_m": 0.13053667545318604,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "left_forefinger4",
+      "same_wrist_m": 0.1858689785003662,
+      "opposite_wrist_m": 0.11909248679876328,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": 0.196903258562088,
+      "opposite_wrist_m": 0.11577846854925156,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": 0.2268909215927124,
+      "opposite_wrist_m": 0.1363479644060135,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.2742844223976135,
+      "opposite_wrist_m": 0.18137811124324799,
+      "dropped": true,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "right_thumb4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.10859359055757523,
+      "opposite_wrist_m": 0.18685156106948853,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.09572451561689377,
+      "opposite_wrist_m": 0.18980489671230316,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.09594954550266266,
+      "opposite_wrist_m": 0.20174069702625275,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4320,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.10210715234279633,
+      "opposite_wrist_m": 0.21883034706115723,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.11782179027795792,
+      "opposite_wrist_m": 0.1545533984899521,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": 0.1460859179496765,
+      "opposite_wrist_m": 0.07892393320798874,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.20183059573173523,
+      "opposite_wrist_m": 0.17632773518562317,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "right_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.11458727717399597,
+      "opposite_wrist_m": 0.1712632179260254,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4590,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.09552310407161713,
+      "opposite_wrist_m": 0.1743335723876953,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.10252200067043304,
+      "opposite_wrist_m": 0.34605056047439575,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.10795829445123672,
+      "opposite_wrist_m": 0.3833664655685425,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "right_forefinger4",
+      "same_wrist_m": 0.10774565488100052,
+      "opposite_wrist_m": 0.3814324140548706,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": 0.10635460168123245,
+      "opposite_wrist_m": 0.3886672258377075,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.10768787562847137,
+      "opposite_wrist_m": 0.39939990639686584,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 4860,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.14040814340114594,
+      "opposite_wrist_m": 0.43569204211235046,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "left_thumb4",
+      "same_wrist_m": 0.11370439827442169,
+      "opposite_wrist_m": 0.18595808744430542,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "left_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "left_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "left_ring_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "left_pinky_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "right_thumb4",
+      "same_wrist_m": 0.12471334636211395,
+      "opposite_wrist_m": 0.1517770141363144,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "right_forefinger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "right_middle_finger4",
+      "same_wrist_m": null,
+      "opposite_wrist_m": null,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "right_ring_finger4",
+      "same_wrist_m": 0.2203996777534485,
+      "opposite_wrist_m": 0.2764887511730194,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    },
+    {
+      "frame": 5130,
+      "joint": "right_pinky_finger4",
+      "same_wrist_m": 0.19546951353549957,
+      "opposite_wrist_m": 0.28090912103652954,
+      "dropped": false,
+      "rule": "same>0.15m and opposite closer by >0.05m"
+    }
+  ]
+}

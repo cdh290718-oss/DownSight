@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "first10_baseline_500",
+      "frame_ids": [
+        0,
+        270,
+        540,
+        810,
+        1080,
+        1350,
+        1620,
+        1890,
+        2160,
+        2430
+      ],
+      "head_anchor_max_error_m": 2.4232290840586757e-08,
+      "passed": true
+    },
+    {
+      "name": "first10_baseline_1500",
+      "frame_ids": [
+        0,
+        270,
+        540,
+        810,
+        1080,
+        1350,
+        1620,
+        1890,
+        2160,
+        2430
+      ],
+      "head_anchor_max_error_m": 2.4232290840586757e-08,
+      "passed": true
+    },
+    {
+      "name": "first10_published_gate_cross_hand_500",
+      "frame_ids": [
+        0,
+        270,
+        540,
+        810,
+        1080,
+        1350,
+        1620,
+        1890,
+        2160,
+        2430
+      ],
+      "head_anchor_max_error_m": 2.4232290840586757e-08,
+      "passed": true
+    },
+    {
+      "name": "first10_published_gate_cross_hand_1500",
+      "frame_ids": [
+        0,
+        270,
+        540,
+        810,
+        1080,
+        1350,
+        1620,
+        1890,
+        2160,
+        2430
+      ],
+      "head_anchor_max_error_m": 2.4232290840586757e-08,
+      "passed": true
+    }
+  ]
+}

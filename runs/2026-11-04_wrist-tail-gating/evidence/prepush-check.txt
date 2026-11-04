@@ -1,0 +1,8 @@
+Push preflight for this incremental run
+Baseline and remote main at preflight: 3fc4751d2cc698953cebbf2e81aeba61439fe8be
+Initial tracked worktree: clean; run is the only new untracked content.
+Staged paths are limited to this run. Automated check covers staged files and outgoing commit content; ignored local experiment assets are not staged.
+No weights, dataset, video, npz/npy, full raw outputs, credentials, .env, full local provenance, or patch. All files under 50 MB.
+Text checked for developer-machine paths and credential patterns. Reports/logs use placeholders; local resources remain outside the commit.
+28 derived annotated/cropped Gen images: user explicitly confirmed permission to publish; EXIF absent; image digest manifest provided.
+The public dataset card says license other; exact license terms were not independently obtained. This incremental check is not an audit of prior history.
