@@ -78,6 +78,8 @@
 
 公开精简日志、配置/资源摘要、测试与评测、对比渲染图；原图缓存、模型、参数、完整网格和完整 provenance 留在开发机。文本中的仓库位置替换为 `<REPO>`，工作区位置替换为 `<WORKSPACE>`，保留数值、命令结构与错误。只有能访问旧实验资源及外部后端的执行者才能复现数值；公开材料只支持审核。
 
-推送前增量自检：禁用资产和大小检查通过；未发现凭据、令牌或 `.env`；开发机路径已脱敏；未发布完整本地 provenance 或完整源码 patch，只附报告元数据更正的脱敏补丁。网页静态资源、链接、全部对照图片尺寸和无 EXIF 检查通过。工作区检查见 `evidence/prepush-check.json`；暂存内容检查已通过；新增提交检查在实际推送前执行，检查范围不表示历史仓库已整体审计。
+推送前增量自检：禁用资产和大小检查通过；未发现凭据、令牌或 `.env`；开发机路径已脱敏；未发布完整本地 provenance 或完整源码 patch，只附报告元数据更正的脱敏补丁。网页静态资源、链接、全部对照图片尺寸和无 EXIF 检查通过。工作区检查见 `evidence/prepush-check.json`；暂存内容与新增提交检查已通过；首个发布提交检查见 `evidence/first_commit_check.json`，检查范围不表示历史仓库已整体审计。
 
-待发布地址：<https://cdh290718-oss.github.io/egofishpose-demo/session-hand6-original-v2-20261104/>。发布使用新目录，不改原实验网页；提交及逐文件在线校验记录将补充至 `evidence/publication.json` 和 `evidence/online_verification.json`。
+已发布并在线核验：<https://cdh290718-oss.github.io/egofishpose-demo/session-hand6-original-v2-20261104/>。发布只新增目录，远端变更核验确认未修改既有文件。页面、评测 JSON 和全部 20 张图片均返回 HTTP 200，且内容 SHA-256 与本地已审核资产一致。记录见 `evidence/publication.json`、`evidence/publication_change_check.json` 和 `evidence/online_verification.json`。
+
+源码与完整结果首次发布于 DownSight `4d3b49f6d4a9d7cf8c0a8f246dbbe573ae40104b`；网页发布提交为 `aca850c37d630986be34e1a66dcc80b215c7c2b2`。本次后续提交只补充发布/检查记录及报告状态，不改变数值源码和实验结果。
