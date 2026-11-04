@@ -1,0 +1,115 @@
+{
+  "A": "Reused completed no-margin v2 results; unchanged inputs",
+  "comparisons": [
+    {
+      "group": "B",
+      "frame": "s001_cam3_f00001711",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "B",
+      "frame": "s001_cam4_f00001701",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "B",
+      "frame": "s022_cam3_f00001834",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "B",
+      "frame": "s022_cam4_f00001824",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "B",
+      "frame": "s100_cam3_f00002299",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "B",
+      "frame": "s100_cam4_f00002281",
+      "mode": "body_rigid",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s001_cam3_f00001711",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s001_cam4_f00001701",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s022_cam3_f00001834",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s022_cam4_f00001824",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s100_cam3_f00002299",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    },
+    {
+      "group": "C",
+      "frame": "s100_cam4_f00002281",
+      "mode": "arm_routed",
+      "changed_config_keys": [
+        "v2_hand_stage",
+        "output"
+      ]
+    }
+  ],
+  "network_rerun": false,
+  "old_pairs_included": false
+}

@@ -30,6 +30,7 @@ def environment(config):
                   EGOSMPLX_CONFIG=config['paths']['egosmplx_config'],
                   EGOSMPLX_REPO_ROOT=config['paths']['egosmplx_repo'])
     result['EGOSMPLX_V2'] = '1' if config.get('stereo_v2', False) else '0'
+    result['EGOSMPLX_V2_HAND_STAGE'] = config.get('v2_hand_stage', 'full')
     result['EGOSMPLX_HEAD_NECK'] = json.dumps(config.get('head_neck', {}))
     result['PYTHONPATH'] = os.pathsep.join([str(PACKAGE_ROOT), config['paths'].get('wilor_repo', '')])
     return result

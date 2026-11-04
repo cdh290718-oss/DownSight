@@ -85,7 +85,7 @@ def main():
     def angle_between(x, y):
         rx, ry = cv2.Rodrigues(np.asarray(x, dtype=np.float64))[0], cv2.Rodrigues(np.asarray(y, dtype=np.float64))[0]
         return float(np.rad2deg(np.arccos(np.clip((np.trace(rx @ ry.T)-1)/2, -1, 1))))
-    settings = dict(steps=a.steps, device='cpu', target_weighting='uniform automatic targets',
+    settings = dict(hand_stage=v2.hand_stage(), steps=a.steps, device='cpu', target_weighting='uniform automatic targets',
                     body_lr=.0015, camera_lr=.0008, orient_lr=.0005,
                     pose_prior_weight=.0008, camera_prior_weight=.0002, orient_prior_weight=.0004,
                     smooth_l1_beta=.003, max_global_axis_angle_increment_deg=8.,
@@ -111,7 +111,10 @@ def main():
             mesh, local, joints, pixels = forward(body, glob0 + gd, cam)
             rep = F.smooth_l1_loss((pixels[indices] - target) / t([w, h]), torch.zeros_like(target), beta=.003)
             if v2.enabled():
-                rep = head_neck.v2.observation(mesh,joints,pixels)
+                hand_geometry = v2.routed_hand_geometry(layer,
+                    dict(fixed, body_pose=body.reshape(1,-1), global_orient=(glob0+gd).reshape(1,3)),
+                    cam, smpl_x.joint_idx, camera.world2camera_pytorch, (mesh,joints,pixels))
+                rep = head_neck.v2.observation(mesh,joints,pixels,hand_geometry=hand_geometry)
             pp = (delta / caps[:, None]).square().mean()
             cp = ((cam - cam0) / t([.10, .10, .18])).square().mean()
             gp = (gd / np.deg2rad(8.)).square().mean()

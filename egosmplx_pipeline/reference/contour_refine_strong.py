@@ -53,16 +53,19 @@ def main():
   def feasible(v,j,uv):
    err=(uv[ix]-goals).norm(dim=1)*v2.wrist_mask(goals)
    return hn.feasible(v) and bool(v2.min_z(v)>=.020001 and (j[[12,13]].norm(dim=1)>=floor+1e-6).all() and torch.sqrt((uv[bi]-bt).square().sum(1).mean())<=bodylimit-1e-4 and (err<=t(initial_werr)+3).all())
+  def hand_forward(v,j,uv):
+   return v2.routed_hand_geometry(layer,params(),tr,smpl_x.joint_idx,cam.world2camera_pytorch,(v,j,uv))
   def objective(v,j,uv):
+   hv,hj,hu=hand_forward(v,j,uv)
    body=(F.smooth_l1_loss((uv[bi]-bt)/t([1280,720]),torch.zeros_like(bt),beta=.003,reduction='none').mean(1)*bw).mean()
    wrists=F.smooth_l1_loss((uv[ix]-goals)/t([1280,720]),torch.zeros_like(goals),beta=.003)
    seam=[]
    for ids,target in zip(loopids,loopgoals):
-    q=cam.world2camera_pytorch(v[ids]);q=q-q.mean(0);radius=q.square().sum(1).mean().sqrt();rr=target.square().sum(1).mean().sqrt();seam.append(torch.log(radius/rr.clamp_min(1)).square())
+    q=cam.world2camera_pytorch(hv[ids]);q=q-q.mean(0);radius=q.square().sum(1).mean().sqrt();rr=target.square().sum(1).mean().sqrt();seam.append(torch.log(radius/rr.clamp_min(1)).square())
    shape=torch.stack(seam).mean()
    priors=.0008*(delta/caps[:,None]).square().mean()+.0002*((tr-tr0)/t([.10,.10,.18])).square().mean()+.0004*(gd/np.deg2rad(8)).square().mean()
    depth=.02*F.relu((.03-v2.min_z(v))/.02).square();guard=.002*F.relu((floor-j[[12,13]].norm(dim=1))/.05).square().mean()
-   return (hn.v2.observation(v,j,uv) if v2.enabled() else body+4*wrists)+.0008*shape+priors+depth+guard+.4*silhouette_loss(v,cam,sil_data)+hn.loss(v,uv)
+   return (hn.v2.observation(v,j,uv,hand_geometry=(hv,hj,hu)) if v2.enabled() else body+4*wrists)+.0008*shape+priors+depth+guard+.4*silhouette_loss(hv,cam,sil_data)+hn.loss(v,uv)
   opt=torch.optim.Adam([{'params':[delta],'lr':.0015},{'params':[gd],'lr':.0005},{'params':[tr],'lr':.0008}])
   with torch.no_grad():v,j,uv=forward();bestloss=float(objective(v,j,uv));best=[x.detach().clone() for x in [delta,gd,tr]]
   rejected=0;start=time.time()
@@ -75,8 +78,9 @@ def main():
      with torch.no_grad():
       delta.mul_(torch.minimum(torch.ones_like(caps),caps/delta.norm(dim=1).clamp_min(1e-8))[:,None]);gd.mul_(torch.clamp(t(np.deg2rad(8))/gd.norm().clamp_min(1e-8),max=1));tr[2].clamp_(.05,3)
      pv,pj,pu=forward()
+     _,_,hand_pu=hand_forward(pv,pj,pu)
      br=(pu[bi]-bt).square().sum(1).mean().sqrt()
-     violations=torch.cat([(br-bodylimit+.02).reshape(1)/5,(.02001-v2.min_z(pv)).reshape(1)/.02,(floor+1e-5-pj[[12,13]].norm(dim=1))/.05,((pu[ix]-goals).norm(dim=1)*v2.wrist_mask(goals)-t(initial_werr)-2.99)/5])
+     violations=torch.cat([(br-bodylimit+.02).reshape(1)/5,(.02001-v2.min_z(pv)).reshape(1)/.02,(floor+1e-5-pj[[12,13]].norm(dim=1))/.05,((hand_pu[ix]-goals).norm(dim=1)*v2.wrist_mask(goals)-t(initial_werr)-2.99)/5])
      violations=torch.cat([violations,hn.violations(pv)])
      g=violations.max()
      if float(g)<=0:break

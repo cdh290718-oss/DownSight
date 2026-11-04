@@ -30,6 +30,11 @@ def load_config(path):
     path = Path(path).resolve()
     config = expand(read(path), path.parent)
     config['pipeline_profile'] = selected(config)
+    hand_stage = config.get('v2_hand_stage', 'full')
+    if hand_stage not in ('full', 'body_rigid', 'arm_routed'):
+        raise ValueError('Unknown v2_hand_stage')
+    if hand_stage != 'full' and not config.get('stereo_v2', False):
+        raise ValueError('Hand-stage ablation requires stereo_v2')
     for key, value in config['paths'].items():
         if value:
             config['paths'][key] = absolute(value, path.parent)

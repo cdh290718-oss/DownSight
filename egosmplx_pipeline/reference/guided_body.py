@@ -73,13 +73,14 @@ def fit(row,steps):
   o=layer(**params());v=o.vertices[0]+tr;j=o.joints[0,smpl_x.joint_idx]+tr;return v,j,cam.world2camera_pytorch(j)
  def huber(a,b,beta=20):return TF.smooth_l1_loss(a,b,beta=beta,reduction='none')*beta/10000
  def objective(v,j,uv):
+  hv,hj,hu=v2.routed_hand_geometry(layer,params(),tr,smpl_x.joint_idx,cam.world2camera_pytorch,(v,j,uv))
   residual=uv[bi]-bt
   body=(huber(uv[bi],bt).mean(1)*bw).mean()+.15*(residual.square().mean(1)*bw).mean()/10000
   wrist=huber(uv[wi],wg).mean()
   palm=torch.stack([huber(uv[ix],g).mean() for ix,g in zip(pis,pgs)]).mean()
-  loop=torch.stack([huber(cam.world2camera_pytorch(v[ix]),g).mean() for ix,g in zip(ids,goals)]).mean()
+  loop=torch.stack([huber(cam.world2camera_pytorch(hv[ix]),g).mean() for ix,g in zip(ids,goals)]).mean()
   priors=.003*(delta/caps[:,None]).square().mean()+.001*((tr-tr0)/t([.10,.10,.18])).square().mean()+.001*(gd/np.deg2rad(8)).square().mean()
-  return (4*hn.v2.observation(v,j,uv) if v2.enabled() else 4*body+4*wrist+1*palm)+5*loop+1.5*sil_loss(v,cam,data)+priors+hn.loss(v,uv)
+  return (4*hn.v2.observation(v,j,uv,hand_geometry=(hv,hj,hu)) if v2.enabled() else 4*body+4*wrist+1*palm)+5*loop+1.5*sil_loss(hv,cam,data)+priors+hn.loss(v,uv)
  def clip():
   delta.mul_(torch.minimum(torch.ones_like(caps),caps/delta.norm(dim=1).clamp_min(1e-8))[:,None]);gd.mul_(torch.clamp(t(np.deg2rad(8))/gd.norm().clamp_min(1e-8),max=1));tr[2].clamp_(.05,3)
  def violations(v,j,uv):return torch.cat([(torch.sqrt((uv[bi]-bt).square().sum(1).mean())-bodylimit+.01).reshape(1)/10,(.0205-v2.min_z(v)).reshape(1)/.02,(floor+1e-5-j[[12,13]].norm(dim=1))/.05,hn.violations(v)])

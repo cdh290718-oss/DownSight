@@ -84,6 +84,34 @@ def weighted_group(errors, weights, minimum_support=1.):
     return (errors*weights).sum()/weights.sum().clamp_min(minimum_support)
 
 
+def hand_stage():
+    mode = os.environ.get('EGOSMPLX_V2_HAND_STAGE', 'full')
+    if mode not in ('full', 'body_rigid', 'arm_routed'):
+        raise ValueError('Unknown hand-stage ablation mode: ' + mode)
+    return mode if enabled() else 'full'
+
+
+def routed_hand_geometry(layer, parameters, translation, joint_indices, project, fallback):
+    """Same geometry values; hand-target gradients reach arm rotations only.
+
+    Body/head objectives use the ordinary forward pass. Candidate ranking and
+    feasibility rejection can still couple objectives indirectly; global pose
+    is not frozen. All non-arm parameters are detached on this branch.
+    """
+    if hand_stage() != 'arm_routed' or not torch.is_grad_enabled():
+        return fallback
+    from egosmplx_pipeline.body_common import BODY_POSE_NAMES
+    body = parameters['body_pose'].reshape(21, 3)
+    mask = body.new_tensor([n.endswith(('_Collar', '_Shoulder', '_Elbow', '_Wrist'))
+                            for n in BODY_POSE_NAMES]).reshape(21, 1)
+    routed = {k: v.detach() for k, v in parameters.items()}
+    routed['body_pose'] = (body.detach()+(body-body.detach())*mask).reshape(1, -1)
+    output = layer(**routed)
+    vertices = output.vertices[0]+translation.detach()
+    joints = output.joints[0, joint_indices]+translation.detach()
+    return vertices, joints, project(joints)
+
+
 class Context:
     def __init__(self, lookup, camera, model, device='cpu'):
         self.active = enabled()
@@ -124,12 +152,17 @@ class Context:
         self.peer_R = self.tensor(self.data['peer_R'])
         self.peer_t = self.tensor(self.data['peer_t'])
 
-    def observation(self, vertices, joints, pixels):
+    def observation(self, vertices, joints, pixels, include_hands=True, hand_geometry=None):
         if not self.active:
             raise RuntimeError('v2 objective called in legacy mode')
         # Fixed group weights; every side and modality has its own denominator.
         err = torch.log1p(((pixels[self.body_ids]-self.body_xy)/20.).square().sum(-1))
         body, body_wrist = [weighted_group(err[ix], self.body_weights[ix]) for ix in self.body_groups]
+        if not include_hands:
+            self.last_terms = {'body_2d': body, 'sapiens_wrist_2d': body_wrist}
+            return .01*(body+body_wrist)
+        if hand_geometry is not None:
+            vertices, joints, _ = hand_geometry
         hand_joints = self.hand_regressor @ vertices
         # Anatomical wrist centers are used for wrist position constraints.
         hand_joints = hand_joints.clone()

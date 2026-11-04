@@ -123,7 +123,7 @@ def main():
         robust = F.smooth_l1_loss(residual, torch.zeros_like(residual), beta=.005, reduction='none').mean(1)
         reprojection = (robust * weights).sum() / weights.sum()
         if stereo.active:
-            reprojection = stereo.observation(mesh,joints,pixels)
+            reprojection = stereo.observation(mesh,joints,pixels,include_hands=v2.hand_stage() == 'full')
         prior_t = (((cam - cam0) / t([.25, .25, .50]))**2).mean()
         loss = reprojection + 1e-4 * prior_t + 2e-4 * delta.square().mean() + F.relu(.02 - v2.min_z(mesh)).square()
         if stereo.active:
@@ -187,7 +187,7 @@ def main():
         d = np.linalg.norm(pred - truth, axis=1)
         return dict(rmse_px=float(np.sqrt(np.mean(d**2))), mean_px=float(d.mean()), median_px=float(np.median(d)))
     report = dict(source_npz=str(a.source_npz.resolve()), image=str(a.image.resolve()), calibration=str(a.calibration.resolve()),
-                  sapiens2_keypoints=str(a.keypoints.resolve()), optimized_parameters=['global_orient', 'cam_trans'],
+                  sapiens2_keypoints=str(a.keypoints.resolve()), optimized_parameters=['global_orient', 'cam_trans'], hand_stage=v2.hand_stage(), rigid_wilor_targets_enabled=v2.hand_stage()=='full',
                   fixed_parameters=fixed_keys, fixed_parameters_bitwise_equal=True, network_was_rerun=False,
                   manual_labels_used_for_optimization=False, score_threshold=a.score_threshold,
                   score_weight='clip(score,0,1)^2; scores are not calibrated visibility probabilities',
