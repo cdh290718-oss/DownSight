@@ -58,4 +58,6 @@
 
 正式拟合十个进程均以状态 0 退出，全部重载检查通过；原体型、原有效身体目标索引及坐标、手部匹配/三角化观测、后端与模型资源摘要均通过核对。见 `evidence/execution.json`、`evidence/output_validation.json` 和 `evidence/source_and_input_validation.json`。运行时较窄支撑区的局部表面检查八视角通过、两视角未通过；不将重载通过等同于无穿插。`point_selection.json` 是运行前选点检查，完整运行状态以最终验收文件为准。
 
-三组比较网页待发布至：https://cdh290718-oss.github.io/egofishpose-demo/session-hand6-v2-no-margin-20261104/ 。工作区与静态页面检查已通过（`evidence/prepush-check.json`）；暂存和新增提交在实际推送前继续检查。结果保存到本轮证据与本地输出；只新增网页目录，保留旧页面。
+三组比较网页已发布并在线核验：[查看网页](https://cdh290718-oss.github.io/egofishpose-demo/session-hand6-v2-no-margin-20261104/)。工作区与静态页面检查已通过（`evidence/prepush-check.json`）；暂存和新增提交检查已通过，见 `evidence/first_commit_check.json`。结果保存到本轮证据与本地输出；只新增网页目录，保留旧页面。
+
+网页、指标 JSON 与全部 30 张图片均返回 HTTP 200，内容 SHA-256 与本地已审核资产一致。远端变更仅新增本轮目录，记录见 `evidence/publication_change_check.json` 和 `evidence/online_verification.json`。网页提交为 `54c05cef4c5fcc324bd85a5bc3055cfc243248e0`，完整结果首次发布于 DownSight `6b098bf3fbeaf6533e6d915cfef4456e5f3306fe`；后续提交仅补充发布记录和报告状态。
