@@ -1,0 +1,5 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 <BODY_PYTHON> -m pytest -q -p no:cacheprovider tests/test_hand_stage_ablation.py tests/test_v2_policy.py tests/test_core.py tests/test_guided_profile.py tests/test_head_neck.py tests/test_rigid_head_reference.py tests/test_shoulder_points.py",
+  "exit_status": 0,
+  "stdout": "31 passed in 0.94s"
+}

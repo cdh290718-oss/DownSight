@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "url": "https://cdh290718-oss.github.io/egofishpose-demo/session-hand6-hand-stage-ablation-20261104/",
+  "commit": "ac120d6128c2102c4407a70d87f5c6aa3b72b5e4",
+  "files": [
+    {
+      "path": "assets/new_001-cam3-A.jpg",
+      "http_status": 200,
+      "sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "expected_sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "bytes": 242410,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_001-cam3-B.jpg",
+      "http_status": 200,
+      "sha256": "3f8a88554ea576b5e9d16a93f2b5c5abc5130810a0d1f7b9e45056b10bf5f5e5",
+      "expected_sha256": "3f8a88554ea576b5e9d16a93f2b5c5abc5130810a0d1f7b9e45056b10bf5f5e5",
+      "bytes": 242565,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_001-cam3-C.jpg",
+      "http_status": 200,
+      "sha256": "2c01479460041a2cf9b837ac8ddf7bcce0c5a235a0b090d8f1fe28159f8c02d6",
+      "expected_sha256": "2c01479460041a2cf9b837ac8ddf7bcce0c5a235a0b090d8f1fe28159f8c02d6",
+      "bytes": 241890,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_001-cam4-A.jpg",
+      "http_status": 200,
+      "sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "expected_sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "bytes": 244353,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_001-cam4-B.jpg",
+      "http_status": 200,
+      "sha256": "8e146d8e5d985be29eacb6da3f9abf4f12d1b61a18e6f106c149b389dcd94f44",
+      "expected_sha256": "8e146d8e5d985be29eacb6da3f9abf4f12d1b61a18e6f106c149b389dcd94f44",
+      "bytes": 247567,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_001-cam4-C.jpg",
+      "http_status": 200,
+      "sha256": "37841eaa1e9fe65ee1157eaec7d54a799d53383ef1d02bf0851af93b9a30639e",
+      "expected_sha256": "37841eaa1e9fe65ee1157eaec7d54a799d53383ef1d02bf0851af93b9a30639e",
+      "bytes": 246462,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam3-A.jpg",
+      "http_status": 200,
+      "sha256": "e01e65c069fae3253daf2ce89872a50622cfb37d4014bcb3592bc2f659d80486",
+      "expected_sha256": "e01e65c069fae3253daf2ce89872a50622cfb37d4014bcb3592bc2f659d80486",
+      "bytes": 226167,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam3-B.jpg",
+      "http_status": 200,
+      "sha256": "40d097fefbd0b51e2befd1a585faacab9ef9f05fde80ba886361262f8d40e68e",
+      "expected_sha256": "40d097fefbd0b51e2befd1a585faacab9ef9f05fde80ba886361262f8d40e68e",
+      "bytes": 226150,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam3-C.jpg",
+      "http_status": 200,
+      "sha256": "86365c7c6e030d97dd53c0f8d85f87c27db3bf49ff8091d5a6cf799571f10e0a",
+      "expected_sha256": "86365c7c6e030d97dd53c0f8d85f87c27db3bf49ff8091d5a6cf799571f10e0a",
+      "bytes": 218621,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam4-A.jpg",
+      "http_status": 200,
+      "sha256": "8007b33c373f626de19af9ad81217fd1a5c5bae64d59749edd33b2f86188d97b",
+      "expected_sha256": "8007b33c373f626de19af9ad81217fd1a5c5bae64d59749edd33b2f86188d97b",
+      "bytes": 239031,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam4-B.jpg",
+      "http_status": 200,
+      "sha256": "4b6b61f9aecc09da54f0c06e250e611068e5c8a60c16882bacf68f8fdb1de36d",
+      "expected_sha256": "4b6b61f9aecc09da54f0c06e250e611068e5c8a60c16882bacf68f8fdb1de36d",
+      "bytes": 240410,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_022-cam4-C.jpg",
+      "http_status": 200,
+      "sha256": "288b44d771e18b0070c7a55b9c5638e84ce7da2d766e380c8ee9b28dfd189f17",
+      "expected_sha256": "288b44d771e18b0070c7a55b9c5638e84ce7da2d766e380c8ee9b28dfd189f17",
+      "bytes": 232577,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam3-A.jpg",
+      "http_status": 200,
+      "sha256": "ee0b839a636f9cbed5d5a682a3476b72ceebe69384553488429c5b00e15c23cb",
+      "expected_sha256": "ee0b839a636f9cbed5d5a682a3476b72ceebe69384553488429c5b00e15c23cb",
+      "bytes": 239928,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam3-B.jpg",
+      "http_status": 200,
+      "sha256": "1e7c90a8aed4d7f287003c73fe5a4e404bbf7bf714a8beea486e10677dea0e7b",
+      "expected_sha256": "1e7c90a8aed4d7f287003c73fe5a4e404bbf7bf714a8beea486e10677dea0e7b",
+      "bytes": 246045,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam3-C.jpg",
+      "http_status": 200,
+      "sha256": "917794f2b80e8f752b699b340372b69c1d9954701ceeea26fa5151c913c03a5c",
+      "expected_sha256": "917794f2b80e8f752b699b340372b69c1d9954701ceeea26fa5151c913c03a5c",
+      "bytes": 245936,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam4-A.jpg",
+      "http_status": 200,
+      "sha256": "cf5a99e7d6ddcff061c4ad829cf65b4267143d5a0b31ae44af704faa6e5a987b",
+      "expected_sha256": "cf5a99e7d6ddcff061c4ad829cf65b4267143d5a0b31ae44af704faa6e5a987b",
+      "bytes": 255879,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam4-B.jpg",
+      "http_status": 200,
+      "sha256": "979127cfac484d753da01e6c737eeea0980690d7b9424977009ccc4f10ae0e05",
+      "expected_sha256": "979127cfac484d753da01e6c737eeea0980690d7b9424977009ccc4f10ae0e05",
+      "bytes": 258743,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "assets/new_100-cam4-C.jpg",
+      "http_status": 200,
+      "sha256": "a2047e12e1ed5834989fa0b55d7dee47b9ad6dea59468464719a64c27b229bee",
+      "expected_sha256": "a2047e12e1ed5834989fa0b55d7dee47b9ad6dea59468464719a64c27b229bee",
+      "bytes": 256300,
+      "content_type": "image/jpeg"
+    },
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "sha256": "2bd2d8a57ab9f17827cb32f7080bfc32197a38770169df22d008e444198270b0",
+      "expected_sha256": "2bd2d8a57ab9f17827cb32f7080bfc32197a38770169df22d008e444198270b0",
+      "bytes": 32036,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "metrics.json",
+      "http_status": 200,
+      "sha256": "5b0578c5aa6a64c3c8e9145f72c5e3b88f5e4cd8a8bf1fd68de49b5254427f67",
+      "expected_sha256": "5b0578c5aa6a64c3c8e9145f72c5e3b88f5e4cd8a8bf1fd68de49b5254427f67",
+      "bytes": 707302,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "surface_checks.json",
+      "http_status": 200,
+      "sha256": "0920ff4b08a48f7229a9a5e8f7e653008844018ce5ce7dd602294c5333699559",
+      "expected_sha256": "0920ff4b08a48f7229a9a5e8f7e653008844018ce5ce7dd602294c5333699559",
+      "bytes": 19799,
+      "content_type": "application/json; charset=utf-8"
+    }
+  ]
+}

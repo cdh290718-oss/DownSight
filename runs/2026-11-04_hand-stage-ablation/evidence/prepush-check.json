@@ -1,0 +1,471 @@
+{
+  "passed": true,
+  "mode": "worktree",
+  "base": "d08ca4f736dfdf2284bf184d196e7e65a8a5339f",
+  "remote_main": "d08ca4f736dfdf2284bf184d196e7e65a8a5339f",
+  "scope": "Pending increment plus site; pre-existing untracked file scanned but excluded; no historical audit",
+  "failures": [],
+  "files": [
+    {
+      "path": "egosmplx_pipeline/body_pose.py",
+      "sha256": "302a21952c88da1a79bb4197150c4f54362f214743a93616cd6302dd6cf16b01",
+      "bytes": 15948,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/body_rigid.py",
+      "sha256": "7e4d240c1c1403b18862c61334cbf67abb4fe89fa406e5b72b4c15ccf15cdf5d",
+      "bytes": 14643,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/configuration.py",
+      "sha256": "53d05ce168c15665f710853e8b00773b7ef789d774014d495d7c2e212ffb9132",
+      "bytes": 5503,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/pipeline.py",
+      "sha256": "3b0d2c0ef5b914b7d4b13be0304b9964ef62451307f9fdb2766e905db484a9fb",
+      "bytes": 9456,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine.py",
+      "sha256": "f8c668f1d22509907b1718fccbe4f42d977e224acebdee1e3bdcc74d4beaeca4",
+      "bytes": 10481,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/reference/contour_refine_strong.py",
+      "sha256": "aa5f5bcaab31b1dfe02e5ede908b5f7d4a998a2508abcbe124001c51bb273aca",
+      "bytes": 10606,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/reference/guided_body.py",
+      "sha256": "9d5f8a64f84d4a8544c7a0b7cbc7f7009d9b0f97655955d3231859c95bcc528a",
+      "bytes": 12443,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/reference/wrist_refine.py",
+      "sha256": "147ad998d75adae5580c78b6e3193941fedcf448efa62e465267474d684e1761",
+      "bytes": 10075,
+      "publish": true
+    },
+    {
+      "path": "egosmplx_pipeline/v2_policy.py",
+      "sha256": "ce56817a3fcc22b38d2cb09c8dc27d945d7cde273dbb4139fa0d7d3f16e7fb24",
+      "bytes": 10292,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/brief.md",
+      "sha256": "c5c04c3875ab7719313e5cda06e37c2fed2a08c2f6415ab8406c7727f838f6fe",
+      "bytes": 1280,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/build_site.py",
+      "sha256": "c7385109018c0b5fa6c2e94419e9ad8bc7d1fa38e33f538ca08ea7d23a9059f5",
+      "bytes": 6626,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/check_publication.py",
+      "sha256": "2778ee2c5cc1d1d200e8d5942d35222546febdbda2edb00cbf31a67f595b7a93",
+      "bytes": 3383,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/collect_evidence.py",
+      "sha256": "c6e764e1bac9f0fd952db679c122211b68c1d3595947f890391fd9b03e327e9d",
+      "bytes": 5229,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evaluate.py",
+      "sha256": "2d812c37f198c1c4b5f80f297ef5b18cf6abbf1ef5cdf4472b06f87775dc09ad",
+      "bytes": 9778,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/execution_and_validation.json",
+      "sha256": "045fa84c95ee598ee1b3531924f0e5d23ef6d345eda2e304c0b302f49f8614b4",
+      "bytes": 225325,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/gradient_audit.json",
+      "sha256": "63e7ddd070c6d7b21bb960c6a1d4eec5867d59e0fca29071a5daef0f36831650",
+      "bytes": 5396,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/gradient_audit_C.json",
+      "sha256": "7422e92727fbe162cb0ca7b23c759d00e95470fbf581df5df5a8c26985538925",
+      "bytes": 5423,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/input_comparison.json",
+      "sha256": "474ba61bc66081f581a4f405e1cce1a90dba89bff169d95b8b22c27cf0bed24d",
+      "bytes": 2309,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/interruption.json",
+      "sha256": "869fd13ab590e3bcf6ac7675e357b9edd87c19bc54d27f73817a94a726c1a65d",
+      "bytes": 9457,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/largest_C_regression.json",
+      "sha256": "fc911755c4df8b71844cc970821f1e8c036ded53c750d7a0afff505801fda16d",
+      "bytes": 52253,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/metrics.json",
+      "sha256": "fbf68b30783ad9dc79ff761fbe624475a465f2fc11ff1206b9c9b55cc47da3e7",
+      "bytes": 732815,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/online_verification.json",
+      "sha256": "2580da7dd629158bf6e76da365d02acb2f92fbb1fd7e83bef8a6e5a89c9aa406",
+      "bytes": 6876,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/publication.json",
+      "sha256": "7626c143a0aef0762e291c5a6482ab4bf97aa0322c983e90d522918e364a5504",
+      "bytes": 4074,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/publication_errors.json",
+      "sha256": "bd4e5eec999b94e17e3a48db04a1a971efabd4c0848f5c510e8ebdbdf561fd9d",
+      "bytes": 410,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/staged-check.json",
+      "sha256": "2024a9c6519f6ceb5dbd4db0a4d5f667533b93d715cc2bd01cec5a62bfbeacb5",
+      "bytes": 15939,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/surface_checks.json",
+      "sha256": "0920ff4b08a48f7229a9a5e8f7e653008844018ce5ce7dd602294c5333699559",
+      "bytes": 19799,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/evidence/tests.json",
+      "sha256": "45ce6219040e189f8b90c6257a04bc6e8fec23d4b69c395bc9910f7fa9a406a3",
+      "bytes": 413,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/gradient_audit.py",
+      "sha256": "29a5094c83dfc54d0718988b14024f46e1dbcfc24565260dbd43b5ba030d591d",
+      "bytes": 3967,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/prepare.py",
+      "sha256": "67710bed3ee7fec204f89671cad92176f1ac8fe35c85ff8a3699f644032d2bb5",
+      "bytes": 1763,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/publish.py",
+      "sha256": "ed1795bb126de8e320b839b167d58e9f76f15056b8124f04bad4c9994d7c82ef",
+      "bytes": 3669,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/regression_trace.py",
+      "sha256": "97d786b99a2c82af03947b49f5fa4de84e5bdf38da628c20651d505778054ea5",
+      "bytes": 1447,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/report.md",
+      "sha256": "e89f80ff0a093e22ba27bdd17185431ddda4c0fb601044f91269ec2fbefaec3e",
+      "bytes": 12478,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/report_results.py",
+      "sha256": "4c2f7b144ce9b90c65a4d634cc652ae0ea7829cb67133419614895c9f6e8e5e8",
+      "bytes": 4682,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/resume_interrupted.py",
+      "sha256": "d58f9a7cbfb1edaf7f126432d2f289e8412f528b6fd5e4f46c22b12d78b6bf4d",
+      "bytes": 2567,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/review.md",
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d",
+      "bytes": 31,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam3-A.jpg",
+      "sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "bytes": 242410,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam3-B.jpg",
+      "sha256": "3f8a88554ea576b5e9d16a93f2b5c5abc5130810a0d1f7b9e45056b10bf5f5e5",
+      "bytes": 242565,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam3-C.jpg",
+      "sha256": "2c01479460041a2cf9b837ac8ddf7bcce0c5a235a0b090d8f1fe28159f8c02d6",
+      "bytes": 241890,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam4-A.jpg",
+      "sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "bytes": 244353,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam4-B.jpg",
+      "sha256": "8e146d8e5d985be29eacb6da3f9abf4f12d1b61a18e6f106c149b389dcd94f44",
+      "bytes": 247567,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_001-cam4-C.jpg",
+      "sha256": "37841eaa1e9fe65ee1157eaec7d54a799d53383ef1d02bf0851af93b9a30639e",
+      "bytes": 246462,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam3-A.jpg",
+      "sha256": "e01e65c069fae3253daf2ce89872a50622cfb37d4014bcb3592bc2f659d80486",
+      "bytes": 226167,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam3-B.jpg",
+      "sha256": "40d097fefbd0b51e2befd1a585faacab9ef9f05fde80ba886361262f8d40e68e",
+      "bytes": 226150,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam3-C.jpg",
+      "sha256": "86365c7c6e030d97dd53c0f8d85f87c27db3bf49ff8091d5a6cf799571f10e0a",
+      "bytes": 218621,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam4-A.jpg",
+      "sha256": "8007b33c373f626de19af9ad81217fd1a5c5bae64d59749edd33b2f86188d97b",
+      "bytes": 239031,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam4-B.jpg",
+      "sha256": "4b6b61f9aecc09da54f0c06e250e611068e5c8a60c16882bacf68f8fdb1de36d",
+      "bytes": 240410,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_022-cam4-C.jpg",
+      "sha256": "288b44d771e18b0070c7a55b9c5638e84ce7da2d766e380c8ee9b28dfd189f17",
+      "bytes": 232577,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam3-A.jpg",
+      "sha256": "ee0b839a636f9cbed5d5a682a3476b72ceebe69384553488429c5b00e15c23cb",
+      "bytes": 239928,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam3-B.jpg",
+      "sha256": "1e7c90a8aed4d7f287003c73fe5a4e404bbf7bf714a8beea486e10677dea0e7b",
+      "bytes": 246045,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam3-C.jpg",
+      "sha256": "917794f2b80e8f752b699b340372b69c1d9954701ceeea26fa5151c913c03a5c",
+      "bytes": 245936,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam4-A.jpg",
+      "sha256": "cf5a99e7d6ddcff061c4ad829cf65b4267143d5a0b31ae44af704faa6e5a987b",
+      "bytes": 255879,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam4-B.jpg",
+      "sha256": "979127cfac484d753da01e6c737eeea0980690d7b9424977009ccc4f10ae0e05",
+      "bytes": 258743,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/assets/new_100-cam4-C.jpg",
+      "sha256": "a2047e12e1ed5834989fa0b55d7dee47b9ad6dea59468464719a64c27b229bee",
+      "bytes": 256300,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/index.html",
+      "sha256": "2bd2d8a57ab9f17827cb32f7080bfc32197a38770169df22d008e444198270b0",
+      "bytes": 32036,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/metrics.json",
+      "sha256": "5b0578c5aa6a64c3c8e9145f72c5e3b88f5e4cd8a8bf1fd68de49b5254427f67",
+      "bytes": 707302,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/site/surface_checks.json",
+      "sha256": "0920ff4b08a48f7229a9a5e8f7e653008844018ce5ce7dd602294c5333699559",
+      "bytes": 19799,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_hand-stage-ablation/surface_summary.py",
+      "sha256": "a4c77178b9772629ea69b4e4201694edb6cbe91899576b5908b755a122a876da",
+      "bytes": 1349,
+      "publish": true
+    },
+    {
+      "path": "runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json",
+      "sha256": "f136afffbad48de733a22c4c2633788debc22890471154ea559a8491fff713a3",
+      "bytes": 25663,
+      "publish": false
+    },
+    {
+      "path": "tests/test_hand_stage_ablation.py",
+      "sha256": "de624febdfd94d3e718f4f086447533a0626508cfd2f37e9c52bde9ec1c89420",
+      "bytes": 2346,
+      "publish": true
+    }
+  ],
+  "site": [
+    {
+      "path": "assets/new_001-cam3-A.jpg",
+      "sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "bytes": 242410
+    },
+    {
+      "path": "assets/new_001-cam3-B.jpg",
+      "sha256": "3f8a88554ea576b5e9d16a93f2b5c5abc5130810a0d1f7b9e45056b10bf5f5e5",
+      "bytes": 242565
+    },
+    {
+      "path": "assets/new_001-cam3-C.jpg",
+      "sha256": "2c01479460041a2cf9b837ac8ddf7bcce0c5a235a0b090d8f1fe28159f8c02d6",
+      "bytes": 241890
+    },
+    {
+      "path": "assets/new_001-cam4-A.jpg",
+      "sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "bytes": 244353
+    },
+    {
+      "path": "assets/new_001-cam4-B.jpg",
+      "sha256": "8e146d8e5d985be29eacb6da3f9abf4f12d1b61a18e6f106c149b389dcd94f44",
+      "bytes": 247567
+    },
+    {
+      "path": "assets/new_001-cam4-C.jpg",
+      "sha256": "37841eaa1e9fe65ee1157eaec7d54a799d53383ef1d02bf0851af93b9a30639e",
+      "bytes": 246462
+    },
+    {
+      "path": "assets/new_022-cam3-A.jpg",
+      "sha256": "e01e65c069fae3253daf2ce89872a50622cfb37d4014bcb3592bc2f659d80486",
+      "bytes": 226167
+    },
+    {
+      "path": "assets/new_022-cam3-B.jpg",
+      "sha256": "40d097fefbd0b51e2befd1a585faacab9ef9f05fde80ba886361262f8d40e68e",
+      "bytes": 226150
+    },
+    {
+      "path": "assets/new_022-cam3-C.jpg",
+      "sha256": "86365c7c6e030d97dd53c0f8d85f87c27db3bf49ff8091d5a6cf799571f10e0a",
+      "bytes": 218621
+    },
+    {
+      "path": "assets/new_022-cam4-A.jpg",
+      "sha256": "8007b33c373f626de19af9ad81217fd1a5c5bae64d59749edd33b2f86188d97b",
+      "bytes": 239031
+    },
+    {
+      "path": "assets/new_022-cam4-B.jpg",
+      "sha256": "4b6b61f9aecc09da54f0c06e250e611068e5c8a60c16882bacf68f8fdb1de36d",
+      "bytes": 240410
+    },
+    {
+      "path": "assets/new_022-cam4-C.jpg",
+      "sha256": "288b44d771e18b0070c7a55b9c5638e84ce7da2d766e380c8ee9b28dfd189f17",
+      "bytes": 232577
+    },
+    {
+      "path": "assets/new_100-cam3-A.jpg",
+      "sha256": "ee0b839a636f9cbed5d5a682a3476b72ceebe69384553488429c5b00e15c23cb",
+      "bytes": 239928
+    },
+    {
+      "path": "assets/new_100-cam3-B.jpg",
+      "sha256": "1e7c90a8aed4d7f287003c73fe5a4e404bbf7bf714a8beea486e10677dea0e7b",
+      "bytes": 246045
+    },
+    {
+      "path": "assets/new_100-cam3-C.jpg",
+      "sha256": "917794f2b80e8f752b699b340372b69c1d9954701ceeea26fa5151c913c03a5c",
+      "bytes": 245936
+    },
+    {
+      "path": "assets/new_100-cam4-A.jpg",
+      "sha256": "cf5a99e7d6ddcff061c4ad829cf65b4267143d5a0b31ae44af704faa6e5a987b",
+      "bytes": 255879
+    },
+    {
+      "path": "assets/new_100-cam4-B.jpg",
+      "sha256": "979127cfac484d753da01e6c737eeea0980690d7b9424977009ccc4f10ae0e05",
+      "bytes": 258743
+    },
+    {
+      "path": "assets/new_100-cam4-C.jpg",
+      "sha256": "a2047e12e1ed5834989fa0b55d7dee47b9ad6dea59468464719a64c27b229bee",
+      "bytes": 256300
+    },
+    {
+      "path": "index.html",
+      "sha256": "2bd2d8a57ab9f17827cb32f7080bfc32197a38770169df22d008e444198270b0",
+      "bytes": 32036
+    },
+    {
+      "path": "metrics.json",
+      "sha256": "5b0578c5aa6a64c3c8e9145f72c5e3b88f5e4cd8a8bf1fd68de49b5254427f67",
+      "bytes": 707302
+    },
+    {
+      "path": "surface_checks.json",
+      "sha256": "0920ff4b08a48f7229a9a5e8f7e653008844018ce5ce7dd602294c5333699559",
+      "bytes": 19799
+    }
+  ]
+}

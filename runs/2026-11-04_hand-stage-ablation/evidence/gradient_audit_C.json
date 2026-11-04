@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "parameter_group": "C",
+  "views": [
+    {
+      "frame": "s001_cam3_f00001711",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.11508181691169739,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 1587.9188232421875,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 271017.1875,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.13953609764575958,
+      "body_global_orient_gradient_norm": 0.013556488789618015
+    },
+    {
+      "frame": "s001_cam4_f00001701",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.10824042558670044,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 2032.717529296875,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 250838.921875,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.11104274541139603,
+      "body_global_orient_gradient_norm": 0.011234420351684093
+    },
+    {
+      "frame": "s022_cam3_f00001834",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.06710907816886902,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 3341.17822265625,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 476969.78125,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.07379766553640366,
+      "body_global_orient_gradient_norm": 0.0159806739538908
+    },
+    {
+      "frame": "s022_cam4_f00001824",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.08341538906097412,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 2914.761962890625,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 411330.09375,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.05501428619027138,
+      "body_global_orient_gradient_norm": 0.007510120049118996
+    },
+    {
+      "frame": "s100_cam3_f00002299",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.1629103273153305,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 1772.06689453125,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 421132.09375,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.17051145434379578,
+      "body_global_orient_gradient_norm": 0.040166907012462616
+    },
+    {
+      "frame": "s100_cam4_f00002281",
+      "forward_bitwise_equal": true,
+      "objective_value_equal": true,
+      "hand_observation": {
+        "arm_gradient_norm": 0.14756593108177185,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "wrist_constraint": {
+        "arm_gradient_norm": 2864.5654296875,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "hand_vertex_projection": {
+        "arm_gradient_norm": 342168.53125,
+        "nonarm_gradient_norm": 0.0,
+        "global_orient_gradient_norm": 0.0,
+        "translation_gradient_norm": 0.0
+      },
+      "body_translation_gradient_norm": 0.12193997949361801,
+      "body_global_orient_gradient_norm": 0.02882617898285389
+    }
+  ],
+  "scope": "Actual SMPL-X and fisheye direct gradients; does not eliminate indirect candidate selection or rejection coupling"
+}

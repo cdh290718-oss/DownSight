@@ -1,0 +1,16 @@
+[
+  {
+    "path": "repos/cdh290718-oss/egofishpose-demo/git/blobs",
+    "method": "POST",
+    "exit_status": 1,
+    "stderr": "gh: Server Error (HTTP 502)",
+    "phase": "initial upload; failed before tree/commit/ref update"
+  },
+  {
+    "path": "repos/cdh290718-oss/egofishpose-demo/git/blobs",
+    "method": "POST",
+    "exit_status": 1,
+    "stderr": "gh: Server Error (HTTP 502)\n",
+    "attempt": 1
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "frame": "s100_cam3_f00002299",
+    "reason": "Conversation turn aborted; executor session disappeared and no worker process remained",
+    "interrupted_exit_status": null,
+    "last_logs": {
+      "reference.log": [
+        "RUN 01_wrist.log",
+        "RUN 02_wrist_active.log",
+        "RUN 03_wrist_surface.log",
+        "RUN 04_contour_standard.log",
+        "RUN 05_contour_strong.log"
+      ],
+      "s100_cam3_f00002299.log": [
+        "  }",
+        "}",
+        "FRAME_COMPLETE s100_cam3_f00002299 68.52421569824219 7.560229254048201",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn("
+      ],
+      "reference/02_wrist_active.log": [
+        "DONE s100_cam3_f00002299 [5.395981198231886, 5.257175614758501]",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn(",
+        "<WORKSPACE>/DownSight/egosmplx_pipeline/reference/wrist_refine.py:19: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)",
+        "  t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)"
+      ],
+      "reference/01_wrist.log": [
+        "DONE s100_cam3_f00002299 [6.192242418737083, 6.075718767462773]",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn(",
+        "<WORKSPACE>/DownSight/egosmplx_pipeline/reference/wrist_refine.py:19: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)",
+        "  t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)"
+      ],
+      "reference/04_contour_standard.log": [
+        "DONE s100_cam3_f00002299 [6.810192266658766, 6.289441688374696]",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn(",
+        "<WORKSPACE>/DownSight/egosmplx_pipeline/reference/contour_refine.py:20: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)",
+        "  t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)"
+      ],
+      "reference/05_contour_strong.log": [
+        "WARNING: You are using a SMPL model, with only 10 shape coefficients.",
+        "s100_cam3_f00002299 0 wrist [5.989999771118164, 8.229999542236328] rejects 0",
+        "s100_cam3_f00002299 100 wrist [8.399999618530273, 5.300000190734863] rejects 9"
+      ],
+      "reference/03_wrist_surface.log": [
+        "WARNING: You are using a SMPL model, with only 10 shape coefficients.",
+        "SEAM s100_cam3_f00002299 {'left': (True, 0.25, 0.107, 0.074), 'right': (True, 0.5, 0.114, 0.059)}",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn("
+      ]
+    }
+  },
+  {
+    "frame": "s100_cam4_f00002281",
+    "reason": "Conversation turn aborted; executor session disappeared and no worker process remained",
+    "interrupted_exit_status": null,
+    "last_logs": {
+      "reference.log": [
+        "RUN 01_wrist.log",
+        "RUN 02_wrist_active.log",
+        "RUN 03_wrist_surface.log",
+        "RUN 04_contour_standard.log"
+      ],
+      "s100_cam4_f00002281.log": [
+        "  }",
+        "}",
+        "FRAME_COMPLETE s100_cam4_f00002281 61.481319427490234 9.688446616353497",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn("
+      ],
+      "reference/02_wrist_active.log": [
+        "DONE s100_cam4_f00002281 [10.880169484490455, 4.640467530726334]",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn(",
+        "<WORKSPACE>/DownSight/egosmplx_pipeline/reference/wrist_refine.py:19: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)",
+        "  t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)"
+      ],
+      "reference/01_wrist.log": [
+        "DONE s100_cam4_f00002281 [10.880169484490455, 4.640467530726334]",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn(",
+        "<WORKSPACE>/DownSight/egosmplx_pipeline/reference/wrist_refine.py:19: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)",
+        "  t=lambda x:torch.as_tensor(x,dtype=torch.float32,device=dev)"
+      ],
+      "reference/04_contour_standard.log": [
+        "WARNING: You are using a SMPL model, with only 10 shape coefficients.",
+        "s100_cam4_f00002281 0 wrist [13.869999885559082, 4.429999828338623] rejects 0",
+        "s100_cam4_f00002281 100 wrist [13.880000114440918, 4.329999923706055] rejects 40",
+        "s100_cam4_f00002281 200 wrist [13.880000114440918, 4.320000171661377] rejects 139"
+      ],
+      "reference/03_wrist_surface.log": [
+        "WARNING: You are using a SMPL model, with only 10 shape coefficients.",
+        "SEAM s100_cam4_f00002281 {'left': (False, None, 0.12, 0.12), 'right': (False, None, 0.118, 0.118)}",
+        "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+        "  warnings.warn("
+      ]
+    }
+  }
+]
