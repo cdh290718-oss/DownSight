@@ -3,20 +3,43 @@ import torch
 from egosmplx_pipeline import v2_policy as v2
 
 
-def test_edge_exemptions_and_legacy(monkeypatch):
+def test_no_border_exclusion_and_legacy(monkeypatch):
     q = dict(x=20, y=100, score=.9)
     monkeypatch.setenv('EGOSMPLX_V2', '1')
     assert v2.body_allowed('nose', q)
     assert v2.body_allowed('left_hip', q)
     assert v2.body_allowed('right_knee', q)
     assert v2.body_allowed('left_ankle', q)
-    assert not v2.body_allowed('left_wrist', q)
-    assert not v2.body_allowed('right_elbow', dict(q, x=40))
+    assert v2.body_allowed('left_shoulder', q)
+    assert v2.body_allowed('left_wrist', q)
+    assert v2.body_allowed('right_elbow', dict(q, x=40))
     assert v2.body_allowed('right_elbow', dict(q, x=41))
+    assert v2.body_allowed('right_shoulder', dict(q, x=0, y=719))
+    assert not v2.body_allowed('nose', dict(q, x=-1))
+    assert not v2.body_allowed('left_hip', dict(q, y=720))
     assert v2.wrist_fraction() == 0
     monkeypatch.delenv('EGOSMPLX_V2')
     assert v2.body_allowed('left_wrist', q)
     assert v2.wrist_fraction() == .85
+
+
+def test_hand_and_wrist_keep_valid_border_points(monkeypatch):
+    monkeypatch.setenv('EGOSMPLX_V2', '1')
+    xy = np.array([[0., 0.], [20., 700.], [1279., 719.],
+                   [-1., 10.], [1280., 10.], [10., 720.], [np.nan, 10.]])
+    expected = np.array([True, True, True, False, False, False, False])
+    assert np.array_equal(v2.in_image(xy), expected)
+    assert np.array_equal(v2.wrist_mask(torch.tensor(xy)).numpy(), expected)
+    pred = xy.copy(); pred[0, 0] += 3
+    assert np.isclose(v2.hand_rmse(pred, xy), np.sqrt(3.))
+
+
+def test_rejects_cached_border_filtered_stereo(monkeypatch, tmp_path):
+    import pytest
+    monkeypatch.setenv('EGOSMPLX_V2', '1')
+    path = tmp_path/'old_context.json'; path.write_text('{}')
+    with pytest.raises(ValueError, match='regenerate stereo observations'):
+        v2.Context({'_v2_context': {'path': str(path)}}, None, None)
 
 
 def test_depth_mask_excludes_only_head_and_neck(monkeypatch):

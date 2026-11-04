@@ -19,15 +19,23 @@ EXEMPT = {'nose', 'left_hip', 'right_hip', 'left_knee', 'right_knee',
 
 
 def interior(xy, size=(1280, 720), margin=40):
+    """Historical v2 report mask only; current fitting uses in_image."""
     xy = np.asarray(xy)
     return (np.isfinite(xy).all(axis=-1) & (xy[..., 0] > margin)
             & (xy[..., 0] < size[0]-margin) & (xy[..., 1] > margin)
             & (xy[..., 1] < size[1]-margin))
 
 
+def in_image(xy, size=(1280, 720)):
+    xy = np.asarray(xy)
+    return (np.isfinite(xy).all(axis=-1) & (xy[..., 0] >= 0)
+            & (xy[..., 0] < size[0]) & (xy[..., 1] >= 0)
+            & (xy[..., 1] < size[1]))
+
+
 def body_allowed(name, point, size=(1280, 720)):
-    return (not enabled() or name in EXEMPT
-            or bool(interior([point['x'], point['y']], size)))
+    # Confidence is checked by each caller; no extra border exclusion.
+    return not enabled() or bool(in_image([point['x'], point['y']], size))
 
 
 @lru_cache(maxsize=1)
@@ -57,7 +65,7 @@ def wrist_fraction():
 
 
 def hand_rmse(prediction, target):
-    mask = interior(target) if enabled() else np.ones(len(target), bool)
+    mask = in_image(target) if enabled() else np.ones(len(target), bool)
     if not mask.any():
         return 0.  # No optimization contribution; evaluator records missing as null.
     return float(np.sqrt(np.mean(np.sum((prediction[mask]-target[mask])**2, axis=-1))))
@@ -66,8 +74,9 @@ def hand_rmse(prediction, target):
 def wrist_mask(target):
     if not enabled():
         return torch.ones(target.shape[0], device=target.device, dtype=target.dtype)
-    return ((target[:, 0] > 40) & (target[:, 0] < 1240)
-            & (target[:, 1] > 40) & (target[:, 1] < 680)).to(target.dtype)
+    return (torch.isfinite(target).all(dim=-1)
+            & (target[:, 0] >= 0) & (target[:, 0] < 1280)
+            & (target[:, 1] >= 0) & (target[:, 1] < 720)).to(target.dtype)
 
 
 def weighted_group(errors, weights, minimum_support=1.):
@@ -87,6 +96,8 @@ class Context:
             raise ValueError('v2 requires frozen stereo observations; refusing silent fallback')
         with open(metadata['path']) as stream:
             self.data = json.load(stream)
+        if self.data.get('point_filter') != 'in_image_no_margin':
+            raise ValueError('v2 border policy changed: regenerate stereo observations with in_image_no_margin')
         self.camera = camera
         self.tensor = lambda a: torch.as_tensor(a, device=device, dtype=torch.float32)
         self.ji = {n: i for i, n in enumerate(model.joints_name)}

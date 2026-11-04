@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 from scipy.optimize import least_squares
 from egosmplx_pipeline.camera import FishEyeCameraCalibrated as Camera
-from egosmplx_pipeline.v2_policy import interior
+from egosmplx_pipeline.v2_policy import in_image
 
 def read(p):return json.loads(Path(p).read_text())
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -44,7 +44,7 @@ def main():
    for si,side in enumerate(('left','right')):
     if side not in match:continue
     q=match[side];xy[si]=w['joints_2d'][q['candidate']];confidence=float(q['confidence'])
-    weight[si]=interior(xy[si],cams[0].img_size)*confidence**2
+    weight[si]=in_image(xy[si],cams[0].img_size)*confidence**2
     # Retain the frozen assignment for fusion; conflicted hands cannot provide stereo 3D.
    observations.append(xy);weights.append(weight)
   tri=np.zeros((2,21,3));cov=np.zeros((2,21,3,3));tw=np.zeros((2,21))
@@ -53,7 +53,7 @@ def main():
    for j in range(21):
     rec={'pair':pair['id'],'side':side,'joint':j,'accepted':False}
     if not agrees:rec['reason']='missing_or_conflicted_identity'
-    elif min(weights[0][si,j],weights[1][si,j])<=0:rec['reason']='edge_or_missing_2d'
+    elif min(weights[0][si,j],weights[1][si,j])<=0:rec['reason']='outside_or_missing_2d'
     else:
      rec.update(triangulate(cams,R,t,[xy[si,j] for xy in observations]))
      if rec['accepted']:
@@ -64,7 +64,7 @@ def main():
    if c:points=points@R.T+t
    for si,j in zip(*np.where(tw>0)):
     C=R@cov[si,j]@R.T if c else cov[si,j];e,v=np.linalg.eigh(C);whiten[si,j]=(v*(1/np.sqrt(e)))@v.T
-   write(context,dict(pair=pair['id'],frame=frame['id'],matches=matches[c],hand_xy=observations[c].tolist(),hand_weights=weights[c].tolist(),tri=points.tolist(),whiten=whiten.tolist(),tri_weights=tw.tolist(),peer_calibration=frames[1-c]['calibration'],peer_R=(R.T if c else R).tolist(),peer_t=(-R.T@t if c else t).tolist(),timestamp_difference_seconds=pair['timestamp_difference_seconds']))
+   write(context,dict(point_filter='in_image_no_margin',pair=pair['id'],frame=frame['id'],matches=matches[c],hand_xy=observations[c].tolist(),hand_weights=weights[c].tolist(),tri=points.tolist(),whiten=whiten.tolist(),tri_weights=tw.tolist(),peer_calibration=frames[1-c]['calibration'],peer_R=(R.T if c else R).tolist(),peer_t=(-R.T@t if c else t).tolist(),timestamp_difference_seconds=pair['timestamp_difference_seconds']))
    sap=read(frame['predictions']['sapiens']);sap['keypoints'].append(dict(name='_v2_context',path=str(context.resolve())))
    target=a.out/'sapiens'/(frame['id']+'.json');write(target,sap)
    row=dict(id=frame['id'],camera=frame['camera'],image=frame['image'],calibration=frame['calibration'],predictions=dict(frame['predictions']))

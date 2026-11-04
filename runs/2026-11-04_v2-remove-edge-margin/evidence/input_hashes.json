@@ -1,0 +1,146 @@
+{
+  "manifest_sha256": "26e75d0ad8ad7035ab397cb8f417401548214423d840ec6c86e3b88e10efc1c3",
+  "stereo_calibration_sha256": "5a1ccff108ced626873055c0c4bd8a3c33b13c100622f9366d5d7971dfd27f3f",
+  "inputs": [
+    {
+      "pair": "old_011",
+      "id": "cam3_f00000932",
+      "camera": "cam3",
+      "hashes": {
+        "image": "e0d6edfd43e9d1104d1cce5983686e5feda5c96e4f8641be346516bccbca14cc",
+        "body": "8330a4e641c7f5984476aabd537c4ec323ba81915d1ce0efe094f2a47171f4fd",
+        "mesh": "4c4150527b83b5f4ff8802523320a6769007a37d097d115c7d1079a06ab9b35e",
+        "recipe": "89169fff57039cf82bb346d417022111da15f80dc4ea1bc42fa4a30a5b43afcc",
+        "sapiens": "1e5fdd9c89e193cd164dd5f81aaa67104f756dfddab52e93055bd568f83917d7",
+        "wilor": "302f5c7184d613716919990572b820e3dd769abba7053563766b35ba30e34a59",
+        "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b"
+      }
+    },
+    {
+      "pair": "old_011",
+      "id": "cam4_f00000928",
+      "camera": "cam4",
+      "hashes": {
+        "image": "e5dd27a94746275bfaf6b4b0b3b888e67b845ca053f352a5e45c6ddb521ff947",
+        "body": "239a99cb8765cb8c98a95f9b41368bc4e2340304382a2783f5b91cb038ba9c5d",
+        "mesh": "767f92c84b1af7dfe13339044272d834871e5e1527ee6babe9cc51ee7c35002c",
+        "recipe": "6776bfba73f39ce3fc809d0cf878bfc5d923ac3410b11bb3963e282c8d3cd021",
+        "sapiens": "1e7639cbc8977b4c2a42a9992052652367994b3a5e1864dfa5cb4de821646ddf",
+        "wilor": "ea150975929a0f0941c08327badd54fa011861953b5046ce410e60232e75fbda",
+        "calibration": "3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3"
+      }
+    },
+    {
+      "pair": "old_012",
+      "id": "cam3_f00001018",
+      "camera": "cam3",
+      "hashes": {
+        "image": "1c768eeb94e95e477dea561abbaff31cfee3ca4cea224364bce3f1622e10b4a5",
+        "body": "a3b41708f6a40009c104e5ea0dfd5abdf9086b56bc77855446a0091374efabda",
+        "mesh": "da9760140bf35fee3961b89feebf57e616a9e20f788bea87289a061417266e55",
+        "recipe": "4692f6150fbc1b753fc8716aaca4a2a5849913736ea35bd4bde49b64530c08e3",
+        "sapiens": "a1d4be566445db29f106a128808e3a32441a0c8efd6f570ebf684201911ddd17",
+        "wilor": "ead3c0d7c2bfb5218994086edd2ef67ff7683762a6a5a0fafc60290727ef46d3",
+        "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b"
+      }
+    },
+    {
+      "pair": "old_012",
+      "id": "cam4_f00001014",
+      "camera": "cam4",
+      "hashes": {
+        "image": "a73d9ab023ff3b3d96a340cbb09065a1c7a2c9be6124895887b0ceaae55e3778",
+        "body": "b574306085457ba255575bdcf517cd79d42a85e41ae540249f64dbe35234d6d9",
+        "mesh": "724d691dfb13d8640401be87b50c7f6369cb186e86a9476fe41e6067007a6467",
+        "recipe": "f7cd8091638862d1fc6fc0ef2a6488cc06e207cf391178339cd322789bab70a0",
+        "sapiens": "8931b89df72b4d74eee4534887fcc03adf93e2f66bd4b9902de60e5352b0952b",
+        "wilor": "f9e1c0412d53514c371ca8997fc9bb1935ad2b59b7de40dcb65021dcd9ab9cc8",
+        "calibration": "3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3"
+      }
+    },
+    {
+      "pair": "new_001",
+      "id": "s001_cam3_f00001711",
+      "camera": "cam3",
+      "hashes": {
+        "image": "5422b0a6dce29de8e2e0f3b912705617e111ec5a597e8c48bd36d875ec3417ff",
+        "body": "2fe6c77bbd3b79e49f7cd7ef918ba7660d09c23bb1300fef05c6ce0d96a4c13b",
+        "mesh": "7a627313713bd244a36c915e3b0d1806f74db5d7f4551916f14a10f69101f17b",
+        "recipe": "43990888573a065507e122c67ca2570205466996d8a326348e7c6ab2ccd22077",
+        "sapiens": "29e61bc071cd21376647715ddfd6bcf2277031e55ec1c93e922fb69b5959d4e4",
+        "wilor": "3a8d68e4331443566b213a64dd1c3b5d0ada6b248c2df3961b069bc8e1e8658f",
+        "calibration": "ab07a76ac2a39068e297e6f598fc13d5ceb1e7830e818b1bae4ac2cf8294239c"
+      }
+    },
+    {
+      "pair": "new_001",
+      "id": "s001_cam4_f00001701",
+      "camera": "cam4",
+      "hashes": {
+        "image": "2e2e1f0592e1c571e5f46bf86c81e6ce9a96375dc516e6a9a4e7ff015ae401d0",
+        "body": "555c6ee0638bec2dcfd4bb9328396e5429e6f9487cfb6c278d7ad35222bf9ae8",
+        "mesh": "6d6fc58d60f3c0d7fb99476da31fed647ff580aeaf168ce09c41277969164f46",
+        "recipe": "2637366c9d25b52ec6c4a5d5695311867765843df433c0035da2bf11129445fc",
+        "sapiens": "4f5cc66eb39cc93db8fde4512e1dec908e8ce88cfff1eecb997fef5a7d95c25d",
+        "wilor": "fc97316a708d9035ba72ca93d1de2b7c0c62c4f2469c562413f14324b6e73235",
+        "calibration": "4c8e077d3fde81bac1fdcc690ee178c181cdd498a9070f915516b91c123645c4"
+      }
+    },
+    {
+      "pair": "new_022",
+      "id": "s022_cam3_f00001834",
+      "camera": "cam3",
+      "hashes": {
+        "image": "ccc0852af4b5bd0eb2aceb2f4bfef982c136c07b5c7ec4c2922c78aa3e170617",
+        "body": "c54bf0f821591e092708f3ca81a2c304f344f8592479ee7e82b4a23efcab121e",
+        "mesh": "49f70797246e4401f023176090cd8409c23d69783230862531378ea838b912da",
+        "recipe": "f5680ed2fa8a0bbb1eac493830b34d86e5c59ebee67da0d6ad0690b467622b41",
+        "sapiens": "a7c62bcefdef8d314c683759073f0c460e72144041441bd2d9ac01334f0c9dc5",
+        "wilor": "a57c594ed8b92da3d539636e2edb1490971ada6585761cb0d808c4495e8a1e27",
+        "calibration": "ab07a76ac2a39068e297e6f598fc13d5ceb1e7830e818b1bae4ac2cf8294239c"
+      }
+    },
+    {
+      "pair": "new_022",
+      "id": "s022_cam4_f00001824",
+      "camera": "cam4",
+      "hashes": {
+        "image": "4c7b15de667e0533c55cf02c627ecdbc18e03ada2ac4dee8633ae0b3f8f62c9a",
+        "body": "c6abfaaa5048ba15e158be3b1e44ab82e1d4286c18f51e14e34a1a931abc8984",
+        "mesh": "d7de5dbc1839a2308075b6da659b5c81c249ee236216d8afbc44f630baa204d0",
+        "recipe": "7e2b57d4e11fd520c91f261d2da1ad7d67c02ee15f938821b042aea487574a4a",
+        "sapiens": "7ed8748caab4464fbee06a5e83279e4a4ace40e4d2419e527f1e43b68d319e42",
+        "wilor": "43ea28f524d755b179be4ad8ebf640effb9fbf744b4987470c57a7ff49361e0c",
+        "calibration": "4c8e077d3fde81bac1fdcc690ee178c181cdd498a9070f915516b91c123645c4"
+      }
+    },
+    {
+      "pair": "new_100",
+      "id": "s100_cam3_f00002299",
+      "camera": "cam3",
+      "hashes": {
+        "image": "12fc5bfd4f3cb3527d487e3940d78608193e70e4f3f99d406536b3e4d40f13bc",
+        "body": "cfc3d0c2ebede4f2c25fa7c3d3aa8f1bbe0d6976d1a7e3f3dbee2c7948886949",
+        "mesh": "a2cb8110df0faf10e4b18f3c8d7d1a9beb09d02c74931789cb6ec416648ee4c7",
+        "recipe": "6dfa9e0c6f1d925c4e711808befb68614bf42eeb5d137cae6781fa229eaf6912",
+        "sapiens": "3ddd9597b3923589030273fa2cb8facdb9309812980e4e79b7d3881cf535681a",
+        "wilor": "9ae911d1bc9bbec47d416707431bbd03a0b4712acfedb48023e38c32876328f2",
+        "calibration": "ab07a76ac2a39068e297e6f598fc13d5ceb1e7830e818b1bae4ac2cf8294239c"
+      }
+    },
+    {
+      "pair": "new_100",
+      "id": "s100_cam4_f00002281",
+      "camera": "cam4",
+      "hashes": {
+        "image": "f0cdbfd96651179652be0412fce744f9a37e786725c7871e4bed852317cb8036",
+        "body": "5591a6005a688b3917023fdf4d27a31d84f8f5f0923b689df85e0b4724fd7a0f",
+        "mesh": "21b300a6d6181b7f03e57f76da0b57a73db57e1968e7555278df98e43bdb1ed1",
+        "recipe": "611b2cd6cd76fdd08f57439e271c4ea3aa80728f55b18da3427314f349151d91",
+        "sapiens": "52bbdef87b28bf900a9d4e9406578e424d80ca73837852a51b002dc1d268fc1c",
+        "wilor": "35535dba01ff5a9f8ac9ae7a86ce0c1b88f8e311dbfe4712a156676ce93ce724",
+        "calibration": "4c8e077d3fde81bac1fdcc690ee178c181cdd498a9070f915516b91c123645c4"
+      }
+    }
+  ]
+}

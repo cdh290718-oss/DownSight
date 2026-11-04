@@ -1,0 +1,27 @@
+{
+  "base_commit": "98ae068a82136c2816cca8c7b50d972e86caeb75",
+  "worktree_modified": true,
+  "source_sha256": {
+    "egosmplx_pipeline/v2_policy.py": "ba5ece63269bb5b5d65b29435d38d3d876bf28c9aeb132b743b284fe49dd6f64",
+    "runs/2026-11-04_session-hand6-v2/code/prepare.py": "49732c8d5eb78edf142849401f15d911e0e3de6c5f0de8d624af33965c12d88d",
+    "tests/test_v2_policy.py": "40c56b0048cdedf781a392a7e66e538adf2b7f567d9bcc6c5670a5186859f4f9",
+    "runs/2026-11-04_v2-remove-edge-margin/code/check_points.py": "ccf4334ce9c03230c5159cddca1b0002ac522d5839769856cc06a360bce41515"
+  },
+  "commands": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <PYTHON> -m pytest tests -q -p no:cacheprovider",
+      "exit_status": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <PYTHON> runs/2026-11-04_session-hand6-v2/code/prepare.py --archive <ARCHIVE> --out outputs/v2_remove_edge_margin_20261104/prepared --evidence runs/2026-11-04_v2-remove-edge-margin/evidence",
+      "exit_status": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <PYTHON> runs/2026-11-04_v2-remove-edge-margin/code/check_points.py --inputs outputs/v2_remove_edge_margin_20261104/prepared/inputs.json --previous-inputs outputs/session_hand6_v2_20261104/prepared/inputs.json --out runs/2026-11-04_v2-remove-edge-margin/evidence/point_selection.json",
+      "exit_status": 0
+    }
+  ],
+  "python": "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8",
+  "archive_id": "session_hand6_stereo_joint_currentcalib_20261025_v2",
+  "full_fitting_rerun": false
+}
