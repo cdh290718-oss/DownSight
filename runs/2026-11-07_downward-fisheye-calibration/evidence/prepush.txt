@@ -1,0 +1,31 @@
+HEAD and remote main: db6f68e315e4cf1074e1f31d3041cdffc6656f5a match=true
+Local commits ahead of remote: 0
+Worktree and staged status:
+A  calibration/downward_fisheye_camera/README.md
+R  calibration/session_hand6_head01_100/cam3_left_lower.egosmplx.json -> calibration/downward_fisheye_camera/cam3_left_lower.egosmplx.json
+R  calibration/session_hand6_head01_100/cam4_right_lower.egosmplx.json -> calibration/downward_fisheye_camera/cam4_right_lower.egosmplx.json
+R  calibration/session_hand6_head01_100/stereoParams_20260604_fixed_native.json -> calibration/downward_fisheye_camera/stereoParams_20260604_fixed_native.json
+D  calibration/session_hand6_head01_100/README.md
+A  runs/2026-11-07_downward-fisheye-calibration/brief.md
+A  runs/2026-11-07_downward-fisheye-calibration/evidence/verification.txt
+A  runs/2026-11-07_downward-fisheye-calibration/report.md
+A  runs/2026-11-07_downward-fisheye-calibration/review.md
+M  runs/2026-11-07_session-hand6-calibration/report.md
+?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json
+?? runs/2026-11-07_downward-fisheye-calibration/evidence/prepush.txt
+checked: calibration/downward_fisheye_camera/README.md bytes= 846 allowed=true
+checked: calibration/downward_fisheye_camera/cam3_left_lower.egosmplx.json bytes= 2168 allowed=true
+checked: calibration/downward_fisheye_camera/cam4_right_lower.egosmplx.json bytes= 2166 allowed=true
+checked: calibration/downward_fisheye_camera/stereoParams_20260604_fixed_native.json bytes= 8088 allowed=true
+checked: runs/2026-11-07_downward-fisheye-calibration/brief.md bytes= 268 allowed=true
+checked: runs/2026-11-07_downward-fisheye-calibration/evidence/verification.txt bytes= 432 allowed=true
+checked: runs/2026-11-07_downward-fisheye-calibration/report.md bytes= 1095 allowed=true
+checked: runs/2026-11-07_downward-fisheye-calibration/review.md bytes= 31 allowed=true
+checked: runs/2026-11-07_session-hand6-calibration/report.md bytes= 1130 allowed=true
+JSON identical to baseline: cam3_left_lower.egosmplx.json sha256= a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b
+JSON identical to baseline: cam4_right_lower.egosmplx.json sha256= 3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3
+JSON identical to baseline: stereoParams_20260604_fixed_native.json sha256= 5a1ccff108ced626873055c0c4bd8a3c33b13c100622f9366d5d7971dfd27f3f
+Staged changes contain no weights, datasets, videos, arrays, full raw output, credentials, .env, machine paths, full provenance or patches.
+Existing unrelated untracked file excluded; preserved unchanged. Historical commits not audited.
+git diff --cached --check: passed
+exit status: 0
