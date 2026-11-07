@@ -1,0 +1,9 @@
+Verification: parse JSON, compare copied bytes and SHA-256 against <WORKSPACE> source files; inspect original experiment manifest and calibration fields.
+cam3_left_lower.egosmplx.json bytes= 2168 sha256= a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b source=<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam3_left_lower.egosmplx.json identical=true
+cam4_right_lower.egosmplx.json bytes= 2166 sha256= 3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3 source=<WORKSPACE>/EgoSMPLX/DownwardStereo6/cam4_right_lower.egosmplx.json identical=true
+stereoParams_20260604_fixed_native.json bytes= 8088 sha256= 5a1ccff108ced626873055c0c4bd8a3c33b13c100622f9366d5d7971dfd27f3f source=<WORKSPACE>/EgoSMPLX/stereoParams_20260604_fixed_native.json identical=true
+manifest camera and calibration counts: {('cam3', 'cam3_left_lower.egosmplx.json'): 50, ('cam4', 'cam4_right_lower.egosmplx.json'): 50}
+cam3_left_lower.egosmplx.json sourceCamera= camera1 size= [1280, 720] extrinsic=identity
+cam4_right_lower.egosmplx.json sourceCamera= camera2 size= [1280, 720] extrinsic=identity
+stereo worldUnits= mm poseCamera2.A= [[0.9998486861363481, -0.017233030742514005, 0.0023722316172694905, -154.1421407125394], [0.01730585921381124, 0.9992310520501574, -0.0351825504420515, 5.508375593896948], [-0.0017641055212629288, 0.035218280340802, 0.9993780869428479, -8.454178756232917], [0, 0, 0, 1]]
+exit status: 0

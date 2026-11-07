@@ -1,0 +1,28 @@
+First pre-push scan failed: a trailing NUL in the staged filename list produced an empty filename; git show exited 128. Corrected by filtering empty entries; full scan follows.
+HEAD and remote main: b5d1f45bf5f946cdb375f67dd8c010720af2c7e8 match=true
+Local commits ahead of remote: 0
+Working tree status before adding this check record:
+A  calibration/session_hand6_head01_100/README.md
+A  calibration/session_hand6_head01_100/cam3_left_lower.egosmplx.json
+A  calibration/session_hand6_head01_100/cam4_right_lower.egosmplx.json
+A  calibration/session_hand6_head01_100/stereoParams_20260604_fixed_native.json
+A  runs/2026-11-07_session-hand6-calibration/brief.md
+A  runs/2026-11-07_session-hand6-calibration/evidence/verification.txt
+A  runs/2026-11-07_session-hand6-calibration/report.md
+A  runs/2026-11-07_session-hand6-calibration/review.md
+?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json
+?? runs/2026-11-07_session-hand6-calibration/evidence/prepush.txt
+Staged file count before check record: 8
+checked: calibration/session_hand6_head01_100/README.md bytes= 1135 allowed=true
+checked: calibration/session_hand6_head01_100/cam3_left_lower.egosmplx.json bytes= 2168 allowed=true
+checked: calibration/session_hand6_head01_100/cam4_right_lower.egosmplx.json bytes= 2166 allowed=true
+checked: calibration/session_hand6_head01_100/stereoParams_20260604_fixed_native.json bytes= 8088 allowed=true
+checked: runs/2026-11-07_session-hand6-calibration/brief.md bytes= 324 allowed=true
+checked: runs/2026-11-07_session-hand6-calibration/evidence/verification.txt bytes= 1410 allowed=true
+checked: runs/2026-11-07_session-hand6-calibration/report.md bytes= 1131 allowed=true
+checked: runs/2026-11-07_session-hand6-calibration/review.md bytes= 31 allowed=true
+No model weights, datasets, video, arrays, full raw output, credentials, .env, machine paths, full provenance or patches found in staged files.
+Existing unrelated untracked file is excluded from staging and push; inspected status and file metadata, preserved unchanged.
+Historical commits are outside this incremental audit.
+git diff --cached --check: passed
+exit status: 0
