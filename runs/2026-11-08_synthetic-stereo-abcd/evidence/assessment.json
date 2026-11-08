@@ -1,0 +1,104 @@
+[
+  {
+    "view": "left",
+    "comparison": "B minus A",
+    "delta": {
+      "body25_absolute_mean_mm": -2.2511389116509974,
+      "pelvis_absolute_error_mm": 2.225507823018539,
+      "wrists_absolute_mean_mm": -20.140320222770978,
+      "elbows_absolute_mean_mm": -12.88301667583152,
+      "hands40_absolute_mean_mm": -14.053254890051043
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": -13.3733708738594,
+      "R_Elbow": -12.392662477803633,
+      "L_Wrist": -8.916058992553172,
+      "R_Wrist": -31.36458145298878
+    }
+  },
+  {
+    "view": "left",
+    "comparison": "C minus B",
+    "delta": {
+      "body25_absolute_mean_mm": 2.248539422510035,
+      "pelvis_absolute_error_mm": 1.8075375778212077,
+      "wrists_absolute_mean_mm": -0.0004035600863154798,
+      "elbows_absolute_mean_mm": 1.8399624535044765,
+      "hands40_absolute_mean_mm": 0.03840059240070559
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": 0.8067482492942162,
+      "R_Elbow": 2.873176657714744,
+      "L_Wrist": -0.09068387565329772,
+      "R_Wrist": 0.08987675548067031
+    }
+  },
+  {
+    "view": "left",
+    "comparison": "D minus B",
+    "delta": {
+      "body25_absolute_mean_mm": -32.55538429781711,
+      "pelvis_absolute_error_mm": -16.76978476419032,
+      "wrists_absolute_mean_mm": -5.6492588742766525,
+      "elbows_absolute_mean_mm": -35.46573841806551,
+      "hands40_absolute_mean_mm": -4.316830770468933
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": -34.317727617201136,
+      "R_Elbow": -36.61374921892989,
+      "L_Wrist": -6.833288744757507,
+      "R_Wrist": -4.465229003795797
+    }
+  },
+  {
+    "view": "right",
+    "comparison": "B minus A",
+    "delta": {
+      "body25_absolute_mean_mm": -3.7908515628754174,
+      "pelvis_absolute_error_mm": -6.676846014060828,
+      "wrists_absolute_mean_mm": -19.194782907563884,
+      "elbows_absolute_mean_mm": -3.507228632677588,
+      "hands40_absolute_mean_mm": -29.020678224764396
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": -3.2427476343796684,
+      "R_Elbow": -3.771709630975515,
+      "L_Wrist": -16.02747948735069,
+      "R_Wrist": -22.36208632777707
+    }
+  },
+  {
+    "view": "right",
+    "comparison": "C minus B",
+    "delta": {
+      "body25_absolute_mean_mm": 2.2485391796737844,
+      "pelvis_absolute_error_mm": 1.8075373400575643,
+      "wrists_absolute_mean_mm": -0.00040355953492188235,
+      "elbows_absolute_mean_mm": 1.8399622084318423,
+      "hands40_absolute_mean_mm": 0.03840059145070995
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": 0.8067481348732457,
+      "R_Elbow": 2.873176281990439,
+      "L_Wrist": -0.09068386909905968,
+      "R_Wrist": 0.08987675002921414
+    }
+  },
+  {
+    "view": "right",
+    "comparison": "D minus B",
+    "delta": {
+      "body25_absolute_mean_mm": -32.555380089888395,
+      "pelvis_absolute_error_mm": -16.769783797235704,
+      "wrists_absolute_mean_mm": -5.649257914161488,
+      "elbows_absolute_mean_mm": -35.465734784723196,
+      "hands40_absolute_mean_mm": -4.316830350548571
+    },
+    "per_arm_joint_delta_mm": {
+      "L_Elbow": -34.3177231106457,
+      "R_Elbow": -36.61374645880069,
+      "L_Wrist": -6.833287687158407,
+      "R_Wrist": -4.465228141164569
+    }
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-stereo-abcd/export.py",
+  "scope": "Raw final.npz copies include inherited network joint/projection caches. Metrics reconstruct authoritative parameters, never use those caches. parameters.npz is the finite canonical export with parameters and rebuilt 3D caches; optional projections.npz explicitly masks behind-camera points. Fitted parameters unchanged. Original fit outputs retained.",
+  "records": [
+    {
+      "case": "A_right",
+      "seed": "left",
+      "source_final_sha256": "7ecd71cd5e71f16e82bf8de448a7c3ac5e4c0e702e10b8291c0ae96d2f2aa77a",
+      "canonical_export_sha256": "023d9a540a5df33bf1d17f05ec7aabcaedb380694844b7811629e85656277b62",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 2.384185791015625e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.43940937519073486,
+        "smplx_joint_img": 3304185378319.9565,
+        "smplx_body_joints_2d_render_cam": 496393.02399163094
+      }
+    },
+    {
+      "case": "A_left",
+      "seed": "left",
+      "source_final_sha256": "93925edfc891ab42d4e55c7a91db874115a92008ac4ca9d19bcde3be775af8ec",
+      "canonical_export_sha256": "e0f9764787e5d42ba5c38d5fe9753de61a6cf5fe15bbc26d8a9955e81728b27a",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.4901161193847656e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4151788353919983,
+        "smplx_joint_img": 8455392228496.606,
+        "smplx_body_joints_2d_render_cam": 520015.70023577346
+      }
+    },
+    {
+      "case": "C",
+      "seed": "left",
+      "source_final_sha256": "e807d1b6b0ad906e85068204519f9fa684e6bc2fc5f8680a88ad5dfd4935c81c",
+      "canonical_export_sha256": "0ddaa449c0d8d1dd3282aeaa035ad6c439caccbe30a9b098e41d467888b1c43d",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.7881393432617188e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4172389507293701,
+        "smplx_joint_img": 12845368595021.236,
+        "smplx_body_joints_2d_render_cam": 521139.2472545431
+      }
+    },
+    {
+      "case": "B",
+      "seed": "left",
+      "source_final_sha256": "4aa2f142aba6713e97bb8e1ee59966d9bff9a5f2839330b963bcb832d37fe715",
+      "canonical_export_sha256": "545798ff00657099850c590502698844b3950be2bc7335b19f197ee3aeddf3e9",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.1920928955078125e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.41961973905563354,
+        "smplx_joint_img": 7901671216177.182,
+        "smplx_body_joints_2d_render_cam": 526369.3516620925
+      }
+    },
+    {
+      "case": "D",
+      "seed": "left",
+      "source_final_sha256": "a78180a4f40bc4aed213ac5e4456b72617710a74c88da766e98a3e78ee85f44a",
+      "canonical_export_sha256": "2a28cc82f26f6927f7e81031ddf26ebfc3631fa994cc9b6434bf36c57c62a849",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 2.384185791015625e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 2,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4418613314628601,
+        "smplx_joint_img": 1.0665216229168476e+16,
+        "smplx_body_joints_2d_render_cam": 845420.6726465342
+      }
+    },
+    {
+      "case": "B",
+      "seed": "right",
+      "source_final_sha256": "f48dcc4db4c78327afb4566941b35a62ee124189e1e0725d47253480bc8af5ed",
+      "canonical_export_sha256": "ec41f20a4e4246919624019ecbf063b6525dfdd5805e0040b8738b2c99d0f246",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.7881393432617188e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.3972768187522888,
+        "smplx_joint_img": 5665455587302.171,
+        "smplx_body_joints_2d_render_cam": 551324.2632485649
+      }
+    },
+    {
+      "case": "C",
+      "seed": "right",
+      "source_final_sha256": "842e379193e9e05c8725b780163e556b18d5c9755eea8b47a1a49232346bcb9f",
+      "canonical_export_sha256": "48875d79a994de6026a09ee049e58408e0cb2342031e62e3ae6963231e33a8f8",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.1920928955078125e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 0,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.3972548246383667,
+        "smplx_joint_img": 10066383644984.188,
+        "smplx_body_joints_2d_render_cam": 540515.7665835951
+      }
+    },
+    {
+      "case": "D",
+      "seed": "right",
+      "source_final_sha256": "3f867a8aa5a48f9f466151445ba1310c540317aa5819bef8cdb7b5f602365dba",
+      "canonical_export_sha256": "9c6d6f6a065705d9844d45af47e5f8f08710ea06d362d578ea79667f49453d4e",
+      "all_parameter_arrays_unchanged": true,
+      "reconstructed_mesh_max_m": 1.1920928955078125e-07,
+      "strict_parameter_load_passed": true,
+      "invalid_projection_joint_count": 2,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4275520443916321,
+        "smplx_joint_img": 1.1750019170069381e+19,
+        "smplx_body_joints_2d_render_cam": 864762.3079064057
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "case": "A_right",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 61.40919756889343,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "A_right",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "A_left",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 65.24909448623657,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "A_left",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "C",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 73.22474455833435,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "C",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "B",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 79.25217175483704,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "B",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "D",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 73.3302571773529,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "D",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "B",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 79.1082649230957,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "B",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "C",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 80.01090097427368,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "C",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  },
+  {
+    "case": "D",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 79.00553035736084,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/fit.py",
+      "--case",
+      "D",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+      "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+      "settings.json": "73ddcdb67b2432f83701d172a3132e3df247fb08e47f54bb90fa567b9c2545ae"
+    }
+  }
+]

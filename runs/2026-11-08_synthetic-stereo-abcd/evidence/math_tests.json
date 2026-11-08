@@ -1,0 +1,19 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-stereo-abcd/test_math.py",
+  "checks": [
+    {
+      "view": "left",
+      "opencv_projection_max_px": 1.1368683772161603e-13,
+      "finite_difference_gradient": true
+    },
+    {
+      "view": "right",
+      "opencv_projection_max_px": 1.1368683772161603e-13,
+      "finite_difference_gradient": true
+    }
+  ],
+  "triangulation_roundtrip_max_m": 2.6645352591003757e-15,
+  "head_fk_independent": true,
+  "head_rotation_error_deg": 1.4125914962128496e-14
+}

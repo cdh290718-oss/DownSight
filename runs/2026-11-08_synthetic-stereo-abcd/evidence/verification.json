@@ -1,0 +1,81 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-stereo-abcd/verify.py",
+  "case_count": 8,
+  "checks": [
+    {
+      "case": "A_right",
+      "seed": "left",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.7220416254071225e-07
+    },
+    {
+      "case": "A_left",
+      "seed": "left",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.41458974024435e-07
+    },
+    {
+      "case": "C",
+      "seed": "left",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.1899313345775653e-07
+    },
+    {
+      "case": "B",
+      "seed": "left",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.132627363009675e-07
+    },
+    {
+      "case": "D",
+      "seed": "left",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 5.946588099714489e-08
+    },
+    {
+      "case": "B",
+      "seed": "right",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.214606244470673e-07
+    },
+    {
+      "case": "C",
+      "seed": "right",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 1.2072709576482765e-07
+    },
+    {
+      "case": "D",
+      "seed": "right",
+      "fixed_parameters_exact": true,
+      "reload_checks_pass": true,
+      "independent_head_rotation_max_abs": 3.6119369717368954e-07
+    }
+  ],
+  "same_initial_parameters_for_A_B_C_D_except_D_shape": true,
+  "C_only_hard_caps_doubled_prior_unchanged": true,
+  "D_only_shape_changed": true,
+  "stereo_views_use_identical_parameters": true,
+  "body_error_rigid_transform_invariance": true,
+  "source_sha256": {
+    "triangulation.py": "f75f71f4d094483069e1896a12e03707cbc28d5458aeb936932fc47171ce2c82",
+    "check_publication.py": "6da751d8288ad5db64e842ab280f0c2db925bcd389ac7a703d977c16fde45628",
+    "run.py": "a5793942422a8bfb8cc60a5d9d726bc09bcbc167b1e814f0b0329d995147e0db",
+    "prepare.py": "75bb0c25c671b6d14c681a6178d1eb1b5d08ffe30613b0023fdd15afa5a6d928",
+    "verify.py": "6c4a908647e85051309c5577634fda515f1a92efb1f7f67bb0d2ed3cab2ce279",
+    "test_math.py": "8ee70c6792121607451443143cd26868f6c7113259fc8d1203d78265209f2a17",
+    "common.py": "a9c1b5231b5833865937b7276be0d544be8197e1b44a6c1cc3ac3eb6a493e6e5",
+    "fit.py": "fe129ba171dea22015526a3472a63175538190dc2499ed97047520cdda49de29",
+    "evaluate.py": "8f9705e08fb20a068f183d5b41f58bab460fb8220cd374cb3313dd0f1903efed",
+    "export.py": "8ed198a522b171372ca359c7cf60cb02856f028708b039cb63c41c8d2c4b2286",
+    "build_report.py": "49629dc4184bb0006714191efe889f2edd0649d89ebe0fe7bc8af3b4f4341503"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-stereo-abcd/export.py",
+  "scope": "Raw final.npz copies include inherited network joint/projection caches. Metrics reconstruct authoritative parameters, never use those caches. parameters.npz is the canonical export, rebuilt without changing fitted parameters. Original fit outputs retained.",
+  "records": [
+    {
+      "case": "A_right",
+      "seed": "left",
+      "source_final_sha256": "7ecd71cd5e71f16e82bf8de448a7c3ac5e4c0e702e10b8291c0ae96d2f2aa77a",
+      "canonical_export_sha256": "b7476972d58b9ee4c289a0b635b0de0809eb75fc30169c806d85e065461aa13c",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.43940937519073486,
+        "smplx_joint_img": 3304185378319.9565,
+        "smplx_body_joints_2d_render_cam": 496393.02399163094
+      }
+    },
+    {
+      "case": "A_left",
+      "seed": "left",
+      "source_final_sha256": "93925edfc891ab42d4e55c7a91db874115a92008ac4ca9d19bcde3be775af8ec",
+      "canonical_export_sha256": "2425070db23edb2ef7eb9e566a2b2c2384ca09892bfe527fa8b3de16679f1e36",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4151788353919983,
+        "smplx_joint_img": 8455392228496.606,
+        "smplx_body_joints_2d_render_cam": 520015.70023577346
+      }
+    },
+    {
+      "case": "C",
+      "seed": "left",
+      "source_final_sha256": "e807d1b6b0ad906e85068204519f9fa684e6bc2fc5f8680a88ad5dfd4935c81c",
+      "canonical_export_sha256": "6e1b6fefcf8ef8b207ad4f47fee642d7f4b055c4875f34cd007b24c31ce2384d",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4172389507293701,
+        "smplx_joint_img": 12845368595021.236,
+        "smplx_body_joints_2d_render_cam": 521139.2472545431
+      }
+    },
+    {
+      "case": "B",
+      "seed": "left",
+      "source_final_sha256": "4aa2f142aba6713e97bb8e1ee59966d9bff9a5f2839330b963bcb832d37fe715",
+      "canonical_export_sha256": "5fbf7e0771f4e2df9286e403c6efbee1d01bb3598b6b1f3f17f30628a189d639",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.41961973905563354,
+        "smplx_joint_img": 7901671216177.182,
+        "smplx_body_joints_2d_render_cam": 526369.3516620925
+      }
+    },
+    {
+      "case": "D",
+      "seed": "left",
+      "source_final_sha256": "a78180a4f40bc4aed213ac5e4456b72617710a74c88da766e98a3e78ee85f44a",
+      "canonical_export_sha256": "3dd54158d45544679df126e052dd7c01af4740fefa3eaddc6dd4d056845cc497",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4418613314628601,
+        "smplx_joint_img": 1.0665216229168476e+16,
+        "smplx_body_joints_2d_render_cam": 845420.6726465342
+      }
+    },
+    {
+      "case": "B",
+      "seed": "right",
+      "source_final_sha256": "f48dcc4db4c78327afb4566941b35a62ee124189e1e0725d47253480bc8af5ed",
+      "canonical_export_sha256": "977cd533f3e6e2705adb77e3755540b2f95d7a9ee54ca593931e5a14d4d7d03e",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.3972768187522888,
+        "smplx_joint_img": 5665455587302.171,
+        "smplx_body_joints_2d_render_cam": 551324.2632485649
+      }
+    },
+    {
+      "case": "C",
+      "seed": "right",
+      "source_final_sha256": "842e379193e9e05c8725b780163e556b18d5c9755eea8b47a1a49232346bcb9f",
+      "canonical_export_sha256": "c28d168a78504f426945d007a5b6e20b73a1c5809b3477012cd7a79850883d59",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.3972548246383667,
+        "smplx_joint_img": 10066383644984.188,
+        "smplx_body_joints_2d_render_cam": 540515.7665835951
+      }
+    },
+    {
+      "case": "D",
+      "seed": "right",
+      "source_final_sha256": "3f867a8aa5a48f9f466151445ba1310c540317aa5819bef8cdb7b5f602365dba",
+      "canonical_export_sha256": "43179d0dceb2e478d9baeda853bd954c2f4b2f48d5fd086fb9e0d7fce99a4f15",
+      "all_parameter_arrays_unchanged": true,
+      "legacy_cache_max_difference": {
+        "smplx_joint_cam": 0.4275520443916321,
+        "smplx_joint_img": 1.1750019170069381e+19,
+        "smplx_body_joints_2d_render_cam": 864762.3079064057
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "baseline": "118c485f5b73c5767d050983d371a0315a9e7dba",
+  "remote_main_before_push": "118c485f5b73c5767d050983d371a0315a9e7dba",
+  "worktree_passed": true,
+  "staged_passed": true,
+  "worktree_entries": 43,
+  "staged_entries": 42,
+  "preexisting_untracked_file_excluded": true,
+  "scope": "Current increment and scanned worktree, not historical audit",
+  "post_commit_check": "Run separately before push; local receipt retained",
+  "asset_policy": "Derived JPGs, scripts, settings and sanitized numeric evidence only. No model weights, original dataset images, NPZ/NPY, raw outputs, credentials, complete provenance or patches."
+}

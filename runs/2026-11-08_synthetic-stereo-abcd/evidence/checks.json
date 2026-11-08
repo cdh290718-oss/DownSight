@@ -1,0 +1,74 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/evaluate.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "8f9705e08fb20a068f183d5b41f58bab460fb8220cd374cb3313dd0f1903efed",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nevaluated 2 views\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/verify.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "98bd911b04450b4db1ad70b5a405cf43b5f3b46629369307ceb913b2187a4cf3",
+    "log": "PASS 8 runs, fixed parameters, A-D differences, shared geometry and Head FK\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/build_report.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "f1ce797d19ec9ca1846456e348e5d97353151c506061e4c3df7fe85bc16c202a",
+    "log": "report and projection page generated\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/export.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "9522c0474d306a28a5ff3ec41fd3fcb86173db964729391a95980670dc7f07db",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nexported 8 canonical parameter files with rebuilt caches\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/verify.py"
+    ],
+    "exit_status": 1,
+    "source_sha256": "50e48f154c5534f414033c0a1043860c77be959b9ab09e515c5d7f5f81689dbe",
+    "log": "Traceback (most recent call last):\n  File \"<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-stereo-abcd/verify.py\", line 16, in <module>\n    assert np.array_equal(exported['smplx_mesh_cam'],p['smplx_mesh_cam'])\nAssertionError\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/export.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "8ed198a522b171372ca359c7cf60cb02856f028708b039cb63c41c8d2c4b2286",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nexported 8 canonical parameter files with rebuilt caches\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/verify.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "6c4a908647e85051309c5577634fda515f1a92efb1f7f67bb0d2ed3cab2ce279",
+    "log": "PASS 8 runs, fixed parameters, A-D differences, shared geometry and Head FK\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-stereo-abcd/build_report.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "49629dc4184bb0006714191efe889f2edd0649d89ebe0fe7bc8af3b4f4341503",
+    "log": "report and projection page generated\n"
+  }
+]
