@@ -1,0 +1,25 @@
+baseline and remote: ccdcebb3acad4ed7cabad15d9ea6e4882c180a5e match=true
+commits ahead of remote: 0
+worktree and staged status:
+D  calibration/downward_fisheye_camera/README.md
+D  calibration/downward_fisheye_camera/cam3_left_lower.egosmplx.json
+D  calibration/downward_fisheye_camera/cam4_right_lower.egosmplx.json
+D  calibration/downward_fisheye_camera/stereoParams_20260604_fixed_native.json
+M  runs/2026-11-07_session-hand6-calibration/report.md
+A  runs/2026-11-08_remove-calibration-duplicate/brief.md
+A  runs/2026-11-08_remove-calibration-duplicate/evidence/verification.txt
+A  runs/2026-11-08_remove-calibration-duplicate/report.md
+A  runs/2026-11-08_remove-calibration-duplicate/review.md
+?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json
+?? runs/2026-11-08_remove-calibration-duplicate/evidence/prepush.txt
+checked: runs/2026-11-07_session-hand6-calibration/report.md bytes= 1111
+checked: runs/2026-11-08_remove-calibration-duplicate/brief.md bytes= 289
+checked: runs/2026-11-08_remove-calibration-duplicate/evidence/verification.txt bytes= 442
+checked: runs/2026-11-08_remove-calibration-duplicate/report.md bytes= 1056
+checked: runs/2026-11-08_remove-calibration-duplicate/review.md bytes= 31
+retained calibration matches deleted copy: cam3_left_lower.egosmplx.json
+retained calibration matches deleted copy: cam4_right_lower.egosmplx.json
+retained calibration matches deleted copy: stereoParams_20260604_fixed_native.json
+No forbidden artifacts, credentials, machine paths, complete provenance or patches in staged additions and modifications. git diff --cached --check passed.
+Existing unrelated untracked file preserved and excluded; history not audited.
+exit status: 0

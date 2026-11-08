@@ -1,0 +1,5 @@
+Command: sha256sum calibration/downward_fisheye_camera/*.json data/calibration/*.json
+cam3_left_lower.egosmplx.json (both copies): a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b
+cam4_right_lower.egosmplx.json (both copies): 3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3
+stereoParams_20260604_fixed_native.json (both copies): 5a1ccff108ced626873055c0c4bd8a3c33b13c100622f9366d5d7971dfd27f3f
+exit status: 0
