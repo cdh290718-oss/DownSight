@@ -1,0 +1,187 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_publish-synthetic-abcde/export.py",
+  "scope": "Six explicitly requested meshes; A has two independent fits. B/C/D/E use primary cam3 network initialization. Every OBJ uses cam3 CV meters. No transforms, recentering or near-plane vertex removal.",
+  "records": [
+    {
+      "file": "data/meshes/synthetic_ABCDE/A_cam3.obj",
+      "description": "A independent fit using cam3 observations",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_stereo_abcd_20261108/A_left_left/final.npz",
+      "source_sha256": "93925edfc891ab42d4e55c7a91db874115a92008ac4ca9d19bcde3be775af8ec",
+      "best_step": 3400,
+      "case": "A_left",
+      "shape_prior_weight": null,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753799,
+      "sha256": "42d24b3f65996ceabd7d19ed213df2ed7770b0d89f6c51e0b63e7b186bfcccb9",
+      "mesh_reconstruction_max_m": 1.4901161193847656e-07,
+      "obj_roundtrip_max_m": 5.000000413701855e-10,
+      "bounds_min_m": [
+        -0.21574893593788147,
+        -0.1404070258140564,
+        -0.09825080633163452
+      ],
+      "bounds_max_m": [
+        0.3594365119934082,
+        0.5006135702133179,
+        1.5103974342346191
+      ],
+      "behind_camera_vertex_count": 367,
+      "mano_replacement": false
+    },
+    {
+      "file": "data/meshes/synthetic_ABCDE/A_cam4.obj",
+      "description": "A independent fit using cam4 observations; stored in cam3 frame",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_stereo_abcd_20261108/A_right_left/final.npz",
+      "source_sha256": "7ecd71cd5e71f16e82bf8de448a7c3ac5e4c0e702e10b8291c0ae96d2f2aa77a",
+      "best_step": 3400,
+      "case": "A_right",
+      "shape_prior_weight": null,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753583,
+      "sha256": "43194074a271914da62457ccdaaf14e6a10b918d7ebf7f9cb7f77640f064e80a",
+      "mesh_reconstruction_max_m": 2.384185791015625e-07,
+      "obj_roundtrip_max_m": 5.000000413701855e-10,
+      "bounds_min_m": [
+        -0.20807775855064392,
+        -0.1331554651260376,
+        -0.09831345081329346
+      ],
+      "bounds_max_m": [
+        0.3722289204597473,
+        0.49969810247421265,
+        1.5181646347045898
+      ],
+      "behind_camera_vertex_count": 361,
+      "mano_replacement": false
+    },
+    {
+      "file": "data/meshes/synthetic_ABCDE/B.obj",
+      "description": "Shared stereo; fixed predicted shape",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_stereo_abcd_20261108/B_left/final.npz",
+      "source_sha256": "4aa2f142aba6713e97bb8e1ee59966d9bff9a5f2839330b963bcb832d37fe715",
+      "best_step": 3220,
+      "case": "B",
+      "shape_prior_weight": null,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753704,
+      "sha256": "a553fb5c25dd84775acf53682373b3da82d3ccef004237e8a8bbaad273429ed3",
+      "mesh_reconstruction_max_m": 1.1920928955078125e-07,
+      "obj_roundtrip_max_m": 4.999694824814327e-10,
+      "bounds_min_m": [
+        -0.2131158411502838,
+        -0.1387818455696106,
+        -0.0986066460609436
+      ],
+      "bounds_max_m": [
+        0.36812111735343933,
+        0.4999105632305145,
+        1.5150694847106934
+      ],
+      "behind_camera_vertex_count": 366,
+      "mano_replacement": false
+    },
+    {
+      "file": "data/meshes/synthetic_ABCDE/C.obj",
+      "description": "Shared stereo; doubled pose hard bounds",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_stereo_abcd_20261108/C_left/final.npz",
+      "source_sha256": "e807d1b6b0ad906e85068204519f9fa684e6bc2fc5f8680a88ad5dfd4935c81c",
+      "best_step": 3400,
+      "case": "C",
+      "shape_prior_weight": null,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753724,
+      "sha256": "bf67bec53d1061591a556afb446c5ad635bb9b59aedaff08d1d41d00a33ae22d",
+      "mesh_reconstruction_max_m": 1.7881393432617188e-07,
+      "obj_roundtrip_max_m": 4.999694824814327e-10,
+      "bounds_min_m": [
+        -0.21299424767494202,
+        -0.13878071308135986,
+        -0.09858179092407227
+      ],
+      "bounds_max_m": [
+        0.3672189712524414,
+        0.49877169728279114,
+        1.5123558044433594
+      ],
+      "behind_camera_vertex_count": 366,
+      "mano_replacement": false
+    },
+    {
+      "file": "data/meshes/synthetic_ABCDE/D.obj",
+      "description": "Shared stereo; fixed ground-truth shape",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_stereo_abcd_20261108/D_left/final.npz",
+      "source_sha256": "a78180a4f40bc4aed213ac5e4456b72617710a74c88da766e98a3e78ee85f44a",
+      "best_step": 3400,
+      "case": "D",
+      "shape_prior_weight": null,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753850,
+      "sha256": "2cf08015bde8cb088c5486f1184b4e145a23f3f240f1d38ed3b046309826c430",
+      "mesh_reconstruction_max_m": 2.384185791015625e-07,
+      "obj_roundtrip_max_m": 4.999999997368221e-10,
+      "bounds_min_m": [
+        -0.2440449744462967,
+        -0.15094870328903198,
+        -0.10389560461044312
+      ],
+      "bounds_max_m": [
+        0.39546656608581543,
+        0.5380162000656128,
+        1.6231427192687988
+      ],
+      "behind_camera_vertex_count": 377,
+      "mano_replacement": false
+    },
+    {
+      "file": "data/meshes/synthetic_ABCDE/E.obj",
+      "description": "Shared stereo; optimized shape with prior weight 0.001",
+      "coordinate_frame": "cam3 CV",
+      "unit": "meter",
+      "seed": "left/cam3",
+      "source_parameters": "outputs/synthetic_shape_prior_20261108/E_left/final.npz",
+      "source_sha256": "c0fcdaccc145eb1b6a70ab68d08220f883c3ed77f57826553e2f81a719ce1c91",
+      "best_step": 3300,
+      "case": "E",
+      "shape_prior_weight": 0.001,
+      "vertex_count": 10475,
+      "face_count": 20908,
+      "bytes": 753824,
+      "sha256": "073a9dd8c5ae02c3944b06c3d082973e6c400c23cb953e95a1a8d75d2a39040a",
+      "mesh_reconstruction_max_m": 1.341104507446289e-07,
+      "obj_roundtrip_max_m": 4.999694547258571e-10,
+      "bounds_min_m": [
+        -0.23662859201431274,
+        -0.14714860916137695,
+        -0.10248857736587524
+      ],
+      "bounds_max_m": [
+        0.3890288472175598,
+        0.5243471264839172,
+        1.5736548900604248
+      ],
+      "behind_camera_vertex_count": 374,
+      "mano_replacement": false
+    }
+  ]
+}

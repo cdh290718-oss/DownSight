@@ -1,0 +1,8 @@
+{
+  "command": [
+    "<BODY_PYTHON>",
+    "runs/2026-11-08_publish-synthetic-abcde/export.py"
+  ],
+  "exit_status": 0,
+  "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nPASS exported six OBJ files; rebuilt parameters and OBJ roundtrip verified\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+}

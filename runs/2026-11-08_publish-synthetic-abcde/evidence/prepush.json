@@ -1,0 +1,13 @@
+{
+  "baseline": "ddfb0dee3c0c8ab634a12adecb38d166318e7eb4",
+  "remote_main_before_push": "ddfb0dee3c0c8ab634a12adecb38d166318e7eb4",
+  "worktree_passed": true,
+  "staged_passed": true,
+  "worktree_entries": 15,
+  "staged_entries": 14,
+  "user_authorized_exception": "Publish the specified six derived OBJ meshes in data; no other dataset or raw output publication",
+  "preexisting_untracked_file_excluded": true,
+  "scope": "Current increment and scanned working tree only; no historical audit",
+  "post_commit_check": "Run separately before push; local receipt retained",
+  "asset_policy": "Explicitly requested OBJ, README, scripts and sanitized evidence only; no weights, original images, NPZ/NPY, credentials or complete provenance/patch"
+}
