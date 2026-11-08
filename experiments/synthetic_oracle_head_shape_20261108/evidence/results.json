@@ -1,0 +1,2493 @@
+{
+  "case": "oracle_left",
+  "source_commit": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+  "source_run": "runs/2026-11-08_synthetic-head-robustness",
+  "primary": {
+    "case": "oracle_left",
+    "body25_absolute_mean_mm": 35.51295848758787,
+    "pelvis_absolute_error_mm": 42.14360223100037,
+    "wrists_absolute_mean_mm": 6.144147878921418,
+    "elbows_absolute_mean_mm": 22.676612508918822,
+    "hands40_absolute_mean_mm": 20.967495794161117,
+    "head_position_error_mm": 0.15975841736014357,
+    "head_orientation_error_deg": 0.0003772954879313758,
+    "neutral_shape_mean_mm": 5.683595780283213,
+    "beta_rmse": 0.051491301506757736,
+    "pelvis_error_xyz_mm": [
+      4.145241109654307,
+      -41.832391556733405,
+      2.9918559109274323
+    ],
+    "saturated_pose_increments": [
+      "R_Collar",
+      "L_Elbow",
+      "R_Elbow",
+      "L_Wrist",
+      "R_Wrist"
+    ]
+  },
+  "views": {
+    "left": {
+      "body25_absolute_mean_mm": 35.51295848758787,
+      "body25_pelvis_aligned_mean_mm": 32.01271081831539,
+      "pelvis_absolute_error_mm": 42.14360223100037,
+      "pelvis_error_xyz_mm": [
+        4.145241109654307,
+        -41.832391556733405,
+        2.9918559109274323
+      ],
+      "pelvis_predicted_m": [
+        0.07802627980709076,
+        0.25129419565200806,
+        0.6673444509506226
+      ],
+      "wrists_absolute_mean_mm": 6.144147878921418,
+      "elbows_absolute_mean_mm": 22.676612508918822,
+      "hands40_absolute_mean_mm": 20.967495794161117,
+      "body25_inframe_projection_px": {
+        "count": 17,
+        "mean": 20.39661116479592,
+        "max": 32.90360600416959
+      },
+      "body_invalid_prediction_count": 0,
+      "body_truth_inframe_count": 17,
+      "head_position_error_mm": 0.15975841736014357,
+      "head_orientation_error_deg": 0.0003772954879313758,
+      "head_vertices_inframe_no_occlusion_count": 0,
+      "minimum_mesh_z_m": -0.10385239124298096,
+      "shoulder_projected_width_px": 521.9377634749546,
+      "automatic_target_residuals_px": {
+        "body": {
+          "count": 8,
+          "mean": 7.535421448329462,
+          "max": 18.87018078444085
+        },
+        "wrist": {
+          "count": 2,
+          "mean": 2.939479185344199,
+          "max": 4.306927267550106
+        },
+        "shoulder": {
+          "count": 2,
+          "mean": 25.203827830389866,
+          "max": 30.566475196587405
+        },
+        "hand_left": {
+          "count": 21,
+          "mean": 12.075343651466008,
+          "max": 17.77716776785125
+        },
+        "hand_right": {
+          "count": 21,
+          "mean": 18.612409330072847,
+          "max": 51.610660432155434
+        }
+      },
+      "saturated_pose_increments": [
+        "R_Collar",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "best_step": 3400,
+      "objective": 0.003442554036155343,
+      "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+      "hand_model": "fixed network SMPL-X hands; no MANO fusion",
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "absolute_mm": 42.14360223100037,
+          "error_xyz_mm": [
+            4.145241109654307,
+            -41.832391556733405,
+            2.9918559109274323
+          ],
+          "truth_inframe": true,
+          "projection_px": 29.72083301345259
+        },
+        {
+          "name": "L_Hip",
+          "absolute_mm": 52.21712174189344,
+          "error_xyz_mm": [
+            4.022382199764252,
+            -51.67614585720576,
+            6.326467718366757
+          ],
+          "truth_inframe": true,
+          "projection_px": 32.90360600416959
+        },
+        {
+          "name": "R_Hip",
+          "absolute_mm": 49.56318779868588,
+          "error_xyz_mm": [
+            3.9628110826015472,
+            -49.16498376401846,
+            4.859020948217552
+          ],
+          "truth_inframe": true,
+          "projection_px": 30.659524022841804
+        },
+        {
+          "name": "L_Knee",
+          "absolute_mm": 57.1815753803549,
+          "error_xyz_mm": [
+            15.730492770671844,
+            -54.77310418867426,
+            4.710755534697686
+          ],
+          "truth_inframe": true,
+          "projection_px": 25.107651702179876
+        },
+        {
+          "name": "R_Knee",
+          "absolute_mm": 56.577478378426775,
+          "error_xyz_mm": [
+            -4.257813096046448,
+            -56.28557039083282,
+            3.849240584724356
+          ],
+          "truth_inframe": true,
+          "projection_px": 24.472289343101426
+        },
+        {
+          "name": "L_Ankle",
+          "absolute_mm": 58.61120097598324,
+          "error_xyz_mm": [
+            -27.7324840426445,
+            -51.6026282848776,
+            1.8305635100472895
+          ],
+          "truth_inframe": true,
+          "projection_px": 19.382442651098895
+        },
+        {
+          "name": "R_Ankle",
+          "absolute_mm": 47.03872580116898,
+          "error_xyz_mm": [
+            17.978765070438385,
+            -43.31078277425227,
+            -3.6853530388658573
+          ],
+          "truth_inframe": true,
+          "projection_px": 15.223505839259444
+        },
+        {
+          "name": "Neck",
+          "absolute_mm": 7.839413978906141,
+          "error_xyz_mm": [
+            3.306596539914608,
+            -7.079810618123905,
+            0.6317534854622942
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Shoulder",
+          "absolute_mm": 34.8937327108489,
+          "error_xyz_mm": [
+            9.021207690238953,
+            -31.896352317327402,
+            -10.900142345614706
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Shoulder",
+          "absolute_mm": 30.90634386583847,
+          "error_xyz_mm": [
+            3.5105645656585693,
+            -30.582389097748408,
+            2.7559943138027454
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Elbow",
+          "absolute_mm": 35.46289109170771,
+          "error_xyz_mm": [
+            -14.842316508293152,
+            -24.236819141308263,
+            -21.210819954954218
+          ],
+          "truth_inframe": true,
+          "projection_px": 28.351445365510543
+        },
+        {
+          "name": "R_Elbow",
+          "absolute_mm": 9.890333926129934,
+          "error_xyz_mm": [
+            -1.7902404069900513,
+            -4.759814535366336,
+            8.48280083725017
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.205930209773861
+        },
+        {
+          "name": "L_Wrist",
+          "absolute_mm": 8.74247710864563,
+          "error_xyz_mm": [
+            3.248356282711029,
+            -5.357966357021012,
+            -6.096825729245969
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.693414124869401
+        },
+        {
+          "name": "R_Wrist",
+          "absolute_mm": 3.5458186491972037,
+          "error_xyz_mm": [
+            0.14220178127288818,
+            -3.130042688053055,
+            -1.659952203336923
+          ],
+          "truth_inframe": true,
+          "projection_px": 3.2327823738696937
+        },
+        {
+          "name": "L_Big_toe",
+          "absolute_mm": 81.31235005963171,
+          "error_xyz_mm": [
+            -63.81504237651825,
+            -49.24298785360931,
+            -10.698915176435175
+          ],
+          "truth_inframe": true,
+          "projection_px": 26.558835041878012
+        },
+        {
+          "name": "L_Small_toe",
+          "absolute_mm": 71.75691975666693,
+          "error_xyz_mm": [
+            -55.85981905460358,
+            -40.58129315974496,
+            -19.542128687390246
+          ],
+          "truth_inframe": true,
+          "projection_px": 22.59630018247992
+        },
+        {
+          "name": "L_Heel",
+          "absolute_mm": 55.63442173624382,
+          "error_xyz_mm": [
+            -24.198345839977264,
+            -50.096071597187986,
+            -0.11203153354766293
+          ],
+          "truth_inframe": true,
+          "projection_px": 17.507303370087023
+        },
+        {
+          "name": "R_Big_toe",
+          "absolute_mm": 73.87748724552229,
+          "error_xyz_mm": [
+            53.486548364162445,
+            -47.17084109631742,
+            -19.28688715335869
+          ],
+          "truth_inframe": true,
+          "projection_px": 23.61033384315
+        },
+        {
+          "name": "R_Small_toe",
+          "absolute_mm": 61.11107333572754,
+          "error_xyz_mm": [
+            44.39680278301239,
+            -35.72495428269951,
+            -22.072943355837317
+          ],
+          "truth_inframe": true,
+          "projection_px": 18.914876097812453
+        },
+        {
+          "name": "R_Heel",
+          "absolute_mm": 46.9132308061148,
+          "error_xyz_mm": [
+            10.933563113212585,
+            -45.61057141607261,
+            0.9920672439585054
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.60131661599609
+        },
+        {
+          "name": "L_Ear",
+          "absolute_mm": 0.5710063127954668,
+          "error_xyz_mm": [
+            0.15837699174880981,
+            -0.3975298936923499,
+            -0.3780673502933318
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Ear",
+          "absolute_mm": 0.40641851379394095,
+          "error_xyz_mm": [
+            -0.2577081322669983,
+            0.12768104355453946,
+            -0.2871586286963268
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Eye",
+          "absolute_mm": 0.47658348092417296,
+          "error_xyz_mm": [
+            0.2636350691318512,
+            0.18376356739482902,
+            0.351936522560492
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Eye",
+          "absolute_mm": 0.2787671163673367,
+          "error_xyz_mm": [
+            0.054989010095596313,
+            0.2552094771248459,
+            0.09775191416094842
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "Nose",
+          "absolute_mm": 0.8718001871213763,
+          "error_xyz_mm": [
+            -0.4047900074510835,
+            0.6776106805584381,
+            0.3701680452520839
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Thumb_1",
+          "absolute_mm": 7.840258528854628,
+          "error_xyz_mm": [
+            5.760706961154938,
+            -4.994126819871603,
+            -1.8282796323368933
+          ],
+          "truth_inframe": true,
+          "projection_px": 8.53150065433782
+        },
+        {
+          "name": "L_Thumb_2",
+          "absolute_mm": 13.955930875420744,
+          "error_xyz_mm": [
+            1.4430023729801178,
+            -9.874274451688091,
+            9.756252087960604
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.01961484988111
+        },
+        {
+          "name": "L_Thumb_3",
+          "absolute_mm": 10.823590310515305,
+          "error_xyz_mm": [
+            4.875540733337402,
+            -8.508213503368111,
+            4.581431299119643
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.357616993185983
+        },
+        {
+          "name": "L_Thumb_4",
+          "absolute_mm": 13.42324159411671,
+          "error_xyz_mm": [
+            2.7298666536808014,
+            -12.744055054724035,
+            -3.212522950783281
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.19837765624515
+        },
+        {
+          "name": "L_Index_1",
+          "absolute_mm": 5.708690158251989,
+          "error_xyz_mm": [
+            1.0133162140846252,
+            -5.253066729101308,
+            -1.9918894328765369
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.904881898807314
+        },
+        {
+          "name": "L_Index_2",
+          "absolute_mm": 6.947767466545128,
+          "error_xyz_mm": [
+            1.2302510440349579,
+            -3.1747524483163314,
+            6.056310925781738
+          ],
+          "truth_inframe": true,
+          "projection_px": 1.7320199940391707
+        },
+        {
+          "name": "L_Index_3",
+          "absolute_mm": 15.853184197258546,
+          "error_xyz_mm": [
+            1.3209916651248932,
+            -6.619665807602426,
+            14.34428300085222
+          ],
+          "truth_inframe": true,
+          "projection_px": 2.675385792768194
+        },
+        {
+          "name": "L_Index_4",
+          "absolute_mm": 26.356853308590523,
+          "error_xyz_mm": [
+            3.1186239793896675,
+            -12.064359428024417,
+            23.22518315099309
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.000146415301831
+        },
+        {
+          "name": "L_Middle_1",
+          "absolute_mm": 7.38943364466908,
+          "error_xyz_mm": [
+            -3.620363771915436,
+            -6.099401000836058,
+            -2.0721976688939936
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.358146448671171
+        },
+        {
+          "name": "L_Middle_2",
+          "absolute_mm": 7.336700703679241,
+          "error_xyz_mm": [
+            3.942236304283142,
+            6.116506484182271,
+            0.9350393390203937
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.209311943198631
+        },
+        {
+          "name": "L_Middle_3",
+          "absolute_mm": 11.247494836375479,
+          "error_xyz_mm": [
+            5.021160468459129,
+            1.8648006654102267,
+            9.890227809437047
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.898433780630299
+        },
+        {
+          "name": "L_Middle_4",
+          "absolute_mm": 22.81006489916338,
+          "error_xyz_mm": [
+            9.65969730168581,
+            -3.7373896797661676,
+            20.32292368546973
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.890625797414224
+        },
+        {
+          "name": "L_Ring_1",
+          "absolute_mm": 10.044074231752273,
+          "error_xyz_mm": [
+            -7.029041647911072,
+            -6.978650693681587,
+            -1.6656635856195923
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.761116610770799
+        },
+        {
+          "name": "L_Ring_2",
+          "absolute_mm": 13.433848141760526,
+          "error_xyz_mm": [
+            7.822275161743164,
+            10.793327397883578,
+            -1.6686434226503843
+          ],
+          "truth_inframe": true,
+          "projection_px": 12.392466010551013
+        },
+        {
+          "name": "L_Ring_3",
+          "absolute_mm": 16.099318132716675,
+          "error_xyz_mm": [
+            7.229860872030258,
+            13.879019010022253,
+            3.780209971542159
+          ],
+          "truth_inframe": true,
+          "projection_px": 15.367140104409916
+        },
+        {
+          "name": "L_Ring_4",
+          "absolute_mm": 20.316404670755247,
+          "error_xyz_mm": [
+            6.942679174244404,
+            16.266331116610466,
+            9.998098650953025
+          ],
+          "truth_inframe": true,
+          "projection_px": 18.368303941488282
+        },
+        {
+          "name": "L_Pinky_1",
+          "absolute_mm": 11.9095661298308,
+          "error_xyz_mm": [
+            -9.059540927410126,
+            -7.678361926537091,
+            -0.8973526121316411
+          ],
+          "truth_inframe": true,
+          "projection_px": 11.369345444048966
+        },
+        {
+          "name": "L_Pinky_2",
+          "absolute_mm": 15.354013483574695,
+          "error_xyz_mm": [
+            6.808869540691376,
+            8.079703880469967,
+            -11.140171041575497
+          ],
+          "truth_inframe": true,
+          "projection_px": 8.842455073346814
+        },
+        {
+          "name": "L_Pinky_3",
+          "absolute_mm": 25.124072753191697,
+          "error_xyz_mm": [
+            7.193390280008316,
+            18.81368029681446,
+            -15.017310067931833
+          ],
+          "truth_inframe": true,
+          "projection_px": 16.873757399225255
+        },
+        {
+          "name": "L_Pinky_4",
+          "absolute_mm": 31.88044070597738,
+          "error_xyz_mm": [
+            10.601511225104332,
+            26.23444472520142,
+            -14.687558316877514
+          ],
+          "truth_inframe": true,
+          "projection_px": 25.005096549625282
+        },
+        {
+          "name": "R_Thumb_1",
+          "absolute_mm": 3.4279188095470725,
+          "error_xyz_mm": [
+            -0.7782727479934692,
+            0.13761568509130379,
+            -3.3355630435946138
+          ],
+          "truth_inframe": true,
+          "projection_px": 0.6369018210390991
+        },
+        {
+          "name": "R_Thumb_2",
+          "absolute_mm": 7.822745940104087,
+          "error_xyz_mm": [
+            0.3465190529823303,
+            -3.595575255293415,
+            -6.938812374812919
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.278440989547965
+        },
+        {
+          "name": "R_Thumb_3",
+          "absolute_mm": 25.695554104040767,
+          "error_xyz_mm": [
+            -12.961320579051971,
+            10.867986181478717,
+            -19.34302318459857
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.564715315180592
+        },
+        {
+          "name": "R_Thumb_4",
+          "absolute_mm": 57.10819312584126,
+          "error_xyz_mm": [
+            -22.181741893291473,
+            22.733987404562672,
+            -47.460318850245486
+          ],
+          "truth_inframe": true,
+          "projection_px": 17.13839665870102
+        },
+        {
+          "name": "R_Index_1",
+          "absolute_mm": 8.567022873544706,
+          "error_xyz_mm": [
+            -2.2251904010772705,
+            0.327448635851324,
+            -8.266509903560927
+          ],
+          "truth_inframe": true,
+          "projection_px": 1.7857084326730481
+        },
+        {
+          "name": "R_Index_2",
+          "absolute_mm": 12.98842865826375,
+          "error_xyz_mm": [
+            4.440583288669586,
+            -4.298170694613468,
+            -11.423932236632073
+          ],
+          "truth_inframe": true,
+          "projection_px": 10.048580629655225
+        },
+        {
+          "name": "R_Index_3",
+          "absolute_mm": 16.211204277403255,
+          "error_xyz_mm": [
+            3.023400902748108,
+            -9.647345484986303,
+            -12.672447127460185
+          ],
+          "truth_inframe": true,
+          "projection_px": 13.737048688278714
+        },
+        {
+          "name": "R_Index_4",
+          "absolute_mm": 15.332397672157828,
+          "error_xyz_mm": [
+            7.5523145496845245,
+            -1.9326865401630422,
+            -13.20263935951016
+          ],
+          "truth_inframe": true,
+          "projection_px": 11.754177440242925
+        },
+        {
+          "name": "R_Middle_1",
+          "absolute_mm": 9.412339379955984,
+          "error_xyz_mm": [
+            -1.960664987564087,
+            -1.5010373955604561,
+            -9.082665475901862
+          ],
+          "truth_inframe": true,
+          "projection_px": 3.5564843255230567
+        },
+        {
+          "name": "R_Middle_2",
+          "absolute_mm": 12.369034177160458,
+          "error_xyz_mm": [
+            -7.0888325572013855,
+            7.640185348465445,
+            -6.661007978738587
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.543436399070295
+        },
+        {
+          "name": "R_Middle_3",
+          "absolute_mm": 20.11179917978526,
+          "error_xyz_mm": [
+            -3.6340728402137756,
+            19.299529262460812,
+            -4.3366059409923885
+          ],
+          "truth_inframe": true,
+          "projection_px": 16.993501004300647
+        },
+        {
+          "name": "R_Middle_4",
+          "absolute_mm": 47.5411939641195,
+          "error_xyz_mm": [
+            8.974485099315643,
+            46.225050795931146,
+            -6.547397929695387
+          ],
+          "truth_inframe": true,
+          "projection_px": 44.46375233249667
+        },
+        {
+          "name": "R_Ring_1",
+          "absolute_mm": 9.042802208181488,
+          "error_xyz_mm": [
+            -1.1848360300064087,
+            -3.467079225348557,
+            -8.267272646008905
+          ],
+          "truth_inframe": true,
+          "projection_px": 4.847145193303969
+        },
+        {
+          "name": "R_Ring_2",
+          "absolute_mm": 19.3645223383994,
+          "error_xyz_mm": [
+            -9.455591440200806,
+            13.916745183793322,
+            -9.586486290593443
+          ],
+          "truth_inframe": true,
+          "projection_px": 11.597566171101466
+        },
+        {
+          "name": "R_Ring_3",
+          "absolute_mm": 39.06278928593652,
+          "error_xyz_mm": [
+            -9.514011442661285,
+            35.54687354054331,
+            -13.107435849891047
+          ],
+          "truth_inframe": true,
+          "projection_px": 30.0124016091985
+        },
+        {
+          "name": "R_Ring_4",
+          "absolute_mm": 73.3035304963617,
+          "error_xyz_mm": [
+            -1.465626060962677,
+            70.63926072247423,
+            -19.52829659910882
+          ],
+          "truth_inframe": true,
+          "projection_px": 62.08525892101458
+        },
+        {
+          "name": "R_Pinky_1",
+          "absolute_mm": 8.692727587399261,
+          "error_xyz_mm": [
+            -0.4850029945373535,
+            -4.861830208566897,
+            -7.189637823081796
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.658459438779692
+        },
+        {
+          "name": "R_Pinky_2",
+          "absolute_mm": 22.231699479478426,
+          "error_xyz_mm": [
+            -6.988227367401123,
+            13.022991443612852,
+            -16.60767394510543
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.071422926737846
+        },
+        {
+          "name": "R_Pinky_3",
+          "absolute_mm": 49.27861607371492,
+          "error_xyz_mm": [
+            -8.792437613010406,
+            36.444451582117175,
+            -31.982448183974775
+          ],
+          "truth_inframe": true,
+          "projection_px": 27.977377006144874
+        },
+        {
+          "name": "R_Pinky_4",
+          "absolute_mm": 87.28036336204887,
+          "error_xyz_mm": [
+            -19.573308527469635,
+            66.99036268393411,
+            -52.41220019589654
+          ],
+          "truth_inframe": true,
+          "projection_px": 51.953695100230256
+        }
+      ],
+      "image": "assets/left_oracle_left.jpg",
+      "drawn_faces": 10060,
+      "rejected_faces": 8706,
+      "visible_pixels": 183904
+    },
+    "right": {
+      "body25_absolute_mean_mm": 35.512957321571534,
+      "body25_pelvis_aligned_mean_mm": 32.01270974423119,
+      "pelvis_absolute_error_mm": 42.14360136599449,
+      "pelvis_error_xyz_mm": [
+        4.87260999128572,
+        -41.83374792317343,
+        1.509417990172901
+      ],
+      "pelvis_predicted_m": [
+        -0.07887515115160601,
+        0.23448076285822841,
+        0.6671876788125268
+      ],
+      "wrists_absolute_mean_mm": 6.144147422876038,
+      "elbows_absolute_mean_mm": 22.6766109032324,
+      "hands40_absolute_mean_mm": 20.96749475063131,
+      "body25_inframe_projection_px": {
+        "count": 17,
+        "mean": 20.07777597613031,
+        "max": 32.00371238345422
+      },
+      "body_invalid_prediction_count": 0,
+      "body_truth_inframe_count": 17,
+      "head_position_error_mm": 0.1597583996618914,
+      "head_orientation_error_deg": 0.00037729548798365217,
+      "head_vertices_inframe_no_occlusion_count": 0,
+      "minimum_mesh_z_m": -0.10489012535624405,
+      "shoulder_projected_width_px": 548.4678217202528,
+      "automatic_target_residuals_px": {
+        "body": {
+          "count": 8,
+          "mean": 7.52750793201783,
+          "max": 20.470014503233514
+        },
+        "wrist": {
+          "count": 2,
+          "mean": 1.0830117233798087,
+          "max": 1.2496835351388105
+        },
+        "shoulder": {
+          "count": 2,
+          "mean": 32.407974522254065,
+          "max": 35.141247705790356
+        },
+        "hand_left": {
+          "count": 21,
+          "mean": 11.070646329782026,
+          "max": 22.783584365714965
+        },
+        "hand_right": {
+          "count": 21,
+          "mean": 17.482467924523306,
+          "max": 44.47397215047959
+        }
+      },
+      "saturated_pose_increments": [
+        "R_Collar",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "best_step": 3400,
+      "objective": 0.003442554036155343,
+      "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+      "hand_model": "fixed network SMPL-X hands; no MANO fusion",
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "absolute_mm": 42.14360136599449,
+          "error_xyz_mm": [
+            4.87260999128572,
+            -41.83374792317343,
+            1.509417990172901
+          ],
+          "truth_inframe": true,
+          "projection_px": 29.009916309634104
+        },
+        {
+          "name": "L_Hip",
+          "absolute_mm": 52.21712071958301,
+          "error_xyz_mm": [
+            4.9273178692804676,
+            -51.78937905751041,
+            4.495492375266252
+          ],
+          "truth_inframe": true,
+          "projection_px": 32.00371238345422
+        },
+        {
+          "name": "R_Hip",
+          "absolute_mm": 49.563186810552864,
+          "error_xyz_mm": [
+            4.820999710813595,
+            -49.22955035649396,
+            3.1175022539722264
+          ],
+          "truth_inframe": true,
+          "projection_px": 30.37089867162679
+        },
+        {
+          "name": "L_Knee",
+          "absolute_mm": 57.1815741586759,
+          "error_xyz_mm": [
+            16.683193538941985,
+            -54.6244921074846,
+            2.7510613598589195
+          ],
+          "truth_inframe": true,
+          "projection_px": 24.227321358032146
+        },
+        {
+          "name": "R_Knee",
+          "absolute_mm": 56.57747721711368,
+          "error_xyz_mm": [
+            -3.278066410974972,
+            -56.45139976400382,
+            1.872077333574973
+          ],
+          "truth_inframe": true,
+          "projection_px": 24.50354589234562
+        },
+        {
+          "name": "L_Ankle",
+          "absolute_mm": 58.61119951895907,
+          "error_xyz_mm": [
+            -26.83467449439639,
+            -52.10728580254004,
+            0.06099281456983796
+          ],
+          "truth_inframe": true,
+          "projection_px": 19.391032095644174
+        },
+        {
+          "name": "R_Ankle",
+          "absolute_mm": 47.0387245010772,
+          "error_xyz_mm": [
+            18.713677507183725,
+            -42.836679932110485,
+            -5.240107750732692
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.806326151016586
+        },
+        {
+          "name": "Neck",
+          "absolute_mm": 7.839413798003652,
+          "error_xyz_mm": [
+            3.429601342977748,
+            -7.039369673336377,
+            0.3761886849539542
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Shoulder",
+          "absolute_mm": 34.89373125007453,
+          "error_xyz_mm": [
+            9.543655480028834,
+            -31.332210240997416,
+            -12.032610774261766
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Shoulder",
+          "absolute_mm": 30.906343241379805,
+          "error_xyz_mm": [
+            4.0435983487712575,
+            -30.595081783160282,
+            1.6710283149998784
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Elbow",
+          "absolute_mm": 35.462888595948606,
+          "error_xyz_mm": [
+            -14.472713233843027,
+            -23.728789688791107,
+            -22.025021660028564
+          ],
+          "truth_inframe": true,
+          "projection_px": 28.185317672696808
+        },
+        {
+          "name": "R_Elbow",
+          "absolute_mm": 9.890333210516198,
+          "error_xyz_mm": [
+            -1.6878202526630082,
+            -5.085582743126482,
+            8.31305010044775
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.669608010181992
+        },
+        {
+          "name": "L_Wrist",
+          "absolute_mm": 8.742476394824187,
+          "error_xyz_mm": [
+            3.3257355566005953,
+            -5.083128663426292,
+            -6.287462088368779
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.71581652713613
+        },
+        {
+          "name": "R_Wrist",
+          "absolute_mm": 3.5458184509278894,
+          "error_xyz_mm": [
+            0.19218258982882375,
+            -3.0667734750592297,
+            -1.7694052084755718
+          ],
+          "truth_inframe": true,
+          "projection_px": 3.3876986131404316
+        },
+        {
+          "name": "L_Big_toe",
+          "absolute_mm": 81.31234714380805,
+          "error_xyz_mm": [
+            -62.98215827380882,
+            -49.93308030052962,
+            -12.313936369370504
+          ],
+          "truth_inframe": true,
+          "projection_px": 26.53498368573449
+        },
+        {
+          "name": "L_Small_toe",
+          "absolute_mm": 71.75691665324482,
+          "error_xyz_mm": [
+            -55.19838438691627,
+            -40.829247258747316,
+            -20.86063318643605
+          ],
+          "truth_inframe": true,
+          "projection_px": 22.708168762579493
+        },
+        {
+          "name": "L_Heel",
+          "absolute_mm": 55.63442032961303,
+          "error_xyz_mm": [
+            -23.331642010941568,
+            -50.47238083269795,
+            -1.8335701689411454
+          ],
+          "truth_inframe": true,
+          "projection_px": 17.54196413356586
+        },
+        {
+          "name": "R_Big_toe",
+          "absolute_mm": 73.87748414570412,
+          "error_xyz_mm": [
+            54.24559670775909,
+            -45.53037526613535,
+            -21.030521383047287
+          ],
+          "truth_inframe": true,
+          "projection_px": 22.781214942904832
+        },
+        {
+          "name": "R_Small_toe",
+          "absolute_mm": 61.11107034256042,
+          "error_xyz_mm": [
+            44.9533703790292,
+            -34.15257523934378,
+            -23.395705043878223
+          ],
+          "truth_inframe": true,
+          "projection_px": 18.160335004550237
+        },
+        {
+          "name": "R_Heel",
+          "absolute_mm": 46.913229748851066,
+          "error_xyz_mm": [
+            11.720270102469815,
+            -45.42118703268949,
+            -0.6341630193231751
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.324331379971337
+        },
+        {
+          "name": "L_Ear",
+          "absolute_mm": 0.5710062684008893,
+          "error_xyz_mm": [
+            0.16430680278198273,
+            -0.3811819752030099,
+            -0.39211189078246916
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Ear",
+          "absolute_mm": 0.4064184877873166,
+          "error_xyz_mm": [
+            -0.26055066599536825,
+            0.13322597793299917,
+            -0.28202868022329797
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Eye",
+          "absolute_mm": 0.4765834407581629,
+          "error_xyz_mm": [
+            0.2612632394005804,
+            0.175802659605373,
+            0.35772436402694424
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "R_Eye",
+          "absolute_mm": 0.2787671038535885,
+          "error_xyz_mm": [
+            0.05081454484448522,
+            0.2525256974618556,
+            0.10658213895662141
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "Nose",
+          "absolute_mm": 0.8718001410756995,
+          "error_xyz_mm": [
+            -0.41552790340607104,
+            0.6570609173120051,
+            0.3945161573518513
+          ],
+          "truth_inframe": false,
+          "projection_px": null
+        },
+        {
+          "name": "L_Thumb_1",
+          "absolute_mm": 7.840258212411127,
+          "error_xyz_mm": [
+            5.841561910122584,
+            -4.826268932730956,
+            -2.013189379179492
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.678008829538748
+        },
+        {
+          "name": "L_Thumb_2",
+          "absolute_mm": 13.955930209465793,
+          "error_xyz_mm": [
+            1.636091739071227,
+            -10.1849590349129,
+            9.399883046611212
+          ],
+          "truth_inframe": true,
+          "projection_px": 10.145170454719702
+        },
+        {
+          "name": "L_Thumb_3",
+          "absolute_mm": 10.823589992782791,
+          "error_xyz_mm": [
+            5.032293336617657,
+            -8.578482039340377,
+            4.270336053148027
+          ],
+          "truth_inframe": true,
+          "projection_px": 10.420718520204806
+        },
+        {
+          "name": "L_Thumb_4",
+          "absolute_mm": 13.423241111637706,
+          "error_xyz_mm": [
+            2.941451330184891,
+            -12.573987767366374,
+            -3.6641639755113364
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.156270081925621
+        },
+        {
+          "name": "L_Index_1",
+          "absolute_mm": 5.708689903197168,
+          "error_xyz_mm": [
+            1.0989638852085815,
+            -5.161411187056597,
+            -2.1774419275837342
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.695149874570889
+        },
+        {
+          "name": "L_Index_2",
+          "absolute_mm": 6.947766945856173,
+          "error_xyz_mm": [
+            1.2991424234828908,
+            -3.364097176593389,
+            5.938564193799289
+          ],
+          "truth_inframe": true,
+          "projection_px": 3.255339292801218
+        },
+        {
+          "name": "L_Index_3",
+          "absolute_mm": 15.853182922527036,
+          "error_xyz_mm": [
+            1.4688965987882663,
+            -7.096383294442482,
+            14.099897010103613
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.439587963476403
+        },
+        {
+          "name": "L_Index_4",
+          "absolute_mm": 26.35685130667972,
+          "error_xyz_mm": [
+            3.3811529648861276,
+            -12.818233407760504,
+            22.780349157434763
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.863317476114021
+        },
+        {
+          "name": "L_Middle_1",
+          "absolute_mm": 7.389433342439902,
+          "error_xyz_mm": [
+            -3.519620393123424,
+            -6.084459015852195,
+            -2.2793323353752504
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.012742392724335
+        },
+        {
+          "name": "L_Middle_2",
+          "absolute_mm": 7.33670047017778,
+          "error_xyz_mm": [
+            3.838451827392453,
+            6.147129776031962,
+            1.1429159525160326
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.787934212765561
+        },
+        {
+          "name": "L_Middle_3",
+          "absolute_mm": 11.247493738307332,
+          "error_xyz_mm": [
+            5.0117262542511005,
+            1.6022985769438836,
+            9.9408930492203
+          ],
+          "truth_inframe": true,
+          "projection_px": 7.57729245869143
+        },
+        {
+          "name": "L_Middle_4",
+          "absolute_mm": 22.81006287092452,
+          "error_xyz_mm": [
+            9.770852530004856,
+            -4.282359015793352,
+            20.161617253392162
+          ],
+          "truth_inframe": true,
+          "projection_px": 12.691305903165869
+        },
+        {
+          "name": "L_Ring_1",
+          "absolute_mm": 10.044073869068145,
+          "error_xyz_mm": [
+            -6.911665831701636,
+            -7.0363256037779545,
+            -1.8980035078483004
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.17588736521283
+        },
+        {
+          "name": "L_Ring_2",
+          "absolute_mm": 13.433847801882438,
+          "error_xyz_mm": [
+            7.631131098817578,
+            10.979106005533035,
+            -1.3012825350665613
+          ],
+          "truth_inframe": true,
+          "projection_px": 11.255833308987937
+        },
+        {
+          "name": "L_Ring_3",
+          "absolute_mm": 16.099317532661757,
+          "error_xyz_mm": [
+            6.9985565955684725,
+            13.860467922988423,
+            4.253899334951905
+          ],
+          "truth_inframe": true,
+          "projection_px": 15.028311710787884
+        },
+        {
+          "name": "L_Ring_4",
+          "absolute_mm": 20.316403473002406,
+          "error_xyz_mm": [
+            6.6850280123453425,
+            16.022213044002086,
+            10.552503955203797
+          ],
+          "truth_inframe": true,
+          "projection_px": 18.710130377106665
+        },
+        {
+          "name": "L_Pinky_1",
+          "absolute_mm": 11.90956573435534,
+          "error_xyz_mm": [
+            -8.927977035925515,
+            -7.7976694667758615,
+            -1.1512310427663763
+          ],
+          "truth_inframe": true,
+          "projection_px": 10.595588732152773
+        },
+        {
+          "name": "L_Pinky_2",
+          "absolute_mm": 15.354012597557489,
+          "error_xyz_mm": [
+            6.6421741578797375,
+            8.583263988372615,
+            -10.860700005444146
+          ],
+          "truth_inframe": true,
+          "projection_px": 6.529632226375003
+        },
+        {
+          "name": "L_Pinky_3",
+          "absolute_mm": 25.124071773185715,
+          "error_xyz_mm": [
+            6.832460281077479,
+            19.45204846787292,
+            -14.35807366519648
+          ],
+          "truth_inframe": true,
+          "projection_px": 15.124504427219682
+        },
+        {
+          "name": "L_Pinky_4",
+          "absolute_mm": 31.88043977410955,
+          "error_xyz_mm": [
+            10.112965388515583,
+            26.914485499423545,
+            -13.773192859414696
+          ],
+          "truth_inframe": true,
+          "projection_px": 22.854111949612353
+        },
+        {
+          "name": "R_Thumb_1",
+          "absolute_mm": 3.427918452883223,
+          "error_xyz_mm": [
+            -0.7884392191296469,
+            0.24139485646774983,
+            -3.327268705804576
+          ],
+          "truth_inframe": true,
+          "projection_px": 0.4929628872141482
+        },
+        {
+          "name": "R_Thumb_2",
+          "absolute_mm": 7.822745118491638,
+          "error_xyz_mm": [
+            0.3919687957151252,
+            -3.3426883212567953,
+            -7.061737494342579
+          ],
+          "truth_inframe": true,
+          "projection_px": 4.906812583183941
+        },
+        {
+          "name": "R_Thumb_3",
+          "absolute_mm": 25.695552452332,
+          "error_xyz_mm": [
+            -13.192533341222127,
+            11.315859461224347,
+            -18.92537462046939
+          ],
+          "truth_inframe": true,
+          "projection_px": 16.08540913681642
+        },
+        {
+          "name": "R_Thumb_4",
+          "absolute_mm": 57.108188952813144,
+          "error_xyz_mm": [
+            -22.68274703804367,
+            24.002407430198964,
+            -46.591014904518445
+          ],
+          "truth_inframe": true,
+          "projection_px": 30.75104874392905
+        },
+        {
+          "name": "R_Index_1",
+          "absolute_mm": 8.567021991222997,
+          "error_xyz_mm": [
+            -2.2501066249269868,
+            0.5795250495516935,
+            -8.245910300961334
+          ],
+          "truth_inframe": true,
+          "projection_px": 2.245210104847708
+        },
+        {
+          "name": "R_Index_2",
+          "absolute_mm": 12.988427339709844,
+          "error_xyz_mm": [
+            4.486881495567016,
+            -3.816094154853622,
+            -11.576034062015905
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.194593741767397
+        },
+        {
+          "name": "R_Index_3",
+          "absolute_mm": 16.21120278164049,
+          "error_xyz_mm": [
+            3.1591343293469603,
+            -9.141755190129109,
+            -13.009660947171431
+          ],
+          "truth_inframe": true,
+          "projection_px": 13.57013696397126
+        },
+        {
+          "name": "R_Index_4",
+          "absolute_mm": 15.332396227587301,
+          "error_xyz_mm": [
+            7.553157825748336,
+            -1.3359983204014325,
+            -13.275815960872405
+          ],
+          "truth_inframe": true,
+          "projection_px": 9.34213841891388
+        },
+        {
+          "name": "R_Middle_1",
+          "absolute_mm": 9.412338351079597,
+          "error_xyz_mm": [
+            -1.956047001583347,
+            -1.2142626431452253,
+            -9.126420963130212
+          ],
+          "truth_inframe": true,
+          "projection_px": 3.750361632071846
+        },
+        {
+          "name": "R_Middle_2",
+          "absolute_mm": 12.36903367183588,
+          "error_xyz_mm": [
+            -7.235224657904965,
+            7.745983302698378,
+            -6.375285154326171
+          ],
+          "truth_inframe": true,
+          "projection_px": 8.920923231356253
+        },
+        {
+          "name": "R_Middle_3",
+          "absolute_mm": 20.111798783644534,
+          "error_xyz_mm": [
+            -3.9763996357822378,
+            19.37437068554121,
+            -3.6478016379181133
+          ],
+          "truth_inframe": true,
+          "projection_px": 18.047686998288516
+        },
+        {
+          "name": "R_Middle_4",
+          "absolute_mm": 47.54119301799394,
+          "error_xyz_mm": [
+            8.160997130534767,
+            46.57517056917164,
+            -4.931191120016276
+          ],
+          "truth_inframe": true,
+          "projection_px": 44.32565220310634
+        },
+        {
+          "name": "R_Ring_1",
+          "absolute_mm": 9.042801235938184,
+          "error_xyz_mm": [
+            -1.1445203064805871,
+            -3.194053872803304,
+            -8.382144553655046
+          ],
+          "truth_inframe": true,
+          "projection_px": 4.910196241827511
+        },
+        {
+          "name": "R_Ring_2",
+          "absolute_mm": 19.364521664457943,
+          "error_xyz_mm": [
+            -9.716729390641124,
+            14.079683695534612,
+            -9.073718988155232
+          ],
+          "truth_inframe": true,
+          "projection_px": 14.291044163213355
+        },
+        {
+          "name": "R_Ring_3",
+          "absolute_mm": 39.062788411191406,
+          "error_xyz_mm": [
+            -10.156245727997657,
+            35.81604417304544,
+            -11.83059977196832
+          ],
+          "truth_inframe": true,
+          "projection_px": 32.463876132136846
+        },
+        {
+          "name": "R_Ring_4",
+          "absolute_mm": 73.30352905957223,
+          "error_xyz_mm": [
+            -2.7290584380489786,
+            71.24663295689686,
+            -17.025771786749686
+          ],
+          "truth_inframe": true,
+          "projection_px": 63.567529393708774
+        },
+        {
+          "name": "R_Pinky_1",
+          "absolute_mm": 8.692726735128826,
+          "error_xyz_mm": [
+            -0.4182010054072788,
+            -4.613535082681864,
+            -7.355535334125141
+          ],
+          "truth_inframe": true,
+          "projection_px": 5.702372559295484
+        },
+        {
+          "name": "R_Pinky_2",
+          "absolute_mm": 22.23169821123322,
+          "error_xyz_mm": [
+            -7.250992554159522,
+            13.476340488833866,
+            -16.126368449340678
+          ],
+          "truth_inframe": true,
+          "projection_px": 11.168032807857555
+        },
+        {
+          "name": "R_Pinky_3",
+          "absolute_mm": 49.27861397034492,
+          "error_xyz_mm": [
+            -9.495025001366495,
+            37.38949085580604,
+            -30.66353320485582
+          ],
+          "truth_inframe": true,
+          "projection_px": 30.072635107325574
+        },
+        {
+          "name": "R_Pinky_4",
+          "absolute_mm": 87.28036001392125,
+          "error_xyz_mm": [
+            -20.849126950897315,
+            68.44411197116226,
+            -49.98578483953287
+          ],
+          "truth_inframe": true,
+          "projection_px": 57.13481735917199
+        }
+      ],
+      "image": "assets/right_oracle_left.jpg",
+      "drawn_faces": 10100,
+      "rejected_faces": 9094,
+      "visible_pixels": 198808
+    }
+  },
+  "shape": {
+    "case": "oracle_left",
+    "betas_squared_mean": 0.0026513540651649237,
+    "betas_error_rmse": 0.051491301506757736,
+    "neutral_pelvis_centered_vertex_mean_mm": 5.683595780283213,
+    "neutral_native22_joint_mean_mm": 4.823379684239626,
+    "measures_mm": {
+      "shoulder_joint_width": 311.730295419693,
+      "hip_joint_width": 121.83648347854614,
+      "head_to_pelvis": 614.616334438324,
+      "neck_to_pelvis": 456.5960466861725,
+      "left_upper_arm": 265.32042026519775,
+      "right_upper_arm": 272.4434435367584,
+      "left_forearm": 250.25293231010437,
+      "right_forearm": 247.09318578243256,
+      "left_thigh": 379.1276812553406,
+      "right_thigh": 362.08051443099976,
+      "left_shin": 402.34261751174927,
+      "right_shin": 407.06396102905273,
+      "neutral_vertex_y_extent": 1705.880880355835
+    },
+    "measure_error_mm": {
+      "shoulder_joint_width": -4.200279712677002,
+      "hip_joint_width": -0.22310763597488403,
+      "head_to_pelvis": -5.23906946182251,
+      "neck_to_pelvis": -4.32315468788147,
+      "left_upper_arm": -2.2368133068084717,
+      "right_upper_arm": -2.4279356002807617,
+      "left_forearm": -2.8135478496551514,
+      "right_forearm": -2.6860833168029785,
+      "left_thigh": -3.669947385787964,
+      "right_thigh": -3.3738315105438232,
+      "left_shin": -4.30375337600708,
+      "right_shin": -4.4487714767456055,
+      "neutral_vertex_y_extent": -15.208721160888672
+    },
+    "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1"
+  },
+  "truth_betas_squared_mean": 0.0,
+  "initialization": {
+    "shape_information_eigenvalues": [
+      2.332636767159591e-10,
+      6.842844033879774e-07,
+      3.058495985214162e-06,
+      2.32141756693615e-05,
+      0.0005275633518765442,
+      0.003502632478184552,
+      0.012317894544775788,
+      0.055178141089546585,
+      0.2646969176551283,
+      1.7069265543458119
+    ],
+    "retained_rank": 1,
+    "basis": [
+      [
+        -0.9772654538956975
+      ],
+      [
+        -0.08574479687743342
+      ],
+      [
+        0.19013437400781102
+      ],
+      [
+        0.008318510307388689
+      ],
+      [
+        -0.01850052559363693
+      ],
+      [
+        -0.02012766348866249
+      ],
+      [
+        0.0017562300872508254
+      ],
+      [
+        0.009332982253846963
+      ],
+      [
+        -0.022840943484041955
+      ],
+      [
+        -0.004527112936778947
+      ]
+    ],
+    "bone_information": [
+      {
+        "indices": [
+          8,
+          9
+        ],
+        "observed_length_m": 0.36815062611413807,
+        "length_sigma_m": 0.04317566888733911,
+        "derivative_m": [
+          0.025651024654507637,
+          0.016738204285502434,
+          0.0026893271133303642,
+          -0.0031149135902523994,
+          0.0007724933093413711,
+          -0.005562191363424063,
+          0.0024773769546300173,
+          6.133395800134167e-05,
+          -0.0049242596141994,
+          -0.0015574032440781593
+        ]
+      },
+      {
+        "indices": [
+          1,
+          2
+        ],
+        "observed_length_m": 0.17168049819666678,
+        "length_sigma_m": 0.043172975465835046,
+        "derivative_m": [
+          0.0019429660169407725,
+          0.005789772141724825,
+          0.005857367534190416,
+          0.006245613098144531,
+          0.002885604277253151,
+          0.0016373749822378159,
+          0.0015605968656018376,
+          -0.0013020237674936652,
+          0.002109027933329344,
+          -0.00038346313522197306
+        ]
+      },
+      {
+        "indices": [
+          8,
+          10
+        ],
+        "observed_length_m": 0.244044898074237,
+        "length_sigma_m": 0.040931130401446844,
+        "derivative_m": [
+          0.013362353667616844,
+          -0.0002690633700694889,
+          -0.0033357280772179365,
+          0.0014400089858099818,
+          0.0016027542296797037,
+          0.0011671592947095633,
+          0.0005170971271581948,
+          0.00027039070846512914,
+          0.0013567078858613968,
+          -0.00011778047337429598
+        ]
+      },
+      {
+        "indices": [
+          9,
+          11
+        ],
+        "observed_length_m": 0.24042303440888307,
+        "length_sigma_m": 0.042115753093479626,
+        "derivative_m": [
+          0.014445658773183823,
+          -0.00018371330224908888,
+          -0.00392541941255331,
+          0.0009520112071186304,
+          0.0013825115747749805,
+          0.0010185515275225043,
+          0.0006346197333186865,
+          0.0005400259396992624,
+          0.0014381277142092586,
+          -0.00022484012879431248
+        ]
+      },
+      {
+        "indices": [
+          10,
+          12
+        ],
+        "observed_length_m": 0.25132766454840205,
+        "length_sigma_m": 0.02392030125930601,
+        "derivative_m": [
+          0.016749856993556023,
+          -0.0008072857744991779,
+          -0.004800543189048767,
+          -0.0003566191880963743,
+          -0.00011188219650648534,
+          0.001193625503219664,
+          -0.0007301632431335747,
+          -0.0003060438029933721,
+          0.001615198445506394,
+          0.0005881048273295164
+        ]
+      },
+      {
+        "indices": [
+          11,
+          13
+        ],
+        "observed_length_m": 0.24574328049255176,
+        "length_sigma_m": 0.024211489447150257,
+        "derivative_m": [
+          0.015982016921043396,
+          -0.0008524880395270884,
+          -0.004641151521354914,
+          -0.00025551594444550574,
+          -3.826991087407805e-05,
+          0.0012246078113093972,
+          -0.0006905042100697756,
+          -0.0003380421840120107,
+          0.0015940370503813028,
+          0.0005597203271463513
+        ]
+      },
+      {
+        "indices": [
+          1,
+          3
+        ],
+        "observed_length_m": 0.45343749780850906,
+        "length_sigma_m": 0.09997087206724845,
+        "derivative_m": [
+          0.022681375965476036,
+          -0.008393054828047752,
+          -0.005854800809174776,
+          0.003581949742510915,
+          -0.0005467251758091152,
+          0.0032948493026196957,
+          -0.0010650152107700706,
+          -0.0013376841088756919,
+          -0.0025040674954652786,
+          -0.0005187704227864742
+        ]
+      },
+      {
+        "indices": [
+          2,
+          4
+        ],
+        "observed_length_m": 0.6651822393004144,
+        "length_sigma_m": 0.12644619014631728,
+        "derivative_m": [
+          0.020856782793998718,
+          -0.008409962058067322,
+          -0.005592565983533859,
+          0.0042917500250041485,
+          -3.0483985028695315e-05,
+          0.003592310706153512,
+          -0.0007911495049484074,
+          -0.0011411785380914807,
+          -0.002182446885854006,
+          -0.00048216080176644027
+        ]
+      },
+      {
+        "indices": [
+          3,
+          5
+        ],
+        "observed_length_m": 0.35594193891590037,
+        "length_sigma_m": 0.15969416009146592,
+        "derivative_m": [
+          0.02635187655687332,
+          -0.004072150681167841,
+          -0.005249841138720512,
+          0.005130044184625149,
+          -5.777905971626751e-05,
+          0.005307363346219063,
+          -0.0017040831735357642,
+          0.0003442471206653863,
+          -0.0015123541234061122,
+          0.00039640977047383785
+        ]
+      },
+      {
+        "indices": [
+          4,
+          6
+        ],
+        "observed_length_m": 0.28566822976141687,
+        "length_sigma_m": 0.19493855814032157,
+        "derivative_m": [
+          0.027199720963835716,
+          -0.004655448719859123,
+          -0.005867984611541033,
+          0.004868445917963982,
+          -0.0002933908544946462,
+          0.005402236711233854,
+          -0.001841505989432335,
+          0.0004416746087372303,
+          -0.0017236570129171014,
+          0.00039818210643716156
+        ]
+      }
+    ],
+    "alignment_rms_m": 0.07109808112436503,
+    "alignment_singular_values": [
+      0.04336913111016454,
+      0.0227054644442302,
+      0.013676566059277575
+    ],
+    "beta_initial": [
+      -1.3654949182978997,
+      -0.11980786176354208,
+      0.2656673480746286,
+      0.011623130140605864,
+      -0.025850063136118682,
+      -0.028123599479975236,
+      0.0024539118311643787,
+      0.013040612240400215,
+      -0.03191475983547618,
+      -0.006325558409017601
+    ],
+    "global_initial": [
+      0.04881659419698438,
+      2.017407562197986,
+      -2.3135844530120178
+    ],
+    "translation_initial": [
+      0.07208705341802679,
+      0.6715484482016827,
+      0.7136804359138972
+    ],
+    "uses_gt": false
+  },
+  "final_artifact": {
+    "step": 3400,
+    "head_position_error_mm": 0.15981049835681915,
+    "head_orientation_error_deg": 0.0003748719174884276,
+    "head_rotation": [
+      [
+        -1.000000238418579,
+        1.0743401617219206e-06,
+        -3.1478159598918865e-06
+      ],
+      [
+        2.895305669881054e-06,
+        -0.1736425906419754,
+        -0.9848088026046753
+      ],
+      [
+        -1.59174169311882e-06,
+        -0.9848087430000305,
+        0.17364265024662018
+      ]
+    ],
+    "pelvis_left_m": [
+      0.07802628725767136,
+      0.25129419565200806,
+      0.6673444509506226
+    ],
+    "minimum_mesh_z_m": -0.1038522720336914,
+    "reload_mesh_max_m": 5.960464477539062e-07,
+    "reload_projection_max_px": {
+      "left": 0.0001862316137248854,
+      "right": 0.00025825156239989155
+    },
+    "sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1"
+  },
+  "terms": {
+    "metric/body": 0.002185685560107231,
+    "metric/wrist": 0.0001452150900149718,
+    "metric/shoulder": 0.00026618505944497883,
+    "metric/hand_left": 0.00044290893129073083,
+    "metric/hand_right": 0.0002001530083362013,
+    "left/positive_joint_guard": 0.0,
+    "right/positive_joint_guard": 0.0,
+    "head_position": 1.1350844033586327e-06,
+    "head_orientation": 1.56253981975496e-10,
+    "pose_prior": 0.00015616042946930975,
+    "translation_prior": 4.132522008148953e-05,
+    "rotation_prior": 1.1344137647029129e-06,
+    "shape_prior": 2.6513544071349315e-06
+  },
+  "pose_increments_deg": {
+    "L_Hip": 17.42474937438965,
+    "R_Hip": 14.45787239074707,
+    "Spine_1": 4.1993184089660645,
+    "Spine_2": 1.5568413734436035,
+    "Spine_3": 9.034387588500977,
+    "L_Knee": 12.298895835876465,
+    "R_Knee": 11.872445106506348,
+    "L_Ankle": 0.0,
+    "R_Ankle": 0.0,
+    "Neck": 10.392030715942383,
+    "Head": 6.9900641441345215,
+    "L_Collar": 14.043268203735352,
+    "R_Collar": 14.997082710266113,
+    "L_Shoulder": 14.854718208312988,
+    "R_Shoulder": 26.94674301147461,
+    "L_Elbow": 25.0,
+    "R_Elbow": 24.999998092651367,
+    "L_Wrist": 15.0,
+    "R_Wrist": 15.000000953674316
+  },
+  "hard_caps_deg": {
+    "L_Hip": 18.0,
+    "R_Hip": 18.0,
+    "Spine_1": 9.999999046325684,
+    "Spine_2": 9.999999046325684,
+    "Spine_3": 12.0,
+    "L_Knee": 21.999998092651367,
+    "R_Knee": 21.999998092651367,
+    "L_Ankle": 13.999999046325684,
+    "R_Ankle": 13.999999046325684,
+    "Neck": 12.0,
+    "Head": 12.0,
+    "L_Collar": 15.0,
+    "R_Collar": 15.0,
+    "L_Shoulder": 27.999998092651367,
+    "R_Shoulder": 27.999998092651367,
+    "L_Elbow": 24.999998092651367,
+    "R_Elbow": 24.999998092651367,
+    "L_Wrist": 15.0,
+    "R_Wrist": 15.0
+  },
+  "comparison_rows": [
+    {
+      "case": "B_previous",
+      "body25_absolute_mean_mm": 69.48084642494172,
+      "pelvis_absolute_error_mm": 65.53327708774499,
+      "wrists_absolute_mean_mm": 12.993277062057135,
+      "elbows_absolute_mean_mm": 55.14176666916463,
+      "hands40_absolute_mean_mm": 36.71087769203492,
+      "head_position_error_mm": 0.39306604394778366,
+      "head_orientation_error_deg": 0.008734079186266383,
+      "neutral_shape_mean_mm": 38.302041590213776,
+      "beta_rmse": 0.9914189577102661,
+      "pelvis_error_xyz_mm": [
+        10.287365643307567,
+        -63.97524886988953,
+        -9.795307346671445
+      ],
+      "saturated_pose_increments": [
+        "Neck",
+        "L_Collar",
+        "R_Collar",
+        "R_Shoulder"
+      ]
+    },
+    {
+      "case": "D_oracle_shape",
+      "body25_absolute_mean_mm": 36.925462127124604,
+      "pelvis_absolute_error_mm": 48.76349232355467,
+      "wrists_absolute_mean_mm": 7.344018187780483,
+      "elbows_absolute_mean_mm": 19.67602825109912,
+      "hands40_absolute_mean_mm": 32.39404692156599,
+      "head_position_error_mm": 0.015757853822660012,
+      "head_orientation_error_deg": 0.0009574984388248529,
+      "neutral_shape_mean_mm": 0.0,
+      "beta_rmse": 0.0,
+      "pelvis_error_xyz_mm": [
+        11.643326608464122,
+        -46.84740715884522,
+        6.901562980324405
+      ],
+      "saturated_pose_increments": [
+        "L_Collar"
+      ]
+    },
+    {
+      "case": "E_previous",
+      "body25_absolute_mean_mm": 47.39222966003814,
+      "pelvis_absolute_error_mm": 57.618531185349596,
+      "wrists_absolute_mean_mm": 6.401880820154135,
+      "elbows_absolute_mean_mm": 32.61840875648344,
+      "hands40_absolute_mean_mm": 30.42624252195668,
+      "head_position_error_mm": 0.04049639928161107,
+      "head_orientation_error_deg": 0.006686591826578084,
+      "neutral_shape_mean_mm": 20.25892585515976,
+      "beta_rmse": 0.516318678855896,
+      "pelvis_error_xyz_mm": [
+        5.820489255711436,
+        -55.94641381167725,
+        -12.490629383414609
+      ],
+      "saturated_pose_increments": []
+    },
+    {
+      "case": "legacy_oracle_left",
+      "body25_absolute_mean_mm": 57.98609388980719,
+      "pelvis_absolute_error_mm": 62.89676272767415,
+      "wrists_absolute_mean_mm": 6.882276157462953,
+      "elbows_absolute_mean_mm": 42.004055861655054,
+      "hands40_absolute_mean_mm": 30.963691137068924,
+      "head_position_error_mm": 0.009935923565486348,
+      "head_orientation_error_deg": 0.0010875113171569107,
+      "neutral_shape_mean_mm": 28.060317039489746,
+      "beta_rmse": 0.3763282895088196,
+      "pelvis_error_xyz_mm": [
+        8.746764389798045,
+        -59.03208666705445,
+        -19.86730022081695
+      ],
+      "saturated_pose_increments": []
+    },
+    {
+      "case": "legacy_none_left",
+      "body25_absolute_mean_mm": 64.74794757094976,
+      "pelvis_absolute_error_mm": 52.58812863376835,
+      "wrists_absolute_mean_mm": 6.4719983776835806,
+      "elbows_absolute_mean_mm": 30.182513030627234,
+      "hands40_absolute_mean_mm": 30.469849059963877,
+      "head_position_error_mm": 77.02757023485441,
+      "head_orientation_error_deg": 23.046291950107822,
+      "neutral_shape_mean_mm": 14.663657173514366,
+      "beta_rmse": 0.5178090333938599,
+      "pelvis_error_xyz_mm": [
+        3.6727848928421736,
+        -49.862657126420295,
+        -16.301452347129207
+      ],
+      "saturated_pose_increments": []
+    },
+    {
+      "case": "oracle_left",
+      "body25_absolute_mean_mm": 35.51295848758787,
+      "pelvis_absolute_error_mm": 42.14360223100037,
+      "wrists_absolute_mean_mm": 6.144147878921418,
+      "elbows_absolute_mean_mm": 22.676612508918822,
+      "hands40_absolute_mean_mm": 20.967495794161117,
+      "head_position_error_mm": 0.15975841736014357,
+      "head_orientation_error_deg": 0.0003772954879313758,
+      "neutral_shape_mean_mm": 5.683595780283213,
+      "beta_rmse": 0.051491301506757736,
+      "pelvis_error_xyz_mm": [
+        4.145241109654307,
+        -41.832391556733405,
+        2.9918559109274323
+      ],
+      "saturated_pose_increments": [
+        "R_Collar",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "none_left",
+      "body25_absolute_mean_mm": 44.84805588943849,
+      "pelvis_absolute_error_mm": 45.27850693586861,
+      "wrists_absolute_mean_mm": 6.001039659855703,
+      "elbows_absolute_mean_mm": 23.18798923813502,
+      "hands40_absolute_mean_mm": 21.408858845478527,
+      "head_position_error_mm": 38.11531520955466,
+      "head_orientation_error_deg": 14.922017161117548,
+      "neutral_shape_mean_mm": 5.354472901672125,
+      "beta_rmse": 0.04850958660244942,
+      "pelvis_error_xyz_mm": [
+        3.9992767851799726,
+        -38.232747849458015,
+        23.92500715604462
+      ],
+      "saturated_pose_increments": [
+        "R_Collar",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "oracle_right",
+      "body25_absolute_mean_mm": 39.70901046117482,
+      "pelvis_absolute_error_mm": 43.68856541005891,
+      "wrists_absolute_mean_mm": 5.713000064012982,
+      "elbows_absolute_mean_mm": 22.546820241861923,
+      "hands40_absolute_mean_mm": 22.574475623545197,
+      "head_position_error_mm": 0.24665727357015255,
+      "head_orientation_error_deg": 0.0015601665283241782,
+      "neutral_shape_mean_mm": 13.483256101608276,
+      "beta_rmse": 0.12215358018875122,
+      "pelvis_error_xyz_mm": [
+        5.373037187382579,
+        -43.18869524859742,
+        -3.81547135958038
+      ],
+      "saturated_pose_increments": [
+        "L_Collar",
+        "L_Shoulder",
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "none_right",
+      "body25_absolute_mean_mm": 44.62000586766067,
+      "pelvis_absolute_error_mm": 47.91529968752865,
+      "wrists_absolute_mean_mm": 5.424038968224154,
+      "elbows_absolute_mean_mm": 21.052558276889734,
+      "hands40_absolute_mean_mm": 22.902745210587106,
+      "head_position_error_mm": 34.93460858091104,
+      "head_orientation_error_deg": 15.439846613828646,
+      "neutral_shape_mean_mm": 6.719562690705061,
+      "beta_rmse": 0.06087697297334671,
+      "pelvis_error_xyz_mm": [
+        6.263739196583629,
+        -40.47167712115601,
+        24.873376659065862
+      ],
+      "saturated_pose_increments": [
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "body25_absolute_mean_mm": 38.10993583782139,
+      "pelvis_absolute_error_mm": 42.43868521106715,
+      "wrists_absolute_mean_mm": 6.1956144897811765,
+      "elbows_absolute_mean_mm": 20.84323447461884,
+      "hands40_absolute_mean_mm": 20.701285783665206,
+      "head_position_error_mm": 9.867714490361939,
+      "head_orientation_error_deg": 3.0067799334582244,
+      "neutral_shape_mean_mm": 3.93436336889863,
+      "beta_rmse": 0.035643842071294785,
+      "pelvis_error_xyz_mm": [
+        4.481172887608409,
+        -42.15366059207276,
+        -2.0074836696084564
+      ],
+      "saturated_pose_increments": [
+        "Spine_3",
+        "R_Collar",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "body25_absolute_mean_mm": 37.15543388947558,
+      "pelvis_absolute_error_mm": 42.14398262845829,
+      "wrists_absolute_mean_mm": 6.1282915054179306,
+      "elbows_absolute_mean_mm": 23.39100574506532,
+      "hands40_absolute_mean_mm": 21.05926748579906,
+      "head_position_error_mm": 10.078432639492778,
+      "head_orientation_error_deg": 2.999916645875909,
+      "neutral_shape_mean_mm": 7.267935201525688,
+      "beta_rmse": 0.06584484130144119,
+      "pelvis_error_xyz_mm": [
+        5.636132089421153,
+        -41.03762322329835,
+        7.762909701973575
+      ],
+      "saturated_pose_increments": [
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "body25_absolute_mean_mm": 38.14747390407532,
+      "pelvis_absolute_error_mm": 41.75523587217682,
+      "wrists_absolute_mean_mm": 6.203309118510095,
+      "elbows_absolute_mean_mm": 21.054942606483937,
+      "hands40_absolute_mean_mm": 20.819478876134138,
+      "head_position_error_mm": 9.800757175883112,
+      "head_orientation_error_deg": 2.9997263987699707,
+      "neutral_shape_mean_mm": 3.5067617427557707,
+      "beta_rmse": 0.031769897788763046,
+      "pelvis_error_xyz_mm": [
+        6.451836554333568,
+        -41.1578755941327,
+        -2.8111926997598236
+      ],
+      "saturated_pose_increments": [
+        "L_Hip",
+        "Spine_3",
+        "R_Collar",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "body25_absolute_mean_mm": 36.906461659424444,
+      "pelvis_absolute_error_mm": 42.69297695451047,
+      "wrists_absolute_mean_mm": 6.134681854152074,
+      "elbows_absolute_mean_mm": 23.3460675046889,
+      "hands40_absolute_mean_mm": 21.028378156420622,
+      "head_position_error_mm": 10.090890893536587,
+      "head_orientation_error_deg": 2.9989200686152127,
+      "neutral_shape_mean_mm": 7.673967629671097,
+      "beta_rmse": 0.06952349841594696,
+      "pelvis_error_xyz_mm": [
+        5.722707835957408,
+        -41.366223629945075,
+        8.875609210640567
+      ],
+      "saturated_pose_increments": [
+        "L_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "body25_absolute_mean_mm": 41.20057883586696,
+      "pelvis_absolute_error_mm": 43.259435920088684,
+      "wrists_absolute_mean_mm": 6.31231557023505,
+      "elbows_absolute_mean_mm": 19.9019230887151,
+      "hands40_absolute_mean_mm": 20.453936700573273,
+      "head_position_error_mm": 19.704854050395596,
+      "head_orientation_error_deg": 3.0018035155618463,
+      "neutral_shape_mean_mm": 2.0771208219230175,
+      "beta_rmse": 0.018817955628037453,
+      "pelvis_error_xyz_mm": [
+        3.654963104054332,
+        -42.40972214602784,
+        -7.70944280275665
+      ],
+      "saturated_pose_increments": [
+        "Spine_3",
+        "L_Collar",
+        "R_Collar",
+        "R_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "body25_absolute_mean_mm": 39.00676040322453,
+      "pelvis_absolute_error_mm": 42.83213036974786,
+      "wrists_absolute_mean_mm": 6.118513039979158,
+      "elbows_absolute_mean_mm": 23.78198002593615,
+      "hands40_absolute_mean_mm": 21.136840580123533,
+      "head_position_error_mm": 20.04006673760741,
+      "head_orientation_error_deg": 3.000115178734353,
+      "neutral_shape_mean_mm": 8.229025639593601,
+      "beta_rmse": 0.07455207407474518,
+      "pelvis_error_xyz_mm": [
+        5.3721952717751265,
+        -40.449414786332405,
+        13.022125533730167
+      ],
+      "saturated_pose_increments": [
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "body25_absolute_mean_mm": 41.32063094042243,
+      "pelvis_absolute_error_mm": 43.563738414494935,
+      "wrists_absolute_mean_mm": 6.369646009371704,
+      "elbows_absolute_mean_mm": 20.22458948380278,
+      "hands40_absolute_mean_mm": 20.860080340306546,
+      "head_position_error_mm": 19.666504231415207,
+      "head_orientation_error_deg": 3.0004769092267964,
+      "neutral_shape_mean_mm": 1.030576415359974,
+      "beta_rmse": 0.009336613118648529,
+      "pelvis_error_xyz_mm": [
+        5.72209688834846,
+        -42.27841311358765,
+        -8.808671661704404
+      ],
+      "saturated_pose_increments": [
+        "L_Hip",
+        "Spine_3",
+        "Neck",
+        "L_Collar",
+        "R_Collar",
+        "R_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "body25_absolute_mean_mm": 38.70556542442141,
+      "pelvis_absolute_error_mm": 43.75738525076458,
+      "wrists_absolute_mean_mm": 6.116569535156249,
+      "elbows_absolute_mean_mm": 23.743971907579954,
+      "hands40_absolute_mean_mm": 21.00055855106807,
+      "head_position_error_mm": 20.06974126757994,
+      "head_orientation_error_deg": 3.000309163781595,
+      "neutral_shape_mean_mm": 8.972798474133015,
+      "beta_rmse": 0.08129046857357025,
+      "pelvis_error_xyz_mm": [
+        5.616298643872142,
+        -40.689532097810066,
+        15.084029010445255
+      ],
+      "saturated_pose_increments": [
+        "L_Elbow",
+        "R_Elbow",
+        "L_Wrist",
+        "R_Wrist"
+      ]
+    }
+  ],
+  "perturbation_summary": {
+    "10": {
+      "body25_absolute_mean_mm": {
+        "mean": 37.57982632269918,
+        "min": 36.906461659424444,
+        "max": 38.14747390407532
+      },
+      "pelvis_absolute_error_mm": {
+        "mean": 42.257720166553185,
+        "min": 41.75523587217682,
+        "max": 42.69297695451047
+      },
+      "wrists_absolute_mean_mm": {
+        "mean": 6.1654742419653195,
+        "min": 6.1282915054179306,
+        "max": 6.203309118510095
+      },
+      "elbows_absolute_mean_mm": {
+        "mean": 22.15881258271425,
+        "min": 20.84323447461884,
+        "max": 23.39100574506532
+      },
+      "hands40_absolute_mean_mm": {
+        "mean": 20.902102575504756,
+        "min": 20.701285783665206,
+        "max": 21.05926748579906
+      },
+      "head_position_error_mm": {
+        "mean": 9.959448799818604,
+        "min": 9.800757175883112,
+        "max": 10.090890893536587
+      },
+      "head_orientation_error_deg": {
+        "mean": 3.0013357616798295,
+        "min": 2.9989200686152127,
+        "max": 3.0067799334582244
+      },
+      "neutral_shape_mean_mm": {
+        "mean": 5.5957569857127964,
+        "min": 3.5067617427557707,
+        "max": 7.673967629671097
+      }
+    },
+    "20": {
+      "body25_absolute_mean_mm": {
+        "mean": 40.058383900983834,
+        "min": 38.70556542442141,
+        "max": 41.32063094042243
+      },
+      "pelvis_absolute_error_mm": {
+        "mean": 43.353172488774014,
+        "min": 42.83213036974786,
+        "max": 43.75738525076458
+      },
+      "wrists_absolute_mean_mm": {
+        "mean": 6.22926103868554,
+        "min": 6.116569535156249,
+        "max": 6.369646009371704
+      },
+      "elbows_absolute_mean_mm": {
+        "mean": 21.9131161265085,
+        "min": 19.9019230887151,
+        "max": 23.78198002593615
+      },
+      "hands40_absolute_mean_mm": {
+        "mean": 20.862854043017855,
+        "min": 20.453936700573273,
+        "max": 21.136840580123533
+      },
+      "head_position_error_mm": {
+        "mean": 19.87029157174954,
+        "min": 19.666504231415207,
+        "max": 20.06974126757994
+      },
+      "head_orientation_error_deg": {
+        "mean": 3.0006761918261473,
+        "min": 3.000115178734353,
+        "max": 3.0018035155618463
+      },
+      "neutral_shape_mean_mm": {
+        "mean": 5.077380337752402,
+        "min": 1.030576415359974,
+        "max": 8.972798474133015
+      }
+    }
+  },
+  "interpretation": "Selected predeclared left seed, not selected by GT error. Existing results, not rerun."
+}

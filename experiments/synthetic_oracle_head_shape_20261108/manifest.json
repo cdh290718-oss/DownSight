@@ -1,0 +1,391 @@
+{
+  "experiment": "synthetic_oracle_head_shape_20261108",
+  "status": "Oracle diagnostic; candidate body-fitting baseline; not default pipeline or deployment validation",
+  "source_commit": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+  "fit_base_commit": "9012bbf856570e85da60261190ead1092cce9997",
+  "primary_case": {
+    "case": "oracle",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle"
+  },
+  "dataset": {
+    "repository": "https://github.com/cdh290718-oss/DownSightSmplxdata",
+    "commit": "192671271a74b99f41b9eb033d8f88b1dac77ada",
+    "sample": "000001",
+    "views": [
+      "cam3/left",
+      "cam4/right"
+    ],
+    "independent_postures": 1
+  },
+  "implementation_policy": "Authoritative implementation remains in the source run, pinned here by commit and SHA-256. This experiment folder is the curated entry point; it does not duplicate or silently modify the fitter.",
+  "repository_resources": [
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "bytes": 12875,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/fit.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "bytes": 2213,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/common.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "bytes": 2656,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/initialization.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "sha256": "70d64e4bce9c96728a0c15afa29986fe46d1a763092138f5f81236e2086ea879",
+      "bytes": 4927,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/prepare.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/run.py",
+      "sha256": "093dd729a35080a248942ee97abeaf68de2da9be75399cbed8da5dcef71f73f0",
+      "bytes": 2047,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/run.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/finish.py",
+      "sha256": "6fa62f15fcdb1b0f5c5083646cf70a2784b93f5fddc1f65f067962841dd2fdfc",
+      "bytes": 2189,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/finish.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evaluate.py",
+      "sha256": "fc23c50987484e05ed0191e2c34cafab1a9d2d52a035a57d72bf85d93712be45",
+      "bytes": 7535,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evaluate.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py",
+      "sha256": "6ecb5af6a9ec814d92ecc0c848363002acdd1b2ced9e5e73793948dfbbb2cea7",
+      "bytes": 3024,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/verify.py",
+      "sha256": "a8182a9b7a8f1c3d7c447df76fc877fddc49ef2999912cc9f08ff29514bcd40a",
+      "bytes": 4620,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/verify.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/test_method.py",
+      "sha256": "2c0becef08c33c1672c0b7c9a8bd1bb517a7d92a8003e19dcf24836bf3e2f0b6",
+      "bytes": 3219,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/test_method.py"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "bytes": 1830,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/settings.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "bytes": 1597,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/cases.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/brief.md",
+      "sha256": "10f6763a95f061416b39ff5dd660576764a9912ba4223aa81f9ff029def17da2",
+      "bytes": 586,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/brief.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/report.md",
+      "sha256": "cea985506ececdb0a2b8535ab16a444dc14484a7f2f3ef9b77b857c3404a60b3",
+      "bytes": 9027,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/report.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/method.md",
+      "sha256": "2b6bf6ecd3849836afff19c7080c41d20845dcaace95381d923c7bf61db49286",
+      "bytes": 4498,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/method.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/projection.md",
+      "sha256": "a2c7bd50f868da76730f9e2687551366f9b004c804f52d9dabe61e4ed86c78f0",
+      "bytes": 3177,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/projection.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/review.md",
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d",
+      "bytes": 31,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/review.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/assessment.json",
+      "sha256": "293e002227b6a9679841ed39a3ba79714e2da029cd82dbf05606cb09c86a57b0",
+      "bytes": 16330,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/assessment.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json",
+      "sha256": "c8d90ec8334eaaf61b9157bb9f672e60f4b0ca7c78a14fc4695269d3c4312e18",
+      "bytes": 867673,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/shape_metrics.json",
+      "sha256": "e22e7116c7934eee7873c010bf849dcd0212e2cce0e371336b45d5f8f8782e4f",
+      "bytes": 28327,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/shape_metrics.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/optimization_summary.json",
+      "sha256": "68478cfd8c8c7d3e2e796629747ae3aa8d5a959140ccea655ac323a2a392bb6b",
+      "bytes": 865476,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/optimization_summary.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json",
+      "sha256": "c242eae6665de3faed0defaaeb0436b563a014960b7f7ae5181266420690b1cd",
+      "bytes": 15445,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/verification.json",
+      "sha256": "a9bf3ee6c2b1f12467aaac75e21f92d71ed603ab28c60ea965ef0389b20517dd",
+      "bytes": 18383,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/verification.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/execution.json",
+      "sha256": "2cf506c6e13b91575f7b9c9a1980fdb24200541beba899240c08b025fcec3a96",
+      "bytes": 10784,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/execution.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json",
+      "sha256": "89dc2c8136b089d5f75e101e29ceefc80e4f8a12bbbb22b9d8a9ace2165a9a42",
+      "bytes": 13121,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/evaluation_execution.json",
+      "sha256": "0259c7c1af6ce875add20d6cdb907e569116a976799a58614a4aa48574ea8ef9",
+      "bytes": 1797,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/evaluation_execution.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json",
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "bytes": 28987,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json",
+      "sha256": "5f1cd8f01c1682e0552549ba38dff6fdc5b634e1ab225209a5402e2eafb2d5bf",
+      "bytes": 2279,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json",
+      "sha256": "a55e672cb8a6be26dc7b506b494a642e1da5e8e63ac350b4b5cd63225d319cfa",
+      "bytes": 5665,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json",
+      "sha256": "62eb4efabaa64ca446d40557c1d25b6813f571df5415d8da252864e9d45e2639",
+      "bytes": 12123,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json",
+      "sha256": "3c951cd9a960311d7b657a956e91cfa5d88801f6e5fb3c0bb8024c98355cd7dc",
+      "bytes": 922,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/visual_inspection.json",
+      "sha256": "e36f1fc33073f8c49e560f94012f661843934adf43f81b26a54dfab459fd83db",
+      "bytes": 433,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/visual_inspection.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/evidence/prepush.json",
+      "sha256": "8730441e329977237ca3ebf3dbac1cc40952319d592fa05056c5db25243707d0",
+      "bytes": 1490,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/evidence/prepush.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg",
+      "sha256": "f3726428fa3bf6ce8e06a4440171d34911f4e2e1bc01a41f6d1bd9612b769bba",
+      "bytes": 328916,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg",
+      "sha256": "c4cca579b98b2082535f6d0179ff9b2393f51eaff1d3c3505890ab20048ef2c9",
+      "bytes": 333301,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-original/report.md",
+      "sha256": "1d4315e4ba3cd6b784abfc335ba8cfbaf6a0c3b89263264459b9e77946c2dd50",
+      "bytes": 8957,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-original/report.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "sha256": "417c64f150f07ceeacf98726502bd26796295e223a72600a46e5092a8e48ca3a",
+      "bytes": 3025,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-original/evidence/resources.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-original/evidence/inputs.json",
+      "sha256": "be6f427b363c14e6487b872c4eb08b54b6592dd79a17f6cda0885eb067c740bb",
+      "bytes": 2181,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-original/evidence/inputs.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-stereo-abcd/report.md",
+      "sha256": "cf3e2ee9f6f142ca833113a2e3bc122523176f9769769f58b39286b2d8265313",
+      "bytes": 12812,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-stereo-abcd/report.md"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json",
+      "sha256": "6464457ce7e2f93f96b8c36284781f549528a76095ce56d582488e0b453877ad",
+      "bytes": 52461,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json"
+    },
+    {
+      "path": "runs/2026-11-08_synthetic-shape-prior/report.md",
+      "sha256": "3e978c0af8a9d134d36e1ae8dc9c1c3bd5fffa037223023dc93e990f97e0ad25",
+      "bytes": 9422,
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/c4e2b9de76573139fa66cbb953bf973d2af88c77/runs/2026-11-08_synthetic-shape-prior/report.md"
+    }
+  ],
+  "external_inputs": [
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/inputs.json",
+      "bytes": 22799,
+      "sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/triangulated.json",
+      "bytes": 28987,
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_shape_prior_20261108/inputs.json",
+      "bytes": 23756,
+      "sha256": "17dd21cdf0a4b9906ef8713c626908a2200f7840825006e3b84ebb8eedfea75c",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/configs/left.json",
+      "bytes": 2611,
+      "sha256": "e846401c8a31365d3f336f7986a8e39d6ddc3e7f83ee26856c07fb6b1f0832ae",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+      "bytes": 3801,
+      "sha256": "0a9d86ffe2acf077d51cb10aac92dfd0a62352eb20e64bff81c2c86402359dc2",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+      "bytes": 123656,
+      "sha256": "da8448ebac444b06321e187b0ae6bf100eb72da53e8ee8eb0ea8724da29189cb",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/right_cpu/jobs/right.json",
+      "bytes": 3819,
+      "sha256": "a6b03a53076a2c5985ab18ea55266999f56005cf3edafe0088377967f41659da",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/right_cpu/frames/right/raw/params.npz",
+      "bytes": 123058,
+      "sha256": "d87e80f458d131a7efc7c351a29226c91efd3cba948ad1c74477e8466cbb9d84",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+      "bytes": 391,
+      "sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_minus.json",
+      "bytes": 402,
+      "sha256": "156f80fc887300800486e800c0ae54e9c25c13e7f85edf31672e32cbc21de8f5",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_plus.json",
+      "bytes": 399,
+      "sha256": "b90f6b7f8a580caee3db09bbbfa734a74fafd9e1bd1def0abba63fe33aff829d",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_minus.json",
+      "bytes": 403,
+      "sha256": "5bb3b0d62846e3079093aa568238b4858e326b1b59506359421f4ff6d3397b87",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_plus.json",
+      "bytes": 402,
+      "sha256": "c01b5746a807cbb7c412980f83360eb99357c33d2180021cdf90bd2a88294460",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_minus.json",
+      "bytes": 404,
+      "sha256": "91645ee01144f9410b6afe68e3147959e34b5a3bb3b081f956fd8e1bbad0200e",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_plus.json",
+      "bytes": 400,
+      "sha256": "aa57d4fd2b59ccad5894e945d4f7586da167f96d07a6f5c29569b15e00e4a058",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_minus.json",
+      "bytes": 403,
+      "sha256": "589a4aac023495d616320a23fc126b12cd6f5c5a584a7754bf9da6a74e8ddf20",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_plus.json",
+      "bytes": 401,
+      "sha256": "5b2cea2c9a48323b887b03408b52e0c6100c72ac259087a37edfdff78a8b3365",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    }
+  ],
+  "external_outputs": [
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/oracle_left/initial.npz",
+      "sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "access": "Development workspace or owner-provided external storage; not included in GitHub",
+      "coordinate_frame": "cam3 CV, metres"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/oracle_left/final.npz",
+      "sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+      "access": "Development workspace or owner-provided external storage; not included in GitHub",
+      "coordinate_frame": "cam3 CV, metres"
+    }
+  ],
+  "settings_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+  "archive_reruns_fitting": false
+}

@@ -1,0 +1,875 @@
+{
+  "exit_status": 0,
+  "command": "python runs/2026-11-08_archive-oracle-shape-baseline/validate.py",
+  "scope": "Archive-only verification, no rerun of fitting and no independent reproduction claim",
+  "checks": [
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/common.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/common.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/initialization.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/initialization.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/run.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/run.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/finish.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/finish.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evaluate.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evaluate.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/verify.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/verify.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/test_method.py",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/test_method.py",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/settings.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/settings.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/cases.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/cases.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/brief.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/brief.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/report.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/report.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/method.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/method.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/projection.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/projection.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/review.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/review.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/assessment.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/assessment.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/shape_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/shape_metrics.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/verification.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/verification.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/execution.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/execution.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/evaluation_execution.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/evaluation_execution.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/visual_inspection.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/visual_inspection.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/evidence/prepush.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/evidence/prepush.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-original/report.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-original/report.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-original/evidence/inputs.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-original/evidence/inputs.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-stereo-abcd/report.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-stereo-abcd/report.md",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json",
+      "passed": true
+    },
+    {
+      "check": "source hash runs/2026-11-08_synthetic-shape-prior/report.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source runs/2026-11-08_synthetic-shape-prior/report.md",
+      "passed": true
+    },
+    {
+      "check": "settings snapshot identical",
+      "passed": true
+    },
+    {
+      "check": "primary row exact",
+      "passed": true
+    },
+    {
+      "check": "all comparisons retained",
+      "passed": true
+    },
+    {
+      "check": "perturbation summary exact",
+      "passed": true
+    },
+    {
+      "check": "both views exact",
+      "passed": true
+    },
+    {
+      "check": "shape row exact",
+      "passed": true
+    },
+    {
+      "check": "truth mean shape fact",
+      "passed": true
+    },
+    {
+      "check": "selected output hash",
+      "passed": true
+    },
+    {
+      "check": "rank exactly one",
+      "passed": true
+    },
+    {
+      "check": "head anchor and seed fixed",
+      "passed": true
+    },
+    {
+      "check": "README value body25_absolute_mean_mm",
+      "passed": true
+    },
+    {
+      "check": "README value pelvis_absolute_error_mm",
+      "passed": true
+    },
+    {
+      "check": "README value wrists_absolute_mean_mm",
+      "passed": true
+    },
+    {
+      "check": "README value elbows_absolute_mean_mm",
+      "passed": true
+    },
+    {
+      "check": "README value hands40_absolute_mean_mm",
+      "passed": true
+    },
+    {
+      "check": "README value neutral_shape_mean_mm",
+      "passed": true
+    },
+    {
+      "check": "pelvis XYZ statement",
+      "passed": true
+    },
+    {
+      "check": "saturated joints statement",
+      "passed": true
+    },
+    {
+      "check": "information spectrum 0.055178141089546585",
+      "passed": true
+    },
+    {
+      "check": "information spectrum 0.2646969176551283",
+      "passed": true
+    },
+    {
+      "check": "information spectrum 1.7069265543458119",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md -> README.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md -> RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md -> evidence/results.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> README.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-original/report.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-stereo-abcd/report.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-shape-prior/report.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-head-robustness/initialization.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> settings.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/METHOD.md -> ../../runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> BOUNDARIES.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> REPRODUCE.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> ../../runs/2026-11-08_synthetic-head-robustness/projection.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> settings.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> ../../runs/2026-11-08_synthetic-head-robustness/",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> evidence/results.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> ../../runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> ../../runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/README.md -> ../../runs/2026-11-08_synthetic-head-robustness/review.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> README.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> manifest.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> settings.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/initialization.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/run.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evaluate.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/test_method.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/verify.py",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/execution.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-original/evidence/inputs.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md -> ../../runs/2026-11-08_archive-oracle-shape-baseline/report.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> README.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> evidence/results.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> evidence/results.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/report.md",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/verification.json",
+      "passed": true
+    },
+    {
+      "check": "local link experiments/synthetic_oracle_head_shape_20261108/RESULTS.md -> ../../runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json",
+      "passed": true
+    },
+    {
+      "check": "newline format README.md",
+      "passed": true
+    },
+    {
+      "check": "newline format METHOD.md",
+      "passed": true
+    },
+    {
+      "check": "newline format RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "newline format BOUNDARIES.md",
+      "passed": true
+    },
+    {
+      "check": "newline format REPRODUCE.md",
+      "passed": true
+    }
+  ],
+  "local_links": [
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md",
+      "target": "README.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md",
+      "target": "RESULTS.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md",
+      "target": "evidence/results.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "README.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-original/report.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-stereo-abcd/report.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-shape-prior/report.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/prepare.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/initialization.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/fit.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/triangulated.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "settings.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/METHOD.md",
+      "target": "../../runs/2026-11-08_synthetic-stereo-abcd/evidence/triangulation.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "METHOD.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "RESULTS.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "BOUNDARIES.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "REPRODUCE.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/projection.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "manifest.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "settings.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "evidence/results.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/assets/left_oracle_left.jpg"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/assets/right_oracle_left.jpg"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/README.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/review.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "README.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "manifest.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "settings.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/prepare.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/initialization.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/fit.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/run.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evaluate.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/test_method.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/verify.py"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/execution.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/preparation.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-original/evidence/resources.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-original/evidence/inputs.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/development_failures.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/fit_log_summary.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_archive-oracle-shape-baseline/report.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "README.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "evidence/results.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/metrics.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "evidence/results.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/report.md"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/perturbations.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/method_tests.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/verification.json"
+    },
+    {
+      "document": "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md",
+      "target": "../../runs/2026-11-08_synthetic-head-robustness/evidence/executed_source_check.json"
+    }
+  ],
+  "archive_file_hashes": {
+    "experiments/synthetic_oracle_head_shape_20261108/BOUNDARIES.md": "2e435ac4b2efe0a08c0ad8f335c4db717eca4055fe5b8d079a83a1e97e0b4409",
+    "experiments/synthetic_oracle_head_shape_20261108/METHOD.md": "788c88f6ff89a0f41989739423e328e60d229e3877ccdbee59517506c7ab0599",
+    "experiments/synthetic_oracle_head_shape_20261108/README.md": "0f1c68a8de88ac64ee8787eca11ec0e00e4e00926a4be8774057afdf48c2c149",
+    "experiments/synthetic_oracle_head_shape_20261108/REPRODUCE.md": "69bbbdb6596c5969392bdb2bd3956f42773b9b8a202cb9df920dc6719f11ed48",
+    "experiments/synthetic_oracle_head_shape_20261108/RESULTS.md": "5ee53583868658e751672af068dc13965e4b207d2af9ec3fa3e10adcd3575b0b",
+    "experiments/synthetic_oracle_head_shape_20261108/evidence/results.json": "e4153ebf0b7356bfc655a3233830fd44423914b4f07c7a16a365689c60dcd9a4",
+    "experiments/synthetic_oracle_head_shape_20261108/manifest.json": "a984dd1b20b52f107d9d055325a78f1de148e5a7a88c2a4cdba2f7c6f2039bbe",
+    "experiments/synthetic_oracle_head_shape_20261108/settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f"
+  }
+}

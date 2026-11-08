@@ -1,0 +1,32 @@
+{
+  "scope": "This archive increment only; pre-existing untracked point_comparison_followup.json scanned and excluded. Does not audit previously pushed history.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "exit_status": 0,
+      "passed": true,
+      "base": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+      "remote_main": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-08_archive-oracle-shape-baseline/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "exit_status": 0,
+      "passed": true,
+      "base": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+      "remote_main": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-08_archive-oracle-shape-baseline/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "policies_checked": [
+    "No weights/dataset/video/NPZ/NPY/full raw outputs; each file below 50 MB",
+    "No credentials, tokens or .env",
+    "No actual development-machine paths; placeholders retained",
+    "No complete local provenance or patch",
+    "Only new experiment and archive run staged",
+    "git diff --check; origin/main matches baseline"
+  ],
+  "receipt_policy": "Entire staged set rechecked after adding this receipt; commit must pass before push. Full local receipts under outputs/archive_oracle_shape_20261108."
+}

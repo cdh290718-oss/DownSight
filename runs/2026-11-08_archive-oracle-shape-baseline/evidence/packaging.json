@@ -1,0 +1,11 @@
+{
+  "exit_status": 0,
+  "command": "python runs/2026-11-08_archive-oracle-shape-baseline/package.py",
+  "base_commit": "c4e2b9de76573139fa66cbb953bf973d2af88c77",
+  "experiment": "experiments/synthetic_oracle_head_shape_20261108",
+  "source_files_verified_against_commit": 41,
+  "settings_identical": true,
+  "selected_case": "oracle_left",
+  "source_final_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+  "fitting_rerun": false
+}
