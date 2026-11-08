@@ -1,0 +1,135 @@
+[
+  {
+    "case": "B_check",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 75.89429306983948,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "B_check",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 83.33137536048889,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E_weak",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 81.78595161437988,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E_weak",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E_strong",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 80.83435702323914,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E_strong",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 83.97383093833923,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E_weak",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 83.59049987792969,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E_weak",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  },
+  {
+    "case": "E_strong",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 75.23743891716003,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/fit.py",
+      "--case",
+      "E_strong",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+      "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+      "settings.json": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+    }
+  }
+]

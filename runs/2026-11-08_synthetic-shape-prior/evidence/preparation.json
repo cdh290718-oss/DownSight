@@ -1,0 +1,8 @@
+{
+  "exit_status": 0,
+  "command": "python runs/2026-11-08_synthetic-shape-prior/prepare.py",
+  "inputs_sha256": "17dd21cdf0a4b9906ef8713c626908a2200f7840825006e3b84ebb8eedfea75c",
+  "inputs_identical_to_previous_B": true,
+  "shape_gt_extracted": false,
+  "settings_sha256": "a38124a3eff3cd69bbf343aef3b278125609f0e94dfc8a456da2bb2eb167b445"
+}

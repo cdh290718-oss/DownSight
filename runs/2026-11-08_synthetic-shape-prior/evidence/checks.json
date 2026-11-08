@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/prepare.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "eaa6bd5129cbcdd0c6854045086f62ec9ce95dff2619f306c1aa43be356beb74",
+    "log": "prepared unchanged B observations and Head/camera metadata\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/test_math.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "2b1c1bd6f41d08866ef96dd0684d2af0db91e831058ce16c2b69fb13c33070d6",
+    "log": "PASS projection, gradients, stereo roundtrip and Head FK\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/test_shape.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "261dd9ce137f09d713e2a292ddab12b4205b7bbe4a87fbf14ec516a87c3488c5",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nPASS beta geometry finite differences and shape-prior gradient\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/evaluate.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "883cd08e18bcd32373ad359b7de5f2640b1783afe7357c9335b06690842f4919",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nevaluated 2 views\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/evaluate_shape.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "fff826f1e97f2aea4b46ab3e23b7a5a31ec5c10872c5c1b779fdf6fd00ac220b",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nevaluated shapes 7\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/verify.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "ef5db2a4dd194c2736f07d0e41aa64ee1b49604158542dbee5272303b2b17a77",
+    "log": "PASS fixed B reproduced, seven fits, controls, changed betas, shared geometry\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-shape-prior/build_report.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "df100cc2ef6b9eed8ac61d93d79afb2cebb8455107cafb2df856c72da4052f51",
+    "log": "report and projection page generated\n"
+  }
+]

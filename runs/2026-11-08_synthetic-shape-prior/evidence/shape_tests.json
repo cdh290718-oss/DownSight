@@ -1,0 +1,7 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-shape-prior/test_shape.py",
+  "beta_root_pivot_finite_difference_pass": true,
+  "prior_gradient_matches_analytic": true,
+  "beta_perturbation_max_joint_change_m": 0.0032091350732147417
+}

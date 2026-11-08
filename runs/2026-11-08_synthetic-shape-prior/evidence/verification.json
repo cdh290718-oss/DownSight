@@ -1,0 +1,92 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-shape-prior/verify.py",
+  "fit_count": 7,
+  "checks": [
+    {
+      "case": "B_check",
+      "seed": "left",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E",
+      "seed": "left",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E_weak",
+      "seed": "left",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E_strong",
+      "seed": "left",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E",
+      "seed": "right",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E_weak",
+      "seed": "right",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    },
+    {
+      "case": "E_strong",
+      "seed": "right",
+      "initial_identical_to_previous_B": true,
+      "non_shape_fixed_fields_unchanged": true,
+      "head_and_reload_checks_pass": true,
+      "fit_dataset_read_guard_enabled": true,
+      "finite_npz_and_rebuilt_3d_caches": true
+    }
+  ],
+  "frozen_B_regression_max_abs": {
+    "betas": 0.0,
+    "global_orient": 0.0,
+    "body_pose": 0.0,
+    "transl": 0.0,
+    "smplx_mesh_cam": 0.0
+  },
+  "prior_center": "zero model shape, not initial prediction",
+  "all_other_optimizer_settings_unchanged": true,
+  "source_sha256": {
+    "check_publication.py": "3d92cbcd03c27e6b9827f4aedff1a644499155e9338d4cd8dc8333bf21558df3",
+    "run.py": "9c0e42c22f3554a781f020d89b8ec4c62094bcc46a69b0e9fb4c80991e749aa2",
+    "prepare.py": "eaa6bd5129cbcdd0c6854045086f62ec9ce95dff2619f306c1aa43be356beb74",
+    "verify.py": "ef5db2a4dd194c2736f07d0e41aa64ee1b49604158542dbee5272303b2b17a77",
+    "evaluate_shape.py": "fff826f1e97f2aea4b46ab3e23b7a5a31ec5c10872c5c1b779fdf6fd00ac220b",
+    "test_math.py": "2b1c1bd6f41d08866ef96dd0684d2af0db91e831058ce16c2b69fb13c33070d6",
+    "common.py": "a20e2ac5937e00835ef9f34a4c68c23a7d0f3448b034259fd4fd546d69896c28",
+    "fit.py": "3af92b25144cb6886b9fe2c3d5b6be649b6b83f64bbb319cc1157e93ab867b50",
+    "evaluate.py": "883cd08e18bcd32373ad359b7de5f2640b1783afe7357c9335b06690842f4919",
+    "test_shape.py": "261dd9ce137f09d713e2a292ddab12b4205b7bbe4a87fbf14ec516a87c3488c5",
+    "build_report.py": "df100cc2ef6b9eed8ac61d93d79afb2cebb8455107cafb2df856c72da4052f51"
+  }
+}
