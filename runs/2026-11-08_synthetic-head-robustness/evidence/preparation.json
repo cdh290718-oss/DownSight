@@ -1,0 +1,119 @@
+{
+  "exit_status": 0,
+  "commands": [
+    {
+      "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-robustness/prepare.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-robustness/test_method.py",
+      "exit_status": 0
+    }
+  ],
+  "assets": [
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/inputs.json",
+      "bytes": 22799,
+      "sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/triangulated.json",
+      "bytes": 28987,
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_shape_prior_20261108/inputs.json",
+      "bytes": 23756,
+      "sha256": "17dd21cdf0a4b9906ef8713c626908a2200f7840825006e3b84ebb8eedfea75c",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/configs/left.json",
+      "bytes": 2611,
+      "sha256": "e846401c8a31365d3f336f7986a8e39d6ddc3e7f83ee26856c07fb6b1f0832ae",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+      "bytes": 3801,
+      "sha256": "0a9d86ffe2acf077d51cb10aac92dfd0a62352eb20e64bff81c2c86402359dc2",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+      "bytes": 123656,
+      "sha256": "da8448ebac444b06321e187b0ae6bf100eb72da53e8ee8eb0ea8724da29189cb",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/right_cpu/jobs/right.json",
+      "bytes": 3819,
+      "sha256": "a6b03a53076a2c5985ab18ea55266999f56005cf3edafe0088377967f41659da",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_original_20261108/fits/right_cpu/frames/right/raw/params.npz",
+      "bytes": 123058,
+      "sha256": "d87e80f458d131a7efc7c351a29226c91efd3cba948ad1c74477e8466cbb9d84",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+      "bytes": 391,
+      "sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_minus.json",
+      "bytes": 402,
+      "sha256": "156f80fc887300800486e800c0ae54e9c25c13e7f85edf31672e32cbc21de8f5",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_plus.json",
+      "bytes": 399,
+      "sha256": "b90f6b7f8a580caee3db09bbbfa734a74fafd9e1bd1def0abba63fe33aff829d",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_minus.json",
+      "bytes": 403,
+      "sha256": "5bb3b0d62846e3079093aa568238b4858e326b1b59506359421f4ff6d3397b87",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_plus.json",
+      "bytes": 402,
+      "sha256": "c01b5746a807cbb7c412980f83360eb99357c33d2180021cdf90bd2a88294460",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_minus.json",
+      "bytes": 404,
+      "sha256": "91645ee01144f9410b6afe68e3147959e34b5a3bb3b081f956fd8e1bbad0200e",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_plus.json",
+      "bytes": 400,
+      "sha256": "aa57d4fd2b59ccad5894e945d4f7586da167f96d07a6f5c29569b15e00e4a058",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_minus.json",
+      "bytes": 403,
+      "sha256": "589a4aac023495d616320a23fc126b12cd6f5c5a584a7754bf9da6a74e8ddf20",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    },
+    {
+      "resource": "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_plus.json",
+      "bytes": 401,
+      "sha256": "5b2cea2c9a48323b887b03408b52e0c6100c72ac259087a37edfdff78a8b3365",
+      "availability": "Development workspace; not included as raw binary in public repository"
+    }
+  ],
+  "calibration": "Known synthetic generating cameras; human GT stripped from common fitting observations; head anchors in separate files",
+  "source_dataset_commit": "192671271a74b99f41b9eb033d8f88b1dac77ada"
+}

@@ -1,0 +1,12 @@
+{
+  "inspected": [
+    "assets/left_oracle_left.jpg",
+    "assets/left_none_left.jpg"
+  ],
+  "findings": [
+    "Projection overlays and GT/predicted joint markers display correctly.",
+    "None case shows part of the head in the image; no claim of deployment readiness.",
+    "Rendered limbs still visibly differ from source body; aggregate error improvement is not exact geometry recovery."
+  ],
+  "all_34_images_generated": true
+}

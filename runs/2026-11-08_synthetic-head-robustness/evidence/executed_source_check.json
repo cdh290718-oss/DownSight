@@ -1,0 +1,425 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "legacy_none_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_none_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_none_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_none_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_none_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_oracle_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_oracle_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_oracle_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_oracle_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "legacy_oracle_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "none_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "none_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "none_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "none_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "none_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_right",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_right",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_right",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_right",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "oracle_right",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "none_right",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "none_right",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "none_right",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "none_right",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "none_right",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "file": "fit.py",
+      "sha256": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "file": "common.py",
+      "sha256": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "file": "initialization.py",
+      "sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "file": "settings.json",
+      "sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "unchanged": true
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "file": "cases.json",
+      "sha256": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35",
+      "unchanged": true
+    }
+  ]
+}

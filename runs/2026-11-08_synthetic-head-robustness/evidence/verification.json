@@ -1,0 +1,377 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "legacy_oracle_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "514c36d0d392f5c56c481752a5df971d238a07ed541742073b50bcf1a874bafd",
+      "initialization_sha256": "77d2c1b9c946298d5d49b86109574c64be9a05a91e705297575ac81b49a5c0d1",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json"
+      ],
+      "subspace_residual": null,
+      "metric_loss_reconstruction_error": {},
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/legacy_oracle_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/legacy_oracle_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "legacy_none_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "18935a219919ebc2bc69e73306ceae8ed645b5cfdeb85784c6625bc0e3cb43a4",
+      "initialization_sha256": "77d2c1b9c946298d5d49b86109574c64be9a05a91e705297575ac81b49a5c0d1",
+      "allowed_anchor_reads": [],
+      "subspace_residual": null,
+      "metric_loss_reconstruction_error": {},
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/legacy_none_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/legacy_none_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "oracle_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json"
+      ],
+      "subspace_residual": 2.6403979465648313e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 4.472565499381853e-10,
+        "wrist": 3.9302348335730226e-09,
+        "shoulder": 3.72993071270835e-10,
+        "hand_left": 6.301848998148049e-10,
+        "hand_right": 2.801169226207458e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/oracle_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/oracle_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "none_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "87d080e4d7c3878e17bb2ec6d254a19082b2213def328fb3ae1de049fb98fad7",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [],
+      "subspace_residual": 1.0564168121894838e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 1.1783643455529763e-09,
+        "wrist": 5.1411084526109974e-09,
+        "shoulder": 1.7508742746656994e-10,
+        "hand_left": 2.849552142587374e-09,
+        "hand_right": 3.460489904339153e-10
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/none_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/none_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "oracle_right",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "cbcb23e191602e9c5b77eb9cdcc55a19b325716ca993efe2e8bacc0fe96c5139",
+      "initialization_sha256": "1e6c57b9c8a50607aaa10969f18289f0e30e9fecc9e650b96f6de8f7fae79f66",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json"
+      ],
+      "subspace_residual": 7.696559405803072e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 7.596324524267173e-10,
+        "wrist": 3.6431322376711227e-10,
+        "shoulder": 4.2638765012249086e-10,
+        "hand_left": 1.4328288230371078e-11,
+        "hand_right": 3.2616035442129335e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/oracle_right/final.npz",
+        "outputs/synthetic_head_robustness_20261108/oracle_right/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/right_cpu/frames/right/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/right_cpu/jobs/right.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "none_right",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "7548703866be7d02227de671c664b920e3a71644a875bd64fc77f6d149084217",
+      "initialization_sha256": "1e6c57b9c8a50607aaa10969f18289f0e30e9fecc9e650b96f6de8f7fae79f66",
+      "allowed_anchor_reads": [],
+      "subspace_residual": 1.6721057049595028e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 1.200952518638429e-09,
+        "wrist": 4.99077535122904e-09,
+        "shoulder": 6.572208213848768e-10,
+        "hand_left": 7.369777980372957e-09,
+        "hand_right": 3.2486241759817e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/none_right/final.npz",
+        "outputs/synthetic_head_robustness_20261108/none_right/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/right_cpu/frames/right/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/right_cpu/jobs/right.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_10_d0_minus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "a38d17446d98fa793b0264939c044e9fc60828bfdee5a195e8af118308e5c1c8",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_minus.json"
+      ],
+      "subspace_residual": 5.176155840847471e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 4.8525360292484e-10,
+        "wrist": 4.92441303419312e-10,
+        "shoulder": 6.405011411655601e-10,
+        "hand_left": 5.671114903095346e-10,
+        "hand_right": 1.3838236438364938e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_minus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d0_minus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d0_minus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_10_d0_plus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "5bc6ec88cb805f968a88c50c69f4ea3fe02a3b43005bfecd70bb51d02932c345",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_plus.json"
+      ],
+      "subspace_residual": 6.27275434157465e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 4.3751685260828843e-10,
+        "wrist": 5.5620768644331926e-09,
+        "shoulder": 6.009903855499522e-10,
+        "hand_left": 5.463668762860016e-09,
+        "hand_right": 1.2071614003273789e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d0_plus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d0_plus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d0_plus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_10_d1_minus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "ee7bb031cca6d7a56127c526086aff629b62286fd36d1591bc6440c9e001db1c",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_minus.json"
+      ],
+      "subspace_residual": 1.0713220436129696e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 2.7609964735504644e-09,
+        "wrist": 5.1793595781039585e-09,
+        "shoulder": 1.3834659329595156e-10,
+        "hand_left": 4.382002016670508e-09,
+        "hand_right": 1.377009221844314e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_minus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d1_minus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d1_minus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_10_d1_plus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "2f171f2f749da107e033818a5c5c47c80cce2da3f48effcd6154f55217be1250",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_plus.json"
+      ],
+      "subspace_residual": 3.5888164209888313e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 1.8595667766047042e-09,
+        "wrist": 4.563072334047569e-09,
+        "shoulder": 2.5889081693318203e-10,
+        "hand_left": 3.3311620798478873e-09,
+        "hand_right": 1.579886560850374e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_10_d1_plus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d1_plus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_10_d1_plus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_20_d0_minus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "bd2e88c271735176536ad6f7cb0ada02c9e1cf65d5f20174ac093b48dd5a96d8",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_minus.json"
+      ],
+      "subspace_residual": 5.488613386002901e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 1.2202854347657943e-09,
+        "wrist": 2.886543823898361e-09,
+        "shoulder": 1.2307394449276657e-09,
+        "hand_left": 2.006406062452469e-09,
+        "hand_right": 4.6214801619924237e-10
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_minus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d0_minus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d0_minus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_20_d0_plus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "843a77a4df7b1f08df4f4c8564a49076c1a9cfeac3639911aa77885c0394c8d5",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_plus.json"
+      ],
+      "subspace_residual": 1.247527350372043e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 1.5809664341559504e-11,
+        "wrist": 2.21882960743376e-09,
+        "shoulder": 3.6105039493078764e-10,
+        "hand_left": 2.8801562995455984e-09,
+        "hand_right": 1.1670583895985465e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d0_plus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d0_plus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d0_plus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_20_d1_minus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "bd693c9ff4637739e3ed54c1a678954db60c59a915effd211335a717898ebba9",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_minus.json"
+      ],
+      "subspace_residual": 9.740120169276584e-11,
+      "metric_loss_reconstruction_error": {
+        "body": 1.1621059644098541e-09,
+        "wrist": 7.761631656128237e-10,
+        "shoulder": 1.2013267116110435e-09,
+        "hand_left": 2.4934983608600712e-09,
+        "hand_right": 9.387081965146933e-10
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_minus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d1_minus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d1_minus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    },
+    {
+      "case": "perturb_20_d1_plus_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "53e18d486bdab2754357f689d99ffc0b9eb845f7c4aa221fc3c5501f5be1e1f3",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_plus.json"
+      ],
+      "subspace_residual": 7.595095719440373e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 5.279059793472651e-10,
+        "wrist": 7.89184316138912e-09,
+        "shoulder": 2.365244644022754e-10,
+        "hand_left": 5.279330185742424e-09,
+        "hand_right": 4.531143498956317e-09
+      },
+      "read_files": [
+        "outputs/synthetic_head_robustness_20261108/anchors/perturb_20_d1_plus.json",
+        "outputs/synthetic_head_robustness_20261108/inputs.json",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d1_plus_left/final.npz",
+        "outputs/synthetic_head_robustness_20261108/perturb_20_d1_plus_left/initial.npz",
+        "outputs/synthetic_head_robustness_20261108/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-08_synthetic-head-robustness/settings.json"
+      ]
+    }
+  ],
+  "scope": "Dataset denied by fitter audit hook. Read manifest checked; none does not read anchors. Known generating calibration retained. Initial network estimates are original network raw outputs."
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/evaluate.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 15.60545563697815,
+    "source_sha256": "fc23c50987484e05ed0191e2c34cafab1a9d2d52a035a57d72bf85d93712be45"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/evaluate_shape.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 6.307915687561035,
+    "source_sha256": "6ecb5af6a9ec814d92ecc0c848363002acdd1b2ced9e5e73793948dfbbb2cea7"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/verify.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 1.035588026046753,
+    "source_sha256": "a8182a9b7a8f1c3d7c447df76fc877fddc49ef2999912cc9f08ff29514bcd40a"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/build_report.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 0.7051761150360107,
+    "source_sha256": "34eabf736b4c9cc194bfffa36ef8f11dbbab2e6d23aade53f8ef82e46701ec4a"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/build_report.py"
+    ],
+    "exit_status": 0,
+    "reason": "Add result interpretation, input-read terminology and publication audit description after evaluation; no changes to fits or metrics.",
+    "source_sha256": "979e230e2003f93ea36ce0a386c1f197da632b46766ea0ad76c17e3736c3ed95"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/build_report.py"
+    ],
+    "exit_status": 0,
+    "reason": "Fix trailing blank line in projection Markdown; no metric or fit changes.",
+    "source_sha256": "09d94b8c44dbf009dd33f93f6cdd1182063c252b42248230d0ab0d4658a725a3"
+  }
+]

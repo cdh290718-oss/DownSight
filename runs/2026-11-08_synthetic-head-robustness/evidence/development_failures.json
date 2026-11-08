@@ -1,0 +1,20 @@
+[
+  {
+    "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-robustness/test_method.py",
+    "exit_status": 1,
+    "error": "AttributeError: SMPLX object has no attribute left_hand_pose",
+    "context": "Neutral forward derivative test omitted required face/hand arguments; initialization tests had completed. No fits started.",
+    "resolution": "Explicit zero hand/face parameters in neutral forward test."
+  },
+  {
+    "commands": [
+      "<BODY_PYTHON> check_publication.py --mode worktree",
+      "<BODY_PYTHON> check_publication.py --mode staged"
+    ],
+    "exit_status": 1,
+    "underlying_command": "git diff --check 9012bbf856570e85da60261190ead1092cce9997",
+    "underlying_exit_status": 2,
+    "error": "projection.md:176: new blank line at EOF",
+    "resolution": "Remove extra EOF blank line from projection and report generator; rerun publication audits before push. Fits/evaluation unchanged."
+  }
+]

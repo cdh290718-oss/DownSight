@@ -1,0 +1,86 @@
+[
+  {
+    "case": "legacy_oracle",
+    "seed": "left",
+    "method": "legacy",
+    "anchor": "oracle"
+  },
+  {
+    "case": "legacy_none",
+    "seed": "left",
+    "method": "legacy",
+    "anchor": null
+  },
+  {
+    "case": "oracle",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle"
+  },
+  {
+    "case": "none",
+    "seed": "left",
+    "method": "improved",
+    "anchor": null
+  },
+  {
+    "case": "oracle",
+    "seed": "right",
+    "method": "improved",
+    "anchor": "oracle"
+  },
+  {
+    "case": "none",
+    "seed": "right",
+    "method": "improved",
+    "anchor": null
+  },
+  {
+    "case": "perturb_10_d0_minus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_10_d0_minus"
+  },
+  {
+    "case": "perturb_10_d0_plus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_10_d0_plus"
+  },
+  {
+    "case": "perturb_10_d1_minus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_10_d1_minus"
+  },
+  {
+    "case": "perturb_10_d1_plus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_10_d1_plus"
+  },
+  {
+    "case": "perturb_20_d0_minus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_20_d0_minus"
+  },
+  {
+    "case": "perturb_20_d0_plus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_20_d0_plus"
+  },
+  {
+    "case": "perturb_20_d1_minus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_20_d1_minus"
+  },
+  {
+    "case": "perturb_20_d1_plus",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "perturb_20_d1_plus"
+  }
+]

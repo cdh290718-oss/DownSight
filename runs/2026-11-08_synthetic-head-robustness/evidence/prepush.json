@@ -1,0 +1,33 @@
+{
+  "scope": "This run increment only; pre-existing untracked point_comparison_followup.json scanned and excluded from publication. These checks precede addition of this receipt; entire staged set and commit must pass again before push.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "passed": true,
+      "exit_status": 0,
+      "base": "9012bbf856570e85da60261190ead1092cce9997",
+      "remote_main": "9012bbf856570e85da60261190ead1092cce9997",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-robustness/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "passed": true,
+      "exit_status": 0,
+      "base": "9012bbf856570e85da60261190ead1092cce9997",
+      "remote_main": "9012bbf856570e85da60261190ead1092cce9997",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-robustness/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "checks_applied": [
+    "No weight/data binary/video/NPZ/NPY or complete raw output",
+    "Each file below 50 MB",
+    "No credentials or .env",
+    "Machine paths redacted; no full local provenance or patch",
+    "Projection files present; expected image dimensions and no EXIF",
+    "git diff --check and origin/main unchanged"
+  ],
+  "full_receipts": "outputs/synthetic_head_robustness_20261108 (local only)",
+  "initial_whitespace_failure": "Retained in development_failures.json; fixed and checks rerun"
+}

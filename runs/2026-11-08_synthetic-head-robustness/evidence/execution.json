@@ -1,0 +1,296 @@
+[
+  {
+    "case": "legacy_none",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 75.34221243858337,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "legacy_none",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "legacy_oracle",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 83.03590393066406,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "legacy_oracle",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "oracle",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 55.67231893539429,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "oracle",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "none",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 54.378780364990234,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "none",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "oracle",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 58.46874260902405,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "oracle",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "none",
+    "seed": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 54.140371322631836,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "none",
+      "--seed",
+      "right"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_10_d0_plus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 55.840736865997314,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_10_d0_plus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_10_d0_minus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 60.279412508010864,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_10_d0_minus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_10_d1_minus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 57.95788764953613,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_10_d1_minus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_10_d1_plus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 57.839972496032715,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_10_d1_plus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_20_d0_plus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 59.62544560432434,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_20_d0_plus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_20_d0_minus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 63.29755425453186,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_20_d0_minus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_20_d1_minus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 60.06997013092041,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_20_d1_minus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  },
+  {
+    "case": "perturb_20_d1_plus",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 59.22396731376648,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-robustness/fit.py",
+      "--case",
+      "perturb_20_d1_plus",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "ab8940880245492bff0370d127d74b1409964019684c9e7c1571694ecbba105e",
+      "common.py": "f54aefadac5b9169e38fa5b1cb9e2cbfe9570313a368a8c4346e1dea181f82bf",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "fa20bfa8ea1c674928ab3aa40da1449fffba4c783ec996dddcb4634ec7ef4d35"
+    }
+  }
+]
