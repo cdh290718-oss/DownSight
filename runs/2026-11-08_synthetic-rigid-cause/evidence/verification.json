@@ -1,0 +1,27 @@
+{
+  "exit_status": 0,
+  "case_count": 25,
+  "baseline_control_max_abs_differences": {
+    "global_orient": 0.0,
+    "body_pose": 0.0,
+    "transl": 0.0,
+    "smplx_mesh_cam": 0.0
+  },
+  "checks": [
+    "All Python scripts parse",
+    "24 stage runs succeeded, one oracle no-depth case failed its reload pixel check",
+    "four inputs use intended betas and body pose",
+    "baseline matches original rigid outputs",
+    "scale convention arithmetic verified"
+  ],
+  "input_sha256": {
+    "original_raw_params": "da8448ebac444b06321e187b0ae6bf100eb72da53e8ee8eb0ea8724da29189cb",
+    "original_rigid_params": "9f448d3a4f717c693c9d2e72863669ae2e29deca09d0754606df34dd05c04f0e",
+    "gt_smplx": "207c741c0d6edbb5210c5d156b53a50467fa34a9dcfa7b119b35282ddae607d5",
+    "gt_joints": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+    "sapiens_keypoints": "beb3673ba3a5640d24adf805254641cef4c215ff33e5c2440ec4aab2f9fc1f1c",
+    "calibration": "a039ea9d23f497fd5099a54b6e45e315400409addacc907a32b6744f49af468b"
+  },
+  "stage_runners": "direct body_rigid diagnostic calls, not full pipeline; no full pipeline provenance created",
+  "environment": "original body Python environment, CPU; four threads except group controls two threads; unchanged original model and body code"
+}

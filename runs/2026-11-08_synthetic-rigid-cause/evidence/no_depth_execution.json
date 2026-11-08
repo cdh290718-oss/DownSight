@@ -1,0 +1,56 @@
+[
+  {
+    "name": "pred_shape_gt_pose_detector_all_no_depth",
+    "shape": "pred_shape",
+    "pose": "gt_pose",
+    "target": "detector_all",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 10.997323274612427
+  },
+  {
+    "name": "gt_shape_pred_pose_detector_all_no_depth",
+    "shape": "gt_shape",
+    "pose": "pred_pose",
+    "target": "detector_all",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.515123128890991
+  },
+  {
+    "name": "gt_shape_gt_pose_detector_all_no_depth",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "detector_all",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.242973327636719
+  },
+  {
+    "name": "pred_shape_pred_pose_detector_inframe_no_depth",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "detector_inframe",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.446738719940186
+  },
+  {
+    "name": "gt_shape_gt_pose_detector_inframe_no_depth",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "detector_inframe",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.143207788467407
+  },
+  {
+    "name": "gt_shape_gt_pose_oracle_inframe_no_depth",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "oracle_inframe",
+    "depth_penalty": "disabled",
+    "exit_status": 1,
+    "elapsed_seconds": 10.37104344367981
+  }
+]

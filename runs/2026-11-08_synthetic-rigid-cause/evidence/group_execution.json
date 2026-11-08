@@ -1,0 +1,37 @@
+[
+  {
+    "name": "pred_shape_pred_pose_no_nose",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_nose",
+    "omitted": [
+      "nose"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 11.546973466873169
+  },
+  {
+    "name": "pred_shape_pred_pose_no_shoulders",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_shoulders",
+    "omitted": [
+      "left_shoulder",
+      "right_shoulder"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 11.379621505737305
+  },
+  {
+    "name": "pred_shape_pred_pose_no_wrists",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_wrists",
+    "omitted": [
+      "left_wrist",
+      "right_wrist"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 11.399668455123901
+  }
+]

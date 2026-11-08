@@ -1,0 +1,38 @@
+[
+  {
+    "name": "pred_shape_pred_pose_detector_all_no_depth",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "detector_all",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.395710229873657
+  },
+  {
+    "name": "pred_shape_pred_pose_no_nose_no_depth",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_nose",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.470309734344482
+  },
+  {
+    "name": "pred_shape_pred_pose_no_shoulders_no_depth",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_shoulders",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.548903465270996
+  },
+  {
+    "name": "pred_shape_pred_pose_no_wrists_no_depth",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "no_wrists",
+    "depth_penalty": "disabled",
+    "exit_status": 0,
+    "elapsed_seconds": 11.442122459411621
+  }
+]

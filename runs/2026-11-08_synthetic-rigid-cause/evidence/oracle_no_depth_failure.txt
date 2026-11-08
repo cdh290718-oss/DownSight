@@ -1,0 +1,17 @@
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Source reconstruction errors (m): 0.0 5.960464477539063e-08
+REGEN_DIAGNOSTIC {'difference_mean': [-3.00676283870871e-08, 1.1811962252750163e-07, 4.600226688467046e-08], 'difference_std': [4.6342865545057066e-08, 1.5163051614308642e-07, 7.360023346336675e-08], 'pivot': [0.0031232573091983795, -0.3514074683189392, 0.012036550790071487], 'regenerated_pivot': [0.0031232573091983795, -0.3514074683189392, 0.012036550790071487], 'rotation_roundtrip_error': 3.961629463367089e-08, 'rotation_orthogonality_error': 4.960286292821081e-08, 'delta': [-0.33273908495903015, 0.19888193905353546, -0.00900554470717907], 'global_new': [[0.0019268915057182312, 2.0201668739318848, -2.404360771179199]]}
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+Traceback (most recent call last):
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-depth-diagnosis/rigid_ablation.py", line 11, in <module>
+    sys.argv=['egosmplx_pipeline.body_rigid']+sys.argv[2:];runpy.run_module('egosmplx_pipeline.body_rigid',run_name='__main__')
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 210, in run_module
+    return _run_code(code, {}, init_globals, run_name, mod_spec)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/body_rigid.py", line 233, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/body_rigid.py", line 171, in main
+    raise RuntimeError(f'Regenerated geometry mismatch: {regen_mesh_error} m, {regen_pixel_error} px')
+RuntimeError: Regenerated geometry mismatch: 4.76837158203125e-07 m, 0.1796875 px

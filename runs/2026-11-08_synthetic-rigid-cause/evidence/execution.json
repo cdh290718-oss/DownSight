@@ -1,0 +1,98 @@
+[
+  {
+    "name": "pred_shape_pred_pose_detector_all",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "detector_all",
+    "exit_status": 0,
+    "elapsed_seconds": 13.77209758758545
+  },
+  {
+    "name": "gt_shape_pred_pose_detector_all",
+    "shape": "gt_shape",
+    "pose": "pred_pose",
+    "target": "detector_all",
+    "exit_status": 0,
+    "elapsed_seconds": 11.223617315292358
+  },
+  {
+    "name": "pred_shape_gt_pose_detector_all",
+    "shape": "pred_shape",
+    "pose": "gt_pose",
+    "target": "detector_all",
+    "exit_status": 0,
+    "elapsed_seconds": 11.396948337554932
+  },
+  {
+    "name": "gt_shape_gt_pose_detector_all",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "detector_all",
+    "exit_status": 0,
+    "elapsed_seconds": 11.575069665908813
+  },
+  {
+    "name": "pred_shape_pred_pose_detector_inframe",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "detector_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.351724624633789
+  },
+  {
+    "name": "gt_shape_pred_pose_detector_inframe",
+    "shape": "gt_shape",
+    "pose": "pred_pose",
+    "target": "detector_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.56508469581604
+  },
+  {
+    "name": "pred_shape_gt_pose_detector_inframe",
+    "shape": "pred_shape",
+    "pose": "gt_pose",
+    "target": "detector_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.355972290039062
+  },
+  {
+    "name": "gt_shape_gt_pose_detector_inframe",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "detector_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.255135774612427
+  },
+  {
+    "name": "pred_shape_pred_pose_oracle_inframe",
+    "shape": "pred_shape",
+    "pose": "pred_pose",
+    "target": "oracle_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.301308155059814
+  },
+  {
+    "name": "gt_shape_pred_pose_oracle_inframe",
+    "shape": "gt_shape",
+    "pose": "pred_pose",
+    "target": "oracle_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.65250825881958
+  },
+  {
+    "name": "pred_shape_gt_pose_oracle_inframe",
+    "shape": "pred_shape",
+    "pose": "gt_pose",
+    "target": "oracle_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.14862871170044
+  },
+  {
+    "name": "gt_shape_gt_pose_oracle_inframe",
+    "shape": "gt_shape",
+    "pose": "gt_pose",
+    "target": "oracle_inframe",
+    "exit_status": 0,
+    "elapsed_seconds": 11.195216417312622
+  }
+]
