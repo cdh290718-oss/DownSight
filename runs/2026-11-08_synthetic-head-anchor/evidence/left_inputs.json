@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "anchor": {
+      "definition": "SMPL-X native Head joint, index 15; position only",
+      "sigma_m": 0.015,
+      "loss_weight": 0.01
+    },
+    "rigid_steps": 1800,
+    "alternating_cycles": 4,
+    "pose_steps_per_cycle": 400,
+    "rigid_steps_per_cycle": 200,
+    "shoulder_tolerance_px": 30.0,
+    "shoulder_group_weight": 0.25,
+    "other_body_group_weight": 1.0,
+    "wrist_group_weight": 1.0,
+    "selected_joint_minimum_z_m": 0.0001,
+    "pose_prior_weight": 0.0008,
+    "camera_prior_weight": 0.0002,
+    "orient_prior_weight": 0.0004,
+    "wrist_floor_fraction": 0.85,
+    "wrist_guard_weight": 0.002,
+    "pose_lr": 0.0015,
+    "post_rigid_camera_lr": 0.0008,
+    "post_rigid_orient_lr": 0.0005,
+    "post_rigid_orientation_increment_limit_deg": 8.0,
+    "purpose": "Predeclared diagnostic configuration; shoulder tolerance and anchor strength are assumptions, not learned from GT evaluation. No automatic retuning after evaluation."
+  },
+  "side": "left",
+  "head_target_camera_m": [
+    0.06590742617845535,
+    0.201280415058136,
+    0.051391422748565674
+  ],
+  "head_joint_index": 15,
+  "raw_sha256": "da8448ebac444b06321e187b0ae6bf100eb72da53e8ee8eb0ea8724da29189cb",
+  "observations_sha256": "beb3673ba3a5640d24adf805254641cef4c215ff33e5c2440ec4aab2f9fc1f1c",
+  "head_source_sha256": "212e951340f7035707069c88460669a4b680cc608758e64ba1453402079cc099",
+  "selected_before_nose_removal": [
+    "nose",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle"
+  ],
+  "fixed_parameters": [
+    "betas",
+    "left_hand_pose",
+    "right_hand_pose",
+    "jaw_pose",
+    "leye_pose",
+    "reye_pose",
+    "expression"
+  ],
+  "no_other_gt_used": true,
+  "camera": "original polynomial calibration",
+  "anchor_only": "original rigid losses plus measured-position oracle; retains nose and original all-vertex soft penalty",
+  "requested": "no nose, relaxed shoulder group, no all-vertex depth constraint, positive observed joints only; no old rigid-derived head prior",
+  "hand_scope": "SMPL-X hand parameters fixed; no MANO replacement or downstream refinement in this body-stage diagnostic"
+}

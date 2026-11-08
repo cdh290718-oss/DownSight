@@ -1,0 +1,4 @@
+Command: python runs/2026-11-08_synthetic-head-anchor/check_publication.py --mode staged --out <OUTPUT>/prepush_staged.json
+Exit status: 1 (git diff --check exit status 2).
+Reason: projection.md had an extra blank line at EOF.
+No commit or push performed. Fixed report generator to emit one terminal newline; reran checks.

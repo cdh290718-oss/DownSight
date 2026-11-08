@@ -1,0 +1,28 @@
+[
+  {
+    "side": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 41.01540184020996,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-anchor/fit.py",
+      "--side",
+      "left"
+    ],
+    "settings_sha256": "28bc8a35087091711b7d835e3d04d771c87abcde614dec58341d6afb7fd75f9b",
+    "fit_code_sha256": "dca9b310fafdc5579b4602b76f676b43d20b080e7093952743eadfc5f75b5e7a"
+  },
+  {
+    "side": "right",
+    "exit_status": 0,
+    "elapsed_seconds": 39.86793565750122,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-anchor/fit.py",
+      "--side",
+      "right"
+    ],
+    "settings_sha256": "28bc8a35087091711b7d835e3d04d771c87abcde614dec58341d6afb7fd75f9b",
+    "fit_code_sha256": "dca9b310fafdc5579b4602b76f676b43d20b080e7093952743eadfc5f75b5e7a"
+  }
+]

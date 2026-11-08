@@ -1,0 +1,100 @@
+{
+  "exit_status": 0,
+  "views": [
+    {
+      "side": "left",
+      "stage_count": 10,
+      "head_target_rounding_max_m": 1.3383918417986251e-09,
+      "frozen_blocks": [
+        {
+          "label": "cycle1_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle1_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle2_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle2_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle3_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle3_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle4_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle4_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        }
+      ],
+      "shape_and_hands_bitwise_fixed": true,
+      "all_reload_checks_pass": true,
+      "all_block_objectives_nonincreasing": true
+    },
+    {
+      "side": "right",
+      "stage_count": 10,
+      "head_target_rounding_max_m": 5.250171936088677e-09,
+      "frozen_blocks": [
+        {
+          "label": "cycle1_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle1_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle2_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle2_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle3_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle3_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle4_pose",
+          "frozen_artifact_max_abs_difference": 0.0
+        },
+        {
+          "label": "cycle4_rigid",
+          "frozen_artifact_max_abs_difference": 0.0
+        }
+      ],
+      "shape_and_hands_bitwise_fixed": true,
+      "all_reload_checks_pass": true,
+      "all_block_objectives_nonincreasing": true
+    }
+  ],
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-anchor/verify.py",
+  "scope": "Independent saved-artifact checks plus each stage regenerated through SMPL-X during fitting",
+  "source_sha256": {
+    "runs/2026-11-08_synthetic-head-anchor/check_publication.py": "54efa7a8d1a428af19689da826b3b3b4d7e33b2747cfbdc1275e3c30b89480b2",
+    "runs/2026-11-08_synthetic-head-anchor/run.py": "9ab7e6abbc357593de3ed8d5bd79fe3d4aa6b5ddbb990c4ca4bffb872f587588",
+    "runs/2026-11-08_synthetic-head-anchor/verify.py": "aa44798b6ce87ec9e43717598631f8c69fd2e707370823c4d5c506eb1e2001fa",
+    "runs/2026-11-08_synthetic-head-anchor/fit.py": "dca9b310fafdc5579b4602b76f676b43d20b080e7093952743eadfc5f75b5e7a",
+    "runs/2026-11-08_synthetic-head-anchor/evaluate.py": "a0b72d8a6e93262ad0f227bd12b634fbf5c06f9d42dec284693f2696cea70a95",
+    "runs/2026-11-08_synthetic-head-anchor/test_losses.py": "e9b4749723739caf2103430e3e02be4eef676283ab16cd5087c6b9ce5d60a781",
+    "runs/2026-11-08_synthetic-head-anchor/build_report.py": "c0137337fa8136f97ac85423c2fddab9c5de8631e4014bd7531e2c891e68a438"
+  }
+}

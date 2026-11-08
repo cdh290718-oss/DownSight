@@ -1,0 +1,22 @@
+{
+  "anchor": {"definition": "SMPL-X native Head joint, index 15; position only", "sigma_m": 0.015, "loss_weight": 0.01},
+  "rigid_steps": 1800,
+  "alternating_cycles": 4,
+  "pose_steps_per_cycle": 400,
+  "rigid_steps_per_cycle": 200,
+  "shoulder_tolerance_px": 30.0,
+  "shoulder_group_weight": 0.25,
+  "other_body_group_weight": 1.0,
+  "wrist_group_weight": 1.0,
+  "selected_joint_minimum_z_m": 0.0001,
+  "pose_prior_weight": 0.0008,
+  "camera_prior_weight": 0.0002,
+  "orient_prior_weight": 0.0004,
+  "wrist_floor_fraction": 0.85,
+  "wrist_guard_weight": 0.002,
+  "pose_lr": 0.0015,
+  "post_rigid_camera_lr": 0.0008,
+  "post_rigid_orient_lr": 0.0005,
+  "post_rigid_orientation_increment_limit_deg": 8.0,
+  "purpose": "Predeclared diagnostic configuration; shoulder tolerance and anchor strength are assumptions, not learned from GT evaluation. No automatic retuning after evaluation."
+}

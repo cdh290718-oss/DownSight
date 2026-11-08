@@ -1,0 +1,10 @@
+{
+  "command": "PYTHONPATH=<REPO> <BODY_PYTHON> runs/2026-11-08_synthetic-head-anchor/test_losses.py",
+  "exit_status": 0,
+  "checks": [
+    "radial shoulder dead zone at 0/30/60 px",
+    "finite gradients at zero and tolerance boundary",
+    "group mean invariant to duplicated observations",
+    "non-inplace positive-depth projection guard backward"
+  ]
+}

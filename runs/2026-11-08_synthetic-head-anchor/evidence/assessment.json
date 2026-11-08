@@ -1,0 +1,18 @@
+[
+  {
+    "side": "left",
+    "absolute_pelvis_depth_error_change_vs_original_body_mm": -66.43575583201721,
+    "wrist_mean_change_vs_original_body_mm": -4.863443855444711,
+    "elbow_mean_change_vs_original_body_mm": 14.548206779920122,
+    "wrist_mean_change_vs_original_final_mm": 10.647501627588785,
+    "elbow_mean_change_vs_original_final_mm": 32.47799034826481
+  },
+  {
+    "side": "right",
+    "absolute_pelvis_depth_error_change_vs_original_body_mm": -71.88403984058266,
+    "wrist_mean_change_vs_original_body_mm": -21.442180730186784,
+    "elbow_mean_change_vs_original_body_mm": 10.265366221204737,
+    "wrist_mean_change_vs_original_final_mm": 8.449319509972206,
+    "elbow_mean_change_vs_original_final_mm": 21.850418665915228
+  }
+]

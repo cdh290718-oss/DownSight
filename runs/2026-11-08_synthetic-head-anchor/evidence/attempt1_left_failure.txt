@@ -1,0 +1,15 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Traceback (most recent call last):
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-head-anchor/fit.py", line 307, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-head-anchor/fit.py", line 302, in main
+    fit_rigid('anchor_only_rigid')
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-head-anchor/fit.py", line 292, in fit_rigid
+    optimize_block(mode, 'rigid', settings['rigid_steps'])
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-head-anchor/fit.py", line 209, in optimize_block
+    mesh, native, joints, pixels = forward(local)
+  File "<WORKSPACE>/DownSight/runs/2026-11-08_synthetic-head-anchor/fit.py", line 134, in forward
+    joints = native[model.joint_idx]
+IndexError: too many indices for tensor of dimension 2

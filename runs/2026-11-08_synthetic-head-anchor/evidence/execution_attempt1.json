@@ -1,0 +1,11 @@
+{
+  "launcher_exit_status": 1,
+  "left_fit_exit_status": 1,
+  "right_not_started": true,
+  "errors": [
+    "Left fitting used tuple joint indices as multidimensional tensor index; fixed to list indexing.",
+    "Launcher could not write execution record because evidence directory did not exist; created directory before retry.",
+    "Artifact-preservation command could not rename absent execution.json; existing failed left output and log were successfully retained."
+  ],
+  "command": "python runs/2026-11-08_synthetic-head-anchor/run.py"
+}

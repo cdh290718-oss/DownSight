@@ -1,0 +1,13 @@
+{
+  "launcher_exit_status": 1,
+  "left_fit_exit_status": 1,
+  "right_not_started": true,
+  "command": "python runs/2026-11-08_synthetic-head-anchor/run.py",
+  "errors": [
+    "Selected-joint positive projection guard modified an autograd view in place; replaced by stacking independent columns and added a gradient test.",
+    "Launcher again reached missing evidence directory before creation; run.py now creates it at startup."
+  ],
+  "completed_before_failure": [
+    "left anchor_only_rigid"
+  ]
+}
