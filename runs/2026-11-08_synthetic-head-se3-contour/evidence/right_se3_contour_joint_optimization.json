@@ -1,0 +1,1683 @@
+{
+  "side": "right",
+  "case": "se3_contour_joint",
+  "settings": {
+    "head_position_sigma_m": 0.015,
+    "head_rotation_sigma_deg": 3.0,
+    "head_position_weight": 0.01,
+    "head_rotation_weight": 0.01,
+    "steps": 3400,
+    "pose_lr": 0.0015,
+    "rotation_lr": 0.0015,
+    "translation_lr": 0.003,
+    "pose_prior_weight": 0.0008,
+    "translation_prior_weight": 0.0002,
+    "rotation_prior_weight": 0.0004,
+    "root_increment_limit_deg": 60.0,
+    "shoulder_tolerance_px": 30.0,
+    "shoulder_weight": 0.25,
+    "wrist_floor_fraction": 0.85,
+    "wrist_guard_weight": 0.002,
+    "minimum_observed_joint_z_m": 0.0001,
+    "contour_weight_per_group": 0.01,
+    "contour_residual_scale_px": 20.0,
+    "contour_huber_beta": 1.0,
+    "contour_refresh_steps": 20,
+    "contour_max_points": 256,
+    "contour_min_pixels": 256,
+    "contour_min_boundary_points": 32,
+    "contour_min_probability": 0.55,
+    "contour_border_px": 4,
+    "garment_arm_exclusion_radius_px": 60,
+    "raster_scale": 0.25,
+    "torso_classes": [
+      22,
+      23
+    ],
+    "leg_classes": [
+      8,
+      12,
+      17,
+      21
+    ],
+    "purpose": "Fixed first-round configuration. Actual segmentation support controls availability; no ground-truth masks or body geometry used for silhouette fitting. No post-evaluation tuning."
+  },
+  "initial": {
+    "label": "initial",
+    "step": 0,
+    "head_position_error_mm": 1.5359764802269638e-05,
+    "head_orientation_error_deg": 0.0,
+    "head_rotation": [
+      [
+        -0.9998489618301392,
+        0.0006561344489455223,
+        0.017382994294166565
+      ],
+      [
+        -0.017305664718151093,
+        -0.13886690139770508,
+        -0.9901601672172546
+      ],
+      [
+        0.0017642427701503038,
+        -0.9903110265731812,
+        0.13885696232318878
+      ]
+    ],
+    "head_position": [
+      -0.09159146249294281,
+      0.2059665322303772,
+      0.04987776279449463
+    ],
+    "pelvis_position": [
+      -0.09871411323547363,
+      0.14862224459648132,
+      0.6483282446861267
+    ],
+    "minimum_vertex_z_m": -0.09915107488632202,
+    "reload_mesh_max_m": 5.960464477539063e-08,
+    "reload_selected_px_max": 2.9222907869552728e-05,
+    "source_sha256": "f988d1fb5d025a48dd5f1d73d36b2678b324a851f68a7b10868d6f26cb901cac"
+  },
+  "final": {
+    "label": "final",
+    "step": 2660,
+    "head_position_error_mm": 0.4955715239048004,
+    "head_orientation_error_deg": 0.0,
+    "head_rotation": [
+      [
+        -0.9998470544815063,
+        0.0009785956935957074,
+        0.017474960535764694
+      ],
+      [
+        -0.01744157448410988,
+        -0.13887135684490204,
+        -0.9901569485664368
+      ],
+      [
+        0.001457844628021121,
+        -0.9903102517127991,
+        0.13886693120002747
+      ]
+    ],
+    "head_position": [
+      -0.09136878699064255,
+      0.20590266585350037,
+      0.04943966865539551
+    ],
+    "pelvis_position": [
+      -0.06180413067340851,
+      0.21949180960655212,
+      0.650503396987915
+    ],
+    "minimum_vertex_z_m": -0.09944170713424683,
+    "reload_mesh_max_m": 7.152557373046875e-07,
+    "reload_selected_px_max": 0.00034569810742368645,
+    "source_sha256": "01cafee7ebfb375939c921b703d817df27789121036e27322d087ef606b62165"
+  },
+  "trace": [
+    {
+      "step": 0,
+      "loss": 0.31461232900619507,
+      "feasible": true,
+      "terms": {
+        "body": 0.08251795172691345,
+        "wrist": 0.20676662027835846,
+        "shoulder": 0.010716806165874004,
+        "head_position": 1.0485441182851718e-14,
+        "head_orientation": 6.785432675807113e-13,
+        "pose_prior": 0.0,
+        "translation_prior": 0.0,
+        "rotation_prior": 0.0,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.014610931277275085
+      },
+      "contour_terms": {
+        "torso": 0.014610931277275085
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 135,
+          "target_samples": 256,
+          "model_to_target_mean_px": 24.798377990722656,
+          "target_to_model_mean_px": 51.335567474365234
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 1.5359764802269638e-05,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.09871411323547363,
+        0.14862224459648132,
+        0.6483282446861267
+      ]
+    },
+    {
+      "step": 100,
+      "loss": 0.04086652398109436,
+      "feasible": true,
+      "terms": {
+        "body": 0.009887137450277805,
+        "wrist": 0.009663413278758526,
+        "shoulder": 0.0049323225393891335,
+        "head_position": 0.0003588703984860331,
+        "head_orientation": 0.0003806696622632444,
+        "pose_prior": 8.603309106547385e-05,
+        "translation_prior": 6.715290510328487e-05,
+        "rotation_prior": 8.467831662528624e-07,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.015490078367292881
+      },
+      "contour_terms": {
+        "torso": 0.015490078367292881
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 142,
+          "target_samples": 256,
+          "model_to_target_mean_px": 31.23529624938965,
+          "target_to_model_mean_px": 48.49418258666992
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 2.841581344604492,
+      "head_orientation_error_deg": 0.5832140907681956,
+      "pelvis_position_m": [
+        -0.07457225024700165,
+        0.24601033329963684,
+        0.6526129245758057
+      ]
+    },
+    {
+      "step": 200,
+      "loss": 0.02203970029950142,
+      "feasible": true,
+      "terms": {
+        "body": 0.006629496812820435,
+        "wrist": 4.519931098911911e-05,
+        "shoulder": 0.0015026188921183348,
+        "head_position": 0.0005717672756873071,
+        "head_orientation": 9.412853978574276e-05,
+        "pose_prior": 0.0001242514990735799,
+        "translation_prior": 5.793912714580074e-05,
+        "rotation_prior": 1.1383816627130727e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.013013160787522793
+      },
+      "contour_terms": {
+        "torso": 0.013013160787522793
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 142,
+          "target_samples": 256,
+          "model_to_target_mean_px": 24.265174865722656,
+          "target_to_model_mean_px": 44.96835708618164
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 3.5867483615875244,
+      "head_orientation_error_deg": 0.28632686244115635,
+      "pelvis_position_m": [
+        -0.0691080167889595,
+        0.23697921633720398,
+        0.653222918510437
+      ]
+    },
+    {
+      "step": 300,
+      "loss": 0.017356213182210922,
+      "feasible": true,
+      "terms": {
+        "body": 0.0054542929865419865,
+        "wrist": 4.933519903715933e-06,
+        "shoulder": 0.00018682301742956042,
+        "head_position": 0.00016572460299357772,
+        "head_orientation": 4.034649464301765e-05,
+        "pose_prior": 0.00013185673742555082,
+        "translation_prior": 5.362741285352968e-05,
+        "rotation_prior": 1.7930939293364645e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.011316814459860325
+      },
+      "contour_terms": {
+        "torso": 0.011316814459860325
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 135,
+          "target_samples": 256,
+          "model_to_target_mean_px": 19.772932052612305,
+          "target_to_model_mean_px": 42.47803497314453
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 1.9310108423233032,
+      "head_orientation_error_deg": 0.1846345518979506,
+      "pelvis_position_m": [
+        -0.06772810965776443,
+        0.23275431990623474,
+        0.6526535153388977
+      ]
+    },
+    {
+      "step": 400,
+      "loss": 0.01440383493900299,
+      "feasible": true,
+      "terms": {
+        "body": 0.004486125893890858,
+        "wrist": 1.1163916497025639e-05,
+        "shoulder": 8.374582830583677e-05,
+        "head_position": 0.00010752995876828209,
+        "head_orientation": 3.0005934604560025e-05,
+        "pose_prior": 0.0001342657778877765,
+        "translation_prior": 4.9700138333719224e-05,
+        "rotation_prior": 3.0093901841610204e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.009498287923634052
+      },
+      "contour_terms": {
+        "torso": 0.009498287923634052
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 137,
+          "target_samples": 256,
+          "model_to_target_mean_px": 14.652963638305664,
+          "target_to_model_mean_px": 39.58960723876953
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 1.5554498434066772,
+      "head_orientation_error_deg": 0.15634239615823162,
+      "pelvis_position_m": [
+        -0.06934414058923721,
+        0.22977331280708313,
+        0.6530665159225464
+      ]
+    },
+    {
+      "step": 500,
+      "loss": 0.012482725083827972,
+      "feasible": true,
+      "terms": {
+        "body": 0.0038147312588989735,
+        "wrist": 1.7258575098821893e-05,
+        "shoulder": 6.585640221601352e-05,
+        "head_position": 4.8175275878747925e-05,
+        "head_orientation": 1.0151634342037141e-05,
+        "pose_prior": 0.00013785125338472426,
+        "translation_prior": 4.470871499506757e-05,
+        "rotation_prior": 3.980946075898828e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.008340011350810528
+      },
+      "contour_terms": {
+        "torso": 0.008340011350810528
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 138,
+          "target_samples": 256,
+          "model_to_target_mean_px": 10.787939071655273,
+          "target_to_model_mean_px": 37.25078201293945
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 1.0411261320114136,
+      "head_orientation_error_deg": 0.08128347331063922,
+      "pelvis_position_m": [
+        -0.07012052834033966,
+        0.2253120243549347,
+        0.6532222628593445
+      ]
+    },
+    {
+      "step": 600,
+      "loss": 0.011564354412257671,
+      "feasible": true,
+      "terms": {
+        "body": 0.0033130149822682142,
+        "wrist": 2.36624910030514e-05,
+        "shoulder": 4.7905570681905374e-05,
+        "head_position": 2.7222973585594445e-05,
+        "head_orientation": 2.5848755740298657e-06,
+        "pose_prior": 0.00013838856830261648,
+        "translation_prior": 4.3023253965657204e-05,
+        "rotation_prior": 4.775136403623037e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007963776588439941
+      },
+      "contour_terms": {
+        "torso": 0.007963776588439941
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 131,
+          "target_samples": 256,
+          "model_to_target_mean_px": 8.73519515991211,
+          "target_to_model_mean_px": 36.36680603027344
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.7826346158981323,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06923839449882507,
+        0.2233072817325592,
+        0.6530275940895081
+      ]
+    },
+    {
+      "step": 700,
+      "loss": 0.01117595937103033,
+      "feasible": true,
+      "terms": {
+        "body": 0.0029309361707419157,
+        "wrist": 2.918147947639227e-05,
+        "shoulder": 3.7983736547175795e-05,
+        "head_position": 2.0522726117633283e-05,
+        "head_orientation": 8.674697937749443e-07,
+        "pose_prior": 0.00014027814904693514,
+        "translation_prior": 4.2511095671216026e-05,
+        "rotation_prior": 5.4819329307065345e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007968196645379066
+      },
+      "contour_terms": {
+        "torso": 0.007968196645379066
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 129,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.517733097076416,
+          "target_to_model_mean_px": 36.597206115722656
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.6795302033424377,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06833299994468689,
+        0.22242996096611023,
+        0.6527643203735352
+      ]
+    },
+    {
+      "step": 800,
+      "loss": 0.010827924124896526,
+      "feasible": true,
+      "terms": {
+        "body": 0.002668893663212657,
+        "wrist": 3.2822281355038285e-05,
+        "shoulder": 3.138360261800699e-05,
+        "head_position": 1.930668622662779e-05,
+        "head_orientation": 2.352152961293541e-07,
+        "pose_prior": 0.0001410754193784669,
+        "translation_prior": 4.224483564030379e-05,
+        "rotation_prior": 6.0654797380266245e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007885896600782871
+      },
+      "contour_terms": {
+        "torso": 0.007885896600782871
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 129,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.076811790466309,
+          "target_to_model_mean_px": 36.126136779785156
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.6590905785560608,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06774017959833145,
+        0.22191539406776428,
+        0.6525323390960693
+      ]
+    },
+    {
+      "step": 900,
+      "loss": 0.010534374043345451,
+      "feasible": true,
+      "terms": {
+        "body": 0.0024746330454945564,
+        "wrist": 3.431867662584409e-05,
+        "shoulder": 3.292161272838712e-05,
+        "head_position": 1.9578916180762462e-05,
+        "head_orientation": 1.386059125252359e-07,
+        "pose_prior": 0.0001418563915649429,
+        "translation_prior": 4.185452780802734e-05,
+        "rotation_prior": 6.600776941922959e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007782470900565386
+      },
+      "contour_terms": {
+        "torso": 0.007782470900565386
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.0598320960998535,
+          "target_to_model_mean_px": 35.426239013671875
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.6637210845947266,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06742662191390991,
+        0.22138461470603943,
+        0.6523167490959167
+      ]
+    },
+    {
+      "step": 1000,
+      "loss": 0.010394665412604809,
+      "feasible": true,
+      "terms": {
+        "body": 0.0023417044430971146,
+        "wrist": 2.4769698939053342e-05,
+        "shoulder": 2.912717536673881e-05,
+        "head_position": 1.7228390788659453e-05,
+        "head_orientation": 2.542826571527712e-08,
+        "pose_prior": 0.00014363399532157928,
+        "translation_prior": 4.196503505227156e-05,
+        "rotation_prior": 7.193282272055512e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007789018098264933
+      },
+      "contour_terms": {
+        "torso": 0.007789018098264933
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 129,
+          "target_samples": 256,
+          "model_to_target_mean_px": 6.868148326873779,
+          "target_to_model_mean_px": 35.45724868774414
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.6226065158843994,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06692732125520706,
+        0.22128626704216003,
+        0.6520586609840393
+      ]
+    },
+    {
+      "step": 1100,
+      "loss": 0.010330061428248882,
+      "feasible": true,
+      "terms": {
+        "body": 0.002250610152259469,
+        "wrist": 1.7637132259551436e-05,
+        "shoulder": 3.249794099247083e-05,
+        "head_position": 1.4346342140925117e-05,
+        "head_orientation": 2.773121510202259e-09,
+        "pose_prior": 0.00014448653382714838,
+        "translation_prior": 4.1891813452821225e-05,
+        "rotation_prior": 7.668182661291212e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007820920087397099
+      },
+      "contour_terms": {
+        "torso": 0.007820920087397099
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.024077415466309,
+          "target_to_model_mean_px": 35.531455993652344
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5681484341621399,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.0666937455534935,
+        0.22111091017723083,
+        0.6518656611442566
+      ]
+    },
+    {
+      "step": 1200,
+      "loss": 0.010332832112908363,
+      "feasible": true,
+      "terms": {
+        "body": 0.0021648923866450787,
+        "wrist": 1.4920567082299385e-05,
+        "shoulder": 2.8797954655601643e-05,
+        "head_position": 1.3303459127200767e-05,
+        "head_orientation": 5.754881460262595e-09,
+        "pose_prior": 0.00014965566515456885,
+        "translation_prior": 4.208195969113149e-05,
+        "rotation_prior": 8.23728260002099e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007910937070846558
+      },
+      "contour_terms": {
+        "torso": 0.007910937070846558
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 130,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.047082424163818,
+          "target_to_model_mean_px": 35.99588394165039
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5471085906028748,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06581317633390427,
+        0.2209162414073944,
+        0.6516473889350891
+      ]
+    },
+    {
+      "step": 1300,
+      "loss": 0.010329868644475937,
+      "feasible": true,
+      "terms": {
+        "body": 0.0020992474164813757,
+        "wrist": 1.2845402125094552e-05,
+        "shoulder": 2.883238994400017e-05,
+        "head_position": 1.2115959179936908e-05,
+        "head_orientation": 7.454064032685892e-09,
+        "pose_prior": 0.0001546289713587612,
+        "translation_prior": 4.259675552020781e-05,
+        "rotation_prior": 8.819200957077555e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007970775477588177
+      },
+      "contour_terms": {
+        "torso": 0.007970775477588177
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 131,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.121714115142822,
+          "target_to_model_mean_px": 36.231048583984375
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5221197605133057,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.0649041011929512,
+        0.22103407979011536,
+        0.6514056324958801
+      ]
+    },
+    {
+      "step": 1400,
+      "loss": 0.0101775536313653,
+      "feasible": true,
+      "terms": {
+        "body": 0.002023270819336176,
+        "wrist": 1.1988275218755007e-05,
+        "shoulder": 2.6552761482889764e-05,
+        "head_position": 1.1502699635457247e-05,
+        "head_orientation": 7.821252978601478e-09,
+        "pose_prior": 0.00015959546726662666,
+        "translation_prior": 4.292136145522818e-05,
+        "rotation_prior": 9.440836947760545e-06,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007892273366451263
+      },
+      "contour_terms": {
+        "torso": 0.007892273366451263
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.275275707244873,
+          "target_to_model_mean_px": 35.8403205871582
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5087344646453857,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06394606083631516,
+        0.22091999650001526,
+        0.6511296033859253
+      ]
+    },
+    {
+      "step": 1500,
+      "loss": 0.010108059272170067,
+      "feasible": true,
+      "terms": {
+        "body": 0.0019315610406920314,
+        "wrist": 1.1087433449574746e-05,
+        "shoulder": 2.4980468879221007e-05,
+        "head_position": 1.1719826034095604e-05,
+        "head_orientation": 7.981773464393882e-09,
+        "pose_prior": 0.00016811719979159534,
+        "translation_prior": 4.2664683860493824e-05,
+        "rotation_prior": 1.0225951882603113e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007907695136964321
+      },
+      "contour_terms": {
+        "torso": 0.007907695136964321
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 132,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.05346155166626,
+          "target_to_model_mean_px": 35.95927429199219
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.513513445854187,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.0637558251619339,
+        0.22056469321250916,
+        0.6508128643035889
+      ]
+    },
+    {
+      "step": 1600,
+      "loss": 0.010044415481388569,
+      "feasible": true,
+      "terms": {
+        "body": 0.0018596443114802241,
+        "wrist": 1.3124556971888524e-05,
+        "shoulder": 2.385510924796108e-05,
+        "head_position": 1.055358734447509e-05,
+        "head_orientation": 2.959155835924321e-07,
+        "pose_prior": 0.00017428754654247314,
+        "translation_prior": 4.287736373953521e-05,
+        "rotation_prior": 1.1092681234003976e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007908684201538563
+      },
+      "contour_terms": {
+        "torso": 0.007908684201538563
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.472208023071289,
+          "target_to_model_mean_px": 35.71269226074219
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4872942864894867,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06336776167154312,
+        0.22059890627861023,
+        0.6506054401397705
+      ]
+    },
+    {
+      "step": 1700,
+      "loss": 0.009982899762690067,
+      "feasible": true,
+      "terms": {
+        "body": 0.0018175558652728796,
+        "wrist": 7.688094228797127e-06,
+        "shoulder": 1.9770328435697593e-05,
+        "head_position": 1.5008733498689253e-05,
+        "head_orientation": 4.5171654505793413e-07,
+        "pose_prior": 0.00018105772323906422,
+        "translation_prior": 4.263554365024902e-05,
+        "rotation_prior": 1.190318198496243e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007886828854680061
+      },
+      "contour_terms": {
+        "torso": 0.007886828854680061
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.468890190124512,
+          "target_to_model_mean_px": 35.61859130859375
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5811166167259216,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06336625665426254,
+        0.22034600377082825,
+        0.6505788564682007
+      ]
+    },
+    {
+      "step": 1800,
+      "loss": 0.010061066597700119,
+      "feasible": true,
+      "terms": {
+        "body": 0.0018331287428736687,
+        "wrist": 4.155133865424432e-05,
+        "shoulder": 3.226966509828344e-05,
+        "head_position": 9.201822649629321e-06,
+        "head_orientation": 1.2460959624149837e-05,
+        "pose_prior": 0.00017913781630340964,
+        "translation_prior": 4.379707752377726e-05,
+        "rotation_prior": 1.2341974070295691e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007897176779806614
+      },
+      "contour_terms": {
+        "torso": 0.007897176779806614
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.384927749633789,
+          "target_to_model_mean_px": 35.872947692871094
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4550175666809082,
+      "head_orientation_error_deg": 0.09836139097830598,
+      "pelvis_position_m": [
+        -0.0629013255238533,
+        0.22132143378257751,
+        0.6507662534713745
+      ]
+    },
+    {
+      "step": 1900,
+      "loss": 0.010001165792346,
+      "feasible": true,
+      "terms": {
+        "body": 0.0018369047902524471,
+        "wrist": 1.5638943295925856e-05,
+        "shoulder": 2.0701205357909203e-05,
+        "head_position": 9.297405995312147e-06,
+        "head_orientation": 1.6537654801140889e-06,
+        "pose_prior": 0.00017953845963347703,
+        "translation_prior": 4.333033211878501e-05,
+        "rotation_prior": 1.2471592526708264e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007881629280745983
+      },
+      "contour_terms": {
+        "torso": 0.007881629280745983
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.505268096923828,
+          "target_to_model_mean_px": 35.6279411315918
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4573746919631958,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06285389512777328,
+        0.22081580758094788,
+        0.6506640911102295
+      ]
+    },
+    {
+      "step": 2000,
+      "loss": 0.010009189136326313,
+      "feasible": true,
+      "terms": {
+        "body": 0.001817248878069222,
+        "wrist": 7.599819127790397e-06,
+        "shoulder": 3.46890083164908e-05,
+        "head_position": 1.3515621503756847e-05,
+        "head_orientation": 2.4968571210592927e-07,
+        "pose_prior": 0.00017990721971727908,
+        "translation_prior": 4.295991311664693e-05,
+        "rotation_prior": 1.2651308679778595e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007900367490947247
+      },
+      "contour_terms": {
+        "torso": 0.007900367490947247
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.603941917419434,
+          "target_to_model_mean_px": 35.718257904052734
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5514539480209351,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06300316005945206,
+        0.22050592303276062,
+        0.6504970192909241
+      ]
+    },
+    {
+      "step": 2100,
+      "loss": 0.009996124543249607,
+      "feasible": true,
+      "terms": {
+        "body": 0.0018060349393635988,
+        "wrist": 1.490512840973679e-05,
+        "shoulder": 1.293487184739206e-05,
+        "head_position": 1.30250246002106e-05,
+        "head_orientation": 5.328425345396681e-07,
+        "pose_prior": 0.00018161447951570153,
+        "translation_prior": 4.2587787902448326e-05,
+        "rotation_prior": 1.2840611816500314e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007911648601293564
+      },
+      "contour_terms": {
+        "torso": 0.007911648601293564
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 132,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.441514492034912,
+          "target_to_model_mean_px": 35.777679443359375
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5413529872894287,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06282412260770798,
+        0.2200244963169098,
+        0.6507400870323181
+      ]
+    },
+    {
+      "step": 2200,
+      "loss": 0.0100023802369833,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017772590508684516,
+        "wrist": 1.4479162928182632e-05,
+        "shoulder": 1.5821988199604675e-05,
+        "head_position": 1.5827326933504082e-05,
+        "head_orientation": 1.098422671930166e-06,
+        "pose_prior": 0.00018086304771713912,
+        "translation_prior": 4.231680213706568e-05,
+        "rotation_prior": 1.3125773875799496e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007941588759422302
+      },
+      "contour_terms": {
+        "torso": 0.007941588759422302
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 131,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.292071342468262,
+          "target_to_model_mean_px": 36.00084686279297
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5967535376548767,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06261565536260605,
+        0.21963414549827576,
+        0.6506972908973694
+      ]
+    },
+    {
+      "step": 2300,
+      "loss": 0.009981047362089157,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017378365155309439,
+        "wrist": 3.454032776062377e-05,
+        "shoulder": 2.6879957658820786e-05,
+        "head_position": 1.3993631000630558e-05,
+        "head_orientation": 2.5434690087422496e-06,
+        "pose_prior": 0.00018145893409382552,
+        "translation_prior": 4.259285924490541e-05,
+        "rotation_prior": 1.3490754099620972e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007927711121737957
+      },
+      "contour_terms": {
+        "torso": 0.007927711121737957
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 132,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.599571228027344,
+          "target_to_model_mean_px": 35.888389587402344
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5611209273338318,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06247308850288391,
+        0.21985319256782532,
+        0.6506536602973938
+      ]
+    },
+    {
+      "step": 2400,
+      "loss": 0.009970045648515224,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017227802891284227,
+        "wrist": 8.857854481902905e-06,
+        "shoulder": 1.734327815938741e-05,
+        "head_position": 9.299958946940023e-06,
+        "head_orientation": 1.594639513768925e-07,
+        "pose_prior": 0.0001855812151916325,
+        "translation_prior": 4.227200770401396e-05,
+        "rotation_prior": 1.3892401511839125e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007969859056174755
+      },
+      "contour_terms": {
+        "torso": 0.007969859056174755
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.527140140533447,
+          "target_to_model_mean_px": 35.99870300292969
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4574374854564667,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.062190376222133636,
+        0.21936896443367004,
+        0.6506887078285217
+      ]
+    },
+    {
+      "step": 2500,
+      "loss": 0.009947940707206726,
+      "feasible": true,
+      "terms": {
+        "body": 0.001715433201752603,
+        "wrist": 7.610520242451457e-06,
+        "shoulder": 2.477144153090194e-05,
+        "head_position": 1.2612153113877866e-05,
+        "head_orientation": 5.1029495296006644e-08,
+        "pose_prior": 0.00019070031703449786,
+        "translation_prior": 4.2438707168912515e-05,
+        "rotation_prior": 1.4116860256763175e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007940206676721573
+      },
+      "contour_terms": {
+        "torso": 0.007940206676721573
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.720001697540283,
+          "target_to_model_mean_px": 35.794921875
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5327038764953613,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.062139831483364105,
+        0.2195211946964264,
+        0.6505088806152344
+      ]
+    },
+    {
+      "step": 2600,
+      "loss": 0.01003914512693882,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017158436821773648,
+        "wrist": 1.540049743198324e-05,
+        "shoulder": 4.641884515876882e-05,
+        "head_position": 2.8894823117298074e-05,
+        "head_orientation": 2.535247631385573e-06,
+        "pose_prior": 0.00019197410438209772,
+        "translation_prior": 4.2525345634203404e-05,
+        "rotation_prior": 1.4264878700487316e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007981288246810436
+      },
+      "contour_terms": {
+        "torso": 0.007981288246810436
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 132,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.662930965423584,
+          "target_to_model_mean_px": 36.11531066894531
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.8063085079193115,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06228452920913696,
+        0.21968761086463928,
+        0.6504589915275574
+      ]
+    },
+    {
+      "step": 2700,
+      "loss": 0.009921128861606121,
+      "feasible": true,
+      "terms": {
+        "body": 0.001711157150566578,
+        "wrist": 1.3916101124777924e-05,
+        "shoulder": 1.593528395460453e-05,
+        "head_position": 1.0097363883687649e-05,
+        "head_orientation": 2.1514172487968608e-07,
+        "pose_prior": 0.00018724941764958203,
+        "translation_prior": 4.269780038157478e-05,
+        "rotation_prior": 1.4383579582499806e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007925476878881454
+      },
+      "contour_terms": {
+        "torso": 0.007925476878881454
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.678491592407227,
+          "target_to_model_mean_px": 35.76266098022461
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.476645290851593,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06170927733182907,
+        0.21957221627235413,
+        0.6504689455032349
+      ]
+    },
+    {
+      "step": 2800,
+      "loss": 0.00999157689511776,
+      "feasible": true,
+      "terms": {
+        "body": 0.001720894011668861,
+        "wrist": 4.636226549337152e-06,
+        "shoulder": 2.3150661945692264e-05,
+        "head_position": 2.1309200747055e-05,
+        "head_orientation": 6.906134331075009e-07,
+        "pose_prior": 0.00019105208048131317,
+        "translation_prior": 4.248139521223493e-05,
+        "rotation_prior": 1.4418686987482943e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007972943596541882
+      },
+      "contour_terms": {
+        "torso": 0.007972943596541882
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.588559627532959,
+          "target_to_model_mean_px": 35.94636535644531
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.6924283504486084,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.061845771968364716,
+        0.21941456198692322,
+        0.6504448056221008
+      ]
+    },
+    {
+      "step": 2900,
+      "loss": 0.009973942302167416,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017065225401893258,
+        "wrist": 1.0507902516110335e-05,
+        "shoulder": 2.0363168005133048e-05,
+        "head_position": 9.872252121567726e-06,
+        "head_orientation": 5.837405225861403e-08,
+        "pose_prior": 0.000189413913176395,
+        "translation_prior": 4.269187047611922e-05,
+        "rotation_prior": 1.4483499398920685e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007980029098689556
+      },
+      "contour_terms": {
+        "torso": 0.007980029098689556
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.657590866088867,
+          "target_to_model_mean_px": 36.00177001953125
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4713020920753479,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06170591711997986,
+        0.2195647656917572,
+        0.6504058837890625
+      ]
+    },
+    {
+      "step": 3000,
+      "loss": 0.009959818795323372,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017065720167011023,
+        "wrist": 1.5351632100646384e-05,
+        "shoulder": 2.1625477529596537e-05,
+        "head_position": 9.329396561952308e-06,
+        "head_orientation": 8.002491824754543e-08,
+        "pose_prior": 0.00019006866205018014,
+        "translation_prior": 4.279902714188211e-05,
+        "rotation_prior": 1.4454848496825434e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007959538139402866
+      },
+      "contour_terms": {
+        "torso": 0.007959538139402866
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.5529069900512695,
+          "target_to_model_mean_px": 36.008758544921875
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4581609070301056,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.061645664274692535,
+        0.2196466028690338,
+        0.650399923324585
+      ]
+    },
+    {
+      "step": 3100,
+      "loss": 0.00998220406472683,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017098659882321954,
+        "wrist": 2.0772300558746792e-05,
+        "shoulder": 1.249730121344328e-05,
+        "head_position": 1.3543003660743125e-05,
+        "head_orientation": 9.787604540179018e-07,
+        "pose_prior": 0.00019354683172423393,
+        "translation_prior": 4.2648171074688435e-05,
+        "rotation_prior": 1.4481584003078751e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007973870262503624
+      },
+      "contour_terms": {
+        "torso": 0.007973870262503624
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.597062110900879,
+          "target_to_model_mean_px": 35.94315719604492
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.5520122647285461,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06158854812383652,
+        0.219455748796463,
+        0.6505569815635681
+      ]
+    },
+    {
+      "step": 3200,
+      "loss": 0.009975414723157883,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017066175350919366,
+        "wrist": 1.0727477274485864e-05,
+        "shoulder": 1.697398147371132e-05,
+        "head_position": 1.0918482985289302e-05,
+        "head_orientation": 8.317676503111215e-08,
+        "pose_prior": 0.00019562462694011629,
+        "translation_prior": 4.2690011468948796e-05,
+        "rotation_prior": 1.447380600438919e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.00797730591148138
+      },
+      "contour_terms": {
+        "torso": 0.00797730591148138
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.636977672576904,
+          "target_to_model_mean_px": 35.96868896484375
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4956468939781189,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.061560191214084625,
+        0.21948698163032532,
+        0.650361955165863
+      ]
+    },
+    {
+      "step": 3300,
+      "loss": 0.010064524598419666,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017144682351499796,
+        "wrist": 3.628647027653642e-05,
+        "shoulder": 5.326744030753616e-06,
+        "head_position": 2.365562249906361e-05,
+        "head_orientation": 2.063506826743833e-06,
+        "pose_prior": 0.00019495438027661294,
+        "translation_prior": 4.2750358261400834e-05,
+        "rotation_prior": 1.4555033885699231e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.008030464872717857
+      },
+      "contour_terms": {
+        "torso": 0.008030464872717857
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 133,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.464025020599365,
+          "target_to_model_mean_px": 36.126007080078125
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.7295556664466858,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.061268195509910583,
+        0.21939340233802795,
+        0.6507432460784912
+      ]
+    },
+    {
+      "step": 3400,
+      "loss": 0.009979529306292534,
+      "feasible": true,
+      "terms": {
+        "body": 0.0017089041648432612,
+        "wrist": 9.623205187381245e-06,
+        "shoulder": 2.20707843254786e-05,
+        "head_position": 8.385628461837769e-06,
+        "head_orientation": 2.350058814215572e-08,
+        "pose_prior": 0.00019838525622617453,
+        "translation_prior": 4.285416434868239e-05,
+        "rotation_prior": 1.458453061786713e-05,
+        "positive_joint_guard": 0.0,
+        "wrist_guard": 0.0,
+        "contour": 0.007974698208272457
+      },
+      "contour_terms": {
+        "torso": 0.007974698208272457
+      },
+      "contour_diagnostics": {
+        "torso": {
+          "active": true,
+          "valid": true,
+          "model_samples": 134,
+          "target_samples": 256,
+          "model_to_target_mean_px": 7.621304988861084,
+          "target_to_model_mean_px": 35.96868896484375
+        },
+        "legs": {
+          "active": false,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      },
+      "head_position_error_mm": 0.4343692362308502,
+      "head_orientation_error_deg": 0.0,
+      "pelvis_position_m": [
+        -0.06159284710884094,
+        0.2196771204471588,
+        0.6504128575325012
+      ]
+    }
+  ],
+  "selected_best_loss": 0.009921007789671421,
+  "recorded_best_loss": 0.009921007789671421,
+  "best_step": 2660,
+  "steps": 3400,
+  "elapsed_seconds": 75.06274080276489,
+  "selected_points": [
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle"
+  ],
+  "contour_enabled": true,
+  "contour_diagnostics": {
+    "torso": {
+      "active": true,
+      "valid": true,
+      "model_samples": 134,
+      "target_samples": 256,
+      "model_to_target_mean_px": 7.67849063873291,
+      "target_to_model_mean_px": 35.76266098022461
+    },
+    "legs": {
+      "active": false,
+      "reason": "insufficient semantic area or exterior contour"
+    }
+  },
+  "terms": {
+    "body": 0.0017091595800593495,
+    "wrist": 1.5411884305649437e-05,
+    "shoulder": 1.4638802895206027e-05,
+    "head_position": 1.0915162420133129e-05,
+    "head_orientation": 4.0977792536978086e-07,
+    "pose_prior": 0.00018810962501447648,
+    "translation_prior": 4.257534965290688e-05,
+    "rotation_prior": 1.4310356164060067e-05,
+    "positive_joint_guard": 0.0,
+    "wrist_guard": 0.0,
+    "contour": 0.007925476878881454
+  },
+  "contour_terms": {
+    "torso": 0.007925476878881454
+  },
+  "pose_increments_deg": {
+    "L_Hip": 17.999998092651367,
+    "R_Hip": 18.0,
+    "Spine_1": 8.124441146850586,
+    "Spine_2": 6.847113132476807,
+    "Spine_3": 2.2266156673431396,
+    "L_Knee": 14.495041847229004,
+    "R_Knee": 21.999998092651367,
+    "L_Ankle": 12.525628089904785,
+    "R_Ankle": 9.176107406616211,
+    "Neck": 12.0,
+    "Head": 4.110522747039795,
+    "L_Collar": 15.0,
+    "R_Collar": 15.0,
+    "L_Shoulder": 28.0,
+    "R_Shoulder": 27.999998092651367,
+    "L_Elbow": 16.56304168701172,
+    "R_Elbow": 20.03472137451172,
+    "L_Wrist": 15.000000953674316,
+    "R_Wrist": 9.207901000976562
+  },
+  "fixed_parameters": [
+    "betas",
+    "left_hand_pose",
+    "right_hand_pose",
+    "jaw_pose",
+    "leye_pose",
+    "reye_pose",
+    "expression"
+  ],
+  "all_fixed_parameters_equal": true,
+  "wrist_floor_m": [
+    0.24721060693264008,
+    0.28160449862480164
+  ],
+  "wrist_distances_m": [
+    0.44781744480133057,
+    0.4807049632072449
+  ],
+  "initialization": "single rigid alignment of predicted Head frame to oracle Head frame; then all parameters optimized together, no alternating stages",
+  "source_raw_sha256": "d87e80f458d131a7efc7c351a29226c91efd3cba948ad1c74477e8466cbb9d84",
+  "observations_sha256": "ef3d193af48efc5055dbf25cd483c8002a6ee0aa1ddec56e7c35572acc4e4cbf"
+}

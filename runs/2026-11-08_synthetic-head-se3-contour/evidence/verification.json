@@ -1,0 +1,61 @@
+{
+  "exit_status": 0,
+  "case_count": 4,
+  "checks": [
+    {
+      "side": "left",
+      "case": "se3_joint",
+      "independent_head_rotation_max_abs": 1.3986132341159419e-07,
+      "fixed_parameters_equal": true,
+      "selected_points": 12,
+      "reload_checks_pass": true,
+      "all_parameters_jointly_optimized": true,
+      "contour_legs_active": false
+    },
+    {
+      "side": "left",
+      "case": "se3_contour_joint",
+      "independent_head_rotation_max_abs": 1.429671370019531e-07,
+      "fixed_parameters_equal": true,
+      "selected_points": 12,
+      "reload_checks_pass": true,
+      "all_parameters_jointly_optimized": true,
+      "contour_legs_active": false
+    },
+    {
+      "side": "right",
+      "case": "se3_joint",
+      "independent_head_rotation_max_abs": 3.6027274885608307e-07,
+      "fixed_parameters_equal": true,
+      "selected_points": 12,
+      "reload_checks_pass": true,
+      "all_parameters_jointly_optimized": true,
+      "contour_legs_active": false
+    },
+    {
+      "side": "right",
+      "case": "se3_contour_joint",
+      "independent_head_rotation_max_abs": 2.814073633006231e-07,
+      "fixed_parameters_equal": true,
+      "selected_points": 12,
+      "reload_checks_pass": true,
+      "all_parameters_jointly_optimized": true,
+      "contour_legs_active": false
+    }
+  ],
+  "command": "<BODY_PYTHON> runs/2026-11-08_synthetic-head-se3-contour/verify.py",
+  "common_initialization_bitwise_equal": true,
+  "gt_head_transform_independently_verified": true,
+  "source_sha256": {
+    "check_publication.py": "28aec550a1e599611609ce98709595288899b735a17b48ff42d2c61a4502da11",
+    "run.py": "b5c6f9b347f1aee7aad1a268081a059212d510758b258dce41858433f229fd58",
+    "prepare.py": "c6c6fd3c35329648c9a5646a13c0d8eba6e36b36b1011d1cd2ffa9efc8bc7224",
+    "verify.py": "3615f653bf13920d7db243b58a98caf4bfd1c3e941b1e04119bccfb5c964c0fa",
+    "contour.py": "d5f488f3f0b9ebc8bfadc9daedb17c9f0f5e576a7af242db7b68a08f50791828",
+    "test_math.py": "cfd95df1a1b430b789978edd66d89449ab8b6e4c0bbd06610d4798d7161151d5",
+    "common.py": "c41b1d1060b5077f67396f71de8388950eaf76cbfc004d22cc900206b16f9c7c",
+    "fit.py": "977dbd969d4cd60d2c9e4931310c9b04fc6720517b9bb34c2bb9a198578a5519",
+    "evaluate.py": "a9dc8a3b39306a901c5a54b4b1e29c8c8555793e939cc1aaa9c03762fc4c7e7e",
+    "build_report.py": "47444be1c50d46c22987ebc270979ee9f156b7c8e33b2bdb4e4fa094bd263d4b"
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "side": "left",
+    "contour": false,
+    "exit_status": 0,
+    "elapsed_seconds": 73.63674998283386,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/fit.py",
+      "--side",
+      "left",
+      "--contour",
+      "0"
+    ],
+    "code_sha256": {
+      "fit.py": "977dbd969d4cd60d2c9e4931310c9b04fc6720517b9bb34c2bb9a198578a5519",
+      "contour.py": "d5f488f3f0b9ebc8bfadc9daedb17c9f0f5e576a7af242db7b68a08f50791828",
+      "common.py": "c41b1d1060b5077f67396f71de8388950eaf76cbfc004d22cc900206b16f9c7c",
+      "settings.json": "f4b0ebbb2f3a699577a8fab789bf9696d4edb73a839bb419cdfc353694147ffd"
+    }
+  },
+  {
+    "side": "left",
+    "contour": true,
+    "exit_status": 0,
+    "elapsed_seconds": 85.52979874610901,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/fit.py",
+      "--side",
+      "left",
+      "--contour",
+      "1"
+    ],
+    "code_sha256": {
+      "fit.py": "977dbd969d4cd60d2c9e4931310c9b04fc6720517b9bb34c2bb9a198578a5519",
+      "contour.py": "d5f488f3f0b9ebc8bfadc9daedb17c9f0f5e576a7af242db7b68a08f50791828",
+      "common.py": "c41b1d1060b5077f67396f71de8388950eaf76cbfc004d22cc900206b16f9c7c",
+      "settings.json": "f4b0ebbb2f3a699577a8fab789bf9696d4edb73a839bb419cdfc353694147ffd"
+    }
+  },
+  {
+    "side": "right",
+    "contour": false,
+    "exit_status": 0,
+    "elapsed_seconds": 70.70216631889343,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/fit.py",
+      "--side",
+      "right",
+      "--contour",
+      "0"
+    ],
+    "code_sha256": {
+      "fit.py": "977dbd969d4cd60d2c9e4931310c9b04fc6720517b9bb34c2bb9a198578a5519",
+      "contour.py": "d5f488f3f0b9ebc8bfadc9daedb17c9f0f5e576a7af242db7b68a08f50791828",
+      "common.py": "c41b1d1060b5077f67396f71de8388950eaf76cbfc004d22cc900206b16f9c7c",
+      "settings.json": "f4b0ebbb2f3a699577a8fab789bf9696d4edb73a839bb419cdfc353694147ffd"
+    }
+  },
+  {
+    "side": "right",
+    "contour": true,
+    "exit_status": 0,
+    "elapsed_seconds": 84.50507593154907,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/fit.py",
+      "--side",
+      "right",
+      "--contour",
+      "1"
+    ],
+    "code_sha256": {
+      "fit.py": "977dbd969d4cd60d2c9e4931310c9b04fc6720517b9bb34c2bb9a198578a5519",
+      "contour.py": "d5f488f3f0b9ebc8bfadc9daedb17c9f0f5e576a7af242db7b68a08f50791828",
+      "common.py": "c41b1d1060b5077f67396f71de8388950eaf76cbfc004d22cc900206b16f9c7c",
+      "settings.json": "f4b0ebbb2f3a699577a8fab789bf9696d4edb73a839bb419cdfc353694147ffd"
+    }
+  }
+]

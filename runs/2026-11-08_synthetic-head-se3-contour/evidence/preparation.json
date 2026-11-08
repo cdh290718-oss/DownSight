@@ -1,0 +1,63 @@
+{
+  "exit_status": 0,
+  "records": [
+    {
+      "side": "left",
+      "targets": {
+        "torso": {
+          "active": true,
+          "classes": [
+            22,
+            23
+          ],
+          "class_pixels": 84501,
+          "eligible_pixels": 73489,
+          "boundary_points": 418,
+          "reason": "supported"
+        },
+        "legs": {
+          "active": false,
+          "classes": [
+            8,
+            12,
+            17,
+            21
+          ],
+          "class_pixels": 2,
+          "eligible_pixels": 0,
+          "boundary_points": 0,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      }
+    },
+    {
+      "side": "right",
+      "targets": {
+        "torso": {
+          "active": true,
+          "classes": [
+            22,
+            23
+          ],
+          "class_pixels": 160051,
+          "eligible_pixels": 82902,
+          "boundary_points": 589,
+          "reason": "supported"
+        },
+        "legs": {
+          "active": false,
+          "classes": [
+            8,
+            12,
+            17,
+            21
+          ],
+          "class_pixels": 59,
+          "eligible_pixels": 11,
+          "boundary_points": 1,
+          "reason": "insufficient semantic area or exterior contour"
+        }
+      }
+    }
+  ]
+}

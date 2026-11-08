@@ -1,0 +1,20 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/test_math.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "cfd95df1a1b430b789978edd66d89449ab8b6e4c0bbd06610d4798d7161151d5",
+    "log": "PASS: independent Head FK, rotation/shoulder gradients, nearest-surface visibility, missing-leg gating\n"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-08_synthetic-head-se3-contour/evaluate.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "a9dc8a3b39306a901c5a54b4b1e29c8c8555793e939cc1aaa9c03762fc4c7e7e",
+    "log": "WARNING: You are using a SMPL model, with only 10 shape coefficients.\nevaluated 2 views\n<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\n"
+  }
+]
