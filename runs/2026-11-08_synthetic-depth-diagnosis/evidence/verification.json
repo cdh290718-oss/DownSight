@@ -1,0 +1,10 @@
+{
+  "exit_status": 0,
+  "checks": [
+    "all diagnostic Python scripts parse",
+    "two views and all six control runs exit zero",
+    "original rigid and body reproduced exactly",
+    "body all/non-head parameters and mesh identical",
+    "oracle modifies ten selected in-frame targets"
+  ]
+}

@@ -1,0 +1,4 @@
+Command: PYTHONPATH=<REPO> <BODY_PYTHON> runs/2026-11-08_synthetic-depth-diagnosis/diagnose.py
+Exit status: 1
+FileNotFoundError: <OUTPUT>/fits/right_cpu/observations/right/sapiens/keypoints.json
+Cause: the cached right CPU pipeline references the separately stored CPU Sapiens observation. Retry points to that already recorded observation; no fitting inputs changed.

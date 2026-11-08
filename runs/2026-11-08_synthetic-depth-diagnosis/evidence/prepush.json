@@ -1,0 +1,11 @@
+{
+  "baseline": "40e2eba6cd9582b0ce420ce0302410a5329e2c78",
+  "remote_main_before_push": "40e2eba6cd9582b0ce420ce0302410a5329e2c78",
+  "worktree_passed": true,
+  "staged_passed": true,
+  "worktree_entries": 19,
+  "staged_entries": 18,
+  "preexisting_untracked_file_excluded": true,
+  "scope": "This run increment and scanned working tree; historical files not audited",
+  "post_commit_check": "performed separately before push; see local receipt"
+}

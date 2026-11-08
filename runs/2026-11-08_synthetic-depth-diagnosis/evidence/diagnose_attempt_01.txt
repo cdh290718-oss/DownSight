@@ -1,0 +1,4 @@
+Command: <BODY_PYTHON> runs/2026-11-08_synthetic-depth-diagnosis/diagnose.py
+Exit status: 1
+ModuleNotFoundError: No module named 'egosmplx_pipeline'
+Cause: invoking script by path did not add repository root to PYTHONPATH. Retry sets PYTHONPATH to repository root; no inputs changed.

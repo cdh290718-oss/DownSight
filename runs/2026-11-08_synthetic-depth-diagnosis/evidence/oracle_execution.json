@@ -1,0 +1,17 @@
+{
+  "exit_status": 0,
+  "elapsed_seconds": 32.995747089385986,
+  "changed_points": [
+    "left_elbow",
+    "right_elbow",
+    "left_hip",
+    "right_hip",
+    "left_knee",
+    "right_knee",
+    "left_ankle",
+    "right_ankle",
+    "right_wrist",
+    "left_wrist"
+  ],
+  "scope": "GT substituted solely for in-frame selected body targets in body pose stage; not an inference result; all other targets, rigid input, weights, and constraints unchanged"
+}
