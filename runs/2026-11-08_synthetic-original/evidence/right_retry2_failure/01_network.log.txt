@@ -1,0 +1,89 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[92m11-08 09:20:25[0m Load checkpoint from <WORKSPACE>/EgoSMPLX/output/train_5datasets_8gpu_camtrans_w10_12ep_fixed_20260809_20260809_163018/model_dump/snapshot_11.pth.tar
+[92m11-08 09:20:25[0m Creating graph...
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+created combined normalizer supporting keys: dict_keys(['body_pose', 'left_hand_pose', 'right_hand_pose', 'jaw_pose', 'expression'])
+=> loaded checkpoint '<WORKSPACE>/EgoSMPLX/DPoserX/pretrained_models/body/BaseMLP/last.ckpt' (step 180000)
+=> loaded checkpoint '<WORKSPACE>/EgoSMPLX/DPoserX/pretrained_models/hand/BaseMLP/last.ckpt' (step 180000)
+=> loaded checkpoint '<WORKSPACE>/EgoSMPLX/DPoserX/pretrained_models/face/BaseMLP/last.ckpt' (step 90000)
+=> loaded checkpoint '<WORKSPACE>/EgoSMPLX/DPoserX/pretrained_models/wholebody/mixed/last.ckpt' (step 330000)
+========== SMPLer-X Parameter Counts ==========
+Backbone (encoder, trainable) : 474,976,000  (474.976 M)
+Neck (box + hand_roi)        : 25,976,457  (25.976 M)
+Head (body/hand/face 등)     : 4,898,959  (4.899 M)
+----------------------------------------------
+Total trainable              : 505,851,416  (505.851 M)
+Total (all params)           : 663,268,888  (663.269 M)
+==============================================
+load checkpoint from local path: <WORKSPACE>/EgoSMPLX/pretrained_models/mmdet/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth
+
+Detect + project:   0%|          | 0/1 [00:00<?, ?it/s]<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/datasets/utils.py:66: UserWarning: "ImageToTensor" pipeline is replaced by "DefaultFormatBundle" for batch inference. It is recommended to manually replace it in the test data pipeline in your config file.
+  warnings.warn(
+
+Detect + project:   0%|          | 0/1 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/egosmplx_predict.py", line 2113, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/egosmplx_predict.py", line 1234, in main
+    mmdet_results = inference_detector(detector, detector_input)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/apis/inference.py", line 157, in inference_detector
+    results = model(return_loss=False, rescale=True, **data)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py", line 119, in new_func
+    return old_func(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/models/detectors/base.py", line 174, in forward
+    return self.forward_test(img, img_metas, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/models/detectors/base.py", line 147, in forward_test
+    return self.simple_test(imgs[0], img_metas[0], **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py", line 177, in simple_test
+    x = self.extract_feat(img)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/models/detectors/two_stage.py", line 67, in extract_feat
+    x = self.backbone(img)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmdet/models/backbones/resnet.py", line 639, in forward
+    x = self.maxpool(x)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/nn/modules/pooling.py", line 162, in forward
+    return F.max_pool2d(input, self.kernel_size, self.stride,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/_jit_internal.py", line 423, in fn
+    return if_false(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/nn/functional.py", line 782, in _max_pool2d
+    return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+RuntimeError: CUDA error: unspecified launch failure
+terminate called after throwing an instance of 'c10::CUDAError'
+  what():  CUDA error: unspecified launch failure
+Exception raised from create_event_internal at <BUILD_ROOT>/conda-bld/pytorch_1659484810403/work/c10/cuda/CUDACachingAllocator.cpp:1387 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fe0bb09a497 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x1d4a3 (0x7fe0e880f4a3 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #2: c10::cuda::CUDACachingAllocator::raw_delete(void*) + 0x237 (0x7fe0e8815437 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libc10_cuda.so)
+frame #3: <unknown function> + 0x458278 (0x7fe0fadb4278 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #4: c10::TensorImpl::release_resources() + 0x175 (0x7fe0bb07dd95 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libc10.so)
+frame #5: <unknown function> + 0x34d075 (0x7fe0faca9075 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #6: <unknown function> + 0x6817b8 (0x7fe0fafdd7b8 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #7: THPVariable_subclass_dealloc(_object*) + 0x2d5 (0x7fe0fafddad5 in <WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/lib/libtorch_python.so)
+frame #8: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4ca89c]
+frame #9: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4d3cff]
+frame #10: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4e0c20]
+frame #11: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4f1d78]
+frame #12: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4f1d61]
+frame #13: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4f1d61]
+frame #14: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4f1d61]
+frame #15: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4f1d61]
+frame #16: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x4c9630]
+frame #17: PyDict_SetItemString + 0x52 (0x581cd2 in <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8)
+frame #18: PyImport_Cleanup + 0x93 (0x5a6e83 in <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8)
+frame #19: Py_FinalizeEx + 0x71 (0x5a5fb1 in <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8)
+frame #20: Py_RunMain + 0x112 (0x5a1a52 in <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8)
+frame #21: Py_BytesMain + 0x39 (0x57a0d9 in <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8)
+frame #22: __libc_start_main + 0xf3 (0x7fe13ffa5083 in <SYSTEM>/lib/x86_64-linux-gnu/libc.so.6)
+frame #23: <WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8() [0x579f8d]

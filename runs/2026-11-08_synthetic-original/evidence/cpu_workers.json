@@ -1,0 +1,94 @@
+[
+  {
+    "name": "right_wilor",
+    "exit_status": 0,
+    "elapsed_seconds": 28.42602252960205,
+    "command": [
+      "<WORKSPACE>/miniconda3/envs/wilor/bin/python3.10",
+      "-m",
+      "egosmplx_pipeline.wilor_predict",
+      "--manifest",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/right_manifest.json",
+      "--output-dir",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/right_wilor",
+      "--checkpoint",
+      "<WORKSPACE>/WiLoR/pretrained_models/wilor_final.ckpt",
+      "--config",
+      "<WORKSPACE>/WiLoR/pretrained_models/model_config.yaml",
+      "--detector",
+      "<WORKSPACE>/WiLoR/pretrained_models/detector.pt"
+    ]
+  },
+  {
+    "name": "right_seg",
+    "exit_status": 0,
+    "elapsed_seconds": 113.46035933494568,
+    "command": [
+      "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python3.10",
+      "-m",
+      "egosmplx_pipeline.sapiens_seg",
+      "--repo-root",
+      "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2",
+      "--dependencies",
+      "<WORKSPACE>/EgoSMPLX/.runtime/sapiens_deps",
+      "--checkpoint",
+      "<WORKSPACE>/EgoSMPLX/pretrained_models/sapiens2_seg/sapiens2_1b_seg.safetensors",
+      "--checkpoint-sha256",
+      "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+      "--manifest",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/right_manifest.json",
+      "--output-dir",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/right_seg",
+      "--device",
+      "cpu"
+    ]
+  },
+  {
+    "name": "right_pose",
+    "exit_status": 0,
+    "elapsed_seconds": 204.0696680545807,
+    "command": [
+      "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python3.10",
+      "-m",
+      "egosmplx_pipeline.sapiens_pose",
+      "--repo-root",
+      "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2",
+      "--dependencies",
+      "<WORKSPACE>/EgoSMPLX/.runtime/sapiens_deps",
+      "--checkpoint",
+      "<WORKSPACE>/EgoSMPLX/pretrained_models/external_pose/sapiens2_1b_pose.safetensors",
+      "--checkpoint-sha256",
+      "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+      "--device",
+      "cpu",
+      "--image",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/dataset/samples/000001/right.png",
+      "--output-dir",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/right_pose"
+    ]
+  },
+  {
+    "name": "left_pose_control",
+    "exit_status": 0,
+    "elapsed_seconds": 201.92605257034302,
+    "command": [
+      "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python3.10",
+      "-m",
+      "egosmplx_pipeline.sapiens_pose",
+      "--repo-root",
+      "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2",
+      "--dependencies",
+      "<WORKSPACE>/EgoSMPLX/.runtime/sapiens_deps",
+      "--checkpoint",
+      "<WORKSPACE>/EgoSMPLX/pretrained_models/external_pose/sapiens2_1b_pose.safetensors",
+      "--checkpoint-sha256",
+      "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+      "--device",
+      "cpu",
+      "--image",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/dataset/samples/000001/left.png",
+      "--output-dir",
+      "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/cpu_observations/left_pose_control"
+    ]
+  }
+]

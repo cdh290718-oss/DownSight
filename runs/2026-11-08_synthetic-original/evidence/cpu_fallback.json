@@ -1,0 +1,22 @@
+{
+  "reason": "Three original GPU attempts failed with CUDA unspecified launch failure; no GPU reset or other process was altered",
+  "reused_body_prediction_sha256": "1f63b214bbd2dbfcab44a67c1f4767a0e80de079c86e50f451b201c55df8952e",
+  "reused_body_predictor": "right initial attempt, successfully completed prior to failed Sapiens2",
+  "image_sha256": "113fb93fa2825fcfc45a92848e74bb8734232bdcd777ab4b3b5c1442524ed35f",
+  "calibration_sha256": "3d38db4277985bab58f205f6c9868a5ee71b8223a228cfb9f2e89ad4e669cfc3",
+  "new_observations": [
+    "right_pose",
+    "right_seg",
+    "right_wilor"
+  ],
+  "new_device": "cpu",
+  "precision": "Sapiens autocast bfloat16, WiLoR float32",
+  "original_model_weights_preprocessing_and_fit_parameters_unchanged": true,
+  "config_changes": [
+    "manifest",
+    "output",
+    "gpu"
+  ],
+  "cached_predictions": "All observations produced from this same input in this run; no ground truth used",
+  "cuda_visible_devices": ""
+}

@@ -1,0 +1,17 @@
+{
+  "side": "right",
+  "initial_exit_status": 1,
+  "initial_failure": "Sapiens2 CUDA unspecified launch failure",
+  "failure_logs": "right_failure/",
+  "retry_config_changes": [
+    "output"
+  ],
+  "fresh_output": true,
+  "algorithm_and_inputs_unchanged": true,
+  "cuda_probe": {
+    "command": "CUDA_VISIBLE_DEVICES=0 <POSE_PYTHON> small CUDA tensor multiplication and synchronize",
+    "exit_status": 0,
+    "stdout": "cuda_available True\nsmall_cuda_check 5559680.0\n",
+    "scope": "small probe only; does not guarantee full model execution"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "scope": "Same left input and Sapiens2 checkpoint, original GPU BF16 versus CPU BF16; no fitting and no ground truth",
+  "points": [
+    {
+      "name": "nose",
+      "position_delta_px": 1.8180945120156315,
+      "gpu_score": 0.34375,
+      "cpu_score": 0.328125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_shoulder",
+      "position_delta_px": 0.9742809920156499,
+      "gpu_score": 0.65234375,
+      "cpu_score": 0.65625,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_shoulder",
+      "position_delta_px": 0.37686495855251206,
+      "gpu_score": 0.71875,
+      "cpu_score": 0.71875,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_elbow",
+      "position_delta_px": 0.12740016993272316,
+      "gpu_score": 0.9453125,
+      "cpu_score": 0.9453125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_elbow",
+      "position_delta_px": 0.03491860211479875,
+      "gpu_score": 0.96875,
+      "cpu_score": 0.96875,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_wrist",
+      "position_delta_px": 0.055721307928404955,
+      "gpu_score": 0.96484375,
+      "cpu_score": 0.96484375,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_wrist",
+      "position_delta_px": 0.24107808836665376,
+      "gpu_score": 0.95703125,
+      "cpu_score": 0.95703125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_hip",
+      "position_delta_px": 0.8622511105086721,
+      "gpu_score": 0.875,
+      "cpu_score": 0.87890625,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_hip",
+      "position_delta_px": 0.3576020230137468,
+      "gpu_score": 0.8828125,
+      "cpu_score": 0.8828125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_knee",
+      "position_delta_px": 0.12200877659916234,
+      "gpu_score": 0.953125,
+      "cpu_score": 0.9453125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_knee",
+      "position_delta_px": 0.036767189881963785,
+      "gpu_score": 0.92578125,
+      "cpu_score": 0.921875,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "left_ankle",
+      "position_delta_px": 0.019289315493591305,
+      "gpu_score": 1.0078125,
+      "cpu_score": 1.0078125,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    },
+    {
+      "name": "right_ankle",
+      "position_delta_px": 0.24189588682832913,
+      "gpu_score": 1.0625,
+      "cpu_score": 1.0546875,
+      "gpu_selected": true,
+      "cpu_selected": true,
+      "same_score_threshold": true
+    }
+  ],
+  "mean_position_delta_px": 0.405244071788603,
+  "max_position_delta_px": 1.8180945120156315,
+  "score_threshold_disagreements": 0,
+  "selection_disagreements": 0
+}

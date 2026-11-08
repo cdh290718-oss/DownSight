@@ -8,6 +8,7 @@ parser.add_argument('--checkpoint',type=Path,required=True)
 parser.add_argument('--checkpoint-sha256',required=True)
 parser.add_argument('--manifest',type=Path,required=True)
 parser.add_argument('--output-dir',type=Path,required=True)
+parser.add_argument('--device',choices=['cuda','cpu'],default='cuda',help='Inference device; CUDA is the original default')
 args=parser.parse_args()
 REPO=args.repo_root;OUT=args.output_dir
 OUT.mkdir(parents=True,exist_ok=False)
@@ -34,14 +35,14 @@ def main():
  digest=sha(weight);assert digest==args.checkpoint_sha256, 'Segmentation checkpoint SHA-256 mismatch'
  cfg=Config.fromfile(cfgpath);cfg.model['backbone'].pop('init_cfg',None)
  print('Building model',flush=True);model=MODELS.build(cfg.model);state=load_file(str(weight));model.load_state_dict(state,strict=True);count=len(state);del state
- model=model.cuda().eval();prep=MODELS.build(cfg.data_preprocessor).cuda();pipe=Compose(cfg.test_pipeline)
+ model=model.to(args.device).eval();prep=MODELS.build(cfg.data_preprocessor).to(args.device);pipe=Compose(cfg.test_pipeline)
  viz=SegVisualizer(with_labels=False);palette=viz.class_palette[:29,::-1].copy()
  write(OUT/'classes.json',{int(k):v for k,v in DOME_CLASSES_29.items()})
  rows=json.loads(args.manifest.read_text())['frames'];records=[]
  for r in rows:
   t=time.time();d=OUT/'frames'/r['id'];d.mkdir(parents=True,exist_ok=True);im=cv2.imread(r['image']);assert im is not None
   data=prep(pipe(dict(img=im)));inputs=data['inputs']
-  with torch.inference_mode(),torch.autocast('cuda',dtype=torch.bfloat16):logits=model(inputs)
+  with torch.inference_mode(),torch.autocast(args.device,dtype=torch.bfloat16):logits=model(inputs)
   logits=F.interpolate(logits.float(),size=im.shape[:2],mode='bilinear',align_corners=False);prob=logits.softmax(dim=1)[0].cpu().numpy();labels=prob.argmax(0).astype(np.uint8);confidence=prob.max(0)
   assert prob.shape==(29,*im.shape[:2]) and np.isfinite(prob).all() and np.max(np.abs(prob.sum(0)-1))<1e-5
   np.save(d/'labels.npy',labels);cv2.imwrite(str(d/'labels.png'),labels);np.savez_compressed(d/'probabilities.npz',probabilities=prob.astype(np.float16),class_ids=np.arange(29),coordinate_space=np.array('original_image_pixels'))
@@ -55,5 +56,5 @@ def main():
   cv2.imwrite(str(d/'arms_hands.jpg'),focus);cv2.imwrite(str(d/'boundaries.jpg'),boundary);cv2.imwrite(str(d/'confidence.jpg'),cv2.applyColorMap((confidence*255).astype(np.uint8),cv2.COLORMAP_VIRIDIS))
   rec=dict(id=r['id'],camera=r.get('camera','unknown'),image=r['image'],image_sha256=sha(Path(r['image'])),original_hw=list(im.shape[:2]),network_input_shape=list(inputs.shape),inference_seconds=time.time()-t,parts=stats,softmax_is_not_calibrated_accuracy=True)
   write(d/'stats.json',rec);records.append(rec);print('DONE',r['id'],round(time.time()-t,2),{x:stats[x]['pixels'] for x in stats},flush=True)
- write(OUT/'manifest.json',dict(frames=records,checkpoint=str(weight),checkpoint_sha256=digest,configured_sha256_verified=True,strict_load=True,tensor_count=count,config=str(cfgpath),config_sha256=sha(cfgpath),python=sys.executable,torch=torch.__version__,precision='bfloat16 autocast; float32 interpolation/softmax',preprocessing='official test_pipeline: 1024x768 direct resize keep_ratio=False; BGR to RGB; official normalization',postprocessing='bilinear logits resize to original H,W align_corners=False; softmax; argmax',manual_annotations_used=False,mesh_optimization_run=False))
+ write(OUT/'manifest.json',dict(frames=records,checkpoint=str(weight),checkpoint_sha256=digest,configured_sha256_verified=True,strict_load=True,tensor_count=count,config=str(cfgpath),config_sha256=sha(cfgpath),python=sys.executable,torch=torch.__version__,device=args.device,precision='bfloat16 autocast; float32 interpolation/softmax',preprocessing='official test_pipeline: 1024x768 direct resize keep_ratio=False; BGR to RGB; official normalization',postprocessing='bilinear logits resize to original H,W align_corners=False; softmax; argmax',manual_annotations_used=False,mesh_optimization_run=False))
 if __name__=='__main__':main()

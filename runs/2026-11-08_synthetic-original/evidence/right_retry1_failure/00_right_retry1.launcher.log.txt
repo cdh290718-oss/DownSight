@@ -1,0 +1,18 @@
+RUN network.log
+RUN sapiens.log
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/__main__.py", line 36, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/__main__.py", line 29, in main
+    print(run(args.config, args.cached_predictions, args.resume))
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/pipeline.py", line 134, in run
+    rows = observe(config, rows, output, env)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/pipeline.py", line 73, in observe
+    command(args, directory / 'sapiens.log', PACKAGE_ROOT, env)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/pipeline.py", line 23, in command
+    raise RuntimeError('Worker failed; inspect ' + str(log))
+RuntimeError: Worker failed; inspect <WORKSPACE>/DownSight/outputs/synthetic_original_20261108/fits/right_retry1/observations/right/sapiens.log

@@ -22,6 +22,7 @@ def main():
     p.add_argument('--output-dir', type=Path, required=True)
     p.add_argument('--size', choices=['1b', '5b'], default='1b')
     p.add_argument('--bbox', nargs=4, type=float, help='Original image xyxy; default full image')
+    p.add_argument('--device', choices=['cuda', 'cpu'], default='cuda', help='Inference device; CUDA is the original default')
     a = p.parse_args()
     root = a.repo_root.resolve()
     repo = root
@@ -62,17 +63,18 @@ def main():
     model.load_state_dict(state, strict=True)
     tensor_count = len(state)
     del state
-    model = model.cuda().eval()
-    preprocessor = MODELS.build(cfg.data_preprocessor).cuda()
+    model = model.to(a.device).eval()
+    preprocessor = MODELS.build(cfg.data_preprocessor).to(a.device)
     pipeline = Compose(cfg.test_pipeline)
     meta = parse_pose_metainfo(dict(from_file=str(repo / 'sapiens/pose/configs/_base_/keypoints308.py')))
     names = [meta['keypoint_id2name'][i] for i in range(308)]
     codec = UDPHeatmap(**{k: v for k, v in cfg.codec.items() if k != 'type'})
     data = preprocessor(pipeline(dict(img=im, bbox=np.array([bbox], dtype=np.float32), bbox_score=np.ones(1, dtype=np.float32))))
     inputs, sample = data['inputs'], data['data_samples']
-    torch.cuda.synchronize()
+    if a.device == 'cuda':
+        torch.cuda.synchronize()
     start = time.time()
-    with torch.inference_mode(), torch.autocast('cuda', dtype=torch.bfloat16):
+    with torch.inference_mode(), torch.autocast(a.device, dtype=torch.bfloat16):
         heatmaps = model(inputs)
         if cfg.val_cfg.get('flip_test', False):
             flipped = model(inputs.flip(-1)).flip(-1)[:, meta['flip_indices']]
@@ -104,7 +106,8 @@ def main():
                     config=str(config), python=sys.executable, torch=torch.__version__,
                     input_size_hw=[1024, 768], precision='bf16',
                     flip_test=cfg.val_cfg.get('flip_test', False), manual_labels_used=False,
-                    gpu=torch.cuda.get_device_name(), peak_gpu_memory_bytes=torch.cuda.max_memory_allocated())
+                    device=a.device, gpu=torch.cuda.get_device_name() if a.device == 'cuda' else None,
+                    peak_gpu_memory_bytes=torch.cuda.max_memory_allocated() if a.device == 'cuda' else None)
     (a.output_dir / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     print(json.dumps(payload, indent=2))
 

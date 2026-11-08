@@ -1,0 +1,13 @@
+Command: <BODY_PYTHON> runs/2026-11-08_synthetic-original/evaluate.py --partial
+Exit status: 1
+Cause: strict pipeline NPZ loader rejected expected nonfinite 2D projections for behind-camera ground truth vertices.
+
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Traceback (most recent call last):
+  File "runs/2026-11-08_synthetic-original/evaluate.py", line 54, in <module>
+    gt=load(S/f'{side}_egosmplx65.npz');gv=load(S/f'{side}_vertices.npz');cam=Camera(read(Path(config['manifest']))['frames'][0]['calibration'])
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/io.py", line 33, in load
+    raise ValueError('Nonfinite NPZ field: ' + key)
+ValueError: Nonfinite NPZ field: vertices_2d_px

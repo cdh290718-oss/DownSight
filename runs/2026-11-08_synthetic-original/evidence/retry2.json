@@ -1,0 +1,13 @@
+{
+  "side": "right",
+  "previous_exit_status": 1,
+  "previous_failure": "Sapiens2 CUDA unspecified launch failure",
+  "previous_failure_logs": "right_retry1_failure/",
+  "retry_config_changes": [
+    "output"
+  ],
+  "runtime_environment_change": {
+    "CUDA_LAUNCH_BLOCKING": "1"
+  },
+  "explanation": "Synchronize CUDA execution for diagnostics; input, weights, model, loss and fitting parameters unchanged"
+}

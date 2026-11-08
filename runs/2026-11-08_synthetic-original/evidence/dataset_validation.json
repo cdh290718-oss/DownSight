@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "max_vertex_error_m": 1.862645149230957e-09,
+  "max_joint_error_m": 0.0,
+  "stereo_matrix_max_error": 1.099340628529788e-07,
+  "views": {
+    "left": {
+      "max_joint_reprojection_error_px": 0.0,
+      "positive_depth_joints": 122
+    },
+    "right": {
+      "max_joint_reprojection_error_px": 0.0,
+      "positive_depth_joints": 120
+    }
+  }
+}

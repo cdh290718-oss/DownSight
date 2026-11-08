@@ -1,0 +1,4 @@
+Command: check_publication.py --mode staged
+Exit status: 1
+Underlying git diff --check exit status: 2
+Cause: six sanitized traceback logs contained blank lines at EOF. Those trailing blank lines were removed; log content and numeric evidence remain preserved. No commit or push occurred on this attempt.

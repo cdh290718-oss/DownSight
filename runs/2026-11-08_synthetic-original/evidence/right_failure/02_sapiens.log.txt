@@ -1,0 +1,14 @@
+Building official pose model
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/sapiens_pose.py", line 113, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/sapiens_pose.py", line 78, in main
+    flipped = model(inputs.flip(-1)).flip(-1)[:, meta['flip_indices']]
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

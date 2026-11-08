@@ -1,0 +1,40 @@
+Building official pose model
+Traceback (most recent call last):
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/sapiens_pose.py", line 113, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/egosmplx_pipeline/sapiens_pose.py", line 76, in main
+    heatmaps = model(inputs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2/sapiens/pose/src/models/core/pose_topdown_estimator.py", line 44, in forward
+    x = self.backbone(inputs)[0]
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2/sapiens/backbones/sapiens2.py", line 758, in forward
+    x = layer(x, rope=rope_sincos)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "<WORKSPACE>/EgoSMPLX/official_baseline/sapiens2/sapiens/backbones/sapiens2.py", line 438, in forward
+    x = x + self.attn(self.ln1(x), rope=rope)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 401, in forward
+    return F.rms_norm(x, self.normalized_shape, self.weight, self.eps)
+  File "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/lib/python3.10/site-packages/torch/nn/functional.py", line 2929, in rms_norm
+    return torch.rms_norm(input, normalized_shape, weight, eps)
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

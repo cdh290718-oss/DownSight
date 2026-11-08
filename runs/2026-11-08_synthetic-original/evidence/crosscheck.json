@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "side": "left",
+      "command": "<BODY_PYTHON> <DATASET>/evaluate_joints.py --prediction <BODY_PARAMS> --side left",
+      "exit_status": 0,
+      "absolute_mean_difference_mm": 0.0,
+      "pelvis_aligned_mean_difference_mm": 0.0
+    },
+    {
+      "side": "right",
+      "command": "<BODY_PYTHON> <DATASET>/evaluate_joints.py --prediction <BODY_PARAMS> --side right",
+      "exit_status": 0,
+      "absolute_mean_difference_mm": 0.0,
+      "pelvis_aligned_mean_difference_mm": 0.0
+    }
+  ]
+}

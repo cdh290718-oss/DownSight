@@ -1,0 +1,134 @@
+{
+  "side": "left",
+  "prediction_field": "smplx_body_joints_3d_render_cam",
+  "joint_count": 25,
+  "absolute_mean_mm": 77.77096538999554,
+  "pelvis_aligned_mean_mm": 79.34088852532666,
+  "per_joint": [
+    {
+      "name": "Pelvis",
+      "absolute_mm": 87.7007030686356,
+      "pelvis_aligned_mm": 0.0
+    },
+    {
+      "name": "L_Hip",
+      "absolute_mm": 85.51548241800452,
+      "pelvis_aligned_mm": 7.072202940298538
+    },
+    {
+      "name": "R_Hip",
+      "absolute_mm": 84.36532831961712,
+      "pelvis_aligned_mm": 13.136925259888113
+    },
+    {
+      "name": "L_Knee",
+      "absolute_mm": 57.0512534363644,
+      "pelvis_aligned_mm": 43.58343987634876
+    },
+    {
+      "name": "R_Knee",
+      "absolute_mm": 80.21089340481052,
+      "pelvis_aligned_mm": 54.630201642163925
+    },
+    {
+      "name": "L_Ankle",
+      "absolute_mm": 62.07281888841416,
+      "pelvis_aligned_mm": 102.61579636129913
+    },
+    {
+      "name": "R_Ankle",
+      "absolute_mm": 44.35077222549046,
+      "pelvis_aligned_mm": 78.42997522529791
+    },
+    {
+      "name": "Neck",
+      "absolute_mm": 113.98402419931014,
+      "pelvis_aligned_mm": 73.23575200070272
+    },
+    {
+      "name": "L_Shoulder",
+      "absolute_mm": 101.9467470928953,
+      "pelvis_aligned_mm": 49.931510018908966
+    },
+    {
+      "name": "R_Shoulder",
+      "absolute_mm": 42.195618013908636,
+      "pelvis_aligned_mm": 51.12266188404443
+    },
+    {
+      "name": "L_Elbow",
+      "absolute_mm": 25.5110646026613,
+      "pelvis_aligned_mm": 76.20269900193905
+    },
+    {
+      "name": "R_Elbow",
+      "absolute_mm": 22.35375512863655,
+      "pelvis_aligned_mm": 73.04077688640331
+    },
+    {
+      "name": "L_Wrist",
+      "absolute_mm": 27.13554238647323,
+      "pelvis_aligned_mm": 68.10190055929255
+    },
+    {
+      "name": "R_Wrist",
+      "absolute_mm": 14.769335476434449,
+      "pelvis_aligned_mm": 76.51203965889901
+    },
+    {
+      "name": "L_Big_toe",
+      "absolute_mm": 54.275893532574,
+      "pelvis_aligned_mm": 113.46588093278845
+    },
+    {
+      "name": "L_Small_toe",
+      "absolute_mm": 65.45086923340676,
+      "pelvis_aligned_mm": 114.42808948563638
+    },
+    {
+      "name": "L_Heel",
+      "absolute_mm": 75.54937105400901,
+      "pelvis_aligned_mm": 109.01700595276847
+    },
+    {
+      "name": "R_Big_toe",
+      "absolute_mm": 29.980276966559927,
+      "pelvis_aligned_mm": 68.79688853170691
+    },
+    {
+      "name": "R_Small_toe",
+      "absolute_mm": 34.91966796969849,
+      "pelvis_aligned_mm": 87.2994240298979
+    },
+    {
+      "name": "R_Heel",
+      "absolute_mm": 51.61738445437186,
+      "pelvis_aligned_mm": 90.32333152175906
+    },
+    {
+      "name": "L_Ear",
+      "absolute_mm": 159.80436474536887,
+      "pelvis_aligned_mm": 123.20480436444906
+    },
+    {
+      "name": "R_Ear",
+      "absolute_mm": 135.26083783037814,
+      "pelvis_aligned_mm": 123.59709943501176
+    },
+    {
+      "name": "L_Eye",
+      "absolute_mm": 168.2646014577912,
+      "pelvis_aligned_mm": 129.57745393381697
+    },
+    {
+      "name": "R_Eye",
+      "absolute_mm": 156.14655624503916,
+      "pelvis_aligned_mm": 127.5582866275558
+    },
+    {
+      "name": "Nose",
+      "absolute_mm": 163.84097259903473,
+      "pelvis_aligned_mm": 128.63806700228955
+    }
+  ]
+}

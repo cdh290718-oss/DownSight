@@ -1,0 +1,13 @@
+Command: <BODY_PYTHON> runs/2026-11-08_synthetic-original/crosscheck.py
+Exit status: 1
+Cause: the check selected the obsolete failed right-side output directory, before the CPU fallback output was selected.
+
+Traceback (most recent call last):
+  File "runs/2026-11-08_synthetic-original/crosscheck.py", line 15, in <module>
+    assert p.returncode==0,p.stderr
+AssertionError: Traceback (most recent call last):
+  File "<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/dataset/evaluate_joints.py", line 12, in <module>
+    pred=np.load(a.prediction,allow_pickle=False)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/numpy/lib/npyio.py", line 390, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '<WORKSPACE>/DownSight/outputs/synthetic_original_20261108/fits/right/frames/right/body/params.npz'
