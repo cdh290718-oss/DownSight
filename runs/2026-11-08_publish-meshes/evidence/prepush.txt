@@ -1,0 +1,10 @@
+baseline HEAD and remote main: dbaed06dc7176750c7d2206a88c2a58420f5b4b1 match=true
+prior unpushed commits: 0
+staged file counts by extension: {'.md': 5, '.json': 4, '.obj': 100, '.txt': 1}
+staged total bytes: 99862513 maximum file bytes: 1003439
+Requested OBJ outputs are published by explicit user instruction; no inputs, videos, model weights, npz/npy, full run output or complete local provenance/patch included.
+Credential, secret marker and developer machine path scan: passed
+git diff --cached --check: passed
+unrelated pre-existing untracked file preserved and excluded.
+Incremental audit only; existing history not audited.
+exit status: 0

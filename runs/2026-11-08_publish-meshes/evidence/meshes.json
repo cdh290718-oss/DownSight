@@ -1,0 +1,1008 @@
+{
+  "frames": [
+    {
+      "id": "cam3_f00000043",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000043.obj",
+      "bytes": 990919,
+      "sha256": "7d282db1f92ff81835b4a3212e798173ee82c60b5e126fc4172d11093ac99e34",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000043"
+    },
+    {
+      "id": "cam4_f00000043",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000043.obj",
+      "bytes": 999349,
+      "sha256": "c79edca381aa5f61417578bffa2057f5689ddb1cead8387255fd353400056dee",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000043"
+    },
+    {
+      "id": "cam3_f00000130",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000130.obj",
+      "bytes": 990427,
+      "sha256": "5c7fb4ae0bb1b438821f049c9d212c02a07c175970edb81bb408e16d5a7af45d",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000130"
+    },
+    {
+      "id": "cam4_f00000129",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000129.obj",
+      "bytes": 999909,
+      "sha256": "afc15a2aff8173111f6aa74cda117adda4ea8d28e441a86cf0080f9e91a2ecaa",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000129"
+    },
+    {
+      "id": "cam3_f00000217",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000217.obj",
+      "bytes": 991481,
+      "sha256": "f36ceb5ac6797f5b9de95e70a1065f4220c13bc896e695e7d3e0fb775b4ccad3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000217"
+    },
+    {
+      "id": "cam4_f00000216",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000216.obj",
+      "bytes": 999686,
+      "sha256": "0e2256a3c60a758ad939f8db0d42963d26ba37fbee9d1943af3574487c80a5e8",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000216"
+    },
+    {
+      "id": "cam3_f00000315",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000315.obj",
+      "bytes": 995303,
+      "sha256": "4c210c858ec5737c63fcf52010a5a7427175abb5c2558cf9f71af4ff9572c613",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000315"
+    },
+    {
+      "id": "cam4_f00000313",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000313.obj",
+      "bytes": 1002932,
+      "sha256": "4012f8234f2a9f518fc018149ae38b25f6a56f415bc1812ec3c9d4b634fd25fc",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000313"
+    },
+    {
+      "id": "cam3_f00000401",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000401.obj",
+      "bytes": 995727,
+      "sha256": "dc9634221742579c0cf0edceb7276093526989dd3d504856c0ff30c2ed6290b0",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000401"
+    },
+    {
+      "id": "cam4_f00000400",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000400.obj",
+      "bytes": 1003439,
+      "sha256": "798790db4631e9d085e9e631b657e95e76e5081d47e9582c06fa851afdfd97e3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000400"
+    },
+    {
+      "id": "cam3_f00000488",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000488.obj",
+      "bytes": 995381,
+      "sha256": "bf77ec99aa5a30dd2d19858328afe272b1544f05ae88ecce86ec83fe0d412f75",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000488"
+    },
+    {
+      "id": "cam4_f00000486",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000486.obj",
+      "bytes": 1002691,
+      "sha256": "0b1f21f133db50f2003a93cab6f8a87265f418a4365d789468e834536181df1b",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000486"
+    },
+    {
+      "id": "cam3_f00000574",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000574.obj",
+      "bytes": 994740,
+      "sha256": "a0060e27eaf9d24cf0b072c95b84fbb27e70f8bd4add1b209c8dd939e0805d30",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000574"
+    },
+    {
+      "id": "cam4_f00000572",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000572.obj",
+      "bytes": 1002684,
+      "sha256": "b0c23dd8a6062a6002b0754bdafbc5a65e35ce61af314982f4da6164d0d968e3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000572"
+    },
+    {
+      "id": "cam3_f00000661",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000661.obj",
+      "bytes": 995664,
+      "sha256": "c5113c9aeaeb73c74ea420e94add8ec3a0285d2c90d25bbafebc6d194d92328f",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000661"
+    },
+    {
+      "id": "cam4_f00000658",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000658.obj",
+      "bytes": 1002421,
+      "sha256": "4d38e9c8969af7108c19330ecbc122cf24daefe743d5bc7d6cf5600504df4a5a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000658"
+    },
+    {
+      "id": "cam3_f00000759",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000759.obj",
+      "bytes": 991554,
+      "sha256": "55d231d4096ad0bfa3924454db39280087447a9b8853a2d90ac8cceb1edc097d",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000759"
+    },
+    {
+      "id": "cam4_f00000755",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000755.obj",
+      "bytes": 999116,
+      "sha256": "1e870cd6b0326a9bb57f7420e02c27d9cc6159c2dbab1d1cc60a6f018a15d6b8",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000755"
+    },
+    {
+      "id": "cam3_f00000846",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000846.obj",
+      "bytes": 991515,
+      "sha256": "4be72e53d260ded71bee1766ce91cbac798aabc3d8e7e5752ab6e3cdb6aa86bc",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000846"
+    },
+    {
+      "id": "cam4_f00000842",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000842.obj",
+      "bytes": 992178,
+      "sha256": "b809d4faaca58146aa8d85f70f76a1d9fda0d3688b581c9d07250a7963362031",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000842"
+    },
+    {
+      "id": "cam3_f00000932",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00000932.obj",
+      "bytes": 989148,
+      "sha256": "128e849a9830ae97427002c6bccf51f4317addad4f4ebd1221fa19eff2df479c",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00000932"
+    },
+    {
+      "id": "cam4_f00000928",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00000928.obj",
+      "bytes": 991121,
+      "sha256": "f428b87565a68782c47dd838976378b117e42427ed3a629e550d656de3a5f234",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00000928"
+    },
+    {
+      "id": "cam3_f00001018",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001018.obj",
+      "bytes": 990242,
+      "sha256": "dcf9b0bdb20125ff98c55be7a3861664f624b62ae06458e035cf1cef595516a3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001018"
+    },
+    {
+      "id": "cam4_f00001014",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001014.obj",
+      "bytes": 991244,
+      "sha256": "cd2e5cddc594e3151a4116b27f53aea9cae067e3e7a13c3c06a06082ac098f92",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001014"
+    },
+    {
+      "id": "cam3_f00001284",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001284.obj",
+      "bytes": 997828,
+      "sha256": "15ce664b67e66333e5c04d96fb3e1e6bc71494659871a277244638f8866e3c63",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001284"
+    },
+    {
+      "id": "cam4_f00001278",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001278.obj",
+      "bytes": 1002767,
+      "sha256": "fd8f0cae3762d2be0e831d79fae040f02769f1f48945d43e824fa3f137056907",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001278"
+    },
+    {
+      "id": "cam3_f00001371",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001371.obj",
+      "bytes": 997104,
+      "sha256": "2d34708d60d6b3fb9aad0a9632bfab9dba78695f81dd9a9e169e0b921b30febd",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001371"
+    },
+    {
+      "id": "cam4_f00001364",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001364.obj",
+      "bytes": 1002953,
+      "sha256": "c71826269ba5a1b4edddcb885fc21e0d3cf190f9b9378548b72d82693473f24a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001364"
+    },
+    {
+      "id": "cam3_f00001457",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001457.obj",
+      "bytes": 997080,
+      "sha256": "6aa2ace324abd515b1a1b196201e62a21b5323c69f3a6069c734e5869506ae45",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001457_retry_1791941397135100353"
+    },
+    {
+      "id": "cam4_f00001450",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001450.obj",
+      "bytes": 1003017,
+      "sha256": "6b2f872f5c19ebdd3260d5e43b734361408b447d34779ffede58757f04fbce1b",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001450_retry_1791941397139123591"
+    },
+    {
+      "id": "cam3_f00001543",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001543.obj",
+      "bytes": 996051,
+      "sha256": "a395ac0269bf321633d827a613412ba60b6b73414a4a89d17dcdf3f63720195f",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001543"
+    },
+    {
+      "id": "cam4_f00001536",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001536.obj",
+      "bytes": 1002567,
+      "sha256": "07824cad73c480b30af627f15561cd0f3ae8fd0cf6aec1297866188383af8c39",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001536"
+    },
+    {
+      "id": "cam3_f00001642",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001642.obj",
+      "bytes": 997701,
+      "sha256": "2261436bbc192de53c37e2865e7787a74ea860a163ba9e3eae8abeb7fbaf5b3b",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001642"
+    },
+    {
+      "id": "cam4_f00001634",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001634.obj",
+      "bytes": 1000415,
+      "sha256": "b2d9326073c50c955f4de37ad834481c8315ecc3dbc34afaaea0b1308bf966af",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001634"
+    },
+    {
+      "id": "cam3_f00001728",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001728.obj",
+      "bytes": 991265,
+      "sha256": "ac390c0f6ebac70120a50b0b12dc8d113bc3f2f10e1c331daf2c1f2a17f03ba5",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001728"
+    },
+    {
+      "id": "cam4_f00001720",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001720.obj",
+      "bytes": 997357,
+      "sha256": "cce3a93c7bc3d9a9445c221d123652df5001d14fba03138cd574171a4d5c42ae",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001720"
+    },
+    {
+      "id": "cam3_f00001815",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001815.obj",
+      "bytes": 991513,
+      "sha256": "e8c06a49f970532c91f64a3df9d79bdf305371e206f3b14e785c3769bcca9d91",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001815"
+    },
+    {
+      "id": "cam4_f00001806",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001806.obj",
+      "bytes": 999161,
+      "sha256": "18ef52b97ac4ea39fcb58091c47b7143ca5f051647c014ecc99ae6e3d9794276",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001806"
+    },
+    {
+      "id": "cam3_f00001901",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001901.obj",
+      "bytes": 992083,
+      "sha256": "f2155a6837ecacff2e6b284aeeef5cdba5cede09ff86d19294487987c38ae102",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001901"
+    },
+    {
+      "id": "cam4_f00001892",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001892.obj",
+      "bytes": 998681,
+      "sha256": "0a243e9885d2a3ba9313c4a46dca86c984373fff0778fbb729a9a8b9f076a40b",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001892"
+    },
+    {
+      "id": "cam3_f00001988",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00001988.obj",
+      "bytes": 994927,
+      "sha256": "3c4d2c5b4b5a31f1171434bbc8b01b00d7ef71726b7c9ec2442fa89b1300a6c3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00001988"
+    },
+    {
+      "id": "cam4_f00001978",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00001978.obj",
+      "bytes": 1000843,
+      "sha256": "c7af299979452ad28bbe3286d6c4d78538895056a262027a176cd5bdf8512d67",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00001978"
+    },
+    {
+      "id": "cam3_f00002086",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002086.obj",
+      "bytes": 996870,
+      "sha256": "2375a91ba49cd7d8949dbc695becbe211137e10dc6d916add222ba9ada925a60",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002086"
+    },
+    {
+      "id": "cam4_f00002076",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002076.obj",
+      "bytes": 1001023,
+      "sha256": "76ddf332e0f3b88e6fe968350549f17cbace3cadbf74308ddd36c95f57e1cc2c",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002076"
+    },
+    {
+      "id": "cam3_f00002172",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002172.obj",
+      "bytes": 998111,
+      "sha256": "3ed77780afede6d8125702729cbd219a1b8b45648801e069f840c3a5fad898d2",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002172"
+    },
+    {
+      "id": "cam4_f00002162",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002162.obj",
+      "bytes": 1001208,
+      "sha256": "55ad754228fe1150a17a591b77860a2ac06a4334505a1f56e1b5699265dcfe81",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002162"
+    },
+    {
+      "id": "cam3_f00002259",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002259.obj",
+      "bytes": 998346,
+      "sha256": "194d2c20db0943733c1a14b23c0b18d3cec1fcd13155d9b67d4f62e18ba1dacf",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002259"
+    },
+    {
+      "id": "cam4_f00002248",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002248.obj",
+      "bytes": 1002979,
+      "sha256": "234fa5a32267fd106eca6afcf52e45c50edbc68735f4c1905dd9fce6ca4a586d",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002248"
+    },
+    {
+      "id": "cam3_f00002346",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002346.obj",
+      "bytes": 996981,
+      "sha256": "dd5480c94beec8cd138e92b6c9bd44622a4ab28ec8faeb3e01f6c39beb7f6868",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002346"
+    },
+    {
+      "id": "cam4_f00002335",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002335.obj",
+      "bytes": 1002545,
+      "sha256": "68e79eabb76aae486494d3df56465c95a54d7deb35671988aaa73f4c6679ac85",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002335"
+    },
+    {
+      "id": "cam3_f00002432",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002432.obj",
+      "bytes": 996112,
+      "sha256": "4591f5ff48708b861fbe4ea251ce794f6797bbcbfef7362e607909c535dc6953",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002432"
+    },
+    {
+      "id": "cam4_f00002420",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002420.obj",
+      "bytes": 1001626,
+      "sha256": "99467bb602e30945fdbc29597f272ec3c364178b6d4614067cda8dde85efa7c4",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002420"
+    },
+    {
+      "id": "cam3_f00002518",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002518.obj",
+      "bytes": 996902,
+      "sha256": "8beb44950ba3a3d509614f14bb0c1aa3877bb0590032463b435b3fc85ecdac1e",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002518"
+    },
+    {
+      "id": "cam4_f00002506",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002506.obj",
+      "bytes": 998749,
+      "sha256": "bf36f413ff6049609df1d4a9505f349b0e72ac6a51c877e0abf487d04c5266ae",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002506"
+    },
+    {
+      "id": "cam3_f00002617",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002617.obj",
+      "bytes": 996291,
+      "sha256": "76c7a6a028ad6cba0dc82a82def70aa2c6bbb5c3571f64d53154689989a0426c",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002617"
+    },
+    {
+      "id": "cam4_f00002605",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002605.obj",
+      "bytes": 1000894,
+      "sha256": "534a519d75dacde19102dd954b786fcdf01a8e5a3742ca2bb54fc6963da43db4",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002605"
+    },
+    {
+      "id": "cam3_f00002703",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002703.obj",
+      "bytes": 996337,
+      "sha256": "4eb2da2d6d2d53784f9ea1a515006ebbe8bd508cffa414f0547add21a2afeb76",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002703"
+    },
+    {
+      "id": "cam4_f00002690",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002690.obj",
+      "bytes": 1000830,
+      "sha256": "1e10c0a0dee459a57afbd18190d73dcdbcb1edd50168b9237272b7eaadd60115",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002690"
+    },
+    {
+      "id": "cam3_f00002790",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002790.obj",
+      "bytes": 996192,
+      "sha256": "6173f710b31fa19a308acfd8822d13430776c7080d8c182929ad784be88589fe",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002790"
+    },
+    {
+      "id": "cam4_f00002777",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002777.obj",
+      "bytes": 1000364,
+      "sha256": "d407fb9da134e7136ea56d0e0c2a936586235de1578dbb55be23da481f1f0873",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002777"
+    },
+    {
+      "id": "cam3_f00002877",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002877.obj",
+      "bytes": 997648,
+      "sha256": "370028ec8ee1589b1e1a1f5d9ae290ce1d197717212c3c63b46b11067d88086a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002877"
+    },
+    {
+      "id": "cam4_f00002863",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002863.obj",
+      "bytes": 1000722,
+      "sha256": "3ade9b41b6589656c0533770e0218eb7b022bcc4d7b7ae46505812ae53a2c59e",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002863"
+    },
+    {
+      "id": "cam3_f00002963",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00002963.obj",
+      "bytes": 998184,
+      "sha256": "3a740aeefab809247f8c2fa8505af5fcad0c6870be032d51851e364d5b892880",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00002963"
+    },
+    {
+      "id": "cam4_f00002949",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00002949.obj",
+      "bytes": 1001152,
+      "sha256": "a2c90ea837858785738563f48fc0375d397e705010e0c57400fd8f3cf2389689",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00002949"
+    },
+    {
+      "id": "cam3_f00003061",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003061.obj",
+      "bytes": 997854,
+      "sha256": "2d71fde37fc36b31d28cc37f157fd96621b06e07f1757dc30d2da1b302af77c7",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003061"
+    },
+    {
+      "id": "cam4_f00003047",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003047.obj",
+      "bytes": 1001140,
+      "sha256": "e8443824d7371d350175055b17a592d1e0944be52a965213a16f630e414b2b1a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003047"
+    },
+    {
+      "id": "cam3_f00003147",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003147.obj",
+      "bytes": 997374,
+      "sha256": "77725b79a6d450fa9f13479888f296cbf3bbfdab5df3104bdaafc66d17d7d885",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003147"
+    },
+    {
+      "id": "cam4_f00003132",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003132.obj",
+      "bytes": 1001534,
+      "sha256": "f99c72212e8374ab491c1178c2f6110117fa341e1055dc4939e7b6e5451b0555",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003132"
+    },
+    {
+      "id": "cam3_f00003234",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003234.obj",
+      "bytes": 997752,
+      "sha256": "7febabc056bdf3bee4365ad47b24bc2b6df697cce21168688689cd14728b2adc",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003234"
+    },
+    {
+      "id": "cam4_f00003219",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003219.obj",
+      "bytes": 1001983,
+      "sha256": "712f213a3d26c181978b299922f2076e7ed1d1da6a43547a33fcd5302387641f",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003219"
+    },
+    {
+      "id": "cam3_f00003321",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003321.obj",
+      "bytes": 997774,
+      "sha256": "7081347d9027f4460bff72a4e01489a4aba27edc0e8e7c5defdd6e4f47e4ee65",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003321"
+    },
+    {
+      "id": "cam4_f00003305",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003305.obj",
+      "bytes": 1002702,
+      "sha256": "80170f3373599296dec88b5f15107e6f5c5761c9d16b20323b1d6d0a491824c8",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003305"
+    },
+    {
+      "id": "cam3_f00003407",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003407.obj",
+      "bytes": 996674,
+      "sha256": "4c13e1a4828872265241c70fbd6befc25e3781a1b722a7b1b9c60bd24363cc2b",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003407"
+    },
+    {
+      "id": "cam4_f00003391",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003391.obj",
+      "bytes": 1001466,
+      "sha256": "52366a5064d6a7f9770b11803736e9fb80c2bacf727d9140e9d30dfa7c028407",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003391"
+    },
+    {
+      "id": "cam3_f00003505",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003505.obj",
+      "bytes": 998525,
+      "sha256": "a4c42990270c5f1cd8ec9cf3a1ab5bbcd78a617a9f65506d29e91492550a68f9",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003505"
+    },
+    {
+      "id": "cam4_f00003489",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003489.obj",
+      "bytes": 1001552,
+      "sha256": "59656e4f7a12380484f752edfd5edc4c329b6a1e08f08b3eadafb917a6088525",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003489"
+    },
+    {
+      "id": "cam3_f00003592",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003592.obj",
+      "bytes": 998466,
+      "sha256": "6ce86185c83b7d8760f540c773401b3d89e711aedbea50f65bf1602fd1124c74",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003592"
+    },
+    {
+      "id": "cam4_f00003575",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003575.obj",
+      "bytes": 1002845,
+      "sha256": "39d6e1bf58d7b917d3bcf5cd1e96a942b02bf536e519794f022b383533c8a467",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003575"
+    },
+    {
+      "id": "cam3_f00003678",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003678.obj",
+      "bytes": 997836,
+      "sha256": "b53b7e873a1a64605db3869a2cf268e55d9fb06ec48754aa42536a9cf9e09775",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003678"
+    },
+    {
+      "id": "cam4_f00003661",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003661.obj",
+      "bytes": 1002363,
+      "sha256": "f8e8072e43bac9bdda093cbf695ffe82b60c1c98ec785bfc415e1aa94783368a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003661"
+    },
+    {
+      "id": "cam3_f00003765",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003765.obj",
+      "bytes": 998092,
+      "sha256": "5f880da37b39186b359b85964e0262805bffc95b24e49392f29f98a06d924739",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003765"
+    },
+    {
+      "id": "cam4_f00003747",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003747.obj",
+      "bytes": 1002199,
+      "sha256": "b2b3900e6e7c6017414d1674180e03d38da2825696c7359884b0127fe70b5615",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003747"
+    },
+    {
+      "id": "cam3_f00003852",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003852.obj",
+      "bytes": 998453,
+      "sha256": "950e9f4a6dce90db6a5231c076d20fe39e4367ecac7eb5026c5e7d0ddd42f835",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003852"
+    },
+    {
+      "id": "cam4_f00003833",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003833.obj",
+      "bytes": 1001744,
+      "sha256": "a64be1586734422bc5f80a39c4ec1b20a498ee69df2378880c5f53275574dd20",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003833"
+    },
+    {
+      "id": "cam3_f00003950",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00003950.obj",
+      "bytes": 998641,
+      "sha256": "cd3d782441c556b371929998afdc2add4e95c0fa7f5a7a288740f3c141c1a605",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00003950"
+    },
+    {
+      "id": "cam4_f00003931",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00003931.obj",
+      "bytes": 1000149,
+      "sha256": "cb24150bd58f0ba883c4b77e9dcfd3397c3c17615f9adc23d6b152929048b2f5",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00003931"
+    },
+    {
+      "id": "cam3_f00004036",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004036.obj",
+      "bytes": 995734,
+      "sha256": "ccd8e06e38afb9bd38689782793d53c92a0fce20d9e3ce5f41ff4eca5f8eddb3",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004036"
+    },
+    {
+      "id": "cam4_f00004017",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004017.obj",
+      "bytes": 999646,
+      "sha256": "b4bb4da6f0dced0a9dec5aafa3d5592c1b11f4ad3187ecf5c089abc3e6f8447c",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004017"
+    },
+    {
+      "id": "cam3_f00004122",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004122.obj",
+      "bytes": 996296,
+      "sha256": "2f96d5f7eb61c278fbce2fa16e8500c03916f1024dea5ad50de3299b63fb79ad",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004122"
+    },
+    {
+      "id": "cam4_f00004103",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004103.obj",
+      "bytes": 999723,
+      "sha256": "d3d86bb75e0f5615631b1306df23ddf28fe0adfe034d02bb3662c79f983f68e0",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004103"
+    },
+    {
+      "id": "cam3_f00004209",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004209.obj",
+      "bytes": 995026,
+      "sha256": "57bcccc420837cfe094e391a0d9f89f5cc0e8cd5fc6f731059ed5d04389228a7",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004209"
+    },
+    {
+      "id": "cam4_f00004189",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004189.obj",
+      "bytes": 1001374,
+      "sha256": "40a4935115f8d996f79f7680fd1b08080f11e644fd8e694f1755832cc82a6bc8",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004189"
+    },
+    {
+      "id": "cam3_f00004296",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004296.obj",
+      "bytes": 995437,
+      "sha256": "4369e846bffac34bd40c191bc139e85075e04d5c76e5689dd690a977c3e2bf58",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004296"
+    },
+    {
+      "id": "cam4_f00004275",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004275.obj",
+      "bytes": 1000665,
+      "sha256": "4ab1a9b1eac55cb2ba6d9d575f849832a867f2aa74db9b71228b472f8c30414d",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004275"
+    },
+    {
+      "id": "cam3_f00004394",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004394.obj",
+      "bytes": 995482,
+      "sha256": "3485d3bf760b0ec71f6dbfd159197d4baaa9efa26342a62be81bbdc2ec0a7c9a",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004394"
+    },
+    {
+      "id": "cam4_f00004373",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004373.obj",
+      "bytes": 1001376,
+      "sha256": "91756aa0ea3f124d3c80cf8066a28ea508877b98a2bcb0600cb22a56f7816d6c",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004373"
+    },
+    {
+      "id": "cam3_f00004481",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004481.obj",
+      "bytes": 996872,
+      "sha256": "db09ad609bc4f47857b9126c79f673c0a221a66174937ad80417c1ba79e57d2f",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004481"
+    },
+    {
+      "id": "cam4_f00004459",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004459.obj",
+      "bytes": 1001439,
+      "sha256": "5d775b198d97d7a99c49d401b4a6ecb8ae798a62c18de545378eb5a75da834b6",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004459"
+    },
+    {
+      "id": "cam3_f00004567",
+      "camera": "cam3",
+      "output": "data/meshes/cam3_f00004567.obj",
+      "bytes": 995853,
+      "sha256": "5106c03ebe6f81003ca4806670c82368644d9e81f88673e2bad500a8e9a09665",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam3_f00004567"
+    },
+    {
+      "id": "cam4_f00004545",
+      "camera": "cam4",
+      "output": "data/meshes/cam4_f00004545.obj",
+      "bytes": 1001158,
+      "sha256": "59fa56abb38cef83673230cebca0450f54d5136c71830e2e99a4e748bea5a1e1",
+      "vertices": 10475,
+      "faces": 20908,
+      "source_run": "cam4_f00004545"
+    }
+  ],
+  "count": 100,
+  "total_bytes": 99815449,
+  "status": "all source run returncode 0; OBJ vertex and face records checked",
+  "source_root": "<WORKSPACE>/EgoFishPose/experiments/session_hand6_head01_100_20261013_v1"
+}
