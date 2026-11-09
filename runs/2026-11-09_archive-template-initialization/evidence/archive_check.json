@@ -1,0 +1,723 @@
+{
+  "exit_status": 0,
+  "command": "python runs/2026-11-09_archive-template-initialization/check_archive.py",
+  "source_sha256": "fffd1a1b358318dc47ad2f4872ee051a6b867e12a9918b5eca15457761034b63",
+  "scope": "Archive integrity, links and exact recorded metrics; no new fitting or independent experiment reproduction.",
+  "passed": true,
+  "checks": [
+    {
+      "name": "settings byte exact",
+      "passed": true
+    },
+    {
+      "name": "case D exact",
+      "passed": true
+    },
+    {
+      "name": "archived summary numbers exact",
+      "passed": true
+    },
+    {
+      "name": "A and original distinguished",
+      "passed": true
+    },
+    {
+      "name": "primary budget and selected step",
+      "passed": true
+    },
+    {
+      "name": "D stability false preserved",
+      "passed": true
+    },
+    {
+      "name": "D no prediction seeds read",
+      "passed": true
+    },
+    {
+      "name": "D initial beta zero",
+      "passed": true
+    },
+    {
+      "name": "primary camera metrics exact cam3",
+      "passed": true
+    },
+    {
+      "name": "primary camera metrics exact cam4",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/fit.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/common.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/initialization.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/prepare.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/run.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/stages.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evaluate_shape.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evaluate_mesh.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evaluate_all.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/verify.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/plot_results.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/build_report.py",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/settings.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/cases.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/brief.md",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/report.md",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/review.md",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/projection.md",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/analysis.txt",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/assessment.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/mesh_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/shape_metrics.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/optimization_summary.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/verification.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/execution.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/evaluation_execution.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/executed_source_check.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/preparation.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/resources.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/fit_log_summary.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/visual_inspection.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/evidence/prepush.json",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/left_D_3400.jpg",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/right_D_3400.jpg",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/skeleton_left_20000.png",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/skeleton_right_20000.png",
+      "passed": true
+    },
+    {
+      "name": "pinned source runs/2026-11-09_initialization-ablation/assets/convergence.png",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/inputs.json",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/triangulated.json",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/anchors/oracle.json",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/model_paths.json",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/initial.npz",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/budget_3400.npz",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/budget_10000.npz",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/budget_16000.npz",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/budget_20000.npz",
+      "passed": true
+    },
+    {
+      "name": "external checksum outputs/initialization_ablation_20261109/D_left/final.npz",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md README.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md settings.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md ../../runs/2026-11-09_initialization-ablation/fit.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md ../../runs/2026-11-09_initialization-ablation/initialization.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md ../../runs/2026-11-09_initialization-ablation/evidence/preparation.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/METHOD.md evidence/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md README.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md ../../runs/2026-11-09_initialization-ablation/review.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md METHOD.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md BOUNDARIES.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md REPRODUCE.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md ../../runs/2026-11-09_initialization-ablation/projection.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md case.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md settings.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md manifest.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md ../../runs/2026-11-09_initialization-ablation/",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md evidence/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md RESULTS.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md ../../runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md ../../runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/README.md BOUNDARIES.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md README.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md evidence/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md ../../runs/2026-11-09_initialization-ablation/evidence/metrics.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md BOUNDARIES.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md ../../runs/2026-11-09_initialization-ablation/assets/convergence.png",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/RESULTS.md ../../runs/2026-11-09_initialization-ablation/assets/skeleton_left_20000.png",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md README.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md case.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md evidence/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md settings.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md manifest.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/fit.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/initialization.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/prepare.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/run.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/evaluate_shape.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/evaluate_mesh.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/verify.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/stages.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_initialization-ablation/evaluate_all.py",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md evidence/results.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "passed": true
+    },
+    {
+      "name": "local link experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md ../../runs/2026-11-09_archive-template-initialization/report.md",
+      "passed": true
+    },
+    {
+      "name": "local link runs/2026-11-09_archive-template-initialization/report.md ../../experiments/synthetic_template_head_stereo_20261109/README.md",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u8eab\u4f5325\u70b9\u5e73\u5747",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u9aa8\u76c6",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u53cc\u819d",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u53cc\u8e1d",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u624b\u630740\u70b9\u5e73\u5747",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u4e2d\u6027\u4f53\u578b\u7f51\u683c",
+      "passed": true
+    },
+    {
+      "name": "README numeric row \u5168\u7f51\u683c\u7edd\u5bf9\u8bef\u5dee",
+      "passed": true
+    },
+    {
+      "name": "README numeric row 22\u9aa8\u9abc\u76f8\u673a\u671d\u5411\u5e73\u5747\u8bef\u5dee\uff08\u00b0\uff09",
+      "passed": true
+    },
+    {
+      "name": "no fitting rerun declared",
+      "passed": true
+    }
+  ],
+  "local_links": [
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "settings.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/fit.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/initialization.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evidence/preparation.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "target": "evidence/results.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/review.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "METHOD.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "BOUNDARIES.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "REPRODUCE.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/projection.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "case.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "settings.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "manifest.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "evidence/results.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "RESULTS.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "target": "BOUNDARIES.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "evidence/results.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evidence/metrics.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "BOUNDARIES.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/assets/convergence.png",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/assets/skeleton_left_20000.png",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "case.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "evidence/results.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "settings.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "manifest.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/fit.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/initialization.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/prepare.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/run.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evaluate.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evaluate_shape.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evaluate_mesh.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/verify.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/stages.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_initialization-ablation/evaluate_all.py",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "evidence/results.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../synthetic_oracle_head_shape_20261108/REPRODUCE.md",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-08_synthetic-original/evidence/resources.json",
+      "exists": true
+    },
+    {
+      "document": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "target": "../../runs/2026-11-09_archive-template-initialization/report.md",
+      "exists": true
+    },
+    {
+      "document": "runs/2026-11-09_archive-template-initialization/report.md",
+      "target": "../../experiments/synthetic_template_head_stereo_20261109/README.md",
+      "exists": true
+    }
+  ]
+}

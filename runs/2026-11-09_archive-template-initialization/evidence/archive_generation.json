@@ -1,0 +1,14 @@
+{
+  "exit_status": 0,
+  "command": "python runs/2026-11-09_archive-template-initialization/archive.py",
+  "script_sha256": "9a8ed3961f391052dca895055333a115466606f2e1999671627432626b1676d0",
+  "source_commit": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+  "source_files_verified_against_commit": 41,
+  "settings_byte_identical": true,
+  "D_identity_exact": true,
+  "D_read_guard_passed": true,
+  "external_inputs_verified": 4,
+  "external_outputs_verified": 6,
+  "results_extracted_without_rounding": true,
+  "fitting_rerun": false
+}

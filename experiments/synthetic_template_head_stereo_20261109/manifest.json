@@ -1,0 +1,370 @@
+{
+  "experiment": "synthetic_template_head_stereo_20261109",
+  "status": "Template-initialization candidate under oracle Head/cameras; not default pipeline or deployment validation.",
+  "source_commit": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+  "fit_base_commit": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+  "primary_case": {
+    "case": "D",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  },
+  "primary_budget_steps": 20000,
+  "selected_training_step": 19960,
+  "dataset": {
+    "repository": "https://github.com/cdh290718-oss/DownSightSmplxdata",
+    "commit": "192671271a74b99f41b9eb033d8f88b1dac77ada",
+    "sample": "000001",
+    "views": [
+      "cam3/left",
+      "cam4/right"
+    ],
+    "independent_postures": 1
+  },
+  "implementation_policy": "Source run remains authoritative; archive does not copy or change fitter. settings.json is an exact snapshot, not the fitter configuration path.",
+  "settings_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+  "repository_resources": [
+    {
+      "path": "runs/2026-11-09_initialization-ablation/fit.py",
+      "bytes": 10734,
+      "sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/fit.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/common.py",
+      "bytes": 2211,
+      "sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/common.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/initialization.py",
+      "bytes": 1899,
+      "sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/initialization.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/prepare.py",
+      "bytes": 1886,
+      "sha256": "edbb8f3d2950e1e426f3a1dfcfb11fe308eb16de24cfb295c2716c43539b94e7",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/prepare.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/run.py",
+      "bytes": 2017,
+      "sha256": "44dae28955b873a1ca7ee91c4144345e5beee8ce0593df945e8990bbb0f48d6e",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/run.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/stages.py",
+      "bytes": 557,
+      "sha256": "04fca620836717fe9774ec73f1879a4cb8586beb4fe7071296de7ce33fb54689",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/stages.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evaluate.py",
+      "bytes": 9025,
+      "sha256": "0afc74932b815373a6aa7833196e62e2dbaceceed92b5b7fa767ec14d19eb435",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evaluate.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evaluate_shape.py",
+      "bytes": 2772,
+      "sha256": "e4cdda8623d8a64d507017882d5efb80e7f6da7ab9a0f6f02e29e05181294d3c",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evaluate_shape.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evaluate_mesh.py",
+      "bytes": 3092,
+      "sha256": "3862ff4aa9f42fad02c9f84ad0b27de2053f81b72a7902dd0c83b10c6c0560c3",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evaluate_mesh.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evaluate_all.py",
+      "bytes": 2271,
+      "sha256": "0327eb950aa583ff606f43da972c431ab738969850e8b3c93e8216ee5abcb01a",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evaluate_all.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/verify.py",
+      "bytes": 6709,
+      "sha256": "32a8228eaae705d2dd6fc6f6bf822b71815cd0d71f7c4246c6b429ee3f6fc82e",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/verify.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/plot_results.py",
+      "bytes": 4546,
+      "sha256": "11e9c7a4164590c535719b1630296a7d03fff084b9f59d06b0d429b4495ed6dd",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/plot_results.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/build_report.py",
+      "bytes": 13430,
+      "sha256": "57cf42fd2529911bc3134f7c3667e3cad35f2493e96b094c002205fbaebf50c7",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/build_report.py"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/settings.json",
+      "bytes": 3258,
+      "sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/settings.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/cases.json",
+      "bytes": 407,
+      "sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/cases.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/brief.md",
+      "bytes": 1101,
+      "sha256": "e355b841d1b937f147a7d0d228c8037b877b4702108eb79ff87b5ec350eb9391",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/brief.md"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/report.md",
+      "bytes": 14877,
+      "sha256": "bd538a92c650b96a231b5b896c632e57ceada697f347acc74f27b4e5168902cb",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/report.md"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/review.md"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/projection.md",
+      "bytes": 2455,
+      "sha256": "91ef5ed64fd2edbb952480ca1aa89d0dd13e4816adbfe1e8e0bb68ec4f4cdfb0",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/projection.md"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/analysis.txt",
+      "bytes": 4919,
+      "sha256": "fd05de08a0feaeb5a15b966cbea9bf0ae20ff5f92d8b3b27a6f5ba73a9066272",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/analysis.txt"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/assessment.json",
+      "bytes": 40177,
+      "sha256": "8e3ab4e34db96b1c40a1be98161dd631919eaaa1ee24872aef56a97f15962d63",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/assessment.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/metrics.json",
+      "bytes": 1715415,
+      "sha256": "8e1bd53b321ac2b5475104f22521ea0db610ad57588cf035134e63197688fd61",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/metrics.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/mesh_metrics.json",
+      "bytes": 85838,
+      "sha256": "8c78d8de9379008bedda74cd29d4e93c6106be7e6a34cb738ac5861bf804d482",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/mesh_metrics.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/shape_metrics.json",
+      "bytes": 34066,
+      "sha256": "3195d0404099609938fb205bfcaaa82a908f936bf72b41046ef4e5801c0b97a3",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/shape_metrics.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/optimization_summary.json",
+      "bytes": 1062724,
+      "sha256": "3acee148bbbb01bcf622fa4263253b8934e9e41474b08edd96c325878ed747e1",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/optimization_summary.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/verification.json",
+      "bytes": 10924,
+      "sha256": "bb98978e6053296f2cde0693ac3ac684725f5343ba71876a45ca462a42c4a7af",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/verification.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/execution.json",
+      "bytes": 2852,
+      "sha256": "2c9b3927b559928b73bf885bbcd70e872fd08c6235d346d56afa551bdc1431e9",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/execution.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/evaluation_execution.json",
+      "bytes": 1721,
+      "sha256": "8d702874133fd86022a19687cb65839bff70d60bc4d690ce90eb677da2e2661a",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/evaluation_execution.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/executed_source_check.json",
+      "bytes": 5381,
+      "sha256": "39d886eef64da2d7ff6c30bd4b02f356e64ef169681d9575947ea1e33245a8af",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/executed_source_check.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/preparation.json",
+      "bytes": 1628,
+      "sha256": "1daa33aa13bea7fc1e2dccab73820bc2fb6aa5ab53fc766753f0f002ea0d791a",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/preparation.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/resources.json",
+      "bytes": 949,
+      "sha256": "d71ea24c4b7ce21460677d5935a9869aa90970cae03ca65c18702f897b11334b",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/resources.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/fit_log_summary.json",
+      "bytes": 3795,
+      "sha256": "a41c48d94d448e0ced5091efbe1df64f5bcc70e17de6ccf8220371f11a7c934d",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/fit_log_summary.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/visual_inspection.json",
+      "bytes": 844,
+      "sha256": "865bf5f3c55afd7046c011d7ca46326ce905b03d86eea301f5753921d6bb6881",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/visual_inspection.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/evidence/prepush.json",
+      "bytes": 1797,
+      "sha256": "9c7af8cc6adc06aed320d8d650c1ae3c05c665fbdfd52d2e3b2ed7aab4314609",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/evidence/prepush.json"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/left_D_3400.jpg",
+      "bytes": 327589,
+      "sha256": "a8ce6b7c88a589b98cc2f46933f705809321fa9ff37d93ed397f43bd077f45bb",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/left_D_3400.jpg"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/right_D_3400.jpg",
+      "bytes": 331300,
+      "sha256": "8433ea0d9dd97d46b521e155196e1fe444841cfa95523e14fa458c25910c2d3c",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/right_D_3400.jpg"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg",
+      "bytes": 330097,
+      "sha256": "62ed71d4a585bc940d90f021ded0834bc6b1ae4b4bb5c15a585380415467f34d",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg",
+      "bytes": 332930,
+      "sha256": "430838f337ff8a82f270c7465844045fb1394a76636cc849b70e7c0d9d937926",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/skeleton_left_20000.png",
+      "bytes": 114111,
+      "sha256": "a904338f2709e3611624abc5c8e44523834c50e4688f42e0645936f95203c757",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/skeleton_left_20000.png"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/skeleton_right_20000.png",
+      "bytes": 111417,
+      "sha256": "1da793f2229a11556fbb10e11e4852f7361fa3614e717b372cc9e46eeea93853",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/skeleton_right_20000.png"
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/convergence.png",
+      "bytes": 100145,
+      "sha256": "530e9b1796a5a618eb7060138a9b92c925f48404a520c45f4358456e653db65e",
+      "pinned_url": "https://github.com/cdh290718-oss/DownSight/blob/485fc71ca37d3c68a74bf99338fe247c197bf6eb/runs/2026-11-09_initialization-ablation/assets/convergence.png"
+    }
+  ],
+  "external_inputs": [
+    {
+      "resource": "outputs/initialization_ablation_20261109/inputs.json",
+      "bytes": 22799,
+      "sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "role": "Cameras and automatic 2D observations",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/triangulated.json",
+      "bytes": 28987,
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "role": "Prepared automatic 3D targets and covariances",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/anchors/oracle.json",
+      "bytes": 391,
+      "sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "role": "True Head anchor",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/model_paths.json",
+      "bytes": 1451,
+      "sha256": "bae42e8218fd7157fdfd461d4eda95d1f8ef45b72e18f9637e9175c3189f7762",
+      "role": "Private machine-local backend paths; content not published",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    }
+  ],
+  "external_outputs": [
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/initial.npz",
+      "bytes": 118062,
+      "sha256": "066f24beccbbac33dc6301b8031bb401a46eb4d6dbe4b397c7c9e1602b6eba1b",
+      "selected_step": 0,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_3400.npz",
+      "bytes": 119937,
+      "sha256": "adc51eba381372b23321c2b5a4d2bdf77dc9a5c885f6839751beef4843712e15",
+      "selected_step": 3400,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_10000.npz",
+      "bytes": 119580,
+      "sha256": "c76af1e10e7ac845f5cf59887e195dba95c529d9a44c2657f68c952b759ac921",
+      "selected_step": 9920,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_16000.npz",
+      "bytes": 120052,
+      "sha256": "944472c9d430edc15ade39dd051a67a859a9edd38fbac58252fe04d7cb5ef4f1",
+      "selected_step": 16000,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_20000.npz",
+      "bytes": 120067,
+      "sha256": "07827232df1175eb7bced55c41b5c7a0180f219ce176973e64610e9b5775d8e7",
+      "selected_step": 19960,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/final.npz",
+      "bytes": 120067,
+      "sha256": "07827232df1175eb7bced55c41b5c7a0180f219ce176973e64610e9b5775d8e7",
+      "selected_step": 19960,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    }
+  ],
+  "backend_limitations": {
+    "baseline": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+    "model_paths_local_file_sha256": "bae42e8218fd7157fdfd461d4eda95d1f8ef45b72e18f9637e9175c3189f7762",
+    "backend_revision": null,
+    "backend_revision_exit_status": 128,
+    "backend_status_exit_status": 128,
+    "backend_dirty_entries": null,
+    "backend_status_sha256": null,
+    "scope": "Read-only backend git metadata; no complete backend diff published. External weight assets are inherited from linked baseline resources; not independently rehashed in this run.",
+    "backend_source_scan_exit_status": 0,
+    "backend_source_files": 4411,
+    "backend_source_manifest_sha256": "7100da0f98c7d0ee9048533cd512a1d9c09be0671077dd48600d07ac7e7a3a7d",
+    "backend_source_snapshot_timing": "After fitting, not a before/after immutability check",
+    "backend_git_limitation": "The configured external backend is not a git working tree; git rev-parse/status returned 128. No backend commit is asserted."
+  },
+  "archive_reruns_fitting": false
+}

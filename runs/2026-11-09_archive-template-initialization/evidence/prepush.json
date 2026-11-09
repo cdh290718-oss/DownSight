@@ -1,0 +1,33 @@
+{
+  "scope": "Only new D experiment archive and handoff run; old untracked point comparison scanned but excluded. No historical audit.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "exit_status": 0,
+      "passed": true,
+      "base": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+      "remote_main": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+      "errors": [],
+      "files_checked": 18,
+      "command": "<BODY_PYTHON> runs/2026-11-09_archive-template-initialization/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "exit_status": 0,
+      "passed": true,
+      "base": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+      "remote_main": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+      "errors": [],
+      "files_checked": 17,
+      "command": "<BODY_PYTHON> runs/2026-11-09_archive-template-initialization/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "policies_checked": [
+    "No weights/datasets/videos/NPZ/NPY/full raw outputs; files below 50 MB",
+    "No credentials/tokens/.env; machine paths replaced by placeholders",
+    "Only curated hashes and evidence, no complete local provenance or patches",
+    "Only authorized new directories staged; source experiment unchanged; remote main matches baseline"
+  ],
+  "archive_validation": "118 archive checks passed; 48 local links checked; 41 source files pinned; no fitting rerun.",
+  "receipt_policy": "Restage this receipt and recheck worktree/staged set; commit audit must pass before push. Complete receipts remain in repository outputs."
+}
