@@ -1,0 +1,15 @@
+{
+  "baseline": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+  "model_paths_local_file_sha256": "bae42e8218fd7157fdfd461d4eda95d1f8ef45b72e18f9637e9175c3189f7762",
+  "backend_revision": null,
+  "backend_revision_exit_status": 128,
+  "backend_status_exit_status": 128,
+  "backend_dirty_entries": null,
+  "backend_status_sha256": null,
+  "scope": "Read-only backend git metadata; no complete backend diff published. External weight assets are inherited from linked baseline resources; not independently rehashed in this run.",
+  "backend_source_scan_exit_status": 0,
+  "backend_source_files": 4411,
+  "backend_source_manifest_sha256": "7100da0f98c7d0ee9048533cd512a1d9c09be0671077dd48600d07ac7e7a3a7d",
+  "backend_source_snapshot_timing": "After fitting, not a before/after immutability check",
+  "backend_git_limitation": "The configured external backend is not a git working tree; git rev-parse/status returned 128. No backend commit is asserted."
+}

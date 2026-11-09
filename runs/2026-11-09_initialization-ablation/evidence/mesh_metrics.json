@@ -1,0 +1,2573 @@
+{
+  "exit_status": 0,
+  "scope": "Post-fit only. Absolute corresponding posed vertices, no rigid/scale alignment. Body-surface mask: dominant skinning joint index <20 excluding Neck12 and Head15. Camera-frame bone rotations include root and forward kinematics; errors can reveal twist invisible to sparse positions. No checkpoint selection by these scores.",
+  "truth_source_sha256": {
+    "left_vertices.npz": "212e951340f7035707069c88460669a4b680cc608758e64ba1453402079cc099",
+    "geometry.npz": "56b2eb6e3a9f2e71b7dc2cbfdf5bb5526ed81f862fa9a8602d4c76be81434e4f",
+    "smplx_reconstruction.npz": "207c741c0d6edbb5210c5d156b53a50467fa34a9dcfa7b119b35282ddae607d5"
+  },
+  "stages": [
+    {
+      "stage": "original",
+      "posed_mesh_absolute_mean_mm": 17.83812754769829,
+      "posed_mesh_absolute_p95_mm": 59.776166219735295,
+      "body_surface_without_head_neck_hands_mean_mm": 38.16813086504319,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 13.328496356692808,
+      "native22_camera_rotation_mean_deg": 12.105333230217404,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.561349906698795,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 3.588747435281779,
+          "local_rotation_error_deg": 6.627665680094354
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 4.1059381371101376,
+          "local_rotation_error_deg": 4.4630367745613855
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.892417878315174,
+          "local_rotation_error_deg": 2.315550549330095
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.409363056646478,
+          "local_rotation_error_deg": 8.314444858336618
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 6.870329837277684,
+          "local_rotation_error_deg": 6.1329455903101895
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 11.723662284145474,
+          "local_rotation_error_deg": 6.397123071694993
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 11.925020337126854,
+          "local_rotation_error_deg": 8.13095821546025
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 11.67767650054977,
+          "local_rotation_error_deg": 7.974937427571527
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 2.872094267412948,
+          "local_rotation_error_deg": 11.344574930067857
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 12.01281450064119,
+          "local_rotation_error_deg": 0.08848727010807603
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 11.667573283788132,
+          "local_rotation_error_deg": 0.07796311733679752
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 3.757760874275232,
+          "local_rotation_error_deg": 3.674159169819518
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 13.75365614852104,
+          "local_rotation_error_deg": 12.200640865278892
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 14.445234695980592,
+          "local_rotation_error_deg": 17.287981327361628
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0003772954879313758,
+          "local_rotation_error_deg": 3.7576279336450567
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 32.042410541694096,
+          "local_rotation_error_deg": 24.859819766510114
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 37.338587552375095,
+          "local_rotation_error_deg": 30.691794227585564
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 35.00504955613643,
+          "local_rotation_error_deg": 39.061205579469544
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 18.670938706744664,
+          "local_rotation_error_deg": 44.93739542084291
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 11.003262067205458,
+          "local_rotation_error_deg": 26.21660282981956
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 4.993066201367942,
+          "local_rotation_error_deg": 15.343508885344008
+        }
+      ],
+      "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1"
+    },
+    {
+      "stage": "A_0",
+      "posed_mesh_absolute_mean_mm": 125.53195557093694,
+      "posed_mesh_absolute_p95_mm": 438.41221940240786,
+      "body_surface_without_head_neck_hands_mean_mm": 218.33451288574645,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.805822544178538,
+      "native22_camera_rotation_mean_deg": 31.9668811154079,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 17.461331716663654,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 28.688543300167883,
+          "local_rotation_error_deg": 11.889264546325458
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 27.53839805208884,
+          "local_rotation_error_deg": 10.748834757081669
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 16.029405351371643,
+          "local_rotation_error_deg": 2.2353458933187573
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 20.703977381162108,
+          "local_rotation_error_deg": 11.327429947995663
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 14.81269558489946,
+          "local_rotation_error_deg": 14.643829034971468
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 16.666406372289853,
+          "local_rotation_error_deg": 5.522318461099002
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 25.737940068798455,
+          "local_rotation_error_deg": 8.13095821546025
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 19.924175478357803,
+          "local_rotation_error_deg": 7.974937427571527
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 14.26981683116018,
+          "local_rotation_error_deg": 2.7815181958000115
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 25.737940068798455,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 19.924175478357803,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 9.873845779265059,
+          "local_rotation_error_deg": 8.663217179117913
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 34.43430474482213,
+          "local_rotation_error_deg": 25.71497040578737
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 30.963088734645446,
+          "local_rotation_error_deg": 24.512029605290078
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 4.059170725852387e-06,
+          "local_rotation_error_deg": 9.873846706022412
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 48.06743832858716,
+          "local_rotation_error_deg": 21.36178189700318
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 54.08812022409627,
+          "local_rotation_error_deg": 28.125182355651404
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 81.3706204940522,
+          "local_rotation_error_deg": 51.83792106941847
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 65.75947220867914,
+          "local_rotation_error_deg": 52.28997087334004
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 66.09964566358919,
+          "local_rotation_error_deg": 20.014803037830923
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 65.12003861795041,
+          "local_rotation_error_deg": 14.274113818663684
+        }
+      ],
+      "source_sha256": "80d2f0df7bf005941a8872349f05fe1d52c55bbf3041f3d82a439d7af7888123"
+    },
+    {
+      "stage": "A_3400",
+      "posed_mesh_absolute_mean_mm": 19.576108786827675,
+      "posed_mesh_absolute_p95_mm": 64.20774265206964,
+      "body_surface_without_head_neck_hands_mean_mm": 40.72942002494288,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 16.989345847198376,
+      "native22_camera_rotation_mean_deg": 16.005729116945542,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 6.507266015680517,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 11.831945310202535,
+          "local_rotation_error_deg": 16.098143039494346
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 27.406884503571504,
+          "local_rotation_error_deg": 23.860006631624575
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.768735548496486,
+          "local_rotation_error_deg": 1.7457593480673481
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.166837428352718,
+          "local_rotation_error_deg": 14.760634572793622
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 23.2143172479539,
+          "local_rotation_error_deg": 8.44660641477246
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 11.328924084628879,
+          "local_rotation_error_deg": 9.117710228364537
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.166837428352718,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 23.2143172479539,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 3.916587414773975,
+          "local_rotation_error_deg": 9.063465438323727
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.166837428352718,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 23.2143172479539,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 4.121136137605515,
+          "local_rotation_error_deg": 4.722346900469127
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.629815021270513,
+          "local_rotation_error_deg": 11.246292657863266
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 9.293945708434347,
+          "local_rotation_error_deg": 10.939146670645389
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0012856635593287446,
+          "local_rotation_error_deg": 4.120543542987622
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.0407390985256,
+          "local_rotation_error_deg": 21.869270866575906
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 34.558159221597975,
+          "local_rotation_error_deg": 25.489515732233798
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 50.3841255934001,
+          "local_rotation_error_deg": 51.63183416890234
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 33.95698715804767,
+          "local_rotation_error_deg": 53.5203340404588
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.504210590555573,
+          "local_rotation_error_deg": 50.670272495210824
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.731829473531574,
+          "local_rotation_error_deg": 39.47438004237821
+        }
+      ],
+      "source_sha256": "16014a5aecda7090ca40146c12b684bfcb3d518424505aeba08358cfcbef3206"
+    },
+    {
+      "stage": "A_10000",
+      "posed_mesh_absolute_mean_mm": 19.99244269980998,
+      "posed_mesh_absolute_p95_mm": 62.467799501739606,
+      "body_surface_without_head_neck_hands_mean_mm": 41.61995240568388,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.998720283150224,
+      "native22_camera_rotation_mean_deg": 13.740116339040942,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.702497316522364,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.151928022963216,
+          "local_rotation_error_deg": 9.39496158763257
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 13.559624926724197,
+          "local_rotation_error_deg": 9.531655458888409
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.947499249999753,
+          "local_rotation_error_deg": 2.8602986411103437
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.72441941317114,
+          "local_rotation_error_deg": 8.075318288357192
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 13.030637113621104,
+          "local_rotation_error_deg": 6.07362045225841
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 15.36263970187041,
+          "local_rotation_error_deg": 13.581710481694552
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.72441941317114,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 13.030637113621104,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 4.657696208956404,
+          "local_rotation_error_deg": 15.01677021112159
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.72441941317114,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 13.030637113621104,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.1196588923565765,
+          "local_rotation_error_deg": 8.659085171748632
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.499460797296399,
+          "local_rotation_error_deg": 13.183531525465336
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 8.47615779029772,
+          "local_rotation_error_deg": 8.298260776978536
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0020569465917201074,
+          "local_rotation_error_deg": 6.117659128490183
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.24802451521226,
+          "local_rotation_error_deg": 21.389870119798037
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 34.292819795569926,
+          "local_rotation_error_deg": 25.860697939601497
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 47.991943286991116,
+          "local_rotation_error_deg": 50.05286967983456
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 31.67378282161161,
+          "local_rotation_error_deg": 52.13623300856943
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.56724372871431,
+          "local_rotation_error_deg": 48.53839457522984
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.7643558768460155,
+          "local_rotation_error_deg": 37.202188899375614
+        }
+      ],
+      "source_sha256": "032e956d72c95b5abcd72bd5036468b1a01aca9000930511f77d4437275f2f92"
+    },
+    {
+      "stage": "A_16000",
+      "posed_mesh_absolute_mean_mm": 19.888919394716304,
+      "posed_mesh_absolute_p95_mm": 60.35172843857482,
+      "body_surface_without_head_neck_hands_mean_mm": 41.35206734645087,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.524423530351442,
+      "native22_camera_rotation_mean_deg": 12.340907697978444,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.3924372606681965,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 2.458597805606971,
+          "local_rotation_error_deg": 5.891756068542281
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 5.810387666729922,
+          "local_rotation_error_deg": 2.7415259160946546
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.165305911316362,
+          "local_rotation_error_deg": 3.458335628353784
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.317994686611475,
+          "local_rotation_error_deg": 7.7216106111088285
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 6.70463919325364,
+          "local_rotation_error_deg": 5.245136057458301
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 17.45477976976043,
+          "local_rotation_error_deg": 15.850995742612087
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.317994686611475,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 6.70463919325364,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 5.154130648941071,
+          "local_rotation_error_deg": 18.37764161757839
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.317994686611475,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 6.70463919325364,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.95886370348396,
+          "local_rotation_error_deg": 10.351032454764471
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.15732638605113,
+          "local_rotation_error_deg": 13.450306758472362
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 7.869143202015806,
+          "local_rotation_error_deg": 6.793700995853492
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0012151513040453456,
+          "local_rotation_error_deg": 6.957650429111881
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.251409351302843,
+          "local_rotation_error_deg": 20.929622960497987
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 33.95786477066137,
+          "local_rotation_error_deg": 26.127153286733616
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 46.30114218156575,
+          "local_rotation_error_deg": 48.481213027291616
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 30.248955069246843,
+          "local_rotation_error_deg": 50.83979706706244
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.519391515330188,
+          "local_rotation_error_deg": 47.027417635659035
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.731117321945546,
+          "local_rotation_error_deg": 35.767997880185014
+        }
+      ],
+      "source_sha256": "f3e84d06f367957e4e491674173d52e029d71457978df029bdbc1a92f53f4552"
+    },
+    {
+      "stage": "A_20000",
+      "posed_mesh_absolute_mean_mm": 19.879204135866118,
+      "posed_mesh_absolute_p95_mm": 60.34087510338014,
+      "body_surface_without_head_neck_hands_mean_mm": 41.33319243925065,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.468282114178335,
+      "native22_camera_rotation_mean_deg": 12.211568585673955,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.260318533540075,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 3.5181008605809856,
+          "local_rotation_error_deg": 5.432346716682159
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 4.425427397487892,
+          "local_rotation_error_deg": 2.169404725257991
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.298393890368491,
+          "local_rotation_error_deg": 3.7838615829950943
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.781297986665846,
+          "local_rotation_error_deg": 7.661135057410635
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 5.56950898061052,
+          "local_rotation_error_deg": 5.1067749941563045
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 18.758420770408705,
+          "local_rotation_error_deg": 17.229213410386418
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.781297986665846,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 5.56950898061052,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 5.450380146238718,
+          "local_rotation_error_deg": 20.32647764170945
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.781297986665846,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 5.56950898061052,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 7.268018205700624,
+          "local_rotation_error_deg": 11.059174053694539
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.067134124016627,
+          "local_rotation_error_deg": 13.508643438841272
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 7.737612592738082,
+          "local_rotation_error_deg": 6.191975552971307
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0003818593057361321,
+          "local_rotation_error_deg": 7.267707844247388
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.336717169078124,
+          "local_rotation_error_deg": 20.61938734870073
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 33.860382737108345,
+          "local_rotation_error_deg": 26.15771990259731
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 45.17156851457763,
+          "local_rotation_error_deg": 47.494648485369346
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 29.23586829937825,
+          "local_rotation_error_deg": 50.038352326481956
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.496036028855265,
+          "local_rotation_error_deg": 46.03343556393948
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.71732685361441,
+          "local_rotation_error_deg": 34.75366575230366
+        }
+      ],
+      "source_sha256": "0e441b2336470850a3a6d49ba73f886be11bdf3d81862514126beab3a0ccf9d8"
+    },
+    {
+      "stage": "B_0",
+      "posed_mesh_absolute_mean_mm": 126.13492278615495,
+      "posed_mesh_absolute_p95_mm": 448.18601114899514,
+      "body_surface_without_head_neck_hands_mean_mm": 219.96911666434585,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.805822544178538,
+      "native22_camera_rotation_mean_deg": 31.9668811154079,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 17.461331716663654,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 28.688543300167883,
+          "local_rotation_error_deg": 11.889264546325458
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 27.53839805208884,
+          "local_rotation_error_deg": 10.748834757081669
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 16.029405351371643,
+          "local_rotation_error_deg": 2.2353458933187573
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 20.703977381162108,
+          "local_rotation_error_deg": 11.327429947995663
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 14.81269558489946,
+          "local_rotation_error_deg": 14.643829034971468
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 16.666406372289853,
+          "local_rotation_error_deg": 5.522318461099002
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 25.737940068798455,
+          "local_rotation_error_deg": 8.13095821546025
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 19.924175478357803,
+          "local_rotation_error_deg": 7.974937427571527
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 14.26981683116018,
+          "local_rotation_error_deg": 2.7815181958000115
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 25.737940068798455,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 19.924175478357803,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 9.873845779265059,
+          "local_rotation_error_deg": 8.663217179117913
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 34.43430474482213,
+          "local_rotation_error_deg": 25.71497040578737
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 30.963088734645446,
+          "local_rotation_error_deg": 24.512029605290078
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 4.059170725852387e-06,
+          "local_rotation_error_deg": 9.873846706022412
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 48.06743832858716,
+          "local_rotation_error_deg": 21.36178189700318
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 54.08812022409627,
+          "local_rotation_error_deg": 28.125182355651404
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 81.3706204940522,
+          "local_rotation_error_deg": 51.83792106941847
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 65.75947220867914,
+          "local_rotation_error_deg": 52.28997087334004
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 66.09964566358919,
+          "local_rotation_error_deg": 20.014803037830923
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 65.12003861795041,
+          "local_rotation_error_deg": 14.274113818663684
+        }
+      ],
+      "source_sha256": "6a94081faa8a927539603de40e248d3684ccb52f3510f935b1639d256cb1909d"
+    },
+    {
+      "stage": "B_3400",
+      "posed_mesh_absolute_mean_mm": 19.578290799740547,
+      "posed_mesh_absolute_p95_mm": 65.67584934854482,
+      "body_surface_without_head_neck_hands_mean_mm": 40.58495545987941,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 16.704489025762264,
+      "native22_camera_rotation_mean_deg": 15.78539160175056,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 6.72729548859083,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 13.225372635669324,
+          "local_rotation_error_deg": 17.4953300808326
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 26.311705400420177,
+          "local_rotation_error_deg": 22.775714713523342
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.587169843489179,
+          "local_rotation_error_deg": 1.70458952585545
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.473844289121462,
+          "local_rotation_error_deg": 14.000777733649945
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 21.664672798978753,
+          "local_rotation_error_deg": 8.584017354403102
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 10.074419536622143,
+          "local_rotation_error_deg": 7.008787450115818
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.473844289121462,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 21.664672798978753,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 3.6667415858936065,
+          "local_rotation_error_deg": 7.735913400477247
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.473844289121462,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 21.664672798978753,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 4.231467976894012,
+          "local_rotation_error_deg": 3.873590339137691
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 10.177917879321585,
+          "local_rotation_error_deg": 11.345811882910745
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 9.61789724881075,
+          "local_rotation_error_deg": 11.17012296829759
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0013949211139712432,
+          "local_rotation_error_deg": 4.2303356649063915
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.000315211865974,
+          "local_rotation_error_deg": 21.6975105693436
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 34.30487099873887,
+          "local_rotation_error_deg": 25.052651353245533
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 49.932599036082486,
+          "local_rotation_error_deg": 51.48052151772545
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 33.53165808946084,
+          "local_rotation_error_deg": 53.19200913683109
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.632229190057505,
+          "local_rotation_error_deg": 50.340394962189436
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.840008931180404,
+          "local_rotation_error_deg": 39.10619088756255
+        }
+      ],
+      "source_sha256": "aa0d08c326b9785a5ea87437334f145b91776348e1e319696570dfcf4c6d6fab"
+    },
+    {
+      "stage": "B_10000",
+      "posed_mesh_absolute_mean_mm": 20.00018708852732,
+      "posed_mesh_absolute_p95_mm": 63.33794516371356,
+      "body_surface_without_head_neck_hands_mean_mm": 41.61078522948985,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.919307751417767,
+      "native22_camera_rotation_mean_deg": 13.967792399257359,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.802501141830705,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 5.243464858795304,
+          "local_rotation_error_deg": 10.420081230365103
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 14.883932670594174,
+          "local_rotation_error_deg": 10.814495162050791
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.73464310079962,
+          "local_rotation_error_deg": 2.3914602723848413
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 7.055220743130266,
+          "local_rotation_error_deg": 8.21724723450911
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 14.218660540860522,
+          "local_rotation_error_deg": 6.219298187507221
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 14.456203195268959,
+          "local_rotation_error_deg": 12.09145195333389
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 7.055220743130266,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 14.218660540860522,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 4.563602681749169,
+          "local_rotation_error_deg": 14.051329380601603
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 7.055220743130266,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 14.218660540860522,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.026849021905946,
+          "local_rotation_error_deg": 8.279096173895264
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.641309211278147,
+          "local_rotation_error_deg": 13.188360944947918
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 8.385852753163077,
+          "local_rotation_error_deg": 8.389442712779312
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.00014988830513773405,
+          "local_rotation_error_deg": 6.026748478194339
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.042141167632312,
+          "local_rotation_error_deg": 21.336981921077243
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 33.77596997745369,
+          "local_rotation_error_deg": 25.534592331603214
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 47.97104974112036,
+          "local_rotation_error_deg": 49.97142666558226
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 31.574656037597116,
+          "local_rotation_error_deg": 51.720588809462
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.585480331574747,
+          "local_rotation_error_deg": 48.53844369439386
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.781983152621107,
+          "local_rotation_error_deg": 37.114417627085174
+        }
+      ],
+      "source_sha256": "2f28641242a2a30474b3e8fd576af1b1a142bcb07e69ac37b16623d81aa6140a"
+    },
+    {
+      "stage": "B_16000",
+      "posed_mesh_absolute_mean_mm": 19.884199142841773,
+      "posed_mesh_absolute_p95_mm": 60.37892693090389,
+      "body_surface_without_head_neck_hands_mean_mm": 41.311320415916136,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.39168795926349,
+      "native22_camera_rotation_mean_deg": 12.297847103679732,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.443306579628586,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 2.193697388763726,
+          "local_rotation_error_deg": 6.112552526955745
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 6.224475136625703,
+          "local_rotation_error_deg": 3.0222884457978356
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.987741731962122,
+          "local_rotation_error_deg": 3.074168332488976
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.228763998906331,
+          "local_rotation_error_deg": 7.74244670996536
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 7.066421512885178,
+          "local_rotation_error_deg": 5.2863857066933235
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 16.74091782625806,
+          "local_rotation_error_deg": 14.69941798578692
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.228763998906331,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 7.066421512885178,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 5.104209482357975,
+          "local_rotation_error_deg": 17.661051074977543
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.228763998906331,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 7.066421512885178,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.914541681859008,
+          "local_rotation_error_deg": 10.202125449976382
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.23228031916605,
+          "local_rotation_error_deg": 13.52214483862194
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 7.684479308932372,
+          "local_rotation_error_deg": 6.818777398221463
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.001594618434423386,
+          "local_rotation_error_deg": 6.916067487549735
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.027323596065305,
+          "local_rotation_error_deg": 20.861530322112934
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 33.396144228867925,
+          "local_rotation_error_deg": 25.82869655160465
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 46.31492968504852,
+          "local_rotation_error_deg": 48.40666013685689
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 30.12889164467467,
+          "local_rotation_error_deg": 50.365146485044725
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.53060349867612,
+          "local_rotation_error_deg": 47.05037225431485
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.741943018258985,
+          "local_rotation_error_deg": 35.65561543756408
+        }
+      ],
+      "source_sha256": "f6d747a3c7c44ab544fc3beaadc6d0d2f3b363e0fc086da7fb82624e90af4087"
+    },
+    {
+      "stage": "B_20000",
+      "posed_mesh_absolute_mean_mm": 19.859795739830894,
+      "posed_mesh_absolute_p95_mm": 60.27999199923509,
+      "body_surface_without_head_neck_hands_mean_mm": 41.27237816191388,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 15.3354050555996,
+      "native22_camera_rotation_mean_deg": 12.13344201331696,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.297936231330925,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 3.3631071015191836,
+          "local_rotation_error_deg": 5.507975502460757
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 4.564264693565395,
+          "local_rotation_error_deg": 2.2228046365794114
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.147994472215636,
+          "local_rotation_error_deg": 3.4519044017119342
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.704013428828415,
+          "local_rotation_error_deg": 7.669141482848758
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 5.679957070369787,
+          "local_rotation_error_deg": 5.121287254897678
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 18.123337932422025,
+          "local_rotation_error_deg": 16.219081732583792
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.704013428828415,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 5.679957070369787,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 5.41139315233029,
+          "local_rotation_error_deg": 19.690482270581843
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.704013428828415,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 5.679957070369787,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 7.222950236550509,
+          "local_rotation_error_deg": 10.96486444637214
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 9.114180440756044,
+          "local_rotation_error_deg": 13.594944180592185
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 7.544869558565694,
+          "local_rotation_error_deg": 6.237037174595181
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0004455879548144226,
+          "local_rotation_error_deg": 7.222694330835932
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 28.108913048704895,
+          "local_rotation_error_deg": 20.533579980635235
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 33.29495458837095,
+          "local_rotation_error_deg": 25.848249089665725
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 45.211742824355234,
+          "local_rotation_error_deg": 47.43388181026893
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 29.14816741751795,
+          "local_rotation_error_deg": 49.57794725544188
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.50434060598807,
+          "local_rotation_error_deg": 46.07615447670286
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.7252149032308814,
+          "local_rotation_error_deg": 34.67147614081741
+        }
+      ],
+      "source_sha256": "2da9480e06f6ac0401e1ebccde64d3534a3adc5c8905b9d867b13cdebbcbee8e"
+    },
+    {
+      "stage": "C_0",
+      "posed_mesh_absolute_mean_mm": 164.7915018030989,
+      "posed_mesh_absolute_p95_mm": 823.0441109807136,
+      "body_surface_without_head_neck_hands_mean_mm": 121.17126472142225,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 16.996673056200077,
+      "native22_camera_rotation_mean_deg": 33.27529903231871,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 17.22132002803759,
+          "local_rotation_error_deg": 17.221329829222025
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 16.566430417837072,
+          "local_rotation_error_deg": 16.566422215557655
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 61.93873387305243,
+          "local_rotation_error_deg": 47.71521267607446
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 62.330217312919046,
+          "local_rotation_error_deg": 47.68296881789679
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 157.49156741351104,
+          "local_rotation_error_deg": 96.55636621053307
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 146.50305362378927,
+          "local_rotation_error_deg": 91.51319095698686
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 138.15350622499983,
+          "local_rotation_error_deg": 22.916381293441024
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 131.8515785890279,
+          "local_rotation_error_deg": 16.758262180489723
+        }
+      ],
+      "source_sha256": "0800ef4d8c5d98ce7e89efc301e703df697f5cd65cbf5ff97557d82a6d2416ec"
+    },
+    {
+      "stage": "C_3400",
+      "posed_mesh_absolute_mean_mm": 19.805039795704563,
+      "posed_mesh_absolute_p95_mm": 72.27644247946975,
+      "body_surface_without_head_neck_hands_mean_mm": 40.75477492573557,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 11.98159679410096,
+      "native22_camera_rotation_mean_deg": 10.792260942354732,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 8.468772173529164,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 5.425065703767249,
+          "local_rotation_error_deg": 10.401174467502877
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 2.2207765807517,
+          "local_rotation_error_deg": 6.725325405340797
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 10.498373143800142,
+          "local_rotation_error_deg": 5.340313713530877
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.508086492702088,
+          "local_rotation_error_deg": 9.627957181246307
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 7.966099619552417,
+          "local_rotation_error_deg": 9.735238107335023
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 22.570653367942846,
+          "local_rotation_error_deg": 13.245452369719832
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.508086492702088,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 7.966099619552417,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 3.335709247080078,
+          "local_rotation_error_deg": 25.898000151799884
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.508086492702088,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 7.966099619552417,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 4.797066757683457,
+          "local_rotation_error_deg": 5.061341958148274
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 18.961663982278896,
+          "local_rotation_error_deg": 21.450408466626637
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 15.822387432766877,
+          "local_rotation_error_deg": 16.41101891609429
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.005135167114945299,
+          "local_rotation_error_deg": 4.799097420237261
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 16.531896058095338,
+          "local_rotation_error_deg": 20.544160260694515
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 27.868239097654353,
+          "local_rotation_error_deg": 25.47463451981098
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 16.35884147439306,
+          "local_rotation_error_deg": 11.463756895828526
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 16.112951966236015,
+          "local_rotation_error_deg": 33.334834421230426
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 18.006944726555552,
+          "local_rotation_error_deg": 20.431273738403352
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 7.0227055153909665,
+          "local_rotation_error_deg": 11.669544682570296
+        }
+      ],
+      "source_sha256": "0ebd2d7ba90781a3b169b95d650e812e2245b38f08fbc25cac326c08abcfa00d"
+    },
+    {
+      "stage": "C_10000",
+      "posed_mesh_absolute_mean_mm": 18.570882637888985,
+      "posed_mesh_absolute_p95_mm": 58.27279455891608,
+      "body_surface_without_head_neck_hands_mean_mm": 38.379691384811956,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 11.047918016533051,
+      "native22_camera_rotation_mean_deg": 9.712133352214128,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.6613460307690024,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 3.170347352301675,
+          "local_rotation_error_deg": 5.950289622691201
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 1.9519556373777915,
+          "local_rotation_error_deg": 3.8551874355692655
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.360057412518861,
+          "local_rotation_error_deg": 5.899520795918434
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.672582853150648,
+          "local_rotation_error_deg": 7.6875281946735905
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 3.9429733606422768,
+          "local_rotation_error_deg": 4.870457695286962
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 24.109758624615836,
+          "local_rotation_error_deg": 21.282128366665408
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.672582853150648,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 3.9429733606422768,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 3.280123659467752,
+          "local_rotation_error_deg": 25.88566887417915
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.672582853150648,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 3.9429733606422768,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 4.598975788239691,
+          "local_rotation_error_deg": 6.632181625630579
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 12.591974497285326,
+          "local_rotation_error_deg": 14.765635976185088
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 12.51875738815689,
+          "local_rotation_error_deg": 10.999371733881192
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0030701544709511234,
+          "local_rotation_error_deg": 4.6008059855741585
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 17.56605866903024,
+          "local_rotation_error_deg": 12.397550272797579
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 29.790543159581432,
+          "local_rotation_error_deg": 17.504511865044513
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 11.516041315420694,
+          "local_rotation_error_deg": 14.794378088938595
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 21.261199939113496,
+          "local_rotation_error_deg": 34.34454925367894
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.457364613883783,
+          "local_rotation_error_deg": 24.161291182285556
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.982690865098653,
+          "local_rotation_error_deg": 16.37522137819389
+        }
+      ],
+      "source_sha256": "a267aa6f66fd196531d9bb5dbfebaf02a2bf8fae70093ee51fd326f4f325cab9"
+    },
+    {
+      "stage": "C_16000",
+      "posed_mesh_absolute_mean_mm": 18.992914006633185,
+      "posed_mesh_absolute_p95_mm": 59.2070296508821,
+      "body_surface_without_head_neck_hands_mean_mm": 39.379047363313084,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 10.815006442558843,
+      "native22_camera_rotation_mean_deg": 9.604052261208707,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.079785836087791,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.21783606232947,
+          "local_rotation_error_deg": 5.188212215174484
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 3.096046783488253,
+          "local_rotation_error_deg": 2.3059438631747886
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.910527201525774,
+          "local_rotation_error_deg": 6.038059638725425
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 7.162065240888294,
+          "local_rotation_error_deg": 7.623048806080378
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 4.609371800279887,
+          "local_rotation_error_deg": 4.971246462821997
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 24.209258330948277,
+          "local_rotation_error_deg": 22.73956303838467
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 7.162065240888294,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 4.609371800279887,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 4.473454200785385,
+          "local_rotation_error_deg": 26.417242294525504
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 7.162065240888294,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 4.609371800279887,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.634934532110229,
+          "local_rotation_error_deg": 9.928671409978165
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 10.753292204734782,
+          "local_rotation_error_deg": 14.476713058923483
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 8.968661165439466,
+          "local_rotation_error_deg": 6.86218195983048
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.000392261598172802,
+          "local_rotation_error_deg": 6.634946581799724
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 15.816807343293444,
+          "local_rotation_error_deg": 11.054734986377163
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 27.46752142599162,
+          "local_rotation_error_deg": 18.69062068105371
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 13.635214770650819,
+          "local_rotation_error_deg": 14.708514317511545
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 18.36945861181457,
+          "local_rotation_error_deg": 31.188442099632926
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.4129680605899,
+          "local_rotation_error_deg": 24.65552607992121
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.928679831699076,
+          "local_rotation_error_deg": 13.631467799820056
+        }
+      ],
+      "source_sha256": "afd1e0e2d0636ae793cd906613834de61cd366a15b53be5e8575cbd8f53cacd0"
+    },
+    {
+      "stage": "C_20000",
+      "posed_mesh_absolute_mean_mm": 19.103532427034047,
+      "posed_mesh_absolute_p95_mm": 59.49173295176454,
+      "body_surface_without_head_neck_hands_mean_mm": 39.625216334311226,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 10.749545570031348,
+      "native22_camera_rotation_mean_deg": 9.586521763195622,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 4.964448540597355,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.2707467580981895,
+          "local_rotation_error_deg": 5.044312441736585
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 3.530185766645074,
+          "local_rotation_error_deg": 1.9256955713076478
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 5.956079051562634,
+          "local_rotation_error_deg": 6.150067767361718
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 7.1971104252099405,
+          "local_rotation_error_deg": 7.6173727631791985
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 4.900270484857808,
+          "local_rotation_error_deg": 5.009672404163243
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 24.508404429489232,
+          "local_rotation_error_deg": 23.393615503114862
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 7.1971104252099405,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 4.900270484857808,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 5.066511862507385,
+          "local_rotation_error_deg": 27.054762811287524
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 7.1971104252099405,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 4.900270484857808,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 7.262554253146453,
+          "local_rotation_error_deg": 11.119120260326094
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 10.126339663130649,
+          "local_rotation_error_deg": 14.447540826341228
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 8.151164799717307,
+          "local_rotation_error_deg": 5.7715675462938725
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.00021154286259484918,
+          "local_rotation_error_deg": 7.262385890147731
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 15.319512679277532,
+          "local_rotation_error_deg": 10.053950450851904
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 26.72482608761606,
+          "local_rotation_error_deg": 18.745977699587105
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 14.824839120092795,
+          "local_rotation_error_deg": 15.191500276829865
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 16.595336399119727,
+          "local_rotation_error_deg": 29.91212088895767
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.401743704937417,
+          "local_rotation_error_deg": 25.04364480102122
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.908431401299982,
+          "local_rotation_error_deg": 11.997149068150796
+        }
+      ],
+      "source_sha256": "472ac4379cf0b86a6eb242f890713d2b038c2f40c9ca615d6e57ebb5da66f084"
+    },
+    {
+      "stage": "D_0",
+      "posed_mesh_absolute_mean_mm": 156.20125260413883,
+      "posed_mesh_absolute_p95_mm": 881.317939438035,
+      "body_surface_without_head_neck_hands_mean_mm": 80.91680937393389,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 16.996673056200077,
+      "native22_camera_rotation_mean_deg": 33.27529903231871,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 17.22132002803759,
+          "local_rotation_error_deg": 17.221329829222025
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 16.566430417837072,
+          "local_rotation_error_deg": 16.566422215557655
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 1.2230559825418758e-05,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 61.93873387305243,
+          "local_rotation_error_deg": 47.71521267607446
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 62.330217312919046,
+          "local_rotation_error_deg": 47.68296881789679
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 157.49156741351104,
+          "local_rotation_error_deg": 96.55636621053307
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 146.50305362378927,
+          "local_rotation_error_deg": 91.51319095698686
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 138.15350622499983,
+          "local_rotation_error_deg": 22.916381293441024
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 131.8515785890279,
+          "local_rotation_error_deg": 16.758262180489723
+        }
+      ],
+      "source_sha256": "066f24beccbbac33dc6301b8031bb401a46eb4d6dbe4b397c7c9e1602b6eba1b"
+    },
+    {
+      "stage": "D_3400",
+      "posed_mesh_absolute_mean_mm": 18.386162878338606,
+      "posed_mesh_absolute_p95_mm": 64.00972331206384,
+      "body_surface_without_head_neck_hands_mean_mm": 37.79735953841364,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 12.350275735545717,
+      "native22_camera_rotation_mean_deg": 11.533788558207547,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 8.954443679387737,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.638911088980348,
+          "local_rotation_error_deg": 10.713824391257138
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 2.0619197817745545,
+          "local_rotation_error_deg": 8.605257995879485
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 11.418229474255382,
+          "local_rotation_error_deg": 6.437767071755945
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.936755247922903,
+          "local_rotation_error_deg": 10.99744483243145
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 11.194292976645826,
+          "local_rotation_error_deg": 10.605224641538612
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 20.443979291739293,
+          "local_rotation_error_deg": 10.023119852801122
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.936755247922903,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 11.194292976645826,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 1.8157629373292836,
+          "local_rotation_error_deg": 21.903656847411582
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.936755247922903,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 11.194292976645826,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 9.021201020403927,
+          "local_rotation_error_deg": 8.631430455185612
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 18.584013162542572,
+          "local_rotation_error_deg": 19.242493732267356
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 16.20967309285504,
+          "local_rotation_error_deg": 16.196437107730034
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.023417053059834807,
+          "local_rotation_error_deg": 9.020204259666945
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 17.229569523764518,
+          "local_rotation_error_deg": 19.33365406895825
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 30.252584718063304,
+          "local_rotation_error_deg": 24.640317961846463
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 14.577001471200813,
+          "local_rotation_error_deg": 11.560470047612109
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 19.032606273542363,
+          "local_rotation_error_deg": 36.57736398789192
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 19.019602338975407,
+          "local_rotation_error_deg": 20.80657125595698
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 6.067288698985476,
+          "local_rotation_error_deg": 14.060551936269038
+        }
+      ],
+      "source_sha256": "adc51eba381372b23321c2b5a4d2bdf77dc9a5c885f6839751beef4843712e15"
+    },
+    {
+      "stage": "D_10000",
+      "posed_mesh_absolute_mean_mm": 18.542989560665575,
+      "posed_mesh_absolute_p95_mm": 57.887417768238706,
+      "body_surface_without_head_neck_hands_mean_mm": 38.26653280028827,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 11.08236757490201,
+      "native22_camera_rotation_mean_deg": 9.75168438302145,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.6779902404902565,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 3.401788239556711,
+          "local_rotation_error_deg": 5.93606936475281
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 1.4050217860459537,
+          "local_rotation_error_deg": 4.417377205496505
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.619411176593415,
+          "local_rotation_error_deg": 6.639147346508436
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 6.826039297945294,
+          "local_rotation_error_deg": 7.688221527825851
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 3.7391482066110378,
+          "local_rotation_error_deg": 4.8182895948179425
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 22.13649327734163,
+          "local_rotation_error_deg": 18.85248305521095
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 6.826039297945294,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 3.7391482066110378,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 2.4520927087795266,
+          "local_rotation_error_deg": 22.81823348972863
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 6.826039297945294,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 3.7391482066110378,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 5.191075844126586,
+          "local_rotation_error_deg": 5.743146467853068
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 12.818001193524811,
+          "local_rotation_error_deg": 14.280419451646901
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 12.910316610397961,
+          "local_rotation_error_deg": 12.096681332964023
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0011149949955477296,
+          "local_rotation_error_deg": 5.1910391409248025
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 17.710838126276403,
+          "local_rotation_error_deg": 12.97108145427057
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 31.065734904930135,
+          "local_rotation_error_deg": 18.35161090838991
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 11.025618617040092,
+          "local_rotation_error_deg": 14.716779469325415
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 22.907399658781053,
+          "local_rotation_error_deg": 36.12258761620362
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.494622174079822,
+          "local_rotation_error_deg": 24.1242833585808
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 6.023974359843016,
+          "local_rotation_error_deg": 17.962268288441937
+        }
+      ],
+      "source_sha256": "c76af1e10e7ac845f5cf59887e195dba95c529d9a44c2657f68c952b759ac921"
+    },
+    {
+      "stage": "D_16000",
+      "posed_mesh_absolute_mean_mm": 19.002621670543107,
+      "posed_mesh_absolute_p95_mm": 59.095995934078324,
+      "body_surface_without_head_neck_hands_mean_mm": 39.3790506221824,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 10.810572779788599,
+      "native22_camera_rotation_mean_deg": 9.616439131476191,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 5.0859085149329895,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.290993216038947,
+          "local_rotation_error_deg": 5.206839908005948
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 2.9216109991656443,
+          "local_rotation_error_deg": 2.4172790745152466
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.130352166076135,
+          "local_rotation_error_deg": 6.718720814339697
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 7.204303744860855,
+          "local_rotation_error_deg": 7.6249098171137275
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 4.498330217461561,
+          "local_rotation_error_deg": 4.959673171902658
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 22.504310306142482,
+          "local_rotation_error_deg": 20.676227166608705
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 7.204303744860855,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 4.498330217461561,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 3.9967936260108825,
+          "local_rotation_error_deg": 24.002090822321748
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 7.204303744860855,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 4.498330217461561,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 6.797238848968666,
+          "local_rotation_error_deg": 9.314193667523032
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 10.878185706188365,
+          "local_rotation_error_deg": 14.215554842009707
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 9.063537698952993,
+          "local_rotation_error_deg": 7.313058453334497
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0005007150308638283,
+          "local_rotation_error_deg": 6.797637307251381
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 15.82130970821403,
+          "local_rotation_error_deg": 11.46123120585326
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 28.533551200886436,
+          "local_rotation_error_deg": 19.60364515466435
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 13.23264282033172,
+          "local_rotation_error_deg": 14.482318209148172
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 19.80880023992401,
+          "local_rotation_error_deg": 32.67524289052996
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.434090281996724,
+          "local_rotation_error_deg": 24.565246284875098
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.95393295664804,
+          "local_rotation_error_deg": 14.988159585563414
+        }
+      ],
+      "source_sha256": "944472c9d430edc15ade39dd051a67a859a9edd38fbac58252fe04d7cb5ef4f1"
+    },
+    {
+      "stage": "D_20000",
+      "posed_mesh_absolute_mean_mm": 19.114775374913666,
+      "posed_mesh_absolute_p95_mm": 59.41803179940313,
+      "body_surface_without_head_neck_hands_mean_mm": 39.636148608646565,
+      "body_surface_vertex_count": 4011,
+      "body21_local_rotation_mean_deg": 10.75921978524029,
+      "native22_camera_rotation_mean_deg": 9.610813883904484,
+      "per_joint": [
+        {
+          "name": "Pelvis",
+          "camera_rotation_error_deg": 4.9722318166722586,
+          "local_rotation_error_deg": null
+        },
+        {
+          "name": "L_Hip",
+          "camera_rotation_error_deg": 4.296330015364037,
+          "local_rotation_error_deg": 5.062658057293799
+        },
+        {
+          "name": "R_Hip",
+          "camera_rotation_error_deg": 3.467214545316232,
+          "local_rotation_error_deg": 1.960644752686387
+        },
+        {
+          "name": "Spine_1",
+          "camera_rotation_error_deg": 6.171619756119307,
+          "local_rotation_error_deg": 6.8018481631850545
+        },
+        {
+          "name": "L_Knee",
+          "camera_rotation_error_deg": 7.211663685408292,
+          "local_rotation_error_deg": 7.619554226057436
+        },
+        {
+          "name": "R_Knee",
+          "camera_rotation_error_deg": 4.8566548894299295,
+          "local_rotation_error_deg": 5.007601529933454
+        },
+        {
+          "name": "Spine_2",
+          "camera_rotation_error_deg": 22.99203701433049,
+          "local_rotation_error_deg": 21.537706766833736
+        },
+        {
+          "name": "L_Ankle",
+          "camera_rotation_error_deg": 7.211663685408292,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Ankle",
+          "camera_rotation_error_deg": 4.8566548894299295,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Spine_3",
+          "camera_rotation_error_deg": 4.709832102669982,
+          "local_rotation_error_deg": 24.999428347098984
+        },
+        {
+          "name": "L_Foot",
+          "camera_rotation_error_deg": 7.211663685408292,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "R_Foot",
+          "camera_rotation_error_deg": 4.8566548894299295,
+          "local_rotation_error_deg": 0.0
+        },
+        {
+          "name": "Neck",
+          "camera_rotation_error_deg": 7.371192902669843,
+          "local_rotation_error_deg": 10.712215578262596
+        },
+        {
+          "name": "L_Collar",
+          "camera_rotation_error_deg": 10.223519629349619,
+          "local_rotation_error_deg": 14.306658490687925
+        },
+        {
+          "name": "R_Collar",
+          "camera_rotation_error_deg": 8.204199373532134,
+          "local_rotation_error_deg": 6.045895783424331
+        },
+        {
+          "name": "Head",
+          "camera_rotation_error_deg": 0.0008267455413036805,
+          "local_rotation_error_deg": 7.370427683959978
+        },
+        {
+          "name": "L_Shoulder",
+          "camera_rotation_error_deg": 15.298372676637468,
+          "local_rotation_error_deg": 10.400690628035624
+        },
+        {
+          "name": "R_Shoulder",
+          "camera_rotation_error_deg": 27.748644388816732,
+          "local_rotation_error_deg": 19.662962443230846
+        },
+        {
+          "name": "L_Elbow",
+          "camera_rotation_error_deg": 14.452281229082393,
+          "local_rotation_error_deg": 14.937698851846497
+        },
+        {
+          "name": "R_Elbow",
+          "camera_rotation_error_deg": 17.978250472099756,
+          "local_rotation_error_deg": 31.30952200078707
+        },
+        {
+          "name": "L_Wrist",
+          "camera_rotation_error_deg": 21.417470357333567,
+          "local_rotation_error_deg": 24.935435161739722
+        },
+        {
+          "name": "R_Wrist",
+          "camera_rotation_error_deg": 5.928926695848881,
+          "local_rotation_error_deg": 13.272667024982646
+        }
+      ],
+      "source_sha256": "07827232df1175eb7bced55c41b5c7a0180f219ce176973e64610e9b5775d8e7"
+    }
+  ]
+}

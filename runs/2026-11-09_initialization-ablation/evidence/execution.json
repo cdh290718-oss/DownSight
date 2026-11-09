@@ -1,0 +1,78 @@
+[
+  {
+    "case": "B",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 306.6007204055786,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/fit.py",
+      "--case",
+      "B"
+    ],
+    "source_sha256": {
+      "fit.py": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "common.py": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "settings.json": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "cases.json": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e"
+    }
+  },
+  {
+    "case": "A",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 349.9829888343811,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/fit.py",
+      "--case",
+      "A"
+    ],
+    "source_sha256": {
+      "fit.py": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "common.py": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "settings.json": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "cases.json": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e"
+    }
+  },
+  {
+    "case": "C",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 309.7161877155304,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/fit.py",
+      "--case",
+      "C"
+    ],
+    "source_sha256": {
+      "fit.py": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "common.py": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "settings.json": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "cases.json": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e"
+    }
+  },
+  {
+    "case": "D",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 286.34218287467957,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/fit.py",
+      "--case",
+      "D"
+    ],
+    "source_sha256": {
+      "fit.py": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "common.py": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "settings.json": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "cases.json": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e"
+    }
+  }
+]

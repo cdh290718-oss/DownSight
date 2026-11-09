@@ -1,0 +1,145 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "B",
+      "file": "fit.py",
+      "expected_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "actual_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "matched": true
+    },
+    {
+      "case": "B",
+      "file": "common.py",
+      "expected_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "actual_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "matched": true
+    },
+    {
+      "case": "B",
+      "file": "initialization.py",
+      "expected_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "actual_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "matched": true
+    },
+    {
+      "case": "B",
+      "file": "settings.json",
+      "expected_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "actual_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "matched": true
+    },
+    {
+      "case": "B",
+      "file": "cases.json",
+      "expected_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "actual_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "matched": true
+    },
+    {
+      "case": "A",
+      "file": "fit.py",
+      "expected_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "actual_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "matched": true
+    },
+    {
+      "case": "A",
+      "file": "common.py",
+      "expected_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "actual_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "matched": true
+    },
+    {
+      "case": "A",
+      "file": "initialization.py",
+      "expected_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "actual_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "matched": true
+    },
+    {
+      "case": "A",
+      "file": "settings.json",
+      "expected_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "actual_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "matched": true
+    },
+    {
+      "case": "A",
+      "file": "cases.json",
+      "expected_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "actual_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "matched": true
+    },
+    {
+      "case": "C",
+      "file": "fit.py",
+      "expected_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "actual_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "matched": true
+    },
+    {
+      "case": "C",
+      "file": "common.py",
+      "expected_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "actual_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "matched": true
+    },
+    {
+      "case": "C",
+      "file": "initialization.py",
+      "expected_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "actual_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "matched": true
+    },
+    {
+      "case": "C",
+      "file": "settings.json",
+      "expected_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "actual_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "matched": true
+    },
+    {
+      "case": "C",
+      "file": "cases.json",
+      "expected_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "actual_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "matched": true
+    },
+    {
+      "case": "D",
+      "file": "fit.py",
+      "expected_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "actual_sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "matched": true
+    },
+    {
+      "case": "D",
+      "file": "common.py",
+      "expected_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "actual_sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "matched": true
+    },
+    {
+      "case": "D",
+      "file": "initialization.py",
+      "expected_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "actual_sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "matched": true
+    },
+    {
+      "case": "D",
+      "file": "settings.json",
+      "expected_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "actual_sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "matched": true
+    },
+    {
+      "case": "D",
+      "file": "cases.json",
+      "expected_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "actual_sha256": "20599b1e8d238440512370fd3ae7db3e8596ad13a014a44c667262bc45edce0e",
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "case": "A",
+    "seed": "left",
+    "shape_seed": "network",
+    "pose_seed": "network"
+  },
+  {
+    "case": "B",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "network"
+  },
+  {
+    "case": "C",
+    "seed": "left",
+    "shape_seed": "network",
+    "pose_seed": "template"
+  },
+  {
+    "case": "D",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  }
+]

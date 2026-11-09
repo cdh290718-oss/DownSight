@@ -1,0 +1,58 @@
+[
+  {
+    "case": "A_left",
+    "sha256": "0ceb7a88c2926c14d88e734b56a39bdd90f9dcd81d3fb3c402014a276ccf5537",
+    "completed_lines": [
+      "DONE A 20000"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ],
+    "standard_warnings": [
+      "WARNING: You are using a SMPL model, with only 10 shape coefficients."
+    ]
+  },
+  {
+    "case": "B_left",
+    "sha256": "d2de4f65aa66227376fdf7df81ba511f1710e1f04dd0d867fd52fd6dc2c08a6e",
+    "completed_lines": [
+      "DONE B 20000"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ],
+    "standard_warnings": [
+      "WARNING: You are using a SMPL model, with only 10 shape coefficients."
+    ]
+  },
+  {
+    "case": "C_left",
+    "sha256": "d87a5c253bfbc5ab97550b22c80c45c7d2a78b473de9083870e81d2031d2dc47",
+    "completed_lines": [
+      "DONE C 20000"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ],
+    "standard_warnings": [
+      "WARNING: You are using a SMPL model, with only 10 shape coefficients."
+    ]
+  },
+  {
+    "case": "D_left",
+    "sha256": "c4c91ee962227403c2418825820172c6c574da65d241f4c29001c5b309d2d511",
+    "completed_lines": [
+      "DONE D 19960"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ],
+    "standard_warnings": [
+      "WARNING: You are using a SMPL model, with only 10 shape coefficients."
+    ]
+  }
+]

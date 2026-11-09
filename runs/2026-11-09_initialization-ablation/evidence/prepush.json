@@ -1,0 +1,34 @@
+{
+  "scope": "Current increment only; pre-existing untracked point_comparison_followup.json scanned but excluded. No historical audit.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "exit_status": 0,
+      "passed": true,
+      "base": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+      "remote_main": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+      "errors": [],
+      "files_checked": 59,
+      "command": "<BODY_PYTHON> runs/2026-11-09_initialization-ablation/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "exit_status": 0,
+      "passed": true,
+      "base": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+      "remote_main": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+      "errors": [],
+      "files_checked": 58,
+      "command": "<BODY_PYTHON> runs/2026-11-09_initialization-ablation/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "policies_checked": [
+    "No weights/datasets/video/NPZ/NPY or complete raw output; every file below 50 MB",
+    "No credentials/tokens/.env; machine paths redacted",
+    "No full provenance or backend patch; private backend source manifest remains local",
+    "Derived figures integrity/dimensions/EXIF and projection links checked",
+    "No unrelated staged content; origin/main matches baseline; git diff --check"
+  ],
+  "validation": "Four fits and all evaluations exited zero. Independent loss, factor isolation, common shape basis, fixed parameters, read guards, two-camera invariance and 20 fitting source hash comparisons passed. No claim of independent reviewer approval or all-case convergence.",
+  "receipt_policy": "Restage this receipt, recheck worktree/staged set, commit, then audit the commit before push. Full receipts remain in repository outputs."
+}

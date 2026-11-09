@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/evaluate.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 15.118518590927124,
+    "source_sha256": "0afc74932b815373a6aa7833196e62e2dbaceceed92b5b7fa767ec14d19eb435"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/evaluate_shape.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 6.109323740005493,
+    "source_sha256": "e4cdda8623d8a64d507017882d5efb80e7f6da7ab9a0f6f02e29e05181294d3c"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/evaluate_mesh.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 5.986100435256958,
+    "source_sha256": "3862ff4aa9f42fad02c9f84ad0b27de2053f81b72a7902dd0c83b10c6c0560c3"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/verify.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 1.1894772052764893,
+    "source_sha256": "32a8228eaae705d2dd6fc6f6bf822b71815cd0d71f7c4246c6b429ee3f6fc82e"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/plot_results.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 6.40922474861145,
+    "source_sha256": "11e9c7a4164590c535719b1630296a7d03fff084b9f59d06b0d429b4495ed6dd"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_initialization-ablation/build_report.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 0.8095011711120605,
+    "source_sha256": "57cf42fd2529911bc3134f7c3667e3cad35f2493e96b094c002205fbaebf50c7",
+    "analysis_sha256": "fd05de08a0feaeb5a15b966cbea9bf0ae20ff5f92d8b3b27a6f5ba73a9066272"
+  }
+]

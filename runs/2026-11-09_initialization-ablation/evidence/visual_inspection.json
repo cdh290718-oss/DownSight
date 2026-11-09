@@ -1,0 +1,15 @@
+{
+  "scope": "Manual inspection of four derived figures. Other figures checked for file integrity and dimensions during publication audit.",
+  "files": [
+    "assets/left_D_20000.jpg",
+    "assets/right_D_20000.jpg",
+    "assets/skeleton_left_20000.png",
+    "assets/convergence.png"
+  ],
+  "observations": [
+    "A and D body skeletons nearly overlap after the extended budget while both deviate from GT at pelvis/lower limbs.",
+    "Both D camera overlays retain visible elbow/lower-body marker offsets, hand-shape and body-surface mismatches. Keypoint similarity does not establish silhouette or collision correctness.",
+    "Training objective curves approach similar values; held-out GT body errors are not monotonic with optimization budget.",
+    "Legends readable, charts at 1280x720; side skeleton axes use equal metric aspect."
+  ]
+}

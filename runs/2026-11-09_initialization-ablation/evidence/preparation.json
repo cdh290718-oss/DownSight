@@ -1,0 +1,32 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-09_initialization-ablation/prepare.py",
+  "copied_assets": [
+    {
+      "source": "outputs/synthetic_body_target_oracle_20261109/inputs.json",
+      "destination": "outputs/initialization_ablation_20261109/inputs.json",
+      "sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "identical": true
+    },
+    {
+      "source": "outputs/synthetic_body_target_oracle_20261109/triangulated.json",
+      "destination": "outputs/initialization_ablation_20261109/triangulated.json",
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "identical": true
+    },
+    {
+      "source": "outputs/synthetic_body_target_oracle_20261109/anchors/oracle.json",
+      "destination": "outputs/initialization_ablation_20261109/anchors/oracle.json",
+      "sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "identical": true
+    }
+  ],
+  "network_source": "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+  "network_source_sha256": "da8448ebac444b06321e187b0ae6bf100eb72da53e8ee8eb0ea8724da29189cb",
+  "seed_sha256": {
+    "shape": "53784eab3a866946e6fd37c3f0add04c84adc62ecb85cec7fbbb229ad2f4fabb",
+    "pose": "e104287b18ee62ec694f595a927e5e173f9976118ef373f0646048da2ae19eb1"
+  },
+  "scope": "D reads neither seed; B pose only; C shape only; A both. No GT body coordinates/shape/pose extracted. Body and hand targets automatic. Network global rotation/translation/hands/face never extracted.",
+  "baseline": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6"
+}

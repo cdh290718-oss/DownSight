@@ -1,0 +1,251 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "A",
+      "passed": true,
+      "failures": [],
+      "read_files": [
+        "outputs/initialization_ablation_20261109/A_left/budget_10000.npz",
+        "outputs/initialization_ablation_20261109/A_left/budget_16000.npz",
+        "outputs/initialization_ablation_20261109/A_left/budget_20000.npz",
+        "outputs/initialization_ablation_20261109/A_left/budget_3400.npz",
+        "outputs/initialization_ablation_20261109/A_left/final.npz",
+        "outputs/initialization_ablation_20261109/A_left/initial.npz",
+        "outputs/initialization_ablation_20261109/anchors/oracle.json",
+        "outputs/initialization_ablation_20261109/inputs.json",
+        "outputs/initialization_ablation_20261109/model_paths.json",
+        "outputs/initialization_ablation_20261109/seeds/pose.json",
+        "outputs/initialization_ablation_20261109/seeds/shape.json",
+        "outputs/initialization_ablation_20261109/triangulated.json"
+      ],
+      "independent_loss_errors": {
+        "3400": {
+          "metric/body": 2.450129618072547e-09,
+          "metric/wrist": 2.709206466866489e-09,
+          "metric/shoulder": 5.438960626823718e-10,
+          "metric/hand_left": 1.6748253211813086e-09,
+          "metric/hand_right": 3.0297941888105147e-09,
+          "pose_prior": 5.3858285019303676e-14,
+          "shape_prior": 7.821654438296501e-13,
+          "head_orientation": 5.716013169717506e-12
+        },
+        "10000": {
+          "metric/body": 4.3308822673948644e-10,
+          "metric/wrist": 1.3261011294562976e-09,
+          "metric/shoulder": 1.3256114955728648e-11,
+          "metric/hand_left": 7.463573706550236e-10,
+          "metric/hand_right": 1.532480290399301e-09,
+          "pose_prior": 3.107017342517636e-13,
+          "shape_prior": 3.3833202945932886e-13,
+          "head_orientation": 1.3820892014420842e-11
+        },
+        "16000": {
+          "metric/body": 3.5641359546860485e-10,
+          "metric/wrist": 1.4464546600545048e-09,
+          "metric/shoulder": 1.9114384689844846e-11,
+          "metric/hand_left": 1.5635721499821214e-09,
+          "metric/hand_right": 9.703569994507118e-10,
+          "pose_prior": 1.0564653162980098e-12,
+          "shape_prior": 2.910383014502558e-14,
+          "head_orientation": 8.288793863572009e-12
+        },
+        "20000": {
+          "metric/body": 5.433420206812922e-10,
+          "metric/wrist": 1.7663626464914188e-09,
+          "metric/shoulder": 6.081424971081124e-10,
+          "metric/hand_left": 2.040119856090792e-10,
+          "metric/hand_right": 4.705888369412568e-10,
+          "pose_prior": 5.248432981622142e-13,
+          "shape_prior": 6.657501215554819e-13,
+          "head_orientation": 4.053532059845275e-12
+        }
+      }
+    },
+    {
+      "case": "B",
+      "passed": true,
+      "failures": [],
+      "read_files": [
+        "outputs/initialization_ablation_20261109/B_left/budget_10000.npz",
+        "outputs/initialization_ablation_20261109/B_left/budget_16000.npz",
+        "outputs/initialization_ablation_20261109/B_left/budget_20000.npz",
+        "outputs/initialization_ablation_20261109/B_left/budget_3400.npz",
+        "outputs/initialization_ablation_20261109/B_left/final.npz",
+        "outputs/initialization_ablation_20261109/B_left/initial.npz",
+        "outputs/initialization_ablation_20261109/anchors/oracle.json",
+        "outputs/initialization_ablation_20261109/inputs.json",
+        "outputs/initialization_ablation_20261109/model_paths.json",
+        "outputs/initialization_ablation_20261109/seeds/pose.json",
+        "outputs/initialization_ablation_20261109/triangulated.json"
+      ],
+      "independent_loss_errors": {
+        "3400": {
+          "metric/body": 6.332755389960171e-10,
+          "metric/wrist": 3.2961510675192697e-09,
+          "metric/shoulder": 3.8123224637364415e-10,
+          "metric/hand_left": 6.428572970717909e-11,
+          "metric/hand_right": 2.7775825563181034e-09,
+          "pose_prior": 1.23507848303543e-12,
+          "shape_prior": 2.1827872862879068e-13,
+          "head_orientation": 1.0445582441026797e-11
+        },
+        "10000": {
+          "metric/body": 3.9234747178582e-11,
+          "metric/wrist": 3.221360920797455e-10,
+          "metric/shoulder": 2.557415092955921e-10,
+          "metric/hand_left": 9.406032339728115e-10,
+          "metric/hand_right": 1.474742941968369e-09,
+          "pose_prior": 9.338478985053671e-13,
+          "shape_prior": 1.164153222741682e-13,
+          "head_orientation": 2.7864941537472523e-12
+        },
+        "16000": {
+          "metric/body": 1.091385738510517e-09,
+          "metric/wrist": 4.385509622971732e-09,
+          "metric/shoulder": 3.201703756988434e-10,
+          "metric/hand_left": 2.6255672527612794e-10,
+          "metric/hand_right": 4.503631845979936e-09,
+          "pose_prior": 1.6060225150910535e-12,
+          "shape_prior": 8.258211890471885e-13,
+          "head_orientation": 1.5495440803633006e-11
+        },
+        "20000": {
+          "metric/body": 2.464870037244271e-09,
+          "metric/wrist": 4.0757989989459486e-09,
+          "metric/shoulder": 1.9422533243176887e-11,
+          "metric/hand_left": 1.2828639179055489e-09,
+          "metric/hand_right": 2.7552214466636422e-09,
+          "pose_prior": 5.31131352278242e-13,
+          "shape_prior": 8.476490620794742e-13,
+          "head_orientation": 1.4419224962996126e-12
+        }
+      }
+    },
+    {
+      "case": "C",
+      "passed": true,
+      "failures": [],
+      "read_files": [
+        "outputs/initialization_ablation_20261109/C_left/budget_10000.npz",
+        "outputs/initialization_ablation_20261109/C_left/budget_16000.npz",
+        "outputs/initialization_ablation_20261109/C_left/budget_20000.npz",
+        "outputs/initialization_ablation_20261109/C_left/budget_3400.npz",
+        "outputs/initialization_ablation_20261109/C_left/final.npz",
+        "outputs/initialization_ablation_20261109/C_left/initial.npz",
+        "outputs/initialization_ablation_20261109/anchors/oracle.json",
+        "outputs/initialization_ablation_20261109/inputs.json",
+        "outputs/initialization_ablation_20261109/model_paths.json",
+        "outputs/initialization_ablation_20261109/seeds/shape.json",
+        "outputs/initialization_ablation_20261109/triangulated.json"
+      ],
+      "independent_loss_errors": {
+        "3400": {
+          "metric/body": 3.0568226183809444e-09,
+          "metric/wrist": 7.737239385461009e-10,
+          "metric/shoulder": 1.9310210261315117e-10,
+          "metric/hand_left": 7.074986219438289e-10,
+          "metric/hand_right": 6.636878605015533e-11,
+          "pose_prior": 2.82600792810353e-13,
+          "shape_prior": 5.908077582120631e-12,
+          "head_orientation": 1.6749872996828633e-11
+        },
+        "10000": {
+          "metric/body": 1.836311598656451e-09,
+          "metric/wrist": 1.1036614647258133e-09,
+          "metric/shoulder": 1.2656790871444501e-11,
+          "metric/hand_left": 1.316883129777978e-10,
+          "metric/hand_right": 8.18864461589637e-10,
+          "pose_prior": 4.345541497984256e-13,
+          "shape_prior": 6.693881009588848e-13,
+          "head_orientation": 1.1880993997106116e-11
+        },
+        "16000": {
+          "metric/body": 3.8018568675191045e-10,
+          "metric/wrist": 2.357584373096467e-09,
+          "metric/shoulder": 3.8828576516699263e-10,
+          "metric/hand_left": 1.479918075293716e-10,
+          "metric/hand_right": 4.054108348019222e-09,
+          "pose_prior": 2.9290847227076214e-13,
+          "shape_prior": 3.6379785563699606e-15,
+          "head_orientation": 4.3217091318715005e-12
+        },
+        "20000": {
+          "metric/body": 3.451215285776854e-10,
+          "metric/wrist": 1.2988350488174743e-09,
+          "metric/shoulder": 4.5376292268995214e-10,
+          "metric/hand_left": 3.9566027374999396e-10,
+          "metric/hand_right": 1.1850762970770645e-09,
+          "pose_prior": 2.2719222743340303e-13,
+          "shape_prior": 5.4569682580714145e-14,
+          "head_orientation": 1.1617102492257097e-12
+        }
+      }
+    },
+    {
+      "case": "D",
+      "passed": true,
+      "failures": [],
+      "read_files": [
+        "outputs/initialization_ablation_20261109/D_left/budget_10000.npz",
+        "outputs/initialization_ablation_20261109/D_left/budget_16000.npz",
+        "outputs/initialization_ablation_20261109/D_left/budget_20000.npz",
+        "outputs/initialization_ablation_20261109/D_left/budget_3400.npz",
+        "outputs/initialization_ablation_20261109/D_left/final.npz",
+        "outputs/initialization_ablation_20261109/D_left/initial.npz",
+        "outputs/initialization_ablation_20261109/anchors/oracle.json",
+        "outputs/initialization_ablation_20261109/inputs.json",
+        "outputs/initialization_ablation_20261109/model_paths.json",
+        "outputs/initialization_ablation_20261109/triangulated.json"
+      ],
+      "independent_loss_errors": {
+        "3400": {
+          "metric/body": 2.6518659664021005e-10,
+          "metric/wrist": 2.0183833688231575e-09,
+          "metric/shoulder": 1.2977718172020938e-09,
+          "metric/hand_left": 3.5617266717891637e-10,
+          "metric/hand_right": 1.9136347238811816e-09,
+          "pose_prior": 2.670353104898592e-12,
+          "shape_prior": 2.1536834527547495e-12,
+          "head_orientation": 1.0444080305692242e-11
+        },
+        "10000": {
+          "metric/body": 3.4793209047374873e-10,
+          "metric/wrist": 5.685393154494214e-10,
+          "metric/shoulder": 3.429836049233855e-10,
+          "metric/hand_left": 5.820613235374503e-10,
+          "metric/hand_right": 1.0267403086051084e-09,
+          "pose_prior": 1.7797823422829005e-13,
+          "shape_prior": 1.8189894052399224e-13,
+          "head_orientation": 1.5914411237531472e-11
+        },
+        "16000": {
+          "metric/body": 1.072698285232987e-09,
+          "metric/wrist": 7.679316116991218e-10,
+          "metric/shoulder": 7.90191182127066e-10,
+          "metric/hand_left": 1.8349198454615558e-10,
+          "metric/hand_right": 1.2696312525080876e-09,
+          "pose_prior": 7.901240188653517e-13,
+          "shape_prior": 4.1836756278166567e-13,
+          "head_orientation": 1.0701477155508733e-12
+        },
+        "20000": {
+          "metric/body": 2.639879334662837e-09,
+          "metric/wrist": 2.843462291531485e-09,
+          "metric/shoulder": 6.116310797134143e-11,
+          "metric/hand_left": 8.207818657591029e-10,
+          "metric/hand_right": 1.479371879880599e-09,
+          "pose_prior": 2.0378688360823786e-12,
+          "shape_prior": 2.983142619511275e-13,
+          "head_orientation": 1.993172107357555e-12
+        }
+      }
+    }
+  ],
+  "factor_checks": {
+    "network_pose_equal_AB": true,
+    "template_pose_equal_CD": true,
+    "network_shape_equal_AC": true,
+    "mean_shape_equal_BD": true
+  }
+}

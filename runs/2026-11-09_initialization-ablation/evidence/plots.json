@@ -1,0 +1,118 @@
+{
+  "exit_status": 0,
+  "plots": [
+    {
+      "image": "assets/skeleton_left_3400.png",
+      "sha256": "b98f648f5f2a1f275ef70e45c499b1eec96ad6cc97b72adfa99c655e3a81a2b7",
+      "side": "left",
+      "budget": 3400,
+      "ray_axis_limits": [
+        [
+          -25.493493609525377,
+          39.142285293360416
+        ],
+        [
+          27.020102262094696,
+          -6.314397527476945
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.7025614261627198
+        ],
+        [
+          0.6299033289272116,
+          -0.07934437990188599
+        ]
+      ],
+      "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58"
+    },
+    {
+      "image": "assets/skeleton_left_20000.png",
+      "sha256": "a904338f2709e3611624abc5c8e44523834c50e4688f42e0645936f95203c757",
+      "side": "left",
+      "budget": 20000,
+      "ray_axis_limits": [
+        [
+          -25.493493609525377,
+          39.142285293360416
+        ],
+        [
+          27.020102262094696,
+          -6.314397527476945
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.7025614261627198
+        ],
+        [
+          0.6299033289272116,
+          -0.07934437990188599
+        ]
+      ],
+      "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58"
+    },
+    {
+      "image": "assets/skeleton_right_3400.png",
+      "sha256": "82ea56dd66a6b7741c0a7b42ece2325aeaf1abadb288661757cd85d263bc329a",
+      "side": "right",
+      "budget": 3400,
+      "ray_axis_limits": [
+        [
+          -39.08116110121058,
+          25.74698104333509
+        ],
+        [
+          25.383859290089962,
+          -7.552853593656051
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.7033918157903802
+        ],
+        [
+          0.5831159859668082,
+          -0.09220293040139707
+        ]
+      ],
+      "gt_source_sha256": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80"
+    },
+    {
+      "image": "assets/skeleton_right_20000.png",
+      "sha256": "1da793f2229a11556fbb10e11e4852f7361fa3614e717b372cc9e46eeea93853",
+      "side": "right",
+      "budget": 20000,
+      "ray_axis_limits": [
+        [
+          -39.08116110121058,
+          25.74698104333509
+        ],
+        [
+          25.383859290089962,
+          -7.552853593656051
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.7033918157903802
+        ],
+        [
+          0.5831159859668082,
+          -0.09220293040139707
+        ]
+      ],
+      "gt_source_sha256": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80"
+    },
+    {
+      "image": "assets/convergence.png",
+      "sha256": "530e9b1796a5a618eb7060138a9b92c925f48404a520c45f4358456e653db65e"
+    }
+  ],
+  "scope": "Fixed budgets and same within-camera skeleton axes. Ray angles are not distorted pixels. Both cameras share one body."
+}
