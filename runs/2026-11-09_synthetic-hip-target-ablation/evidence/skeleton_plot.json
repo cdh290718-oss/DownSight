@@ -1,0 +1,229 @@
+{
+  "exit_status": 0,
+  "plots": [
+    {
+      "side": "left",
+      "image": "assets/skeleton_left.png",
+      "sha256": "c700a2de85f2bd4591a715b0c3c83d13823d1783a093734579d1b4712e805711",
+      "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+      "series": [
+        "Ground truth",
+        "Control",
+        "GT hip targets"
+      ],
+      "axis_limits": [
+        {
+          "x": [
+            -25.33127175835221,
+            39.06959753391816
+          ],
+          "y": [
+            39.91398296651991,
+            -19.04507924984973
+          ]
+        },
+        {
+          "x": [
+            -0.08045601925772287,
+            1.6895764044121802
+          ],
+          "y": [
+            1.0861341666783404,
+            -0.5343323416001583
+          ]
+        }
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          13
+        ]
+      ]
+    },
+    {
+      "side": "right",
+      "image": "assets/skeleton_right.png",
+      "sha256": "1f89484531a33d7bce7372ad60e908a86c51e86a2ed6584044caf158a5cdd8fe",
+      "gt_source_sha256": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80",
+      "series": [
+        "Ground truth",
+        "Control",
+        "GT hip targets"
+      ],
+      "axis_limits": [
+        {
+          "x": [
+            -39.309336116881845,
+            25.70204376525018
+          ],
+          "y": [
+            38.74942975082712,
+            -20.768555539826636
+          ]
+        },
+        {
+          "x": [
+            -0.0805566924619238,
+            1.6916905417003998
+          ],
+          "y": [
+            1.0572469615356606,
+            -0.5652472080315
+          ]
+        }
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          5,
+          16
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          13
+        ]
+      ]
+    }
+  ],
+  "scope": "All three conditions use identical axes within each camera; side panel uses equal metric axis aspect. Left panel is undistorted ray angles, not a distorted pixel projection. GT in-frame flags are not occlusion visibility; all25 points shown in side view. Native Head anchor is not itself one of body25, which includes facial surface landmarks.",
+  "source": "Cached joints verified against reconstruction by fitter and replay checks; GT only read for evaluation."
+}

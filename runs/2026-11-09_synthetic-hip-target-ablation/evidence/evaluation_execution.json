@@ -1,0 +1,65 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/evaluate.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 11.137177467346191,
+    "source_sha256": "1d95eaa0fb1557b148bee40cc354c3c827a6c925fe40b87fcf91ca0a0e2d4984"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/evaluate_shape.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 5.932311773300171,
+    "source_sha256": "738922e21ccf6d720f76b9793594ff4e30f402579525017af4193659a8beeb81"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/verify.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 0.7495682239532471,
+    "source_sha256": "69a77bfd7ca27654bd83c6e9429083e0684311e2f9629b69c66ef3e169270a14"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/plot_skeleton.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 4.7332444190979,
+    "source_sha256": "9e7b2a1297ac4e27d55c1e085e8af1a01a49b8a39ee5fe874be6be8080265b6b"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/ray_diagnostic.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "f244ba951cd49a32204e70968682de3b260b755701e0984d5db86d7f8ca11bfa",
+    "note": "Post-fit analysis/report only, no fitting rerun or changes to optimized targets."
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/build_report.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "9fcc2a07e687d3061894ef773e6f17b94d6c62f625f176f1b2117ec570642519",
+    "note": "Post-fit analysis/report only, no fitting rerun or changes to optimized targets."
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/build_report.py"
+    ],
+    "exit_status": 0,
+    "source_sha256": "6b84a490bb847235b0759dea4c4bd559fefff1cf21f27ec42405cfe3651f0d2f",
+    "note": "Document PNG audit-tool failure/fix; no fitting or metric change."
+  }
+]

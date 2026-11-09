@@ -1,0 +1,32 @@
+{
+  "scope": "Current run increment only; unrelated pre-existing untracked point_comparison_followup.json scanned but excluded. No historical audit.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "exit_status": 0,
+      "passed": true,
+      "base": "7a08c08b1afa9635447760cf0d140297137665dd",
+      "remote_main": "7a08c08b1afa9635447760cf0d140297137665dd",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-hip-target-ablation/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "exit_status": 0,
+      "passed": true,
+      "base": "7a08c08b1afa9635447760cf0d140297137665dd",
+      "remote_main": "7a08c08b1afa9635447760cf0d140297137665dd",
+      "errors": [],
+      "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-hip-target-ablation/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "policies_checked": [
+    "No weight/dataset/video/NPZ/NPY or complete raw outputs; individual file below 50 MB",
+    "No credentials/tokens/.env; paths redacted",
+    "No full provenance or patches",
+    "Image sizes and EXIF checked; fresh image stream verifies PNG/JPEG integrity",
+    "No unrelated staged files; origin/main matches baseline; git diff --check"
+  ],
+  "failure_and_fix": "Initial PNG audit failure and correction retained in development_failures.json; checks rerun successfully.",
+  "receipt_policy": "Staged set including this receipt is rechecked; commit audit must pass before push. Full receipts remain in repository outputs."
+}

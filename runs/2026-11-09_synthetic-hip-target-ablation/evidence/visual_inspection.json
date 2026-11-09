@@ -1,0 +1,12 @@
+{
+  "inspected": [
+    "assets/skeleton_left.png",
+    "assets/left_gt_hips_left.jpg"
+  ],
+  "findings": [
+    "Same-axis three-condition skeleton shows pelvis/hips moving toward GT, with knees/ankles largely unchanged.",
+    "Overlay landmarks and mesh display correctly.",
+    "Head and hands remain visually close to control; numerical per-side changes reported."
+  ],
+  "exit_status": 0
+}

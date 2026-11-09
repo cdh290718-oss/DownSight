@@ -1,0 +1,9 @@
+[
+  {
+    "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-hip-target-ablation/check_publication.py --mode worktree --out <LOCAL_RECEIPT>",
+    "exit_status": 1,
+    "error": "RuntimeError: verify must be called directly after open",
+    "context": "PIL PNG verification after getexif() had consumed the stream. Image dimension/metadata access preceded verify(). Fitting and evaluation had passed.",
+    "resolution": "Reopen a fresh image stream for verify(); rerun publication audits. No experimental outputs changed."
+  }
+]

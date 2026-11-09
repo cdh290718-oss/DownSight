@@ -1,0 +1,145 @@
+{
+  "exit_status": 0,
+  "scope": "Evaluation-only cam3 diagnostic; no fitting or target changes. Scale automatic triangulated 3D point along ray from cam3 origin to held-out true Z, then inspect residual Y. Triangulated point ray need not exactly equal either original detection ray because of reprojection residual.",
+  "equation": "p_at_true_Z = p_auto * Z_GT / Z_auto",
+  "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+  "rows": [
+    {
+      "name": "left_knee",
+      "index": 3,
+      "automatic_target_xyz_m": [
+        -0.03062346732028977,
+        0.3816571673695019,
+        1.2114408596384783
+      ],
+      "true_xyz_m": [
+        -0.03900381177663803,
+        0.409864169357055,
+        1.1225594661755074
+      ],
+      "automatic_ray_at_true_Z_m": [
+        -0.02837667464655795,
+        0.353655618147318,
+        1.1225594661755074
+      ],
+      "ray_at_true_Z_error_xyz_mm": [
+        10.627137130080081,
+        -56.208551209737,
+        0.0
+      ],
+      "control_error_xyz_mm": [
+        15.730492770671844,
+        -54.77310418867426,
+        4.710755534697686
+      ],
+      "gt_hips_error_xyz_mm": [
+        15.849560499191284,
+        -54.19461130880671,
+        2.7699090915214164
+      ]
+    },
+    {
+      "name": "right_knee",
+      "index": 4,
+      "automatic_target_xyz_m": [
+        0.20163097237486208,
+        0.4455080110023062,
+        1.4041222487858718
+      ],
+      "true_xyz_m": [
+        0.1813584715127945,
+        0.41159249378026763,
+        1.1169451748892136
+      ],
+      "automatic_ray_at_true_Z_m": [
+        0.16039254551878204,
+        0.35439081155062707,
+        1.1169451748892136
+      ],
+      "ray_at_true_Z_error_xyz_mm": [
+        -20.96592599401245,
+        -57.20168222964056,
+        0.0
+      ],
+      "control_error_xyz_mm": [
+        -4.257813096046448,
+        -56.28557039083282,
+        3.849240584724356
+      ],
+      "gt_hips_error_xyz_mm": [
+        -4.2205750942230225,
+        -53.53198481382171,
+        6.156059546821524
+      ]
+    },
+    {
+      "name": "left_ankle",
+      "index": 5,
+      "automatic_target_xyz_m": [
+        -0.02588211444510269,
+        0.47180447128768793,
+        1.5557454443427858
+      ],
+      "true_xyz_m": [
+        0.0044496431946754456,
+        0.5112464094700278,
+        1.5139603758210074
+      ],
+      "automatic_ray_at_true_Z_m": [
+        -0.025186958351597948,
+        0.4591324867844868,
+        1.5139603758210076
+      ],
+      "ray_at_true_Z_error_xyz_mm": [
+        -29.636601546273393,
+        -52.113922685540935,
+        2.220446049250313e-13
+      ],
+      "control_error_xyz_mm": [
+        -27.7324840426445,
+        -51.6026282848776,
+        1.8305635100472895
+      ],
+      "gt_hips_error_xyz_mm": [
+        -27.724623680114746,
+        -51.94198732990629,
+        0.5166387206185785
+      ]
+    },
+    {
+      "name": "right_ankle",
+      "index": 6,
+      "automatic_target_xyz_m": [
+        0.19573590258154824,
+        0.5108241234466974,
+        1.6821607193296173
+      ],
+      "true_xyz_m": [
+        0.16594167798757553,
+        0.5028001581271118,
+        1.5179268100243395
+      ],
+      "automatic_ray_at_true_Z_m": [
+        0.1766256760122488,
+        0.4609509800561377,
+        1.5179268100243395
+      ],
+      "ray_at_true_Z_error_xyz_mm": [
+        10.683998024673263,
+        -41.84917807097405,
+        0.0
+      ],
+      "control_error_xyz_mm": [
+        17.978765070438385,
+        -43.31078277425227,
+        -3.6853530388658573
+      ],
+      "gt_hips_error_xyz_mm": [
+        18.117256462574005,
+        -42.281231745046945,
+        -0.5345323067491581
+      ]
+    }
+  ],
+  "interpretation": "Residual Y after correcting Z indicates a directional mismatch in the automatic target. Agreement with fitted Y supports an observation-direction contribution; it does not separate definition mismatch, detection errors, calibration or optimization interactions."
+}

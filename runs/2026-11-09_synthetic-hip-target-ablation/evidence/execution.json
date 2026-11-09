@@ -1,0 +1,46 @@
+[
+  {
+    "case": "gt_hips",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 59.30443787574768,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/fit.py",
+      "--case",
+      "gt_hips",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "084163b10b7dc7fd909a82992544732b5c80da79231824cb31b7099011bdb6a8",
+      "common.py": "79fc779f9296b8e735ad57b8a2a99a87ded2920942a6bb73c49e94eb327c9458",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "hip_targets.py": "938b431bf9c4c9da32414d9f19c452b85a884cdbf10ce2a96b5ae86635271039",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "b754af6f1b16059d2e4c5c2739a8a31facf9483488360c9af884401f72c036e0"
+    }
+  },
+  {
+    "case": "control",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 60.74368357658386,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-hip-target-ablation/fit.py",
+      "--case",
+      "control",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "084163b10b7dc7fd909a82992544732b5c80da79231824cb31b7099011bdb6a8",
+      "common.py": "79fc779f9296b8e735ad57b8a2a99a87ded2920942a6bb73c49e94eb327c9458",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "hip_targets.py": "938b431bf9c4c9da32414d9f19c452b85a884cdbf10ce2a96b5ae86635271039",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "b754af6f1b16059d2e4c5c2739a8a31facf9483488360c9af884401f72c036e0"
+    }
+  }
+]

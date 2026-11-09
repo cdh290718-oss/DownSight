@@ -1,0 +1,16 @@
+[
+  {
+    "case": "control",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle",
+    "replace_hips": false
+  },
+  {
+    "case": "gt_hips",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle",
+    "replace_hips": true
+  }
+]

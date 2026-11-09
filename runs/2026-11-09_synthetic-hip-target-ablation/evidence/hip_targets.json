@@ -1,0 +1,26 @@
+{
+  "coordinate_frame": "cam3 CV metres",
+  "targets": [
+    {
+      "name": "left_hip",
+      "index": 1,
+      "xyz": [
+        0.015691637992858887,
+        0.33484097487293757,
+        0.7511917045457324
+      ]
+    },
+    {
+      "name": "right_hip",
+      "index": 2,
+      "xyz": [
+        0.13714851811528206,
+        0.33209756328138296,
+        0.7629919741155642
+      ]
+    }
+  ],
+  "source_resource": "outputs/synthetic_original_20261108/dataset/samples/000001/left_egosmplx65.npz",
+  "source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+  "scope": "Only these two GT positions exported for fitting. All remaining GT joints, shape and pose excluded."
+}

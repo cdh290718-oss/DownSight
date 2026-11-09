@@ -1,0 +1,63 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "control_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "3fae62afe8daeb6204bccbe506bf002950b5988972cf5140619f8ac63cbc9ef1",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_hip_target_ablation_20261109/anchors/oracle.json"
+      ],
+      "subspace_residual": 2.6403979465648313e-09,
+      "metric_loss_reconstruction_error": {
+        "body": 4.472565499381853e-10,
+        "wrist": 3.9302348335730226e-09,
+        "shoulder": 3.72993071270835e-10,
+        "hand_left": 6.301848998148049e-10,
+        "hand_right": 2.801169226207458e-09
+      },
+      "read_files": [
+        "outputs/synthetic_hip_target_ablation_20261109/anchors/oracle.json",
+        "outputs/synthetic_hip_target_ablation_20261109/control_left/final.npz",
+        "outputs/synthetic_hip_target_ablation_20261109/control_left/initial.npz",
+        "outputs/synthetic_hip_target_ablation_20261109/inputs.json",
+        "outputs/synthetic_hip_target_ablation_20261109/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-09_synthetic-hip-target-ablation/settings.json"
+      ]
+    },
+    {
+      "case": "gt_hips_left",
+      "passed": true,
+      "failures": [],
+      "source_sha256": "f732c42b1f3364d6134de309fb0eb778fa4bb9cc4e313e8d80a7941b84b6f666",
+      "initialization_sha256": "8165065a911c095600905999a9e0c39dca7fce8015511992da3be6f27f1f805c",
+      "allowed_anchor_reads": [
+        "outputs/synthetic_hip_target_ablation_20261109/anchors/oracle.json"
+      ],
+      "subspace_residual": 8.921954033695737e-10,
+      "metric_loss_reconstruction_error": {
+        "body": 3.011595755761376e-10,
+        "wrist": 5.247148953183012e-09,
+        "shoulder": 9.624465384817232e-11,
+        "hand_left": 1.8047711007412003e-09,
+        "hand_right": 2.021102576477748e-09
+      },
+      "read_files": [
+        "outputs/synthetic_hip_target_ablation_20261109/anchors/oracle.json",
+        "outputs/synthetic_hip_target_ablation_20261109/gt_hips_left/final.npz",
+        "outputs/synthetic_hip_target_ablation_20261109/gt_hips_left/initial.npz",
+        "outputs/synthetic_hip_target_ablation_20261109/hip_targets.json",
+        "outputs/synthetic_hip_target_ablation_20261109/inputs.json",
+        "outputs/synthetic_hip_target_ablation_20261109/triangulated.json",
+        "outputs/synthetic_original_20261108/fits/left/frames/left/raw/params.npz",
+        "outputs/synthetic_original_20261108/fits/left/jobs/left.json",
+        "runs/2026-11-09_synthetic-hip-target-ablation/settings.json"
+      ]
+    }
+  ],
+  "scope": "Full GT dataset denied during fitting. Both cases read original Head anchor; only treatment reads extracted two-hip targets. Initialization and subspace must exactly match original. Control final parameters must exactly replay original."
+}
