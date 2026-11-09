@@ -1,0 +1,129 @@
+{
+  "coordinate_frame": "cam3 CV metres",
+  "scope": "body",
+  "targets": [
+    {
+      "name": "left_shoulder",
+      "index": 8,
+      "model_name": "L_Shoulder",
+      "xyz": [
+        -0.09830443561077118,
+        0.25505775168179884,
+        0.2661324168779328
+      ]
+    },
+    {
+      "name": "right_shoulder",
+      "index": 9,
+      "model_name": "R_Shoulder",
+      "xyz": [
+        0.23907116055488586,
+        0.259525230389176,
+        0.2636626117290592
+      ]
+    },
+    {
+      "name": "left_elbow",
+      "index": 10,
+      "model_name": "L_Elbow",
+      "xyz": [
+        -0.18564249575138092,
+        0.1838722437552609,
+        0.5088082556677685
+      ]
+    },
+    {
+      "name": "right_elbow",
+      "index": 11,
+      "model_name": "R_Elbow",
+      "xyz": [
+        0.3645077794790268,
+        0.19324174145339612,
+        0.49909080374649006
+      ]
+    },
+    {
+      "name": "left_wrist",
+      "index": 12,
+      "model_name": "L_Wrist",
+      "xyz": [
+        -0.03963180631399155,
+        -0.022729172772617656,
+        0.5150837756499003
+      ]
+    },
+    {
+      "name": "right_wrist",
+      "index": 13,
+      "model_name": "R_Wrist",
+      "xyz": [
+        0.23989327251911163,
+        -0.022858476503688885,
+        0.5118025169768965
+      ]
+    },
+    {
+      "name": "left_hip",
+      "index": 1,
+      "model_name": "L_Hip",
+      "xyz": [
+        0.015691637992858887,
+        0.33484097487293757,
+        0.7511917045457324
+      ]
+    },
+    {
+      "name": "right_hip",
+      "index": 2,
+      "model_name": "R_Hip",
+      "xyz": [
+        0.13714851811528206,
+        0.33209756328138296,
+        0.7629919741155642
+      ]
+    },
+    {
+      "name": "left_knee",
+      "index": 3,
+      "model_name": "L_Knee",
+      "xyz": [
+        -0.03900381177663803,
+        0.409864169357055,
+        1.1225594661755074
+      ]
+    },
+    {
+      "name": "right_knee",
+      "index": 4,
+      "model_name": "R_Knee",
+      "xyz": [
+        0.1813584715127945,
+        0.41159249378026763,
+        1.1169451748892136
+      ]
+    },
+    {
+      "name": "left_ankle",
+      "index": 5,
+      "model_name": "L_Ankle",
+      "xyz": [
+        0.0044496431946754456,
+        0.5112464094700278,
+        1.5139603758210074
+      ]
+    },
+    {
+      "name": "right_ankle",
+      "index": 6,
+      "model_name": "R_Ankle",
+      "xyz": [
+        0.16594167798757553,
+        0.5028001581271118,
+        1.5179268100243395
+      ]
+    }
+  ],
+  "source_resource": "outputs/synthetic_original_20261108/dataset/samples/000001/left_egosmplx65.npz",
+  "source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+  "usage": "Only listed GT coordinates exposed to fitting loss; no shape/pose GT, initialization or information-subspace changes."
+}

@@ -1,0 +1,131 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "case": "control",
+      "file": "fit.py",
+      "expected_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "actual_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "matched": true
+    },
+    {
+      "case": "control",
+      "file": "common.py",
+      "expected_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "actual_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "matched": true
+    },
+    {
+      "case": "control",
+      "file": "initialization.py",
+      "expected_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "actual_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "matched": true
+    },
+    {
+      "case": "control",
+      "file": "body_targets.py",
+      "expected_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "actual_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "matched": true
+    },
+    {
+      "case": "control",
+      "file": "settings.json",
+      "expected_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "actual_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "matched": true
+    },
+    {
+      "case": "control",
+      "file": "cases.json",
+      "expected_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "actual_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "fit.py",
+      "expected_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "actual_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "common.py",
+      "expected_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "actual_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "initialization.py",
+      "expected_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "actual_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "body_targets.py",
+      "expected_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "actual_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "settings.json",
+      "expected_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "actual_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "matched": true
+    },
+    {
+      "case": "gt_hips",
+      "file": "cases.json",
+      "expected_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "actual_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "fit.py",
+      "expected_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "actual_sha256": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "common.py",
+      "expected_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "actual_sha256": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "initialization.py",
+      "expected_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "actual_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "body_targets.py",
+      "expected_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "actual_sha256": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "settings.json",
+      "expected_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "actual_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "matched": true
+    },
+    {
+      "case": "gt_body",
+      "file": "cases.json",
+      "expected_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "actual_sha256": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08",
+      "matched": true
+    }
+  ]
+}

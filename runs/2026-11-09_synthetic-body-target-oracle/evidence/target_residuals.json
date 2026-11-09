@@ -1,0 +1,1720 @@
+{
+  "exit_status": 0,
+  "scope": "Post-fit diagnosis only; scalar distances do not add, error vectors do. Automatic hand targets retain their biases in the GT-body intervention. Foot targets were not added.",
+  "truth_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58",
+  "cases": [
+    {
+      "case": "control_left",
+      "targets": [
+        {
+          "name": "left_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 8,
+          "target_to_GT_xyz_mm": [
+            -5.610173364186482,
+            -31.958195681732025,
+            8.604367764096176
+          ],
+          "target_to_GT_mm": 33.56836994892544,
+          "fit_to_target_xyz_mm": [
+            14.631381054425436,
+            0.06184336440462346,
+            -19.504510109710882
+          ],
+          "fit_to_target_mm": 24.382515267735084,
+          "fit_to_GT_mm": 34.8937327108489,
+          "whitened_norm": 0.7816461927770537
+        },
+        {
+          "name": "right_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 9,
+          "target_to_GT_xyz_mm": [
+            25.103801270163707,
+            -31.85009861769611,
+            15.974732356382193
+          ],
+          "target_to_GT_mm": 43.586944077635046,
+          "fit_to_target_xyz_mm": [
+            -21.593236704505138,
+            1.2677095199477018,
+            -13.218738042579448
+          ],
+          "fit_to_target_mm": 25.34975333690825,
+          "fit_to_GT_mm": 30.90634386583847,
+          "whitened_norm": 0.8165288145679719
+        },
+        {
+          "name": "left_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 10,
+          "target_to_GT_xyz_mm": [
+            -14.32155411026123,
+            -24.383713448847516,
+            -18.92953045714335
+          ],
+          "target_to_GT_mm": 34.029391957785045,
+          "fit_to_target_xyz_mm": [
+            -0.5207623980319209,
+            0.1468943075392526,
+            -2.2812894978108678
+          ],
+          "fit_to_target_mm": 2.3445795327976304,
+          "fit_to_GT_mm": 35.46289109170771,
+          "whitened_norm": 0.10006546853004712
+        },
+        {
+          "name": "right_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 11,
+          "target_to_GT_xyz_mm": [
+            -6.97353145445817,
+            -5.349490574577537,
+            -1.497956077010698
+          ],
+          "target_to_GT_mm": 8.915776060582985,
+          "fit_to_target_xyz_mm": [
+            5.183291047468119,
+            0.589676039211201,
+            9.98075691426087
+          ],
+          "fit_to_target_mm": 11.26187073694016,
+          "fit_to_GT_mm": 9.890333926129934,
+          "whitened_norm": 0.3853709369400937
+        },
+        {
+          "name": "left_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            4.996933018933079,
+            -6.567197289708965,
+            -11.344324053749077
+          ],
+          "target_to_GT_mm": 14.028225407161603,
+          "fit_to_target_xyz_mm": [
+            -1.7485767362220503,
+            1.2092309326879498,
+            5.247498324503108
+          ],
+          "fit_to_target_mm": 5.661801720008327,
+          "fit_to_GT_mm": 8.742477108645634,
+          "whitened_norm": 0.3811630229807525
+        },
+        {
+          "name": "right_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            -0.46914327599037464,
+            -4.413301645235138,
+            -2.2013238251246126
+          ],
+          "target_to_GT_mm": 4.954104703001685,
+          "fit_to_target_xyz_mm": [
+            0.6113450572632628,
+            1.283258957182079,
+            0.5413716217876896
+          ],
+          "fit_to_target_mm": 1.5210455493197081,
+          "fit_to_GT_mm": 3.545818649197207,
+          "whitened_norm": 0.17020029861413333
+        },
+        {
+          "name": "left_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 1,
+          "target_to_GT_xyz_mm": [
+            -23.527134223449014,
+            -54.77875617085498,
+            18.927572573013364
+          ],
+          "target_to_GT_mm": 62.549909479557655,
+          "fit_to_target_xyz_mm": [
+            27.549520148503564,
+            3.1026103136492234,
+            -12.601104854646605
+          ],
+          "fit_to_target_mm": 30.4530802174257,
+          "fit_to_GT_mm": 52.21712202885963,
+          "whitened_norm": 0.9443170145802888
+        },
+        {
+          "name": "right_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 2,
+          "target_to_GT_xyz_mm": [
+            26.458274668056642,
+            -52.52061768839783,
+            -1.9004048304709364
+          ],
+          "target_to_GT_mm": 58.83933309700962,
+          "fit_to_target_xyz_mm": [
+            -22.4954486842939,
+            3.3556339243793754,
+            6.759425778688488
+          ],
+          "fit_to_target_mm": 23.72752257189411,
+          "fit_to_GT_mm": 49.56318899010637,
+          "whitened_norm": 0.7740492352887861
+        },
+        {
+          "name": "left_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 3,
+          "target_to_GT_xyz_mm": [
+            8.380344456348263,
+            -28.207001987553106,
+            88.88139346297086
+          ],
+          "target_to_GT_mm": 93.6256761698003,
+          "fit_to_target_xyz_mm": [
+            7.350155764904179,
+            -26.566102201121154,
+            -84.17063792827318
+          ],
+          "fit_to_target_mm": 88.56906268659067,
+          "fit_to_GT_mm": 57.1815774299894,
+          "whitened_norm": 1.0092247193653945
+        },
+        {
+          "name": "right_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 4,
+          "target_to_GT_xyz_mm": [
+            20.272500862067584,
+            33.91551722203856,
+            287.17707389665816
+          ],
+          "target_to_GT_mm": 289.882576867751,
+          "fit_to_target_xyz_mm": [
+            -24.530284155791644,
+            -90.20108761287138,
+            -283.3278333119338
+          ],
+          "fit_to_target_mm": 298.34984862832374,
+          "fit_to_GT_mm": 56.577476135621325,
+          "whitened_norm": 2.544747296627958
+        },
+        {
+          "name": "left_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 5,
+          "target_to_GT_xyz_mm": [
+            -30.331757639778132,
+            -39.44193818233982,
+            41.785068521778435
+          ],
+          "target_to_GT_mm": 64.97441004324298,
+          "fit_to_target_xyz_mm": [
+            2.5992810477142303,
+            -12.160690102537785,
+            -39.95450501173114
+          ],
+          "fit_to_target_mm": 41.84496524634016,
+          "fit_to_GT_mm": 58.61119745066585,
+          "whitened_norm": 0.31175300169054215
+        },
+        {
+          "name": "right_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 6,
+          "target_to_GT_xyz_mm": [
+            29.79422459397271,
+            8.023965319585603,
+            164.23390930527782
+          ],
+          "target_to_GT_mm": 167.107321216936,
+          "fit_to_target_xyz_mm": [
+            -11.81542972121194,
+            -51.33474809383787,
+            -167.91926234414368
+          ],
+          "fit_to_target_mm": 175.98789562795514,
+          "fit_to_GT_mm": 47.03873719198204,
+          "whitened_norm": 1.1182193747380431
+        },
+        {
+          "name": "left_hand_0",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            -1.756768016764755,
+            -6.08007416290525,
+            10.908444716725363
+          ],
+          "target_to_GT_mm": 12.61141157162865,
+          "fit_to_target_xyz_mm": [
+            5.005124299475784,
+            0.722107805884234,
+            -17.005270445971334
+          ],
+          "fit_to_target_mm": 17.741249445209544,
+          "fit_to_GT_mm": 8.742477108645634,
+          "whitened_norm": 0.9192004536268616
+        },
+        {
+          "name": "left_hand_5",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 29,
+          "target_to_GT_xyz_mm": [
+            -4.106481637419768,
+            1.6425316648259192,
+            5.497078985282844
+          ],
+          "target_to_GT_mm": 7.055421963203888,
+          "fit_to_target_xyz_mm": [
+            5.1197829503431995,
+            -6.895538789282451,
+            -7.488968418159381
+          ],
+          "fit_to_target_mm": 11.394967337439471,
+          "fit_to_GT_mm": 5.708632665811372,
+          "whitened_norm": 1.1698768012299363
+        },
+        {
+          "name": "left_hand_9",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 33,
+          "target_to_GT_xyz_mm": [
+            -10.72444569257049,
+            -1.0131706402243812,
+            13.498110699174394
+          ],
+          "target_to_GT_mm": 17.269604587432585,
+          "fit_to_target_xyz_mm": [
+            7.104081920655053,
+            -5.086230360611676,
+            -15.570308368068385
+          ],
+          "fit_to_target_mm": 17.854193398003908,
+          "fit_to_GT_mm": 7.38943364466908,
+          "whitened_norm": 1.3615682107042417
+        },
+        {
+          "name": "left_hand_13",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 37,
+          "target_to_GT_xyz_mm": [
+            -16.679175217776198,
+            -0.5786635803616685,
+            26.182693098090738
+          ],
+          "target_to_GT_mm": 31.049366424346328,
+          "fit_to_target_xyz_mm": [
+            9.650111218123337,
+            -6.399927508675144,
+            -27.84835668371033
+          ],
+          "fit_to_target_mm": 30.15981910790581,
+          "fit_to_GT_mm": 10.044048460638718,
+          "whitened_norm": 1.920247333999199
+        },
+        {
+          "name": "left_hand_17",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 41,
+          "target_to_GT_xyz_mm": [
+            -18.873915604132076,
+            1.230004853509853,
+            37.42668601905774
+          ],
+          "target_to_GT_mm": 41.934406261931144,
+          "fit_to_target_xyz_mm": [
+            9.81437467672195,
+            -8.908366780046945,
+            -38.32403863118938
+          ],
+          "fit_to_target_mm": 40.55136108674802,
+          "fit_to_GT_mm": 11.9095661298308,
+          "whitened_norm": 2.352124574302928
+        },
+        {
+          "name": "right_hand_0",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            -1.7654417784286613,
+            -2.4299122586740536,
+            -7.73131895714585
+          ],
+          "target_to_GT_mm": 8.294248071705994,
+          "fit_to_target_xyz_mm": [
+            1.9076435597015495,
+            -0.7001304293790047,
+            6.071366753808927
+          ],
+          "fit_to_target_mm": 6.402404300594393,
+          "fit_to_GT_mm": 3.545818649197207,
+          "whitened_norm": 0.3086459103800224
+        },
+        {
+          "name": "right_hand_5",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 49,
+          "target_to_GT_xyz_mm": [
+            6.351999254046559,
+            9.116801207680492,
+            -0.8568189781394953
+          ],
+          "target_to_GT_mm": 11.144420018335298,
+          "fit_to_target_xyz_mm": [
+            -8.57718965512383,
+            -8.789352571829168,
+            -7.4096909254214305
+          ],
+          "fit_to_target_mm": 14.34309661900651,
+          "fit_to_GT_mm": 8.567022873544706,
+          "whitened_norm": 1.5094527885328983
+        },
+        {
+          "name": "right_hand_9",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 53,
+          "target_to_GT_xyz_mm": [
+            2.1427891433758726,
+            6.744828202548028,
+            -10.782620926717556
+          ],
+          "target_to_GT_mm": 12.897641910215375,
+          "fit_to_target_xyz_mm": [
+            -4.1034541309399595,
+            -8.245865598108484,
+            1.6999554508156933
+          ],
+          "fit_to_target_mm": 9.3660281764233,
+          "fit_to_GT_mm": 9.412339379955984,
+          "whitened_norm": 1.0813229273860463
+        },
+        {
+          "name": "right_hand_13",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 57,
+          "target_to_GT_xyz_mm": [
+            -1.2273634294644176,
+            5.765120489591699,
+            -17.81197228193687
+          ],
+          "target_to_GT_mm": 18.761913330467767,
+          "fit_to_target_xyz_mm": [
+            0.04254230061920272,
+            -9.23214011029548,
+            9.54464003128319
+          ],
+          "fit_to_target_mm": 13.279095382978548,
+          "fit_to_GT_mm": 9.042831896060077,
+          "whitened_norm": 1.0375949090383938
+        },
+        {
+          "name": "right_hand_17",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 61,
+          "target_to_GT_xyz_mm": [
+            -4.737794261245543,
+            5.21574923769623,
+            -21.62862593314452
+          ],
+          "target_to_GT_mm": 22.747487648712145,
+          "fit_to_target_xyz_mm": [
+            4.252791266708189,
+            -10.077579446263126,
+            14.438988110062724
+          ],
+          "fit_to_target_mm": 18.11430977698204,
+          "fit_to_GT_mm": 8.692727587399261,
+          "whitened_norm": 1.17690347854259
+        }
+      ],
+      "feet": [
+        {
+          "index": 14,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -36.08255088329315,
+            2.359640431268295,
+            -12.529478686482465
+          ],
+          "ankle_aligned_mm": 38.268867469071175
+        },
+        {
+          "index": 15,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -28.12732756137848,
+            11.021335125132648,
+            -21.372692197437537
+          ],
+          "ankle_aligned_mm": 37.00551790546879
+        },
+        {
+          "index": 16,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            3.5341456532478333,
+            1.5065566876896197,
+            -1.9425950435949524
+          ],
+          "ankle_aligned_mm": 4.30506376898096
+        },
+        {
+          "index": 17,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            35.507768392562866,
+            -3.860058322065152,
+            -15.601534114492832
+          ],
+          "ankle_aligned_mm": 38.97575571038122
+        },
+        {
+          "index": 18,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            26.418037712574005,
+            7.58582849155276,
+            -18.38759031697146
+          ],
+          "ankle_aligned_mm": 33.06903367428535
+        },
+        {
+          "index": 19,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            -7.0452019572258,
+            -2.299788641820344,
+            4.677420282824363
+          ],
+          "ankle_aligned_mm": 8.763684095020817
+        }
+      ],
+      "pose_increments_deg": {
+        "L_Hip": 17.42474937438965,
+        "R_Hip": 14.45787239074707,
+        "Spine_1": 4.1993184089660645,
+        "Spine_2": 1.5568413734436035,
+        "Spine_3": 9.034387588500977,
+        "L_Knee": 12.298895835876465,
+        "R_Knee": 11.872445106506348,
+        "L_Ankle": 0.0,
+        "R_Ankle": 0.0,
+        "Neck": 10.392030715942383,
+        "Head": 6.9900641441345215,
+        "L_Collar": 14.043268203735352,
+        "R_Collar": 14.997082710266113,
+        "L_Shoulder": 14.854718208312988,
+        "R_Shoulder": 26.94674301147461,
+        "L_Elbow": 25.0,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.000000953674316
+      },
+      "hard_caps_deg": {
+        "L_Hip": 18.0,
+        "R_Hip": 18.0,
+        "Spine_1": 9.999999046325684,
+        "Spine_2": 9.999999046325684,
+        "Spine_3": 12.0,
+        "L_Knee": 21.999998092651367,
+        "R_Knee": 21.999998092651367,
+        "L_Ankle": 13.999999046325684,
+        "R_Ankle": 13.999999046325684,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 27.999998092651367,
+        "R_Shoulder": 27.999998092651367,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "last_loss_steps": [
+        {
+          "step": 3000,
+          "loss": 0.003546997206285596
+        },
+        {
+          "step": 3100,
+          "loss": 0.0035121242981404066
+        },
+        {
+          "step": 3200,
+          "loss": 0.00348424119874835
+        },
+        {
+          "step": 3300,
+          "loss": 0.003463499015197158
+        },
+        {
+          "step": 3400,
+          "loss": 0.003442554036155343
+        }
+      ]
+    },
+    {
+      "case": "gt_hips_left",
+      "targets": [
+        {
+          "name": "left_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 8,
+          "target_to_GT_xyz_mm": [
+            -5.610173364186482,
+            -31.958195681732025,
+            8.604367764096176
+          ],
+          "target_to_GT_mm": 33.56836994892544,
+          "fit_to_target_xyz_mm": [
+            16.061520000004965,
+            2.999786107706015,
+            -18.42194074897785
+          ],
+          "fit_to_target_mm": 24.62395261450517,
+          "fit_to_GT_mm": 32.31415898445376,
+          "whitened_norm": 0.7952006125956468
+        },
+        {
+          "name": "right_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 9,
+          "target_to_GT_xyz_mm": [
+            25.103801270163707,
+            -31.85009861769611,
+            15.974732356382193
+          ],
+          "target_to_GT_mm": 43.586944077635046,
+          "fit_to_target_xyz_mm": [
+            -20.09292819086378,
+            3.376909282292062,
+            -14.172829591499125
+          ],
+          "fit_to_target_mm": 24.819314620144368,
+          "fit_to_GT_mm": 28.96684679975908,
+          "whitened_norm": 0.8023698858458477
+        },
+        {
+          "name": "left_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 10,
+          "target_to_GT_xyz_mm": [
+            -14.32155411026123,
+            -24.383713448847516,
+            -18.92953045714335
+          ],
+          "target_to_GT_mm": 34.029391957785045,
+          "fit_to_target_xyz_mm": [
+            -0.8934702418124385,
+            0.21248921911456997,
+            -2.6574246086659703
+          ],
+          "fit_to_target_mm": 2.8116447663223356,
+          "fit_to_GT_mm": 35.80142002507016,
+          "whitened_norm": 0.12396654676574624
+        },
+        {
+          "name": "right_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 11,
+          "target_to_GT_xyz_mm": [
+            -6.97353145445817,
+            -5.349490574577537,
+            -1.497956077010698
+          ],
+          "target_to_GT_mm": 8.915776060582985,
+          "fit_to_target_xyz_mm": [
+            5.025249331846171,
+            0.804968016139912,
+            9.755570566299443
+          ],
+          "fit_to_target_mm": 11.00328412012871,
+          "fit_to_GT_mm": 9.624795351962003,
+          "whitened_norm": 0.3741844312749321
+        },
+        {
+          "name": "left_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            4.996933018933079,
+            -6.567197289708965,
+            -11.344324053749077
+          ],
+          "target_to_GT_mm": 14.028225407161603,
+          "fit_to_target_xyz_mm": [
+            -1.9131004569633223,
+            1.1948662132970806,
+            5.382800868143245
+          ],
+          "fit_to_target_mm": 5.836283390326059,
+          "fit_to_GT_mm": 8.59719274864544,
+          "whitened_norm": 0.39306847966579916
+        },
+        {
+          "name": "right_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            -0.46914327599037464,
+            -4.413301645235138,
+            -2.2013238251246126
+          ],
+          "target_to_GT_mm": 4.954104703001685,
+          "fit_to_target_xyz_mm": [
+            0.4197012231491881,
+            1.2550063555585438,
+            0.47485283821835367
+          ],
+          "fit_to_target_mm": 1.4059428463381036,
+          "fit_to_GT_mm": 3.5997188393000337,
+          "whitened_norm": 0.16011359564811378
+        },
+        {
+          "name": "left_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 1,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            1.2390315532684326,
+            -2.827129429211983,
+            -2.438514505143985
+          ],
+          "fit_to_target_mm": 3.93372762037598,
+          "fit_to_GT_mm": 3.93372762037598,
+          "whitened_norm": 0.09617618295988326
+        },
+        {
+          "name": "right_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 2,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            0.6861500442028046,
+            -1.3028414395708232,
+            0.9110476968747783
+          ],
+          "fit_to_target_mm": 1.7315327331018966,
+          "fit_to_GT_mm": 1.7315327331018966,
+          "whitened_norm": 0.05604946775543051
+        },
+        {
+          "name": "left_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 3,
+          "target_to_GT_xyz_mm": [
+            8.380344456348263,
+            -28.207001987553106,
+            88.88139346297086
+          ],
+          "target_to_GT_mm": 93.6256761698003,
+          "fit_to_target_xyz_mm": [
+            7.469216042843022,
+            -25.9876093212536,
+            -86.11148437144945
+          ],
+          "fit_to_target_mm": 90.25703721695696,
+          "fit_to_GT_mm": 56.5326176583524,
+          "whitened_norm": 1.030490448415323
+        },
+        {
+          "name": "right_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 4,
+          "target_to_GT_xyz_mm": [
+            20.272500862067584,
+            33.91551722203856,
+            287.17707389665816
+          ],
+          "target_to_GT_mm": 289.882576867751,
+          "fit_to_target_xyz_mm": [
+            -24.493075956290607,
+            -87.44750203586027,
+            -281.0210143498366
+          ],
+          "fit_to_target_mm": 295.329962733759,
+          "fit_to_GT_mm": 54.04982628443153,
+          "whitened_norm": 2.5220597449580096
+        },
+        {
+          "name": "left_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 5,
+          "target_to_GT_xyz_mm": [
+            -30.331757639778132,
+            -39.44193818233982,
+            41.785068521778435
+          ],
+          "target_to_GT_mm": 64.97441004324298,
+          "fit_to_target_xyz_mm": [
+            2.607133959663388,
+            -12.500049147566472,
+            -41.268429801159854
+          ],
+          "fit_to_target_mm": 43.19874621361674,
+          "fit_to_GT_mm": 58.88031692808529,
+          "whitened_norm": 0.321945458018306
+        },
+        {
+          "name": "right_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 6,
+          "target_to_GT_xyz_mm": [
+            29.79422459397271,
+            8.023965319585603,
+            164.23390930527782
+          ],
+          "target_to_GT_mm": 167.107321216936,
+          "fit_to_target_xyz_mm": [
+            -11.676968131398707,
+            -50.305197064632544,
+            -164.76844161202698
+          ],
+          "fit_to_target_mm": 172.67195425925183,
+          "fit_to_GT_mm": 46.002426722902385,
+          "whitened_norm": 1.0971731750830196
+        },
+        {
+          "name": "left_hand_0",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            -1.756768016764755,
+            -6.08007416290525,
+            10.908444716725363
+          ],
+          "target_to_GT_mm": 12.61141157162865,
+          "fit_to_target_xyz_mm": [
+            4.840600578734512,
+            0.7077430864933648,
+            -16.869967902331197
+          ],
+          "fit_to_target_mm": 17.564968866041546,
+          "fit_to_GT_mm": 8.59719274864544,
+          "whitened_norm": 0.9082286292867113
+        },
+        {
+          "name": "left_hand_5",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 29,
+          "target_to_GT_xyz_mm": [
+            -4.106481637419768,
+            1.6425316648259192,
+            5.497078985282844
+          ],
+          "target_to_GT_mm": 7.055421963203888,
+          "fit_to_target_xyz_mm": [
+            5.31787898725421,
+            -6.862279397497783,
+            -7.610025451698199
+          ],
+          "fit_to_target_mm": 11.54483446515786,
+          "fit_to_GT_mm": 5.760016727567387,
+          "whitened_norm": 1.1809485404053486
+        },
+        {
+          "name": "left_hand_9",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 33,
+          "target_to_GT_xyz_mm": [
+            -10.72444569257049,
+            -1.0131706402243812,
+            13.498110699174394
+          ],
+          "target_to_GT_mm": 17.269604587432585,
+          "fit_to_target_xyz_mm": [
+            7.178006581337732,
+            -5.18070372258067,
+            -15.697027842860866
+          ],
+          "fit_to_target_mm": 18.02110298074006,
+          "fit_to_GT_mm": 7.468369741562971,
+          "whitened_norm": 1.37779788074574
+        },
+        {
+          "name": "left_hand_13",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 37,
+          "target_to_GT_xyz_mm": [
+            -16.679175217776198,
+            -0.5786635803616685,
+            26.182693098090738
+          ],
+          "target_to_GT_mm": 31.049366424346328,
+          "fit_to_target_xyz_mm": [
+            9.55244900765886,
+            -6.594953906380222,
+            -27.88817258642029
+          ],
+          "fit_to_target_mm": 30.207496905257916,
+          "fit_to_GT_mm": 10.254739129064928,
+          "whitened_norm": 1.932208107497352
+        },
+        {
+          "name": "left_hand_17",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 41,
+          "target_to_GT_xyz_mm": [
+            -18.873915604132076,
+            1.230004853509853,
+            37.42668601905774
+          ],
+          "target_to_GT_mm": 41.934406261931144,
+          "fit_to_target_xyz_mm": [
+            9.583406678217312,
+            -9.15930233455134,
+            -38.26753342794231
+          ],
+          "fit_to_target_mm": 40.498624883747596,
+          "fit_to_GT_mm": 12.243134362179509,
+          "whitened_norm": 2.3631144894178564
+        },
+        {
+          "name": "right_hand_0",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            -1.7654417784286613,
+            -2.4299122586740536,
+            -7.73131895714585
+          ],
+          "target_to_GT_mm": 8.294248071705994,
+          "fit_to_target_xyz_mm": [
+            1.7159997255874748,
+            -0.7283830310025399,
+            6.004847970239591
+          ],
+          "fit_to_target_mm": 6.287558830242407,
+          "fit_to_GT_mm": 3.5997188393000337,
+          "whitened_norm": 0.30409147703427464
+        },
+        {
+          "name": "right_hand_5",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 49,
+          "target_to_GT_xyz_mm": [
+            6.351999254046559,
+            9.116801207680492,
+            -0.8568189781394953
+          ],
+          "target_to_GT_mm": 11.144420018335298,
+          "fit_to_target_xyz_mm": [
+            -8.638135404406666,
+            -9.042076265676824,
+            -7.230221340002729
+          ],
+          "fit_to_target_mm": 14.444813155060572,
+          "fit_to_GT_mm": 8.404297913698603,
+          "whitened_norm": 1.5346601280579548
+        },
+        {
+          "name": "right_hand_9",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 53,
+          "target_to_GT_xyz_mm": [
+            2.1427891433758726,
+            6.744828202548028,
+            -10.782620926717556
+          ],
+          "target_to_GT_mm": 12.897641910215375,
+          "fit_to_target_xyz_mm": [
+            -4.227610606007098,
+            -8.40769220867367,
+            1.935036169809834
+          ],
+          "fit_to_target_mm": 9.607619095815984,
+          "fit_to_GT_mm": 9.240744194305018,
+          "whitened_norm": 1.1046621806941233
+        },
+        {
+          "name": "right_hand_13",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 57,
+          "target_to_GT_xyz_mm": [
+            -1.2273634294644176,
+            5.765120489591699,
+            -17.81197228193687
+          ],
+          "target_to_GT_mm": 18.761913330467767,
+          "fit_to_target_xyz_mm": [
+            -0.16757897337524308,
+            -9.285963104527658,
+            9.751229730074694
+          ],
+          "fit_to_target_mm": 13.466390560935734,
+          "fit_to_GT_mm": 8.906052296825498,
+          "whitened_norm": 1.051159780307294
+        },
+        {
+          "name": "right_hand_17",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 61,
+          "target_to_GT_xyz_mm": [
+            -4.737794261245543,
+            5.21574923769623,
+            -21.62862593314452
+          ],
+          "target_to_GT_mm": 22.747487648712145,
+          "fit_to_target_xyz_mm": [
+            3.9748399069593487,
+            -10.050936170048526,
+            14.595271488663798
+          ],
+          "fit_to_target_mm": 18.16156986629043,
+          "fit_to_GT_mm": 8.56908435944071,
+          "whitened_norm": 1.172348762045894
+        }
+      ],
+      "feet": [
+        {
+          "index": 14,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -11.647194623947144,
+            -2.7723492862152255,
+            -12.001500743062055
+          ],
+          "ankle_aligned_mm": 16.95225894264833
+        },
+        {
+          "index": 15,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -9.91930067539215,
+            -1.5680301187790957,
+            -18.137113660450233
+          ],
+          "ankle_aligned_mm": 20.731766356833273
+        },
+        {
+          "index": 16,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -3.8797929883003235,
+            -1.0481877943507856,
+            -1.0313592342687805
+          ],
+          "ankle_aligned_mm": 4.149119563763113
+        },
+        {
+          "index": 17,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            27.24626660346985,
+            -5.218537583463467,
+            -16.23131679118961
+          ],
+          "ankle_aligned_mm": 32.14106132524766
+        },
+        {
+          "index": 18,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            20.752377808094025,
+            3.3071090663513436,
+            -17.83386316700808
+          ],
+          "ankle_aligned_mm": 27.561655075959862
+        },
+        {
+          "index": 19,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            -4.189111292362213,
+            -2.393487143407258,
+            5.26595654533657
+          ],
+          "ankle_aligned_mm": 7.14196978870854
+        }
+      ],
+      "pose_increments_deg": {
+        "L_Hip": 10.764009475708008,
+        "R_Hip": 3.38905668258667,
+        "Spine_1": 1.7318662405014038,
+        "Spine_2": 2.9386210441589355,
+        "Spine_3": 6.450650691986084,
+        "L_Knee": 7.5385870933532715,
+        "R_Knee": 5.8855814933776855,
+        "L_Ankle": 0.0,
+        "R_Ankle": 0.0,
+        "Neck": 11.411155700683594,
+        "Head": 7.730242729187012,
+        "L_Collar": 13.19295597076416,
+        "R_Collar": 15.0,
+        "L_Shoulder": 12.783960342407227,
+        "R_Shoulder": 25.38759994506836,
+        "L_Elbow": 25.0,
+        "R_Elbow": 24.894033432006836,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "hard_caps_deg": {
+        "L_Hip": 18.0,
+        "R_Hip": 18.0,
+        "Spine_1": 9.999999046325684,
+        "Spine_2": 9.999999046325684,
+        "Spine_3": 12.0,
+        "L_Knee": 21.999998092651367,
+        "R_Knee": 21.999998092651367,
+        "L_Ankle": 13.999999046325684,
+        "R_Ankle": 13.999999046325684,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 27.999998092651367,
+        "R_Shoulder": 27.999998092651367,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "last_loss_steps": [
+        {
+          "step": 3000,
+          "loss": 0.0031626850832253695
+        },
+        {
+          "step": 3100,
+          "loss": 0.00313179986551404
+        },
+        {
+          "step": 3200,
+          "loss": 0.003113700542598963
+        },
+        {
+          "step": 3300,
+          "loss": 0.0030852342024445534
+        },
+        {
+          "step": 3400,
+          "loss": 0.003070400794968009
+        }
+      ]
+    },
+    {
+      "case": "gt_body_left",
+      "targets": [
+        {
+          "name": "left_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 8,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            5.655325949192047,
+            -12.97447040318861,
+            -6.384732876010213
+          ],
+          "fit_to_target_mm": 15.526893048283284,
+          "fit_to_GT_mm": 15.526893048283284,
+          "whitened_norm": 0.48885173593278036
+        },
+        {
+          "name": "right_shoulder",
+          "source": "sapiens",
+          "group": "shoulder",
+          "index": 9,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -2.2301077842712402,
+            -13.051858406601557,
+            -3.734325653467152
+          ],
+          "fit_to_target_mm": 13.757528000392577,
+          "fit_to_GT_mm": 13.757528000392577,
+          "whitened_norm": 0.43788707103069424
+        },
+        {
+          "name": "left_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 10,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            5.071178078651428,
+            -3.255149715343908,
+            -8.746982092939447
+          ],
+          "fit_to_target_mm": 10.621795634868036,
+          "fit_to_GT_mm": 10.621795634868036,
+          "whitened_norm": 0.36305029750405327
+        },
+        {
+          "name": "right_elbow",
+          "source": "sapiens",
+          "group": "body",
+          "index": 11,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -4.776671528816223,
+            -2.912606989132205,
+            -5.270434502868238
+          ],
+          "fit_to_target_mm": 7.686179168895898,
+          "fit_to_GT_mm": 7.686179168895898,
+          "whitened_norm": 0.2598913715887204
+        },
+        {
+          "name": "left_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -0.5909055471420288,
+            0.16744381830247068,
+            2.34116541302698
+          ],
+          "fit_to_target_mm": 2.420384739888417,
+          "fit_to_GT_mm": 2.420384739888417,
+          "whitened_norm": 0.14940146508493585
+        },
+        {
+          "name": "right_wrist",
+          "source": "sapiens",
+          "group": "wrist",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            0.298425555229187,
+            0.6453155120201837,
+            -0.021897355619637793
+          ],
+          "fit_to_target_mm": 0.7113152720494993,
+          "fit_to_GT_mm": 0.7113152720494993,
+          "whitened_norm": 0.08572864907495054
+        },
+        {
+          "name": "left_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 1,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            0.31896308064460754,
+            -1.090279882779488,
+            -8.578388963456973
+          ],
+          "fit_to_target_mm": 8.653277117830468,
+          "fit_to_GT_mm": 8.653277117830468,
+          "whitened_norm": 0.18514167406677765
+        },
+        {
+          "name": "right_hip",
+          "source": "sapiens",
+          "group": "body",
+          "index": 2,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -0.22563710808753967,
+            -0.16436292203847458,
+            -7.379958391382058
+          ],
+          "fit_to_target_mm": 7.385236159610441,
+          "fit_to_GT_mm": 7.385236159610441,
+          "whitened_norm": 0.16637129948399934
+        },
+        {
+          "name": "left_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 3,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            1.4883503317832947,
+            -5.018484590285588,
+            -15.039124302338447
+          ],
+          "fit_to_target_mm": 15.924058341837368,
+          "fit_to_GT_mm": 15.924058341837368,
+          "whitened_norm": 0.18182437875983978
+        },
+        {
+          "name": "right_knee",
+          "source": "sapiens",
+          "group": "body",
+          "index": 4,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -1.1904090642929077,
+            -4.621307380807793,
+            -13.102320389396738
+          ],
+          "fit_to_target_mm": 13.944330576784989,
+          "fit_to_GT_mm": 13.944330576784989,
+          "whitened_norm": 0.1203792983127072
+        },
+        {
+          "name": "left_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 5,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            1.447245478630066,
+            -7.05155378002531,
+            -23.27658179940095
+          ],
+          "fit_to_target_mm": 24.364281037047,
+          "fit_to_GT_mm": 24.364281037047,
+          "whitened_norm": 0.18160398350007578
+        },
+        {
+          "name": "right_ankle",
+          "source": "sapiens",
+          "group": "body",
+          "index": 6,
+          "target_to_GT_xyz_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "target_to_GT_mm": 0.0,
+          "fit_to_target_xyz_mm": [
+            -1.5092715620994568,
+            -6.533048017782539,
+            -21.633026836473277
+          ],
+          "fit_to_target_mm": 22.64832150863254,
+          "fit_to_GT_mm": 22.64832150863254,
+          "whitened_norm": 0.14401727326755154
+        },
+        {
+          "name": "left_hand_0",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 12,
+          "target_to_GT_xyz_mm": [
+            -1.756768016764755,
+            -6.08007416290525,
+            10.908444716725363
+          ],
+          "target_to_GT_mm": 12.61141157162865,
+          "fit_to_target_xyz_mm": [
+            1.1658624696227262,
+            6.247517981207721,
+            -8.567279303698383
+          ],
+          "fit_to_target_mm": 10.667192268407241,
+          "fit_to_GT_mm": 2.420384739888417,
+          "whitened_norm": 0.8377706165712078
+        },
+        {
+          "name": "left_hand_5",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 29,
+          "target_to_GT_xyz_mm": [
+            -4.106481637419768,
+            1.6425316648259192,
+            5.497078985282844
+          ],
+          "target_to_GT_mm": 7.055421963203888,
+          "fit_to_target_xyz_mm": [
+            0.7148134369269095,
+            -0.31327865744651406,
+            0.8017992515183536
+          ],
+          "fit_to_target_mm": 1.1189208222917935,
+          "fit_to_GT_mm": 7.2764135246637425,
+          "whitened_norm": 0.10817259576063529
+        },
+        {
+          "name": "left_hand_9",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 33,
+          "target_to_GT_xyz_mm": [
+            -10.72444569257049,
+            -1.0131706402243812,
+            13.498110699174394
+          ],
+          "target_to_GT_mm": 17.269604587432585,
+          "fit_to_target_xyz_mm": [
+            2.134797982247155,
+            1.288665212050677,
+            -7.590796153407742
+          ],
+          "fit_to_target_mm": 7.989881519543697,
+          "fit_to_GT_mm": 10.428533463013622,
+          "whitened_norm": 0.40496146895074614
+        },
+        {
+          "name": "left_hand_13",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 37,
+          "target_to_GT_xyz_mm": [
+            -16.679175217776198,
+            -0.5786635803616685,
+            26.182693098090738
+          ],
+          "target_to_GT_mm": 31.049366424346328,
+          "fit_to_target_xyz_mm": [
+            4.249028881220718,
+            -0.3764013169637176,
+            -19.943409879663697
+          ],
+          "fit_to_target_mm": 20.394497346419875,
+          "fit_to_GT_mm": 13.940923283126985,
+          "whitened_norm": 1.0103549800143243
+        },
+        {
+          "name": "left_hand_17",
+          "source": "wilor",
+          "group": "hand_left",
+          "index": 41,
+          "target_to_GT_xyz_mm": [
+            -18.873915604132076,
+            1.230004853509853,
+            37.42668601905774
+          ],
+          "target_to_GT_mm": 41.934406261931144,
+          "fit_to_target_xyz_mm": [
+            4.135728410261532,
+            -3.1977649734063194,
+            -30.350725299585378
+          ],
+          "fit_to_target_mm": 30.79766998523558,
+          "fit_to_GT_mm": 16.466798770694336,
+          "whitened_norm": 1.518265445613927
+        },
+        {
+          "name": "right_hand_0",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 13,
+          "target_to_GT_xyz_mm": [
+            -1.7654417784286613,
+            -2.4299122586740536,
+            -7.73131895714585
+          ],
+          "target_to_GT_mm": 8.294248071705994,
+          "fit_to_target_xyz_mm": [
+            2.063867333657848,
+            3.0752277706942373,
+            7.709421601526212
+          ],
+          "fit_to_target_mm": 8.55287996189985,
+          "fit_to_GT_mm": 0.7113152720494993,
+          "whitened_norm": 0.5510976576952357
+        },
+        {
+          "name": "right_hand_5",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 49,
+          "target_to_GT_xyz_mm": [
+            6.351999254046559,
+            9.116801207680492,
+            -0.8568189781394953
+          ],
+          "target_to_GT_mm": 11.144420018335298,
+          "fit_to_target_xyz_mm": [
+            -6.842739195643544,
+            -3.7220636962493336,
+            -8.701561996283246
+          ],
+          "fit_to_target_mm": 11.67878499817916,
+          "fit_to_GT_mm": 10.986658516570346,
+          "whitened_norm": 0.9706058239797742
+        },
+        {
+          "name": "right_hand_9",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 53,
+          "target_to_GT_xyz_mm": [
+            2.1427891433758726,
+            6.744828202548028,
+            -10.782620926717556
+          ],
+          "target_to_GT_mm": 12.897641910215375,
+          "fit_to_target_xyz_mm": [
+            -2.691375392727374,
+            -3.7038128522893925,
+            -0.033645642476543
+          ],
+          "fit_to_target_mm": 4.578521942572753,
+          "fit_to_GT_mm": 11.249015233759446,
+          "whitened_norm": 0.5436175755240636
+        },
+        {
+          "name": "right_hand_13",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 57,
+          "target_to_GT_xyz_mm": [
+            -1.2273634294644176,
+            5.765120489591699,
+            -17.81197228193687
+          ],
+          "target_to_GT_mm": 18.761913330467767,
+          "fit_to_target_xyz_mm": [
+            0.933885059751588,
+            -5.401826427739328,
+            7.921009507601551
+          ],
+          "fit_to_target_mm": 9.63297781995601,
+          "fit_to_GT_mm": 9.901982464746823,
+          "whitened_norm": 0.6194987419518566
+        },
+        {
+          "name": "right_hand_17",
+          "source": "wilor",
+          "group": "hand_right",
+          "index": 61,
+          "target_to_GT_xyz_mm": [
+            -4.737794261245543,
+            5.21574923769623,
+            -21.62862593314452
+          ],
+          "target_to_GT_mm": 22.747487648712145,
+          "fit_to_target_xyz_mm": [
+            4.732385139732176,
+            -6.837470956272893,
+            13.026834866044169
+          ],
+          "fit_to_target_mm": 15.45460788295249,
+          "fit_to_GT_mm": 8.753331945787625,
+          "whitened_norm": 0.8867065027272029
+        }
+      ],
+      "feet": [
+        {
+          "index": 14,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -39.12115842103958,
+            6.838571858270248,
+            -9.626017230183637
+          ],
+          "ankle_aligned_mm": 40.864303603274514
+        },
+        {
+          "index": 15,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            -27.687929570674896,
+            18.654246330424396,
+            -12.343184560413611
+          ],
+          "ankle_aligned_mm": 35.594333188855195
+        },
+        {
+          "index": 16,
+          "ankle": 5,
+          "ankle_relative_error_xyz_mm": [
+            10.850615799427032,
+            1.8843905309208209,
+            -0.4134974865270813
+          ],
+          "ankle_aligned_mm": 11.020788132940575
+        },
+        {
+          "index": 17,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            39.246946573257446,
+            -3.7219841624429595,
+            -21.20139049114078
+          ],
+          "ankle_aligned_mm": 44.762427773607584
+        },
+        {
+          "index": 18,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            27.456291019916534,
+            9.933089205130031,
+            -18.70993223591677
+          ],
+          "ankle_aligned_mm": 34.67817385618824
+        },
+        {
+          "index": 19,
+          "ankle": 6,
+          "ankle_relative_error_xyz_mm": [
+            -12.31401413679123,
+            -4.45676152695218,
+            6.311660433276023
+          ],
+          "ankle_aligned_mm": 14.537356186535344
+        }
+      ],
+      "pose_increments_deg": {
+        "L_Hip": 14.490781784057617,
+        "R_Hip": 12.8972806930542,
+        "Spine_1": 1.5221771001815796,
+        "Spine_2": 0.42222318053245544,
+        "Spine_3": 7.200613975524902,
+        "L_Knee": 10.212106704711914,
+        "R_Knee": 13.005650520324707,
+        "L_Ankle": 0.0,
+        "R_Ankle": 0.0,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.0,
+        "R_Collar": 14.999998092651367,
+        "L_Shoulder": 14.349692344665527,
+        "R_Shoulder": 21.671571731567383,
+        "L_Elbow": 18.5926456451416,
+        "R_Elbow": 20.010784149169922,
+        "L_Wrist": 15.0,
+        "R_Wrist": 14.999998092651367
+      },
+      "hard_caps_deg": {
+        "L_Hip": 18.0,
+        "R_Hip": 18.0,
+        "Spine_1": 9.999999046325684,
+        "Spine_2": 9.999999046325684,
+        "Spine_3": 12.0,
+        "L_Knee": 21.999998092651367,
+        "R_Knee": 21.999998092651367,
+        "L_Ankle": 13.999999046325684,
+        "R_Ankle": 13.999999046325684,
+        "Neck": 12.0,
+        "Head": 12.0,
+        "L_Collar": 15.0,
+        "R_Collar": 15.0,
+        "L_Shoulder": 27.999998092651367,
+        "R_Shoulder": 27.999998092651367,
+        "L_Elbow": 24.999998092651367,
+        "R_Elbow": 24.999998092651367,
+        "L_Wrist": 15.0,
+        "R_Wrist": 15.0
+      },
+      "last_loss_steps": [
+        {
+          "step": 3000,
+          "loss": 0.0006773259374313056
+        },
+        {
+          "step": 3100,
+          "loss": 0.0006513974512927234
+        },
+        {
+          "step": 3200,
+          "loss": 0.0006285274284891784
+        },
+        {
+          "step": 3300,
+          "loss": 0.0006084254710003734
+        },
+        {
+          "step": 3400,
+          "loss": 0.0005906927399337292
+        }
+      ]
+    }
+  ]
+}

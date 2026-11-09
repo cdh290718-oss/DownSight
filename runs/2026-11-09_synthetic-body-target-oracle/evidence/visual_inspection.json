@@ -1,0 +1,13 @@
+{
+  "scope": "Manual inspection of three derived figures; other assets checked structurally during publication audit.",
+  "files": [
+    "assets/skeleton_left_control.png",
+    "assets/skeleton_right_control.png",
+    "assets/left_gt_body_left.jpg"
+  ],
+  "observations": [
+    "Both camera skeleton comparisons show lower-body Y alignment improvement and remaining foot direction differences.",
+    "Overlay shows near-coincident wrist/elbow markers, with remaining hand/mesh contour mismatch. Keypoint accuracy is not silhouette accuracy.",
+    "Legends and axes readable. Side-view uses equal metric aspect; angle panel explicitly filters by GT in-frame."
+  ]
+}

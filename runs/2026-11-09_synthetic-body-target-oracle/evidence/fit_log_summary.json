@@ -1,0 +1,35 @@
+[
+  {
+    "case": "control_left",
+    "sha256": "f73a1c3d249c3709605836d5d4607c57d6b0d7c49af03fec16c594eb264b6afd",
+    "completed_lines": [
+      "DONE control_left 3400"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ]
+  },
+  {
+    "case": "gt_hips_left",
+    "sha256": "d3d5273cd7982b09208e45fe21f6624e3d600fbc0fea3a450998c159a45ab8fc",
+    "completed_lines": [
+      "DONE gt_hips_left 3400"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ]
+  },
+  {
+    "case": "gt_body_left",
+    "sha256": "b24a355394f3a825c1804b79f50cd6ecfffb126685668a5fa15ecf3b20e72e77",
+    "completed_lines": [
+      "DONE gt_body_left 3400"
+    ],
+    "nonfatal_warnings": [
+      "On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.",
+      "Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  <BUILD>/conda-bld/pytorch_1659484810403/work/torch/csrc/utils/tensor_new.cpp:201.)"
+    ]
+  }
+]

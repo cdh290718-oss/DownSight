@@ -1,0 +1,23 @@
+[
+  {
+    "case": "control",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle",
+    "target_override": null
+  },
+  {
+    "case": "gt_hips",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle",
+    "target_override": "hips"
+  },
+  {
+    "case": "gt_body",
+    "seed": "left",
+    "method": "improved",
+    "anchor": "oracle",
+    "target_override": "body"
+  }
+]

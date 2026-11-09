@@ -1,0 +1,68 @@
+[
+  {
+    "case": "control",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 57.97274041175842,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/fit.py",
+      "--case",
+      "control",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "common.py": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "body_targets.py": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08"
+    }
+  },
+  {
+    "case": "gt_hips",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 58.02636742591858,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/fit.py",
+      "--case",
+      "gt_hips",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "common.py": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "body_targets.py": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08"
+    }
+  },
+  {
+    "case": "gt_body",
+    "seed": "left",
+    "exit_status": 0,
+    "elapsed_seconds": 54.01636290550232,
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/fit.py",
+      "--case",
+      "gt_body",
+      "--seed",
+      "left"
+    ],
+    "source_sha256": {
+      "fit.py": "16f24d17c800ef136ad460d4cb0e04e86c4136a7fffe39802f28fbd4d557f83b",
+      "common.py": "8e1ed396a089ad38ca0d240327533547b6134c2d2fd33c1e1b6105ef4640452f",
+      "initialization.py": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+      "body_targets.py": "f7fe11e5f8023a80c516d5678a999c79d9a87e12c24b98ae23d2e18966c69c4f",
+      "settings.json": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+      "cases.json": "5a89a379b3bda96951d43dbfdd54145a4d3cd8bcb00b09cf36824df4d5931e08"
+    }
+  }
+]

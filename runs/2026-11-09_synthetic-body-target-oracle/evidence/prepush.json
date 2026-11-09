@@ -1,0 +1,34 @@
+{
+  "scope": "Current run increment only; unrelated pre-existing untracked point_comparison_followup.json scanned but excluded. No historical audit.",
+  "checks": [
+    {
+      "mode": "worktree",
+      "exit_status": 0,
+      "passed": true,
+      "base": "3d092a62a9558ed9193ae4288897fdc818a60709",
+      "remote_main": "3d092a62a9558ed9193ae4288897fdc818a60709",
+      "errors": [],
+      "files_checked": 46,
+      "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-body-target-oracle/check_publication.py --mode worktree --out <LOCAL_RECEIPT>"
+    },
+    {
+      "mode": "staged",
+      "exit_status": 0,
+      "passed": true,
+      "base": "3d092a62a9558ed9193ae4288897fdc818a60709",
+      "remote_main": "3d092a62a9558ed9193ae4288897fdc818a60709",
+      "errors": [],
+      "files_checked": 45,
+      "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-body-target-oracle/check_publication.py --mode staged --out <LOCAL_RECEIPT>"
+    }
+  ],
+  "policies_checked": [
+    "No weights/dataset/video/NPZ/NPY or complete raw outputs; individual file below 50 MB",
+    "No credentials/tokens/.env; machine paths redacted",
+    "No full provenance or patches",
+    "Image sizes, EXIF and integrity checked; projection links exist",
+    "No unrelated staged files; origin/main matches baseline; git diff --check"
+  ],
+  "validation": "All three fits and evaluations exited zero. Eighteen executed fitting source hash comparisons matched; initial parameters and original control/hip-only final parameters exactly replayed.",
+  "receipt_policy": "Staged set including this receipt is rechecked; commit audit must pass before push. Full receipts remain in repository outputs."
+}

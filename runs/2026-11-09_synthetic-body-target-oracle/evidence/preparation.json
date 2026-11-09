@@ -1,0 +1,266 @@
+{
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> runs/2026-11-09_synthetic-body-target-oracle/prepare.py",
+  "copied_assets": [
+    {
+      "source": "outputs/synthetic_head_robustness_20261108/inputs.json",
+      "destination": "outputs/synthetic_body_target_oracle_20261109/inputs.json",
+      "source_sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "destination_sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "identical": true
+    },
+    {
+      "source": "outputs/synthetic_head_robustness_20261108/triangulated.json",
+      "destination": "outputs/synthetic_body_target_oracle_20261109/triangulated.json",
+      "source_sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "destination_sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "identical": true
+    },
+    {
+      "source": "outputs/synthetic_head_robustness_20261108/anchors/oracle.json",
+      "destination": "outputs/synthetic_body_target_oracle_20261109/anchors/oracle.json",
+      "source_sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "destination_sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "identical": true
+    }
+  ],
+  "settings_sha256": "317328f29c9bd9334359f6a3a43f04974c05e8878d89c26fd302cbad73a4bf1f",
+  "initializer_sha256": "41f16d84878a32ce1c626c1f918b17399382d5d822b82e390dc630924b3d5e44",
+  "overrides": [
+    {
+      "scope": "hips",
+      "target_override_sha256": "262d2916c56fcd4db0dcb73877a74275697e30158c41c1a9f8f6fe1ff36e55dc",
+      "intervention": {
+        "changes": [
+          {
+            "name": "left_hip",
+            "index": 1,
+            "before_xyz_m": [
+              -0.00783549623059013,
+              0.2800622187020826,
+              0.7701192771187457
+            ],
+            "after_xyz_m": [
+              0.015691637992858887,
+              0.33484097487293757,
+              0.7511917045457324
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_hip",
+            "index": 2,
+            "before_xyz_m": [
+              0.1636067927833387,
+              0.2795769455929851,
+              0.7610915692850933
+            ],
+            "after_xyz_m": [
+              0.13714851811528206,
+              0.33209756328138296,
+              0.7629919741155642
+            ],
+            "only_changed_field": "xyz"
+          }
+        ],
+        "initialization_uses_automatic_targets_only": true,
+        "covariances_weights_masks_unchanged": true,
+        "metadata_note": "Gating/reprojection/covariance describe unchanged original observations; only loss target xyz changes. No new targets added."
+      }
+    },
+    {
+      "scope": "body",
+      "target_override_sha256": "9d177ab587e3254156809eb1f71225f0c1461533a82597b85570a38e8f5b2a8a",
+      "intervention": {
+        "changes": [
+          {
+            "name": "left_shoulder",
+            "index": 8,
+            "before_xyz_m": [
+              -0.10391460897495766,
+              0.2230995560000668,
+              0.274736784642029
+            ],
+            "after_xyz_m": [
+              -0.09830443561077118,
+              0.25505775168179884,
+              0.2661324168779328
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_shoulder",
+            "index": 9,
+            "before_xyz_m": [
+              0.26417496182504957,
+              0.2276751317714799,
+              0.2796373440854414
+            ],
+            "after_xyz_m": [
+              0.23907116055488586,
+              0.259525230389176,
+              0.2636626117290592
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "left_elbow",
+            "index": 10,
+            "before_xyz_m": [
+              -0.19996404986164215,
+              0.15948853030641338,
+              0.4898787252106252
+            ],
+            "after_xyz_m": [
+              -0.18564249575138092,
+              0.1838722437552609,
+              0.5088082556677685
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_elbow",
+            "index": 11,
+            "before_xyz_m": [
+              0.3575342480245686,
+              0.18789225087881858,
+              0.49759284766947937
+            ],
+            "after_xyz_m": [
+              0.3645077794790268,
+              0.19324174145339612,
+              0.49909080374649006
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "left_wrist",
+            "index": 12,
+            "before_xyz_m": [
+              -0.03463487329505847,
+              -0.02929637006232662,
+              0.5037394515961512
+            ],
+            "after_xyz_m": [
+              -0.03963180631399155,
+              -0.022729172772617656,
+              0.5150837756499003
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_wrist",
+            "index": 13,
+            "before_xyz_m": [
+              0.23942412924312126,
+              -0.027271778148924022,
+              0.5096011931517719
+            ],
+            "after_xyz_m": [
+              0.23989327251911163,
+              -0.022858476503688885,
+              0.5118025169768965
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "left_hip",
+            "index": 1,
+            "before_xyz_m": [
+              -0.00783549623059013,
+              0.2800622187020826,
+              0.7701192771187457
+            ],
+            "after_xyz_m": [
+              0.015691637992858887,
+              0.33484097487293757,
+              0.7511917045457324
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_hip",
+            "index": 2,
+            "before_xyz_m": [
+              0.1636067927833387,
+              0.2795769455929851,
+              0.7610915692850933
+            ],
+            "after_xyz_m": [
+              0.13714851811528206,
+              0.33209756328138296,
+              0.7629919741155642
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "left_knee",
+            "index": 3,
+            "before_xyz_m": [
+              -0.03062346732028977,
+              0.3816571673695019,
+              1.2114408596384783
+            ],
+            "after_xyz_m": [
+              -0.03900381177663803,
+              0.409864169357055,
+              1.1225594661755074
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_knee",
+            "index": 4,
+            "before_xyz_m": [
+              0.20163097237486208,
+              0.4455080110023062,
+              1.4041222487858718
+            ],
+            "after_xyz_m": [
+              0.1813584715127945,
+              0.41159249378026763,
+              1.1169451748892136
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "left_ankle",
+            "index": 5,
+            "before_xyz_m": [
+              -0.02588211444510269,
+              0.47180447128768793,
+              1.5557454443427858
+            ],
+            "after_xyz_m": [
+              0.0044496431946754456,
+              0.5112464094700278,
+              1.5139603758210074
+            ],
+            "only_changed_field": "xyz"
+          },
+          {
+            "name": "right_ankle",
+            "index": 6,
+            "before_xyz_m": [
+              0.19573590258154824,
+              0.5108241234466974,
+              1.6821607193296173
+            ],
+            "after_xyz_m": [
+              0.16594167798757553,
+              0.5028001581271118,
+              1.5179268100243395
+            ],
+            "only_changed_field": "xyz"
+          }
+        ],
+        "initialization_uses_automatic_targets_only": true,
+        "covariances_weights_masks_unchanged": true,
+        "metadata_note": "Gating/reprojection/covariance describe unchanged original observations; only loss target xyz changes. No new targets added."
+      }
+    }
+  ],
+  "control_exact": true,
+  "settings_and_initializer_identical_to_previous": true,
+  "all_body_definition": "12 existing Sapiens body targets. WiLoR 10 points remain automatic; no pelvis, toe/heel or new targets."
+}

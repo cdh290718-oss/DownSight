@@ -1,0 +1,114 @@
+{
+  "exit_status": 0,
+  "scope": "Pairwise plots use identical axis limits for the same camera. Ray angles are not distorted pixel coordinates. GT in-frame is not occlusion visibility; side plot shows body25, including unobserved feet and facial surface landmarks.",
+  "plots": [
+    {
+      "image": "assets/skeleton_left_control.png",
+      "sha256": "5feebb7da1098914f4f09ba65e5c0872faedac4550dd3af01d22389c0fff7d94",
+      "side": "left",
+      "before": "control",
+      "ray_axis_limits": [
+        [
+          -25.403959517794465,
+          39.142285293360416
+        ],
+        [
+          27.20021237321158,
+          -6.151198545424524
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.6591203851544574
+        ],
+        [
+          0.6299033289272116,
+          -0.07810150384902954
+        ]
+      ],
+      "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58"
+    },
+    {
+      "image": "assets/skeleton_left_gt_hips.png",
+      "sha256": "95a0447b171610149debbec4db2ff6198cac9a8c1f14f6ffe90eec6f6d114ee1",
+      "side": "left",
+      "before": "gt_hips",
+      "ray_axis_limits": [
+        [
+          -25.403959517794465,
+          39.142285293360416
+        ],
+        [
+          27.20021237321158,
+          -6.151198545424524
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.6591203851544574
+        ],
+        [
+          0.6299033289272116,
+          -0.07810150384902954
+        ]
+      ],
+      "gt_source_sha256": "7e7033619780de93d3dcf6b3b7712d7acf80ee6a2256691a2c2bacfc62492b58"
+    },
+    {
+      "image": "assets/skeleton_right_control.png",
+      "sha256": "c871eac385042c87f7ccc8ae12742fbf7563346f9372b53729f9fdf74c9bb789",
+      "side": "right",
+      "before": "control",
+      "ray_axis_limits": [
+        [
+          -39.354273394966754,
+          25.74698104333509
+        ],
+        [
+          25.93004350720681,
+          -7.402985079089478
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.661133849238476
+        ],
+        [
+          0.5831159859668082,
+          -0.09111623246264765
+        ]
+      ],
+      "gt_source_sha256": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80"
+    },
+    {
+      "image": "assets/skeleton_right_gt_hips.png",
+      "sha256": "013814fc94deb33d0dca218efbae30a0379300f356c103ce8c993544dd6c018a",
+      "side": "right",
+      "before": "gt_hips",
+      "ray_axis_limits": [
+        [
+          -39.354273394966754,
+          25.74698104333509
+        ],
+        [
+          25.93004350720681,
+          -7.402985079089478
+        ]
+      ],
+      "side_axis_limits": [
+        [
+          -0.05,
+          1.661133849238476
+        ],
+        [
+          0.5831159859668082,
+          -0.09111623246264765
+        ]
+      ],
+      "gt_source_sha256": "2b9e54a177e5cc5b739e941bc5f6b9ebd94632875a616c0b4978d89fde33ee80"
+    }
+  ]
+}

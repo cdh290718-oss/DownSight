@@ -1,0 +1,56 @@
+[
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/evaluate.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 11.94214415550232,
+    "source_sha256": "50fc27d9ef7771f7525a6d2a662ef1d081a99ea485ccfa27833635400a1b2dde"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/evaluate_shape.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 5.93502950668335,
+    "source_sha256": "8d14b3eb180abb3b92d78983f3ddc62fc8f7ce106af943f09e6d64b250ede9b6"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/verify.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 0.7960021495819092,
+    "source_sha256": "18babc2d5553d10d9fdae1afa4be7970e2c83897a6f54c5e83deee038c2bd6c2"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/target_residuals.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 0.6886947154998779,
+    "source_sha256": "28501d36c7cdc6940a0f7234745ec7498b9d44c1cf208ec4a1e1b2b458b553eb"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/plot_skeleton.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 5.718655109405518,
+    "source_sha256": "cba2ef01dffc585f4ba17c15f962a156982ab68fd546e656c2fd815107c313a3"
+  },
+  {
+    "command": [
+      "<BODY_PYTHON>",
+      "runs/2026-11-09_synthetic-body-target-oracle/build_report.py"
+    ],
+    "exit_status": 0,
+    "elapsed_seconds": 2.3702473640441895,
+    "source_sha256": "98ea96e74430596cdcc6d68922117fa49281808035009c261397862fe76ba0aa"
+  }
+]
