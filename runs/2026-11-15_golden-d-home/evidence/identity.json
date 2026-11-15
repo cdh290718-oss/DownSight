@@ -1,0 +1,11 @@
+{
+  "command": "git show <baseline>:README.md; compare bytes to README_LEGACY.md",
+  "exit_status": 0,
+  "baseline": "a93ed44f4409fcdc213a007de4f9bfa1c5266aa7",
+  "archive_commit": "d26b9ee292204506492fb9e1d221d683531465ea",
+  "source_commit": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+  "legacy_readme_identical": true,
+  "legacy_sha256": "2fef6e1666be912a9b5e19c2fe636efa6be483e5dbb439b43a82394480df66e7",
+  "golden_lock_sha256": "83b97ec4798d54aa97761143d1d0d52ea50cab509671cbcd03c413b6131498ef",
+  "fit_rerun": false
+}

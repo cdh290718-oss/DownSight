@@ -1,0 +1,12 @@
+{
+  "scope": "this change increment only; not historical repository audit",
+  "baseline_and_remote_main": "a93ed44f4409fcdc213a007de4f9bfa1c5266aa7",
+  "worktree_review": "README modified, only specified new run, legacy README, lock and checker staged; earlier unrelated untracked entries excluded",
+  "forbidden_files": [],
+  "path_credential_pattern_matches": [],
+  "max_file_bytes": 8338,
+  "weights_datasets_videos_arrays_full_output": "none",
+  "full_provenance_and_patch": "none",
+  "redaction": "repo-relative identifiers and placeholders only",
+  "validation": "lock identity, local public files, local external asset hash comparison and negative test passed; fit not rerun"
+}

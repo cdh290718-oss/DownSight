@@ -1,0 +1,184 @@
+{
+  "name": "golden-sample-D",
+  "status": "frozen archival reference, not a validated regression tolerance or deployment baseline",
+  "archive_commit": "d26b9ee292204506492fb9e1d221d683531465ea",
+  "source_publication_commit": "485fc71ca37d3c68a74bf99338fe247c197bf6eb",
+  "executed_base_commit": "6d5994401b33450ea3343d20f44f2cc54e9ac5d6",
+  "dataset": {
+    "repository": "https://github.com/cdh290718-oss/DownSightSmplxdata",
+    "commit": "192671271a74b99f41b9eb033d8f88b1dac77ada",
+    "sample": "000001",
+    "views": [
+      "cam3/left",
+      "cam4/right"
+    ],
+    "independent_postures": 1
+  },
+  "case": {
+    "case": "D",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  },
+  "budget_steps": 20000,
+  "selected_training_step": 19960,
+  "selection": "minimum feasible training objective, not GT-based selection",
+  "tracked_resources": [
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/README.md",
+      "sha256": "282eca881e5f0448c1b3821370cb8d6c934c8fc380729f85faa4dfdac3220cec",
+      "bytes": 4279
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/METHOD.md",
+      "sha256": "4a59155fbc6feafff78e7b35318390ee673c8de707d0ead2c1643bfa86786ba3",
+      "bytes": 4165
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/RESULTS.md",
+      "sha256": "adaa60aa7ff98f3afb381dc63e5be32a4674e0c9ac13af10ab937a47e7a72046",
+      "bytes": 3192
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md",
+      "sha256": "cc1c0054f76fbac0df27a53df784f84e350c3f28b1669a477a1b409e584c7c06",
+      "bytes": 2599
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md",
+      "sha256": "82c0b43865a7ea4c32c24bb0a2172090307941f1f8adfe7aed52f608a8f8ff3d",
+      "bytes": 5903
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/case.json",
+      "sha256": "a68b8966b0c01185ac36de737ce66c781bd0e93dfc8b5440ee4470fe1a7faee7",
+      "bytes": 87
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/settings.json",
+      "sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "bytes": 3258
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/manifest.json",
+      "sha256": "2aec99e997667e5d317a02200a12107549a0f872f3a2779a574a642371076555",
+      "bytes": 21201
+    },
+    {
+      "path": "experiments/synthetic_template_head_stereo_20261109/evidence/results.json",
+      "sha256": "445225b394bab60e265194b02e4b91e2c5cfaba349ed3a7c2ca0097e23b2ce07",
+      "bytes": 37790
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/fit.py",
+      "sha256": "ced7b6a331566e522150ea9eab0cb30c795aef8bcb0bca98c170e44c45c7251e",
+      "bytes": 10734
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/common.py",
+      "sha256": "ccad0be70027aee36478e8261e27e0c6ca36479ecd225d7a991272599a4b52e9",
+      "bytes": 2211
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/initialization.py",
+      "sha256": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+      "bytes": 1899
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/settings.json",
+      "sha256": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+      "bytes": 3258
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg",
+      "sha256": "62ed71d4a585bc940d90f021ded0834bc6b1ae4b4bb5c15a585380415467f34d",
+      "bytes": 330097
+    },
+    {
+      "path": "runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg",
+      "sha256": "430838f337ff8a82f270c7465844045fb1394a76636cc849b70e7c0d9d937926",
+      "bytes": 332930
+    }
+  ],
+  "external_inputs": [
+    {
+      "resource": "outputs/initialization_ablation_20261109/inputs.json",
+      "bytes": 22799,
+      "sha256": "df5b1531c5dab54794466dfc6618869be67b1a209fb2d6d8337c491b2ef923cf",
+      "role": "Cameras and automatic 2D observations",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/triangulated.json",
+      "bytes": 28987,
+      "sha256": "bd4ac341e4bd870a30dc9fd4b97fc493077ec3c209d94f28916456f8522a5284",
+      "role": "Prepared automatic 3D targets and covariances",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/anchors/oracle.json",
+      "bytes": 391,
+      "sha256": "40da8d84caf27ee2d093cfb9881f834c99e614b91887bf6aee3bda038691b6f8",
+      "role": "True Head anchor",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/model_paths.json",
+      "bytes": 1451,
+      "sha256": "bae42e8218fd7157fdfd461d4eda95d1f8ef45b72e18f9637e9175c3189f7762",
+      "role": "Private machine-local backend paths; content not published",
+      "access": "Development workspace or owner-provided external storage; no public download endpoint for this prepared asset. Requires existing licensed model/backend environment."
+    }
+  ],
+  "external_outputs": [
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/initial.npz",
+      "bytes": 118062,
+      "sha256": "066f24beccbbac33dc6301b8031bb401a46eb4d6dbe4b397c7c9e1602b6eba1b",
+      "selected_step": 0,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_3400.npz",
+      "bytes": 119937,
+      "sha256": "adc51eba381372b23321c2b5a4d2bdf77dc9a5c885f6839751beef4843712e15",
+      "selected_step": 3400,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_10000.npz",
+      "bytes": 119580,
+      "sha256": "c76af1e10e7ac845f5cf59887e195dba95c529d9a44c2657f68c952b759ac921",
+      "selected_step": 9920,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_16000.npz",
+      "bytes": 120052,
+      "sha256": "944472c9d430edc15ade39dd051a67a859a9edd38fbac58252fe04d7cb5ef4f1",
+      "selected_step": 16000,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_20000.npz",
+      "bytes": 120067,
+      "sha256": "07827232df1175eb7bced55c41b5c7a0180f219ce176973e64610e9b5775d8e7",
+      "selected_step": 19960,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/final.npz",
+      "bytes": 120067,
+      "sha256": "07827232df1175eb7bced55c41b5c7a0180f219ce176973e64610e9b5775d8e7",
+      "selected_step": 19960,
+      "coordinate_frame": "cam3 CV; metres",
+      "access": "Owner-provided external storage or development workspace; not uploaded to GitHub."
+    }
+  ],
+  "limits": "Oracle Head position and orientation, synthetic cameras, one pose with GT beta zero; stability criteria not all met; hand pose fixed; no claim of independent reproduction."
+}

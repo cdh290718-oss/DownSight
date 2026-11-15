@@ -1,0 +1,57 @@
+{
+  "command": "python3 runs/2026-11-15_golden-d-home/check_external.py",
+  "exit_status": 0,
+  "scope": "logical paths and digest comparison only; no weights or environment audit",
+  "assets": [
+    {
+      "resource": "outputs/initialization_ablation_20261109/inputs.json",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/triangulated.json",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/anchors/oracle.json",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/model_paths.json",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/initial.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_3400.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_10000.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_16000.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/budget_20000.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    },
+    {
+      "resource": "outputs/initialization_ablation_20261109/D_left/final.npz",
+      "available": true,
+      "sha256_matches_manifest": true
+    }
+  ]
+}
