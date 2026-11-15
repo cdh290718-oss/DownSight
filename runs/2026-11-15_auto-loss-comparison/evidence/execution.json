@@ -1,0 +1,143 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-15_auto-loss-comparison/run.py",
+  "records": [
+    {
+      "pair": "body04",
+      "method": "3d",
+      "status": "no_observations",
+      "exit_status": null
+    },
+    {
+      "pair": "body03",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 527.396139383316,
+      "log_excerpt": [
+        "D 19900 1.0780722732306458e-05",
+        "D 20000 1.0765224033093546e-05",
+        "DONE D 19920"
+      ]
+    },
+    {
+      "pair": "body01",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 546.8340363502502,
+      "log_excerpt": [
+        "D 19900 0.00014062022091820836",
+        "D 20000 0.00014067572192288935",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body04",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 565.3682360649109,
+      "log_excerpt": [
+        "D 19900 0.004381206352263689",
+        "D 20000 0.004383131396025419",
+        "DONE D 5740"
+      ]
+    },
+    {
+      "pair": "body04",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 577.5556597709656,
+      "log_excerpt": [
+        "D 19900 0.004381206352263689",
+        "D 20000 0.004383131396025419",
+        "DONE D 5740"
+      ]
+    },
+    {
+      "pair": "body02",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 578.5176954269409,
+      "log_excerpt": [
+        "D 19900 0.0006385054439306259",
+        "D 20000 0.0006384653970599174",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 612.5074782371521,
+      "log_excerpt": [
+        "D 19900 0.005521681159734726",
+        "D 20000 0.005523390136659145",
+        "DONE D 5400"
+      ]
+    },
+    {
+      "pair": "body02",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 617.8666613101959,
+      "log_excerpt": [
+        "D 19900 0.00582902180030942",
+        "D 20000 0.005831452552229166",
+        "DONE D 5480"
+      ]
+    },
+    {
+      "pair": "body01",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 621.690596818924,
+      "log_excerpt": [
+        "D 19900 0.0014134496450424194",
+        "D 20000 0.0014133790973573923",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 624.2941689491272,
+      "log_excerpt": [
+        "D 19900 0.014596802182495594",
+        "D 20000 0.014604820869863033",
+        "DONE D 5540"
+      ]
+    },
+    {
+      "pair": "body01",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 640.6120247840881,
+      "log_excerpt": [
+        "D 19900 0.007815109565854073",
+        "D 20000 0.007817394100129604",
+        "DONE D 6240"
+      ]
+    },
+    {
+      "pair": "body03",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 676.9221224784851,
+      "log_excerpt": [
+        "D 19900 0.01436167024075985",
+        "D 20000 0.014369736425578594",
+        "DONE D 5520"
+      ]
+    }
+  ]
+}

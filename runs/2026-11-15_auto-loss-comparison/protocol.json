@@ -1,0 +1,16 @@
+{
+  "seeds": [20261115, 20261116, 20261117],
+  "noise_sigma_px": [1, 3, 5, 8],
+  "auto_sigma_px_assumed": 8,
+  "auto_score_threshold": 0.3,
+  "depth_sigma_threshold_m": 0.5,
+  "min_ray_angle_deg": 1,
+  "max_ray_gap_m": 0.04,
+  "min_ray_distance_m": 0.12,
+  "max_ray_distance_m": 2.5,
+  "max_reprojection_px": 20,
+  "metric_floor_m": 0.008,
+  "gt2d_noise": "independent Gaussian per view, joint and coordinate; 3 fixed seeds per sigma",
+  "2d_metric": "against clean official 2D for all 15 model joints, regardless of fitting point coverage; additionally input residual where available",
+  "note": "8px auto observation sigma is an uncalibrated engineering assumption; input noise correlation, landmark definition and calibration uncertainty are not modeled."
+}

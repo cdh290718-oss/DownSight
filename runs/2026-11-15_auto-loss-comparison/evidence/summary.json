@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "method": "3d",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03"
+      ],
+      "pa15_mean_mm": 159.79734791840076,
+      "absolute15_mean_mm": 470.75117029185037,
+      "left_clean_mean_px": 112.79098411991953,
+      "right_clean_mean_px": 109.41481692182768,
+      "convergence_pass_count": 1
+    },
+    {
+      "method": "mixed",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03",
+        "body04"
+      ],
+      "pa15_mean_mm": 150.87051531443024,
+      "absolute15_mean_mm": 312.35248924388054,
+      "left_clean_mean_px": 60.79175942272478,
+      "right_clean_mean_px": 60.60254038363276,
+      "convergence_pass_count": 0
+    },
+    {
+      "method": "2d",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03",
+        "body04"
+      ],
+      "pa15_mean_mm": 152.45953099378787,
+      "absolute15_mean_mm": 265.8439636746803,
+      "left_clean_mean_px": 52.32937789528073,
+      "right_clean_mean_px": 53.032851411599104,
+      "convergence_pass_count": 0
+    }
+  ],
+  "warning": "3d has only three pairs; its mean is not directly comparable to four-pair means"
+}

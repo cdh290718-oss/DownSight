@@ -1,0 +1,43 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-15_auto-loss-comparison/test_preflight.py",
+  "exit_status": 0,
+  "routing": [
+    {
+      "pair": "body01",
+      "3d": 3,
+      "2d_fallback": 3,
+      "single_view": 3
+    },
+    {
+      "pair": "body02",
+      "3d": 3,
+      "2d_fallback": 3,
+      "single_view": 3
+    },
+    {
+      "pair": "body03",
+      "3d": 1,
+      "2d_fallback": 6,
+      "single_view": 5
+    },
+    {
+      "pair": "body04",
+      "3d": 0,
+      "2d_fallback": 6,
+      "single_view": 6
+    }
+  ],
+  "projection": [
+    {
+      "camera": "left",
+      "numpy_vs_torch_max_px": 7.876995709921175e-05,
+      "gradients_finite": true
+    },
+    {
+      "camera": "right",
+      "numpy_vs_torch_max_px": 4.540861340274205e-05,
+      "gradients_finite": true
+    }
+  ],
+  "scope": "projection gradient finite and numpy comparison; routing no double counting, not a convergence test"
+}

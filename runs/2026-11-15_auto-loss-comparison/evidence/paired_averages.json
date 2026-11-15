@@ -1,0 +1,41 @@
+{
+  "exit_status": 0,
+  "rows": [
+    {
+      "method": "3d",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03"
+      ],
+      "pa15_mm": 159.79734791840076,
+      "absolute15_mm": 470.75117029185037,
+      "left_clean_px": 112.79098411991953,
+      "right_clean_px": 109.41481692182768
+    },
+    {
+      "method": "mixed",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03"
+      ],
+      "pa15_mm": 137.69156104031543,
+      "absolute15_mm": 321.8512754398672,
+      "left_clean_px": 62.65147843966669,
+      "right_clean_px": 62.65724619477029
+    },
+    {
+      "method": "2d",
+      "pairs": [
+        "body01",
+        "body02",
+        "body03"
+      ],
+      "pa15_mm": 139.81024861279226,
+      "absolute15_mm": 259.8399080142669,
+      "left_clean_px": 51.368303069741295,
+      "right_clean_px": 52.564327565392084
+    }
+  ]
+}

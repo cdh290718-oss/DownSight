@@ -1,0 +1,31 @@
+{
+  "exit_status": 0,
+  "conditions": [
+    {
+      "pair": "body01",
+      "same_shape_basis": true,
+      "same_root_initialization": true,
+      "shape_rank": 0
+    },
+    {
+      "pair": "body02",
+      "same_shape_basis": true,
+      "same_root_initialization": true,
+      "shape_rank": 0
+    },
+    {
+      "pair": "body03",
+      "same_shape_basis": true,
+      "same_root_initialization": true,
+      "shape_rank": 0
+    },
+    {
+      "pair": "body04",
+      "same_shape_basis": true,
+      "same_root_initialization": true,
+      "shape_rank": 0
+    }
+  ],
+  "body04_mixed_vs_2d_max_joint_m": 0.0,
+  "notes": "Same initialization and body shape basis verified; body04 has no 3D branch. Raw checkpoints not published."
+}

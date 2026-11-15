@@ -1,0 +1,109 @@
+{
+  "base": "5b5cf1d8d174de6a62e9e86f6ab4da3f0a5edccd",
+  "mode": "staged",
+  "remote_head": "5b5cf1d8d174de6a62e9e86f6ab4da3f0a5edccd",
+  "files": [
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/audit.py",
+      "bytes": 1881
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/brief.md",
+      "bytes": 595
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/cases.json",
+      "bytes": 310
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/common.py",
+      "bytes": 2280
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evaluate.py",
+      "bytes": 2726
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/execution.json",
+      "bytes": 3342
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/input_hashes.json",
+      "bytes": 2920
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/input_hashes_initial_failure.txt",
+      "bytes": 277
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/paired_averages.json",
+      "bytes": 878
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/preflight.json",
+      "bytes": 904
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/results.json",
+      "bytes": 31290
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/summary.json",
+      "bytes": 1155
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/evidence/verification.json",
+      "bytes": 731
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/fit.py",
+      "bytes": 12195
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/initialization.py",
+      "bytes": 1899
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/prepare.py",
+      "bytes": 4885
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/protocol.json",
+      "bytes": 761
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/report.md",
+      "bytes": 4919
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/review.md",
+      "bytes": 255
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/run.py",
+      "bytes": 1497
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/settings.json",
+      "bytes": 3258
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/summarize.py",
+      "bytes": 1425
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/test_preflight.py",
+      "bytes": 1653
+    },
+    {
+      "path": "runs/2026-11-15_auto-loss-comparison/verify.py",
+      "bytes": 1837
+    }
+  ],
+  "workspace_status": "A  runs/2026-11-15_auto-loss-comparison/audit.py\nA  runs/2026-11-15_auto-loss-comparison/brief.md\nA  runs/2026-11-15_auto-loss-comparison/cases.json\nA  runs/2026-11-15_auto-loss-comparison/common.py\nA  runs/2026-11-15_auto-loss-comparison/evaluate.py\nA  runs/2026-11-15_auto-loss-comparison/evidence/execution.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/input_hashes.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/input_hashes_initial_failure.txt\nA  runs/2026-11-15_auto-loss-comparison/evidence/paired_averages.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/preflight.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/results.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/summary.json\nA  runs/2026-11-15_auto-loss-comparison/evidence/verification.json\nA  runs/2026-11-15_auto-loss-comparison/fit.py\nA  runs/2026-11-15_auto-loss-comparison/initialization.py\nA  runs/2026-11-15_auto-loss-comparison/prepare.py\nA  runs/2026-11-15_auto-loss-comparison/protocol.json\nA  runs/2026-11-15_auto-loss-comparison/report.md\nA  runs/2026-11-15_auto-loss-comparison/review.md\nA  runs/2026-11-15_auto-loss-comparison/run.py\nA  runs/2026-11-15_auto-loss-comparison/settings.json\nA  runs/2026-11-15_auto-loss-comparison/summarize.py\nA  runs/2026-11-15_auto-loss-comparison/test_preflight.py\nA  runs/2026-11-15_auto-loss-comparison/verify.py\n?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json\n?? runs/2026-11-15_dual-source-fit/\n?? runs/2026-11-15_real-template-no-head/\n?? runs/2026-11-15_unrealego-d-batch/\n?? runs/2026-11-15_unrealego-dual-source/\n?? runs/2026-11-15_unrealego-gt16/\n?? runs/2026-11-15_unrealego-noise-mixed/",
+  "errors": [
+    "sensitive pattern: runs/2026-11-15_auto-loss-comparison/fit.py"
+  ],
+  "exit_status": 1,
+  "scope": "Incremental selected files only; existing untracked work excluded. No model/data/video/raw output or full provenance."
+}
