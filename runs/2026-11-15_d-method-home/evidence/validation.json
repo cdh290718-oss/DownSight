@@ -1,0 +1,33 @@
+{
+  "baseline": "8a245314d975c7ec1ec16b5ca08c35503254680a",
+  "readme_local_links": 23,
+  "missing_links": [],
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/check_golden_d.py"
+      ],
+      "exit_status": 0,
+      "stdout": "PASS: golden D identity, manifest and 15 public files match pinned archive.\nExternal assets, repeated runs, numerical tolerance and scientific accuracy were not verified.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_status": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "shape_evidence": {
+    "source": "experiments/synthetic_template_head_stereo_20261109/evidence/results.json",
+    "records": {
+      "D_shape_information": 1
+    }
+  },
+  "diagram_review": "Manual syntax/data-flow review only; Mermaid renderer/browser not run."
+}

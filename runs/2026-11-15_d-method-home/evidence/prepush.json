@@ -1,0 +1,43 @@
+{
+  "mode": "staged",
+  "base": "8a245314d975c7ec1ec16b5ca08c35503254680a",
+  "remote_head": "8a245314d975c7ec1ec16b5ca08c35503254680a",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9285
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/audit.py",
+      "bytes": 2241
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/brief.md",
+      "bytes": 566
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/evidence/prepush_initial.json",
+      "bytes": 1558
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/evidence/validation.json",
+      "bytes": 879
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/report.md",
+      "bytes": 1987
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/review.md",
+      "bytes": 168
+    },
+    {
+      "path": "runs/2026-11-15_d-method-home/validate.py",
+      "bytes": 1645
+    }
+  ],
+  "workspace_status": "M  README.md\nA  runs/2026-11-15_d-method-home/audit.py\nA  runs/2026-11-15_d-method-home/brief.md\nA  runs/2026-11-15_d-method-home/evidence/prepush_initial.json\nA  runs/2026-11-15_d-method-home/evidence/validation.json\nA  runs/2026-11-15_d-method-home/report.md\nA  runs/2026-11-15_d-method-home/review.md\nA  runs/2026-11-15_d-method-home/validate.py\n?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json\n?? runs/2026-11-15_real-template-no-head/\n?? runs/2026-11-15_unrealego-d-batch/\n?? runs/2026-11-15_unrealego-gt16/",
+  "errors": [],
+  "manual_review": "Only documentation, small check scripts and redacted evidence; no model/data/video/full provenance or patch. Existing unrelated untracked files excluded.",
+  "exit_status": 0
+}
