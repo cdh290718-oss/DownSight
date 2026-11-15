@@ -1,0 +1,13 @@
+{
+  "scope": "new run increment only; history not audited",
+  "baseline_and_remote_main": "05d825c35f8e8bbb06b7b795912f13f2e4ca5fd4",
+  "worktree": "earlier unrelated/incomplete untracked paths excluded",
+  "forbidden_files": [],
+  "path_credential_or_exif_matches": [],
+  "max_file_bytes": 111769,
+  "images": "derived diagnostic overlays",
+  "weights_data_videos_arrays_full_output": "none",
+  "full_provenance_or_patch": "none",
+  "redaction": "machine roots replaced; input 2D and 3D coordinates excluded",
+  "retry_fits_evaluation_exit_status": 0
+}

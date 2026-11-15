@@ -1,0 +1,42 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-15_gt2d-vs-sapiens/prepare.py",
+  "exit_status": 0,
+  "dataset_sha256": "acf9b050dfe145acc5a5723a7a3da384811fba0b111e7af9ef6ed7d448fbc9f8",
+  "calibration": "other S9 sequence official annotations; not independent device calibration",
+  "two_conditions": "same matched indices and identical covariance from auto triangulation; coordinates differ",
+  "sigma_assumption": "1px isotropic 2D + 8mm metric floor plus same definition noise; optimistic for Sapiens",
+  "eligibility": "Sapiens both views >=0.3 and in image; triangulation gates; official matched points pass",
+  "visibility": "unknown, no independent verified visibility annotation",
+  "pairs": [
+    {
+      "pair": "body01",
+      "matched": 3,
+      "names": [
+        "left_shoulder",
+        "left_elbow",
+        "left_wrist"
+      ]
+    },
+    {
+      "pair": "body02",
+      "matched": 3,
+      "names": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist"
+      ]
+    },
+    {
+      "pair": "body03",
+      "matched": 1,
+      "names": [
+        "right_wrist"
+      ]
+    },
+    {
+      "pair": "body04",
+      "matched": 0,
+      "names": []
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "total_view_points": 96,
+  "gt_in_image": 96,
+  "automatic_in_image": 96,
+  "score_ge_0_3": 33,
+  "visibility": "not assessed; in-frame not equal visible",
+  "per_pair": [
+    {
+      "pair": "body01",
+      "matched_count": 3,
+      "views": [
+        {
+          "camera": "left",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 3,
+          "mean_px": 181.61269922040387,
+          "median_px": 158.84655271348868
+        },
+        {
+          "camera": "right",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 6,
+          "mean_px": 145.54222502676961,
+          "median_px": 58.475286327426986
+        }
+      ],
+      "matched": [
+        {
+          "name": "left_shoulder",
+          "auto_vs_gt3d_mm": 124.35300127517047,
+          "gt2d_tri_vs_gt3d_mm": 2.4333578020536422e-05
+        },
+        {
+          "name": "left_elbow",
+          "auto_vs_gt3d_mm": 68.17926692673493,
+          "gt2d_tri_vs_gt3d_mm": 0.0005276761332787034
+        },
+        {
+          "name": "left_wrist",
+          "auto_vs_gt3d_mm": 44.67776750891575,
+          "gt2d_tri_vs_gt3d_mm": 0.0009490256240456994
+        }
+      ]
+    },
+    {
+      "pair": "body02",
+      "matched_count": 3,
+      "views": [
+        {
+          "camera": "left",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 5,
+          "mean_px": 150.0545215077572,
+          "median_px": 115.0282848220222
+        },
+        {
+          "camera": "right",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 4,
+          "mean_px": 129.7009066352637,
+          "median_px": 46.680269342268744
+        }
+      ],
+      "matched": [
+        {
+          "name": "right_elbow",
+          "auto_vs_gt3d_mm": 83.27593744077966,
+          "gt2d_tri_vs_gt3d_mm": 6.264509283064028e-05
+        },
+        {
+          "name": "left_wrist",
+          "auto_vs_gt3d_mm": 67.45861144954054,
+          "gt2d_tri_vs_gt3d_mm": 0.00024074811570253714
+        },
+        {
+          "name": "right_wrist",
+          "auto_vs_gt3d_mm": 51.859513691707235,
+          "gt2d_tri_vs_gt3d_mm": 0.0001157450140365222
+        }
+      ]
+    },
+    {
+      "pair": "body03",
+      "matched_count": 1,
+      "views": [
+        {
+          "camera": "left",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 4,
+          "mean_px": 139.79835968520675,
+          "median_px": 78.73572562638137
+        },
+        {
+          "camera": "right",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 5,
+          "mean_px": 149.93783985747805,
+          "median_px": 74.24589986172475
+        }
+      ],
+      "matched": [
+        {
+          "name": "right_wrist",
+          "auto_vs_gt3d_mm": 14.751094628639864,
+          "gt2d_tri_vs_gt3d_mm": 6.892684693495451e-05
+        }
+      ]
+    },
+    {
+      "pair": "body04",
+      "matched_count": 0,
+      "views": [
+        {
+          "camera": "left",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 3,
+          "mean_px": 80.05650781254057,
+          "median_px": 26.505420639598757
+        },
+        {
+          "camera": "right",
+          "gt_in_image": 12,
+          "auto_in_image": 12,
+          "score_ge_0_3": 3,
+          "mean_px": 167.869576296551,
+          "median_px": 108.91544655002727
+        }
+      ],
+      "matched": []
+    }
+  ],
+  "per_part": [
+    {
+      "name": "shoulder",
+      "count": 16,
+      "mean_px": 45.70441660699407,
+      "median_px": 24.43029751550685
+    },
+    {
+      "name": "elbow",
+      "count": 16,
+      "mean_px": 51.34417067108976,
+      "median_px": 27.436930094859072
+    },
+    {
+      "name": "wrist",
+      "count": 16,
+      "mean_px": 40.073490488371135,
+      "median_px": 13.63385718695249
+    },
+    {
+      "name": "hip",
+      "count": 16,
+      "mean_px": 110.68098973100736,
+      "median_px": 86.48587509047866
+    },
+    {
+      "name": "knee",
+      "count": 16,
+      "mean_px": 255.28838608403424,
+      "median_px": 268.2940799675868
+    },
+    {
+      "name": "ankle",
+      "count": 16,
+      "mean_px": 355.3380234499815,
+      "median_px": 382.20357622264544
+    }
+  ],
+  "per_confidence": [
+    {
+      "score_ge_0_3": true,
+      "count": 33,
+      "mean_px": 22.408407226866252,
+      "median_px": 14.296033604789375
+    },
+    {
+      "score_ge_0_3": false,
+      "count": 63,
+      "mean_px": 206.27609831773114,
+      "median_px": 216.2703255248116
+    }
+  ],
+  "source_sha256": "44080e9eca58c09c0be62190da78c4b989d021239f007593929b45f7ad091f2a",
+  "command": "python runs/2026-11-15_gt2d-vs-sapiens/summarize_observations.py",
+  "exit_status": 0
+}

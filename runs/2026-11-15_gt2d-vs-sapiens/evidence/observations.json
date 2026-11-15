@@ -1,0 +1,2019 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-15_gt2d-vs-sapiens/analyze_observations.py",
+  "exit_status": 0,
+  "coordinate_units": "2D distance in 1280x720 adapted pixels; 3D distance in mm in left camera; no 3D alignment",
+  "visibility": "in-frame is geometric only; occlusion unknown, no manual labels; model/GT landmark definition can differ",
+  "automatic_scope": "each independently detected point whether or not confidence threshold met; matched_accepted means fit eligible",
+  "pairs": [
+    {
+      "pair": "body01",
+      "matched_count": 3,
+      "points": [
+        {
+          "name": "left_shoulder",
+          "index": 8,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.58984375,
+              "automatic_in_image": true,
+              "distance_px": 14.148954597282676
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.39453125,
+              "automatic_in_image": true,
+              "distance_px": 32.64870375191905
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.010924968809197999,
+          "automatic_ray_distances_m": [
+            0.19825745270369322,
+            0.27964839185727036
+          ],
+          "automatic_parallax_deg": 21.888349653116375,
+          "automatic_std_principal_m": [
+            0.009396186674087644,
+            0.009782919362099194,
+            0.029483569292865323
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              1.3150430920921963,
+              -4.505496188349525
+            ],
+            [
+              -3.0877699574429016,
+              5.507656404243136
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 124.35300127517047,
+          "official_tri_vs_official_3d_mm": 2.4333578020536422e-05
+        },
+        {
+          "name": "right_shoulder",
+          "index": 9,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2138671875,
+              "automatic_in_image": true,
+              "distance_px": 101.42277990216574
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.55859375,
+              "automatic_in_image": true,
+              "distance_px": 13.48912802903252
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.020763748869221468,
+          "automatic_ray_distances_m": [
+            0.20466987740184836,
+            0.14102313611179582
+          ],
+          "automatic_parallax_deg": 34.67954475720238,
+          "automatic_std_principal_m": [
+            0.008783592872636697,
+            0.00893375447289331,
+            0.015120605675760079
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -6.727547570415254,
+              -15.106306107342107
+            ],
+            [
+              1.1277083270305184,
+              12.176892724802173
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 241.6498021006265,
+          "official_tri_vs_official_3d_mm": 8.990276558335509e-05
+        },
+        {
+          "name": "left_elbow",
+          "index": 10,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.63671875,
+              "automatic_in_image": true,
+              "distance_px": 24.211675679309323
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.66015625,
+              "automatic_in_image": true,
+              "distance_px": 7.875870517096582
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.02853956626586684,
+          "automatic_ray_distances_m": [
+            0.4296436382239511,
+            0.5095928104478701
+          ],
+          "automatic_parallax_deg": 10.641554093773994,
+          "automatic_std_principal_m": [
+            0.014158058305079622,
+            0.014978774026946421,
+            0.14474319828479923
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              1.136886102941844,
+              -6.75131523229777
+            ],
+            [
+              -1.6823433983125824,
+              7.42521311693514
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 68.17926692673493,
+          "official_tri_vs_official_3d_mm": 0.0005276761332787034
+        },
+        {
+          "name": "right_elbow",
+          "index": 11,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1767578125,
+              "automatic_in_image": true,
+              "distance_px": 263.45365774251604
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.298828125,
+              "automatic_in_image": true,
+              "distance_px": 39.54171166491991
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.027001296325086414,
+          "automatic_ray_distances_m": [
+            -0.15139311843377443,
+            -0.12451690605759246
+          ],
+          "automatic_parallax_deg": 49.638514351463364,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00012783339336134715
+        },
+        {
+          "name": "left_wrist",
+          "index": 12,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.5546875,
+              "automatic_in_image": true,
+              "distance_px": 12.971680769115604
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.625,
+              "automatic_in_image": true,
+              "distance_px": 12.948684590311373
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.0005465536699047152,
+          "automatic_ray_distances_m": [
+            0.598683700505157,
+            0.6608209791251233
+          ],
+          "automatic_parallax_deg": 9.510741012231888,
+          "automatic_std_principal_m": [
+            0.01675914270410403,
+            0.01719270526571679,
+            0.18375342325889965
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              0.0017923408138358354,
+              0.10141036039209439
+            ],
+            [
+              -0.00206419253288459,
+              -0.1078302620006184
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 44.67776750891575,
+          "official_tri_vs_official_3d_mm": 0.0009490256240456994
+        },
+        {
+          "name": "right_wrist",
+          "index": 13,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2265625,
+              "automatic_in_image": true,
+              "distance_px": 216.2703255248116
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1875,
+              "automatic_in_image": true,
+              "distance_px": 12.632797149818558
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.08263363797059205,
+          "automatic_ray_distances_m": [
+            -0.11982384885311553,
+            -0.10489915894444275
+          ],
+          "automatic_parallax_deg": 46.03260110973424,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 7.35831658481383e-05
+        },
+        {
+          "name": "left_hip",
+          "index": 1,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1787109375,
+              "automatic_in_image": true,
+              "distance_px": 86.80118931251185
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.30859375,
+              "automatic_in_image": true,
+              "distance_px": 97.75253472100339
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.03023201230993579,
+          "automatic_ray_distances_m": [
+            -2.404720950819603,
+            -2.384311801942658
+          ],
+          "automatic_parallax_deg": 2.77085237514969,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 9.332929158328349e-05
+        },
+        {
+          "name": "right_hip",
+          "index": 2,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1767578125,
+              "automatic_in_image": true,
+              "distance_px": 60.74884303406493
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.30078125,
+              "automatic_in_image": true,
+              "distance_px": 77.40886098993406
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.06114783276535157,
+          "automatic_ray_distances_m": [
+            1.2582487830192806,
+            1.2444894703700202
+          ],
+          "automatic_parallax_deg": 4.761675659038442,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00038000921360095073
+        },
+        {
+          "name": "left_knee",
+          "index": 3,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.12451171875,
+              "automatic_in_image": true,
+              "distance_px": 244.96155972877582
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1796875,
+              "automatic_in_image": true,
+              "distance_px": 347.70364349540216
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.0785476188090909,
+          "automatic_ray_distances_m": [
+            -0.16830854568038423,
+            -0.1341007729481137
+          ],
+          "automatic_parallax_deg": 33.266775920470195,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00021382757468769339
+        },
+        {
+          "name": "right_knee",
+          "index": 4,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1376953125,
+              "automatic_in_image": true,
+              "distance_px": 349.0687405426589
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.15625,
+              "automatic_in_image": true,
+              "distance_px": 301.5272006530119
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.0625993697468013,
+          "automatic_ray_distances_m": [
+            -0.15712889026096488,
+            -0.21199182917358264
+          ],
+          "automatic_parallax_deg": 28.019462714474756,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0005851267859573636
+        },
+        {
+          "name": "left_ankle",
+          "index": 5,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.115234375,
+              "automatic_in_image": true,
+              "distance_px": 390.24410537198094
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1787109375,
+              "automatic_in_image": true,
+              "distance_px": 410.6640949201249
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.005526681353637824,
+          "automatic_ray_distances_m": [
+            -0.24730628089125697,
+            -0.2252549117599861
+          ],
+          "automatic_parallax_deg": 29.265537378118644,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0016273489547590466
+        },
+        {
+          "name": "right_ankle",
+          "index": 6,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.119140625,
+              "automatic_in_image": true,
+              "distance_px": 415.0488784396531
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1796875,
+              "automatic_in_image": true,
+              "distance_px": 392.31346983866104
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.020991822366022626,
+          "automatic_ray_distances_m": [
+            -0.177782303338635,
+            -0.22625770308920548
+          ],
+          "automatic_parallax_deg": 31.62488689205426,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.001436512282973234
+        }
+      ]
+    },
+    {
+      "pair": "body02",
+      "matched_count": 3,
+      "points": [
+        {
+          "name": "left_shoulder",
+          "index": 8,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.4921875,
+              "automatic_in_image": true,
+              "distance_px": 6.5502416754091275
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1953125,
+              "automatic_in_image": true,
+              "distance_px": 43.08064915568784
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.007267756334435048,
+          "automatic_ray_distances_m": [
+            0.20235271424462042,
+            0.2761832461514194
+          ],
+          "automatic_parallax_deg": 23.45250703777192,
+          "automatic_std_principal_m": [
+            0.00937982783016762,
+            0.00974836104329829,
+            0.026731025603779934
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              0.7723262336157859,
+              -3.046799993757645
+            ],
+            [
+              -1.9819385010407586,
+              3.6407059151003125
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 150.8901203803254,
+          "official_tri_vs_official_3d_mm": 0.000135080723843681
+        },
+        {
+          "name": "right_shoulder",
+          "index": 9,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1083984375,
+              "automatic_in_image": true,
+              "distance_px": 153.1916365661872
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.5,
+              "automatic_in_image": true,
+              "distance_px": 13.66904762325842
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.10049160510659515,
+          "automatic_ray_distances_m": [
+            0.0865957958225796,
+            0.025414195907938694
+          ],
+          "automatic_parallax_deg": 37.199184676410894,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 1.1876850462970968e-05
+        },
+        {
+          "name": "left_elbow",
+          "index": 10,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.51171875,
+              "automatic_in_image": true,
+              "distance_px": 14.218237529086242
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2177734375,
+              "automatic_in_image": true,
+              "distance_px": 34.52459279316125
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.024949012925809467,
+          "automatic_ray_distances_m": [
+            0.26425127235021995,
+            0.33653766033694654
+          ],
+          "automatic_parallax_deg": 18.191226104866274,
+          "automatic_std_principal_m": [
+            0.010729465747652033,
+            0.011131353272611116,
+            0.05081312900841323
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              1.5415068527573794,
+              -8.922463381489365
+            ],
+            [
+              -3.074783033843005,
+              10.23171635693376
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 292.9144647337402,
+          "official_tri_vs_official_3d_mm": 0.0004156102089635956
+        },
+        {
+          "name": "right_elbow",
+          "index": 11,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.51171875,
+              "automatic_in_image": true,
+              "distance_px": 10.7524060749892
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.5859375,
+              "automatic_in_image": true,
+              "distance_px": 8.531720267973489
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.004406342594700037,
+          "automatic_ray_distances_m": [
+            0.4788331049521129,
+            0.4123126572628454
+          ],
+          "automatic_parallax_deg": 13.11095012525156,
+          "automatic_std_principal_m": [
+            0.012858020917515239,
+            0.013341778488671564,
+            0.09378530363905895
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -0.10531684112152107,
+              -1.282281827418558
+            ],
+            [
+              0.054149657445350385,
+              1.1622199102876607
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 83.27593744077966,
+          "official_tri_vs_official_3d_mm": 6.264509283064028e-05
+        },
+        {
+          "name": "left_wrist",
+          "index": 12,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.435546875,
+              "automatic_in_image": true,
+              "distance_px": 14.296033604789375
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.46875,
+              "automatic_in_image": true,
+              "distance_px": 2.9324739116989504
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.018762611137069427,
+          "automatic_ray_distances_m": [
+            0.46552144390066813,
+            0.4998597048670167
+          ],
+          "automatic_parallax_deg": 13.681982561164594,
+          "automatic_std_principal_m": [
+            0.014408259302262201,
+            0.014560522208287427,
+            0.10325307013943283
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              0.0757527453961302,
+              -4.385793697598956
+            ],
+            [
+              -0.22918794070801596,
+              4.571183430649285
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 67.45861144954054,
+          "official_tri_vs_official_3d_mm": 0.00024074811570253714
+        },
+        {
+          "name": "right_wrist",
+          "index": 13,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.4375,
+              "automatic_in_image": true,
+              "distance_px": 7.820748668023286
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.5078125,
+              "automatic_in_image": true,
+              "distance_px": 11.320206700133749
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.005243769076635937,
+          "automatic_ray_distances_m": [
+            0.4572281742065956,
+            0.44398507297402307
+          ],
+          "automatic_parallax_deg": 15.377116846263718,
+          "automatic_std_principal_m": [
+            0.013616201957076747,
+            0.013724120363245672,
+            0.08310817731382421
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              0.009921516052941115,
+              1.3611042048264608
+            ],
+            [
+              0.005279680730382097,
+              -1.333900755129605
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 51.859513691707235,
+          "official_tri_vs_official_3d_mm": 0.0001157450140365222
+        },
+        {
+          "name": "left_hip",
+          "index": 1,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2890625,
+              "automatic_in_image": true,
+              "distance_px": 100.86353843601205
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1953125,
+              "automatic_in_image": true,
+              "distance_px": 104.94987704267577
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.11903845981036572,
+          "automatic_ray_distances_m": [
+            -0.11758842867848866,
+            -0.09441869050956114
+          ],
+          "automatic_parallax_deg": 2.99351815685732,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00038497181485140685
+        },
+        {
+          "name": "right_hip",
+          "index": 2,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.26171875,
+              "automatic_in_image": true,
+              "distance_px": 129.19303120803235
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.18359375,
+              "automatic_in_image": true,
+              "distance_px": 50.27988952884966
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.1148480274955747,
+          "automatic_ray_distances_m": [
+            -0.05054944566467916,
+            -0.07389943317651762
+          ],
+          "automatic_parallax_deg": 30.016191515342133,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 6.64690127796565e-05
+        },
+        {
+          "name": "left_knee",
+          "index": 3,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.166015625,
+              "automatic_in_image": true,
+              "distance_px": 320.91485553299606
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.140625,
+              "automatic_in_image": true,
+              "distance_px": 322.7000058019701
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.013484005159272745,
+          "automatic_ray_distances_m": [
+            -0.5895943424600314,
+            -0.5504126859560825
+          ],
+          "automatic_parallax_deg": 11.495833989310855,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0006321621116119451
+        },
+        {
+          "name": "right_knee",
+          "index": 4,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.154296875,
+              "automatic_in_image": true,
+              "distance_px": 291.99476426390555
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.126953125,
+              "automatic_in_image": true,
+              "distance_px": 257.365665366452
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.033273869344532365,
+          "automatic_ray_distances_m": [
+            -0.21100374585452186,
+            -0.24521101077573815
+          ],
+          "automatic_parallax_deg": 28.406905130235977,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0009762347040892612
+        },
+        {
+          "name": "left_ankle",
+          "index": 5,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.119140625,
+              "automatic_in_image": true,
+              "distance_px": 387.8557356692234
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.09326171875,
+              "automatic_in_image": true,
+              "distance_px": 405.32116184321677
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.01629660686558412,
+          "automatic_ray_distances_m": [
+            -0.2916589364054752,
+            -0.2636828602015088
+          ],
+          "automatic_parallax_deg": 24.355978821356953,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00019534002301462881
+        },
+        {
+          "name": "right_ankle",
+          "index": 6,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.11474609375,
+              "automatic_in_image": true,
+              "distance_px": 363.00302886443245
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.10888671875,
+              "automatic_in_image": true,
+              "distance_px": 301.7355895880863
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.01904793735843546,
+          "automatic_ray_distances_m": [
+            -0.08848149468083491,
+            -0.1455471125754203
+          ],
+          "automatic_parallax_deg": 55.365322725947244,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 3.377252758088758e-05
+        }
+      ]
+    },
+    {
+      "pair": "body03",
+      "matched_count": 1,
+      "points": [
+        {
+          "name": "left_shoulder",
+          "index": 8,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.609375,
+              "automatic_in_image": true,
+              "distance_px": 20.084704897922332
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.3125,
+              "automatic_in_image": true,
+              "distance_px": 79.20052153087926
+            }
+          ],
+          "automatic_gate": "geometry_gate",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.01255034419827942,
+          "automatic_ray_distances_m": [
+            0.11217240780280695,
+            0.20011551065745806
+          ],
+          "automatic_parallax_deg": 32.05758287624205,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00011089240034793362
+        },
+        {
+          "name": "right_shoulder",
+          "index": 9,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.283203125,
+              "automatic_in_image": true,
+              "distance_px": 55.147081656095146
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.60546875,
+              "automatic_in_image": true,
+              "distance_px": 5.9119347403007785
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.0017997256926678546,
+          "automatic_ray_distances_m": [
+            0.2502108267081648,
+            0.18607839437215398
+          ],
+          "automatic_parallax_deg": 27.632690174417142,
+          "automatic_std_principal_m": [
+            0.009151256125027008,
+            0.009433158364075019,
+            0.02093834307815734
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -0.46605001528098455,
+              -1.0319374602028404
+            ],
+            [
+              0.12409971615591076,
+              0.8742564734395728
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 156.3435008930173,
+          "official_tri_vs_official_3d_mm": 1.6115970460880765e-05
+        },
+        {
+          "name": "left_elbow",
+          "index": 10,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.64453125,
+              "automatic_in_image": true,
+              "distance_px": 22.01505293723989
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.224609375,
+              "automatic_in_image": true,
+              "distance_px": 69.29127819257026
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.05979595284050479,
+          "automatic_ray_distances_m": [
+            0.15694936681775143,
+            0.24865181218040455
+          ],
+          "automatic_parallax_deg": 15.261146498520912,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0003777425110957263
+        },
+        {
+          "name": "right_elbow",
+          "index": 11,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.255859375,
+              "automatic_in_image": true,
+              "distance_px": 71.30089038431726
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.65625,
+              "automatic_in_image": true,
+              "distance_px": 29.52515804532029
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.006237757502234404,
+          "automatic_ray_distances_m": [
+            0.2620390607269872,
+            0.2003034937432989
+          ],
+          "automatic_parallax_deg": 26.32560895092246,
+          "automatic_std_principal_m": [
+            0.009466181870898661,
+            0.009685026399674107,
+            0.024825731238949916
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              0.9961282801887137,
+              3.5039626612389156
+            ],
+            [
+              -0.27153874913233267,
+              -2.9773880927610037
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 392.7214508024947,
+          "official_tri_vs_official_3d_mm": 0.00013238039901306955
+        },
+        {
+          "name": "left_wrist",
+          "index": 12,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.70703125,
+              "automatic_in_image": true,
+              "distance_px": 15.208299064882521
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.22265625,
+              "automatic_in_image": true,
+              "distance_px": 176.07403734546475
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.06407689099270537,
+          "automatic_ray_distances_m": [
+            -0.2006007966794395,
+            -0.1704952961955259
+          ],
+          "automatic_parallax_deg": 30.926606250197658,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0005051227064453591
+        },
+        {
+          "name": "right_wrist",
+          "index": 13,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.34375,
+              "automatic_in_image": true,
+              "distance_px": 6.354303734822614
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.65625,
+              "automatic_in_image": true,
+              "distance_px": 3.971206877664284
+            }
+          ],
+          "automatic_gate": "accepted",
+          "official_gate": "accepted",
+          "matched_accepted": true,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.00734062121506793,
+          "automatic_ray_distances_m": [
+            0.631144612640151,
+            0.61366465164553
+          ],
+          "automatic_parallax_deg": 11.056400943813241,
+          "automatic_std_principal_m": [
+            0.01697883545562789,
+            0.01715796543669597,
+            0.15595748940007184
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -0.06246595197910665,
+              -1.385431403645896
+            ],
+            [
+              0.0027811614831989573,
+              1.3618547491439017
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 14.751094628639864,
+          "official_tri_vs_official_3d_mm": 6.892684693495451e-05
+        },
+        {
+          "name": "left_hip",
+          "index": 1,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2578125,
+              "automatic_in_image": true,
+              "distance_px": 86.17056086844546
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.3125,
+              "automatic_in_image": true,
+              "distance_px": 54.07626133059065
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.1144206535175455,
+          "automatic_ray_distances_m": [
+            -0.31294635575502694,
+            -0.2838333454922134
+          ],
+          "automatic_parallax_deg": 5.43152291971089,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0004485940233112479
+        },
+        {
+          "name": "right_hip",
+          "index": 2,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2578125,
+              "automatic_in_image": true,
+              "distance_px": 93.206005491329
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.28515625,
+              "automatic_in_image": true,
+              "distance_px": 54.10842388146812
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.11913552858068764,
+          "automatic_ray_distances_m": [
+            -0.07189331375614637,
+            -0.08669985219462661
+          ],
+          "automatic_parallax_deg": 13.107319302471149,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0002449268355501921
+        },
+        {
+          "name": "left_knee",
+          "index": 3,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.171875,
+              "automatic_in_image": true,
+              "distance_px": 264.6094630762841
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.197265625,
+              "automatic_in_image": true,
+              "distance_px": 360.96367720709026
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.08930327793832067,
+          "automatic_ray_distances_m": [
+            -0.16331058530339349,
+            -0.12881206984966975
+          ],
+          "automatic_parallax_deg": 29.823551402207194,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00014482678441742172
+        },
+        {
+          "name": "right_knee",
+          "index": 4,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1796875,
+              "automatic_in_image": true,
+              "distance_px": 258.83286753643864
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.26953125,
+              "automatic_in_image": true,
+              "distance_px": 212.81601033387565
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.07597307829780767,
+          "automatic_ray_distances_m": [
+            -0.2460578908098912,
+            -0.28333804838962523
+          ],
+          "automatic_parallax_deg": 18.97341227513923,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0007173269093736145
+        },
+        {
+          "name": "left_ankle",
+          "index": 5,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.181640625,
+              "automatic_in_image": true,
+              "distance_px": 408.0996697986366
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.24609375,
+              "automatic_in_image": true,
+              "distance_px": 409.0737131983668
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.0017084712176112901,
+          "automatic_ray_distances_m": [
+            -0.6385219381975432,
+            -0.6143902046670826
+          ],
+          "automatic_parallax_deg": 10.89875626842816,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0011891503486097476
+        },
+        {
+          "name": "right_ankle",
+          "index": 6,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2158203125,
+              "automatic_in_image": true,
+              "distance_px": 376.55141677606747
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.212890625,
+              "automatic_in_image": true,
+              "distance_px": 344.2418556061454
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.018036889008536332,
+          "automatic_ray_distances_m": [
+            -0.18967849715792154,
+            -0.22963267060076198
+          ],
+          "automatic_parallax_deg": 31.47318286956329,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00018074380332600394
+        }
+      ]
+    },
+    {
+      "pair": "body04",
+      "matched_count": 0,
+      "points": [
+        {
+          "name": "left_shoulder",
+          "index": 8,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.453125,
+              "automatic_in_image": true,
+              "distance_px": 19.098261602397404
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.134765625,
+              "automatic_in_image": true,
+              "distance_px": 124.76642495235392
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.01818111336862226,
+          "automatic_ray_distances_m": [
+            0.06967799688445032,
+            0.16095964838986163
+          ],
+          "automatic_parallax_deg": 43.18125630755022,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 2.8634314460922932e-05
+        },
+        {
+          "name": "right_shoulder",
+          "index": 9,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.16015625,
+              "automatic_in_image": true,
+              "distance_px": 27.662139134799656
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.380859375,
+              "automatic_in_image": true,
+              "distance_px": 21.198455896214046
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.01784942368938569,
+          "automatic_ray_distances_m": [
+            0.3359007331522933,
+            0.2741320981410107
+          ],
+          "automatic_parallax_deg": 19.537291312835695,
+          "automatic_std_principal_m": [
+            0.010316492784225983,
+            0.010945752346668695,
+            0.04158675371576577
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              2.8515594495042365,
+              7.066374811206231
+            ],
+            [
+              -1.1842148474853502,
+              -6.378974193012283
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 58.515359227817235,
+          "official_tri_vs_official_3d_mm": 5.294550363656382e-05
+        },
+        {
+          "name": "left_elbow",
+          "index": 10,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.453125,
+              "automatic_in_image": true,
+              "distance_px": 25.34870214439786
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1484375,
+              "automatic_in_image": true,
+              "distance_px": 93.06446814770062
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.01909780042171471,
+          "automatic_ray_distances_m": [
+            0.15962694724556828,
+            0.24368402192788277
+          ],
+          "automatic_parallax_deg": 25.031338827031544,
+          "automatic_std_principal_m": [
+            0.008998488467475434,
+            0.009230235678306884,
+            0.022463312413663925
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -2.1572433815474596,
+              9.112390081322758
+            ],
+            [
+              5.915589860058617,
+              -11.907009703731148
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 457.05498980317435,
+          "official_tri_vs_official_3d_mm": 8.817591309110471e-05
+        },
+        {
+          "name": "right_elbow",
+          "index": 11,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.2060546875,
+              "automatic_in_image": true,
+              "distance_px": 93.52108604507876
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.359375,
+              "automatic_in_image": true,
+              "distance_px": 14.33022257175925
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.1070876365652883,
+          "automatic_ray_distances_m": [
+            0.1128116861506582,
+            0.06385837805043217
+          ],
+          "automatic_parallax_deg": 20.048754702010086,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0001659523165234055
+        },
+        {
+          "name": "left_wrist",
+          "index": 12,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.46484375,
+              "automatic_in_image": true,
+              "distance_px": 22.748579765496828
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.09228515625,
+              "automatic_in_image": true,
+              "distance_px": 91.80369148320761
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.09440174813124926,
+          "automatic_ray_distances_m": [
+            -0.2923270675852746,
+            -0.24557565242001864
+          ],
+          "automatic_parallax_deg": 12.928924394386472,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0004024113327882422
+        },
+        {
+          "name": "right_wrist",
+          "index": 13,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.21484375,
+              "automatic_in_image": true,
+              "distance_px": 16.964214977365174
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.359375,
+              "automatic_in_image": true,
+              "distance_px": 16.858563646331937
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "accepted",
+          "automatic_ray_gap_m": 0.0029426676935533163,
+          "automatic_ray_distances_m": [
+            0.8556896147855628,
+            0.8186393864289631
+          ],
+          "automatic_parallax_deg": 7.917728273305316,
+          "automatic_std_principal_m": [
+            0.021546026582164157,
+            0.02189869844822267,
+            0.2941865437184218
+          ],
+          "automatic_reprojection_residual_px": [
+            [
+              -0.01521070621868148,
+              -0.41991637439627993
+            ],
+            [
+              0.00740516823566395,
+              0.4077895182279576
+            ]
+          ],
+          "auto_tri_vs_official_3d_mm": 158.60820432911189,
+          "official_tri_vs_official_3d_mm": 4.16114612537769e-05
+        },
+        {
+          "name": "left_hip",
+          "index": 1,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.244140625,
+              "automatic_in_image": true,
+              "distance_px": 44.98599354087464
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.119140625,
+              "automatic_in_image": true,
+              "distance_px": 363.7443012318719
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.11174276080236611,
+          "automatic_ray_distances_m": [
+            -0.021204108661463918,
+            0.03884172252183963
+          ],
+          "automatic_parallax_deg": 79.76967518134535,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00013116993672272463
+        },
+        {
+          "name": "right_hip",
+          "index": 2,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1201171875,
+              "automatic_in_image": true,
+              "distance_px": 290.8041851179666
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.18359375,
+              "automatic_in_image": true,
+              "distance_px": 75.80233996048737
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.11298993041609874,
+          "automatic_ray_distances_m": [
+            0.050580008109198035,
+            0.013587579132768268
+          ],
+          "automatic_parallax_deg": 55.81020246662361,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.00017021023435181292
+        },
+        {
+          "name": "left_knee",
+          "index": 3,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.216796875,
+              "automatic_in_image": true,
+              "distance_px": 15.160949639186127
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1865234375,
+              "automatic_in_image": true,
+              "distance_px": 271.9786968588895
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.10971197237814001,
+          "automatic_ray_distances_m": [
+            -0.027965380038040513,
+            0.03266114643217125
+          ],
+          "automatic_parallax_deg": 62.20765604072497,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0004896496035361042
+        },
+        {
+          "name": "right_knee",
+          "index": 4,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.15625,
+              "automatic_in_image": true,
+              "distance_px": 31.559523241024127
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.142578125,
+              "automatic_in_image": true,
+              "distance_px": 232.4565540665871
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.09385172488232062,
+          "automatic_ray_distances_m": [
+            -0.020803272448752245,
+            -0.09068824920962695
+          ],
+          "automatic_parallax_deg": 43.698422025797406,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.000612455045789315
+        },
+        {
+          "name": "left_ankle",
+          "index": 5,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.12890625,
+              "automatic_in_image": true,
+              "distance_px": 9.208517367057425
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.1220703125,
+              "automatic_in_image": true,
+              "distance_px": 350.5650835425262
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.11636564163402151,
+          "automatic_ray_distances_m": [
+            -0.02806840316549683,
+            0.018604777329837136
+          ],
+          "automatic_parallax_deg": 86.57715041502837,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0005935143826098458
+        },
+        {
+          "name": "right_ankle",
+          "index": 6,
+          "views": [
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.087890625,
+              "automatic_in_image": true,
+              "distance_px": 363.6159411748423
+            },
+            {
+              "official_in_image": true,
+              "visibility": "unknown: no verified visibility/occlusion label",
+              "definition": "official joint versus Sapiens surface landmark; semantic equivalence not established",
+              "detected": true,
+              "score": 0.126953125,
+              "automatic_in_image": true,
+              "distance_px": 357.86611320068255
+            }
+          ],
+          "automatic_gate": "score_below_0.3",
+          "official_gate": "accepted",
+          "matched_accepted": false,
+          "automatic_geometry_reason": "ray_distance_gap_or_parallax",
+          "automatic_ray_gap_m": 0.012940868799591493,
+          "automatic_ray_distances_m": [
+            -0.26013282988095693,
+            -0.2797046750532936
+          ],
+          "automatic_parallax_deg": 25.509973499133125,
+          "automatic_std_principal_m": null,
+          "automatic_reprojection_residual_px": null,
+          "official_tri_vs_official_3d_mm": 0.0002587150993535071
+        }
+      ]
+    }
+  ]
+}

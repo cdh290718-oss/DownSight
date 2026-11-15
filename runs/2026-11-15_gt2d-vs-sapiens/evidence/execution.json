@@ -1,0 +1,61 @@
+{
+  "baseline": "05d825c35f8e8bbb06b7b795912f13f2e4ca5fd4",
+  "preparation_exit_status": 0,
+  "analysis_exit_status": 0,
+  "fits_retry": [
+    {
+      "pair": "body01",
+      "mode": "auto",
+      "exit_status": 0,
+      "elapsed_seconds": 284.73473381996155
+    },
+    {
+      "pair": "body01",
+      "mode": "official",
+      "exit_status": 0,
+      "elapsed_seconds": 302.70764446258545
+    },
+    {
+      "pair": "body02",
+      "mode": "auto",
+      "exit_status": 0,
+      "elapsed_seconds": 287.9689247608185
+    },
+    {
+      "pair": "body02",
+      "mode": "official",
+      "exit_status": 0,
+      "elapsed_seconds": 294.0027287006378
+    },
+    {
+      "pair": "body03",
+      "mode": "auto",
+      "exit_status": 0,
+      "elapsed_seconds": 290.25054717063904
+    },
+    {
+      "pair": "body03",
+      "mode": "official",
+      "exit_status": 0,
+      "elapsed_seconds": 291.0559902191162
+    }
+  ],
+  "evaluation_exit_status": 0,
+  "initial_batch_interruption": "evidence/interruption.json: SIGTERM exit 143, cause unknown",
+  "code_sha256": {
+    "summarize_observations.py": "4d6951e6d523640857c1331a9616bbe01ef8095c6edebd14d05cdfc6dfaa86d0",
+    "run.py": "35295f8e1cad9558375117013a20f6d3f15cde34fbfe4c53c8691003a1567030",
+    "prepare.py": "8a4cc57d5ec4d21335501798e1967974905e0eb7cbf2496990ede36dee1bd6ef",
+    "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+    "common.py": "48f8c6065529f7bd6b82114728655fce7636754c5deb2ace0f78e80cd8efbeb1",
+    "fit.py": "d7e8ed0210e7f5917d4382fb238d86b4419e239db2f289cf7ba8049cc58d4995",
+    "evaluate.py": "1e0341d30a2feb9bb102cbbf4143678c6183ddc38743126335702632a05d8ffc",
+    "run_retry.py": "2dc3bc03bf7de745ecd3377bde4b45f17a4ed15d84ac92a6db87389b779fdc2c",
+    "summarize_results.py": "351f5ef633c548c32b3742d30bde77a4e1157c8f768527c59de7d8302fdaca17",
+    "analyze_observations.py": "ba6ed4889c739b6d661792fcd5b4ffa44498cc7d8447f4cbfec5a89beae573a6",
+    "evaluate_retry.py": "09ccbf1b4d6878a6d955bc9c377e2dcc60723ecab04772a63aa133e4f1f4a20a"
+  },
+  "worktree": "new files and preexisting unrelated untracked paths",
+  "gt_access": "body 3D GT evaluated after fit only; head position and rig use annotations",
+  "1px_noise_assumption": "shared optimistic scale for matched conditions, not a Sapiens noise measurement"
+}

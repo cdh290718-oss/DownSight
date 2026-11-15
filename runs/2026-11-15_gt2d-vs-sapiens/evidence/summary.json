@@ -1,0 +1,112 @@
+{
+  "note": "same-joint paired conditions use identical covariance and accepted targets; full15 reference has different target count and weighting; output 3D GT excluded from fitting except Head and rig calibration",
+  "rows": [
+    {
+      "pair": "body01",
+      "matched_count": 3,
+      "matched_names": [
+        "left_shoulder",
+        "left_elbow",
+        "left_wrist"
+      ],
+      "official_full_15_pa_mm": 29.25989105475416,
+      "auto": {
+        "pa15_mm": 150.99260012857334,
+        "absolute15_mm": 390.9742399885636,
+        "convergence_pass": true,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "left_shoulder": 99.96383113908684,
+          "left_elbow": 73.27399623494577,
+          "left_wrist": 44.95847824900628
+        },
+        "matched_absolute_mean_mm": 72.7321018743463
+      },
+      "official": {
+        "pa15_mm": 165.26240289203648,
+        "absolute15_mm": 407.1715578652892,
+        "convergence_pass": false,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "left_shoulder": 6.76251629096818,
+          "left_elbow": 6.348168286006622,
+          "left_wrist": 3.0433327390386333
+        },
+        "matched_absolute_mean_mm": 5.384672438671146
+      }
+    },
+    {
+      "pair": "body02",
+      "matched_count": 3,
+      "matched_names": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist"
+      ],
+      "official_full_15_pa_mm": 29.28338818465834,
+      "auto": {
+        "pa15_mm": 156.5961714547374,
+        "absolute15_mm": 267.0106052257819,
+        "convergence_pass": false,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "right_elbow": 79.5870105098691,
+          "left_wrist": 67.45426283136153,
+          "right_wrist": 49.60998109549232
+        },
+        "matched_absolute_mean_mm": 65.55041814557431
+      },
+      "official": {
+        "pa15_mm": 146.51985929914292,
+        "absolute15_mm": 218.80104497018357,
+        "convergence_pass": false,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "right_elbow": 3.3397676629644657,
+          "left_wrist": 0.012216575939575014,
+          "right_wrist": 1.830113487233909
+        },
+        "matched_absolute_mean_mm": 1.7273659087126498
+      }
+    },
+    {
+      "pair": "body03",
+      "matched_count": 1,
+      "matched_names": [
+        "right_wrist"
+      ],
+      "official_full_15_pa_mm": 31.701270458852285,
+      "auto": {
+        "pa15_mm": 187.94734574329036,
+        "absolute15_mm": 832.1245918912243,
+        "convergence_pass": false,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "right_wrist": 14.751847244726408
+        },
+        "matched_absolute_mean_mm": 14.751847244726408
+      },
+      "official": {
+        "pa15_mm": 187.38154766550687,
+        "absolute15_mm": 830.174990853471,
+        "convergence_pass": false,
+        "shape_rank": 0,
+        "matched_absolute_per_joint_mm": {
+          "right_wrist": 0.007224958275493068
+        },
+        "matched_absolute_mean_mm": 0.007224958275493068
+      }
+    },
+    {
+      "pair": "body04",
+      "matched_count": 0,
+      "matched_names": [],
+      "official_full_15_pa_mm": 29.41724739478087,
+      "auto": null,
+      "official": null
+    }
+  ],
+  "source_sha256": "f72017a3a0877d906e84ad854f109294c01ab924fd3a0631d118c34e68f9950d",
+  "command": "python runs/2026-11-15_gt2d-vs-sapiens/summarize_results.py",
+  "exit_status": 0
+}
