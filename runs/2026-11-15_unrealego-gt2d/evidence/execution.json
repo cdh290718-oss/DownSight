@@ -1,0 +1,63 @@
+{
+  "baseline": "a2866aca92bcdfb8eb9cdf1ecefc3cd77df76562",
+  "prepare_standard_exit_status": 0,
+  "prepare_ideal_exit_status": 0,
+  "fit_records": [
+    {
+      "pair": "body01",
+      "method": "D",
+      "exit_status": 0,
+      "elapsed_seconds": 285.3815813064575,
+      "accepted": 15,
+      "ideal_std_max_m": 0.14376646425969122,
+      "max_ray_gap_m": 3.1251782166422555e-05,
+      "max_reprojection_px": 1.164760508604817e-05
+    },
+    {
+      "pair": "body02",
+      "method": "D",
+      "exit_status": 0,
+      "elapsed_seconds": 296.4536201953888,
+      "accepted": 15,
+      "ideal_std_max_m": 0.14336361300495645,
+      "max_ray_gap_m": 2.43559297154382e-05,
+      "max_reprojection_px": 1.8866288957041998e-05
+    },
+    {
+      "pair": "body04",
+      "method": "D",
+      "exit_status": 0,
+      "elapsed_seconds": 276.82874035835266,
+      "accepted": 15,
+      "ideal_std_max_m": 0.09761274259379904,
+      "max_ray_gap_m": 1.28842198072195e-05,
+      "max_reprojection_px": 1.3997975582729344e-05
+    },
+    {
+      "pair": "body03",
+      "method": "D",
+      "exit_status": 0,
+      "elapsed_seconds": 289.8003056049347,
+      "accepted": 15,
+      "ideal_std_max_m": 0.1377010880475467,
+      "max_ray_gap_m": 3.041903408878045e-05,
+      "max_reprojection_px": 1.5431481963662192e-05
+    }
+  ],
+  "evaluate_exit_status": 0,
+  "source_sha256": {
+    "run.py": "e1a8ad143e863025a76a9fe96081ba32f2879c3ba2633edafa9d1d072619d948",
+    "prepare.py": "92238339617b15d4490f0a548435a2c3f600b994edde5dab6d93845e4ae88205",
+    "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+    "summarize.py": "b6eba8908397869e4546da64b592290cb9282bd962de9b853efe0e69b5a23768",
+    "common.py": "65618e0d61d961e22806a5656924c6b98c8c0fe378169f04c957bfcba82aed7d",
+    "fit.py": "a073f61e72d309405b084d720f2452a6f5c6f4a402d178c03294ece895db6a90",
+    "prepare_ideal.py": "32bd37d4d9d3ce3488cd917d9fccd80f74515792d41928171dd17ad7d59b6fe1",
+    "evaluate.py": "251d3d25f66169363385028b2d0579bcf353d3301000bcc41e4f8d4c6962446b",
+    "test_projection.py": "cbc40de4089f6081091433ad32cba8f0eeef3aed1d9be094ec19e3333fa38931"
+  },
+  "worktree": "new run and earlier unrelated untracked files",
+  "standard_condition": "8px assumption rejected some lower-body points; not fitted; retained preparation.json",
+  "ideal_condition": "1px noise assumption; all candidates passed",
+  "raw_2d_and_triangulated_3d_coordinates": "kept local only; no direct GT body 3D inputs in fitting"
+}

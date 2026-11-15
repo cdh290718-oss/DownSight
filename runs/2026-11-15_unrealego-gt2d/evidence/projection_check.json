@@ -1,0 +1,14 @@
+{
+  "command": "PYTHONPATH=. PYTHONDONTWRITEBYTECODE=1 python runs/2026-11-15_unrealego-gt2d/test_projection.py",
+  "exit_status": 0,
+  "checks": [
+    {
+      "camera": "left",
+      "max_px": 7.876995709921175e-05
+    },
+    {
+      "camera": "right",
+      "max_px": 4.540861340274205e-05
+    }
+  ]
+}

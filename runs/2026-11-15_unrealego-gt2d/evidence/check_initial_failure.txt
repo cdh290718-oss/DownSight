@@ -1,0 +1,4 @@
+command: PYTHONDONTWRITEBYTECODE=1 python runs/2026-11-15_unrealego-gt2d/test_projection.py
+exit_status: 1
+ModuleNotFoundError: No module named 'egosmplx_pipeline'
+Resolution: Set PYTHONPATH=. and rerun; result in projection_check.json.
