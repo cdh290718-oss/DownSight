@@ -1,0 +1,47 @@
+{
+  "baseline": "6c1aae61a77e249a5105992b69e330f459a3c8ad",
+  "runs": [
+    {
+      "pair": "body01",
+      "method": "D",
+      "exit_status": 0,
+      "wait_or_run_seconds": 99.01695942878723,
+      "status_inferred_from_complete_artifact": true
+    },
+    {
+      "pair": "body02",
+      "method": "D",
+      "exit_status": 0,
+      "wait_or_run_seconds": 132.02006840705872,
+      "status_inferred_from_complete_artifact": true
+    },
+    {
+      "pair": "body03",
+      "method": "D",
+      "exit_status": 0,
+      "wait_or_run_seconds": 284.3315415382385,
+      "status_inferred_from_complete_artifact": false
+    },
+    {
+      "pair": "body04",
+      "method": "D",
+      "exit_status": 0,
+      "wait_or_run_seconds": 291.88642740249634,
+      "status_inferred_from_complete_artifact": false
+    }
+  ],
+  "evaluation_exit_status": 0,
+  "cancelled": "user requested only four; body05 and body06 D processes terminated while still running; queued body07-10 not started; original baseline cancelled at user request",
+  "original_body01": "initial exploratory fit failed no feasible candidate under original depth guard; user subsequently stopped original branch",
+  "code_sha256": {
+    "evaluate_four.py": "f40a6384592469013ff5c398bdc696708830744539ddbaffc54dd13bb0e70adf",
+    "prepare.py": "436db12fdb6fbf88b70f0adda51b5e403c2d00e2ec0693fdc0e9c4c8f2d4a840",
+    "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+    "run_d_only.py": "ebab26ae6f92c17f67d696af42b34e7869199b1e4756e373171b9ae3f632cf7b",
+    "settings.json": "6982379838406914339cb8280633ae3a4b489ec6ff1c7400c012da2726d43077",
+    "cases.json": "8992f6464d65aa5355f1da4e722cb4e3221a483baa1f8304c99f7edb9460eba3",
+    "common.py": "2397daca56c7e52f3bcd959d71020ef3fe730ce8fa7542cddc5a47c699431462",
+    "fit.py": "ec64cb49695688f6b540be76653b82192320c758e4e94b7e42497a4b3cf5731e"
+  },
+  "reproduction_scope": "archival source files retain original working paths and dependencies; model and dataset assets required; outputs must be redirected to new path; no independent reproduction claimed"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "case": "D",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  },
+  {
+    "case": "plus",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  },
+  {
+    "case": "minus",
+    "seed": "left",
+    "shape_seed": "mean",
+    "pose_seed": "template"
+  }
+]

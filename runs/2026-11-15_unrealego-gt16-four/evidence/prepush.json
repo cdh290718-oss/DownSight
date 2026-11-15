@@ -1,0 +1,14 @@
+{
+  "scope": "only four-pair report increment, not historical audit",
+  "baseline_and_remote_main": "6c1aae61a77e249a5105992b69e330f459a3c8ad",
+  "worktree": "prior unrelated and incomplete untracked files excluded",
+  "forbidden_files": [],
+  "path_credential_or_exif_matches": [],
+  "max_file_bytes": 113695,
+  "images": "derived diagnostic overlays only",
+  "weights_data_videos_arrays_and_complete_outputs": "none",
+  "full_provenance_or_patch": "none",
+  "redaction": "machine roots replaced by placeholders, GT source coordinates omitted",
+  "evaluation_exit_status": 0,
+  "comparison_exit_status": 0
+}

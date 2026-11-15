@@ -1,0 +1,98 @@
+{
+  "exit_status": 0,
+  "dataset_sha256": "acf9b050dfe145acc5a5723a7a3da384811fba0b111e7af9ef6ed7d448fbc9f8",
+  "calibration": "GT15 rigid registration from excluded S9 sequence, reused earlier batch preparation",
+  "rig_rotation": [
+    [
+      0.9999700503078309,
+      -0.005565428349167046,
+      0.005378149741742567
+    ],
+    [
+      0.005561409723929292,
+      0.999984245006302,
+      0.0007618799503745018
+    ],
+    [
+      -0.0053823051973017596,
+      -0.0007319470380339231,
+      0.9999852474133293
+    ]
+  ],
+  "rig_translation_m": [
+    0.12130424524525885,
+    0.00033292488289962674,
+    0.004739293619946405
+  ],
+  "joint_names": [
+    "Head",
+    "Neck",
+    "R_Shoulder",
+    "R_Elbow",
+    "R_Wrist",
+    "L_Shoulder",
+    "L_Elbow",
+    "L_Wrist",
+    "R_Hip",
+    "R_Knee",
+    "R_Ankle",
+    "R_Toe",
+    "L_Hip",
+    "L_Knee",
+    "L_Ankle",
+    "L_Toe"
+  ],
+  "model_indices": [
+    null,
+    7,
+    9,
+    11,
+    13,
+    8,
+    10,
+    12,
+    2,
+    4,
+    6,
+    19,
+    1,
+    3,
+    5,
+    16
+  ],
+  "toe_mapping": "GT Toe compared with native heel proxy as official benchmark",
+  "sigma_m": 0.02,
+  "sigma_note": "assumed weighting scale, not measured annotation accuracy",
+  "same_sample_gt_used_for_fitting": true,
+  "pairs": [
+    {
+      "pair": "body01",
+      "sample_index": 29911,
+      "gt_count": 16,
+      "network_init_sha256": "7ee29e7cb424cd202be43bacadf4f79be33c4786e830133c1cac8d98fd688685",
+      "head_rotation_source": "historical fused"
+    },
+    {
+      "pair": "body02",
+      "sample_index": 20199,
+      "gt_count": 16,
+      "network_init_sha256": "e19ebc3d09ab7f94126e2395d576d313eaeb37420a9c26f136ad204bd26efef9",
+      "head_rotation_source": "historical fused"
+    },
+    {
+      "pair": "body03",
+      "sample_index": 22369,
+      "gt_count": 16,
+      "network_init_sha256": "fe792a4f5525382d1099dc7dc6845a5b1ac55d0ec4cca4d9bb076f3303fa3d61",
+      "head_rotation_source": "historical body fit"
+    },
+    {
+      "pair": "body04",
+      "sample_index": 29343,
+      "gt_count": 16,
+      "network_init_sha256": "8653234f6bf553144fcd494aababa9a272ee15dc2ffab9e9cbc52ae8652219fb",
+      "head_rotation_source": "historical fused"
+    }
+  ],
+  "redaction": "Input GT coordinates and local paths omitted; dataset identity, hash, indices, assumptions and calibration retained."
+}
