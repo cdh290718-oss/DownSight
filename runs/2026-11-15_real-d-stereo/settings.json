@@ -1,0 +1,100 @@
+{
+  "head_position_sigma_m": 0.015,
+  "head_rotation_sigma_deg": 3.0,
+  "head_position_weight": 0.01,
+  "head_rotation_weight": 0.01,
+  "steps": 20000,
+  "pose_lr": 0.0015,
+  "rotation_lr": 0.0015,
+  "translation_lr": 0.003,
+  "pose_prior_weight": 0.0008,
+  "translation_prior_weight": 0,
+  "rotation_prior_weight": 0,
+  "root_increment_limit_deg": 60.0,
+  "shoulder_tolerance_px": 30.0,
+  "shoulder_weight": 0.25,
+  "wrist_floor_fraction": 0,
+  "wrist_guard_weight": 0,
+  "minimum_observed_joint_z_m": 0.0001,
+  "checkpoint_steps": 20,
+  "wilor_weight_per_hand": 0.1,
+  "wilor_match_max_wrist_px": 100.0,
+  "wilor_min_confidence": 0.3,
+  "wilor_max_epipolar_px": 8.0,
+  "primary_seed": "left",
+  "sensitivity_seed": "right",
+  "observation_policy": "Improved: triangulated automatic body plus WiLoR wrist/MCP, full covariance, group means. Legacy: all original 2D points. No nose or edge deletion.",
+  "selection": "At each predeclared budget choose minimum feasible training objective only; no GT selection.",
+  "purpose": "Factorial shape/pose initialization comparison with one shared seed-independent objective.",
+  "shape_lr": 0.003,
+  "shape_prior": "weight * mean(betas ** 2), centered at zero model shape; isotropic regularizer, not device-calibrated population covariance",
+  "shape_prior_weight": 0.001,
+  "triangulation_pixel_sigma": 3.0,
+  "definition_sigma_m": {
+    "shoulder": 0.03,
+    "hip": 0.03,
+    "elbow": 0.02,
+    "knee": 0.02,
+    "ankle": 0.015,
+    "wrist": 0.008,
+    "hand": 0.008
+  },
+  "triangulation_max_reprojection_px": 10.0,
+  "triangulation_min_angle_deg": 1.0,
+  "shape_information_threshold": 1.0,
+  "metric_loss_weight": 0.01,
+  "metric_huber_delta": 2.5,
+  "hand_fit_indices": [
+    0,
+    5,
+    9,
+    13,
+    17
+  ],
+  "budget_steps": [
+    3400,
+    10000,
+    16000,
+    20000
+  ],
+  "lr_schedule": [
+    {
+      "step": 0,
+      "factor": 1.0
+    },
+    {
+      "step": 10000,
+      "factor": 0.25
+    },
+    {
+      "step": 16000,
+      "factor": 0.1
+    }
+  ],
+  "template": "All 21 local body axis angles zero; mean model beta. Same zero hand/face parameters and foot local rotations in all groups.",
+  "pose_prior": "Common weak zero-centered axis-angle regularizer, normalized by broad absolute caps. Engineering regularizer, not a learned anatomical density.",
+  "initial_root": "Set root rotation/translation so native Head exactly matches the same supplied full Head anchor; no network root is read.",
+  "fixed_parameters": "Zero hand/face inputs, preserving the external SMPL-X layer hand-mean convention. L_Foot/R_Foot local rotations fixed to zero.",
+  "convergence": "Report loss and accepted-point displacement over final 1000 steps; relative loss decrease <0.001 and max target-joint displacement <0.1 mm is a diagnostic flag, not a global optimum proof.",
+  "absolute_pose_caps_deg": {
+    "L_Hip": 150.0,
+    "R_Hip": 150.0,
+    "Spine_1": 60.0,
+    "L_Knee": 165.0,
+    "R_Knee": 165.0,
+    "Spine_2": 60.0,
+    "L_Ankle": 90.0,
+    "R_Ankle": 90.0,
+    "Spine_3": 60.0,
+    "Neck": 60.0,
+    "L_Collar": 60.0,
+    "R_Collar": 60.0,
+    "Head": 60.0,
+    "L_Shoulder": 175.0,
+    "R_Shoulder": 175.0,
+    "L_Elbow": 165.0,
+    "R_Elbow": 165.0,
+    "L_Wrist": 100.0,
+    "R_Wrist": 100.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "baseline": "d26b9ee292204506492fb9e1d221d683531465ea",
+  "fit_command": "<BODY_PYTHON> runs/2026-11-15_real-d-stereo/fit.py --case <D|plus|minus>",
+  "workers": 2,
+  "threads_per_worker": 4,
+  "gpu": false,
+  "perturbations": "cam3 x +/- 0.02 m, y rotation +/- 3 degrees together",
+  "status": "completed",
+  "evaluation_exit_status": 0,
+  "preparation_exit_status": 0
+}

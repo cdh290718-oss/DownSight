@@ -1,0 +1,16 @@
+{
+  "scope": "new run only; full history not audited",
+  "worktree": "two preexisting untracked paths excluded; no tracked changes",
+  "remote_head": "d26b9ee292204506492fb9e1d221d683531465ea",
+  "file_count": 27,
+  "max_file_bytes": 266830,
+  "forbidden_files": [],
+  "sensitive_pattern_or_exif_matches": [],
+  "raw_weights_datasets_videos_arrays_or_full_output": "not present in intended run; images are derived overlays",
+  "paths": "redacted in public text",
+  "provenance_and_patch": "not included",
+  "syntax_check_exit_status": 0,
+  "evaluation_exit_status": 0,
+  "initial_scan_failure": "Pattern /root/ matched prose pose/root/translation in fit.py, manually checked as false positive.",
+  "result": "initial failure investigated; scoped review passed"
+}

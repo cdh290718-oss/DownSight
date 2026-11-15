@@ -1,0 +1,205 @@
+{
+  "description": "12 common automatic Sapiens targets; 2D pixel distance is agreement, not ground truth. Historical v2 is separate per-view fitting with MANO replacement.",
+  "frames": [
+    {
+      "camera": "cam3",
+      "case": "D",
+      "mean_px": 29.993398603613613,
+      "median_px": 15.01686061730684,
+      "per_point": {
+        "left_shoulder": 37.65617797217919,
+        "right_shoulder": 43.7025998822512,
+        "left_elbow": 8.252813751553225,
+        "right_elbow": 12.951163670244382,
+        "left_wrist": 1.2933223104516904,
+        "right_wrist": 2.4509006960654944,
+        "left_hip": 29.1349750233279,
+        "right_hip": 17.082557564369296,
+        "left_knee": 172.01172400598617,
+        "right_knee": 9.302099638581245,
+        "left_ankle": 8.591332207064276,
+        "right_ankle": 17.49111652128924
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "plus",
+      "mean_px": 28.739987038931304,
+      "median_px": 14.941708610114148,
+      "per_point": {
+        "left_shoulder": 40.49981806603158,
+        "right_shoulder": 40.92563688600415,
+        "left_elbow": 8.243361809329437,
+        "right_elbow": 12.917796550664752,
+        "left_wrist": 1.2895081629553835,
+        "right_wrist": 2.4492756902380246,
+        "left_hip": 29.11783420415496,
+        "right_hip": 16.965620669563545,
+        "left_knee": 156.95144764564068,
+        "right_knee": 9.325270029666694,
+        "left_ankle": 8.592458944479885,
+        "right_ankle": 17.601815808446617
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "minus",
+      "mean_px": 30.754486464890395,
+      "median_px": 15.001277811931558,
+      "per_point": {
+        "left_shoulder": 34.22049852067238,
+        "right_shoulder": 45.783669220883375,
+        "left_elbow": 8.255064383376522,
+        "right_elbow": 12.953991951365927,
+        "left_wrist": 1.2969300657543692,
+        "right_wrist": 2.4548211710075103,
+        "left_hip": 29.20686938197085,
+        "right_hip": 17.048563672497192,
+        "left_knee": 182.54528181126443,
+        "right_knee": 9.305443628066113,
+        "left_ankle": 8.590468811228282,
+        "right_ankle": 17.39223496059784
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "original",
+      "mean_px": 20.21680789004741,
+      "median_px": 8.831160930624115,
+      "per_point": {
+        "left_shoulder": 67.1087107573362,
+        "right_shoulder": 88.1207805233803,
+        "left_elbow": 12.13121564781313,
+        "right_elbow": 16.7798564166385,
+        "left_wrist": 5.531106213435101,
+        "right_wrist": 4.2200460692169495,
+        "left_hip": 28.61873515867964,
+        "right_hip": 18.41456059625494,
+        "left_knee": 0.17427792155792876,
+        "right_knee": 0.5380924495229725,
+        "left_ankle": 0.4733441285938136,
+        "right_ankle": 0.49096879813943883
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "v2",
+      "mean_px": 37.21509488598563,
+      "median_px": 11.188617709724088,
+      "per_point": {
+        "left_shoulder": 88.91155289528739,
+        "right_shoulder": 202.07998153517332,
+        "left_elbow": 29.606247126740485,
+        "right_elbow": 43.388413729772566,
+        "left_wrist": 5.057878083529284,
+        "right_wrist": 5.772173715086777,
+        "left_hip": 12.199268830485009,
+        "right_hip": 48.6382740090573,
+        "left_knee": 10.177966588963166,
+        "right_knee": 0.16556860002593438,
+        "left_ankle": 0.14923715979162153,
+        "right_ankle": 0.43457635791468735
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "D",
+      "mean_px": 33.202618184271024,
+      "median_px": 15.290053975388819,
+      "per_point": {
+        "left_shoulder": 30.0065302417866,
+        "right_shoulder": 57.403194240303065,
+        "left_elbow": 4.3066488931309745,
+        "right_elbow": 15.971989847055907,
+        "left_wrist": 1.2879862257264674,
+        "right_wrist": 2.779286750591591,
+        "left_hip": 14.608118103721733,
+        "right_hip": 25.243804980252527,
+        "left_knee": 187.4233880135169,
+        "right_knee": 8.807313765477502,
+        "left_ankle": 8.615138149317216,
+        "right_ankle": 41.978019000371916
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "plus",
+      "mean_px": 33.77846804627643,
+      "median_px": 15.181260139354222,
+      "per_point": {
+        "left_shoulder": 33.34354874989339,
+        "right_shoulder": 55.555344052967634,
+        "left_elbow": 4.290171430958679,
+        "right_elbow": 15.886580235966619,
+        "left_wrist": 1.2885975471433098,
+        "right_wrist": 2.7800183583216524,
+        "left_hip": 14.475940042741826,
+        "right_hip": 25.282728527380286,
+        "left_knee": 193.19986574333254,
+        "right_knee": 8.830859783785886,
+        "left_ankle": 8.614057602286803,
+        "right_ankle": 41.79390448053859
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "minus",
+      "mean_px": 32.18326912825544,
+      "median_px": 15.352959360269535,
+      "per_point": {
+        "left_shoulder": 25.95974490937254,
+        "right_shoulder": 59.769623467282514,
+        "left_elbow": 4.328404698672897,
+        "right_elbow": 16.06268847170546,
+        "left_wrist": 1.2874482453979483,
+        "right_wrist": 2.7769403003128295,
+        "left_hip": 14.64323024883361,
+        "right_hip": 25.186565692154122,
+        "left_knee": 176.68134532656285,
+        "right_knee": 8.810045036735694,
+        "left_ankle": 8.615965198254292,
+        "right_ankle": 42.077227943780535
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "original",
+      "mean_px": 21.630475005438353,
+      "median_px": 11.468430938420683,
+      "per_point": {
+        "left_shoulder": 81.19093213964746,
+        "right_shoulder": 90.47546202438339,
+        "left_elbow": 16.369954675116826,
+        "right_elbow": 15.20556024815508,
+        "left_wrist": 7.731301628686286,
+        "right_wrist": 2.463853069637589,
+        "left_hip": 18.049593196277943,
+        "right_hip": 26.33519249743834,
+        "left_knee": 0.2921214273621742,
+        "right_knee": 0.1608069876915966,
+        "left_ankle": 0.6046558009962724,
+        "right_ankle": 0.6862663698672302
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "v2",
+      "mean_px": 34.99537263896979,
+      "median_px": 6.422813188087204,
+      "per_point": {
+        "left_shoulder": 151.2186776432857,
+        "right_shoulder": 119.69055183424152,
+        "left_elbow": 38.46538111994495,
+        "right_elbow": 41.86154561679133,
+        "left_wrist": 7.013376094937857,
+        "right_wrist": 3.8062363296591135,
+        "left_hip": 5.832250281236551,
+        "right_hip": 51.131485450125275,
+        "left_knee": 0.09397422763717496,
+        "right_knee": 0.18165508094543162,
+        "left_ankle": 0.3214162664633825,
+        "right_ankle": 0.3279217223693566
+      }
+    }
+  ]
+}
