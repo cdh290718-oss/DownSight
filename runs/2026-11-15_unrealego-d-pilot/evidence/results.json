@@ -1,0 +1,70 @@
+{
+  "sample": "body01; GT15 excludes Head; 15 jointly PA aligned per camera",
+  "gt_use": "same-sample official Head position used in fitting; body02 GT15 used for stereo rig; historical model provides head rotation",
+  "views": [
+    {
+      "camera": "left",
+      "D_pa_mpjpe_mm": 148.70591467107133,
+      "D_per_joint_pa_mm": [
+        138.08246360272884,
+        112.47799799480046,
+        145.49236417729895,
+        458.883125844666,
+        117.88165650526008,
+        196.94055378723752,
+        208.07180770255172,
+        67.95051030987379,
+        106.22546483889897,
+        206.81467446633744,
+        192.8223453853012,
+        43.99597075222739,
+        44.282531534545406,
+        63.02080055697057,
+        127.64645260737196
+      ],
+      "historical_pa_mpjpe_mm": 128.30208267612412,
+      "rendered_faces": 20471,
+      "rejected_faces": 437,
+      "visible_pixels": 100865
+    },
+    {
+      "camera": "right",
+      "D_pa_mpjpe_mm": 148.70591967102675,
+      "D_per_joint_pa_mm": [
+        138.08244181971529,
+        112.47799974951519,
+        145.49237828515805,
+        458.88314040065745,
+        117.88164378104008,
+        196.94059503997605,
+        208.07183384875586,
+        67.95051576575504,
+        106.22548166659455,
+        206.81470080910623,
+        192.8223620248304,
+        43.99598175116078,
+        44.28253222907258,
+        63.02074438052238,
+        127.6464435135414
+      ],
+      "historical_pa_mpjpe_mm": 84.33408879374636,
+      "rendered_faces": 20514,
+      "rejected_faces": 394,
+      "visible_pixels": 77359
+    }
+  ],
+  "selected_step": 20000,
+  "selected_loss": 0.00014056784857530147,
+  "convergence": {
+    "window_start_step": 19000,
+    "end_step": 20000,
+    "relative_loss_change": 0.005772535842008005,
+    "max_target_joint_displacement_mm": 0.02130935345203255,
+    "diagnostic_pass": false
+  },
+  "shape_rank": 0,
+  "reload_mesh_max_m": 3.5762786865234375e-07,
+  "output_sha256": "bc54c217f3084bac2612e7a5ed8d18858e596c8b679a608c81ceb807db2331c2",
+  "command": "<BODY_PYTHON> runs/2026-11-15_unrealego-d-pilot/evaluate.py",
+  "exit_status": 0
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "this new run increment only; historical repository not audited",
+  "baseline_and_remote_main": "fb6c94d4c49bace6439a6735c4a5f1b188d4680e",
+  "worktree": "two prior untracked paths excluded",
+  "forbidden_files": [],
+  "path_credential_or_exif_matches": [],
+  "max_file_bytes": 133562,
+  "source_images": "only derived overlays of body01; original image not included",
+  "weights_data_videos_arrays_full_output": "none",
+  "full_provenance_or_patch": "none",
+  "redaction": "machine roots replaced by <WORKSPACE>; named external inputs use logical identifiers",
+  "prepare_fit_evaluate_exit_status": [
+    0,
+    0,
+    0
+  ]
+}

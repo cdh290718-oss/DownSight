@@ -1,0 +1,16 @@
+{
+  "fit_command": "<BODY_PYTHON> runs/2026-11-15_unrealego-d-pilot/fit.py --case D",
+  "fit_exit_status": 0,
+  "prepare_command": "<BODY_PYTHON> runs/2026-11-15_unrealego-d-pilot/prepare.py",
+  "prepare_exit_status": 0,
+  "evaluate_exit_status": 0,
+  "baseline": "fb6c94d4c49bace6439a6735c4a5f1b188d4680e",
+  "elapsed_seconds": 270.889933347702,
+  "source_sha256": {
+    "prepare.py": "7f7b14afb800c9d35356cb9286bdae75d2550b7398613dc15812a630a0ca50e3",
+    "initialization.py": "cf916ef81064878000906998e7b14a705c2988f2810ab732e2d36ed326ecfa20",
+    "common.py": "2f75aa0b349afd09d982ee03d57c4476e4de939863553318d21d1b885242c6b6",
+    "fit.py": "b2d567c468521645e3e98a38b6c0412b303ef8bdf752161fcc84c4b1fa192f81",
+    "evaluate.py": "b5905f9976b097ffc17fc58317341da2b528d34af6dfd8169ca2a4ffeec63342"
+  }
+}
