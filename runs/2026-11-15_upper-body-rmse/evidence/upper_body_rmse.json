@@ -1,0 +1,249 @@
+{
+  "source": "runs/2026-11-15_real-d-stereo/evidence/metrics.json",
+  "source_sha256": "1bf92f9dcd11536cce7a334d8c0039bfb9ddd47a3a8576feb1b6c829c2963c03",
+  "command": "python runs/2026-11-15_upper-body-rmse/calculate.py",
+  "exit_status": 0,
+  "formula": "sqrt(mean of squared 2D Euclidean point distances in pixels)",
+  "frames": [
+    {
+      "camera": "cam3",
+      "case": "D",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            37.65617797217919,
+            43.7025998822512,
+            8.252813751553225,
+            12.951163670244382,
+            1.2933223104516904,
+            2.4509006960654944
+          ],
+          "rmse_px": 24.397493546102048
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            8.252813751553225,
+            12.951163670244382,
+            1.2933223104516904,
+            2.4509006960654944
+          ],
+          "rmse_px": 7.8025824579425365
+        }
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "original",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            67.1087107573362,
+            88.1207805233803,
+            12.13121564781313,
+            16.7798564166385,
+            5.531106213435101,
+            4.2200460692169495
+          ],
+          "rmse_px": 46.090459820496726
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            12.13121564781313,
+            16.7798564166385,
+            5.531106213435101,
+            4.2200460692169495
+          ],
+          "rmse_px": 10.921674542250425
+        }
+      }
+    },
+    {
+      "camera": "cam3",
+      "case": "v2",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            88.91155289528739,
+            202.07998153517332,
+            29.606247126740485,
+            43.388413729772566,
+            5.057878083529284,
+            5.772173715086777
+          ],
+          "rmse_px": 92.69984502911174
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            29.606247126740485,
+            43.388413729772566,
+            5.057878083529284,
+            5.772173715086777
+          ],
+          "rmse_px": 26.542345577494327
+        }
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "D",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            30.0065302417866,
+            57.403194240303065,
+            4.3066488931309745,
+            15.971989847055907,
+            1.2879862257264674,
+            2.779286750591591
+          ],
+          "rmse_px": 27.320790599419748
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            4.3066488931309745,
+            15.971989847055907,
+            1.2879862257264674,
+            2.779286750591591
+          ],
+          "rmse_px": 8.411822450022918
+        }
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "original",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            81.19093213964746,
+            90.47546202438339,
+            16.369954675116826,
+            15.20556024815508,
+            7.731301628686286,
+            2.463853069637589
+          ],
+          "rmse_px": 50.56811374370649
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            16.369954675116826,
+            15.20556024815508,
+            7.731301628686286,
+            2.463853069637589
+          ],
+          "rmse_px": 11.885159605029953
+        }
+      }
+    },
+    {
+      "camera": "cam4",
+      "case": "v2",
+      "groups": {
+        "shoulder_elbow_wrist": {
+          "point_names": [
+            "left_shoulder",
+            "right_shoulder",
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            151.2186776432857,
+            119.69055183424152,
+            38.46538111994495,
+            41.86154561679133,
+            7.013376094937857,
+            3.8062363296591135
+          ],
+          "rmse_px": 82.14678538237187
+        },
+        "elbow_wrist": {
+          "point_names": [
+            "left_elbow",
+            "right_elbow",
+            "left_wrist",
+            "right_wrist"
+          ],
+          "distances_px": [
+            38.46538111994495,
+            41.86154561679133,
+            7.013376094937857,
+            3.8062363296591135
+          ],
+          "rmse_px": 28.703873542501114
+        }
+      }
+    }
+  ]
+}

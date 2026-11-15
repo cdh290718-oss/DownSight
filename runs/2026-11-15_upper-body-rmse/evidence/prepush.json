@@ -1,0 +1,14 @@
+{
+  "scope": "this run incremental files only; not an audit of history",
+  "baseline_and_remote_main": "00cf7278807bbe269376221b334cf9b74bf924fd",
+  "worktree": "two existing unrelated untracked paths excluded; no tracked modifications",
+  "staging": "only this run to be staged and checked",
+  "forbidden_files": [],
+  "sensitive_path_or_credential_matches": [],
+  "max_file_bytes": 6257,
+  "raw_weights_datasets_videos_arrays_and_raw_outputs": "none",
+  "full_provenance_or_patch": "none",
+  "rmse_recalculation_exit_status": 0,
+  "independent_recalculation_exit_status": 0,
+  "sanitization": "repository-relative paths only"
+}
