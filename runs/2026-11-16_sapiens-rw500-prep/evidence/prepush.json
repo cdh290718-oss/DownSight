@@ -1,0 +1,87 @@
+{
+  "command": "scan run files; git status --porcelain; git ls-remote origin HEAD; stage only this run; verify staged diff and resulting commit",
+  "exit_status": 0,
+  "base": "8f16cb6faa214c4d30b70086d1ca67c1a4a1d178",
+  "remote_head_before": "8f16cb6faa214c4d30b70086d1ca67c1a4a1d178",
+  "files": [
+    {
+      "file": "brief.md",
+      "bytes": 533,
+      "sha256": "89e953f07f80cca795cd77f31dbc5a6faf9bfbed0092bebd427bc318536d44af"
+    },
+    {
+      "file": "code/index_archive.py",
+      "bytes": 1370,
+      "sha256": "987fce01035e6c3243e2868f47a980edeee93f4781ef03a5bcea41c6e15aea46"
+    },
+    {
+      "file": "code/launch.py",
+      "bytes": 1568,
+      "sha256": "c0064c0d051f34f74f0da4569d8637a4d1ef46df538f080dfc4339699a284a76"
+    },
+    {
+      "file": "code/load_adapter.py",
+      "bytes": 664,
+      "sha256": "f4d0ed9bcbf2ea056ea841849a53c88ff09c76f36f8ee55cdfebbf1bc38be3d5"
+    },
+    {
+      "file": "code/prepare.py",
+      "bytes": 4968,
+      "sha256": "67f9a9c8b5617a4418a82bfd4cb9db289c2858aa000097d85d59ecf9635646c4"
+    },
+    {
+      "file": "code/train.py",
+      "bytes": 12372,
+      "sha256": "7430cbd4c1acf74e07ff3a1f9cdc8fe1ddcae7582fe9369ba01567bf0d9db347"
+    },
+    {
+      "file": "code/worker.py",
+      "bytes": 698,
+      "sha256": "e56191036dff2f31d28dee42740b1b049dd0c80ce933c1b184c0a16829f1d245"
+    },
+    {
+      "file": "config.json",
+      "bytes": 1198,
+      "sha256": "08871772ac21e4bd0dd3d4a9afdb5169da9124e1af00a5f73de83e31c3fdc169"
+    },
+    {
+      "file": "evidence/archive_index.json",
+      "bytes": 13002,
+      "sha256": "6c905d927682ba24c2a29fb22bad6d8c0ce69b569cee16d8484624f20e4c2bda"
+    },
+    {
+      "file": "evidence/dataset.json",
+      "bytes": 1145,
+      "sha256": "070ac34452d210dcb3de8182d39d450e9fe9d31b9e17cfae95f091a796da06d8"
+    },
+    {
+      "file": "evidence/preflight.json",
+      "bytes": 3806,
+      "sha256": "f94349fac7f8dc7a5e450c3ef71177b67b529f2e81f0d3991ab89e0b0f83e5e1"
+    },
+    {
+      "file": "evidence/review.json",
+      "bytes": 1435,
+      "sha256": "1dbaf492256def677fff6407f98614a7770bb543600cefb8a472d2f3aaa66fda"
+    },
+    {
+      "file": "report.md",
+      "bytes": 5627,
+      "sha256": "98f4564c7029045ae57c16383480837ddebf1b68872f6058739894784d98971c"
+    },
+    {
+      "file": "review.md",
+      "bytes": 79,
+      "sha256": "98bb3e78844aa70a6e867f90512983767ec01e216c0be74511ae74343cf831d4"
+    }
+  ],
+  "workspace_existing_untracked_excluded": true,
+  "workspace_status_lines": 17,
+  "data_outputs_ignored": true,
+  "contains_weights_datasets_video_npz_npy": false,
+  "contains_credentials_env": false,
+  "absolute_machine_paths": false,
+  "full_provenance_or_patch": false,
+  "scope": "new run only; not historical audit",
+  "training_started": false
+}

@@ -1,0 +1,374 @@
+{
+  "command": "index_archive.py --archive <RGB_PART> --splits <OFFICIAL_SPLITS> --output <EVIDENCE>",
+  "exit_status": 0,
+  "archive_complete": false,
+  "archive_error": "ReadError: unexpected end of data",
+  "sequences": [
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-0",
+      "split": "validation",
+      "images": 474,
+      "example": "studio/2023_01_19/S5/seq_4-7-0/fisheye_final_image/camera_left/final_119.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-6-7",
+      "split": "validation",
+      "images": 318,
+      "example": "studio/2023_01_19/S5/seq_4-6-7/fisheye_final_image/camera_left/final_64.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-30",
+      "split": "validation",
+      "images": 200,
+      "example": "studio/2023_01_19/S5/seq_3-8-30/fisheye_final_image/camera_right/final_78.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-0-20",
+      "split": "validation",
+      "images": 56,
+      "example": "studio/2023_01_19/S5/seq_4-0-20/fisheye_final_image/camera_right/final_23.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-67",
+      "split": "validation",
+      "images": 380,
+      "example": "studio/2023_01_19/S5/seq_3-7-67/fisheye_final_image/camera_left/final_106.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-83",
+      "split": "validation",
+      "images": 138,
+      "example": "studio/2023_01_19/S5/seq_3-7-83/fisheye_final_image/camera_left/final_54.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-54",
+      "split": "validation",
+      "images": 94,
+      "example": "studio/2023_01_19/S5/seq_3-8-54/fisheye_final_image/camera_left/final_34.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-22",
+      "split": "validation",
+      "images": 54,
+      "example": "studio/2023_01_19/S5/seq_3-7-22/fisheye_final_image/camera_left/final_16.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-82",
+      "split": "validation",
+      "images": 178,
+      "example": "studio/2023_01_19/S5/seq_3-8-82/fisheye_final_image/camera_left/final_1.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-24",
+      "split": "validation",
+      "images": 556,
+      "example": "studio/2023_01_19/S5/seq_4-7-24/fisheye_final_image/camera_right/final_210.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-52",
+      "split": "validation",
+      "images": 60,
+      "example": "studio/2023_01_19/S5/seq_3-7-52/fisheye_final_image/camera_left/final_25.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-33",
+      "split": "validation",
+      "images": 172,
+      "example": "studio/2023_01_19/S5/seq_3-8-33/fisheye_final_image/camera_right/final_21.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-0-11",
+      "split": "validation",
+      "images": 564,
+      "example": "studio/2023_01_19/S5/seq_4-0-11/fisheye_final_image/camera_right/final_240.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-0-28",
+      "split": "validation",
+      "images": 56,
+      "example": "studio/2023_01_19/S5/seq_3-0-28/fisheye_final_image/camera_right/final_3.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-24-9",
+      "split": "validation",
+      "images": 130,
+      "example": "studio/2023_01_19/S5/seq_3-24-9/fisheye_final_image/camera_left/final_46.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-20",
+      "split": "validation",
+      "images": 248,
+      "example": "studio/2023_01_19/S5/seq_3-8-20/fisheye_final_image/camera_left/final_6.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-80",
+      "split": "validation",
+      "images": 102,
+      "example": "studio/2023_01_19/S5/seq_3-7-80/fisheye_final_image/camera_left/final_1.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-12",
+      "split": "validation",
+      "images": 294,
+      "example": "studio/2023_01_19/S5/seq_3-8-12/fisheye_final_image/camera_left/final_86.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-65",
+      "split": "validation",
+      "images": 52,
+      "example": "studio/2023_01_19/S5/seq_3-8-65/fisheye_final_image/camera_left/final_5.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-62",
+      "split": "validation",
+      "images": 160,
+      "example": "studio/2023_01_19/S5/seq_3-8-62/fisheye_final_image/camera_left/final_43.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-87",
+      "split": "validation",
+      "images": 54,
+      "example": "studio/2023_01_19/S5/seq_3-7-87/fisheye_final_image/camera_right/final_8.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-24-4",
+      "split": "validation",
+      "images": 90,
+      "example": "studio/2023_01_19/S5/seq_3-24-4/fisheye_final_image/camera_left/final_41.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-101",
+      "split": "validation",
+      "images": 96,
+      "example": "studio/2023_01_19/S5/seq_3-7-101/fisheye_final_image/camera_right/final_33.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-0-5",
+      "split": "validation",
+      "images": 198,
+      "example": "studio/2023_01_19/S5/seq_4-0-5/fisheye_final_image/camera_left/final_17.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-71",
+      "split": "validation",
+      "images": 206,
+      "example": "studio/2023_01_19/S5/seq_3-8-71/fisheye_final_image/camera_right/final_31.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-0-5",
+      "split": "validation",
+      "images": 74,
+      "example": "studio/2023_01_19/S5/seq_3-0-5/fisheye_final_image/camera_right/final_2.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-43",
+      "split": "validation",
+      "images": 154,
+      "example": "studio/2023_01_19/S5/seq_3-8-43/fisheye_final_image/camera_right/final_65.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-4",
+      "split": "validation",
+      "images": 236,
+      "example": "studio/2023_01_19/S5/seq_4-7-4/fisheye_final_image/camera_left/final_79.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-49",
+      "split": "validation",
+      "images": 126,
+      "example": "studio/2023_01_19/S5/seq_3-8-49/fisheye_final_image/camera_right/final_42.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-79",
+      "split": "validation",
+      "images": 92,
+      "example": "studio/2023_01_19/S5/seq_3-8-79/fisheye_final_image/camera_right/final_28.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-6-1",
+      "split": "validation",
+      "images": 60,
+      "example": "studio/2023_01_19/S5/seq_4-6-1/fisheye_final_image/camera_left/final_8.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-0-14",
+      "split": "validation",
+      "images": 294,
+      "example": "studio/2023_01_19/S5/seq_4-0-14/fisheye_final_image/camera_right/final_126.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-28",
+      "split": "validation",
+      "images": 448,
+      "example": "studio/2023_01_19/S5/seq_3-8-28/fisheye_final_image/camera_left/final_146.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-55",
+      "split": "validation",
+      "images": 72,
+      "example": "studio/2023_01_19/S5/seq_3-8-55/fisheye_final_image/camera_right/final_32.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-22",
+      "split": "validation",
+      "images": 92,
+      "example": "studio/2023_01_19/S5/seq_3-8-22/fisheye_final_image/camera_left/final_23.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-83",
+      "split": "validation",
+      "images": 100,
+      "example": "studio/2023_01_19/S5/seq_3-8-83/fisheye_final_image/camera_right/final_47.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-75",
+      "split": "validation",
+      "images": 98,
+      "example": "studio/2023_01_19/S5/seq_3-7-75/fisheye_final_image/camera_right/final_12.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-0-19",
+      "split": "validation",
+      "images": 556,
+      "example": "studio/2023_01_19/S5/seq_4-0-19/fisheye_final_image/camera_left/final_103.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-1",
+      "split": "validation",
+      "images": 180,
+      "example": "studio/2023_01_19/S5/seq_4-7-1/fisheye_final_image/camera_left/final_67.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-0-20",
+      "split": "validation",
+      "images": 114,
+      "example": "studio/2023_01_19/S5/seq_3-0-20/fisheye_final_image/camera_left/final_7.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-74",
+      "split": "validation",
+      "images": 270,
+      "example": "studio/2023_01_19/S5/seq_3-8-74/fisheye_final_image/camera_right/final_48.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-0-0",
+      "split": "validation",
+      "images": 60,
+      "example": "studio/2023_01_19/S5/seq_3-0-0/fisheye_final_image/camera_right/final_15.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-5",
+      "split": "validation",
+      "images": 1296,
+      "example": "studio/2023_01_19/S5/seq_4-7-5/fisheye_final_image/camera_left/final_488.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-6-8",
+      "split": "validation",
+      "images": 332,
+      "example": "studio/2023_01_19/S5/seq_4-6-8/fisheye_final_image/camera_right/final_160.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-0-16",
+      "split": "validation",
+      "images": 248,
+      "example": "studio/2023_01_19/S5/seq_3-0-16/fisheye_final_image/camera_right/final_22.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-6-2",
+      "split": "validation",
+      "images": 820,
+      "example": "studio/2023_01_19/S5/seq_4-6-2/fisheye_final_image/camera_left/final_34.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-8-35",
+      "split": "validation",
+      "images": 202,
+      "example": "studio/2023_01_19/S5/seq_3-8-35/fisheye_final_image/camera_left/final_81.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-50",
+      "split": "validation",
+      "images": 130,
+      "example": "studio/2023_01_19/S5/seq_3-7-50/fisheye_final_image/camera_left/final_46.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-62",
+      "split": "validation",
+      "images": 114,
+      "example": "studio/2023_01_19/S5/seq_3-7-62/fisheye_final_image/camera_left/final_27.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_4-7-14",
+      "split": "validation",
+      "images": 112,
+      "example": "studio/2023_01_19/S5/seq_4-7-14/fisheye_final_image/camera_right/final_9.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-18",
+      "split": "validation",
+      "images": 72,
+      "example": "studio/2023_01_19/S5/seq_3-7-18/fisheye_final_image/camera_right/final_0.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-12-3",
+      "split": "validation",
+      "images": 124,
+      "example": "studio/2023_01_19/S5/seq_3-12-3/fisheye_final_image/camera_right/final_48.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-20",
+      "split": "validation",
+      "images": 222,
+      "example": "studio/2023_01_19/S5/seq_3-7-20/fisheye_final_image/camera_left/final_71.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S5/seq_3-7-2",
+      "split": "validation",
+      "images": 152,
+      "example": "studio/2023_01_19/S5/seq_3-7-2/fisheye_final_image/camera_right/final_30.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_1-32-1",
+      "split": "train",
+      "images": 180,
+      "example": "studio/2023_01_19/S6/seq_1-32-1/fisheye_final_image/camera_left/final_17.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_3-1-23",
+      "split": "train",
+      "images": 106,
+      "example": "studio/2023_01_19/S6/seq_3-1-23/fisheye_final_image/camera_left/final_23.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_3-0-8",
+      "split": "train",
+      "images": 98,
+      "example": "studio/2023_01_19/S6/seq_3-0-8/fisheye_final_image/camera_left/final_4.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_3-0-2",
+      "split": "train",
+      "images": 60,
+      "example": "studio/2023_01_19/S6/seq_3-0-2/fisheye_final_image/camera_right/final_2.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_3-1-66",
+      "split": "train",
+      "images": 246,
+      "example": "studio/2023_01_19/S6/seq_3-1-66/fisheye_final_image/camera_left/final_11.png"
+    },
+    {
+      "sequence": "studio/2023_01_19/S6/seq_2-0-62",
+      "split": "train",
+      "images": 422,
+      "example": "studio/2023_01_19/S6/seq_2-0-62/fisheye_final_image/camera_left/final_67.png"
+    }
+  ],
+  "images_by_split": {
+    "train": 1112,
+    "validation": 11780,
+    "test": 0,
+    "unknown": 0
+  }
+}

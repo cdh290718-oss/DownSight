@@ -1,0 +1,42 @@
+{
+  "command": "prepare.py --workspace <WORKSPACE> --output <LOCAL_OUTPUT>/dataset",
+  "exit_status": 0,
+  "train_images": 500,
+  "train_pairs": 250,
+  "subjects": [
+    "S6"
+  ],
+  "sequence_images": {
+    "studio/2023_01_19/S6/seq_1-32-1": 118,
+    "studio/2023_01_19/S6/seq_3-1-23": 106,
+    "studio/2023_01_19/S6/seq_3-0-8": 98,
+    "studio/2023_01_19/S6/seq_3-0-2": 60,
+    "studio/2023_01_19/S6/seq_3-1-66": 118
+  },
+  "validation_images": 100,
+  "validation_subjects": [
+    "S5"
+  ],
+  "sequence_overlap": 0,
+  "pair_overlap": 0,
+  "nose_supervised": false,
+  "supervised_counts": {
+    "nose": 0.0,
+    "left_shoulder": 500.0,
+    "right_shoulder": 500.0,
+    "left_elbow": 500.0,
+    "right_elbow": 500.0,
+    "left_wrist": 500.0,
+    "right_wrist": 470.0,
+    "left_hip": 500.0,
+    "right_hip": 500.0,
+    "left_knee": 500.0,
+    "right_knee": 500.0,
+    "left_ankle": 500.0,
+    "right_ankle": 500.0
+  },
+  "manifest_sha256": "2df8b39e3c248357e3e29b9fb4ed6f739abc259778e241ad9effdc505b885d4d",
+  "source": "prepared samples.npz; original pose JSON unavailable",
+  "visibility": "unknown",
+  "last_archive_sequence_excluded": true
+}

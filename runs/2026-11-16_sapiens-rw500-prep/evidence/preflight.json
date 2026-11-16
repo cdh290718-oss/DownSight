@@ -1,0 +1,215 @@
+{
+  "command": "train.py --workspace <WORKSPACE> --check",
+  "exit_status": 0,
+  "images_hash_verified": 600,
+  "cpu_pipeline_samples": [
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_1-32-1",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_1-32-1",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-0-2",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-0-2",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-0-8",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-0-8",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-1-23",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-1-23",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-1-66",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_3-1-66",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_19/S5/seq_4-7-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_19/S5/seq_4-7-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    }
+  ],
+  "training_started": false,
+  "gpu_model_executed": false,
+  "torch": "2.7.0+cu128",
+  "config_sha256": "08871772ac21e4bd0dd3d4a9afdb5169da9124e1af00a5f73de83e31c3fdc169"
+}
