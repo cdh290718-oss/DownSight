@@ -1,0 +1,21 @@
+{
+  "command": "python (inspect candidate_308.json, verify split, pair count, image SHA-256 and all-zero masks)",
+  "exit_status": 0,
+  "records": 100,
+  "pairs": 50,
+  "image_sha256_match": 100,
+  "validation_images": 100,
+  "nonzero_training_masks": 0,
+  "visual_review": [
+    {
+      "id": "00000_left",
+      "finding": "R_Shoulder falls on face, which occludes body; cannot infer joint visibility or semantic accuracy from projection."
+    },
+    {
+      "id": "00120_right",
+      "finding": "L_Shoulder falls on face, which occludes body; visibility and semantic agreement remain unknown."
+    }
+  ],
+  "visual_scope": "two selected examples; not a 100-image review",
+  "initial_sample_attempt": "Stopped own process during slow repeated NPZ decompression; no selected images emitted; retried in a new directory after caching arrays."
+}

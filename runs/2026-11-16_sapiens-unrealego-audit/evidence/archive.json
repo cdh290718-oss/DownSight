@@ -1,0 +1,8 @@
+{
+  "command": "SHA-256 of <RGB_ARCHIVE_PART>",
+  "exit_status": 0,
+  "resource": "UnrealEgoData_rw_train_val_rgb/studio.tar.gz000",
+  "bytes": 7488153288,
+  "sha256": "1a79c55d4951e5ae9d85c7afeab40cc03166040ecdbd8f6e8264df5d46669e41",
+  "scope": "existing partial archive; full dataset completeness not checked"
+}

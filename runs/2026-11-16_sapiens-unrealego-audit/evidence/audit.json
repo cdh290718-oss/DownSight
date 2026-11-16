@@ -1,0 +1,161 @@
+{
+  "command": "python runs/2026-11-16_sapiens-unrealego-audit/code/audit.py",
+  "exit_status": 0,
+  "gpu": {
+    "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.free --format=csv,noheader",
+    "exit_status": 0,
+    "output": "0, NVIDIA A100-SXM4-80GB, 81920 MiB, 45255 MiB"
+  },
+  "environment": {
+    "command": "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python -c import torch,cv2,safetensors; print(torch.__version__,torch.version.cuda,cv2.__version__,safetensors.__version__)",
+    "exit_status": 0,
+    "output": "2.7.0+cu128 12.8 4.13.0 0.7.0"
+  },
+  "sapiens_git_head": {
+    "command": "git -C <EGOSMPLX>/official_baseline/sapiens2 rev-parse HEAD",
+    "exit_status": 0,
+    "output": "7e5bae88456ac418ff0e58e74106c9fe192055d4"
+  },
+  "sapiens_git_status": {
+    "command": "git -C <EGOSMPLX>/official_baseline/sapiens2 status --short",
+    "exit_status": 0,
+    "output": ""
+  },
+  "sapiens_checkpoint_sha256": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+  "prepared_npz_sha256": "9f2a17379bfbd9a306f6fddc0b3de0956eab2bd2006b0f5f1a3e0f4d18cf1d6d",
+  "splits_zip_sha256": "9520d62440f9c310ab60c766161254e31ded2c609c0f6d4785845bfcc2ae9b50",
+  "metadata_sha256": "d2c2445f064b540a1bf73a4c5a9b721083a774d41cb75b6a3f502e09737c7618",
+  "samples": 219576,
+  "sides": {
+    "left": 109788,
+    "right": 109788
+  },
+  "official_split_sequences": {
+    "train": 402,
+    "validation": 96,
+    "test": 93
+  },
+  "prepared_split_images": {
+    "train": 159410,
+    "validation": 60166,
+    "test": 0
+  },
+  "unknown_split_images": 0,
+  "split_sequence_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "metadata_pose_json_count": 109788,
+  "source_original_roots_exist": [
+    false,
+    false
+  ],
+  "source_2d_third_column": "prepare script writes constant 1.0; not visibility",
+  "joint_mapping": [
+    {
+      "name": "nose",
+      "sapiens308_id": 0,
+      "rw_index": null,
+      "rw_name": null,
+      "source_bone": null,
+      "status": "missing; mask; Head is not nose"
+    },
+    {
+      "name": "left_shoulder",
+      "sapiens308_id": 5,
+      "rw_index": 4,
+      "rw_name": "L_Shoulder",
+      "source_bone": "LeftArm",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_shoulder",
+      "sapiens308_id": 6,
+      "rw_index": 1,
+      "rw_name": "R_Shoulder",
+      "source_bone": "RightArm",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "left_elbow",
+      "sapiens308_id": 7,
+      "rw_index": 5,
+      "rw_name": "L_Elbow",
+      "source_bone": "LeftForeArm",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_elbow",
+      "sapiens308_id": 8,
+      "rw_index": 2,
+      "rw_name": "R_Elbow",
+      "source_bone": "RightForeArm",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "left_wrist",
+      "sapiens308_id": 62,
+      "rw_index": 6,
+      "rw_name": "L_Wrist",
+      "source_bone": "LeftHand",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_wrist",
+      "sapiens308_id": 41,
+      "rw_index": 3,
+      "rw_name": "R_Wrist",
+      "source_bone": "RightHand",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "left_hip",
+      "sapiens308_id": 9,
+      "rw_index": 11,
+      "rw_name": "L_Hip",
+      "source_bone": "LeftUpLeg",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_hip",
+      "sapiens308_id": 10,
+      "rw_index": 7,
+      "rw_name": "R_Hip",
+      "source_bone": "RightUpLeg",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "left_knee",
+      "sapiens308_id": 11,
+      "rw_index": 12,
+      "rw_name": "L_Knee",
+      "source_bone": "LeftLeg",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_knee",
+      "sapiens308_id": 12,
+      "rw_index": 8,
+      "rw_name": "R_Knee",
+      "source_bone": "RightLeg",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "left_ankle",
+      "sapiens308_id": 13,
+      "rw_index": 13,
+      "rw_name": "L_Ankle",
+      "source_bone": "LeftFoot",
+      "status": "candidate; definition and visibility unverified"
+    },
+    {
+      "name": "right_ankle",
+      "sapiens308_id": 14,
+      "rw_index": 9,
+      "rw_name": "R_Ankle",
+      "source_bone": "RightFoot",
+      "status": "candidate; definition and visibility unverified"
+    }
+  ]
+}
