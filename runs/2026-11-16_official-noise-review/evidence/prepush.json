@@ -1,0 +1,183 @@
+{
+  "base": "5281634c1bac19a27d5bdf0130d395230521446e",
+  "remote": "5281634c1bac19a27d5bdf0130d395230521446e",
+  "mode": "staged",
+  "files": [
+    {
+      "path": "runs/2026-11-16_official-noise-review/analyze.py",
+      "bytes": 1193
+    },
+    {
+      "path": "runs/2026-11-16_official-noise-review/audit.py",
+      "bytes": 1789
+    },
+    {
+      "path": "runs/2026-11-16_official-noise-review/brief.md",
+      "bytes": 355
+    },
+    {
+      "path": "runs/2026-11-16_official-noise-review/evidence/analysis.json",
+      "bytes": 863
+    },
+    {
+      "path": "runs/2026-11-16_official-noise-review/report.md",
+      "bytes": 1306
+    },
+    {
+      "path": "runs/2026-11-16_official-noise-review/review.md",
+      "bytes": 135
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/brief.md",
+      "bytes": 1038
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/cases.json",
+      "bytes": 310
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/common.py",
+      "bytes": 2277
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evaluate.py",
+      "bytes": 2788
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/equivalence_test.json",
+      "bytes": 200
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/execution.json",
+      "bytes": 47028
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/finish_status.json",
+      "bytes": 3226
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/input_hashes.json",
+      "bytes": 7886
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/noise_check.json",
+      "bytes": 6084
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/preparation.json",
+      "bytes": 7365
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/results.json",
+      "bytes": 414473
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/routing_test.json",
+      "bytes": 178
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/screening_initial_failure.txt",
+      "bytes": 223
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/screening_reasons.json",
+      "bytes": 318
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/screening_summary.json",
+      "bytes": 487
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/summary.json",
+      "bytes": 22295
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/vectorization_gradient.json",
+      "bytes": 278
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/vectorization_interruption.json",
+      "bytes": 5065
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/vectorization_smoke.json",
+      "bytes": 233
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/verification.json",
+      "bytes": 7063
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/finish.py",
+      "bytes": 1529
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/fit.py",
+      "bytes": 12940
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/fit_unvectorized.py",
+      "bytes": 12195
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/initialization.py",
+      "bytes": 1899
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/make_report.py",
+      "bytes": 4812
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/prepare.py",
+      "bytes": 4938
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/protocol.json",
+      "bytes": 761
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/report.md",
+      "bytes": 7162
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/review.md",
+      "bytes": 187
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/run.py",
+      "bytes": 1824
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/screening_reasons.py",
+      "bytes": 685
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/settings.json",
+      "bytes": 3258
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/summarize.py",
+      "bytes": 1622
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/test_noise.py",
+      "bytes": 1250
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/test_protocol.py",
+      "bytes": 1150
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/test_vectorization.py",
+      "bytes": 2175
+    },
+    {
+      "path": "runs/2026-11-16_unrealego-official-noise/verify.py",
+      "bytes": 2682
+    }
+  ],
+  "workspace_status": "A  runs/2026-11-16_official-noise-review/analyze.py\nA  runs/2026-11-16_official-noise-review/audit.py\nA  runs/2026-11-16_official-noise-review/brief.md\nA  runs/2026-11-16_official-noise-review/evidence/analysis.json\nA  runs/2026-11-16_official-noise-review/report.md\nA  runs/2026-11-16_official-noise-review/review.md\nA  runs/2026-11-16_unrealego-official-noise/brief.md\nA  runs/2026-11-16_unrealego-official-noise/cases.json\nA  runs/2026-11-16_unrealego-official-noise/common.py\nA  runs/2026-11-16_unrealego-official-noise/evaluate.py\nA  runs/2026-11-16_unrealego-official-noise/evidence/equivalence_test.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/execution.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/finish_status.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/input_hashes.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/noise_check.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/preparation.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/results.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/routing_test.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/screening_initial_failure.txt\nA  runs/2026-11-16_unrealego-official-noise/evidence/screening_reasons.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/screening_summary.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/summary.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/vectorization_gradient.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/vectorization_interruption.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/vectorization_smoke.json\nA  runs/2026-11-16_unrealego-official-noise/evidence/verification.json\nA  runs/2026-11-16_unrealego-official-noise/finish.py\nA  runs/2026-11-16_unrealego-official-noise/fit.py\nA  runs/2026-11-16_unrealego-official-noise/fit_unvectorized.py\nA  runs/2026-11-16_unrealego-official-noise/initialization.py\nA  runs/2026-11-16_unrealego-official-noise/make_report.py\nA  runs/2026-11-16_unrealego-official-noise/prepare.py\nA  runs/2026-11-16_unrealego-official-noise/protocol.json\nA  runs/2026-11-16_unrealego-official-noise/report.md\nA  runs/2026-11-16_unrealego-official-noise/review.md\nA  runs/2026-11-16_unrealego-official-noise/run.py\nA  runs/2026-11-16_unrealego-official-noise/screening_reasons.py\nA  runs/2026-11-16_unrealego-official-noise/settings.json\nA  runs/2026-11-16_unrealego-official-noise/summarize.py\nA  runs/2026-11-16_unrealego-official-noise/test_noise.py\nA  runs/2026-11-16_unrealego-official-noise/test_protocol.py\nA  runs/2026-11-16_unrealego-official-noise/test_vectorization.py\nA  runs/2026-11-16_unrealego-official-noise/verify.py\n?? runs/2026-11-04_session-hand6-v2/evidence/point_comparison_followup.json\n?? runs/2026-11-15_dual-source-fit/\n?? runs/2026-11-15_real-template-no-head/\n?? runs/2026-11-15_unrealego-d-batch/\n?? runs/2026-11-15_unrealego-dual-source/\n?? runs/2026-11-15_unrealego-gt16/\n?? runs/2026-11-15_unrealego-noise-mixed/\n?? runs/2026-11-16_gen-body-only-20/",
+  "errors": [],
+  "exit_status": 0,
+  "scope": "new experiment and review only; no weights, data, videos, arrays, complete provenance or patch"
+}

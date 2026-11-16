@@ -1,0 +1,7 @@
+{
+  "exit_status": 0,
+  "test": "15 non-axis points, two cameras, 2D and 3D whitened Huber residual",
+  "loss_difference": 0.0,
+  "max_gradient_difference": 0.0,
+  "axis_limit": "test excludes exact camera optical axis; production handles output according to fisheye backend"
+}

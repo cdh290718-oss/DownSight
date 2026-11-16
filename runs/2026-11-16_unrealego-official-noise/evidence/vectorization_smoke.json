@@ -1,0 +1,8 @@
+{
+  "exit_status": 0,
+  "condition": "body01 GT 8px seed20261115",
+  "steps": 10,
+  "max_joint_difference_m": 0.0,
+  "loss_abs_difference": 0.0,
+  "note": "Optimization comparison; checks only a short trajectory, not convergence."
+}

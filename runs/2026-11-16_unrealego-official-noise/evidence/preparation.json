@@ -1,0 +1,342 @@
+{
+  "exit_status": 0,
+  "conditions": [
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 11,
+      "2d_fallback": 4
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 9,
+      "2d_fallback": 6
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 11,
+      "2d_fallback": 4
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 9,
+      "2d_fallback": 6
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 4,
+      "2d_fallback": 11
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 9,
+      "2d_fallback": 6
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 13,
+      "2d_fallback": 2
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 13,
+      "2d_fallback": 2
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 12,
+      "2d_fallback": 3
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 11,
+      "2d_fallback": 4
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 11,
+      "2d_fallback": 4
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 8,
+      "2d_fallback": 7
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 13,
+      "2d_fallback": 2
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 7,
+      "2d_fallback": 8
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 8,
+      "2d_fallback": 7
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 9,
+      "2d_fallback": 6
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 15,
+      "2d_fallback": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 14,
+      "2d_fallback": 1
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 12,
+      "2d_fallback": 3
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 12,
+      "2d_fallback": 3
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 13,
+      "2d_fallback": 2
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261115",
+      "view_points": 30,
+      "accepted_3d": 8,
+      "2d_fallback": 7
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261116",
+      "view_points": 30,
+      "accepted_3d": 10,
+      "2d_fallback": 5
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261117",
+      "view_points": 30,
+      "accepted_3d": 11,
+      "2d_fallback": 4
+    }
+  ],
+  "note": "Input observations reused byte for byte from existing preparation."
+}

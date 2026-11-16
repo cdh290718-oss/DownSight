@@ -1,0 +1,7 @@
+{
+  "exit_status": 0,
+  "3d_vs_mixed_smoke_max_joint_m": 0.0,
+  "condition": "body01 gt_s1_seed20261115",
+  "steps": 10,
+  "scope": "only when all valid points pass 3d; does not verify convergence"
+}

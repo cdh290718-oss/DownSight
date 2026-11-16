@@ -1,0 +1,1836 @@
+{
+  "command": "python3 runs/2026-11-16_unrealego-official-noise/run.py",
+  "records": [
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1757.5547187328339,
+      "progress_excerpt": [
+        "D 19900 0.004253725986927748",
+        "D 20000 0.00425355602055788",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1765.1428503990173,
+      "progress_excerpt": [
+        "D 19900 0.0033490832429379225",
+        "D 20000 0.003348702797666192",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1765.1453449726105,
+      "progress_excerpt": [
+        "D 19900 0.0027829166501760483",
+        "D 20000 0.002782620722427964",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1787.3231453895569,
+      "progress_excerpt": [
+        "D 19900 0.00617208331823349",
+        "D 20000 0.0061703515239059925",
+        "DONE D 13340"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1792.5578618049622,
+      "progress_excerpt": [
+        "D 19900 0.006629830691963434",
+        "D 20000 0.00662832148373127",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1798.1394987106323,
+      "progress_excerpt": [
+        "D 19900 0.003693975741043687",
+        "D 20000 0.0036937850527465343",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1798.8378579616547,
+      "progress_excerpt": [
+        "D 19900 0.002682293299585581",
+        "D 20000 0.002682049758732319",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1815.1400518417358,
+      "progress_excerpt": [
+        "D 19900 0.0026289839297533035",
+        "D 20000 0.0026272134855389595",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1828.8315641880035,
+      "progress_excerpt": [
+        "D 19900 0.0006073745898902416",
+        "D 20000 0.0006073724944144487",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1837.3517048358917,
+      "progress_excerpt": [
+        "D 19900 0.0013534296303987503",
+        "D 20000 0.0013534054160118103",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1845.0289504528046,
+      "progress_excerpt": [
+        "D 19900 0.007741530891507864",
+        "D 20000 0.007739389315247536",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1845.4323210716248,
+      "progress_excerpt": [
+        "D 19900 0.0012843144359067082",
+        "D 20000 0.001284028054215014",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1858.7245478630066,
+      "progress_excerpt": [
+        "D 19900 0.0029630556236952543",
+        "D 20000 0.002962907310575247",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1877.9451975822449,
+      "progress_excerpt": [
+        "D 19900 0.0032061308156698942",
+        "D 20000 0.0032059685327112675",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1896.051964521408,
+      "progress_excerpt": [
+        "D 19900 0.003573358291760087",
+        "D 20000 0.0035731233656406403",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1905.040649652481,
+      "progress_excerpt": [
+        "D 19900 0.0042983959428966045",
+        "D 20000 0.004298233427107334",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1931.0362610816956,
+      "progress_excerpt": [
+        "D 19900 0.004297163803130388",
+        "D 20000 0.00429679686203599",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2003.6322128772736,
+      "progress_excerpt": [
+        "D 19900 0.07450534403324127",
+        "D 20000 0.07450582087039948",
+        "DONE D 5220"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2006.1541736125946,
+      "progress_excerpt": [
+        "D 19900 0.014065167866647243",
+        "D 20000 0.014064780436456203",
+        "DONE D 4000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2007.447808265686,
+      "progress_excerpt": [
+        "D 19900 0.06494570523500443",
+        "D 20000 0.06494492292404175",
+        "DONE D 4740"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2024.1383173465729,
+      "progress_excerpt": [
+        "D 19900 0.007915524765849113",
+        "D 20000 0.007917319424450397",
+        "DONE D 15020"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2027.948565006256,
+      "progress_excerpt": [
+        "D 19900 0.02829098142683506",
+        "D 20000 0.028291484341025352",
+        "DONE D 3860"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2035.3265588283539,
+      "progress_excerpt": [
+        "D 19900 0.010079929605126381",
+        "D 20000 0.010080800391733646",
+        "DONE D 5720"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2043.0393187999725,
+      "progress_excerpt": [
+        "D 19900 0.069465272128582",
+        "D 20000 0.06946907937526703",
+        "DONE D 15600"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2048.756447315216,
+      "progress_excerpt": [
+        "D 19900 0.022270454093813896",
+        "D 20000 0.0222697164863348",
+        "DONE D 4000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2050.229550600052,
+      "progress_excerpt": [
+        "D 19900 0.019198276102542877",
+        "D 20000 0.019198138266801834",
+        "DONE D 3800"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2071.5303547382355,
+      "progress_excerpt": [
+        "D 19900 0.011573655530810356",
+        "D 20000 0.011575409211218357",
+        "DONE D 7540"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2078.0437602996826,
+      "progress_excerpt": [
+        "D 19900 0.006626014597713947",
+        "D 20000 0.006625281646847725",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2106.122640132904,
+      "progress_excerpt": [
+        "D 19900 0.016498317942023277",
+        "D 20000 0.01649722084403038",
+        "DONE D 4800"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2117.627302646637,
+      "progress_excerpt": [
+        "D 19900 0.00671004643663764",
+        "D 20000 0.006711096502840519",
+        "DONE D 5500"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2154.25164270401,
+      "progress_excerpt": [
+        "D 19900 0.021264832466840744",
+        "D 20000 0.0212610624730587",
+        "DONE D 3880"
+      ]
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2201.2362134456635,
+      "progress_excerpt": [
+        "D 19900 0.008432810194790363",
+        "D 20000 0.008432304486632347",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1740.5997784137726,
+      "progress_excerpt": [
+        "D 19900 0.0034081805497407913",
+        "D 20000 0.003407911630347371",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1723.201576948166,
+      "progress_excerpt": [
+        "D 19900 0.002493330743163824",
+        "D 20000 0.0024925789330154657",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1759.7023432254791,
+      "progress_excerpt": [
+        "D 19900 0.0024253828451037407",
+        "D 20000 0.002425316721200943",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1778.1228423118591,
+      "progress_excerpt": [
+        "D 19900 0.0042115673422813416",
+        "D 20000 0.0042100572027266026",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1934.4034984111786,
+      "progress_excerpt": [
+        "D 19900 0.003601731499657035",
+        "D 20000 0.003601574106141925",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1976.3974401950836,
+      "progress_excerpt": [
+        "D 19900 0.005229140631854534",
+        "D 20000 0.005229175556451082",
+        "DONE D 19940"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1813.391548871994,
+      "progress_excerpt": [
+        "D 19900 0.004537259694188833",
+        "D 20000 0.004537446890026331",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2014.2129490375519,
+      "progress_excerpt": [
+        "D 19900 0.003634558292105794",
+        "D 20000 0.0036342409439384937",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1886.925490140915,
+      "progress_excerpt": [
+        "D 19900 0.0045453752391040325",
+        "D 20000 0.004544633440673351",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2184.1722786426544,
+      "progress_excerpt": [
+        "D 19900 0.0028996572364121675",
+        "D 20000 0.0028995187021791935",
+        "DONE D 19960"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1954.2996339797974,
+      "progress_excerpt": [
+        "D 19900 0.0026896419003605843",
+        "D 20000 0.0026848516426980495",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2170.3893654346466,
+      "progress_excerpt": [
+        "D 19900 0.006399264093488455",
+        "D 20000 0.006398944184184074",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2116.293760538101,
+      "progress_excerpt": [
+        "D 19900 0.004656658507883549",
+        "D 20000 0.004654642194509506",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2100.7016780376434,
+      "progress_excerpt": [
+        "D 19900 0.006083352025598288",
+        "D 20000 0.0060801119543612",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2205.9943816661835,
+      "progress_excerpt": [
+        "D 19900 0.03998918458819389",
+        "D 20000 0.03999607637524605",
+        "DONE D 3760"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2270.1898064613342,
+      "progress_excerpt": [
+        "D 19900 0.08382797986268997",
+        "D 20000 0.08383026719093323",
+        "DONE D 12720"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1968.5188028812408,
+      "progress_excerpt": [
+        "D 19900 0.010863025672733784",
+        "D 20000 0.01086515188217163",
+        "DONE D 5020"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2020.1994931697845,
+      "progress_excerpt": [
+        "D 19900 0.0025514753069728613",
+        "D 20000 0.0025513621512800455",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2004.500274181366,
+      "progress_excerpt": [
+        "D 19900 0.003026554360985756",
+        "D 20000 0.0030254865996539593",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2267.0987842082977,
+      "progress_excerpt": [
+        "D 19900 0.0886593908071518",
+        "D 20000 0.0886591225862503",
+        "DONE D 8440"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1993.496557712555,
+      "progress_excerpt": [
+        "D 19900 0.002698477590456605",
+        "D 20000 0.0026973129715770483",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2242.684737443924,
+      "progress_excerpt": [
+        "D 19900 0.01753927953541279",
+        "D 20000 0.01754150353372097",
+        "DONE D 14500"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2318.711817264557,
+      "progress_excerpt": [
+        "D 19900 0.08231538534164429",
+        "D 20000 0.0823170617222786",
+        "DONE D 13000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2120.7049582004547,
+      "progress_excerpt": [
+        "D 19900 0.0036116112023591995",
+        "D 20000 0.0036104517057538033",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2050.3793568611145,
+      "progress_excerpt": [
+        "D 19900 0.0022172171156853437",
+        "D 20000 0.0022178618237376213",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2240.6282234191895,
+      "progress_excerpt": [
+        "D 19900 0.015308298170566559",
+        "D 20000 0.015306556597352028",
+        "DONE D 4600"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2359.6867575645447,
+      "progress_excerpt": [
+        "D 19900 0.03198779374361038",
+        "D 20000 0.031993623822927475",
+        "DONE D 4020"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2276.5956284999847,
+      "progress_excerpt": [
+        "D 19900 0.018869899213314056",
+        "D 20000 0.018870379775762558",
+        "DONE D 4520"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2261.601949930191,
+      "progress_excerpt": [
+        "D 19900 0.016049107536673546",
+        "D 20000 0.01605389080941677",
+        "DONE D 4140"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2239.2107751369476,
+      "progress_excerpt": [
+        "D 19900 0.004776117391884327",
+        "D 20000 0.00477198138833046",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2310.1980080604553,
+      "progress_excerpt": [
+        "D 19900 0.014193352311849594",
+        "D 20000 0.014196655713021755",
+        "DONE D 4940"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2310.49391746521,
+      "progress_excerpt": [
+        "D 19900 0.006008569151163101",
+        "D 20000 0.006008666008710861",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1595.2017312049866,
+      "progress_excerpt": [
+        "D 19900 0.0030711491126567125",
+        "D 20000 0.0030709700658917427",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1911.225464105606,
+      "progress_excerpt": [
+        "D 19900 0.003506655804812908",
+        "D 20000 0.0035064169205725193",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1808.8041925430298,
+      "progress_excerpt": [
+        "D 19900 0.004711139481514692",
+        "D 20000 0.004710839129984379",
+        "DONE D 19960"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1845.883329153061,
+      "progress_excerpt": [
+        "D 19900 0.0037381392903625965",
+        "D 20000 0.0037379825953394175",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1633.9977748394012,
+      "progress_excerpt": [
+        "D 19900 0.004502797499299049",
+        "D 20000 0.004502793308347464",
+        "DONE D 17380"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2176.0936138629913,
+      "progress_excerpt": [
+        "D 19900 0.1034255102276802",
+        "D 20000 0.10342609882354736",
+        "DONE D 9960"
+      ]
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2287.610585451126,
+      "progress_excerpt": [
+        "D 19900 0.010471058078110218",
+        "D 20000 0.010471571236848831",
+        "DONE D 5160"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1874.0933816432953,
+      "progress_excerpt": [
+        "D 19900 0.00305377459153533",
+        "D 20000 0.0030535152181982994",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1850.2252206802368,
+      "progress_excerpt": [
+        "D 19900 0.0028347382321953773",
+        "D 20000 0.0028345207683742046",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1623.4066207408905,
+      "progress_excerpt": [
+        "D 19900 0.0027215047739446163",
+        "D 20000 0.002719366690143943",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1907.7308950424194,
+      "progress_excerpt": [
+        "D 19900 0.041697949171066284",
+        "D 20000 0.04170062392950058",
+        "DONE D 3680"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2006.876209974289,
+      "progress_excerpt": [
+        "D 19900 0.004818808287382126",
+        "D 20000 0.004818582441657782",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1884.6166951656342,
+      "progress_excerpt": [
+        "D 19900 0.0026340275071561337",
+        "D 20000 0.002633539028465748",
+        "DONE D 15160"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1847.7062363624573,
+      "progress_excerpt": [
+        "D 19900 0.0030256682075560093",
+        "D 20000 0.0030247564427554607",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2254.562651157379,
+      "progress_excerpt": [
+        "D 19900 0.09448779374361038",
+        "D 20000 0.09449080377817154",
+        "DONE D 9460"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1954.9943022727966,
+      "progress_excerpt": [
+        "D 19900 0.005995181389153004",
+        "D 20000 0.0059948693960905075",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2053.3036665916443,
+      "progress_excerpt": [
+        "D 19900 0.003835058771073818",
+        "D 20000 0.0038347356021404266",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2007.08513879776,
+      "progress_excerpt": [
+        "D 19900 0.006408529821783304",
+        "D 20000 0.0064086876809597015",
+        "DONE D 17800"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2021.699777841568,
+      "progress_excerpt": [
+        "D 19900 0.0032026018016040325",
+        "D 20000 0.0032023966778069735",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2225.3106150627136,
+      "progress_excerpt": [
+        "D 19900 0.11678703874349594",
+        "D 20000 0.1167915016412735",
+        "DONE D 10180"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2021.6111545562744,
+      "progress_excerpt": [
+        "D 19900 0.009600738063454628",
+        "D 20000 0.009600662626326084",
+        "DONE D 16360"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1767.104338169098,
+      "progress_excerpt": [
+        "D 19900 0.003812260925769806",
+        "D 20000 0.003813822753727436",
+        "DONE D 16420"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1893.9004142284393,
+      "progress_excerpt": [
+        "D 19900 0.005322153680026531",
+        "D 20000 0.0053235311061143875",
+        "DONE D 8140"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2235.5255403518677,
+      "progress_excerpt": [
+        "D 19900 0.04469848796725273",
+        "D 20000 0.044701557606458664",
+        "DONE D 3540"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2202.8204395771027,
+      "progress_excerpt": [
+        "D 19900 0.043656788766384125",
+        "D 20000 0.043659843504428864",
+        "DONE D 3760"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1968.3820502758026,
+      "progress_excerpt": [
+        "D 19900 0.0048015727661550045",
+        "D 20000 0.00480202492326498",
+        "DONE D 16460"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1937.5931315422058,
+      "progress_excerpt": [
+        "D 19900 0.01647186279296875",
+        "D 20000 0.016475822776556015",
+        "DONE D 5200"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1818.1971588134766,
+      "progress_excerpt": [
+        "D 19900 0.014288931153714657",
+        "D 20000 0.014291456900537014",
+        "DONE D 5040"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2209.6966989040375,
+      "progress_excerpt": [
+        "D 19900 0.031637828797101974",
+        "D 20000 0.031642042100429535",
+        "DONE D 4460"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2233.300497531891,
+      "progress_excerpt": [
+        "D 19900 0.02803255245089531",
+        "D 20000 0.028037378564476967",
+        "DONE D 4060"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2138.011168718338,
+      "progress_excerpt": [
+        "D 19900 0.02359204739332199",
+        "D 20000 0.02359773963689804",
+        "DONE D 4220"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1935.6204900741577,
+      "progress_excerpt": [
+        "D 19900 0.0033368924632668495",
+        "D 20000 0.0033375024795532227",
+        "DONE D 16480"
+      ]
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1950.8944594860077,
+      "progress_excerpt": [
+        "D 19900 0.0037878486327826977",
+        "D 20000 0.0037887096405029297",
+        "DONE D 16760"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2019.6973674297333,
+      "progress_excerpt": [
+        "D 19900 0.003431001678109169",
+        "D 20000 0.0034281741827726364",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1654.0943965911865,
+      "progress_excerpt": [
+        "D 19900 0.004166579805314541",
+        "D 20000 0.004164894577115774",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1717.9053797721863,
+      "progress_excerpt": [
+        "D 19900 0.005123497918248177",
+        "D 20000 0.005121194291859865",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1932.5853679180145,
+      "progress_excerpt": [
+        "D 19900 0.0025223891716450453",
+        "D 20000 0.0025186818093061447",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1969.3899857997894,
+      "progress_excerpt": [
+        "D 19900 0.003470706520602107",
+        "D 20000 0.003465488087385893",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2250.476146221161,
+      "progress_excerpt": [
+        "D 19900 0.01375204510986805",
+        "D 20000 0.013757467269897461",
+        "DONE D 5240"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1881.0091531276703,
+      "progress_excerpt": [
+        "D 19900 0.0034030654933303595",
+        "D 20000 0.0034028422087430954",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2085.8427336215973,
+      "progress_excerpt": [
+        "D 19900 0.08938571810722351",
+        "D 20000 0.0894107073545456",
+        "DONE D 3980"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1854.9853928089142,
+      "progress_excerpt": [
+        "D 19900 0.036706648766994476",
+        "D 20000 0.036712706089019775",
+        "DONE D 4540"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1913.1330525875092,
+      "progress_excerpt": [
+        "D 19900 0.0039504277519881725",
+        "D 20000 0.00394981587305665",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 0,
+      "reused_from": "3d",
+      "reason": "All valid observations use identical 3D branch; no 2D fallback"
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1754.7105822563171,
+      "progress_excerpt": [
+        "D 19900 0.017582908272743225",
+        "D 20000 0.017586205154657364",
+        "DONE D 4440"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1943.5086669921875,
+      "progress_excerpt": [
+        "D 19900 0.003579844022169709",
+        "D 20000 0.0035796095617115498",
+        "DONE D 19980"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2122.4888582229614,
+      "progress_excerpt": [
+        "D 19900 0.09403613209724426",
+        "D 20000 0.09403987973928452",
+        "DONE D 3700"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1824.821064710617,
+      "progress_excerpt": [
+        "D 19900 0.003120951121672988",
+        "D 20000 0.0031207744032144547",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1768.9213569164276,
+      "progress_excerpt": [
+        "D 19900 0.0030065844766795635",
+        "D 20000 0.0030020505655556917",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1877.1001689434052,
+      "progress_excerpt": [
+        "D 19900 0.004031272605061531",
+        "D 20000 0.004031511023640633",
+        "DONE D 18600"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1884.9472436904907,
+      "progress_excerpt": [
+        "D 19900 0.004051359836012125",
+        "D 20000 0.004051267635077238",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2110.280250787735,
+      "progress_excerpt": [
+        "D 19900 0.08014397323131561",
+        "D 20000 0.0801362693309784",
+        "DONE D 4100"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1862.0984807014465,
+      "progress_excerpt": [
+        "D 19900 0.003972888458520174",
+        "D 20000 0.003969918470829725",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261115",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1753.3756520748138,
+      "progress_excerpt": [
+        "D 19900 0.0016070290002971888",
+        "D 20000 0.0016063508810475469",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1992.3783802986145,
+      "progress_excerpt": [
+        "D 19900 0.041272226721048355",
+        "D 20000 0.04127565771341324",
+        "DONE D 4400"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261116",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1734.1773731708527,
+      "progress_excerpt": [
+        "D 19900 0.0038946769200265408",
+        "D 20000 0.0038931991439312696",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1940.7927024364471,
+      "progress_excerpt": [
+        "D 19900 0.021243585273623466",
+        "D 20000 0.02124752476811409",
+        "DONE D 4600"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 2055.195447921753,
+      "progress_excerpt": [
+        "D 19900 0.03965190052986145",
+        "D 20000 0.03965679556131363",
+        "DONE D 4320"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1825.8965420722961,
+      "progress_excerpt": [
+        "D 19900 0.0043914406560361385",
+        "D 20000 0.004390804562717676",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1831.0673577785492,
+      "progress_excerpt": [
+        "D 19900 0.020921260118484497",
+        "D 20000 0.02092290297150612",
+        "DONE D 4840"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261117",
+      "method": "3d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1597.7070972919464,
+      "progress_excerpt": [
+        "D 19900 0.0015346795553341508",
+        "D 20000 0.0015342170372605324",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261115",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1818.7830357551575,
+      "progress_excerpt": [
+        "D 19900 0.008334293030202389",
+        "D 20000 0.008334361016750336",
+        "DONE D 19460"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261116",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1735.8326799869537,
+      "progress_excerpt": [
+        "D 19900 0.008239039219915867",
+        "D 20000 0.008232947438955307",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261115",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1838.0944724082947,
+      "progress_excerpt": [
+        "D 19900 0.016585247591137886",
+        "D 20000 0.01658778265118599",
+        "DONE D 5400"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261116",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1748.5512504577637,
+      "progress_excerpt": [
+        "D 19900 0.01380894985049963",
+        "D 20000 0.013811318203806877",
+        "DONE D 5700"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261117",
+      "method": "mixed",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 1052.3472728729248,
+      "progress_excerpt": [
+        "D 19900 0.0056522381491959095",
+        "D 20000 0.0056517357006669044",
+        "DONE D 20000"
+      ]
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261117",
+      "method": "2d",
+      "status": "ok",
+      "exit_status": 0,
+      "elapsed_seconds": 752.6190164089203,
+      "progress_excerpt": [
+        "D 19900 0.012619911693036556",
+        "D 20000 0.01262256782501936",
+        "DONE D 5720"
+      ]
+    }
+  ],
+  "failures": []
+}

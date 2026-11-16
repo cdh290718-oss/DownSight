@@ -1,0 +1,344 @@
+{
+  "exit_status": 0,
+  "conditions": [
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s1_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s3_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s5_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body02",
+      "condition": "gt_s8_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s1_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s3_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s5_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body03",
+      "condition": "gt_s8_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s1_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 1
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s3_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s5_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261115",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261116",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    },
+    {
+      "pair": "body04",
+      "condition": "gt_s8_seed20261117",
+      "same_basis": true,
+      "same_root": true,
+      "rank": 0
+    }
+  ],
+  "failures": [],
+  "record_count": 144,
+  "aliases": 14
+}

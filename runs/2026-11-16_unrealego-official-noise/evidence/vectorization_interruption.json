@@ -1,0 +1,198 @@
+{
+  "reason": "Stopped own runner and workers to replace slow per-joint projection with tested vectorized equivalent; partial outputs retained.",
+  "execution_record_count": 0,
+  "partial_logs": [
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "method": "3d",
+      "last_progress": "D 300 0.06852130591869354"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261115",
+      "method": "2d",
+      "last_progress": "D 200 0.5693317651748657"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "method": "3d",
+      "last_progress": "D 400 0.04254083335399628"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261116",
+      "method": "2d",
+      "last_progress": "D 200 0.5535275936126709"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "mixed",
+      "last_progress": "D 300 0.03161919489502907"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "3d",
+      "last_progress": "D 400 0.021934563294053078"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261116",
+      "method": "2d",
+      "last_progress": "D 200 0.1010904610157013"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "mixed",
+      "last_progress": "D 300 0.026414118707180023"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "3d",
+      "last_progress": "D 400 0.019015461206436157"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261115",
+      "method": "2d",
+      "last_progress": "D 200 0.10580281168222427"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "method": "3d",
+      "last_progress": "D 400 0.03976195678114891"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261117",
+      "method": "2d",
+      "last_progress": "D 200 0.1761561930179596"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "mixed",
+      "last_progress": "D 300 0.020840054377913475"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "3d",
+      "last_progress": "D 400 0.011048268526792526"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261115",
+      "method": "2d",
+      "last_progress": "D 200 0.06436177343130112"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "method": "3d",
+      "last_progress": "D 300 0.06290952116250992"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s1_seed20261117",
+      "method": "2d",
+      "last_progress": "D 200 0.5689688324928284"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "mixed",
+      "last_progress": "D 300 0.029299503192305565"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "3d",
+      "last_progress": "D 500 0.0024078991264104843"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261116",
+      "method": "2d",
+      "last_progress": "D 200 0.06374658644199371"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "mixed",
+      "last_progress": "D 300 0.020765604451298714"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "3d",
+      "last_progress": "D 400 0.01431511901319027"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s8_seed20261117",
+      "method": "2d",
+      "last_progress": "D 200 0.054599739611148834"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "mixed",
+      "last_progress": "D 300 0.02329936996102333"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "3d",
+      "last_progress": "D 500 0.01209304854273796"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s5_seed20261117",
+      "method": "2d",
+      "last_progress": "D 200 0.08888246864080429"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "mixed",
+      "last_progress": "D 400 0.02446145750582218"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "3d",
+      "last_progress": "D 400 0.022376861423254013"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261116",
+      "method": "2d",
+      "last_progress": "D 200 0.17506246268749237"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "mixed",
+      "last_progress": "D 400 0.03304765745997429"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "3d",
+      "last_progress": "D 500 0.022470511496067047"
+    },
+    {
+      "pair": "body01",
+      "condition": "gt_s3_seed20261115",
+      "method": "2d",
+      "last_progress": "D 200 0.17841675877571106"
+    }
+  ]
+}

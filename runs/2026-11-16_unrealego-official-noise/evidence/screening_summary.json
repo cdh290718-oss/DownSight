@@ -1,0 +1,26 @@
+{
+  "1": {
+    "conditions": 12,
+    "retained_3d_mean": 15.0,
+    "fallback_mean": 0.0,
+    "no_fallback": 12
+  },
+  "3": {
+    "conditions": 12,
+    "retained_3d_mean": 13.75,
+    "fallback_mean": 1.25,
+    "no_fallback": 2
+  },
+  "5": {
+    "conditions": 12,
+    "retained_3d_mean": 10.75,
+    "fallback_mean": 4.25,
+    "no_fallback": 0
+  },
+  "8": {
+    "conditions": 12,
+    "retained_3d_mean": 8.666666666666666,
+    "fallback_mean": 6.333333333333333,
+    "no_fallback": 0
+  }
+}

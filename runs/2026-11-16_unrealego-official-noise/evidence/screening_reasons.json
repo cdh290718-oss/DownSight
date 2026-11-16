@@ -1,0 +1,20 @@
+{
+  "1": {
+    "3d_accepted": 180
+  },
+  "3": {
+    "3d_accepted": 165,
+    "depth_unreliable": 4,
+    "geometry_invalid": 11
+  },
+  "5": {
+    "3d_accepted": 129,
+    "geometry_invalid": 33,
+    "depth_unreliable": 18
+  },
+  "8": {
+    "3d_accepted": 104,
+    "geometry_invalid": 59,
+    "depth_unreliable": 17
+  }
+}

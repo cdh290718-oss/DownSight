@@ -1,0 +1,294 @@
+{
+  "exit_status": 0,
+  "checks": [
+    {
+      "pair": "body01",
+      "sigma_px": 1,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 1,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 1,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 3,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 3,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 3,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 5,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 5,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 5,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 8,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 8,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body01",
+      "sigma_px": 8,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 1,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 1,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 1,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 3,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 3,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 3,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 5,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 5,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 5,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 8,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 8,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body02",
+      "sigma_px": 8,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 1,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 1,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 1,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 3,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 3,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 3,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 5,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 5,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 5,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 8,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 8,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body03",
+      "sigma_px": 8,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 1,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 1,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 1,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 3,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 3,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 3,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 5,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 5,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 5,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 8,
+      "seed": 20261115,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 8,
+      "seed": 20261116,
+      "max_coordinate_difference_px": 0.0
+    },
+    {
+      "pair": "body04",
+      "sigma_px": 8,
+      "seed": 20261117,
+      "max_coordinate_difference_px": 0.0
+    }
+  ],
+  "note": "Recomputed from official GT2D and fixed Gaussian seeds; no body 3D data read."
+}

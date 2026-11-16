@@ -1,0 +1,57 @@
+{
+  "independent_fits": 130,
+  "independent_converged": 3,
+  "paired": [
+    {
+      "sigma_px": 1,
+      "n": 12,
+      "mixed_pa_less_3d": 0,
+      "2d_pa_less_mixed": 0
+    },
+    {
+      "sigma_px": 3,
+      "n": 12,
+      "mixed_pa_less_3d": 9,
+      "2d_pa_less_mixed": 7
+    },
+    {
+      "sigma_px": 5,
+      "n": 12,
+      "mixed_pa_less_3d": 12,
+      "2d_pa_less_mixed": 10
+    },
+    {
+      "sigma_px": 8,
+      "n": 12,
+      "mixed_pa_less_3d": 12,
+      "2d_pa_less_mixed": 11
+    }
+  ],
+  "ranks": [
+    {
+      "sigma_px": 1,
+      "rank_counts": {
+        "1": 12
+      }
+    },
+    {
+      "sigma_px": 3,
+      "rank_counts": {
+        "0": 11,
+        "1": 1
+      }
+    },
+    {
+      "sigma_px": 5,
+      "rank_counts": {
+        "0": 12
+      }
+    },
+    {
+      "sigma_px": 8,
+      "rank_counts": {
+        "0": 12
+      }
+    }
+  ]
+}
