@@ -1,0 +1,137 @@
+{
+  "seed": 20261116,
+  "selected_frame_ids": [
+    0,
+    810,
+    1620,
+    2160,
+    2430,
+    2700,
+    3240,
+    3510,
+    4320,
+    5130
+  ],
+  "frames": [
+    {
+      "id": "gen_00000_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_00000.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_00000_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_00000.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_00810_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_00810.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_00810_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_00810.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_01620_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_01620.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_01620_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_01620.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_02160_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_02160.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_02160_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_02160.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_02430_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_02430.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_02430_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_02430.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_02700_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_02700.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_02700_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_02700.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_03240_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_03240.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_03240_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_03240.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_03510_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_03510.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_03510_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_03510.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_04320_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_04320.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_04320_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_04320.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    },
+    {
+      "id": "gen_05130_cam3",
+      "camera": "cam3",
+      "image": "images/cam3/gen_05130.png",
+      "calibration": "calibration/gen_cam2_virtual_cam3.egosmplx.json"
+    },
+    {
+      "id": "gen_05130_cam4",
+      "camera": "cam4",
+      "image": "images/cam4/gen_05130.png",
+      "calibration": "calibration/gen_cam3_virtual_cam4.egosmplx.json"
+    }
+  ]
+}

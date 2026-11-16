@@ -1,0 +1,14 @@
+{
+  "failed_sample": "gen_02700_cam4",
+  "stage": "rigid setup",
+  "exit_status": 1,
+  "error": "OSError: [Errno 28] No space left on device: <TMP>/...",
+  "completed_before_failure": 11,
+  "requested_total": 20,
+  "prior_failures": [
+    "missing EGOSMPLX_REPO_ROOT (exit 1)",
+    "Brown-Conrady source fields unavailable for Gen Double Sphere calibration (exit 1)",
+    "adapter missing canonical SMPL-X geometry fields (exit 1)"
+  ],
+  "resume": "temporary directory set to repository storage; resumed starting with failed sample"
+}
