@@ -6,6 +6,8 @@
 
 ## 每轮交接
 
+后续研究默认黄金 D 为全二维身体观测损失版本 `golden-d-2d-v1`，定义与配置入口见 [GOLDEN_D_2D_zh.md](GOLDEN_D_2D_zh.md) 和 [golden_d.current.json](../../configs/golden_d.current.json)。旧三维黄金 D 与混合方案作为明确命名的对照。新 brief 应记录相对当前参考的检测器、Head、观测掩码、体型及手部设置变化。
+
 1. 开发机读取远端最新提交、上轮报告及用户本轮指令；记录代码和后端版本，避免覆盖其他人的变更。
 2. 为唯一 run 目录创建 `brief.md`、`report.md`、`review.md` 和 `evidence/`；从 `runs/templates/` 取报告模板。执行时由流水线在输出目录 `provenance/<uuid>.json` 记录启动和结束状态；它在本地记录完整展开配置，可能包含敏感内容，公开之前必须脱敏。原有 `run_state.json` 保存输入、代码和配置指纹。
 3. 报告写明任务、样本、配置摘要、指标、失败、限制及建议。只选择必要、允许共享的关键日志和图，并对大文件记录地址和 SHA-256。检查日志中个人信息、凭据和受限数据。

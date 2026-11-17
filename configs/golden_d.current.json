@@ -1,0 +1,65 @@
+{
+  "method_id": "golden-d-2d-v1",
+  "status": "current_default_research_baseline",
+  "decision": "User designated full 2D body observation loss as the new golden D.",
+  "source_commit": "56d122a02b9c9bcb30b2d1029b37ec27a1d812ad",
+  "implementation": "runs/2026-11-17_newdetector_d10/fit.py",
+  "protocol": "runs/2026-11-17_newdetector_d10/protocol.json",
+  "methods": [
+    "2d"
+  ],
+  "conditions": [
+    "baseline"
+  ],
+  "body_observation_loss": "dual-view calibrated 2D reprojection, normalized Huber; no triangulated body 3D residual",
+  "head_constraints": "retain position and orientation soft constraints",
+  "initialization": "mean SMPL-X shape and template body pose; head-aligned root",
+  "shape_policy": "reference experiment has zero-rank shape basis and fixed mean shape; shape optimization requires a separately identified variant",
+  "hand_policy": "no WiLoR hand observation loss in this reference; local hand pose fixed",
+  "step_budget": 20000,
+  "checkpoint_selection": "lowest feasible training objective; no body 3D GT selection",
+  "reference_detector": "Sapiens2-1B full-backbone finetuning epoch 1",
+  "reference_results": "runs/2026-11-17_newdetector_d10/evidence/summary.json",
+  "comparisons": [
+    "runs/2026-11-17_d_loss_compare/report.md",
+    "runs/2026-11-17_d_2d_extended/report.md"
+  ],
+  "legacy_archive": "experiments/synthetic_template_head_stereo_20261109/golden_d.json",
+  "deployment_status": "research baseline designation; legacy EgoSMPLX CLI remains a separate pipeline",
+  "limitations": [
+    "single-subject convenience samples",
+    "annotation-derived head position, calibration and in-frame masks",
+    "reference fits did not pass convergence criteria",
+    "external model and data dependencies required"
+  ],
+  "locked_files": [
+    {
+      "path": "runs/2026-11-17_newdetector_d10/fit.py",
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/geometry.py",
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/common.py",
+      "sha256": "553a6a3ea3c83dcd1cc5763f66cfcd05a94b293813f7bb395230959d909a783e"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/protocol.json",
+      "sha256": "fefe3f33fbae6e4241053f4ccdfa995688e859925e946991db6a5063753f0c1d"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evaluate.py",
+      "sha256": "5fdbfd63eaadc09d3471bea47ead5053e8c56c5277c121c6b156d16fee628bcf"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evidence/preparation.json",
+      "sha256": "ca7dc9bbde67f55c0512338837ad569bfa8457ec865a19fd4c55cf724e1eedc6"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evidence/summary.json",
+      "sha256": "aaa7542b42396a4cc531991018bf73cf37cba7f8d0e1e3c03a3fd62b52c96852"
+    }
+  ]
+}

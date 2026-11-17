@@ -1,0 +1,54 @@
+{
+  "command": "python inline: verify current manifest against pinned git source and protocol; python3 tools/check_golden_d.py",
+  "exit_status": 0,
+  "execution_baseline": "56d122a02b9c9bcb30b2d1029b37ec27a1d812ad",
+  "working_tree": "existing unrelated changes plus this baseline designation; no external edits",
+  "locked_files": [
+    {
+      "path": "runs/2026-11-17_newdetector_d10/fit.py",
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/geometry.py",
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/common.py",
+      "sha256": "553a6a3ea3c83dcd1cc5763f66cfcd05a94b293813f7bb395230959d909a783e",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/protocol.json",
+      "sha256": "fefe3f33fbae6e4241053f4ccdfa995688e859925e946991db6a5063753f0c1d",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evaluate.py",
+      "sha256": "5fdbfd63eaadc09d3471bea47ead5053e8c56c5277c121c6b156d16fee628bcf",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evidence/preparation.json",
+      "sha256": "ca7dc9bbde67f55c0512338837ad569bfa8457ec865a19fd4c55cf724e1eedc6",
+      "matches_published_source": true
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evidence/summary.json",
+      "sha256": "aaa7542b42396a4cc531991018bf73cf37cba7f8d0e1e3c03a3fd62b52c96852",
+      "matches_published_source": true
+    }
+  ],
+  "body_method": "2d",
+  "condition": "baseline",
+  "step_budget": 20000,
+  "shape_basis_rank": 0,
+  "legacy_check": {
+    "command": "python3 tools/check_golden_d.py",
+    "exit_status": 0,
+    "stdout": "PASS: golden D identity, manifest and 15 public files match pinned archive.\nExternal assets, repeated runs, numerical tolerance and scientific accuracy were not verified.\n",
+    "stderr": ""
+  },
+  "new_fitting_executed": false
+}

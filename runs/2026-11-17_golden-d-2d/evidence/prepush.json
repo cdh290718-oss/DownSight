@@ -1,0 +1,66 @@
+{
+  "command": "git status --porcelain --untracked-files=all; explicit publication allowlist; UTF-8, extension, size, credential and machine-path scans; git ls-remote origin refs/heads/main; staged byte equality and commit tree equality before push",
+  "exit_status": 0,
+  "baseline_commit": "56d122a02b9c9bcb30b2d1029b37ec27a1d812ad",
+  "remote_head_before_commit": "56d122a02b9c9bcb30b2d1029b37ec27a1d812ad",
+  "scope": "this increment only, not historical audit",
+  "workspace_entries_inspected": 1447,
+  "unrelated_workspace_changes_excluded": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6714,
+      "sha256": "7b70c75d8abc30c234a5c1225dfd0f17f9390a30371dc453f34be672a9444289"
+    },
+    {
+      "path": "docs/downsight/WORKFLOW_zh.md",
+      "bytes": 3576,
+      "sha256": "bf9805844d0a970e2652e658c4618bbab78a1a7fb6205f4ad65f6c480bcfcd9b"
+    },
+    {
+      "path": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "bytes": 3483,
+      "sha256": "94456ccb678092663282e3e189ca975f18d50f1e78fef6d2cab4a598954c9b2c"
+    },
+    {
+      "path": "configs/golden_d.current.json",
+      "bytes": 2907,
+      "sha256": "d750987671bd245ced858f1cc1a8f639ad9bb282eb33ca79726854a73f115024"
+    },
+    {
+      "path": "runs/2026-11-17_golden-d-2d/brief.md",
+      "bytes": 628,
+      "sha256": "e210fd72c60d2d70a63ce5162fd6882aa937dcef9558b03e6b8db273e893face"
+    },
+    {
+      "path": "runs/2026-11-17_golden-d-2d/evidence/publication_check.json",
+      "bytes": 4354,
+      "sha256": "0775eb5a64808b3e8751b04c4775dc93663e8aae2e6b87c6acbbe0020bed94e6"
+    },
+    {
+      "path": "runs/2026-11-17_golden-d-2d/evidence/verification.json",
+      "bytes": 2175,
+      "sha256": "2899e4be5837d540251a8f1b1b5041aa6f81fdf45ca919ac5944c3b4ac731786"
+    },
+    {
+      "path": "runs/2026-11-17_golden-d-2d/report.md",
+      "bytes": 2767,
+      "sha256": "36ebf919fe0e86afc5ec486a56e844469a4203008284ba30448532d705bc2350"
+    },
+    {
+      "path": "runs/2026-11-17_golden-d-2d/review.md",
+      "bytes": 294,
+      "sha256": "a95320f3f6856602ca3340c0f4c91d981d3ccdacc70e24f6f701a630f59757ac"
+    }
+  ],
+  "self_evidence": "prepush.json additionally scanned and byte-checked before commit, omitted from self-referential hashes",
+  "checks": {
+    "no_weights_data_video_arrays_full_outputs": true,
+    "each_file_below_50_MB": true,
+    "no_credentials_tokens_env": true,
+    "no_machine_absolute_paths": true,
+    "no_full_provenance_patch": true,
+    "remote_matches_execution_baseline": true
+  },
+  "commit_policy": "Only the audited staged tree may be committed; require commit blobs identical to workspace and exact allowlist before normal push."
+}

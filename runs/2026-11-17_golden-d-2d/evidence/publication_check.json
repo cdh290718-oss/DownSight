@@ -1,0 +1,156 @@
+{
+  "command": "git diff --check; python inline Markdown local link validation",
+  "exit_status": 0,
+  "checked_links": [
+    {
+      "file": "README.md",
+      "target": "docs/downsight/GOLDEN_D_2D_zh.md"
+    },
+    {
+      "file": "README.md",
+      "target": "configs/golden_d.current.json"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-17_newdetector_d10/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-17_d_loss_compare/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-17_golden-d-2d/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-17_newdetector_d10/"
+    },
+    {
+      "file": "README.md",
+      "target": "README_LEGACY.md"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/METHOD.md"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/golden_d.json"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/manifest.json"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/evidence/results.json"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/REPRODUCE.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-09_initialization-ablation/assets/left_D_20000.jpg"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-09_initialization-ablation/assets/right_D_20000.jpg"
+    },
+    {
+      "file": "README.md",
+      "target": "experiments/synthetic_template_head_stereo_20261109/BOUNDARIES.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-15_real-d-stereo/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-15_unrealego-gt2d/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "runs/2026-11-15_gt2d-vs-sapiens/report.md"
+    },
+    {
+      "file": "README.md",
+      "target": "README_LEGACY.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/downsight/WORKFLOW_zh.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/downsight/GOLDEN_REGRESSION_zh.md"
+    },
+    {
+      "file": "docs/downsight/WORKFLOW_zh.md",
+      "target": "GOLDEN_D_2D_zh.md"
+    },
+    {
+      "file": "docs/downsight/WORKFLOW_zh.md",
+      "target": "../../configs/golden_d.current.json"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../configs/golden_d.current.json"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../runs/2026-11-17_newdetector_d10/fit.py"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../runs/2026-11-17_newdetector_d10/protocol.json"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../runs/2026-11-17_newdetector_d10/report.md"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../runs/2026-11-17_d_loss_compare/report.md"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../runs/2026-11-17_d_2d_extended/report.md"
+    },
+    {
+      "file": "docs/downsight/GOLDEN_D_2D_zh.md",
+      "target": "../../experiments/synthetic_template_head_stereo_20261109/README.md"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "evidence/verification.json"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "../../README.md"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "../../docs/downsight/GOLDEN_D_2D_zh.md"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "../../configs/golden_d.current.json"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "evidence/verification.json"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "evidence/publication_check.json"
+    },
+    {
+      "file": "runs/2026-11-17_golden-d-2d/report.md",
+      "target": "evidence/prepush.json"
+    }
+  ],
+  "audit_evidence_links": "generated before commit",
+  "scope": "current baseline documentation; no numerical rerun"
+}
