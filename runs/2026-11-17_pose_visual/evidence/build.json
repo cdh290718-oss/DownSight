@@ -1,0 +1,38 @@
+{
+  "command": "python code/build.py",
+  "exit_status": 0,
+  "selection": "each group, quartile and three-quarter frames; first left second right",
+  "samples": [
+    {
+      "group": "同人 · S6",
+      "id": "00057_left.png",
+      "frame": 57,
+      "view": "left",
+      "points": 12
+    },
+    {
+      "group": "同人 · S6",
+      "id": "00194_right.png",
+      "frame": 194,
+      "view": "right",
+      "points": 12
+    },
+    {
+      "group": "跨人 · S5",
+      "id": "00057_left",
+      "frame": 57,
+      "view": "left",
+      "points": 12
+    },
+    {
+      "group": "跨人 · S5",
+      "id": "00178_right",
+      "frame": 178,
+      "view": "right",
+      "points": 12
+    }
+  ],
+  "local_only": true,
+  "image_hashes_checked": true,
+  "data_publication": false
+}

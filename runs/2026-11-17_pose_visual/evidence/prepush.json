@@ -1,0 +1,13 @@
+{
+  "command": "scan workspace and run, staged and committed increment; git ls-remote origin HEAD",
+  "exit_status": 0,
+  "baseline": "365b286f46889f388cf9c9ee2592251d59d8a2e7",
+  "remote_head": "365b286f46889f388cf9c9ee2592251d59d8a2e7",
+  "existing_untracked_excluded": true,
+  "images_and_data_excluded": true,
+  "weights_video_npz_npy_excluded": true,
+  "credentials_and_env_excluded": true,
+  "full_provenance_patch_excluded": true,
+  "machine_paths_redacted": true,
+  "scope": "increment only"
+}
