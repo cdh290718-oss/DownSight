@@ -1,0 +1,65 @@
+{
+  "command": "inspect workspace status; explicit run allowlist; source/JSON/Markdown, size, credentials and machine-path scans; ignored local selections; staged bytes; outgoing commit equality; remote check",
+  "exit_status": 0,
+  "baseline_commit": "6dd3e8309d311146610e451f6cbb82977171939d",
+  "remote_head_before_commit": "6dd3e8309d311146610e451f6cbb82977171939d",
+  "scope": "this run increment only; unrelated changes excluded; historical files not audited",
+  "workspace_entries_inspected": 1447,
+  "checks": {
+    "no_data_images_weights_video_arrays_full_outputs": true,
+    "no_credentials_tokens_env": true,
+    "no_machine_paths": true,
+    "no_full_provenance_patch": true,
+    "all_files_below_50MB": true,
+    "local_selections_ignored": true,
+    "remote_matches_baseline": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/audit.py",
+      "bytes": 10628,
+      "sha256": "b2d004278bd54f13c489fbe035a6bb9931ada004bcefc5fd59b31b6374e47371"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/brief.md",
+      "bytes": 674,
+      "sha256": "fbc326c2313ad1d8564be3682ede6e3f8639fbaae012d4a63f23ed989c8cb8ad"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/evidence/inventory.json",
+      "bytes": 21804,
+      "sha256": "a720412ae008f09fb5f5630590e052698e22f00e48f6a1925447edca6f9d0f07"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/evidence/inventory_initial.json",
+      "bytes": 21487,
+      "sha256": "40a1fec0b9759c35572b9a7e44b2872f29168394bea3248e867975d85bf6fb4a"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/evidence/prior_training_data.json",
+      "bytes": 1145,
+      "sha256": "070ac34452d210dcb3de8182d39d450e9fe9d31b9e17cfae95f091a796da06d8"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/evidence/verification.json",
+      "bytes": 303,
+      "sha256": "10601ed9c90ddbdee644a454ca93bbb0ba890244c3a3500e02cbf98ec84f587a"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/plan.json",
+      "bytes": 2851,
+      "sha256": "a00ebb7217bc14c9f4623d32162ca953a7d4f4dbcacc382926e202efa9390f05"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/report.md",
+      "bytes": 4938,
+      "sha256": "79c92d635529b75d4c2f4f6072993526a100d651679e073a2c55aed96518085c"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-scale-prep/review.md",
+      "bytes": 298,
+      "sha256": "361a6ffbafb4b1f49d8b3cdf0ec2c789493168dcd78bfa0e96fef7c4a7d3973b"
+    }
+  ],
+  "self_evidence": "This file scanned separately, excluded from self-referential hashes. Verify actual outgoing commit blobs against this allowlist before push."
+}

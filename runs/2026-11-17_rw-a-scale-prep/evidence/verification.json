@@ -1,0 +1,6 @@
+{
+  "command": "python inline: AST parse, selection SHA-256, counts, stereo pairing, frame gaps, split disjointness, preserved holdout, decode probe checks",
+  "exit_status": 0,
+  "checks_passed": true,
+  "scope": "candidate manifest verification; not full image decode, label validation or training"
+}

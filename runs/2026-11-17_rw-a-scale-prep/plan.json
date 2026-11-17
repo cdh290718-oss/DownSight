@@ -1,0 +1,72 @@
+{
+  "status": "proposed_training_protocol; not launched; candidate selections frozen",
+  "route": "A: official Sapiens2-1B pose weights -> expanded RW; no synthetic pretraining",
+  "selection": {
+    "train": {
+      "images": 5000,
+      "pairs": 2500,
+      "subject_pairs": {
+        "S10": 278,
+        "S12": 278,
+        "S14": 278,
+        "S16": 278,
+        "S2": 278,
+        "S4": 278,
+        "S6": 278,
+        "S7": 277,
+        "S8": 277
+      },
+      "sequences": 401,
+      "min_frame_index_gap": 10,
+      "selection_sha256": "9e90030b7615746b13e38bf30b0b53dad018bcf805911972480ffc48bc8a6220"
+    },
+    "validation": {
+      "images": 1000,
+      "pairs": 500,
+      "subject_pairs": {
+        "S13": 125,
+        "S15": 125,
+        "S3": 125,
+        "S5": 125
+      },
+      "sequences": 96,
+      "min_frame_index_gap": 10,
+      "selection_sha256": "8679c5436a316068ee5becc24deae417c18aa4c203e985cc0a42466b248ea950"
+    }
+  },
+  "initialization": "original official checkpoint, not continuation of RW500 checkpoint",
+  "trainable": "full backbone and pose head",
+  "output_channels": 308,
+  "supervised_body_joints": 12,
+  "nose_supervision": false,
+  "first_training_stage_epochs": 1,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "planned_first_stage_optimizer_steps": 1250,
+  "head_lr": 0.0001,
+  "backbone_lr": 1e-05,
+  "precision": "bf16",
+  "input_hw": [
+    1024,
+    768
+  ],
+  "selection_rule": "minimum expanded validation mean 2D error, including original checkpoint; no test-based selection",
+  "comparison_checkpoints": [
+    "official original",
+    "existing RW500 full-backbone epoch1",
+    "new expanded-RW candidate"
+  ],
+  "evaluation": "same expanded validation; preserved S6 holdout supplementary; freeze untouched official-test subset before training",
+  "downstream": "golden-d-2d-v1, identical Head/calibration/masks/shape/loss/optimization budget between detectors",
+  "next_required_checks": [
+    "decode all 6000 selected images and verify pair membership and image hashes",
+    "review label overlays for every subject, both eyes and difficult poses; current labels are cached projections, not visibility",
+    "freeze official-test manifest excluding old S9 analysis samples; validate Head/calibration availability for downstream test",
+    "adapt repository training loader to read existing SQLite cache read-only, or extract selected images to new repository output directory",
+    "run short numerical/resource check in existing environment before full single-GPU stage"
+  ],
+  "future_scaling": "decide continuation or further data expansion from validation and fixed downstream evidence; do not assume ten epochs",
+  "data_download_required_for_current_train_val_candidate": false,
+  "user_answer": "No additional complete RW RGB directory supplied",
+  "new_training_executed": false
+}

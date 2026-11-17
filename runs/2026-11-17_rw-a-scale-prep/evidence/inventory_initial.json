@@ -1,0 +1,888 @@
+{
+  "command": "python runs/2026-11-17_rw-a-scale-prep/audit.py",
+  "exit_status": 0,
+  "execution_baseline": "6dd3e8309d311146610e451f6cbb82977171939d",
+  "official_split_and_cache_coverage": {
+    "train": {
+      "S10": {
+        "official_sequences": 17,
+        "label_images": 13832,
+        "cached_images": 13832,
+        "complete_pairs": 6916
+      },
+      "S12": {
+        "official_sequences": 10,
+        "label_images": 14658,
+        "cached_images": 14658,
+        "complete_pairs": 7329
+      },
+      "S14": {
+        "official_sequences": 27,
+        "label_images": 12740,
+        "cached_images": 12740,
+        "complete_pairs": 6370
+      },
+      "S16": {
+        "official_sequences": 23,
+        "label_images": 9324,
+        "cached_images": 9324,
+        "complete_pairs": 4662
+      },
+      "S2": {
+        "official_sequences": 41,
+        "label_images": 13594,
+        "cached_images": 13594,
+        "complete_pairs": 6797
+      },
+      "S4": {
+        "official_sequences": 64,
+        "label_images": 17504,
+        "cached_images": 17504,
+        "complete_pairs": 8752
+      },
+      "S6": {
+        "official_sequences": 72,
+        "label_images": 22518,
+        "cached_images": 22518,
+        "complete_pairs": 11259
+      },
+      "S7": {
+        "official_sequences": 108,
+        "label_images": 26174,
+        "cached_images": 26174,
+        "complete_pairs": 13087
+      },
+      "S8": {
+        "official_sequences": 40,
+        "label_images": 29066,
+        "cached_images": 29066,
+        "complete_pairs": 14533
+      }
+    },
+    "validation": {
+      "S13": {
+        "official_sequences": 12,
+        "label_images": 14790,
+        "cached_images": 14790,
+        "complete_pairs": 7395
+      },
+      "S15": {
+        "official_sequences": 14,
+        "label_images": 16520,
+        "cached_images": 16520,
+        "complete_pairs": 8260
+      },
+      "S3": {
+        "official_sequences": 16,
+        "label_images": 17076,
+        "cached_images": 17076,
+        "complete_pairs": 8538
+      },
+      "S5": {
+        "official_sequences": 54,
+        "label_images": 11780,
+        "cached_images": 11780,
+        "complete_pairs": 5890
+      }
+    },
+    "test": {
+      "S1": {
+        "official_sequences": 43,
+        "label_images": 0,
+        "cached_images": 0,
+        "complete_pairs": 0
+      },
+      "S11": {
+        "official_sequences": 23,
+        "label_images": 0,
+        "cached_images": 0,
+        "complete_pairs": 0
+      },
+      "S9": {
+        "official_sequences": 27,
+        "label_images": 0,
+        "cached_images": 0,
+        "complete_pairs": 0
+      }
+    }
+  },
+  "cache_manifest_sha256": "266237eb9e66ff4c0c6a6fb61ce2de985f49c904f93cd86939dfc4c74e787df8",
+  "cache_shards": [
+    {
+      "name": "images_000.sqlite",
+      "bytes": 6722568192,
+      "matching_rows": 3382
+    },
+    {
+      "name": "images_001.sqlite",
+      "bytes": 6874140672,
+      "matching_rows": 3477
+    },
+    {
+      "name": "images_002.sqlite",
+      "bytes": 6518071296,
+      "matching_rows": 3372
+    },
+    {
+      "name": "images_003.sqlite",
+      "bytes": 6816714752,
+      "matching_rows": 3406
+    },
+    {
+      "name": "images_004.sqlite",
+      "bytes": 6796587008,
+      "matching_rows": 3445
+    },
+    {
+      "name": "images_005.sqlite",
+      "bytes": 6883504128,
+      "matching_rows": 3358
+    },
+    {
+      "name": "images_006.sqlite",
+      "bytes": 6759026688,
+      "matching_rows": 3494
+    },
+    {
+      "name": "images_007.sqlite",
+      "bytes": 6802939904,
+      "matching_rows": 3379
+    },
+    {
+      "name": "images_008.sqlite",
+      "bytes": 6724100096,
+      "matching_rows": 3435
+    },
+    {
+      "name": "images_009.sqlite",
+      "bytes": 6842490880,
+      "matching_rows": 3422
+    },
+    {
+      "name": "images_010.sqlite",
+      "bytes": 6626983936,
+      "matching_rows": 3453
+    },
+    {
+      "name": "images_011.sqlite",
+      "bytes": 6810025984,
+      "matching_rows": 3502
+    },
+    {
+      "name": "images_012.sqlite",
+      "bytes": 6694338560,
+      "matching_rows": 3427
+    },
+    {
+      "name": "images_013.sqlite",
+      "bytes": 6688116736,
+      "matching_rows": 3454
+    },
+    {
+      "name": "images_014.sqlite",
+      "bytes": 6695337984,
+      "matching_rows": 3429
+    },
+    {
+      "name": "images_015.sqlite",
+      "bytes": 6707855360,
+      "matching_rows": 3477
+    },
+    {
+      "name": "images_016.sqlite",
+      "bytes": 6673178624,
+      "matching_rows": 3397
+    },
+    {
+      "name": "images_017.sqlite",
+      "bytes": 6754525184,
+      "matching_rows": 3566
+    },
+    {
+      "name": "images_018.sqlite",
+      "bytes": 6823395328,
+      "matching_rows": 3492
+    },
+    {
+      "name": "images_019.sqlite",
+      "bytes": 6681640960,
+      "matching_rows": 3446
+    },
+    {
+      "name": "images_020.sqlite",
+      "bytes": 6744145920,
+      "matching_rows": 3396
+    },
+    {
+      "name": "images_021.sqlite",
+      "bytes": 6706585600,
+      "matching_rows": 3395
+    },
+    {
+      "name": "images_022.sqlite",
+      "bytes": 6990630912,
+      "matching_rows": 3454
+    },
+    {
+      "name": "images_023.sqlite",
+      "bytes": 6719705088,
+      "matching_rows": 3470
+    },
+    {
+      "name": "images_024.sqlite",
+      "bytes": 6616899584,
+      "matching_rows": 3400
+    },
+    {
+      "name": "images_025.sqlite",
+      "bytes": 6808375296,
+      "matching_rows": 3461
+    },
+    {
+      "name": "images_026.sqlite",
+      "bytes": 6836989952,
+      "matching_rows": 3390
+    },
+    {
+      "name": "images_027.sqlite",
+      "bytes": 6718611456,
+      "matching_rows": 3369
+    },
+    {
+      "name": "images_028.sqlite",
+      "bytes": 6832238592,
+      "matching_rows": 3482
+    },
+    {
+      "name": "images_029.sqlite",
+      "bytes": 6788132864,
+      "matching_rows": 3511
+    },
+    {
+      "name": "images_030.sqlite",
+      "bytes": 6679539712,
+      "matching_rows": 3382
+    },
+    {
+      "name": "images_031.sqlite",
+      "bytes": 6620258304,
+      "matching_rows": 3394
+    },
+    {
+      "name": "images_032.sqlite",
+      "bytes": 6809788416,
+      "matching_rows": 3406
+    },
+    {
+      "name": "images_033.sqlite",
+      "bytes": 6569058304,
+      "matching_rows": 3352
+    },
+    {
+      "name": "images_034.sqlite",
+      "bytes": 6764806144,
+      "matching_rows": 3411
+    },
+    {
+      "name": "images_035.sqlite",
+      "bytes": 6628450304,
+      "matching_rows": 3480
+    },
+    {
+      "name": "images_036.sqlite",
+      "bytes": 6902411264,
+      "matching_rows": 3504
+    },
+    {
+      "name": "images_037.sqlite",
+      "bytes": 6829694976,
+      "matching_rows": 3413
+    },
+    {
+      "name": "images_038.sqlite",
+      "bytes": 6842134528,
+      "matching_rows": 3439
+    },
+    {
+      "name": "images_039.sqlite",
+      "bytes": 6676865024,
+      "matching_rows": 3393
+    },
+    {
+      "name": "images_040.sqlite",
+      "bytes": 6785110016,
+      "matching_rows": 3462
+    },
+    {
+      "name": "images_041.sqlite",
+      "bytes": 6738087936,
+      "matching_rows": 3382
+    },
+    {
+      "name": "images_042.sqlite",
+      "bytes": 6684246016,
+      "matching_rows": 3371
+    },
+    {
+      "name": "images_043.sqlite",
+      "bytes": 6698061824,
+      "matching_rows": 3378
+    },
+    {
+      "name": "images_044.sqlite",
+      "bytes": 6777102336,
+      "matching_rows": 3488
+    },
+    {
+      "name": "images_045.sqlite",
+      "bytes": 6784774144,
+      "matching_rows": 3492
+    },
+    {
+      "name": "images_046.sqlite",
+      "bytes": 6777303040,
+      "matching_rows": 3483
+    },
+    {
+      "name": "images_047.sqlite",
+      "bytes": 6613405696,
+      "matching_rows": 3337
+    },
+    {
+      "name": "images_048.sqlite",
+      "bytes": 6808186880,
+      "matching_rows": 3457
+    },
+    {
+      "name": "images_049.sqlite",
+      "bytes": 6598062080,
+      "matching_rows": 3358
+    },
+    {
+      "name": "images_050.sqlite",
+      "bytes": 6771707904,
+      "matching_rows": 3380
+    },
+    {
+      "name": "images_051.sqlite",
+      "bytes": 6692724736,
+      "matching_rows": 3473
+    },
+    {
+      "name": "images_052.sqlite",
+      "bytes": 6650339328,
+      "matching_rows": 3421
+    },
+    {
+      "name": "images_053.sqlite",
+      "bytes": 6639538176,
+      "matching_rows": 3425
+    },
+    {
+      "name": "images_054.sqlite",
+      "bytes": 6873391104,
+      "matching_rows": 3472
+    },
+    {
+      "name": "images_055.sqlite",
+      "bytes": 6677565440,
+      "matching_rows": 3408
+    },
+    {
+      "name": "images_056.sqlite",
+      "bytes": 6861238272,
+      "matching_rows": 3518
+    },
+    {
+      "name": "images_057.sqlite",
+      "bytes": 6782980096,
+      "matching_rows": 3456
+    },
+    {
+      "name": "images_058.sqlite",
+      "bytes": 6671495168,
+      "matching_rows": 3441
+    },
+    {
+      "name": "images_059.sqlite",
+      "bytes": 6809620480,
+      "matching_rows": 3398
+    },
+    {
+      "name": "images_060.sqlite",
+      "bytes": 6592221184,
+      "matching_rows": 3440
+    },
+    {
+      "name": "images_061.sqlite",
+      "bytes": 6824529920,
+      "matching_rows": 3463
+    },
+    {
+      "name": "images_062.sqlite",
+      "bytes": 6805643264,
+      "matching_rows": 3373
+    },
+    {
+      "name": "images_063.sqlite",
+      "bytes": 6849372160,
+      "matching_rows": 3385
+    }
+  ],
+  "samples_sha256": "9f2a17379bfbd9a306f6fddc0b3de0956eab2bd2006b0f5f1a3e0f4d18cf1d6d",
+  "split_sha256": "9520d62440f9c310ab60c766161254e31ded2c609c0f6d4785845bfcc2ae9b50",
+  "total_label_images": 219576,
+  "cached_label_images": 219576,
+  "complete_pairs": 109788,
+  "selection": {
+    "train": {
+      "images": 5000,
+      "pairs": 2500,
+      "subject_pairs": {
+        "S10": 278,
+        "S12": 278,
+        "S14": 278,
+        "S16": 278,
+        "S2": 278,
+        "S4": 278,
+        "S6": 278,
+        "S7": 277,
+        "S8": 277
+      },
+      "sequences": 402,
+      "min_frame_index_gap": 10,
+      "selection_sha256": "046166c3c16b860a8086c6162799496d379772c11ed75e9126852a2bdf08d355"
+    },
+    "validation": {
+      "images": 1000,
+      "pairs": 500,
+      "subject_pairs": {
+        "S13": 125,
+        "S15": 125,
+        "S3": 125,
+        "S5": 125
+      },
+      "sequences": 96,
+      "min_frame_index_gap": 10,
+      "selection_sha256": "8679c5436a316068ee5becc24deae417c18aa4c203e985cc0a42466b248ea950"
+    }
+  },
+  "decode_probes": [
+    {
+      "split": "train",
+      "subject": "S10",
+      "sequence": "studio/2023_08_23/S10/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "ffc233a2a67a35d30aa3749145f446b860ee79c823a8494bd331fde9a20a10c1"
+    },
+    {
+      "split": "train",
+      "subject": "S10",
+      "sequence": "studio/2023_08_23/S10/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "2d8cf1763e58811f7d28afd7748a433e715a18a26a80c2c20984b4b8e7333b68"
+    },
+    {
+      "split": "train",
+      "subject": "S12",
+      "sequence": "studio/2023_08_25/S12/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "61fac8e14b655f4edd03535567897b2d5de4b2444829981915b6d171cd37674d"
+    },
+    {
+      "split": "train",
+      "subject": "S12",
+      "sequence": "studio/2023_08_25/S12/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "713aa3590cdd4f74564504806343292dd40126d67c19d972ae016c135347d70c"
+    },
+    {
+      "split": "train",
+      "subject": "S14",
+      "sequence": "studio/2023_08_25/S14/seq_1-0-12",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "49875b898932f343afe34ed01162846ca65fb225970e189f4d7090a11fc463ef"
+    },
+    {
+      "split": "train",
+      "subject": "S14",
+      "sequence": "studio/2023_08_25/S14/seq_1-0-12",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "fbb28ff04a85804d020c1d61fe12778c282f42d7d565739284a46991bb6e8242"
+    },
+    {
+      "split": "train",
+      "subject": "S16",
+      "sequence": "studio/2023_08_25/S16/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "ae17d34c0df634adaa41742a7ced68e4bf71fc1832871f507b9faf1b66347dfd"
+    },
+    {
+      "split": "train",
+      "subject": "S16",
+      "sequence": "studio/2023_08_25/S16/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "695d51a05d6afd2f0cedc9269b8730851315100d47f3db2ece768c76694c400f"
+    },
+    {
+      "split": "train",
+      "subject": "S2",
+      "sequence": "studio/2023_01_18/S2/seq_1-0-7",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "f765816c9e9cd7695e8e46689a6bd60d0c716af0ce4a0efc9a692bf792952b6d"
+    },
+    {
+      "split": "train",
+      "subject": "S2",
+      "sequence": "studio/2023_01_18/S2/seq_1-0-7",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "0378665620928079209b6eea0a8480dbe1bc7becc5a6d21fde1d17b9569adb05"
+    },
+    {
+      "split": "train",
+      "subject": "S4",
+      "sequence": "studio/2023_01_19/S4/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "80c347412763a748e00eeb080a3d5445b64d10e269cba1d44b399135bf9a30a5"
+    },
+    {
+      "split": "train",
+      "subject": "S4",
+      "sequence": "studio/2023_01_19/S4/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "a9f66a2aa67689d369011622e347c2b138726a0d51d15ae71a66de7bb5c6f1f3"
+    },
+    {
+      "split": "train",
+      "subject": "S6",
+      "sequence": "studio/2023_01_19/S6/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "d883323948dfcac28ee02ad07e98baa835d08958695dd104635ad86660d117fc"
+    },
+    {
+      "split": "train",
+      "subject": "S6",
+      "sequence": "studio/2023_01_19/S6/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "b3b76953a0b533c14e59f25fee44267cda6d81bf13026d8dc96c299e69030354"
+    },
+    {
+      "split": "train",
+      "subject": "S7",
+      "sequence": "studio/2023_01_23/S7/seq_1-0-11",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "d4c82c9edfdaa31abd51a5bdd4375da24d2c39f97e64ce2a42cc64cf482915d7"
+    },
+    {
+      "split": "train",
+      "subject": "S7",
+      "sequence": "studio/2023_01_23/S7/seq_1-0-11",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "f6c47fab6c6cfd8363b496b637c506de5ed00f6d22fe70a82853399c56e11fe5"
+    },
+    {
+      "split": "train",
+      "subject": "S8",
+      "sequence": "studio/2023_08_23/S8/seq_1-0-1",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "3c5be08fba5b1870796b6707aa37bf032014a2d060cc0fdaae5cedfbf6699388"
+    },
+    {
+      "split": "train",
+      "subject": "S8",
+      "sequence": "studio/2023_08_23/S8/seq_1-0-1",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "ce4407bc9169741343b3889ca0b0f983b7ad8a3144930eda5c090d294917c290"
+    },
+    {
+      "split": "validation",
+      "subject": "S13",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-16",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "f4f9d229b1541f88d73d3c36b78e28ebf629c56cff66cb9a785f9b8aa9c722d8"
+    },
+    {
+      "split": "validation",
+      "subject": "S13",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-16",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "478e3e8fe5e31599dc2f5e0287eebd8112bbb90874b0d96b16a0e7be78ae3e16"
+    },
+    {
+      "split": "validation",
+      "subject": "S15",
+      "sequence": "studio/2023_08_25/S15/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "cd6239b4366f2c5eceb57c07b1c14d2b1c0b91f6305031d46034d2f020d798d4"
+    },
+    {
+      "split": "validation",
+      "subject": "S15",
+      "sequence": "studio/2023_08_25/S15/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "8d64edd82c300e3029ce3c51c85d8fabd96a3f600088d95b2d48cba02b6e8fdf"
+    },
+    {
+      "split": "validation",
+      "subject": "S3",
+      "sequence": "studio/2023_01_18/S3/seq_1-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "28993f572375adcba15590eca3aaab6959f626202790b0e28f5757d1fc44af5b"
+    },
+    {
+      "split": "validation",
+      "subject": "S3",
+      "sequence": "studio/2023_01_18/S3/seq_1-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "83a2e7867a83fd7f16565c2d44a8089ab42c6645649599a968e253f22d64dd18"
+    },
+    {
+      "split": "validation",
+      "subject": "S5",
+      "sequence": "studio/2023_01_19/S5/seq_3-0-0",
+      "frame": 0,
+      "view": "left",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "5c3be4aaf9dbe49deb86c5e14ad817b3b90e65a12500c9e4010387d160234092"
+    },
+    {
+      "split": "validation",
+      "subject": "S5",
+      "sequence": "studio/2023_01_19/S5/seq_3-0-0",
+      "frame": 0,
+      "view": "right",
+      "size": [
+        872,
+        872
+      ],
+      "decoded": true,
+      "finite_body_labels": 12,
+      "in_frame_body_labels": 12,
+      "image_sha256": "1cf11e2c6c9d0ac1153efdb15624b7303219336f2f5f53d04d7c96f55bb3a3a0"
+    }
+  ],
+  "original_roots_exist": {
+    "source_root": false,
+    "rgb_root": false,
+    "pose_root": false
+  },
+  "prior_partial_archive": {
+    "source": "runs/2026-11-16_sapiens-rw500-prep/evidence/archive_index.json",
+    "images_by_split": {
+      "train": 1112,
+      "validation": 11780,
+      "test": 0,
+      "unknown": 0
+    },
+    "archive_complete": false,
+    "error": "ReadError: unexpected end of data",
+    "fresh_archive_scan": false
+  },
+  "preliminary_probe_correction": "Initial ad hoc cache lookup used SHA1 and missed; source reader inspection established MD5. All reported coverage uses MD5/index matches.",
+  "limitations": [
+    "cache-key presence does not prove every image decodes",
+    "only one selected pair per train/validation subject decoded",
+    "original pose JSON unavailable; prepared labels not independently recertified",
+    "no test image cache coverage audited: source NPZ contains train/validation only",
+    "candidate selection only; no training launched"
+  ],
+  "local_selection_directory": "<WORKSPACE>/DownSight/outputs/rw_a_scale_prep_20261117"
+}
