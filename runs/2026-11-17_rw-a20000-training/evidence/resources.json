@@ -1,0 +1,8 @@
+{
+  "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.free,utilization.gpu --format=csv",
+  "exit_status": 0,
+  "stdout": "index, name, memory.total [MiB], memory.free [MiB], utilization.gpu [%]\n0, NVIDIA A100-SXM4-80GB, 81920 MiB, 63149 MiB, 17 %\n",
+  "measured_utc": "2026-11-17T15:19:49.273290+00:00",
+  "single_gpu": true,
+  "other_processes_not_stopped": true
+}

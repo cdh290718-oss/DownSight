@@ -1,0 +1,6 @@
+{
+  "initial_command": "python code/prepare.py",
+  "initial_exit_status": 1,
+  "error": "Local select.py shadowed Python standard-library select module during PIL import.",
+  "resolution": "Renamed this run sampling script; removed only empty directories created by failed attempt; no image had been written."
+}

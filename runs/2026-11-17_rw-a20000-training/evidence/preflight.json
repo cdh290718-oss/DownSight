@@ -1,0 +1,458 @@
+{
+  "command": "train.py --workspace <WORKSPACE> --check",
+  "exit_status": 0,
+  "images_hash_verified": 20400,
+  "cpu_pipeline_samples": [
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_18/S2/seq_1-0-7",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_18/S2/seq_1-0-7",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S4/seq_1-0-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S4/seq_1-0-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_1-0-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_19/S6/seq_1-0-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_23/S7/seq_1-0-11",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_01_23/S7/seq_1-0-11",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_23/S10/seq_1-0-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_23/S10/seq_1-0-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_23/S8/seq_1-0-1",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_23/S8/seq_1-0-1",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S12/seq_1-0-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S12/seq_1-0-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S14/seq_1-0-12",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S14/seq_1-0-12",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S16/seq_1-0-0",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "train",
+      "sequence": "studio/2023_08_25/S16/seq_1-0-0",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_18/S3/seq_1-0-2",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_18/S3/seq_1-0-2",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_19/S5/seq_4-6-7",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_01_19/S5/seq_4-6-7",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-17",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-17",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_08_25/S15/seq_1-1-9",
+      "view": "left",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    },
+    {
+      "split": "validation",
+      "sequence": "studio/2023_08_25/S15/seq_1-1-9",
+      "view": "right",
+      "valid_targets": 12,
+      "input_shape": [
+        1,
+        3,
+        1024,
+        768
+      ],
+      "heatmap_shape": [
+        308,
+        256,
+        192
+      ]
+    }
+  ],
+  "training_started": false,
+  "gpu_model_executed": false,
+  "torch": "2.7.0+cu128",
+  "config_sha256": "4cf97f354f8b5ec201f432396c3399e7452f1ed028b1d173aa57676303cadaad",
+  "source_sha256": "56e3b6eb42fcd71973829fd0e60cc3fb8e4e3b393a4a771e5b6ac9854c628c7d",
+  "manifest_sha256": {
+    "train": "fc397e8e29d2fc2554302977af439ad4bcadfb608bb3977156064d9afe85c0bd",
+    "validation": "1a7b0dc948408240aadb3aad0b696d997b7d578a6fa22d2281985667b79a3aa1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "initial_command": "python code/select.py",
+  "initial_exit_status": 1,
+  "reason": "Minimum source frame gap 10 insufficient for 10000 pairs and balanced per-person quota.",
+  "initial_capacity": {
+    "S10": 700,
+    "S12": 737,
+    "S14": 648,
+    "S16": 476,
+    "S2": 697,
+    "S4": 903,
+    "S6": 1130,
+    "S7": 1360,
+    "S8": 1470
+  },
+  "resolution": "Keep all old anchors; minimum gap 5, capacity-aware subject balancing; no duplicated samples or split changes."
+}

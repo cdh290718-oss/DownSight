@@ -1,0 +1,13 @@
+{
+  "command": "scale prior measured 5000-image one-epoch supervisor runtime by image count",
+  "exit_status": 0,
+  "prior_images": 5000,
+  "new_images": 20000,
+  "prior_elapsed_seconds": 2984.037674188614,
+  "naive_scaled_hours": 3.3155974157651267,
+  "planning_hours": [
+    3,
+    4
+  ],
+  "scope": "Estimate only; includes fixed validation/loading overhead in naive scaling; shared-GPU load, preparation and post-training evaluation may change wall time."
+}

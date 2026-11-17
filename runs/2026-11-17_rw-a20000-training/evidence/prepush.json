@@ -1,0 +1,223 @@
+{
+  "command": "public increment audit: content, paths, links, source hashes, workspace, index and outgoing blobs",
+  "exit_status": 0,
+  "baseline": "6fc30623c78c8eb4db2943955c9c0c5ed83a0563",
+  "remote_main_before_commit": "6fc30623c78c8eb4db2943955c9c0c5ed83a0563",
+  "checks": {
+    "no_weights_data_images_video_numpy_or_full_raw_outputs": true,
+    "all_files_below_50MiB": true,
+    "no_detected_credentials_env_or_private_keys": true,
+    "machine_absolute_paths_redacted": true,
+    "no_full_local_provenance_or_patch": true,
+    "report_local_links_resolve": true,
+    "json_finite": true,
+    "source_hashes_match": true,
+    "workspace_reviewed_unrelated_changes_excluded": true,
+    "remote_matches_baseline": true,
+    "raw_output_paths_gitignored": true
+  },
+  "workspace_status_entry_count": 30,
+  "file_inventory_excluding_this_audit": [
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/brief.md",
+      "bytes": 1111,
+      "sha256": "8a4a19a531ab50ab8b6851497f8188ee6ca319f5236a6d1043d79d382371d97d"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/check_nested_data.py",
+      "bytes": 3347,
+      "sha256": "fd8b2e9857f1b3b80a58ae630795beb2c233d2f026aa8eb67655700fb2779f04"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/evaluate_2d.py",
+      "bytes": 9129,
+      "sha256": "dfa070b64023839a1da8b1ab2a455208d333450440fe939a621b0416f6c40007"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/launch.py",
+      "bytes": 2861,
+      "sha256": "07dfae32e26ad58fc8fcd5445518b9b431e32e4ef0f80ba7983028beb0eb448d"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/prepare.py",
+      "bytes": 7204,
+      "sha256": "3cabe23caf93e1066c50ebe2af1af1f7a88c949ef7991da6a084730d70a3a35d"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/prepare_fit.py",
+      "bytes": 3431,
+      "sha256": "70b7180349b2e2b70de654a161c08d7a672d322d2a9b4b7e6921bc53b9e0fe5b"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/sample_training.py",
+      "bytes": 4918,
+      "sha256": "01a76d1aa6340d51f8d515b081f07cf32394020f7cbcd4833858f90a57ab85a4"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/status.py",
+      "bytes": 613,
+      "sha256": "af2f2ae15969387e948f96f44a60f9231f241ac3de75665b15fa073e3c660591"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/summarize.py",
+      "bytes": 3446,
+      "sha256": "84796c8d79f0181db7b56d952f3852a7deb56f6f2466601fcef6d354b4e03723"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/train.py",
+      "bytes": 13304,
+      "sha256": "56e3b6eb42fcd71973829fd0e60cc3fb8e4e3b393a4a771e5b6ac9854c628c7d"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/verify_evidence.py",
+      "bytes": 3700,
+      "sha256": "365f7a9a90cb5ebb48e340b4aabcb878e4f508d7f50232dbe6415b0eeb84b787"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/code/worker.py",
+      "bytes": 3904,
+      "sha256": "f0f820e034a4f2e69dde92c8a0b3fc0489a13fa737a55130f0348e4ea552b930"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/common.py",
+      "bytes": 1759,
+      "sha256": "f5771cba793d5668343ab482e6f465e5ccdaf852eb9f7c39a85fd15602df6153"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/config.json",
+      "bytes": 1366,
+      "sha256": "4cf97f354f8b5ec201f432396c3399e7452f1ed028b1d173aa57676303cadaad"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evaluate.py",
+      "bytes": 4799,
+      "sha256": "a5723fec1d35d2bf137fb76c7998445b62b0d3cb2ab9707fe70627ccc15ce0d8"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/baseline_validation.json",
+      "bytes": 592,
+      "sha256": "d6796575cddf6be5ae6a6b6d620acd4b0968e07c34c6d395869ee45a0d29dc9c"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/dataset.json",
+      "bytes": 15050,
+      "sha256": "e6ecb1af9588a9eb66898eaadb356ebab86f48f30abc36e51f4a953b9f8eccaa"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/launch.json",
+      "bytes": 3115,
+      "sha256": "b079f3c6524f53143db011c8ca772b1696c309f1be7192a02f94a44fec054007"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/nested_check_execution.json",
+      "bytes": 272,
+      "sha256": "65d057578ea707db3f2d2207303ff45a4c1174e1b480302850fd50b243ec5bc3"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/nested_data.json",
+      "bytes": 3931,
+      "sha256": "4fb983fb49bed6b960a1e90d18c6ecdd8785b186f1398856b77b377f82ffa661"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/pipeline_preflight.json",
+      "bytes": 440,
+      "sha256": "354a927c062a2a42fb5ac82185855368b42312065e0603ad58f74594898ea143"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/preflight.json",
+      "bytes": 8184,
+      "sha256": "e0bcbab6dcfa1c3aeac12d0896eead2dd4a8521ad3055714e0e5445f74a9f5a7"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/preflight_execution.json",
+      "bytes": 257,
+      "sha256": "aa0bbbe1ab1618231b667bf9991605822b4a2cd95d3b0ccca34d5f93be68204f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/preparation_retry.json",
+      "bytes": 312,
+      "sha256": "0556b9ea46f597d730ef5dac10bcba82e1795b5d3b959ce1044bd910f152a3aa"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/probe.json",
+      "bytes": 567,
+      "sha256": "cd0c463575386b755d8ae83b84c7a9561505ad6587ce7461f142045ad4f516d0"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/probe_launch.json",
+      "bytes": 3111,
+      "sha256": "dfef398c648b26d61ff84cead0a67417bfae08eb1e8aabbcd82516c1635f15f1"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/resources.json",
+      "bytes": 385,
+      "sha256": "3a995660cb396fd038de4e596939b4dfbdd4f670e782f59384f3f38c86c1940f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/selection.json",
+      "bytes": 1215,
+      "sha256": "bf1d3fb431fda8e14443dce7dd0dc5af73a3681c23235ae6ddc2b6e375f16773"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/selection_adjustment.json",
+      "bytes": 480,
+      "sha256": "f14df6e6b2fb41ca4d7c3b51a6358ab2e501bcda5a52b520b96230db749e72e1"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/source.json",
+      "bytes": 3080,
+      "sha256": "63059692e71d2eae42bfa79b8ce000b80a96bbfa23a0d57f76592cc928c1b869"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/startup.json",
+      "bytes": 638,
+      "sha256": "0c76918a5f215581a7c85a6ee5b8ffc75ea8c6c4f1d8c5899c51c90d493c2882"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/startup_console.txt",
+      "bytes": 688,
+      "sha256": "3bf6993cbb1ec5541a56f60d75e4d101f570cc5db66371e07960fb6dfcd1845f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/timing_plan.json",
+      "bytes": 462,
+      "sha256": "c66348f8d4c4dbe8b792888aadb1abdae3f542d044700b041f56052662219170"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/trainable.json",
+      "bytes": 28074,
+      "sha256": "d9ceb58c0e675a3464d113524d2d6f9b3fc581b2767ca66d121a8abb01733bf9"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/evidence/visual_review.json",
+      "bytes": 4152,
+      "sha256": "42fda3b1e4609023a0b2345fa628701ba121797f33241b65b833562bd4270bfe"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/fit.py",
+      "bytes": 13970,
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/protocol.json",
+      "bytes": 2731,
+      "sha256": "11496603d1d90446b8dab348858707306c21c3cb0c8031645c7d690a89ba32d7"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/report.md",
+      "bytes": 5903,
+      "sha256": "42dcbece0fcfa3dfddb7df640d5f8dd6f7d3ec5bc0e2d054f33e7c45ddb75b76"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a20000-training/review.md",
+      "bytes": 237,
+      "sha256": "c62100944720c2914a871f6f8bbf71f2e4f83b206854df875f9268f53e601995"
+    }
+  ],
+  "scope": "Only this run published. Existing unrelated workspace edits, ignored bytecode/data and historical repository content excluded. Training remains active; later evaluation evidence requires separate review. Outgoing blob identity and remote parent rechecked before push."
+}

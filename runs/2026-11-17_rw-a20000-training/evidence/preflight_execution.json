@@ -1,0 +1,5 @@
+{
+  "command": "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python <WORKSPACE>/DownSight/runs/2026-11-17_rw-a20000-training/code/train.py --workspace <WORKSPACE> --check",
+  "exit_status": 0,
+  "stdout": "CPU checks passed; no training executed\n"
+}

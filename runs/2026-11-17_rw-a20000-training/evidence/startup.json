@@ -1,0 +1,22 @@
+{
+  "command": "verify actual background process, status and baseline validation after >=10 optimizer updates",
+  "exit_status": 0,
+  "checked_utc": "2026-11-17T15:31:26.012182+00:00",
+  "pid": 307019,
+  "process_alive": true,
+  "training_status": {
+    "state": "training",
+    "epoch": 1,
+    "step": 10,
+    "total_steps": 5000,
+    "loss": 0.0007232535281218588,
+    "elapsed_seconds": 200.78309559822083,
+    "peak_gpu_bytes": 44211403264
+  },
+  "pipeline_status": {
+    "state": "training",
+    "stages": []
+  },
+  "training_finished": false,
+  "scope": "Live startup snapshot; not completed training or evaluated model quality."
+}

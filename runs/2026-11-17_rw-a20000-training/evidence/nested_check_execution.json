@@ -1,0 +1,5 @@
+{
+  "command": "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python <WORKSPACE>/DownSight/runs/2026-11-17_rw-a20000-training/code/check_nested_data.py",
+  "exit_status": 0,
+  "stdout": "Nested data and frozen evaluation checks passed; new-image overlays ready.\n"
+}

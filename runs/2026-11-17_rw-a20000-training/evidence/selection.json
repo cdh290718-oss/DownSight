@@ -1,0 +1,48 @@
+{
+  "command": "python code/sample_training.py",
+  "exit_status": 0,
+  "images": 20000,
+  "pairs": 10000,
+  "subjects": [
+    "S10",
+    "S12",
+    "S14",
+    "S16",
+    "S2",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "subject_pair_quota": {
+    "S10": 1133,
+    "S12": 1133,
+    "S14": 1132,
+    "S16": 942,
+    "S2": 1132,
+    "S4": 1132,
+    "S6": 1132,
+    "S7": 1132,
+    "S8": 1132
+  },
+  "eligible_spaced_pair_capacity": {
+    "S10": 1390,
+    "S12": 1470,
+    "S14": 1281,
+    "S16": 942,
+    "S2": 1375,
+    "S4": 1776,
+    "S6": 2225,
+    "S7": 2664,
+    "S8": 2923
+  },
+  "sequences": 401,
+  "min_source_frame_gap": 5,
+  "original_5000_all_retained": true,
+  "original_selection_sha256": "9e90030b7615746b13e38bf30b0b53dad018bcf805911972480ffc48bc8a6220",
+  "selection_sha256": "0bece24ae74bff49eac8d73304d897c280a598577d6d0d9ebdb4620d231aab37",
+  "excluded_holdout_sequence": "studio/2023_01_19/S6/seq_2-0-62",
+  "official_train_only": true,
+  "sampling": "Nested subject/sequence balancing; farthest source-frame index within sequence; minimum index gap 5, not a time interval.",
+  "limitation": "Cache presence audited previously; every selected image must still be decoded during preparation."
+}

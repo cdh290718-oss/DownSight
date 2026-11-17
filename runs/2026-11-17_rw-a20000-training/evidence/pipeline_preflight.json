@@ -1,0 +1,15 @@
+{
+  "command": "compile all run sources, verify source hashes and unchanged golden-D operational protocol",
+  "exit_status": 0,
+  "source_files": 15,
+  "fit_and_geometry_identical": true,
+  "protocol_differences": [
+    "baseline_commit",
+    "conditions",
+    "fixed_mixed_route",
+    "secondary",
+    "shape_policy"
+  ],
+  "source_fingerprints_match": true,
+  "scope": "Static preflight only; actual post-training stages have not run."
+}
