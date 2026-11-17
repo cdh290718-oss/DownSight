@@ -1,0 +1,12 @@
+{
+  "stage": "evaluate",
+  "command": [
+    "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8",
+    "-u",
+    "<WORKSPACE>/DownSight/runs/2026-11-17_2d-intervention/evaluate.py"
+  ],
+  "exit_status": 0,
+  "elapsed_seconds": 6.449414253234863,
+  "git_head": "c662eb7eda530e041a4470216a78fbc8148062f3",
+  "source_worktree": "New run source files; preexisting unrelated modifications retained"
+}

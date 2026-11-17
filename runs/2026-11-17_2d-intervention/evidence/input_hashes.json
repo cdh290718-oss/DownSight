@@ -1,0 +1,70 @@
+{
+  "command": "Read-only source and model-asset hashing",
+  "exit_status": 0,
+  "fit_baseline_commit": "c662eb7eda530e041a4470216a78fbc8148062f3",
+  "backend_git_commit": null,
+  "backend_tracked_changed_files": 0,
+  "resources": [
+    {
+      "resource_id": "EgoSMPLX/common/utils/human_model_files/smplx/SMPLX_NEUTRAL.npz",
+      "sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+      "bytes": 108752058
+    },
+    {
+      "resource_id": "EgoSMPLX/common/utils/human_models.py",
+      "sha256": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+      "bytes": 13713
+    },
+    {
+      "resource_id": "EgoSMPLX/common/utils/smplx/smplx/body_models.py",
+      "sha256": "1011027d2bdd0580b76f4c96af7c8e37e7c0d9f5fc6a96f3cfa5eb126daff47b",
+      "bytes": 96364
+    },
+    {
+      "resource_id": "EgoSMPLX/common/utils/smplx/smplx/lbs.py",
+      "sha256": "2823e6b77ad601404b586cbfaea191cfd02ecdcd7e489a6e5b145052999da1c9",
+      "bytes": 13952
+    },
+    {
+      "resource_id": "DownSight/egosmplx_pipeline/bootstrap.py",
+      "sha256": "dd937e20b5dae8e4cc4cfd2d704935f0b7391e7708349a334525661a047dd262",
+      "bytes": 1057
+    },
+    {
+      "resource_id": "DownSight/egosmplx_pipeline/body_common.py",
+      "sha256": "6ce9a301389cdf4c6fe1fb9d0e5b67a7fe4250ae758622d69bab1a84817d8fe9",
+      "bytes": 1905
+    },
+    {
+      "resource_id": "DownSight/egosmplx_pipeline/projection.py",
+      "sha256": "9408292b9a3e927637d2204f684a7f59630c372f2840a1eeb6110d6378ca651e",
+      "bytes": 1148
+    }
+  ],
+  "access": "SMPL-X model asset remains local and requires existing model access; not redistributed. No neural network checkpoint is loaded by these fits.",
+  "new_run_source_sha256": {
+    "analyze.py": "6c04587a4949ef2d360cbf272b85d247935aeb72ef69892ab6c2ed401bd72a42",
+    "prepare.py": "019062f6514efdcc2b565cdd9cb88f877a93bb782a09a31db08e6aec93d50725",
+    "launch.py": "54362e38e9d0708099b45a3782e57b9636c70f0523d6d22cc2ba8d3ca82d4100",
+    "audit_results.py": "0dea673ee0f7548b04ee0180181c557c951b136f43d0b717543ddee17e26e14c",
+    "verify.py": "9002bcaced60424d5f4899a711df64e3d0dc081adf07569b09cc2f2357ca0794",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+    "common.py": "553a6a3ea3c83dcd1cc5763f66cfcd05a94b293813f7bb395230959d909a783e",
+    "fit.py": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+    "evaluate.py": "e313fa2dc7176d171104ac8da3e3b65d1784796af33308c2806f2566cbc1c1cd",
+    "write_report.py": "68afe82c9b5b14f6616813000675e564557e1ab24e0cea561dd896e385b1b5e1"
+  },
+  "first_attempt_source_sha256": {
+    "analyze.py": "f430324045b8c797b4156b31fa775a40774acece83e5dac95fefc631eab453c8",
+    "prepare.py": "019062f6514efdcc2b565cdd9cb88f877a93bb782a09a31db08e6aec93d50725",
+    "launch.py": "4e70daa5d1bd4d4cdd9343985c4a0da857f93220787e5d25822cf34a9c55b8aa",
+    "verify.py": "63ff7ff59e30f5aaa6daaec78514a8a665fb1d433c3d80ef286efef064f30dcf",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+    "common.py": "7c6c2bb1033f762b9053a72c92ed1182a78d54aaa4ec148f58be8c4ea3b48633",
+    "fit.py": "d3a7d91721c225e8823e0f5e346dfd39ffe9a9be397c5a7cb93460ddd877e4e6",
+    "evaluate.py": "e313fa2dc7176d171104ac8da3e3b65d1784796af33308c2806f2566cbc1c1cd"
+  },
+  "successful_fit_source_sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+  "successful_fit_output_id": "outputs/2d_intervention_20261117_retry1",
+  "protocol_sha256": "9d4b9612d066d42a78250919f4088555a33d253f615c17a5396e5840472e8528"
+}

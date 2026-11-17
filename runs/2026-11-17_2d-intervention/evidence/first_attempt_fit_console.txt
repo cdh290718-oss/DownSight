@@ -1,0 +1,34 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 40000 feasible 36 / 180 mean loss 1.023952603340149 elapsed_s 0.0
+step 1000 / 40000 feasible 180 / 180 mean loss 0.1693679243326187 elapsed_s 10.4
+step 2000 / 40000 feasible 180 / 180 mean loss 0.14494886994361877 elapsed_s 20.8
+step 3000 / 40000 feasible 180 / 180 mean loss 0.13426339626312256 elapsed_s 31.2
+step 4000 / 40000 feasible 180 / 180 mean loss 0.13080960512161255 elapsed_s 41.6
+step 5000 / 40000 feasible 180 / 180 mean loss 0.12935908138751984 elapsed_s 52.1
+step 6000 / 40000 feasible 180 / 180 mean loss 0.1285056173801422 elapsed_s 62.6
+step 7000 / 40000 feasible 180 / 180 mean loss 0.1280764937400818 elapsed_s 73.0
+step 8000 / 40000 feasible 180 / 180 mean loss 0.12776507437229156 elapsed_s 83.4
+step 9000 / 40000 feasible 180 / 180 mean loss 0.12775446474552155 elapsed_s 93.9
+step 10000 / 40000 feasible 180 / 180 mean loss 0.12768925726413727 elapsed_s 104.4
+step 11000 / 40000 feasible 180 / 180 mean loss 0.12764665484428406 elapsed_s 114.8
+step 12000 / 40000 feasible 180 / 180 mean loss 0.12767793238162994 elapsed_s 125.2
+step 13000 / 40000 feasible 180 / 180 mean loss 0.1277547925710678 elapsed_s 135.7
+step 14000 / 40000 feasible 180 / 180 mean loss 0.12790997326374054 elapsed_s 146.2
+step 15000 / 40000 feasible 180 / 180 mean loss 0.1281321495771408 elapsed_s 156.6
+step 16000 / 40000 feasible 180 / 180 mean loss 0.12830640375614166 elapsed_s 167.0
+step 17000 / 40000 feasible 180 / 180 mean loss 0.128367081284523 elapsed_s 177.4
+step 18000 / 40000 feasible 180 / 180 mean loss 0.12843391299247742 elapsed_s 187.9
+step 19000 / 40000 feasible 180 / 180 mean loss 0.12849538028240204 elapsed_s 198.3
+step 20000 / 40000 feasible 180 / 180 mean loss 0.12854653596878052 elapsed_s 208.9
+Traceback (most recent call last):
+  File "<WORKSPACE>/DownSight/runs/2026-11-17_2d-intervention/fit.py", line 225, in <module>
+    main()
+  File "<WORKSPACE>/DownSight/runs/2026-11-17_2d-intervention/fit.py", line 209, in main
+    loss.sum().backward()
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: one of the variables needed for gradient computation has been modified by an inplace operation: [torch.FloatTensor [180, 3]] is at version 20002; expected version 20000 instead. Hint: enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True).

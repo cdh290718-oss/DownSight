@@ -1,0 +1,1901 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-17_2d-intervention/audit_results.py",
+  "exit_status": 0,
+  "protocol_and_prepared_unchanged": true,
+  "external_resource_hashes_unchanged": true,
+  "zero_3d_route_method_equivalence": [
+    {
+      "pair": "body04",
+      "condition": "baseline",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "all_half",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "all_full",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "shoulder",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "elbow",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "wrist",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "hip",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "knee",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "ankle",
+      "budget": 20000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "baseline",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "all_half",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "all_full",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "shoulder",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "elbow",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "wrist",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "hip",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "knee",
+      "budget": 40000,
+      "max_difference": 0.0
+    },
+    {
+      "pair": "body04",
+      "condition": "ankle",
+      "budget": 40000,
+      "max_difference": 0.0
+    }
+  ],
+  "fixed_route_recomputed_geometry": [
+    {
+      "pair": "body01",
+      "condition": "baseline",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "baseline",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "baseline",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_half",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.006528457851734232,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_half",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0158483744355805,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_half",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0003100311849341225,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_full",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 5.117613628973154e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_full",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.99317912386386e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "all_full",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.4693393502014084e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "shoulder",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 5.117613628973154e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "shoulder",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "shoulder",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "elbow",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "elbow",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.99317912386386e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "elbow",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "wrist",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "wrist",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "wrist",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.4693393502014084e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "hip",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "hip",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "hip",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "knee",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "knee",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "knee",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "ankle",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010924968809197999,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "ankle",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.02853956626586684,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body01",
+      "condition": "ankle",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005465536699047152,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "baseline",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "baseline",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_half",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00232539424216363,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0027592700595313346,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_half",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.010054910524843178,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_full",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.364984203042194e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.3793005938150566e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "all_full",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.974699256210487e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "shoulder",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "shoulder",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "elbow",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.364984203042194e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "elbow",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "wrist",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.3793005938150566e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "wrist",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.974699256210487e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "hip",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "hip",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "knee",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "knee",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "ankle",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004406342594700037,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005243769076635937,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body02",
+      "condition": "ankle",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.018762611137069427,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00369463960291827,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.0588462827222532e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.0588462827222532e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body03",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00734062121506793,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "baseline",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "baseline",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "all_half",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003317552571486769,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "all_half",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0038376819721708598,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "all_full",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.2192211502280325e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "all_full",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.927712701082324e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "shoulder",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "shoulder",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "elbow",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.2192211502280325e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "elbow",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "wrist",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "wrist",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.927712701082324e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "hip",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "hip",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "knee",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "knee",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "ankle",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005429552967171747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body05",
+      "condition": "ankle",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007104015596087865,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "baseline",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "baseline",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "baseline",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_half",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.005501484371071969,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0023986360517962864,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_half",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.002158144648449762,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_half",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00015430744330504747,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_full",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.3822960485413202e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 4.897922717511324e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_full",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.8131307522849736e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "all_full",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.236512344361061e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "shoulder",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "shoulder",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "shoulder",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "elbow",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.3822960485413202e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "elbow",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.8131307522849736e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "elbow",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "wrist",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 4.897922717511324e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "wrist",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "wrist",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.236512344361061e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "hip",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "hip",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "hip",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "knee",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "knee",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "knee",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "ankle",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.009745855961623587,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004839178483579758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "ankle",
+      "joint": "L_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003768542986102229,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body06",
+      "condition": "ankle",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005225061966200259,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "baseline",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "all_half",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.004925613729297864,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "all_full",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.20270505480779e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "shoulder",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "elbow",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.20270505480779e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "wrist",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "hip",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "knee",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body07",
+      "condition": "ankle",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.008730197104875758,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "baseline",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "baseline",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.006675247698192729,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_half",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.006416111943089715,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_half",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013885615222298262,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.4796883197635584e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_full",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 5.1411890816519355e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "all_full",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.7836805753478104e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "shoulder",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 5.1411890816519355e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "shoulder",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "elbow",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "elbow",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.4796883197635584e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "wrist",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "wrist",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.7836805753478104e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "hip",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "hip",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "knee",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "knee",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.013920043414232053,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "ankle",
+      "joint": "L_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.01068495153546126,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body08",
+      "condition": "ankle",
+      "joint": "L_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.024562120453898138,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "baseline",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "baseline",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_half",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005678177702459285,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_half",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 6.170826361773181e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0016909786042613912,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_full",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.122185582577977e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_full",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.1395995966391783e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.249655468300605e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "shoulder",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 2.122185582577977e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "shoulder",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "elbow",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "elbow",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.1395995966391783e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "wrist",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "wrist",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.249655468300605e-06,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "hip",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "hip",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "knee",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "knee",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "ankle",
+      "joint": "R_Shoulder",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0010722634408744116,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "ankle",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 3.829629161080411e-05,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body09",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.003378008222176485,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "baseline",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "baseline",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "all_half",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.007342531550087616,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "all_half",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.00018556916037663437,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "all_full",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.9980471494811067e-08,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "all_full",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.24587798373794e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "shoulder",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "shoulder",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "elbow",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 1.9980471494811067e-08,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "elbow",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "wrist",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "wrist",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 7.24587798373794e-07,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "hip",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "hip",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "knee",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "knee",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "ankle",
+      "joint": "R_Elbow",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.014345937377661115,
+      "baseline_covariance_kept": true
+    },
+    {
+      "pair": "body10",
+      "condition": "ankle",
+      "joint": "R_Wrist",
+      "recomputed_geometry_accepted": true,
+      "reason": "accepted",
+      "ray_gap_m": 0.0005262386749709552,
+      "baseline_covariance_kept": true
+    }
+  ],
+  "geometry_gate_failures": 0
+}

@@ -1,0 +1,12 @@
+{
+  "command": "First 180-row fit attempt, saving the standard-budget checkpoint",
+  "exit_status": -15,
+  "failed_after_step": 20000,
+  "reason": "Checkpoint saving temporarily copied best parameters in place and restored them before backward on the earlier graph. Parameter version tracking invalidated that graph.",
+  "fix": "Recompute forward and objective after restoring current parameters before backward; no observation, objective, budget, optimizer or selection change.",
+  "retry": "Restart from the same initialization in a new output directory; preserve first logs and local checkpoint.",
+  "first_attempt_outputs": "outputs/2d_intervention_20261117",
+  "first_source_snapshots": "Local provenance only; not published.",
+  "termination_note": "After emitting the autograd RuntimeError, this Codex-started worker remained CPU-active in exception cleanup. Codex sent SIGTERM only to that worker. Actual process status is recorded by the launcher.",
+  "launcher_exit_status": 241
+}

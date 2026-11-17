@@ -1,0 +1,14 @@
+{
+  "stage": "fit",
+  "command": [
+    "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python3.8",
+    "-u",
+    "<WORKSPACE>/DownSight/runs/2026-11-17_2d-intervention/fit.py",
+    "--threads",
+    "4"
+  ],
+  "exit_status": -15,
+  "elapsed_seconds": 369.31570863723755,
+  "git_head": "c662eb7eda530e041a4470216a78fbc8148062f3",
+  "source_worktree": "New run source files; preexisting unrelated modifications retained"
+}

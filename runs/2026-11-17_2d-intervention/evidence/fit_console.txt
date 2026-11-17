@@ -1,0 +1,45 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 40000 feasible 36 / 180 mean loss 1.023952603340149 elapsed_s 0.0
+step 1000 / 40000 feasible 180 / 180 mean loss 0.1693679243326187 elapsed_s 10.9
+step 2000 / 40000 feasible 180 / 180 mean loss 0.14494886994361877 elapsed_s 21.8
+step 3000 / 40000 feasible 180 / 180 mean loss 0.13426339626312256 elapsed_s 32.7
+step 4000 / 40000 feasible 180 / 180 mean loss 0.13080960512161255 elapsed_s 43.5
+step 5000 / 40000 feasible 180 / 180 mean loss 0.12935908138751984 elapsed_s 54.3
+step 6000 / 40000 feasible 180 / 180 mean loss 0.1285056173801422 elapsed_s 65.1
+step 7000 / 40000 feasible 180 / 180 mean loss 0.1280764937400818 elapsed_s 75.9
+step 8000 / 40000 feasible 180 / 180 mean loss 0.12776507437229156 elapsed_s 86.9
+step 9000 / 40000 feasible 180 / 180 mean loss 0.12775446474552155 elapsed_s 97.8
+step 10000 / 40000 feasible 180 / 180 mean loss 0.12768925726413727 elapsed_s 108.5
+step 11000 / 40000 feasible 180 / 180 mean loss 0.12764665484428406 elapsed_s 119.3
+step 12000 / 40000 feasible 180 / 180 mean loss 0.12767793238162994 elapsed_s 130.1
+step 13000 / 40000 feasible 180 / 180 mean loss 0.1277547925710678 elapsed_s 140.9
+step 14000 / 40000 feasible 180 / 180 mean loss 0.12790997326374054 elapsed_s 151.7
+step 15000 / 40000 feasible 180 / 180 mean loss 0.1281321495771408 elapsed_s 162.5
+step 16000 / 40000 feasible 180 / 180 mean loss 0.12830640375614166 elapsed_s 173.3
+step 17000 / 40000 feasible 180 / 180 mean loss 0.128367081284523 elapsed_s 184.1
+step 18000 / 40000 feasible 180 / 180 mean loss 0.12843391299247742 elapsed_s 195.0
+step 19000 / 40000 feasible 180 / 180 mean loss 0.12849538028240204 elapsed_s 205.8
+step 20000 / 40000 feasible 180 / 180 mean loss 0.12854653596878052 elapsed_s 216.6
+step 21000 / 40000 feasible 180 / 180 mean loss 0.1285799741744995 elapsed_s 227.4
+step 22000 / 40000 feasible 180 / 180 mean loss 0.12862083315849304 elapsed_s 238.1
+step 23000 / 40000 feasible 180 / 180 mean loss 0.12865759432315826 elapsed_s 248.9
+step 24000 / 40000 feasible 180 / 180 mean loss 0.12868912518024445 elapsed_s 259.8
+step 25000 / 40000 feasible 180 / 180 mean loss 0.12871478497982025 elapsed_s 270.6
+step 26000 / 40000 feasible 180 / 180 mean loss 0.1287357062101364 elapsed_s 281.4
+step 27000 / 40000 feasible 180 / 180 mean loss 0.1287534534931183 elapsed_s 292.2
+step 28000 / 40000 feasible 180 / 180 mean loss 0.12876829504966736 elapsed_s 303.1
+step 29000 / 40000 feasible 180 / 180 mean loss 0.12878011167049408 elapsed_s 313.8
+step 30000 / 40000 feasible 180 / 180 mean loss 0.12878821790218353 elapsed_s 324.6
+step 31000 / 40000 feasible 180 / 180 mean loss 0.1287950575351715 elapsed_s 335.6
+step 32000 / 40000 feasible 180 / 180 mean loss 0.12880608439445496 elapsed_s 346.4
+step 33000 / 40000 feasible 180 / 180 mean loss 0.12881650030612946 elapsed_s 357.2
+step 34000 / 40000 feasible 180 / 180 mean loss 0.12882524728775024 elapsed_s 368.0
+step 35000 / 40000 feasible 180 / 180 mean loss 0.12883298099040985 elapsed_s 378.8
+step 36000 / 40000 feasible 180 / 180 mean loss 0.1288398653268814 elapsed_s 389.6
+step 37000 / 40000 feasible 180 / 180 mean loss 0.12884575128555298 elapsed_s 400.4
+step 38000 / 40000 feasible 180 / 180 mean loss 0.12885038554668427 elapsed_s 411.2
+step 39000 / 40000 feasible 180 / 180 mean loss 0.12885333597660065 elapsed_s 422.0
+step 40000 / 40000 feasible 180 / 180 mean loss 0.12885265052318573 elapsed_s 432.9
+DONE 180 fits

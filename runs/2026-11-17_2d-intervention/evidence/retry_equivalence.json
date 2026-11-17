@@ -1,0 +1,14 @@
+{
+  "command": "Compare preserved first-attempt and retry 20000-step snapshots",
+  "exit_status": 0,
+  "max_absolute_difference_by_field": {
+    "body_pose": 0.0,
+    "betas": 0.0,
+    "delta": 0.0,
+    "translation": 0.0,
+    "global0": 0.0,
+    "loss": 0.0,
+    "selected_step": 0.0
+  },
+  "note": "The save/restore graph fix leaves the entire standard-budget trajectory and selection unchanged."
+}

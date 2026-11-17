@@ -1,0 +1,77 @@
+{
+  "command": "<BODY_PYTHON> runs/2026-11-17_2d-intervention/verify.py",
+  "exit_status": 0,
+  "comparisons": [
+    {
+      "state": "zero",
+      "body_joint_max_difference_m": 1.7881393432617188e-07,
+      "head_rotation_max_difference": 0.0,
+      "objective_max_difference": 1.1920928955078125e-07,
+      "scalar_vs_batched_objective_max_difference": 1.1920928955078125e-07,
+      "gradient_max_absolute_difference": [
+        5.302950739860535e-06,
+        5.081295967102051e-06,
+        1.0669231414794922e-05,
+        0.0
+      ],
+      "gradient_relative_l2_difference": [
+        3.1039905934449052e-06,
+        9.02998544916045e-06,
+        3.663681582111167e-06,
+        0.0
+      ]
+    },
+    {
+      "state": "random",
+      "body_joint_max_difference_m": 2.384185791015625e-07,
+      "head_rotation_max_difference": 0.0,
+      "objective_max_difference": 4.76837158203125e-07,
+      "scalar_vs_batched_objective_max_difference": 2.384185791015625e-07,
+      "gradient_max_absolute_difference": [
+        5.349516868591309e-06,
+        5.155801773071289e-06,
+        1.0728836059570312e-05,
+        0.0
+      ],
+      "gradient_relative_l2_difference": [
+        5.48123011867574e-07,
+        6.993997772042349e-07,
+        1.0525050129217561e-06,
+        0.0
+      ]
+    }
+  ],
+  "projection_max_difference_px": 0.0,
+  "batch_vs_single_50step_parameter_max_differences": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "checkpoint_save_restore_vs_uninterrupted_parameter_differences": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fixed_controls_verified": true,
+  "fits_in_batch": 180,
+  "cpu_benchmarks": [
+    {
+      "threads": 1,
+      "seconds_per_forward_backward": 0.010805233319600423
+    },
+    {
+      "threads": 2,
+      "seconds_per_forward_backward": 0.00999917189280192
+    },
+    {
+      "threads": 4,
+      "seconds_per_forward_backward": 0.009420967102050782
+    }
+  ],
+  "recommended_threads": 4,
+  "protocol_sha256": "9d4b9612d066d42a78250919f4088555a33d253f615c17a5396e5840472e8528",
+  "geometry_source_sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+  "fit_source_sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+}
