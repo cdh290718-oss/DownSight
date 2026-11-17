@@ -1,0 +1,6 @@
+{
+  "command": "<TRAIN_PYTHON> code/train.py --workspace <WORKSPACE> --check",
+  "exit_status": 0,
+  "stdout": "CPU checks passed; no training executed",
+  "GPU_execution": false
+}

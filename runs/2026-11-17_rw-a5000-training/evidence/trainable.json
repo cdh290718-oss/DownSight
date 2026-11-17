@@ -1,0 +1,8 @@
+{
+  "source": "<LOCAL_JOB>/results/trainable.json",
+  "parameters": 1519780148,
+  "total_parameters": 1519780148,
+  "all_model_parameters_trainable": true,
+  "scope": "Actual model parameters, legacy config train_last_blocks is unused by full-backbone runner",
+  "all_trainable_names_covered_by_optimizer_prefixes": true
+}

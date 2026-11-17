@@ -1,0 +1,18 @@
+{
+  "command": "inspect detached worker PID, results/status.json, eval_00.json and exit.json",
+  "observed_utc": "2026-11-17T12:26:12.221110+00:00",
+  "supervisor_pid": 255365,
+  "pid_exists": true,
+  "status": {
+    "state": "training",
+    "epoch": 1,
+    "step": 30,
+    "total_steps": 1250,
+    "loss": 0.0003377577813807875,
+    "elapsed_seconds": 241.3604235649109,
+    "peak_gpu_bytes": 44211403264
+  },
+  "exit_record_present": false,
+  "training_complete": false,
+  "scope": "point-in-time launch verification, not final result"
+}

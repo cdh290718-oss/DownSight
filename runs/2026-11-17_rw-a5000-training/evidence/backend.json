@@ -1,0 +1,7 @@
+{
+  "command": "git -C <SAPIENS_REPO> rev-parse HEAD; git -C <SAPIENS_REPO> status --short",
+  "exit_status": 0,
+  "head": "7e5bae88456ac418ff0e58e74106c9fe192055d4",
+  "status": "",
+  "scope": "Sapiens source checkout only; external runtime dependencies remain external"
+}

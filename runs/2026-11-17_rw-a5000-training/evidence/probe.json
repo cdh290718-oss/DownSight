@@ -1,0 +1,17 @@
+{
+  "command": "launch.py --confirmed --probe-steps 20",
+  "exit_code": 0,
+  "supervisor_elapsed_seconds": 79.63057541847229,
+  "finished_utc": "2026-11-17T12:20:41.834981+00:00",
+  "result": {
+    "state": "probe_completed",
+    "optimizer_steps": 20,
+    "images_processed": 80,
+    "elapsed_seconds": 43.18376564979553,
+    "peak_gpu_bytes": 44211381248,
+    "last_loss": 0.0003795068769250065,
+    "finite_loss_and_gradients": true,
+    "weights_saved": false,
+    "scope": "Resource/numerical smoke check only; not convergence or training-quality proof"
+  }
+}

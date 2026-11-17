@@ -1,0 +1,23 @@
+{
+  "pid": 255365,
+  "command": [
+    "<WORKSPACE>/miniconda3/envs/stereo-hand-fusion/bin/python",
+    "-u",
+    "<WORKSPACE>/DownSight/runs/2026-11-17_rw-a5000-training/code/worker.py",
+    "--job",
+    "<WORKSPACE>/DownSight/outputs/rw_a5000_training_20261117T122117126742Z",
+    "--probe-steps",
+    "0"
+  ],
+  "started_utc": "2026-11-17T12:21:17.130275+00:00",
+  "job": "<WORKSPACE>/DownSight/outputs/rw_a5000_training_20261117T122117126742Z",
+  "probe_steps": 0,
+  "baseline_commit": "4b9c0c37a9daff5212d5de6bec2cbc1d8e8e0a7d",
+  "source_sha256": {
+    "worker.py": "810cbe4b025f445279b7d60f91593608669b3de88ddcc176c1ef95efb66dff5b",
+    "prepare.py": "2d0b7727966b0a6a3e3f49754d6ba9da190677c9bb183108e4cf2f73e8dc8443",
+    "launch.py": "4641a929eafef2f50c6ca741143d51c5a8f9c65c1c2336b6fea296a8d9db6902",
+    "train.py": "56e3b6eb42fcd71973829fd0e60cc3fb8e4e3b393a4a771e5b6ac9854c628c7d"
+  },
+  "config_sha256": "04cf521647632544ed55c9976755ef453d4c0378092d79720dc9b872201db84b"
+}

@@ -1,0 +1,131 @@
+{
+  "command": "AST and launched source/config identity; inspect git workspace and explicit run allowlist; extension/size/secret/path scans; ignored data and jobs; staged bytes and outgoing commit identity; remote check",
+  "exit_status": 0,
+  "baseline_commit": "4b9c0c37a9daff5212d5de6bec2cbc1d8e8e0a7d",
+  "remote_head_before_commit": "4b9c0c37a9daff5212d5de6bec2cbc1d8e8e0a7d",
+  "workspace_entries_inspected": 1460,
+  "scope": "this run increment only; unrelated changes excluded; no historical audit",
+  "checks": {
+    "published_source_matches_running_source": true,
+    "no_data_images_weights_video_arrays_full_outputs": true,
+    "no_credentials_tokens_env": true,
+    "no_machine_paths": true,
+    "no_full_provenance_patch": true,
+    "all_files_below_50MB": true,
+    "data_and_job_outputs_ignored": true,
+    "remote_matches_baseline": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/brief.md",
+      "bytes": 1046,
+      "sha256": "6c4b609c71e3ea95390ab09965105665271fe0ca2d10a5eed294867e0ca83183"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/code/launch.py",
+      "bytes": 2714,
+      "sha256": "4641a929eafef2f50c6ca741143d51c5a8f9c65c1c2336b6fea296a8d9db6902"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/code/prepare.py",
+      "bytes": 7202,
+      "sha256": "2d0b7727966b0a6a3e3f49754d6ba9da190677c9bb183108e4cf2f73e8dc8443"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/code/train.py",
+      "bytes": 13304,
+      "sha256": "56e3b6eb42fcd71973829fd0e60cc3fb8e4e3b393a4a771e5b6ac9854c628c7d"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/code/worker.py",
+      "bytes": 1109,
+      "sha256": "810cbe4b025f445279b7d60f91593608669b3de88ddcc176c1ef95efb66dff5b"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/config.json",
+      "bytes": 1365,
+      "sha256": "04cf521647632544ed55c9976755ef453d4c0378092d79720dc9b872201db84b"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/backend.json",
+      "bytes": 274,
+      "sha256": "aef16c66b0c1282c83e37a6a06b28f54991459ad19a0dbc13d9e41ebf8d4a7e3"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/baseline_validation.json",
+      "bytes": 592,
+      "sha256": "0bd65f4e346c2eacec7fd7fb7dd109004c85723816ac0f61070334e3a7235705"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/dataset.json",
+      "bytes": 15025,
+      "sha256": "6a6efe18d0c02efa360e08b8ec6d33ca56bd898be04f068fd48801fc2769dab9"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/launch.json",
+      "bytes": 986,
+      "sha256": "53b47f70aed5fec727081cc547872ade2a6938cb447b3006cd3d5433843ebdfa"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/preflight.json",
+      "bytes": 8183,
+      "sha256": "7de105dd19df8cdbfcd3bd9f0c0c39491a163a7ac550e4e6124ee93d8c6fe18a"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/preflight_execution.json",
+      "bytes": 181,
+      "sha256": "d7edf1bb3b091616e81d29f1f3541f51077aae6ae454c62ac67bbc2148a1a851"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/probe.json",
+      "bytes": 565,
+      "sha256": "fd2f33e2991d4a2b862f4dd38ec43365e36f77eba3092f8710b8de78fcb48d65"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/probe_launch.json",
+      "bytes": 982,
+      "sha256": "9f3700e6cec04d518f0ef5d4aaf18a33b0e5b669c70dae1d769234e301b6488b"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/resources.json",
+      "bytes": 323,
+      "sha256": "59526fb4bf6378c58f74d7b4a2357c1462528c3e5b2b0288188768ca408ca0a1"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/source.json",
+      "bytes": 1094,
+      "sha256": "6c760051ea7fe3ffd5c30dc14b1a73a294fc572728f69f600caa7081e356c45f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/startup.json",
+      "bytes": 540,
+      "sha256": "93981eb1b3aa6e5b2a878cd25811b2b1b61e099bdf5150b0fc24b73d0fe03f50"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/startup_console.txt",
+      "bytes": 1020,
+      "sha256": "7a2e6736bad7ce65dd4a1ae5f2712ffe791f302bad8a1470be93d169a1c1e57a"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/trainable.json",
+      "bytes": 323,
+      "sha256": "5c4124d45871c9b006520a140eb608afc90098e598822233cbbbfecb805cf54f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/evidence/visual_review.json",
+      "bytes": 2858,
+      "sha256": "0558cc346432f0718874836b0485339bcc5956a1e6992a3f843130cc746a6142"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/report.md",
+      "bytes": 5288,
+      "sha256": "e7600fb9c970f2084787119f53c23d08b711e05d106e652a071d36e8d2d59628"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a5000-training/review.md",
+      "bytes": 411,
+      "sha256": "6a500eee3e485053c18ac477242c4b7476cb286f0490b0338922203624df896f"
+    }
+  ],
+  "self_evidence": "This file separately scanned, excluded from self-referential hashes; actual outgoing commit must match before push."
+}

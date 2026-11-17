@@ -1,0 +1,7 @@
+{
+  "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.free,utilization.gpu --format=csv,noheader",
+  "exit_status": 0,
+  "output": "0, NVIDIA A100-SXM4-80GB, 81920 MiB, 17955 MiB, 92 %\n",
+  "recorded_utc": "2026-11-17T12:20:17.959518+00:00",
+  "scope": "snapshot during probe, not exclusive reservation"
+}

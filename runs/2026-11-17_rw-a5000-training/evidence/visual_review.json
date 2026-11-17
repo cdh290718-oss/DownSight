@@ -1,0 +1,73 @@
+{
+  "reviewer": "Codex visual inspection",
+  "command": "view_image on all subject overlay sheets",
+  "exit_status": 0,
+  "sheets": [
+    {
+      "name": "train_S10.jpg",
+      "sha256": "0e801973f6de8a443493460209482ce87a9c90b2f8178b082daa0898df04a286"
+    },
+    {
+      "name": "train_S12.jpg",
+      "sha256": "779497adfbc5f6b7598721a4b97d11f03ca5e77502f50f0c9fa7e70527357345"
+    },
+    {
+      "name": "train_S14.jpg",
+      "sha256": "9d471b668e3e3bb9e07e9cc6b1dc18898b9d34cf018509f3d43bfbae8feaf56f"
+    },
+    {
+      "name": "train_S16.jpg",
+      "sha256": "0e228867029a67e1babe25abb7b276ad9e80f11f3e62cb5905cfb27c7843d5b3"
+    },
+    {
+      "name": "train_S2.jpg",
+      "sha256": "3488381c4b6f123f6a282bd887a0b2857258f8f6eef61d2c68715373c1fd3791"
+    },
+    {
+      "name": "train_S4.jpg",
+      "sha256": "fb1ac2b68d75be1806bae638732c602a5a39b5e913fe7454773341591f658852"
+    },
+    {
+      "name": "train_S6.jpg",
+      "sha256": "d68346b7a86109b891248c257d4e0d97f13c67f07b894079387e65e1ebcf8828"
+    },
+    {
+      "name": "train_S7.jpg",
+      "sha256": "e7a65f18b147db268ab5fd0f65d99cc9b9a50b7cf143d740201cc96afd94954c"
+    },
+    {
+      "name": "train_S8.jpg",
+      "sha256": "3b9c0963c7f7c0f5bf07801e8c627ab4e06190f4e7c553cc6a2d952e9eeb9f0b"
+    },
+    {
+      "name": "validation_S13.jpg",
+      "sha256": "eae31cc8d7d68cab3c2e14c97151029bbb5eb7e2b9a207eb915898e062eb3628"
+    },
+    {
+      "name": "validation_S15.jpg",
+      "sha256": "ab2cadfb1ae4e8462cba3ef4d240c3d987dccbd9219db7abf4f514a6e1e519df"
+    },
+    {
+      "name": "validation_S3.jpg",
+      "sha256": "552f0552b86286e035746ff6feef12918423cd37b9167671f82e15cbc190f0dc"
+    },
+    {
+      "name": "validation_S5.jpg",
+      "sha256": "7508754bb36511e525b408962afdf8edd7ca03d7f24f679e73ed187f6bb732db"
+    }
+  ],
+  "sheet_count": 13,
+  "images_reviewed": 52,
+  "selection": "first pair and widest projected joint spread pair per subject, both views",
+  "observations": [
+    "Visible elbows and wrists broadly follow the corresponding limbs; no obvious whole-image scale/translation error or systematic left/right swap in inspected sheets.",
+    "Many shoulder, hip and leg projections are occluded by head or torso; green/orange points on occluders are not by themselves proof of bad coordinates.",
+    "Some boundary points are outside the usable fisheye circle but inside the rectangular image; current supervision follows the previously specified finite in-frame rectangle rule."
+  ],
+  "limitations": [
+    "Review is a qualitative sample, not certification of all labels or visibility.",
+    "Projected anatomical joint definitions may differ from Sapiens surface semantics.",
+    "Original raw pose JSON remains unavailable."
+  ],
+  "decision": "Proceed with the previously specified projected-joint supervision; no label corrections inferred from occlusion."
+}
