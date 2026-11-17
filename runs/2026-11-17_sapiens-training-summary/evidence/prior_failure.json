@@ -1,0 +1,39 @@
+{
+  "exit.json": {
+    "exit_code": 1,
+    "elapsed_seconds": 80.3001651763916,
+    "finished_utc": "2026-11-16T15:12:42.651945+00:00"
+  },
+  "results/status.json": {
+    "state": "failed",
+    "error": "AttributeError(\"'numpy.ndarray' object has no attribute 'float'\")",
+    "elapsed_seconds": 49.38453650474548,
+    "step": 0
+  },
+  "results/eval_00.json": {
+    "epoch": 0,
+    "mean_px": 18.830188275376994,
+    "per_joint_px": {
+      "5": 16.42086534657986,
+      "6": 38.08356260136477,
+      "7": 16.140257185116162,
+      "8": 21.255911513252336,
+      "62": 18.65652847011099,
+      "41": 21.010409445023846,
+      "9": 21.031753279333426,
+      "10": 18.610979145974824,
+      "11": 12.538181048580409,
+      "12": 19.56247795936179,
+      "13": 11.304154616358437,
+      "14": 11.34717869346711
+    },
+    "mean_correct_points": 7.64,
+    "threshold_px": 20.0,
+    "failed_images": 0,
+    "images": 100,
+    "valid_evaluated_points": 1200,
+    "elapsed_seconds": 49.074748039245605
+  },
+  "command": "read saved exit, status, baseline evaluation and console traceback",
+  "exit_status": 0
+}

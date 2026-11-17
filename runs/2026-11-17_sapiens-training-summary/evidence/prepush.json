@@ -1,0 +1,110 @@
+{
+  "command": "scan workspace status, new files, staged content and commit; compare remote HEAD",
+  "exit_status": 0,
+  "baseline": "1aab82b5ee4f79e81a8a59ea7d1097ab16f45f9a",
+  "remote_head_before": "1aab82b5ee4f79e81a8a59ea7d1097ab16f45f9a",
+  "workspace_status_lines": 27,
+  "existing_changes_excluded": true,
+  "files": [
+    {
+      "path": "brief.md",
+      "bytes": 239,
+      "sha256": "18c0264eb9a67ff1f2353a4a610c2de2a08ba6fa1af35cc524006a5b058abb93"
+    },
+    {
+      "path": "review.md",
+      "bytes": 87,
+      "sha256": "95f11361b1ea8f6d4ae80be46de93cb008b34517aa21cb8efd66bdd696753349"
+    },
+    {
+      "path": "report.md",
+      "bytes": 4933,
+      "sha256": "23f39f2527cf3f29bcd60a7fb028deaed533bf369ec1fb61fda1db414885c78f"
+    },
+    {
+      "path": "evidence/data_same.json",
+      "bytes": 242,
+      "sha256": "2c4d9fc678dd048af37a64736e9c6daaf8474160e3419af1c132132ea1356517"
+    },
+    {
+      "path": "evidence/partial_same.json",
+      "bytes": 1946,
+      "sha256": "51ca24b1202e0ff2816bf021f02b62b8cbf7219d5814f2cd80d7d30cc9f95d31"
+    },
+    {
+      "path": "evidence/source_code.json",
+      "bytes": 615,
+      "sha256": "53115c039b4d7eae36c24e5da855c62c2bce8708ca9153c94222f28fb2311fcc"
+    },
+    {
+      "path": "evidence/full_same_01.json",
+      "bytes": 1346,
+      "sha256": "2694034ce71d7a550a90a9d2a1cd816c6f51ae466a7765e844801df1e1bcb7bf"
+    },
+    {
+      "path": "evidence/partial_training.json",
+      "bytes": 9581,
+      "sha256": "1864557555c80e6e780ead8cbb32736c605a5cd1d1a2effb2f959168209d3212"
+    },
+    {
+      "path": "evidence/prior_failure.json",
+      "bytes": 1105,
+      "sha256": "9278bd9d1cc98006b28dcd6d103fb55f70250faa4611c6d7ea0dd1017bb23d70"
+    },
+    {
+      "path": "evidence/head_training.json",
+      "bytes": 9564,
+      "sha256": "82598ce167532024b6f507e84b897b480661cdfd49ae44fc140f84a78fb5a8d0"
+    },
+    {
+      "path": "evidence/head_same.json",
+      "bytes": 1948,
+      "sha256": "a3e278155e424f898ad497cb84e482fa6f6ef41cdde8cb584568361d7c2a2b15"
+    },
+    {
+      "path": "evidence/full_training.json",
+      "bytes": 9585,
+      "sha256": "c7880d205bca0ac1289297385fb1bc9fdfc42b8e7aa27a5cef7bf74b288cdb8c"
+    },
+    {
+      "path": "evidence/original_audit.json",
+      "bytes": 4691,
+      "sha256": "b13edb301a9d176fe774ca2db4457c477f18bb35b6a196556361bbe542e0d619"
+    },
+    {
+      "path": "evidence/data_train.json",
+      "bytes": 1145,
+      "sha256": "070ac34452d210dcb3de8182d39d450e9fe9d31b9e17cfae95f091a796da06d8"
+    },
+    {
+      "path": "evidence/full_same_10.json",
+      "bytes": 739,
+      "sha256": "f9ea1ca0725dda5ec25c98d2ef4d010fccff26f1d1f38afb811dd0c05aea7f86"
+    },
+    {
+      "path": "code/same_eval.py",
+      "bytes": 2978,
+      "sha256": "0309333f08341e997596876371aa79b881ac144c64c24c2271a6021337bab902"
+    },
+    {
+      "path": "code/head_train.py",
+      "bytes": 12418,
+      "sha256": "2ce745dfdcb8016c8f84ea3ca120334f90fb361a427dad46edf6b0673d6c0d51"
+    },
+    {
+      "path": "code/partial_train.py",
+      "bytes": 12530,
+      "sha256": "0770289cc59d4e1363f314e552ee0e09361b3c6f60e93420fefb00e9289554a4"
+    },
+    {
+      "path": "code/full_train.py",
+      "bytes": 12269,
+      "sha256": "26bb71f90c1e37b2288c8aefd12c27846d520340db6d93c26cecbedc74cf12ba"
+    }
+  ],
+  "weights_data_videos_npy_npz_full_output": false,
+  "credentials_env": false,
+  "machine_absolute_paths": false,
+  "full_provenance_patch": false,
+  "scope": "new commit only; history not audited"
+}

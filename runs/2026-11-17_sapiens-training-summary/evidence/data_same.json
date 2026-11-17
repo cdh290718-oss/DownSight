@@ -1,0 +1,10 @@
+{
+  "sequence": "studio/2023_01_19/S6/seq_2-0-62",
+  "official_split": "train; held out locally",
+  "images": 100,
+  "pairs": 50,
+  "available_pairs": 210,
+  "train_sequence_overlap": false,
+  "visibility": "unknown",
+  "nose_masked": true
+}

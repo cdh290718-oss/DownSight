@@ -1,0 +1,9 @@
+{
+  "description": "Exact executed current local scripts copied as source, not full provenance or patch; scripts depend on external backend. same_eval source generated before epoch10 by changing evaluation list and output evidence path.",
+  "files": {
+    "same_eval.py": "0309333f08341e997596876371aa79b881ac144c64c24c2271a6021337bab902",
+    "head_train.py": "2ce745dfdcb8016c8f84ea3ca120334f90fb361a427dad46edf6b0673d6c0d51",
+    "partial_train.py": "0770289cc59d4e1363f314e552ee0e09361b3c6f60e93420fefb00e9289554a4",
+    "full_train.py": "26bb71f90c1e37b2288c8aefd12c27846d520340db6d93c26cecbedc74cf12ba"
+  }
+}
