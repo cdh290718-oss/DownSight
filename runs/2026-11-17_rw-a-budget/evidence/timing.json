@@ -1,0 +1,35 @@
+{
+  "source": "runs/2026-11-17_sapiens-training-summary/evidence/full_training.json",
+  "source_sha256": "c7880d205bca0ac1289297385fb1bc9fdfc42b8e7aa27a5cef7bf74b288cdb8c",
+  "command": "Arithmetic extrapolation from full_training.json; no new timed training",
+  "previous_images_per_epoch": 500,
+  "previous_epochs": 10,
+  "previous_optimizer_steps": 1250,
+  "previous_measured_loop_seconds": 3260.7394676208496,
+  "previous_initial_100_image_validation_seconds": 44.29758667945862,
+  "previous_validation_passes": 11,
+  "proposed_training_images": 5000,
+  "proposed_epochs": 1,
+  "proposed_optimizer_steps": 1250,
+  "proposed_validation_images": 400,
+  "proposed_validation_passes": 2,
+  "rough_training_and_saving_proxy_seconds": 2773.466014146805,
+  "rough_new_loop_seconds": 3127.8467075824738,
+  "planning_range_minutes": [
+    60,
+    90
+  ],
+  "assumptions": [
+    "same single A100 80GB, precision, resolution, effective batch and full-backbone training",
+    "use initial validation duration as a proxy for all previous validation passes",
+    "proxy retains previous checkpoint-saving overhead; not pure training throughput",
+    "no large competing GPU workload; expanded-cache I/O may differ"
+  ],
+  "excludes": [
+    "dataset audit and training-loader implementation",
+    "model load before timer starts",
+    "additional checkpoint comparisons",
+    "final test and full-2D D fitting"
+  ],
+  "no_new_training": true
+}

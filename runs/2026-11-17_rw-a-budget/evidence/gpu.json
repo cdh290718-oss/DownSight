@@ -1,0 +1,7 @@
+{
+  "command": "nvidia-smi --query-gpu=index,name,memory.total,memory.used,utilization.gpu --format=csv,noheader",
+  "exit_status": 0,
+  "stdout": "0, NVIDIA A100-SXM4-80GB, 81920 MiB, 17901 MiB, 3 %\n",
+  "stderr": "",
+  "note": "snapshot only; no reservation or guarantee of future availability"
+}

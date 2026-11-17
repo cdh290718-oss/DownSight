@@ -1,0 +1,62 @@
+{
+  "command": "Python AST and official split/selection hashes; git status; explicit run allowlist; UTF-8, size, credential and path scans; staged byte and outgoing commit equality; remote verification",
+  "exit_status": 0,
+  "baseline_commit": "ae923993c4b708e5422d84afc93f91e0c7289629",
+  "remote_head_before_commit": "ae923993c4b708e5422d84afc93f91e0c7289629",
+  "workspace_entries_inspected": 1446,
+  "scope": "this run increment only; unrelated changes excluded; no history audit",
+  "checks": {
+    "official_split_membership": true,
+    "selection_hashes": true,
+    "no_data_images_weights_video_arrays_full_outputs": true,
+    "no_credentials_tokens_env": true,
+    "no_machine_paths": true,
+    "no_full_provenance_patch": true,
+    "all_files_below_50MB": true,
+    "local_selections_ignored": true,
+    "remote_matches_baseline": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-17_rw-a-budget/brief.md",
+      "bytes": 593,
+      "sha256": "329317cb89e122c2632d07aced9d7dcfdf89e1a1fa43a44b614f1a98d2977a29"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/evidence/gpu.json",
+      "bytes": 300,
+      "sha256": "3b4b2a811cf149ceca2dad7c6a18b6f22e8e8b870da65e72001bd476943d6eb8"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/evidence/selection.json",
+      "bytes": 2265,
+      "sha256": "5a99a0dd9b4c19781943bbfe0f761953081b650d932a831971edae1b1202f465"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/evidence/timing.json",
+      "bytes": 1434,
+      "sha256": "d956a3420444442f81911b88e99bb8c3fb5c62db41bc9537ca734749b7104f7f"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/plan.json",
+      "bytes": 4924,
+      "sha256": "93b8736d10402d67e82fdec20add9f45bba0c6b367d09b833947844dbf9214fe"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/prepare.py",
+      "bytes": 8435,
+      "sha256": "0930232e5edd8e545c82f5649f99bd1788a73d832708ff87fc74b427b20de877"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/report.md",
+      "bytes": 4423,
+      "sha256": "5cb6bb5023dd35ec3a99c75d55d1039d3ffe7839a22a18cac8fd618311911aa2"
+    },
+    {
+      "path": "runs/2026-11-17_rw-a-budget/review.md",
+      "bytes": 317,
+      "sha256": "bcd8313029d7c6fd9bcc895f4450af3300a787b76eb3dbd48a5ff73777d79b1c"
+    }
+  ],
+  "self_evidence": "This audit is scanned separately and omitted from self-referential hashes. Actual outgoing commit must match the audited files before push."
+}

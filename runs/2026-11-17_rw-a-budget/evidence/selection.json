@@ -1,0 +1,72 @@
+{
+  "command": "python runs/2026-11-17_rw-a-budget/prepare.py",
+  "exit_status": 0,
+  "capacity": {
+    "train": {
+      "images": 159410,
+      "pairs": 79705,
+      "subjects": 9
+    },
+    "validation": {
+      "images": 60166,
+      "pairs": 30083,
+      "subjects": 4
+    }
+  },
+  "selection": {
+    "validation": {
+      "images": 400,
+      "pairs": 200,
+      "subject_images": {
+        "S3": 100,
+        "S5": 100,
+        "S13": 100,
+        "S15": 100
+      },
+      "sequences": 92,
+      "cache_hits": {
+        "S3": 100,
+        "S5": 100,
+        "S13": 100,
+        "S15": 100
+      },
+      "sha256": "e86acb34610566d5243f16c7611c0187b99e42f4e7c9fdd76630a0a48b897649",
+      "source": "previous validation selection"
+    },
+    "test": {
+      "images": 200,
+      "pairs": 100,
+      "subject_images": {
+        "S1": 68,
+        "S9": 66,
+        "S11": 66
+      },
+      "sequences": 74,
+      "cache_hits": {
+        "S1": 0,
+        "S9": 0,
+        "S11": 0
+      },
+      "sha256": "6bba850b8cf580704d4111b797792dfc75ea23aa8166a51ad4c008c8fa53b6e6",
+      "source": "test label metadata only"
+    }
+  },
+  "training_selection_unchanged_sha256": "9e90030b7615746b13e38bf30b0b53dad018bcf805911972480ffc48bc8a6220",
+  "training_sample_percent": 3.136566087447463,
+  "excluded_previous_S9_sequences": [
+    "studio/2023_08_23/S9/seq_1-0-0",
+    "studio/2023_08_23/S9/seq_1-0-3",
+    "studio/2023_08_23/S9/seq_1-0-33",
+    "studio/2023_08_23/S9/seq_1-0-34",
+    "studio/2023_08_23/S9/seq_1-0-4",
+    "studio/2023_08_23/S9/seq_1-1-12",
+    "studio/2023_08_23/S9/seq_1-1-20",
+    "studio/2023_08_23/S9/seq_1-1-3",
+    "studio/2023_08_23/S9/seq_1-1-4",
+    "studio/2023_08_23/S9/seq_1-1-9"
+  ],
+  "test_status": "Label-based candidates only; missing in inspected training SQLite cache. Partial test archive exists, but coverage of all three subjects remains unverified. No fresh/blind-test claim.",
+  "cache_scope": "train/validation cache key presence, not all-image decode; test result only for selected candidates",
+  "preliminary_lookup_failure": "Initial rg used two nonexistent training filenames and exited 2; corrected to code/full_train.py; no execution failed.",
+  "local_output": "<WORKSPACE>/DownSight/outputs/rw_a_budget_20261117"
+}

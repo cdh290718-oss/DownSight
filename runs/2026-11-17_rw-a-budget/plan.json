@@ -1,0 +1,130 @@
+{
+  "status": "revised evaluation sizes approved by user; training not launched; test RGB unresolved",
+  "route": "A: official Sapiens2-1B pose weights -> expanded RW; no synthetic pretraining",
+  "selection": {
+    "train": {
+      "images": 5000,
+      "pairs": 2500,
+      "subject_pairs": {
+        "S10": 278,
+        "S12": 278,
+        "S14": 278,
+        "S16": 278,
+        "S2": 278,
+        "S4": 278,
+        "S6": 278,
+        "S7": 277,
+        "S8": 277
+      },
+      "sequences": 401,
+      "min_frame_index_gap": 10,
+      "selection_sha256": "9e90030b7615746b13e38bf30b0b53dad018bcf805911972480ffc48bc8a6220"
+    },
+    "validation": {
+      "images": 400,
+      "pairs": 200,
+      "subject_images": {
+        "S3": 100,
+        "S5": 100,
+        "S13": 100,
+        "S15": 100
+      },
+      "sequences": 92,
+      "cache_hits": {
+        "S3": 100,
+        "S5": 100,
+        "S13": 100,
+        "S15": 100
+      },
+      "sha256": "e86acb34610566d5243f16c7611c0187b99e42f4e7c9fdd76630a0a48b897649",
+      "source": "previous validation selection"
+    },
+    "test": {
+      "images": 200,
+      "pairs": 100,
+      "subject_images": {
+        "S1": 68,
+        "S9": 66,
+        "S11": 66
+      },
+      "sequences": 74,
+      "cache_hits": {
+        "S1": 0,
+        "S9": 0,
+        "S11": 0
+      },
+      "sha256": "6bba850b8cf580704d4111b797792dfc75ea23aa8166a51ad4c008c8fa53b6e6",
+      "source": "test label metadata only"
+    }
+  },
+  "initialization": "original official checkpoint, not continuation of RW500 checkpoint",
+  "trainable": "full backbone and pose head",
+  "output_channels": 308,
+  "supervised_body_joints": 12,
+  "nose_supervision": false,
+  "first_training_stage_epochs": 1,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "planned_first_stage_optimizer_steps": 1250,
+  "head_lr": 0.0001,
+  "backbone_lr": 1e-05,
+  "precision": "bf16",
+  "input_hw": [
+    1024,
+    768
+  ],
+  "selection_rule": "minimum expanded validation mean 2D error, including original checkpoint; no test-based selection",
+  "comparison_checkpoints": [
+    "official original",
+    "existing RW500 full-backbone epoch1",
+    "new expanded-RW candidate"
+  ],
+  "evaluation": "400-image validation; 200-image official-test candidate; preserve old S6 holdout supplementary; do not use test for model selection",
+  "downstream": "golden-d-2d-v1, identical Head/calibration/masks/shape/loss/optimization budget between detectors",
+  "next_required_checks": [
+    "decode all selected training/validation images and verify pair membership and image hashes",
+    "review label overlays for every subject, both eyes and difficult poses; current labels are cached projections, not visibility",
+    "resolve selected official-test RGB availability and audit prior use; verify Head/calibration inputs before declaring test ready",
+    "adapt repository training loader to read existing SQLite cache read-only, or extract selected images to new repository output directory",
+    "run short numerical/resource check in existing environment before full single-GPU stage"
+  ],
+  "future_scaling": "decide continuation or further data expansion from validation and fixed downstream evidence; do not assume ten epochs",
+  "data_download_required_for_current_train_val_candidate": false,
+  "user_answer": "No additional complete RW RGB directory supplied",
+  "new_training_executed": false,
+  "runtime_estimate": {
+    "source": "runs/2026-11-17_sapiens-training-summary/evidence/full_training.json",
+    "source_sha256": "c7880d205bca0ac1289297385fb1bc9fdfc42b8e7aa27a5cef7bf74b288cdb8c",
+    "command": "Arithmetic extrapolation from full_training.json; no new timed training",
+    "previous_images_per_epoch": 500,
+    "previous_epochs": 10,
+    "previous_optimizer_steps": 1250,
+    "previous_measured_loop_seconds": 3260.7394676208496,
+    "previous_initial_100_image_validation_seconds": 44.29758667945862,
+    "previous_validation_passes": 11,
+    "proposed_training_images": 5000,
+    "proposed_epochs": 1,
+    "proposed_optimizer_steps": 1250,
+    "proposed_validation_images": 400,
+    "proposed_validation_passes": 2,
+    "rough_training_and_saving_proxy_seconds": 2773.466014146805,
+    "rough_new_loop_seconds": 3127.8467075824738,
+    "planning_range_minutes": [
+      60,
+      90
+    ],
+    "assumptions": [
+      "same single A100 80GB, precision, resolution, effective batch and full-backbone training",
+      "use initial validation duration as a proxy for all previous validation passes",
+      "proxy retains previous checkpoint-saving overhead; not pure training throughput",
+      "no large competing GPU workload; expanded-cache I/O may differ"
+    ],
+    "excludes": [
+      "dataset audit and training-loader implementation",
+      "model load before timer starts",
+      "additional checkpoint comparisons",
+      "final test and full-2D D fitting"
+    ],
+    "no_new_training": true
+  }
+}
