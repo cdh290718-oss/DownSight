@@ -1,0 +1,32 @@
+{
+  "kind": "mathematical construction, not a DownSight experiment",
+  "model": "3D joints (t,0,1) and (t,1,1), orthographic projection (x,y), true t=0",
+  "fit": "minimize (t-u1)^2+(t-u2)^2; exact optimum t=(u1+u2)/2",
+  "old_2d_x": [
+    2.0,
+    -2.0
+  ],
+  "better_2d_x": [
+    0.0,
+    -1.0
+  ],
+  "old_2d_errors": [
+    2.0,
+    2.0
+  ],
+  "better_2d_errors": [
+    0.0,
+    1.0
+  ],
+  "old_fitted_t": 0.0,
+  "better_fitted_t": -0.5,
+  "old_3d_errors": [
+    0.0,
+    0.0
+  ],
+  "better_3d_errors": [
+    0.5,
+    0.5
+  ],
+  "units": "arbitrary consistent coordinate units; no measurement claims"
+}

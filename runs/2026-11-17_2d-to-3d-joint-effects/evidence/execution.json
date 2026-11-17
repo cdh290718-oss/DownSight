@@ -1,0 +1,35 @@
+{
+  "command": "python runs/2026-11-17_2d-to-3d-joint-effects/analyze.py",
+  "exit_status": 0,
+  "baseline_commit": "f10ed89d875715baa069e2b9f488b41aa381fcb6",
+  "new_fit_or_training": false,
+  "source_sha256": {
+    "paired": {
+      "path": "runs/2026-11-15_gt2d-vs-sapiens/evidence/results.json",
+      "sha256": "f72017a3a0877d906e84ad854f109294c01ab924fd3a0631d118c34e68f9950d"
+    },
+    "preparation": {
+      "path": "runs/2026-11-15_gt2d-vs-sapiens/evidence/preparation.json",
+      "sha256": "92722a94477954a80aac7dc78ed09dacb962eb29a909185ba1d66c68b8b06e31"
+    },
+    "noise": {
+      "path": "runs/2026-11-16_unrealego-official-noise/evidence/results.json",
+      "sha256": "1693fcadb04c3ae5a7de025086a9dc3eeea77a119feab969221e9eb6f663d747"
+    },
+    "noise_prepare": {
+      "path": "runs/2026-11-16_unrealego-official-noise/prepare.py",
+      "sha256": "811533359a9e9bf864002219e8a99f2f7984f2eea8aaaa61dc933a0ac520d187"
+    },
+    "noise_protocol": {
+      "path": "runs/2026-11-16_unrealego-official-noise/protocol.json",
+      "sha256": "4baa2b041e0ec727e1328a97280aef8b413fd571bbdced1a8388319088583808"
+    }
+  },
+  "checks": [
+    "paired completeness and successful exit",
+    "per-joint means match published means",
+    "all noise conditions complete",
+    "noise mean mapping matches published mean",
+    "counterexample improves both 2D inputs and worsens both exact-optimum 3D outputs"
+  ]
+}

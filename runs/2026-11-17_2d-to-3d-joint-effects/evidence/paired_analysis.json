@@ -1,0 +1,1054 @@
+{
+  "delta_definition": "prediction-2D fit error minus official-2D fit error; positive is improvement",
+  "tolerance_note": "1mm is a descriptive threshold, not a significance test or equivalence margin",
+  "pair_order": [
+    "body01",
+    "body02",
+    "body03"
+  ],
+  "pairs": [
+    {
+      "pair": "body01",
+      "replaced_2d_joints": [
+        "left_shoulder",
+        "left_elbow",
+        "left_wrist"
+      ],
+      "automatic_absolute_mean_mm": 390.9742399885636,
+      "official_absolute_mean_mm": 407.1715578652892,
+      "absolute_delta_mm": {
+        "Neck": 14.170597797056217,
+        "R_Shoulder": 23.355597088344126,
+        "R_Elbow": -53.429607915112456,
+        "R_Wrist": -133.26555330483848,
+        "L_Shoulder": 93.20131484811866,
+        "L_Elbow": 66.92582794893914,
+        "L_Wrist": 41.91514550996765,
+        "R_Hip": -66.87482237166165,
+        "R_Knee": -64.19679857958442,
+        "R_Ankle": 19.088454425956115,
+        "R_Toe": -31.401289283718825,
+        "L_Hip": -56.73670955355311,
+        "L_Knee": -42.55548353020566,
+        "L_Ankle": 3.0180731120211703,
+        "L_Toe": -56.17451434261045
+      },
+      "counts": {
+        "improved_gt_1mm": 7,
+        "changed_within_1mm": 0,
+        "worsened_gt_1mm": 8,
+        "strict_positive": 7,
+        "strict_negative": 8
+      },
+      "both_convergence_pass": false
+    },
+    {
+      "pair": "body02",
+      "replaced_2d_joints": [
+        "right_elbow",
+        "left_wrist",
+        "right_wrist"
+      ],
+      "automatic_absolute_mean_mm": 267.0106052257819,
+      "official_absolute_mean_mm": 218.80104497018357,
+      "absolute_delta_mm": {
+        "Neck": -5.825676532009368,
+        "R_Shoulder": 41.55013475335657,
+        "R_Elbow": 76.24724284690464,
+        "R_Wrist": 47.779867608258414,
+        "L_Shoulder": -20.93526364986525,
+        "L_Elbow": -40.36548493719556,
+        "L_Wrist": 67.44204625542196,
+        "R_Hip": 33.69421916678196,
+        "R_Knee": 82.22576165144477,
+        "R_Ankle": 111.61960168130133,
+        "R_Toe": 100.83957092035382,
+        "L_Hip": -10.209771388109658,
+        "L_Knee": 57.80270028853184,
+        "L_Ankle": 106.13055351243128,
+        "L_Toe": 75.14790165636833
+      },
+      "counts": {
+        "improved_gt_1mm": 11,
+        "changed_within_1mm": 0,
+        "worsened_gt_1mm": 4,
+        "strict_positive": 11,
+        "strict_negative": 4
+      },
+      "both_convergence_pass": false
+    },
+    {
+      "pair": "body03",
+      "replaced_2d_joints": [
+        "right_wrist"
+      ],
+      "automatic_absolute_mean_mm": 832.1245918912243,
+      "official_absolute_mean_mm": 830.174990853471,
+      "absolute_delta_mm": {
+        "Neck": 0.4546535328676953,
+        "R_Shoulder": 1.3624748835594005,
+        "R_Elbow": 5.90586326838627,
+        "R_Wrist": 14.744622286450914,
+        "L_Shoulder": 3.20283873207552,
+        "L_Elbow": 5.393815122146066,
+        "L_Wrist": 6.329926217453362,
+        "R_Hip": 1.3187897377765694,
+        "R_Knee": -0.9866426362543734,
+        "R_Ankle": -2.5004154994724104,
+        "R_Toe": -3.6137689948650404,
+        "L_Hip": 1.9560382065462818,
+        "L_Knee": 0.41021337529423363,
+        "L_Ankle": -1.998456724142443,
+        "L_Toe": -2.7359359415195286
+      },
+      "counts": {
+        "improved_gt_1mm": 8,
+        "changed_within_1mm": 3,
+        "worsened_gt_1mm": 4,
+        "strict_positive": 10,
+        "strict_negative": 5
+      },
+      "both_convergence_pass": false
+    }
+  ],
+  "per_group": [
+    {
+      "name": "Neck",
+      "members": [
+        "Neck"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 112.5794054193422,
+        "official_mean_mm": 109.64621382003735,
+        "improvement_mm": 2.9331915993048483,
+        "paired_deltas_mm": [
+          14.170597797056217,
+          -5.825676532009368,
+          0.4546535328676953
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 155.9871806650442,
+        "official_mean_mm": 160.39447085220863,
+        "improvement_mm": -4.40729018716443,
+        "paired_deltas_mm": [
+          -39.73158962966508,
+          24.229031407651348,
+          2.2806876605204423
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "Shoulder",
+      "members": [
+        "L_Shoulder",
+        "R_Shoulder"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 180.0002363095453,
+        "official_mean_mm": 156.37738686694712,
+        "improvement_mm": 23.62284944259818,
+        "paired_deltas_mm": [
+          58.278455968231384,
+          10.30743555174567,
+          2.2826568078174887
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 156.80906927536066,
+        "official_mean_mm": 163.1112515237032,
+        "improvement_mm": -6.302182248342547,
+        "paired_deltas_mm": [
+          -38.99122882788524,
+          18.274193782521394,
+          1.8104883003362033
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "Elbow",
+      "members": [
+        "L_Elbow",
+        "R_Elbow"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 242.98221443716577,
+        "official_mean_mm": 232.86927171482108,
+        "improvement_mm": 10.112942722344675,
+        "paired_deltas_mm": [
+          6.74811001691333,
+          17.940878954854526,
+          5.649839195266168
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 160.8053527188253,
+        "official_mean_mm": 152.9293605290316,
+        "improvement_mm": 7.875992189793711,
+        "paired_deltas_mm": [
+          -23.212537030453916,
+          47.746970545094456,
+          -0.9064569452594071
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "Wrist",
+      "members": [
+        "L_Wrist",
+        "R_Wrist"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 280.5672694452953,
+        "official_mean_mm": 273.07626034984304,
+        "improvement_mm": 7.491009095452289,
+        "paired_deltas_mm": [
+          -45.67520389743544,
+          57.61095693184019,
+          10.537274251952113
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 269.96244635548913,
+        "official_mean_mm": 259.9322305470695,
+        "improvement_mm": 10.030215808419674,
+        "paired_deltas_mm": [
+          11.07278008613116,
+          18.45663142600779,
+          0.5612359131200719
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      }
+    },
+    {
+      "name": "Hip",
+      "members": [
+        "L_Hip",
+        "R_Hip"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 394.30767179286147,
+        "official_mean_mm": 410.4497144932314,
+        "improvement_mm": -16.142042700369956,
+        "paired_deltas_mm": [
+          -61.80576596260744,
+          11.742223889336145,
+          1.6374139721614256
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 76.81228159065596,
+        "official_mean_mm": 83.19652511499878,
+        "improvement_mm": -6.384243524342819,
+        "paired_deltas_mm": [
+          -4.4009589877715385,
+          -15.780011857822771,
+          1.0282402725658528
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "Knee",
+      "members": [
+        "L_Knee",
+        "R_Knee"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 661.0971652862727,
+        "official_mean_mm": 655.6472068580683,
+        "improvement_mm": 5.449958428204411,
+        "paired_deltas_mm": [
+          -53.376141054895015,
+          70.01423096998832,
+          -0.2882146304800699
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 101.66551173739823,
+        "official_mean_mm": 105.93873150476763,
+        "improvement_mm": -4.273219767369388,
+        "paired_deltas_mm": [
+          -9.322031428894803,
+          -3.6443386500486383,
+          0.14671077683527756
+        ],
+        "counts": {
+          "improved_gt_1mm": 0,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "Ankle",
+      "members": [
+        "L_Ankle",
+        "R_Ankle"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 907.4605745372369,
+        "official_mean_mm": 868.2342727858878,
+        "improvement_mm": 39.22630175134915,
+        "paired_deltas_mm": [
+          11.053263768988586,
+          108.87507759686628,
+          -2.2494361118074266
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 176.89411538611915,
+        "official_mean_mm": 184.3453733878082,
+        "improvement_mm": -7.451258001689031,
+        "paired_deltas_mm": [
+          -19.2778980670042,
+          -2.9424077733884246,
+          -0.13346816467446843
+        ],
+        "counts": {
+          "improved_gt_1mm": 0,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 0,
+          "strict_negative": 3
+        }
+      }
+    },
+    {
+      "name": "Toe",
+      "members": [
+        "L_Toe",
+        "R_Toe"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 1002.5687582458762,
+        "official_mean_mm": 988.8917642435415,
+        "improvement_mm": 13.676994002334746,
+        "paired_deltas_mm": [
+          -43.78790181316458,
+          87.9937362883611,
+          -3.1748524681922845
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 217.89792592013205,
+        "official_mean_mm": 218.25881660823256,
+        "improvement_mm": -0.36089068810051117,
+        "paired_deltas_mm": [
+          -3.02585165526267,
+          1.3467879907689735,
+          0.5963916001921632
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    }
+  ],
+  "per_joint": [
+    {
+      "name": "Neck",
+      "members": [
+        "Neck"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 112.5794054193422,
+        "official_mean_mm": 109.64621382003735,
+        "improvement_mm": 2.9331915993048483,
+        "paired_deltas_mm": [
+          14.170597797056217,
+          -5.825676532009368,
+          0.4546535328676953
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 155.9871806650442,
+        "official_mean_mm": 160.39447085220863,
+        "improvement_mm": -4.40729018716443,
+        "paired_deltas_mm": [
+          -39.73158962966508,
+          24.229031407651348,
+          2.2806876605204423
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "R_Shoulder",
+      "members": [
+        "R_Shoulder"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 193.26528120906227,
+        "official_mean_mm": 171.1758789673089,
+        "improvement_mm": 22.089402241753366,
+        "paired_deltas_mm": [
+          23.355597088344126,
+          41.55013475335657,
+          1.3624748835594005
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 140.10248852600222,
+        "official_mean_mm": 136.87040414707022,
+        "improvement_mm": 3.2320843789319866,
+        "paired_deltas_mm": [
+          -10.164325404058673,
+          16.279305913729175,
+          3.5812726271254576
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "R_Elbow",
+      "members": [
+        "R_Elbow"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 224.3873959802284,
+        "official_mean_mm": 214.81289658016894,
+        "improvement_mm": 9.574499400059485,
+        "paired_deltas_mm": [
+          -53.429607915112456,
+          76.24724284690464,
+          5.90586326838627
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 154.51004058342383,
+        "official_mean_mm": 139.53727647286092,
+        "improvement_mm": 14.972764110562915,
+        "paired_deltas_mm": [
+          -26.10741859131616,
+          70.83059923007785,
+          0.19511169292705688
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "R_Wrist",
+      "members": [
+        "R_Wrist"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 200.273765643846,
+        "official_mean_mm": 223.85412011388905,
+        "improvement_mm": -23.580354470043048,
+        "paired_deltas_mm": [
+          -133.26555330483848,
+          47.779867608258414,
+          14.744622286450914
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 327.23082645206904,
+        "official_mean_mm": 336.56066506185266,
+        "improvement_mm": -9.329838609783641,
+        "paired_deltas_mm": [
+          -53.258502592294235,
+          26.058435804849694,
+          -0.78944904190638
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "L_Shoulder",
+      "members": [
+        "L_Shoulder"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 166.73519141002834,
+        "official_mean_mm": 141.57889476658536,
+        "improvement_mm": 25.156296643442975,
+        "paired_deltas_mm": [
+          93.20131484811866,
+          -20.93526364986525,
+          3.20283873207552
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 173.5156500247191,
+        "official_mean_mm": 189.3520989003362,
+        "improvement_mm": -15.836448875617094,
+        "paired_deltas_mm": [
+          -67.81813225171183,
+          20.2690816513136,
+          0.0397039735469491
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "L_Elbow",
+      "members": [
+        "L_Elbow"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 261.5770328941031,
+        "official_mean_mm": 250.92564684947322,
+        "improvement_mm": 10.651386044629882,
+        "paired_deltas_mm": [
+          66.92582794893914,
+          -40.36548493719556,
+          5.393815122146066
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 167.1006648542268,
+        "official_mean_mm": 166.32144458520227,
+        "improvement_mm": 0.7792202690245205,
+        "paired_deltas_mm": [
+          -20.317655469591614,
+          24.663341860111046,
+          -2.008025583445871
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "L_Wrist",
+      "members": [
+        "L_Wrist"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 360.8607732467447,
+        "official_mean_mm": 322.298400585797,
+        "improvement_mm": 38.56237266094766,
+        "paired_deltas_mm": [
+          41.91514550996765,
+          67.44204625542196,
+          6.329926217453362
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 212.69406625890923,
+        "official_mean_mm": 183.30379603228621,
+        "improvement_mm": 29.390270226623016,
+        "paired_deltas_mm": [
+          75.40406276455657,
+          10.854827047165898,
+          1.9119208681465807
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      }
+    },
+    {
+      "name": "R_Hip",
+      "members": [
+        "R_Hip"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 404.8572672078623,
+        "official_mean_mm": 415.47787169689667,
+        "improvement_mm": -10.620604489034372,
+        "paired_deltas_mm": [
+          -66.87482237166165,
+          33.69421916678196,
+          1.3187897377765694
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 73.93087403111721,
+        "official_mean_mm": 71.88811533455767,
+        "improvement_mm": 2.0427586965595523,
+        "paired_deltas_mm": [
+          18.521343096457244,
+          -13.92497303381898,
+          1.5319060270403924
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      }
+    },
+    {
+      "name": "R_Knee",
+      "members": [
+        "R_Knee"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 717.9257249479292,
+        "official_mean_mm": 712.2449514693939,
+        "improvement_mm": 5.6807734785353245,
+        "paired_deltas_mm": [
+          -64.19679857958442,
+          82.22576165144477,
+          -0.9866426362543734
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 115.83438144572592,
+        "official_mean_mm": 112.87117799317456,
+        "improvement_mm": 2.9632034525513595,
+        "paired_deltas_mm": [
+          1.2283360948597704,
+          7.002198178682221,
+          0.6590760841120868
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      }
+    },
+    {
+      "name": "R_Ankle",
+      "members": [
+        "R_Ankle"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 1019.76349158986,
+        "official_mean_mm": 977.027611387265,
+        "improvement_mm": 42.73588020259501,
+        "paired_deltas_mm": [
+          19.088454425956115,
+          111.61960168130133,
+          -2.5004154994724104
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 193.309721141258,
+        "official_mean_mm": 196.71210973349406,
+        "improvement_mm": -3.4023885922360555,
+        "paired_deltas_mm": [
+          -15.342543358593673,
+          6.543906893786584,
+          -1.408529311901077
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "R_Toe",
+      "members": [
+        "R_Toe"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 1168.3312822029366,
+        "official_mean_mm": 1146.3897779890133,
+        "improvement_mm": 21.94150421392332,
+        "paired_deltas_mm": [
+          -31.401289283718825,
+          100.83957092035382,
+          -3.6137689948650404
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 270.966245242637,
+        "official_mean_mm": 277.7483314545586,
+        "improvement_mm": -6.782086211921562,
+        "paired_deltas_mm": [
+          -17.593917199332907,
+          -2.890009757450173,
+          0.13766832101839555
+        ],
+        "counts": {
+          "improved_gt_1mm": 0,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "L_Hip",
+      "members": [
+        "L_Hip"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 383.7580763778606,
+        "official_mean_mm": 405.4215572895661,
+        "improvement_mm": -21.663480911705495,
+        "paired_deltas_mm": [
+          -56.73670955355311,
+          -10.209771388109658,
+          1.9560382065462818
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 79.6936891501947,
+        "official_mean_mm": 94.5049348954399,
+        "improvement_mm": -14.811245745245202,
+        "paired_deltas_mm": [
+          -27.32326107200032,
+          -17.635050681826584,
+          0.5245745180912991
+        ],
+        "counts": {
+          "improved_gt_1mm": 0,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "L_Knee",
+      "members": [
+        "L_Knee"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 604.2686056246162,
+        "official_mean_mm": 599.0494622467427,
+        "improvement_mm": 5.219143377873469,
+        "paired_deltas_mm": [
+          -42.55548353020566,
+          57.80270028853184,
+          0.41021337529423363
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 87.49664202907056,
+        "official_mean_mm": 99.00628501636068,
+        "improvement_mm": -11.509642987290121,
+        "paired_deltas_mm": [
+          -19.872398952649377,
+          -14.290875478779483,
+          -0.3656545304415033
+        ],
+        "counts": {
+          "improved_gt_1mm": 0,
+          "changed_within_1mm": 1,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 0,
+          "strict_negative": 3
+        }
+      }
+    },
+    {
+      "name": "L_Ankle",
+      "members": [
+        "L_Ankle"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 795.1576574846139,
+        "official_mean_mm": 759.4409341845105,
+        "improvement_mm": 35.71672330010333,
+        "paired_deltas_mm": [
+          3.0180731120211703,
+          106.13055351243128,
+          -1.998456724142443
+        ],
+        "counts": {
+          "improved_gt_1mm": 2,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 1,
+          "strict_positive": 2,
+          "strict_negative": 1
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 160.47850963098034,
+        "official_mean_mm": 171.97863704212233,
+        "improvement_mm": -11.500127411142008,
+        "paired_deltas_mm": [
+          -23.213252775414702,
+          -12.428722440563433,
+          1.1415929825521118
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      }
+    },
+    {
+      "name": "L_Toe",
+      "members": [
+        "L_Toe"
+      ],
+      "absolute15_per_joint_mm": {
+        "automatic_mean_mm": 836.8062342888159,
+        "official_mean_mm": 831.3937504980697,
+        "improvement_mm": 5.412483790746118,
+        "paired_deltas_mm": [
+          -56.17451434261045,
+          75.14790165636833,
+          -2.7359359415195286
+        ],
+        "counts": {
+          "improved_gt_1mm": 1,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 2,
+          "strict_positive": 1,
+          "strict_negative": 2
+        }
+      },
+      "pa15_per_joint_mm": {
+        "automatic_mean_mm": 164.8296065976271,
+        "official_mean_mm": 158.76930176190658,
+        "improvement_mm": 6.060304835720554,
+        "paired_deltas_mm": [
+          11.54221388880758,
+          5.583585738988177,
+          1.0551148793659024
+        ],
+        "counts": {
+          "improved_gt_1mm": 3,
+          "changed_within_1mm": 0,
+          "worsened_gt_1mm": 0,
+          "strict_positive": 3,
+          "strict_negative": 0
+        }
+      }
+    }
+  ],
+  "overall_absolute_automatic_mm": 496.7031457018566,
+  "overall_absolute_official_mm": 485.3825312296479,
+  "pooled_joint_sample_counts": {
+    "improved_gt_1mm": 26,
+    "changed_within_1mm": 3,
+    "worsened_gt_1mm": 16,
+    "strict_positive": 28,
+    "strict_negative": 17
+  }
+}

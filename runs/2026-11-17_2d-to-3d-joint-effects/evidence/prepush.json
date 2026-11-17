@@ -1,0 +1,35 @@
+{
+  "scope": "runs/2026-11-17_2d-to-3d-joint-effects",
+  "baseline_commit": "f10ed89d875715baa069e2b9f488b41aa381fcb6",
+  "remote_main_before_commit": "f10ed89d875715baa069e2b9f488b41aa381fcb6",
+  "command": "Scoped filesystem, working-tree, index and outgoing-commit publication audit; git ls-remote origin refs/heads/main",
+  "exit_status": 0,
+  "checks": {
+    "only_text_code_reports_derived_metrics": true,
+    "no_weights_dataset_video_numpy_arrays_or_full_raw_outputs": true,
+    "all_files_below_50MB": true,
+    "no_env_files_or_detected_credentials": true,
+    "no_host_absolute_paths": true,
+    "no_full_local_provenance_or_patch": true,
+    "preexisting_index_empty": true,
+    "only_this_run_staged_and_to_be_committed": true,
+    "remote_equals_baseline": true
+  },
+  "preexisting_other_worktree_entries": 28,
+  "unrelated_worktree_changes": "Inspected status; excluded from staging and publication, retained as found.",
+  "files": [
+    "runs/2026-11-17_2d-to-3d-joint-effects/analyze.py",
+    "runs/2026-11-17_2d-to-3d-joint-effects/brief.md",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/execution.json",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/mathematical_counterexample.json",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/noise_descriptive.json",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/paired_analysis.json",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/paired_source_metrics.json",
+    "runs/2026-11-17_2d-to-3d-joint-effects/next_brief.md",
+    "runs/2026-11-17_2d-to-3d-joint-effects/report.md",
+    "runs/2026-11-17_2d-to-3d-joint-effects/review.md",
+    "runs/2026-11-17_2d-to-3d-joint-effects/theory.md",
+    "runs/2026-11-17_2d-to-3d-joint-effects/evidence/prepush.json"
+  ],
+  "limitation": "Incremental publication audit only. No full history audit or claim that all unrelated local files meet publication requirements."
+}
