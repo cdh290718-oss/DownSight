@@ -1,0 +1,11 @@
+{
+  "command": "prepare new 2D predictions and apply published affine",
+  "exit_status": 0,
+  "pairs": 10,
+  "images": 20,
+  "fixed_groundtruth_derived_visibility_masks": true,
+  "shape_basis": "rank 0; no 3D observations, mean shape",
+  "reference_head_and_calibration": true,
+  "observation": "all 12 2D points with prior fixed mask; no score threshold",
+  "source": "same fixed S9 test subset as prior diagnostic, not independent test"
+}

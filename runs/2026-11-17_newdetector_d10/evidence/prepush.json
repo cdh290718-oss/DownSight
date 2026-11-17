@@ -1,0 +1,12 @@
+{
+  "command": "scan run, staged files and commit increment; verify remote",
+  "exit_status": 0,
+  "baseline": "645fc676d13a77784189c7e42719bab615993d20",
+  "remote_head": "645fc676d13a77784189c7e42719bab615993d20",
+  "existing_changes_excluded": true,
+  "data_weights_video_npy_npz": false,
+  "credentials_env": false,
+  "machine_paths_redacted": true,
+  "full_provenance_patch": false,
+  "scope": "increment only"
+}

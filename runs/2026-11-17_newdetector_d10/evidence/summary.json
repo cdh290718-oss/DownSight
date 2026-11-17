@@ -1,0 +1,14 @@
+{
+  "command": "fit.py --threads 2; evaluate.py",
+  "fit_exit_status": 0,
+  "evaluate_exit_status": 0,
+  "pairs_requested": 10,
+  "pairs_successful": 10,
+  "mpjpe_mm": 111.34112886272041,
+  "pa_mpjpe_mm": 86.79014631033174,
+  "rmse_euclidean_mm": 140.56394807386053,
+  "convergence_pass": 0,
+  "joints_per_sample": 15,
+  "step_budget": 20000,
+  "description": "non-PA absolute camera-frame; RMSE sqrt mean squared Euclidean joint error; PA similarity transform separately per pose"
+}
