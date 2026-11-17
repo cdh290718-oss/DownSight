@@ -1,0 +1,25 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 20000 feasible 10 / 30 mean loss 0.6980284452438354 elapsed_s 0.0
+step 1000 / 20000 feasible 30 / 30 mean loss 0.019391801208257675 elapsed_s 6.6
+step 2000 / 20000 feasible 30 / 30 mean loss 0.010395792312920094 elapsed_s 13.1
+step 3000 / 20000 feasible 30 / 30 mean loss 0.008313316851854324 elapsed_s 19.6
+step 4000 / 20000 feasible 30 / 30 mean loss 0.007831288501620293 elapsed_s 26.2
+step 5000 / 20000 feasible 30 / 30 mean loss 0.0076436847448349 elapsed_s 32.7
+step 6000 / 20000 feasible 30 / 30 mean loss 0.007468124385923147 elapsed_s 39.3
+step 7000 / 20000 feasible 30 / 30 mean loss 0.0073876348324120045 elapsed_s 45.8
+step 8000 / 20000 feasible 30 / 30 mean loss 0.007329598069190979 elapsed_s 52.3
+step 9000 / 20000 feasible 30 / 30 mean loss 0.007279347162693739 elapsed_s 58.9
+step 10000 / 20000 feasible 30 / 30 mean loss 0.007236863020807505 elapsed_s 65.4
+step 11000 / 20000 feasible 30 / 30 mean loss 0.007226568181067705 elapsed_s 72.0
+step 12000 / 20000 feasible 30 / 30 mean loss 0.007217849139124155 elapsed_s 78.5
+step 13000 / 20000 feasible 30 / 30 mean loss 0.007208539638668299 elapsed_s 85.1
+step 14000 / 20000 feasible 30 / 30 mean loss 0.0071770427748560905 elapsed_s 91.6
+step 15000 / 20000 feasible 30 / 30 mean loss 0.007167126517742872 elapsed_s 98.1
+step 16000 / 20000 feasible 30 / 30 mean loss 0.007156295236200094 elapsed_s 104.7
+step 17000 / 20000 feasible 30 / 30 mean loss 0.007152158301323652 elapsed_s 111.2
+step 18000 / 20000 feasible 30 / 30 mean loss 0.007147108670324087 elapsed_s 117.8
+step 19000 / 20000 feasible 30 / 30 mean loss 0.007139659486711025 elapsed_s 124.4
+step 20000 / 20000 feasible 30 / 30 mean loss 0.007132166530936956 elapsed_s 130.9
+DONE 30 fits

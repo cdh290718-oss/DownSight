@@ -1,0 +1,43 @@
+{
+  "command": "fit.py --threads 2; evaluate.py; aggregate per-joint Euclidean error",
+  "fit_exit_status": 0,
+  "evaluate_exit_status": 0,
+  "results": {
+    "2d": {
+      "success": 10,
+      "mpjpe_mm": 111.34112886272041,
+      "pa_mpjpe_mm": 86.79014631033174,
+      "rmse_euclidean_mm": 140.56394807386053,
+      "convergence_pass": 0
+    },
+    "fixed_mixed": {
+      "success": 10,
+      "mpjpe_mm": 117.79561406510562,
+      "pa_mpjpe_mm": 87.91944690232803,
+      "rmse_euclidean_mm": 150.9055832686732,
+      "convergence_pass": 0
+    },
+    "3d": {
+      "success": 10,
+      "mpjpe_mm": 157.49465201238903,
+      "pa_mpjpe_mm": 123.07034002623405,
+      "rmse_euclidean_mm": 228.21442456925524,
+      "convergence_pass": 0
+    }
+  },
+  "full2d_previous_max_difference_mm": 0.0,
+  "paired": {
+    "fixed_mixed": {
+      "full2d_lower": 5,
+      "other_lower": 5
+    },
+    "3d": {
+      "full2d_lower": 6,
+      "other_lower": 4
+    }
+  },
+  "definition": "absolute camera-frame MPJPE, per-frame similarity PA, RMSE sqrt mean squared Euclidean error; 15 joints per pair",
+  "samples": 10,
+  "methods": 3,
+  "step_budget": 20000
+}

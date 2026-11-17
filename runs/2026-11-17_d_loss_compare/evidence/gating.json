@@ -1,0 +1,1636 @@
+{
+  "command": "prepare.py",
+  "exit_status": 0,
+  "accepted": 86,
+  "total": 120,
+  "records": [
+    {
+      "pair": "body01",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0002127099235449576,
+      "angle_deg": 13.98889016845786,
+      "distances_m": [
+        0.48967599305783194,
+        0.4482183338266591
+      ],
+      "depth_std_m": 0.08099568067576307,
+      "reprojection_max_px": 0.05473475666553315
+    },
+    {
+      "pair": "body01",
+      "joint": "R_Elbow",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.052545019413582576,
+      "angle_deg": 12.90700074837612,
+      "distances_m": [
+        0.4660794624760764,
+        0.4205710141680127
+      ]
+    },
+    {
+      "pair": "body01",
+      "joint": "R_Wrist",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.0875660067107956,
+      "angle_deg": 11.559900179104503,
+      "distances_m": [
+        0.40665409947732595,
+        0.3776977077157652
+      ]
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03993031534691263,
+      "angle_deg": 12.13117963142517,
+      "distances_m": [
+        0.3891684634167017,
+        0.46081623105062314
+      ],
+      "depth_std_m": 0.10183630226559547,
+      "reprojection_max_px": 11.174613225416472
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0007608415109514736,
+      "angle_deg": 8.790223959282505,
+      "distances_m": [
+        0.5673644783631013,
+        0.6456668983204207
+      ],
+      "depth_std_m": 0.1821248148477036,
+      "reprojection_max_px": 0.16421461860237815
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0032919345104291797,
+      "angle_deg": 11.033934189576664,
+      "distances_m": [
+        0.5133427920980622,
+        0.5750824695803447
+      ],
+      "depth_std_m": 0.13681573847915385,
+      "reprojection_max_px": 0.75498418972244
+    },
+    {
+      "pair": "body01",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.014976035999735246,
+      "angle_deg": 9.288672598897689,
+      "distances_m": [
+        0.7419041747712423,
+        0.745328833366913
+      ],
+      "depth_std_m": 0.21806405806876847,
+      "reprojection_max_px": 2.34805374203071
+    },
+    {
+      "pair": "body01",
+      "joint": "R_Knee",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.07330831873914177,
+      "angle_deg": 6.757692023733264,
+      "distances_m": [
+        0.8222142636526016,
+        0.8180878496842893
+      ]
+    },
+    {
+      "pair": "body01",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.059574616023538564,
+      "angle_deg": 5.604360930485271,
+      "distances_m": [
+        1.0830309479966564,
+        1.0790485072931177
+      ]
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.021127880929254907,
+      "angle_deg": 8.944355428242117,
+      "distances_m": [
+        0.7299773931185498,
+        0.7586528485305912
+      ],
+      "depth_std_m": 0.23121533526066254,
+      "reprojection_max_px": 3.3321168157813217
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.028531545666509003,
+      "angle_deg": 6.399453017202816,
+      "distances_m": [
+        1.003122096032171,
+        1.0345855576209797
+      ],
+      "depth_std_m": 0.466327942920833,
+      "reprojection_max_px": 3.2253536194291748
+    },
+    {
+      "pair": "body01",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.04814124658683405,
+      "angle_deg": 6.579731275726876,
+      "distances_m": [
+        0.9209075453277611,
+        0.9506836949144561
+      ]
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.011334650509188146,
+      "angle_deg": 17.554427883214295,
+      "distances_m": [
+        0.3788085633419769,
+        0.3217336211990908
+      ],
+      "depth_std_m": 0.0494641746520523,
+      "reprojection_max_px": 4.19467819044473
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.010513708607705093,
+      "angle_deg": 11.731056934188555,
+      "distances_m": [
+        0.5317298514253039,
+        0.4664116519190341
+      ],
+      "depth_std_m": 0.11874540879209543,
+      "reprojection_max_px": 2.704790125163521
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.001346355545619979,
+      "angle_deg": 15.034910860692394,
+      "distances_m": [
+        0.46794553295190777,
+        0.45139168873914265
+      ],
+      "depth_std_m": 0.08545418164097762,
+      "reprojection_max_px": 0.3445438040976559
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.00881119150244948,
+      "angle_deg": 16.70613009686186,
+      "distances_m": [
+        0.32736419817885687,
+        0.3897299660899675
+      ],
+      "depth_std_m": 0.05187376392034904,
+      "reprojection_max_px": 3.1920199025418494
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.014555433657613841,
+      "angle_deg": 9.737381317164974,
+      "distances_m": [
+        0.5716148424591784,
+        0.6353427985970372
+      ],
+      "depth_std_m": 0.16898690111687498,
+      "reprojection_max_px": 3.013117570943844
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0024567998031764567,
+      "angle_deg": 12.906464625591019,
+      "distances_m": [
+        0.49820104016783345,
+        0.5340748934958071
+      ],
+      "depth_std_m": 0.11065301269827056,
+      "reprojection_max_px": 0.5720760510705716
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0025619935120019914,
+      "angle_deg": 9.355554767655512,
+      "distances_m": [
+        0.7466145621230872,
+        0.7365369855667262
+      ],
+      "depth_std_m": 0.21144615494182484,
+      "reprojection_max_px": 0.4085376721285944
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.015820004360096843,
+      "angle_deg": 7.0244310590545815,
+      "distances_m": [
+        0.9769483119482015,
+        0.9550174744731806
+      ],
+      "depth_std_m": 0.3851934773768755,
+      "reprojection_max_px": 1.9149036806975421
+    },
+    {
+      "pair": "body02",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.017935536955603675,
+      "angle_deg": 5.713187027623905,
+      "distances_m": [
+        1.1864711011102416,
+        1.159008416911941
+      ],
+      "depth_std_m": 0.5888713409356193,
+      "reprojection_max_px": 1.7897376629286583
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.003936519654539239,
+      "angle_deg": 8.962099437460108,
+      "distances_m": [
+        0.7620160173863982,
+        0.7778184352144136
+      ],
+      "depth_std_m": 0.22797957102171482,
+      "reprojection_max_px": 0.6051165808098596
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.039746681836589685,
+      "angle_deg": 8.95195185650578,
+      "distances_m": [
+        0.7163037644896714,
+        0.7346688194818133
+      ],
+      "depth_std_m": 0.26268487628243453,
+      "reprojection_max_px": 6.09654772196848
+    },
+    {
+      "pair": "body02",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.08482974402444242,
+      "angle_deg": 8.504711939994785,
+      "distances_m": [
+        0.5752064791436355,
+        0.5863367097864943
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.014454437566753305,
+      "angle_deg": 15.35770863772143,
+      "distances_m": [
+        0.43396007394819297,
+        0.3821455742137901
+      ],
+      "depth_std_m": 0.06490175192937557,
+      "reprojection_max_px": 4.496116134699855
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.005221659080758749,
+      "angle_deg": 12.46819506875962,
+      "distances_m": [
+        0.5357927543045657,
+        0.4867011847466069
+      ],
+      "depth_std_m": 0.10430370243483024,
+      "reprojection_max_px": 1.2851068096438172
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0059751308898678785,
+      "angle_deg": 13.348833218310576,
+      "distances_m": [
+        0.5245443878095357,
+        0.5044694721629842
+      ],
+      "depth_std_m": 0.10506995255975428,
+      "reprojection_max_px": 1.3775623695247232
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Shoulder",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.04008052323884651,
+      "angle_deg": 13.007522875657706,
+      "distances_m": [
+        0.3841357398182877,
+        0.44948113799431566
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Elbow",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.08440065072352704,
+      "angle_deg": 16.043999579913322,
+      "distances_m": [
+        -0.194024649044081,
+        -0.11763184096542749
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Wrist",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.09773966167320287,
+      "angle_deg": 7.492488145370116,
+      "distances_m": [
+        -0.397294429634783,
+        -0.34389810578411323
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.004201565662024284,
+      "angle_deg": 6.080394597323719,
+      "distances_m": [
+        1.1453450084920596,
+        1.140024265596579
+      ],
+      "depth_std_m": 0.4925376102944524,
+      "reprojection_max_px": 0.4330979525695338
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Knee",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.11826444286951497,
+      "angle_deg": 6.09772703041222,
+      "distances_m": [
+        0.19116243516243597,
+        0.17168322848880826
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.11784349004978599,
+      "angle_deg": 6.93393883382668,
+      "distances_m": [
+        -0.14135364850976548,
+        -0.16396281430018703
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Hip",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.0561779955159374,
+      "angle_deg": 6.4579132289699315,
+      "distances_m": [
+        0.9291884557513017,
+        0.9489675182672586
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Knee",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.08435598507863867,
+      "angle_deg": 4.50773161597118,
+      "distances_m": [
+        1.07065641344384,
+        1.0905971497256384
+      ]
+    },
+    {
+      "pair": "body03",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.12065066422694397,
+      "angle_deg": 3.1961346439722678,
+      "distances_m": [
+        0.09575285336284012,
+        0.10794117431498636
+      ]
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.020368103015867653,
+      "angle_deg": 14.771801417905191,
+      "distances_m": [
+        0.442199843074382,
+        0.38745490520052894
+      ],
+      "depth_std_m": 0.0684607114696447,
+      "reprojection_max_px": 6.192880258249502
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01671416051427715,
+      "angle_deg": 10.791430390559933,
+      "distances_m": [
+        0.6009362382159252,
+        0.5479049083859656
+      ],
+      "depth_std_m": 0.1400947607669,
+      "reprojection_max_px": 3.6237135773752267
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.004081008705977998,
+      "angle_deg": 10.357801332167009,
+      "distances_m": [
+        0.6597066698105687,
+        0.6234240911975693
+      ],
+      "depth_std_m": 0.17110329457817133,
+      "reprojection_max_px": 0.767131929275597
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.02103464130117806,
+      "angle_deg": 20.026694409892656,
+      "distances_m": [
+        0.26485428018588913,
+        0.32673728588230755
+      ],
+      "depth_std_m": 0.03584375085516771,
+      "reprojection_max_px": 9.17675323494765
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Elbow",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.0447312313332035,
+      "angle_deg": 11.907018182457243,
+      "distances_m": [
+        0.40510611429605314,
+        0.4722202646788301
+      ]
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Wrist",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.057984749384563786,
+      "angle_deg": 8.061551354947106,
+      "distances_m": [
+        0.6100808159968283,
+        0.6677329494921057
+      ]
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.009150356362508091,
+      "angle_deg": 9.368905734616702,
+      "distances_m": [
+        0.743525416630224,
+        0.7353816650438997
+      ],
+      "depth_std_m": 0.2113541974842423,
+      "reprojection_max_px": 1.4590064423253668
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.007659057666677097,
+      "angle_deg": 7.551615383029021,
+      "distances_m": [
+        0.9039326963612591,
+        0.8722900417996614
+      ],
+      "depth_std_m": 0.32990348166796635,
+      "reprojection_max_px": 1.0218092233430272
+    },
+    {
+      "pair": "body04",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.04746650548859906,
+      "angle_deg": 8.778192872224924,
+      "distances_m": [
+        0.7269075596532083,
+        0.7050490409868033
+      ]
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03292271380239033,
+      "angle_deg": 8.16382582371339,
+      "distances_m": [
+        0.7982249220238852,
+        0.8185066635226141
+      ],
+      "depth_std_m": 0.29096960563686297,
+      "reprojection_max_px": 4.645071268972949
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.004385376504324991,
+      "angle_deg": 8.228073621573646,
+      "distances_m": [
+        0.7657499070536239,
+        0.8099079547866112
+      ],
+      "depth_std_m": 0.2670265829740303,
+      "reprojection_max_px": 0.6655716488873572
+    },
+    {
+      "pair": "body04",
+      "joint": "L_Ankle",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.019179510396958543,
+      "angle_deg": 7.427403219952578,
+      "distances_m": [
+        0.8871939235723213,
+        0.9146243304668874
+      ],
+      "depth_std_m": 0.3509725132743761,
+      "reprojection_max_px": 2.4609386709973196
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.010465804884547973,
+      "angle_deg": 15.722941690671405,
+      "distances_m": [
+        0.43430225490517477,
+        0.3901796614014509
+      ],
+      "depth_std_m": 0.06351650514594646,
+      "reprojection_max_px": 3.1918907202898565
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.003561567521208742,
+      "angle_deg": 12.283146466874227,
+      "distances_m": [
+        0.5369671740191159,
+        0.4837513899088484
+      ],
+      "depth_std_m": 0.10533554119013126,
+      "reprojection_max_px": 0.8877312867068267
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.007192790492353225,
+      "angle_deg": 14.187414171688232,
+      "distances_m": [
+        0.47909006008372573,
+        0.4345181642946444
+      ],
+      "depth_std_m": 0.08833978168642534,
+      "reprojection_max_px": 1.9444546166193477
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.015678668056932427,
+      "angle_deg": 11.375255474935237,
+      "distances_m": [
+        0.45672235484870793,
+        0.5276059183345015
+      ],
+      "depth_std_m": 0.10552547062661752,
+      "reprojection_max_px": 4.0822273510321
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01601463361939929,
+      "angle_deg": 13.031255286387163,
+      "distances_m": [
+        0.4166703626200974,
+        0.4811321219139324
+      ],
+      "depth_std_m": 0.0985978260776107,
+      "reprojection_max_px": 4.482256933700426
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0044509499365171954,
+      "angle_deg": 18.670014006014565,
+      "distances_m": [
+        0.35872516933595683,
+        0.37897131445909954
+      ],
+      "depth_std_m": 0.05570595395397425,
+      "reprojection_max_px": 1.4204233617846462
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.02734355232837117,
+      "angle_deg": 9.902563968133725,
+      "distances_m": [
+        0.6875245863650546,
+        0.6804310897892157
+      ],
+      "depth_std_m": 0.19457760035121274,
+      "reprojection_max_px": 4.621329936744209
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.009263013712029203,
+      "angle_deg": 7.919115742159442,
+      "distances_m": [
+        0.8665981402138906,
+        0.8384294050109898
+      ],
+      "depth_std_m": 0.29685346505342514,
+      "reprojection_max_px": 1.292996278410472
+    },
+    {
+      "pair": "body05",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.08582393546212366,
+      "angle_deg": 6.570172987500699,
+      "distances_m": [
+        0.694161412110671,
+        0.6569978537478476
+      ]
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.009217405541139815,
+      "angle_deg": 8.601584289426173,
+      "distances_m": [
+        0.7865825062858999,
+        0.8062372155285431
+      ],
+      "depth_std_m": 0.24538792447337426,
+      "reprojection_max_px": 1.3689642429938964
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.024814287073291384,
+      "angle_deg": 6.8030405985651825,
+      "distances_m": [
+        0.9664243153973638,
+        0.9914948469678849
+      ],
+      "depth_std_m": 0.41021779432388683,
+      "reprojection_max_px": 2.935365805669264
+    },
+    {
+      "pair": "body05",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.00601993362666422,
+      "angle_deg": 5.9271416596693145,
+      "distances_m": [
+        1.1407937398078867,
+        1.1633934370471068
+      ],
+      "depth_std_m": 0.5182116079791986,
+      "reprojection_max_px": 0.6174740094664137
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.005274217405447285,
+      "angle_deg": 12.206426820548112,
+      "distances_m": [
+        0.540726791107253,
+        0.4880234668458154
+      ],
+      "depth_std_m": 0.10231868595814009,
+      "reprojection_max_px": 1.2988947188482256
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0076983415988371865,
+      "angle_deg": 10.730988494621124,
+      "distances_m": [
+        0.5735741979939206,
+        0.5063411206730833
+      ],
+      "depth_std_m": 0.13590151970293296,
+      "reprojection_max_px": 1.8459022228349362
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.003430505573127392,
+      "angle_deg": 13.176919229096297,
+      "distances_m": [
+        0.4640889784688896,
+        0.3924279628838492
+      ],
+      "depth_std_m": 0.08939894299158248,
+      "reprojection_max_px": 1.060617168064199
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.022225054870244943,
+      "angle_deg": 13.242049457972808,
+      "distances_m": [
+        0.4112023392168553,
+        0.4735571615750959
+      ],
+      "depth_std_m": 0.08269437900831945,
+      "reprojection_max_px": 6.314830920183346
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.018685974681468938,
+      "angle_deg": 9.607201309667888,
+      "distances_m": [
+        0.49012084995446153,
+        0.5709810951720868
+      ],
+      "depth_std_m": 0.15925900527838185,
+      "reprojection_max_px": 4.53758233040293
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.013040623616311585,
+      "angle_deg": 10.015249589328334,
+      "distances_m": [
+        0.39921683647745926,
+        0.4918602602289114
+      ],
+      "depth_std_m": 0.12836138873934747,
+      "reprojection_max_px": 4.037648245248384
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01359335521507797,
+      "angle_deg": 7.71619579596197,
+      "distances_m": [
+        0.8982677448109373,
+        0.8875959270971965
+      ],
+      "depth_std_m": 0.31436016369177716,
+      "reprojection_max_px": 1.7854501844966584
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.009866198058493904,
+      "angle_deg": 6.5180456616398486,
+      "distances_m": [
+        1.057682575560118,
+        1.0358600381590084
+      ],
+      "depth_std_m": 0.44711535285266174,
+      "reprojection_max_px": 1.1090597444271328
+    },
+    {
+      "pair": "body06",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.012324235289093523,
+      "angle_deg": 4.901525396970115,
+      "distances_m": [
+        1.3996203555614743,
+        1.3776490296974238
+      ],
+      "depth_std_m": 0.7945676635476686,
+      "reprojection_max_px": 1.04045106896847
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.006530171257521504,
+      "angle_deg": 9.222531983506729,
+      "distances_m": [
+        0.7414375323032653,
+        0.7558145047556614
+      ],
+      "depth_std_m": 0.21845838045158375,
+      "reprojection_max_px": 1.026589534477532
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.006212108591159573,
+      "angle_deg": 6.492712178877669,
+      "distances_m": [
+        1.038372452982665,
+        1.0619154846242425
+      ],
+      "depth_std_m": 0.44830119892709397,
+      "reprojection_max_px": 0.6918691848641695
+    },
+    {
+      "pair": "body06",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.0070058451999859585,
+      "angle_deg": 5.367533740963347,
+      "distances_m": [
+        1.2612803934086374,
+        1.2834563177014837
+      ],
+      "depth_std_m": 0.6609515214999417,
+      "reprojection_max_px": 0.6432150675920718
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.034783707436636835,
+      "angle_deg": 14.427078652065541,
+      "distances_m": [
+        0.442059957680121,
+        0.3907438319462071
+      ],
+      "depth_std_m": 0.07704453811053256,
+      "reprojection_max_px": 10.098042295945836
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.00015273337264041,
+      "angle_deg": 10.630901469161419,
+      "distances_m": [
+        0.6111379046926069,
+        0.5556355872514871
+      ],
+      "depth_std_m": 0.1407140405532867,
+      "reprojection_max_px": 0.03375912275969821
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01370886839688225,
+      "angle_deg": 10.852943336641792,
+      "distances_m": [
+        0.6091925726933606,
+        0.5609827608759246
+      ],
+      "depth_std_m": 0.15152810327537414,
+      "reprojection_max_px": 2.8717384304049616
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.017398019523817837,
+      "angle_deg": 9.915537201694926,
+      "distances_m": [
+        0.5708951246412662,
+        0.6314365200552585
+      ],
+      "depth_std_m": 0.15746386370492707,
+      "reprojection_max_px": 3.6012465868707766
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.02346347563276462,
+      "angle_deg": 11.026704224007734,
+      "distances_m": [
+        0.49221972418835874,
+        0.5560944111999157
+      ],
+      "depth_std_m": 0.1358733958888637,
+      "reprojection_max_px": 5.532502483740916
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0008714650007861088,
+      "angle_deg": 9.923421217587821,
+      "distances_m": [
+        0.6078727203601776,
+        0.6601196344825582
+      ],
+      "depth_std_m": 0.17145823718966158,
+      "reprojection_max_px": 0.16902087005442948
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.015125440549357534,
+      "angle_deg": 9.809754875958186,
+      "distances_m": [
+        0.706414351758956,
+        0.7008521514574019
+      ],
+      "depth_std_m": 0.19568342371455238,
+      "reprojection_max_px": 2.5119043881126752
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0211539230479174,
+      "angle_deg": 12.191671814688661,
+      "distances_m": [
+        0.5653316732633709,
+        0.5586015993174768
+      ],
+      "depth_std_m": 0.13192173063577156,
+      "reprojection_max_px": 4.347445748683016
+    },
+    {
+      "pair": "body07",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.05304570754851497,
+      "angle_deg": 15.342044015259233,
+      "distances_m": [
+        0.4103269011750922,
+        0.4074162538773496
+      ]
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01624743466516181,
+      "angle_deg": 10.1079694037886,
+      "distances_m": [
+        0.665053195892426,
+        0.6838842198152815
+      ],
+      "depth_std_m": 0.1840574087974364,
+      "reprojection_max_px": 2.827494911413802
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Knee",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.049655508972242274,
+      "angle_deg": 13.316437523331226,
+      "distances_m": [
+        0.4605346880247752,
+        0.4800870146617621
+      ]
+    },
+    {
+      "pair": "body07",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.06690780830774555,
+      "angle_deg": 15.957387939442556,
+      "distances_m": [
+        0.3510221775421879,
+        0.36827986620303604
+      ]
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.009190884071487167,
+      "angle_deg": 15.036871999470044,
+      "distances_m": [
+        0.4513054674126687,
+        0.4051365092508278
+      ],
+      "depth_std_m": 0.0715155685290016,
+      "reprojection_max_px": 2.7108527278741508
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.024599127861553948,
+      "angle_deg": 10.420209189414816,
+      "distances_m": [
+        0.6190439094756537,
+        0.568881622307267
+      ],
+      "depth_std_m": 0.16512215101177663,
+      "reprojection_max_px": 5.045974364229849
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.004574798167191595,
+      "angle_deg": 12.44933372942016,
+      "distances_m": [
+        0.5627024098557355,
+        0.5482882931315235
+      ],
+      "depth_std_m": 0.1231172255404167,
+      "reprojection_max_px": 0.9695129350692921
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.012681346476838218,
+      "angle_deg": 13.884480604904105,
+      "distances_m": [
+        0.36541190943239377,
+        0.4377268253036983
+      ],
+      "depth_std_m": 0.06958233571430776,
+      "reprojection_max_px": 4.122736962696653
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0011969797198739772,
+      "angle_deg": 6.837640165239498,
+      "distances_m": [
+        0.7518054724769536,
+        0.8284602661162159
+      ],
+      "depth_std_m": 0.2979660420234676,
+      "reprojection_max_px": 0.19399788560795703
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0008382736515410868,
+      "angle_deg": 11.00636361037029,
+      "distances_m": [
+        0.5500225945390061,
+        0.6008123810761793
+      ],
+      "depth_std_m": 0.14344983693233052,
+      "reprojection_max_px": 0.17868438520553268
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.008387759004508482,
+      "angle_deg": 7.288476680156849,
+      "distances_m": [
+        0.9523497618714443,
+        0.9529898379048279
+      ],
+      "depth_std_m": 0.3494333086771738,
+      "reprojection_max_px": 1.0327526238300935
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Knee",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.03832038425865963,
+      "angle_deg": 5.23978936922265,
+      "distances_m": [
+        1.2611959546852438,
+        1.2542088834258278
+      ],
+      "depth_std_m": 0.7598404527472808,
+      "reprojection_max_px": 3.3818886985255685
+    },
+    {
+      "pair": "body08",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.04120420368335275,
+      "angle_deg": 5.270167143125665,
+      "distances_m": [
+        1.2430425186875722,
+        1.235964089485882
+      ]
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.014823526470718856,
+      "angle_deg": 6.836793519420345,
+      "distances_m": [
+        0.9734834418762303,
+        0.9995493899667164
+      ],
+      "depth_std_m": 0.38957605078415786,
+      "reprojection_max_px": 1.7706545644975542
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01911187058004285,
+      "angle_deg": 6.4448684348643175,
+      "distances_m": [
+        1.0185358469654553,
+        1.0481712022057437
+      ],
+      "depth_std_m": 0.4555333283026322,
+      "reprojection_max_px": 2.1549951306041177
+    },
+    {
+      "pair": "body08",
+      "joint": "L_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.017423569902382766,
+      "angle_deg": 4.387251979548899,
+      "distances_m": [
+        1.5136777090881515,
+        1.5412720546282173
+      ],
+      "depth_std_m": 0.9883941723676081,
+      "reprojection_max_px": 1.323194321053536
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.001445649499138508,
+      "angle_deg": 18.65679177319506,
+      "distances_m": [
+        0.3687877614937832,
+        0.32082233435320323
+      ],
+      "depth_std_m": 0.04703022540571643,
+      "reprojection_max_px": 0.5355956159117102
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.003877836480804778,
+      "angle_deg": 13.853644465357991,
+      "distances_m": [
+        0.4884616014430186,
+        0.44195762187853926
+      ],
+      "depth_std_m": 0.09333236634455988,
+      "reprojection_max_px": 1.0278796982915341
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0006845764869360953,
+      "angle_deg": 11.566740279432777,
+      "distances_m": [
+        0.5955259350358846,
+        0.5615585464541093
+      ],
+      "depth_std_m": 0.13775806700537477,
+      "reprojection_max_px": 0.14362654944376962
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.00420928202772368,
+      "angle_deg": 12.60005034757732,
+      "distances_m": [
+        0.4237206382988215,
+        0.49210269566500076
+      ],
+      "depth_std_m": 0.08165813380057416,
+      "reprojection_max_px": 1.1812238165993376
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Elbow",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.06984881526639053,
+      "angle_deg": 3.0012494777769256,
+      "distances_m": [
+        0.5988714597457687,
+        0.692258663095156
+      ]
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Wrist",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.05483956588317171,
+      "angle_deg": 3.174497463211916,
+      "distances_m": [
+        -0.40204020693203496,
+        -0.2954316013632349
+      ]
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.018721988398242028,
+      "angle_deg": 7.612138229292612,
+      "distances_m": [
+        0.8954267809450983,
+        0.9053546811332396
+      ],
+      "depth_std_m": 0.32016214079195326,
+      "reprojection_max_px": 2.4301784144586005
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.018114390886079388,
+      "angle_deg": 7.048259606905349,
+      "distances_m": [
+        0.9735385129059612,
+        0.9779656906309424
+      ],
+      "depth_std_m": 0.38192228100113584,
+      "reprojection_max_px": 2.15331453144251
+    },
+    {
+      "pair": "body09",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.004374756931368058,
+      "angle_deg": 5.584045958640153,
+      "distances_m": [
+        1.2418799923042536,
+        1.2467264036792105
+      ],
+      "depth_std_m": 0.5891517957694055,
+      "reprojection_max_px": 0.4143214787151677
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.007242020049112281,
+      "angle_deg": 6.912481587951159,
+      "distances_m": [
+        0.9392802447813445,
+        0.97610601078638
+      ],
+      "depth_std_m": 0.35769768308897304,
+      "reprojection_max_px": 0.9071492154442782
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03920551179548666,
+      "angle_deg": 7.906721688771846,
+      "distances_m": [
+        0.7605829442470337,
+        0.8008238490650598
+      ],
+      "depth_std_m": 0.3226287439886738,
+      "reprojection_max_px": 5.688831924558907
+    },
+    {
+      "pair": "body09",
+      "joint": "L_Ankle",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03206801893767803,
+      "angle_deg": 7.480417421322268,
+      "distances_m": [
+        0.8315934472569961,
+        0.8691039017010079
+      ],
+      "depth_std_m": 0.32985115862172104,
+      "reprojection_max_px": 4.355781866508667
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.012137305304607673,
+      "angle_deg": 18.108071546165462,
+      "distances_m": [
+        0.36871758842496366,
+        0.31229115877360836
+      ],
+      "depth_std_m": 0.04709461115772702,
+      "reprojection_max_px": 4.617220340548015
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Elbow",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0020028793230137724,
+      "angle_deg": 13.720459657424,
+      "distances_m": [
+        0.4784903879939575,
+        0.42178848089085996
+      ],
+      "depth_std_m": 0.09066764625784834,
+      "reprojection_max_px": 0.5627529778405109
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Wrist",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.0030546843216785247,
+      "angle_deg": 18.254468345821863,
+      "distances_m": [
+        0.38242645561085487,
+        0.34373313261605454
+      ],
+      "depth_std_m": 0.05374778206182909,
+      "reprojection_max_px": 1.0411737786574315
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Shoulder",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03252809664489449,
+      "angle_deg": 14.973250371237974,
+      "distances_m": [
+        0.35617424412947063,
+        0.41626669917400366
+      ],
+      "depth_std_m": 0.06665833073654377,
+      "reprojection_max_px": 10.330327133645635
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Elbow",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.09438731429973213,
+      "angle_deg": 14.81542819045373,
+      "distances_m": [
+        0.14267779720437182,
+        0.2049961365126204
+      ]
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Wrist",
+      "accepted": false,
+      "reason": "geometry",
+      "gap_m": 0.09103992624148546,
+      "angle_deg": 15.957687815155479,
+      "distances_m": [
+        0.21163937084533588,
+        0.25883251699810106
+      ]
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.02260246846824991,
+      "angle_deg": 6.203612101230191,
+      "distances_m": [
+        1.1029752852429773,
+        1.0920193196556747
+      ],
+      "depth_std_m": 0.4884085742614452,
+      "reprojection_max_px": 2.399895935334265
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.014940304297449594,
+      "angle_deg": 7.409564889505197,
+      "distances_m": [
+        0.9293868018732853,
+        0.9094232418887626
+      ],
+      "depth_std_m": 0.35289721503205634,
+      "reprojection_max_px": 1.8940545233293982
+    },
+    {
+      "pair": "body10",
+      "joint": "R_Ankle",
+      "accepted": false,
+      "reason": "depth_or_reprojection",
+      "gap_m": 0.030114062753240963,
+      "angle_deg": 4.538327811487563,
+      "distances_m": [
+        1.479439268378085,
+        1.4635352425438706
+      ],
+      "depth_std_m": 0.9587579440395191,
+      "reprojection_max_px": 2.3316902466939853
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Hip",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.01889401274960042,
+      "angle_deg": 7.433415848271251,
+      "distances_m": [
+        0.9077870855082091,
+        0.9243905143383351
+      ],
+      "depth_std_m": 0.3335913916789638,
+      "reprojection_max_px": 2.411314175958937
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Knee",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.03910976917374352,
+      "angle_deg": 8.181118356767902,
+      "distances_m": [
+        0.7874350683479291,
+        0.8049475411407396
+      ],
+      "depth_std_m": 0.3076546044049245,
+      "reprojection_max_px": 5.477433637119976
+    },
+    {
+      "pair": "body10",
+      "joint": "L_Ankle",
+      "accepted": true,
+      "reason": "accepted",
+      "gap_m": 0.020345633593768918,
+      "angle_deg": 7.668036305400583,
+      "distances_m": [
+        0.8846963972546069,
+        0.8964835127361813
+      ],
+      "depth_std_m": 0.32159642128548993,
+      "reprojection_max_px": 2.653643766405246
+    }
+  ]
+}
