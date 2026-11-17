@@ -1,0 +1,25 @@
+{
+  "command": "derive paired PA counts, joint changes and relative reductions from summary.json",
+  "exit_status": 0,
+  "non_pa_relative_reduction_percent": 13.553129502581202,
+  "pa_relative_reduction_percent": 15.250307089542682,
+  "joint_mean_worsened": [
+    {
+      "name": "R_Shoulder",
+      "old_mm": 21.949682960632497,
+      "new_mm": 23.88007211272442
+    },
+    {
+      "name": "R_Elbow",
+      "old_mm": 28.065843342142596,
+      "new_mm": 29.312635555182574
+    },
+    {
+      "name": "L_Shoulder",
+      "old_mm": 48.34633265213959,
+      "new_mm": 52.66235913956681
+    }
+  ],
+  "per_pair_pa_new_lower": 8,
+  "per_pair_pa_new_higher": 2
+}

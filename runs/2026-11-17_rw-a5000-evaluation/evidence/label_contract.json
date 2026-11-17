@@ -1,0 +1,28 @@
+{
+  "command": "compare train/test prepared metadata joint names, bones and units",
+  "exit_status": 0,
+  "matching_fields": [
+    "train_joint_names",
+    "fit_joint_names",
+    "unrealego_train_bones",
+    "unit_scale_to_meters"
+  ],
+  "test_joint_names": [
+    "Neck",
+    "R_Shoulder",
+    "R_Elbow",
+    "R_Wrist",
+    "L_Shoulder",
+    "L_Elbow",
+    "L_Wrist",
+    "R_Hip",
+    "R_Knee",
+    "R_Ankle",
+    "R_Toe",
+    "L_Hip",
+    "L_Knee",
+    "L_Ankle",
+    "L_Toe"
+  ],
+  "limitation": "Metadata agreement does not independently certify projected joint accuracy or visibility."
+}

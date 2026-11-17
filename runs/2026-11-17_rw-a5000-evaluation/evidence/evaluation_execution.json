@@ -1,0 +1,6 @@
+{
+  "command": "<BODY_PYTHON> evaluate.py; python code/summarize.py",
+  "evaluate_exit_status": 0,
+  "summarize_exit_status": 0,
+  "stdout": "<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.\n  warnings.warn(\nWARNING: You are using a SMPL model, with only 10 shape coefficients.\nEvaluated 30 records; failures 0\n"
+}

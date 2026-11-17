@@ -1,0 +1,20 @@
+{
+  "execution_baseline": "de26a4764c549d96d4832ca4aa005bea2854e466",
+  "working_tree": "new evaluation run plus existing unrelated changes, no external edits",
+  "sapiens_commit": "7e5bae88456ac418ff0e58e74106c9fe192055d4",
+  "sapiens_status": "",
+  "code_sha256": {
+    "code/evaluate_2d.py": "43ac34292b5fcb81c6419c4e029de0d03a0990dda6026222eca6b46eb914c7ef",
+    "code/prepare_fit.py": "345e5955d5a4c59c723a54d23439abe5896fdd46b847622b89e9af5d57a6f8a9",
+    "code/prepare_test.py": "169b77474b5a2ce378dc99cb407f42acf22df5622310f2d2bcce0be2ae6f4018",
+    "code/summarize.py": "687b98ad90bef3080a0da56c4a6be47fbbd67eb51bcd88f100aa6f60fef3266b",
+    "code/verify_evidence.py": "168f5ac2072f7910ca5fd9363174428ba61721d97f259dc912f16ea7d3224a20",
+    "common.py": "919cf7d53d8a0f94caad575a496c0743fc318ec787a5dfeb9dba2606d339f100",
+    "evaluate.py": "9f0eb04dd5680f0af60e2fdb8a68ab47eae1de182190dc172357bbeb9099320b",
+    "fit.py": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+  },
+  "fit_source": "runs/2026-11-17_newdetector_d10; same fit and geometry; common output destination and evaluator command label adapted",
+  "command": "git metadata and SHA-256 source inventory",
+  "exit_status": 0
+}

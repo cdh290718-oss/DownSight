@@ -1,0 +1,6 @@
+{
+  "command": "<TRAIN_PYTHON> code/evaluate_2d.py",
+  "exit_status": 0,
+  "stdout": "original validation mean_px 43.345393347896255\noriginal same_person 100 / 100\noriginal same_person mean_px 107.08884911178474\noriginal test_available mean_px 78.31032752611176\nrw500 validation 100 / 400\nrw500 validation 200 / 400\nrw500 validation 300 / 400\nrw500 validation 400 / 400\nrw500 validation mean_px 21.359975161399763\nrw500 same_person 100 / 100\nrw500 same_person mean_px 17.80945894593497\nrw500 test_available mean_px 15.089009632839907\nrw5000 validation mean_px 12.534063599086778\nrw5000 same_person 100 / 100\nrw5000 same_person mean_px 13.364817636722426\nrw5000 test_available mean_px 10.829226972263237\nALL DETECTOR EVALUATIONS COMPLETE\n",
+  "scope": "three models; original/new validation reuse verified saved predictions; all other listed evaluations executed"
+}

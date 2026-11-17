@@ -1,0 +1,37 @@
+{
+  "command": "python code/prepare_test.py",
+  "exit_status": 0,
+  "requested_images": 200,
+  "recovered_candidate_images": 48,
+  "paired_evaluated_images": 46,
+  "paired_evaluated_pairs": 23,
+  "subjects": [
+    "S9"
+  ],
+  "sequences": [
+    "studio/2023_08_23/S9/seq_1-0-11",
+    "studio/2023_08_23/S9/seq_1-0-5",
+    "studio/2023_08_23/S9/seq_1-0-7",
+    "studio/2023_08_23/S9/seq_1-0-8",
+    "studio/2023_08_23/S9/seq_1-1-0",
+    "studio/2023_08_23/S9/seq_1-1-1",
+    "studio/2023_08_23/S9/seq_1-1-14",
+    "studio/2023_08_23/S9/seq_1-1-19",
+    "studio/2023_08_23/S9/seq_1-1-2",
+    "studio/2023_08_23/S9/seq_1-1-23",
+    "studio/2023_08_23/S9/seq_1-1-5",
+    "studio/2023_08_23/S9/seq_1-1-7"
+  ],
+  "archive_members_read": 10943,
+  "archived_image_headers_by_subject": {
+    "S9": 10848
+  },
+  "archive_bytes": 7634717831,
+  "archive_error": "ReadError: unexpected end of data",
+  "archive_complete": false,
+  "source_npz_sha256": "acf9b050dfe145acc5a5723a7a3da384811fba0b111e7af9ef6ed7d448fbc9f8",
+  "manifest_sha256": "d451858efc520283e76afda418dd62441403d116b60d0e8360a263153f946607",
+  "frozen_selection_sha256": "6bba850b8cf580704d4111b797792dfc75ea23aa8166a51ad4c008c8fa53b6e6",
+  "elapsed_seconds": 23.053540468215942,
+  "scope": "Availability-selected subset of previously frozen candidates; not full 200-image test; old S9 diagnostic sequences excluded; historical use outside this round not exhaustively audited."
+}

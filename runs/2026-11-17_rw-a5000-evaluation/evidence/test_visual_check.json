@@ -1,0 +1,8 @@
+{
+  "command": "view_image on first, middle and last recovered test examples with projected labels",
+  "exit_status": 0,
+  "images_reviewed": 3,
+  "overlay_sha256": "d28009771380461d28f44aca3df89eb899a5356266889c4c4e1936f306d77fbd",
+  "observation": "Visible arms and wrists broadly match projected labels; head/torso occludes several shoulder/hip/leg projections. No obvious whole-image coordinate shift in these examples.",
+  "limitation": "Sample check only; not independent certification of all joints or visibility."
+}

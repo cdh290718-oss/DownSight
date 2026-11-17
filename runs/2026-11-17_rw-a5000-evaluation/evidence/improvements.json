@@ -1,0 +1,15 @@
+{
+  "command": "relative error reductions from 2d_summary.json",
+  "exit_status": 0,
+  "results": {
+    "validation": {
+      "new_vs_rw500_error_reduction_percent": 41.319858734023946
+    },
+    "same_person": {
+      "new_vs_rw500_error_reduction_percent": 24.9566330044352
+    },
+    "test_available": {
+      "new_vs_rw500_error_reduction_percent": 28.231028836416318
+    }
+  }
+}

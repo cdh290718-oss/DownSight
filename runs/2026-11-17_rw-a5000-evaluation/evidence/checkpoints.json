@@ -1,0 +1,32 @@
+{
+  "sha256": {
+    "original": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+    "rw500": "a68da3e49340af625ebbf6308802a6e1ac38c851ba87261f699c66d5cd3b54e8",
+    "rw5000": "3879e3a8879128955d371844ba43e96ed643f1cb088fe7ce7df60aec6cc5bf66"
+  },
+  "training_exit": {
+    "exit_code": 0,
+    "elapsed_seconds": 2984.037674188614,
+    "finished_utc": "2026-11-17T13:11:01.201279+00:00"
+  },
+  "training_status": {
+    "state": "completed",
+    "best_epoch": 1,
+    "elapsed_seconds": 2947.6829867362976,
+    "step": 1250
+  },
+  "best": {
+    "epoch": 1,
+    "mean_px": 12.534063599086778,
+    "base_checkpoint_sha256": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+    "note": "epoch 0 means original checkpoint wins; adapter contains replacement parameters and head buffers; load exact base strictly then overlay adapter with strict=False"
+  },
+  "old_training": {
+    "state": "completed",
+    "best_epoch": 1,
+    "elapsed_seconds": 3260.7394676208496,
+    "step": 1250
+  },
+  "command": "hash checkpoints and verify completed training state",
+  "exit_status": 0
+}

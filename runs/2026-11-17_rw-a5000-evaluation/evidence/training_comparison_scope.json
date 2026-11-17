@@ -1,0 +1,22 @@
+{
+  "original": "official checkpoint",
+  "rw500": {
+    "selected_epoch": 1,
+    "train_images": 500,
+    "effective_batch": 4,
+    "selected_checkpoint_optimizer_updates": 125,
+    "configured_total_epochs": 10,
+    "chosen_using": "old S5 validation"
+  },
+  "rw5000": {
+    "selected_epoch": 1,
+    "train_images": 5000,
+    "effective_batch": 4,
+    "selected_checkpoint_optimizer_updates": 1250,
+    "configured_total_epochs": 1,
+    "chosen_using": "expanded 400-image validation"
+  },
+  "interpretation": "Comparison of selected detector checkpoints, not matched-update causal evidence for dataset size alone. New model receives more optimizer updates than old epoch1.",
+  "command": "summarize selected checkpoint training exposure from run configurations",
+  "exit_status": 0
+}
