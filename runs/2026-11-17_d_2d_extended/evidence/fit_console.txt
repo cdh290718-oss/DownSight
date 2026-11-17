@@ -1,0 +1,45 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 40000 feasible 2 / 10 mean loss 0.7897549867630005 elapsed_s 0.0
+step 1000 / 40000 feasible 10 / 10 mean loss 0.022440005093812943 elapsed_s 6.1
+step 2000 / 40000 feasible 10 / 10 mean loss 0.01451574545353651 elapsed_s 12.0
+step 3000 / 40000 feasible 10 / 10 mean loss 0.011895539239048958 elapsed_s 17.9
+step 4000 / 40000 feasible 10 / 10 mean loss 0.01134573109447956 elapsed_s 23.7
+step 5000 / 40000 feasible 10 / 10 mean loss 0.01120825856924057 elapsed_s 29.5
+step 6000 / 40000 feasible 10 / 10 mean loss 0.010973894037306309 elapsed_s 35.4
+step 7000 / 40000 feasible 10 / 10 mean loss 0.010967266745865345 elapsed_s 41.2
+step 8000 / 40000 feasible 10 / 10 mean loss 0.010972478426992893 elapsed_s 47.0
+step 9000 / 40000 feasible 10 / 10 mean loss 0.010970478877425194 elapsed_s 52.8
+step 10000 / 40000 feasible 10 / 10 mean loss 0.010970225557684898 elapsed_s 58.6
+step 11000 / 40000 feasible 10 / 10 mean loss 0.01097089983522892 elapsed_s 64.5
+step 12000 / 40000 feasible 10 / 10 mean loss 0.01098710484802723 elapsed_s 70.3
+step 13000 / 40000 feasible 10 / 10 mean loss 0.011019797995686531 elapsed_s 76.1
+step 14000 / 40000 feasible 10 / 10 mean loss 0.010983125306665897 elapsed_s 82.0
+step 15000 / 40000 feasible 10 / 10 mean loss 0.011003298684954643 elapsed_s 87.8
+step 16000 / 40000 feasible 10 / 10 mean loss 0.011015908792614937 elapsed_s 93.6
+step 17000 / 40000 feasible 10 / 10 mean loss 0.01102575846016407 elapsed_s 99.4
+step 18000 / 40000 feasible 10 / 10 mean loss 0.011040443554520607 elapsed_s 105.3
+step 19000 / 40000 feasible 10 / 10 mean loss 0.011052701622247696 elapsed_s 111.1
+step 20000 / 40000 feasible 10 / 10 mean loss 0.011064520105719566 elapsed_s 116.9
+step 21000 / 40000 feasible 10 / 10 mean loss 0.011072097346186638 elapsed_s 122.8
+step 22000 / 40000 feasible 10 / 10 mean loss 0.011079760268330574 elapsed_s 128.6
+step 23000 / 40000 feasible 10 / 10 mean loss 0.011085383594036102 elapsed_s 134.4
+step 24000 / 40000 feasible 10 / 10 mean loss 0.011089334264397621 elapsed_s 140.2
+step 25000 / 40000 feasible 10 / 10 mean loss 0.011091903783380985 elapsed_s 146.1
+step 26000 / 40000 feasible 10 / 10 mean loss 0.011093628592789173 elapsed_s 151.9
+step 27000 / 40000 feasible 10 / 10 mean loss 0.011095034889876842 elapsed_s 157.7
+step 28000 / 40000 feasible 10 / 10 mean loss 0.011095670983195305 elapsed_s 163.5
+step 29000 / 40000 feasible 10 / 10 mean loss 0.011095331981778145 elapsed_s 169.4
+step 30000 / 40000 feasible 10 / 10 mean loss 0.011094406247138977 elapsed_s 175.2
+step 31000 / 40000 feasible 10 / 10 mean loss 0.011095247231423855 elapsed_s 181.0
+step 32000 / 40000 feasible 10 / 10 mean loss 0.011096618138253689 elapsed_s 186.8
+step 33000 / 40000 feasible 10 / 10 mean loss 0.011097261682152748 elapsed_s 192.7
+step 34000 / 40000 feasible 10 / 10 mean loss 0.011097213253378868 elapsed_s 198.7
+step 35000 / 40000 feasible 10 / 10 mean loss 0.011096687987446785 elapsed_s 204.8
+step 36000 / 40000 feasible 10 / 10 mean loss 0.011095808818936348 elapsed_s 210.9
+step 37000 / 40000 feasible 10 / 10 mean loss 0.011094673536717892 elapsed_s 217.0
+step 38000 / 40000 feasible 10 / 10 mean loss 0.011093687266111374 elapsed_s 223.1
+step 39000 / 40000 feasible 10 / 10 mean loss 0.011092525906860828 elapsed_s 229.2
+step 40000 / 40000 feasible 10 / 10 mean loss 0.011091222986578941 elapsed_s 235.3
+DONE 10 fits

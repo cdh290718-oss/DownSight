@@ -1,0 +1,122 @@
+{
+  "baseline_commit": "c662eb7eda530e041a4470216a78fbc8148062f3",
+  "pairs": [
+    "body01",
+    "body02",
+    "body03",
+    "body04",
+    "body05",
+    "body06",
+    "body07",
+    "body08",
+    "body09",
+    "body10"
+  ],
+  "methods": [
+    "2d"
+  ],
+  "conditions": [
+    "baseline"
+  ],
+  "intervention": "xy_new = xy_prediction + alpha * (xy_official_reference - xy_prediction); all_half alpha=0.5; other corrected conditions alpha=1; local conditions replace both left and right joints in both existing views",
+  "observation_joints": [
+    "R_Shoulder",
+    "R_Elbow",
+    "R_Wrist",
+    "L_Shoulder",
+    "L_Elbow",
+    "L_Wrist",
+    "R_Hip",
+    "R_Knee",
+    "R_Ankle",
+    "L_Hip",
+    "L_Knee",
+    "L_Ankle"
+  ],
+  "observation_policy": "Fixed finite baseline predicted coordinates and in-frame valid reference; no score threshold for the coordinate-only diagnostic. Retain low-confidence detections. No synthetic coordinates for absent detections.",
+  "primary": "2d method at 20000 steps, non-PA mean joint Euclidean distance",
+  "secondary": "Fixed mixed method and extended 40000-step optimization; PA supplementary only",
+  "fixed_mixed_route": "Use archived baseline accepted 3D targets and their covariances; otherwise use the same valid 2D views. Retriangulate only coordinates of already accepted 3D targets. Never change mask, covariance, group normalizer or shape subspace across interventions.",
+  "shape_policy": "One baseline-geometry observable basis per pair, shared by both methods and all conditions; zero initial shape and template body pose",
+  "sigma_px_fixed": 8.0,
+  "metric_loss_weight": 0.01,
+  "metric_huber_delta": 2.5,
+  "shoulder_weight": 0.25,
+  "head_position_sigma_m": 0.015,
+  "head_rotation_sigma_deg": 3.0,
+  "head_position_weight": 0.01,
+  "head_rotation_weight": 0.01,
+  "pose_prior_weight": 0.0008,
+  "shape_prior_weight": 0.001,
+  "shape_information_threshold": 1.0,
+  "minimum_observed_joint_z_m": 0.0001,
+  "pose_lr": 0.0015,
+  "rotation_lr": 0.0015,
+  "translation_lr": 0.003,
+  "shape_lr": 0.003,
+  "budgets": [
+    20000,
+    40000
+  ],
+  "checkpoint_steps": 20,
+  "trace_steps": 100,
+  "lr_schedule": [
+    [
+      0,
+      1.0
+    ],
+    [
+      10000,
+      0.25
+    ],
+    [
+      16000,
+      0.1
+    ],
+    [
+      20000,
+      0.05
+    ],
+    [
+      30000,
+      0.02
+    ]
+  ],
+  "selection": "Lowest feasible training objective at fixed checkpoints, no body-3D GT or output 3D error used",
+  "convergence": {
+    "window_steps": 1000,
+    "relative_loss_change_max": 0.001,
+    "max_joint_motion_mm": 0.1
+  },
+  "statistics": {
+    "unit": "one fixed pose from each of ten distinct sequences of subject S9",
+    "practical_change_mm": 1.0,
+    "bootstrap_draws": 10000,
+    "bootstrap_seed": 20261117,
+    "simultaneous_family": "all eight interventions times all fifteen evaluation joints, within each method and budget",
+    "coverage": 0.95,
+    "interpretation": "Descriptive sequence-resampling sensitivity for a convenience sample, not cross-subject population inference"
+  },
+  "absolute_pose_caps_deg": {
+    "L_Hip": 150.0,
+    "R_Hip": 150.0,
+    "Spine_1": 60.0,
+    "L_Knee": 165.0,
+    "R_Knee": 165.0,
+    "Spine_2": 60.0,
+    "L_Ankle": 90.0,
+    "R_Ankle": 90.0,
+    "Spine_3": 60.0,
+    "Neck": 60.0,
+    "L_Collar": 60.0,
+    "R_Collar": 60.0,
+    "Head": 60.0,
+    "L_Shoulder": 175.0,
+    "R_Shoulder": 175.0,
+    "L_Elbow": 165.0,
+    "R_Elbow": 165.0,
+    "L_Wrist": 100.0,
+    "R_Wrist": 100.0
+  },
+  "scope": "Reconstruct same Adam trajectory from start, save at 20000 and continue to 40000; full 2D only"
+}

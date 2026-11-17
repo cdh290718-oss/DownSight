@@ -1,0 +1,26 @@
+{
+  "command": "fit.py --threads 2; evaluate.py; compare original 20000 results",
+  "fit_exit_status": 0,
+  "evaluate_exit_status": 0,
+  "metrics": {
+    "20000": {
+      "mpjpe_mm": 111.34112886272041,
+      "pa_mpjpe_mm": 86.79014631033174,
+      "rmse_mm": 140.56394807386053,
+      "success": 10,
+      "convergence_pass": 0,
+      "relative_loss_change_max": 0.006926558774061113,
+      "joint_motion_mm_max": 3.426518354868327
+    },
+    "40000": {
+      "mpjpe_mm": 111.46063974420065,
+      "pa_mpjpe_mm": 86.93269676338146,
+      "rmse_mm": 140.81898191856845,
+      "success": 10,
+      "convergence_pass": 1,
+      "relative_loss_change_max": 0.001749319463557169,
+      "joint_motion_mm_max": 2.8660187506666372
+    }
+  },
+  "prior_20000_max_difference_mm": 0.0
+}

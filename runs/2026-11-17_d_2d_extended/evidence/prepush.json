@@ -1,0 +1,12 @@
+{
+  "command": "scan workspace, staged files, commit increment and remote",
+  "exit_status": 0,
+  "baseline": "64c2f9241f8654674353be1a09691ee89dc5006d",
+  "remote_head": "64c2f9241f8654674353be1a09691ee89dc5006d",
+  "existing_changes_excluded": true,
+  "data_weights_video_npy_npz": false,
+  "credentials_env": false,
+  "machine_paths_redacted": true,
+  "full_provenance_patch": false,
+  "scope": "increment only"
+}
