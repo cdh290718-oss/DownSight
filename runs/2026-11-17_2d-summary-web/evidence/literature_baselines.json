@@ -1,0 +1,160 @@
+{
+  "command": "python runs/2026-11-17_2d-summary-web/collect_sources.py",
+  "exit_status": 0,
+  "checked_at": "2026-11-17T18:03:21.466899+08:00",
+  "sources": {
+    "official": {
+      "url": "https://unrealego.mpi-inf.mpg.de/",
+      "http_status": 200,
+      "body_sha256": "e64aff32bebdaddf82db80e4143a57949aa2495af61f2566e57f30f0a3d14e79"
+    },
+    "preprint": {
+      "url": "https://arxiv.org/html/2610.26641v1",
+      "http_status": 200,
+      "body_sha256": "d5765433b98be92a925e1674a690d2065a126727016a9e606a69c18e43467eb3"
+    }
+  },
+  "official": [
+    {
+      "method": "Zhao et al. · 3DV 2021",
+      "training": "UnrealEgo2 + RW",
+      "mpjpe": 97.86,
+      "pa_mpjpe": 69.92,
+      "source": "https://unrealego.mpi-inf.mpg.de/",
+      "source_row": [
+        "Zhao et al., 3DV 2021 *",
+        "UnrealEgo2, UnrealEgo-RW",
+        "97.86",
+        "69.92",
+        "81.53",
+        "46.32",
+        "Akada et al., CVPR 2024 (T=5)",
+        "UnrealEgo-RW",
+        "104.14",
+        "82.18",
+        "80.20",
+        "46.22"
+      ],
+      "status": "official leaderboard",
+      "locally_reproduced": false,
+      "input_note": "CVPR 2024 T=5 uses scene depth; inference/training differs across methods."
+    },
+    {
+      "method": "UnrealEgo · ECCV 2022",
+      "training": "UnrealEgo2 + RW",
+      "mpjpe": 92.48,
+      "pa_mpjpe": 67.15,
+      "source": "https://unrealego.mpi-inf.mpg.de/",
+      "source_row": [
+        "Akada et al., ECCV 2022",
+        "UnrealEgo2, UnrealEgo-RW",
+        "92.48",
+        "67.15",
+        "84.25",
+        "48.04"
+      ],
+      "status": "official leaderboard",
+      "locally_reproduced": false,
+      "input_note": "CVPR 2024 T=5 uses scene depth; inference/training differs across methods."
+    },
+    {
+      "method": "Akada et al. · CVPR 2024 · T=5",
+      "training": "RW only",
+      "mpjpe": 104.14,
+      "pa_mpjpe": 82.18,
+      "source": "https://unrealego.mpi-inf.mpg.de/",
+      "source_row": [
+        "Zhao et al., 3DV 2021 *",
+        "UnrealEgo2, UnrealEgo-RW",
+        "97.86",
+        "69.92",
+        "81.53",
+        "46.32",
+        "Akada et al., CVPR 2024 (T=5)",
+        "UnrealEgo-RW",
+        "104.14",
+        "82.18",
+        "80.20",
+        "46.22"
+      ],
+      "status": "official leaderboard",
+      "locally_reproduced": false,
+      "input_note": "CVPR 2024 T=5 uses scene depth; inference/training differs across methods."
+    },
+    {
+      "method": "Akada et al. · CVPR 2024 · T=5",
+      "training": "UnrealEgo2 + RW",
+      "mpjpe": 72.89,
+      "pa_mpjpe": 56.19,
+      "source": "https://unrealego.mpi-inf.mpg.de/",
+      "source_row": [
+        "Akada et al., CVPR 2024 (T=5)",
+        "UnrealEgo2, UnrealEgo-RW",
+        "72.89",
+        "56.19",
+        "90.29",
+        "57.19"
+      ],
+      "status": "official leaderboard",
+      "locally_reproduced": false,
+      "input_note": "CVPR 2024 T=5 uses scene depth; inference/training differs across methods."
+    }
+  ],
+  "preprint": [
+    {
+      "method": "EgoRayFormer · 2026 preprint",
+      "training": "RW only",
+      "mpjpe": 49.55,
+      "pa_mpjpe": 40.59,
+      "source": "https://arxiv.org/html/2610.26641v1",
+      "source_row": [
+        "EgoRayFormer (ours)",
+        "ViT-S+",
+        "stream",
+        "calibration",
+        "17.64 ±\\pm0.12",
+        "16.86 ±\\pm0.08",
+        "49.55 ±\\pm0.40",
+        "40.59 ±\\pm0.30",
+        "47.57 ±\\pm0.34",
+        "37.21 ±\\pm0.46"
+      ],
+      "status": "preprint; author local evaluation",
+      "locally_reproduced": false,
+      "submitted_to_leaderboard": false,
+      "caveats": [
+        "Older leaderboard split version is unverified against current test split.",
+        "Authors disclose preliminary test-set evaluation during development.",
+        "Calibration and causal temporal images are used; no ground-truth input at inference."
+      ]
+    },
+    {
+      "method": "EgoRayFormer · 2026 preprint",
+      "training": "UnrealEgo2 + RW",
+      "mpjpe": 47.57,
+      "pa_mpjpe": 37.21,
+      "source": "https://arxiv.org/html/2610.26641v1",
+      "source_row": [
+        "EgoRayFormer (ours)",
+        "ViT-S+",
+        "stream",
+        "calibration",
+        "17.64 ±\\pm0.12",
+        "16.86 ±\\pm0.08",
+        "49.55 ±\\pm0.40",
+        "40.59 ±\\pm0.30",
+        "47.57 ±\\pm0.34",
+        "37.21 ±\\pm0.46"
+      ],
+      "status": "preprint; author local evaluation",
+      "locally_reproduced": false,
+      "submitted_to_leaderboard": false,
+      "caveats": [
+        "Older leaderboard split version is unverified against current test split.",
+        "Authors disclose preliminary test-set evaluation during development.",
+        "Calibration and causal temporal images are used; no ground-truth input at inference."
+      ]
+    }
+  ],
+  "scope": "Reported literature numbers, not local reproduction or a fair ranking against the ten-pose diagnostic."
+}

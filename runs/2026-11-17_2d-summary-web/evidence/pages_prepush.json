@@ -1,0 +1,25 @@
+{
+  "command": "Inspect fresh sparse checkout, remote HEAD, staged HTML, credential/path patterns and payload size; git diff --cached --check",
+  "exit_status": 0,
+  "repository": "cdh290718-oss/egofishpose-demo",
+  "branch": "main",
+  "remote_head": "59497df6fe68e43af90c1acbaf010834b42ee46d",
+  "only_new_path": "2d-to-3d-summary-20261117/index.html",
+  "html_sha256": "025908fadfae6abc931d96f3b8b65e180d2a92d1bb1acee24b8d6be7f4b9bc98",
+  "html_bytes": 420869,
+  "checks": {
+    "new_path_only": true,
+    "no_overwrite": true,
+    "no_dataset_images_or_raw_coordinates": true,
+    "no_weights_numpy_video_or_full_raw_outputs": true,
+    "no_credentials_or_host_paths": true,
+    "no_full_provenance_or_patch": true,
+    "staged_equals_reviewed_html": true,
+    "remote_matches_checkout": true,
+    "outgoing_commit_verified": true
+  },
+  "existing_site_audience": "public GitHub Pages; retained",
+  "authorization": "User explicitly asked to organize on GitHub and publish a web page; existing Pages destination retained.",
+  "history_audit": false,
+  "outgoing_commit": "9bb86404d60430476c47a02440ae74141c1ec21a"
+}

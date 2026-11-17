@@ -1,0 +1,18 @@
+{
+  "command": "python runs/2026-11-17_2d-summary-web/build_summary.py",
+  "exit_status": 0,
+  "experiment_commit": "42c647b479623486192959ddea88e57c615c2af1",
+  "source_sha256": {
+    "runs/2026-11-17_2d-intervention/evidence/analysis.json": "6c42897ff3c017d39d5f68a98b71230967e5d3f6b015fbcd633894175f01932e",
+    "runs/2026-11-17_2d-intervention/evidence/results.json": "7c0f9f49bd0cd7791f9696d75342a6cd4ed3092a96c4c8917f364b53558ca667",
+    "runs/2026-11-17_2d-intervention/evidence/preparation.json": "ab1500114cdea0b93b4a027e34d2924253b709e6cf99f439d45f818090672a35",
+    "runs/2026-11-17_2d-intervention/protocol.json": "9d4b9612d066d42a78250919f4088555a33d253f615c17a5396e5840472e8528",
+    "runs/2026-11-17_2d-summary-web/evidence/literature_baselines.json": "e4a1e7c80f97538079e8a5c908e0609841879baec508ee82f21ecdbd667bf316"
+  },
+  "html_sha256": "025908fadfae6abc931d96f3b8b65e180d2a92d1bb1acee24b8d6be7f4b9bc98",
+  "html_bytes": 420869,
+  "summary_sha256": "1568e8021b252047659cd5ca06464e744603c440272b4e6c8f49a9b478cfb434",
+  "template_sha256": "bd1a14f9cb27f0525df6fbe6ba08d1671c24d9d543110ff17f7ac084168e34f8",
+  "no_new_fit": true,
+  "no_dataset_images_or_coordinates": true
+}

@@ -1,0 +1,23 @@
+{
+  "command": "Initial source table extraction and sparse-checkout setup",
+  "failures": [
+    {
+      "command": "collect_sources.py, initial parser",
+      "exit_status": 1,
+      "reason": "Official table markup is embedded in JavaScript strings.",
+      "fix": "Extract source table fragments and validate numeric pairs."
+    },
+    {
+      "command": "collect_sources.py, first fragment parser",
+      "exit_status": 1,
+      "reason": "Two preprint rows contain the same overall numbers.",
+      "fix": "Also match the model name to select the original comparison-table row."
+    },
+    {
+      "command": "git sparse-checkout set --no-cone <new-directory-pattern>",
+      "exit_status": 255,
+      "reason": "No tracked file matches the new page directory yet.",
+      "fix": "Retain root .nojekyll; existing site content remains unchanged."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://cdh290718-oss.github.io/egofishpose-demo/2d-to-3d-summary-20261117/",
+    "http_status": 503,
+    "state": "Awaiting initial Pages deployment"
+  },
+  {
+    "url": "https://cdh290718-oss.github.io/egofishpose-demo/2d-to-3d-summary-20261117/",
+    "http_status": 404,
+    "state": "Awaiting deploy/cache propagation"
+  },
+  {
+    "command": "python runs/2026-11-17_2d-summary-web/verify_online.py",
+    "url": "https://cdh290718-oss.github.io/egofishpose-demo/2d-to-3d-summary-20261117/",
+    "checked_at": "2026-11-17T18:15:08.122336+08:00",
+    "http_status": 200,
+    "body_sha256": "025908fadfae6abc931d96f3b8b65e180d2a92d1bb1acee24b8d6be7f4b9bc98",
+    "matches_local": true,
+    "title_present": true,
+    "exit_status": 0
+  }
+]

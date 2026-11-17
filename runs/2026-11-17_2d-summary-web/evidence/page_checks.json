@@ -1,0 +1,16 @@
+{
+  "command": "Existing Node runtime: node check_page.cjs",
+  "exit_status": 0,
+  "stateCombinations": 8,
+  "detailSelections": 704,
+  "matrixCellsPerState": 120,
+  "checks": [
+    "All method/budget/metric combinations execute",
+    "All sample/condition detail selections match evidence",
+    "Matrix click updates condition and inspected joint",
+    "Input correction values are consistent",
+    "Body02 wrist exception remains visible",
+    "Unique HTML IDs and existing referenced elements"
+  ],
+  "verificationLimit": "DOM-adapter execution and structural checks; no real-browser rendering or pointer-layout verification."
+}
