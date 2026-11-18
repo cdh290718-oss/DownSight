@@ -1,0 +1,15 @@
+{
+  "command": "D_INTERVENTION_OUTPUT=<OUTPUT> PYTHONPATH=. <EGOSMPLX_ENV>/bin/python -u runs/2026-11-18_gen_raw_calibration_four_models/fit.py --threads 1",
+  "exit_status": 0,
+  "steps": 20000,
+  "elapsed_seconds": 163.8,
+  "fits": 80,
+  "feasible_count": 80,
+  "protocol_sha256": "b1a4826002e57f7b83bceaa9736ae5d8aa2795de49d8e0cb4e347db4aaac3eae",
+  "first_background_launch": "shell background attempt did not remain alive; no optimization output; relaunched in persistent session",
+  "note": "evidence/3d_results.json records selected step and convergence for each fit",
+  "evaluation_command": "<EGOSMPLX_ENV>/bin/python evaluate_fit.py",
+  "evaluation_exit_status": 0,
+  "prepare_exit_status": 0,
+  "summary_exit_status": 0
+}

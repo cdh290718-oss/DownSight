@@ -1,0 +1,86 @@
+{
+  "baseline": "fbf6912203fee0ecdfde69b67e36b9f8d66119c5",
+  "remote_before_commit": "fbf6912203fee0ecdfde69b67e36b9f8d66119c5",
+  "scope": "this run only; history not audited",
+  "checks": {
+    "workspace_reviewed_preserve_other_changes": true,
+    "no_prior_staged_files": true,
+    "remote_matches_baseline": true,
+    "text_only_under_50MB": true,
+    "no_data_weights_npy_npz_or_full_raw_outputs": true,
+    "paths_redacted_no_credentials_env_provenance_patch": true
+  },
+  "files": [
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/brief.md",
+      "bytes": 323,
+      "sha256": "0456aa13c112a9d6b8281c9285bae919ecf0973735900f2c78eb8f12e2e3062b"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/review.md",
+      "bytes": 30,
+      "sha256": "f83eb2314d053ba97c6708f14525944b4bba5a01b703ba27a5fd44a8e5e071dd"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/prepare.py",
+      "bytes": 2763,
+      "sha256": "39a14c19de74439e4aa787b48977d9726b176f984182829dc16a8ba458408ee3"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/summarize.py",
+      "bytes": 1080,
+      "sha256": "f1a43d705a5be9975876329c025f3741bb3bd7acbdbd33ae41028f76fd29ed4d"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/evaluate_fit.py",
+      "bytes": 1820,
+      "sha256": "758a1ac0eb35c96630e3aeec4878957e7bcbac616b323ec5816c149ead7727ed"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/common.py",
+      "bytes": 1795,
+      "sha256": "35c533085451a2e1815092d618cb0a94baba8a281cd133f6536e9c855f92b772"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/fit.py",
+      "bytes": 13967,
+      "sha256": "2aac3a738b13bc632acd1dbd7a2f07e311ff57e8c4c391397960b0608e3df956"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/protocol.json",
+      "bytes": 3851,
+      "sha256": "b1a4826002e57f7b83bceaa9736ae5d8aa2795de49d8e0cb4e347db4aaac3eae"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/report.md",
+      "bytes": 3498,
+      "sha256": "9c98a5c597774129f0544a7739510b27ca5c0c8023a4b9401009de631302235b"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/evidence/fit_status.json",
+      "bytes": 733,
+      "sha256": "2a34f6895973c0ebf67c4b7d6a87b6296fa6bb0dbfe56824d0872ac3b80332ef"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/evidence/3d_results.json",
+      "bytes": 70920,
+      "sha256": "66528ccf5807e50282ddec835c44c975259e52bc9c1c43d7fd5bf7d811619088"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/evidence/2d.json",
+      "bytes": 224783,
+      "sha256": "77243b56815aa209b00ebce3268a8ecc1f6db025f8f0f76b28c7d2e9b340692c"
+    },
+    {
+      "file": "runs/2026-11-18_gen_raw_calibration_four_models/evidence/summary.json",
+      "bytes": 2305,
+      "sha256": "cabb7c2d7a1713e9b5014223687c462baac46de76bd449e40c24940f3f3bff66"
+    }
+  ],
+  "exit_status": 0
+}
