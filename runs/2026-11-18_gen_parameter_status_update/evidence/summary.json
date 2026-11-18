@@ -1,0 +1,37 @@
+{
+  "source": "runs/2026-11-18_gen_head_rotation_semantics/evidence/summary.json",
+  "source_sha256": "0cadd7afc4b366fe3d0fd31cd4b050559882f1939cc5e67750bb390432a34b0f",
+  "subset": "valid19",
+  "records": [
+    {
+      "model": "original",
+      "mean_px": 40.84212051175232,
+      "correct20": 94,
+      "count": 391,
+      "percent": 24.04092071611253
+    },
+    {
+      "model": "rw500",
+      "mean_px": 38.28319174845034,
+      "correct20": 107,
+      "count": 391,
+      "percent": 27.365728900255753
+    },
+    {
+      "model": "rw5000",
+      "mean_px": 38.122465205281806,
+      "correct20": 82,
+      "count": 391,
+      "percent": 20.971867007672635
+    },
+    {
+      "model": "rw20000",
+      "mean_px": 39.18472545524737,
+      "correct20": 84,
+      "count": 391,
+      "percent": 21.483375959079286
+    }
+  ],
+  "calculation": "percent=correct20/count*100",
+  "exit_status": 0
+}

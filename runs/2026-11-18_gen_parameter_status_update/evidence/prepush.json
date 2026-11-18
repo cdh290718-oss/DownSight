@@ -1,0 +1,36 @@
+{
+  "baseline": "30a148437b5c1de915c9e70c537171508e0e3165",
+  "remote_before": "30a148437b5c1de915c9e70c537171508e0e3165",
+  "scope": "supplement run and user-requested report update only",
+  "checks": {
+    "worktree_reviewed_other_changes_preserved": true,
+    "empty_previous_index": true,
+    "text_only_under_50MB": true,
+    "no_raw_data_assets_credentials_env_full_provenance_patch": true,
+    "paths_redacted": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-18_gen_head_rotation_semantics/report.md",
+      "sha256": "e9667c80a36c3f0850bb61cc2452402ac9027df332a87e8874e77213d79a6dba"
+    },
+    {
+      "path": "runs/2026-11-18_gen_parameter_status_update/brief.md",
+      "sha256": "3a27a9940cdd7ed6b6c449f52fcf8b723b371604f8e9663677ca2d2b37244835"
+    },
+    {
+      "path": "runs/2026-11-18_gen_parameter_status_update/review.md",
+      "sha256": "f83eb2314d053ba97c6708f14525944b4bba5a01b703ba27a5fd44a8e5e071dd"
+    },
+    {
+      "path": "runs/2026-11-18_gen_parameter_status_update/report.md",
+      "sha256": "4695291c37c9f2c950e0e0d26c5efa0d8d300d80944efbd9dd067bdd6994afbf"
+    },
+    {
+      "path": "runs/2026-11-18_gen_parameter_status_update/evidence/summary.json",
+      "sha256": "7550067fc1bccbdcdc8752a68f6de18a32e22ffc3c866675ad962e6e6a4d4d29"
+    }
+  ],
+  "history_audited": false,
+  "exit_status": 0
+}
