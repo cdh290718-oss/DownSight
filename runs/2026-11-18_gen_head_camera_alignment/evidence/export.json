@@ -1,0 +1,403 @@
+{
+  "source_sha256": "00f34e66eacf623d03564571608665a5f6893be102f42c492785697c376e95c1",
+  "head_index": 15,
+  "head_index_status": "matches prior SMPL BODY22 convention and official BODY_EDGES topology; original message has no joint names",
+  "rotation_status": "world orientation according to PosesInFrame schema, SMPL-X head axes not validated; do not treat as calibrated golden D anchor",
+  "cameras": {
+    "cam3": {
+      "T_vio_from_raw_camera": [
+        [
+          -0.004890825556096189,
+          -0.004344521365703102,
+          0.9999786022508097,
+          0.007468
+        ],
+        [
+          -0.9999855725891975,
+          0.002242613782765575,
+          -0.004881116355556028,
+          0.031655
+        ],
+        [
+          -0.0022213596815831246,
+          -0.9999880478373353,
+          -0.004355426918309821,
+          0.00361
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_vio_from_virtual_camera": [
+        [
+          -0.004890825556096189,
+          -0.4865713502244546,
+          0.8736271521456572,
+          0.007468
+        ],
+        [
+          -0.9999855725891975,
+          0.0043204447394242194,
+          -0.003191922729125545,
+          0.031655
+        ],
+        [
+          -0.0022213596815831246,
+          -0.8736301591051017,
+          -0.48658546080124543,
+          0.00361
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "raw_vs_archive_rotation_deg": 2.650880677142323,
+      "raw_vs_archive_optical_center_distance_mm": 16.066069550008994,
+      "official_vs_archive_joint_position_mm": {
+        "count": 440,
+        "min": 1.5869198384506242,
+        "mean": 17.989487915304938,
+        "median": 13.05609919515866,
+        "p95": 44.65175192966975,
+        "max": 48.113732607536924
+      },
+      "official_vs_archive_2d_shift_on_old_inframe_px": {
+        "count": 324,
+        "min": 0.0996335750884161,
+        "mean": 11.754143655017195,
+        "median": 12.70421006391726,
+        "p95": 22.9082270605685,
+        "max": 29.343086319649647
+      },
+      "legacy_head_position_roundtrip_mm": {
+        "count": 20,
+        "min": 1.2043529338888318e-13,
+        "mean": 3.9317902670723504e-13,
+        "median": 3.5833775599176146e-13,
+        "p95": 7.118548754091392e-13,
+        "max": 7.527340763103029e-13
+      },
+      "new_vs_old_head_rotation_deg_not_accuracy": {
+        "count": 20,
+        "min": 110.87484456229703,
+        "mean": 140.81628421328915,
+        "median": 137.90573964822505,
+        "p95": 170.795558616098,
+        "max": 170.98146436354276
+      },
+      "first_image_recreation": {
+        "mean_absolute_uint8_difference": 1.9910221354166666,
+        "max_absolute_uint8_difference": 27.0,
+        "exact_pixel_fraction": 0.02417426215277778,
+        "ds_project_unproject_max_px": 2.5421149729252077e-13
+      }
+    },
+    "cam4": {
+      "T_vio_from_raw_camera": [
+        [
+          0.007168750115293759,
+          -0.00784634746999471,
+          0.9999435203316058,
+          0.007126
+        ],
+        [
+          -0.9999672583739743,
+          -0.0038100554091797375,
+          0.007139023589823067,
+          -0.028225
+        ],
+        [
+          0.0037538249588314225,
+          -0.9999619584309991,
+          -0.007873403902974013,
+          0.004155
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_vio_from_virtual_camera": [
+        [
+          0.007168750115293759,
+          -0.484780774323888,
+          0.8746063170751261,
+          0.007126
+        ],
+        [
+          -0.9999672583739743,
+          -0.006758624800290935,
+          0.00445007537531246,
+          -0.028225
+        ],
+        [
+          0.0037538249588314225,
+          -0.8746095825205327,
+          -0.484813352705387,
+          0.004155
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "raw_vs_archive_rotation_deg": 1.6210449534010742,
+      "raw_vs_archive_optical_center_distance_mm": 10.46560664668589,
+      "official_vs_archive_joint_position_mm": {
+        "count": 440,
+        "min": 2.165877943502658,
+        "mean": 11.151250577278722,
+        "median": 8.58295046698806,
+        "p95": 27.19116862614942,
+        "max": 29.144101819375493
+      },
+      "official_vs_archive_2d_shift_on_old_inframe_px": {
+        "count": 323,
+        "min": 0.059572454868814205,
+        "mean": 6.500362639468813,
+        "median": 6.7583807683738595,
+        "p95": 10.52077033731345,
+        "max": 10.650010842417831
+      },
+      "legacy_head_position_roundtrip_mm": {
+        "count": 20,
+        "min": 1.2586013583571653e-13,
+        "mean": 3.857815021762122e-13,
+        "median": 2.7034210526041147e-13,
+        "p95": 7.97292347753085e-13,
+        "max": 8.203756572851974e-13
+      },
+      "new_vs_old_head_rotation_deg_not_accuracy": null,
+      "first_image_recreation": {
+        "mean_absolute_uint8_difference": 1.8355559172453704,
+        "max_absolute_uint8_difference": 36.0,
+        "exact_pixel_fraction": 0.03308376736111111,
+        "ds_project_unproject_max_px": 2.5421149729252077e-13
+      }
+    }
+  },
+  "selected_pairs": [
+    {
+      "frame": 0,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 8.0,
+      "vio_left_dt_us": 0.272,
+      "time_range_valid": false,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 270,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 13.0,
+      "vio_left_dt_us": 0.272,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 540,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 15.0,
+      "vio_left_dt_us": 0.296,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 810,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 22.0,
+      "vio_left_dt_us": 0.072,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 1080,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 17.0,
+      "vio_left_dt_us": -0.12,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 1350,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 17.0,
+      "vio_left_dt_us": -0.096,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 1620,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 18.0,
+      "vio_left_dt_us": -0.112,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 1890,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 23.0,
+      "vio_left_dt_us": 0.184,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 2160,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 23.0,
+      "vio_left_dt_us": -0.104,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 2430,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 25.0,
+      "vio_left_dt_us": 0.152,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 2700,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 25.0,
+      "vio_left_dt_us": 0.056,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 2970,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 34.0,
+      "vio_left_dt_us": 0.104,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 3240,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 18.0,
+      "vio_left_dt_us": 0.072,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 3510,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 20.0,
+      "vio_left_dt_us": 0.072,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 3780,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 14.0,
+      "vio_left_dt_us": 0.352,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 4050,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 18.0,
+      "vio_left_dt_us": 0.12,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 4320,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 21.0,
+      "vio_left_dt_us": -0.112,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 4590,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 37.0,
+      "vio_left_dt_us": 0.064,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 4860,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 28.0,
+      "vio_left_dt_us": -0.088,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    },
+    {
+      "frame": 5130,
+      "left_body_dt_us": 0.0,
+      "right_left_dt_us": 8.0,
+      "vio_left_dt_us": 0.168,
+      "time_range_valid": true,
+      "frame_validity_flag": true
+    }
+  ],
+  "command": "<PYTHON_ENV>/bin/python runs/2026-11-18_gen_head_camera_alignment/code/export_assets.py",
+  "exit_status": 0,
+  "stereo": {
+    "T_right_virtual_from_left_virtual": [
+      [
+        0.9999094317338646,
+        -0.011087866400095094,
+        0.007628076320692982,
+        -0.059877633553496734
+      ],
+      [
+        0.011072327954739211,
+        0.9999365443929261,
+        0.0020762324525111296,
+        -9.383925538650108e-05
+      ],
+      [
+        -0.007650613264528228,
+        -0.0019915838490511895,
+        0.9999687503669549,
+        0.0008298091511378392
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "baseline_mm": 59.88345672220335,
+    "archive_baseline_mm": 55.66274064256003,
+    "relative_rotation_difference_deg": 1.0660404112318103,
+    "translation_vector_difference_mm": 6.88889040575322
+  },
+  "selected_time_range_valid_count": 19,
+  "selected_time_range_invalid_frames": [
+    0
+  ],
+  "asset_manifest": [
+    {
+      "location": "<WORKSPACE>/outputs/gen_head_camera_alignment_20261118/head_camera_20pairs.json",
+      "sha256": "608e42d2f6b9787f66e7e161687635932faf6352a38869bfb07eca34548c7a04",
+      "bytes": 83668,
+      "access": "local data disk only, not published"
+    },
+    {
+      "location": "<WORKSPACE>/outputs/gen_head_camera_alignment_20261118/head_all_frames.npz",
+      "sha256": "712f2675acd776986b56847bfef383d8f554bc7ddde40da070d4b9dcea363318",
+      "bytes": 1895860,
+      "access": "local data disk only, not published"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "scope": "only this run; old history not audited",
+  "baseline_commit": "abe0ea1daaa575210d3481c003cfb74f6c8f878e",
+  "remote_main_before_commit": "abe0ea1daaa575210d3481c003cfb74f6c8f878e",
+  "unpublished_commits_before": "0",
+  "initial_scanner_retry": "First scanner matched its own literal path regex; fixed to match actual path prefixes. No secret or actual machine path found in publication scope. No push occurred before resolving this.",
+  "existing_staged_files": [
+    "runs/2026-11-18_gen_head_camera_alignment/brief.md",
+    "runs/2026-11-18_gen_head_camera_alignment/code/analyze.py",
+    "runs/2026-11-18_gen_head_camera_alignment/code/export_assets.py",
+    "runs/2026-11-18_gen_head_camera_alignment/code/extract.py",
+    "runs/2026-11-18_gen_head_camera_alignment/code/prepush.py",
+    "runs/2026-11-18_gen_head_camera_alignment/code/validate.py",
+    "runs/2026-11-18_gen_head_camera_alignment/evidence/alignment.json",
+    "runs/2026-11-18_gen_head_camera_alignment/evidence/export.json",
+    "runs/2026-11-18_gen_head_camera_alignment/evidence/extraction.json",
+    "runs/2026-11-18_gen_head_camera_alignment/evidence/official_sources.json",
+    "runs/2026-11-18_gen_head_camera_alignment/evidence/validation.json",
+    "runs/2026-11-18_gen_head_camera_alignment/report.md",
+    "runs/2026-11-18_gen_head_camera_alignment/review.md"
+  ],
+  "worktree_review": {
+    "entries_outside_this_run": 40,
+    "existing_train_py_modified": true,
+    "untracked_user_mcap_not_staged": true,
+    "decision": "preserve and exclude every out-of-scope entry"
+  },
+  "checks": {
+    "allowlisted_text_files_only": true,
+    "all_under_50MB": true,
+    "no_data_weights_video_npy_npz_or_full_raw_outputs": true,
+    "no_env_or_credentials": true,
+    "machine_paths_redacted": true,
+    "no_full_provenance_or_patch": true,
+    "remote_equals_baseline": true
+  },
+  "publication_files_before_audit_file": [
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/brief.md",
+      "bytes": 647,
+      "sha256": "65269568762467b9f40e6b5d20ce4b4a471ec67664f448bef523dcc955a5a2cf"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/code/analyze.py",
+      "bytes": 5786,
+      "sha256": "1628bea607e790e1dd47660f08becabace61613990da9d78c9fbb395a26d9c40"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/code/export_assets.py",
+      "bytes": 9336,
+      "sha256": "8f87b03a150de894c2957b99dbaa546a17f3b10ae04363217433e58fb46d88d4"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/code/extract.py",
+      "bytes": 4265,
+      "sha256": "9a4d84883e209366f793e0fba279ae4e0d8b12c81966226120bbecabd177c777"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/code/prepush.py",
+      "bytes": 2725,
+      "sha256": "99f315f8ca0f7dae8965bb3648ab0dff5189a5d94d7d52ec582a369e0ec9e713"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/code/validate.py",
+      "bytes": 4674,
+      "sha256": "fbf01ebfd0972bffcb93c82709c89e6d90654baef629a1d3f77c73cc0995953d"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/evidence/alignment.json",
+      "bytes": 67162,
+      "sha256": "4bb42cf0796a2246ecb35fc5afc5b475a78c15140407044e7d58be470a3eff10"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/evidence/export.json",
+      "bytes": 10677,
+      "sha256": "f0ff08f2c708154c7b38e97ed6acae615a8a5a76a23063132328ef06eaa3f99a"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/evidence/extraction.json",
+      "bytes": 3133,
+      "sha256": "2ae52fd303f8fb2f37c506a95a2ec44e6032c58326f459f0797e3c0d05f13d2d"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/evidence/official_sources.json",
+      "bytes": 1851,
+      "sha256": "744d37cc086996bd4868ec3c1ffbaa3cae11fea52ddbf7f36a76bbcc9ee324f3"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/evidence/validation.json",
+      "bytes": 3935,
+      "sha256": "93002982e94b2ceb07a98ed024623b277bedd6f0e403fd01180c0ff364605bd9"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/report.md",
+      "bytes": 10553,
+      "sha256": "3ee9cac71da7b4f815f066282884d8d875fed18663e87bc5e78f287d5ec9c9cb"
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_camera_alignment/review.md",
+      "bytes": 105,
+      "sha256": "ccc32a2406d2611fdf2e9b1b7c316c246412151fd767d43bb85fd928c20ea08f"
+    }
+  ],
+  "command": "python runs/2026-11-18_gen_head_camera_alignment/code/prepush.py",
+  "exit_status": 0,
+  "staged_content_audit": {
+    "files": 14,
+    "all_blobs_match_scanned_worktree": true,
+    "all_files_in_this_run": true,
+    "passed": true
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "checks": {
+    "channel_6_nearest_is_same_index": true,
+    "channel_11_nearest_is_same_index": true,
+    "channel_12_nearest_is_same_index": true,
+    "channel_13_nearest_is_same_index": true,
+    "export_counts": true,
+    "official_head_roundtrip": true,
+    "first_frame_legacy_rig_reproduces_all_20_pairs": true,
+    "legacy_double_sphere_projection": true,
+    "all_rotation_matrices_SO3": true,
+    "source_MCAP_unchanged": true
+  },
+  "summary": {
+    "cam3_head_new_vs_archive_position_shift_mm": {
+      "count": 20,
+      "min": 16.27731027753997,
+      "mean": 17.531557506164557,
+      "median": 17.60452574472565,
+      "p95": 18.33714393262888,
+      "max": 18.346817809792515
+    },
+    "cam4_head_new_vs_archive_position_shift_mm": {
+      "count": 20,
+      "min": 10.878610979245181,
+      "mean": 11.576302596196403,
+      "median": 11.593119888904031,
+      "p95": 12.101807888538783,
+      "max": 12.118327071873367
+    },
+    "official_head_roundtrip_mm": {
+      "count": 10758,
+      "min": 0.0,
+      "mean": 6.279869594139421e-14,
+      "median": 5.594315114139762e-14,
+      "p95": 1.594436429147036e-13,
+      "max": 3.287014905352939e-13
+    },
+    "legacy_first_frame_rig_holdout_mm": {
+      "count": 880,
+      "min": 5.551115123125783e-14,
+      "mean": 4.234185134935996e-13,
+      "median": 3.8353413198925707e-13,
+      "p95": 8.257198124016007e-13,
+      "max": 1.268964154931954e-12
+    },
+    "legacy_projection_roundtrip_px": {
+      "count": 880,
+      "min": 0.0,
+      "mean": 2.0179991824136453e-14,
+      "median": 0.0,
+      "p95": 1.1368683772161603e-13,
+      "max": 2.5421149729252077e-13
+    },
+    "rotation_orthogonality": {
+      "count": 10758,
+      "min": 3.121990780548929e-17,
+      "mean": 1.0040607193329221e-15,
+      "median": 8.916401265783158e-16,
+      "p95": 1.9644510966493666e-15,
+      "max": 3.3510084379553694e-15
+    },
+    "head_to_device_origin_distance_mm": {
+      "count": 5379,
+      "min": 99.61351898546009,
+      "mean": 137.78262887918822,
+      "median": 136.00251500163293,
+      "p95": 158.791002640927,
+      "max": 191.31760608294906
+    },
+    "head_in_device_position_mean_m": [
+      -0.04115032014174038,
+      -0.0002318204681106754,
+      -0.13019061838174925
+    ],
+    "head_in_device_position_deviation_from_mean_mm": {
+      "count": 5379,
+      "min": 0.638302975943614,
+      "mean": 18.158033662015104,
+      "median": 15.130005841773018,
+      "p95": 41.31295684137769,
+      "max": 72.26494821897855
+    },
+    "validity_channel_8": {
+      "count": 1,
+      "ranges": [
+        {
+          "start_s": 0.0,
+          "end_s": 0.022553,
+          "valid": false
+        },
+        {
+          "start_s": 0.022553,
+          "end_s": 178.0,
+          "valid": true
+        },
+        {
+          "start_s": 178.0,
+          "end_s": 179.292346,
+          "valid": false
+        }
+      ],
+      "invalid_reason_codes": [
+        "annotation_coverage",
+        "camera_overlap_range",
+        "handtracking_source_range",
+        "sensor_frame_drop"
+      ]
+    },
+    "validity_channel_9": {
+      "count": 5379,
+      "field_names": [
+        "frame_index",
+        "header",
+        "is_valid",
+        "ref_topic",
+        "timestamp_ns"
+      ],
+      "top_level_scalar_frequencies": {
+        "is_valid": {
+          "True": 5379
+        }
+      }
+    },
+    "input_hashes": [
+      {
+        "resource": "raw_mcap",
+        "sha256": "00f34e66eacf623d03564571608665a5f6893be102f42c492785697c376e95c1"
+      },
+      {
+        "resource": "legacy_reference",
+        "sha256": "a329b7f18a89e6703c3bbcb089df9f84621239d8bd6b13a96110a8521c3ecd93"
+      },
+      {
+        "resource": "legacy_manifest",
+        "sha256": "c03f8dc793fb9b212d5d34638686c6b4db02607b031e4f58d99f0689ae2a02a6"
+      }
+    ]
+  },
+  "command": "<PYTHON_ENV>/bin/python runs/2026-11-18_gen_head_camera_alignment/code/validate.py",
+  "exit_status": 0
+}

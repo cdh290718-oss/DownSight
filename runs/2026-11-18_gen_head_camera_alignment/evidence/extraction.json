@@ -1,0 +1,139 @@
+{
+  "source_sha256": "00f34e66eacf623d03564571608665a5f6893be102f42c492785697c376e95c1",
+  "source_bytes": 591587176,
+  "chunks_read_and_crc_checked_if_present": 586,
+  "channels": {
+    "1": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera2/compressed",
+      "count": 5379
+    },
+    "2": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera2/camera_info",
+      "count": 1
+    },
+    "3": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera2/camera_info_resize",
+      "count": 1
+    },
+    "4": {
+      "schema_id": 3,
+      "topic": "/robot0/handtracking/left",
+      "count": 5379
+    },
+    "5": {
+      "schema_id": 3,
+      "topic": "/robot0/handtracking/right",
+      "count": 5379
+    },
+    "6": {
+      "schema_id": 4,
+      "topic": "robotx/motioncapture/human_pose_fuse_smooth_concat",
+      "count": 5379
+    },
+    "7": {
+      "schema_id": 5,
+      "topic": "/robot0/annotation_v2",
+      "count": 1
+    },
+    "8": {
+      "schema_id": 6,
+      "topic": "/robot0/time_range_validity",
+      "count": 1
+    },
+    "9": {
+      "schema_id": 7,
+      "topic": "/robot0/frame_validity",
+      "count": 5379
+    },
+    "10": {
+      "schema_id": 8,
+      "topic": "/robot0/sim/robot_info",
+      "count": 5379
+    },
+    "11": {
+      "schema_id": 9,
+      "topic": "/robot0/vio/eef_pose",
+      "count": 5379
+    },
+    "12": {
+      "schema_id": 9,
+      "topic": "/robot0/vio/relative_eef_pose",
+      "count": 5379
+    },
+    "13": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera3/compressed",
+      "count": 5379
+    },
+    "14": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera3/camera_info",
+      "count": 1
+    },
+    "15": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera3/camera_info_resize",
+      "count": 1
+    },
+    "16": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera0/compressed",
+      "count": 5379
+    },
+    "17": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera0/camera_info",
+      "count": 1
+    },
+    "18": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera5/compressed",
+      "count": 5379
+    },
+    "19": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera5/camera_info",
+      "count": 1
+    },
+    "20": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera1/compressed",
+      "count": 5379
+    },
+    "21": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera1/camera_info",
+      "count": 1
+    },
+    "22": {
+      "schema_id": 1,
+      "topic": "/robot0/sensor/camera4/compressed",
+      "count": 5379
+    },
+    "23": {
+      "schema_id": 2,
+      "topic": "/robot0/sensor/camera4/camera_info",
+      "count": 1
+    },
+    "24": {
+      "schema_id": 10,
+      "topic": "/robot0/sensor/imu",
+      "count": 35854
+    },
+    "25": {
+      "schema_id": 11,
+      "topic": "/robot0/system_info",
+      "count": 180
+    },
+    "26": {
+      "schema_id": 12,
+      "topic": "/robot0/sensor/audio",
+      "count": 2801
+    }
+  },
+  "command": "<PYTHON_ENV>/bin/python runs/2026-11-18_gen_head_camera_alignment/code/extract.py",
+  "exit_status": 0
+}

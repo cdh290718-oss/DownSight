@@ -1,0 +1,57 @@
+{
+  "toolkit_commit": "cf541b96fe9eff4cef50c7f3dcd44f6bdf0fc8a5",
+  "sources": [
+    {
+      "file": "scripts/bodytrack/mcap_to_mp4.py",
+      "url": "https://github.com/genrobot-ai/das-datakit/blob/cf541b96fe9eff4cef50c7f3dcd44f6bdf0fc8a5/scripts/bodytrack/mcap_to_mp4.py",
+      "excerpts": [
+        {
+          "line": 27,
+          "text": "BODY_EDGES = ["
+        },
+        {
+          "line": 193,
+          "text": "rbody = np.array([[0, 0, -1, 0], [1, 0, 0, 0], [0, -1, 0, 0], [0, 0, 0, 1]], float)"
+        },
+        {
+          "line": 200,
+          "text": "transforms[ts] = np.linalg.inv(records[VIO][vio_ts] @ rbody @ body_from_camera)"
+        }
+      ]
+    },
+    {
+      "file": "proto/CameraCalibration.proto",
+      "url": "https://github.com/genrobot-ai/das-datakit/blob/cf541b96fe9eff4cef50c7f3dcd44f6bdf0fc8a5/proto/CameraCalibration.proto",
+      "excerpts": [
+        {
+          "line": 78,
+          "text": "// transform from camera to base frame"
+        },
+        {
+          "line": 79,
+          "text": "repeated double T_b_c = 10; // length 7, [tx ty tz qx qy qz qw]"
+        }
+      ]
+    },
+    {
+      "file": "proto/PosesInFrame.proto",
+      "url": "https://github.com/genrobot-ai/das-datakit/blob/cf541b96fe9eff4cef50c7f3dcd44f6bdf0fc8a5/proto/PosesInFrame.proto",
+      "excerpts": [
+        {
+          "line": 16,
+          "text": "// Frame of reference for pose position and orientation"
+        }
+      ]
+    }
+  ],
+  "docs": [
+    {
+      "url": "https://docs.genrobot.ai/guides/das-ego-data-introduction",
+      "finding": "eef_pose is DAS-Ego device pose in world, not an anatomical Head joint."
+    },
+    {
+      "url": "https://huggingface.co/datasets/genrobot2025/Gen-HumanWholeBody",
+      "finding": "Body tracks reconstructed by DFM; not independent motion-capture ground truth."
+    }
+  ]
+}
