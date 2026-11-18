@@ -1,0 +1,12 @@
+{
+  "command": "scan workspace and staged increment; check remote HEAD",
+  "exit_status": 0,
+  "baseline": "50e894e0e3024d3c5656006f102929ad472824a7",
+  "remote_head": "50e894e0e3024d3c5656006f102929ad472824a7",
+  "existing_changes_excluded": true,
+  "data_weights_video_npy_npz": false,
+  "credentials_env": false,
+  "machine_paths_redacted": true,
+  "full_provenance_patch": false,
+  "scope": "increment only"
+}
