@@ -1,0 +1,25 @@
+{
+  "fit_command": "D_INTERVENTION_OUTPUT=<OUTPUT> PYTHONPATH=. <EGOSMPLX_ENV>/bin/python fit.py --threads 1",
+  "fit_exit_status": 0,
+  "evaluate_exit_status": 0,
+  "prepare_exit_status": 0,
+  "summary_exit_status": 0,
+  "elapsed_seconds": 165.03911757469177,
+  "protocol_sha256": "8350932d68d0b79809e34b9c7ec0b366cad8df26ed50e501c2551fde214c334a",
+  "steps": 20000,
+  "same_observations_positions_cameras_and_references": true,
+  "artifacts": [
+    {
+      "path": "<OUTPUT>/prepared.json",
+      "sha256": "1b2cc06b5d404da34abdf33ceec63e293378e8710d0ec844eb37b5bd49b116af"
+    },
+    {
+      "path": "<OUTPUT>/reference.json",
+      "sha256": "64befe061be6dc937634aaa611e681d03e048f4af31d1a5ad222dcb477000dac"
+    },
+    {
+      "path": "<OUTPUT>/budget_20000.npz",
+      "sha256": "3f34387eaf1b4aa5d41840d8a9dd7b867ffee72a0d670e9026cb0239b565e293"
+    }
+  ]
+}

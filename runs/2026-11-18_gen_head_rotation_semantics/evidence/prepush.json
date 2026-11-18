@@ -1,0 +1,100 @@
+{
+  "baseline": "a71e21a913d52668990ae8df081975d838a3504d",
+  "remote_before_commit": "a71e21a913d52668990ae8df081975d838a3504d",
+  "workspace_outside_run_preserved": true,
+  "previous_staged_files": [],
+  "checks": "text only, under 50MB, no credentials/env/dataset/images/video/weights/npy/npz/full raw outputs/provenance/patch; machine paths redacted; history not audited",
+  "files": [
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/brief.md",
+      "sha256": "3faf30d432ad1d188f980419c438ecf7f471c98cc065f3bc7645693fdd683456",
+      "bytes": 619
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/review.md",
+      "sha256": "f83eb2314d053ba97c6708f14525944b4bba5a01b703ba27a5fd44a8e5e071dd",
+      "bytes": 30
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/prepare.py",
+      "sha256": "35adc6afcb7c6ece995065b1f8359e8cbe6c0c09a676c31bea3bd074e86c5467",
+      "bytes": 1890
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/verify.py",
+      "sha256": "668dc5a66a2c8a80af58856dd746967fce4e1e146a7405e31968dbd493dffcc9",
+      "bytes": 2818
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/geometry.py",
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+      "bytes": 3344
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/summarize.py",
+      "sha256": "acb58b0069b20264256b88a8dfea91c1d986fa8bfab1cc060332020a94292474",
+      "bytes": 1058
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evaluate_fit.py",
+      "sha256": "758a1ac0eb35c96630e3aeec4878957e7bcbac616b323ec5816c149ead7727ed",
+      "bytes": 1820
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/common.py",
+      "sha256": "35c533085451a2e1815092d618cb0a94baba8a281cd133f6536e9c855f92b772",
+      "bytes": 1795
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/fit.py",
+      "sha256": "2aac3a738b13bc632acd1dbd7a2f07e311ff57e8c4c391397960b0608e3df956",
+      "bytes": 13967
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/protocol.json",
+      "sha256": "8350932d68d0b79809e34b9c7ec0b366cad8df26ed50e501c2551fde214c334a",
+      "bytes": 2777
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/report.md",
+      "sha256": "fe7ffb745c369c09b8db16a53c4994c7ae386a091b21938cbadb2e658fc16d54",
+      "bytes": 4709
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/probe.py",
+      "sha256": "4ab28f5c8e74567ae863e83469c7e821e87e8b66467700610e25207187f7819c",
+      "bytes": 864
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/3d_results.json",
+      "sha256": "2eb71fedb74451ad0f7576cd1c8857a9161139e31206da229d3ce12dd589174b",
+      "bytes": 70972
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/rotation_semantics.json",
+      "sha256": "e40ac58906bf10934e95c05a19f1d17fc03bd0c6ae7fabd8afabc597f9c806ae",
+      "bytes": 2654
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/execution.json",
+      "sha256": "0f4b282e394fdc874b195367c61f6780a847e8f94d42b6751b0ebbf3ff68ff27",
+      "bytes": 864
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/2d.json",
+      "sha256": "b2dd47939c310fdf50acab6666cd95641ef4dddce63b339b791b84ee7b8ecf99",
+      "bytes": 224828
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/fit_diagnostics.json",
+      "sha256": "3fc539c5efb107c6349ebfc52456695b601fa0c03aaea65f9e61be98f4a6dd20",
+      "bytes": 11580
+    },
+    {
+      "file": "runs/2026-11-18_gen_head_rotation_semantics/evidence/summary.json",
+      "sha256": "0cadd7afc4b366fe3d0fd31cd4b050559882f1939cc5e67750bb390432a34b0f",
+      "bytes": 2299
+    }
+  ],
+  "exit_status": 0
+}

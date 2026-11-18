@@ -1,0 +1,81 @@
+{
+  "command": "<PYTHON_ENV>/bin/python runs/2026-11-18_gen_head_rotation_semantics/verify.py",
+  "exit_status": 0,
+  "source_mcap_sha256": "00f34e66eacf623d03564571608665a5f6893be102f42c492785697c376e95c1",
+  "decoded_input_sha256": "60cbff8997c250ee309666fd331ca06e807f87158f041be070046d3ab1b590c7",
+  "frames": 5379,
+  "nonroot_joints": 21,
+  "head_index": 15,
+  "parent_index": 12,
+  "formula": "d=normalize(p_child-p_parent); pitch=asin(d_y); yaw=atan2(-d_x,-d_z); R=Ry(yaw) @ Rx(pitch)",
+  "fitted_parameters": 0,
+  "all_orientation_reconstruction_deg": {
+    "count": 112959,
+    "mean": 8.336581236487639e-15,
+    "max": 2.355358218533062e-13,
+    "p95": 2.051192055437537e-14
+  },
+  "heldout_second_half_reconstruction_deg": {
+    "count": 56490,
+    "mean": 8.250627531407557e-15,
+    "max": 4.659709353520025e-14,
+    "p95": 2.0365486769359558e-14
+  },
+  "head_orientation_reconstruction_deg": {
+    "count": 5379,
+    "mean": 1.1236430457124141e-14,
+    "max": 3.8809492825689145e-14,
+    "p95": 2.5481781660319643e-14
+  },
+  "per_joint_max_deg": [
+    2.849493446104205e-14,
+    2.604045951232083e-14,
+    2.8724933252927945e-14,
+    2.5532237022576064e-14,
+    2.5624000990614333e-14,
+    4.454729168642115e-14,
+    1.513931552081645e-14,
+    1.9234186211678768e-14,
+    4.0209573710071366e-14,
+    5.784463047184972e-14,
+    4.4951824358656134e-14,
+    3.278440724931703e-14,
+    3.866859991760797e-14,
+    3.6077226636696986e-14,
+    3.8809492825689145e-14,
+    4.372539773925818e-14,
+    3.8958878892283794e-14,
+    3.229868547531788e-14,
+    3.322143223673191e-14,
+    4.659709353520025e-14,
+    2.355358218533062e-13
+  ],
+  "minus_z_direction_residual": {
+    "count": 112959,
+    "mean": 1.5459075362804065e-16,
+    "max": 6.77599954797753e-16,
+    "p95": 3.3766115072321297e-16
+  },
+  "fixed_world_y_horizontal_axis_R10_abs": {
+    "count": 112959,
+    "mean": 1.6339776754328028e-17,
+    "max": 3.885780586188048e-16,
+    "p95": 5.551115123125783e-17
+  },
+  "nonidentifiability_example": {
+    "local_z_twist_deg": 90,
+    "head_bone_direction_change": {
+      "count": 5379,
+      "mean": 1.667749977833912e-16,
+      "max": 6.018865528812212e-16,
+      "p95": 3.521787733787174e-16
+    },
+    "orientation_change_deg": {
+      "count": 5379,
+      "mean": 90.0,
+      "max": 90.00000000000003,
+      "p95": 90.0
+    }
+  },
+  "conclusion": "Stored nonroot orientation is exactly reconstructible from incoming bone direction alone. It contains no independent anatomical head twist measurement. A fixed axis conversion cannot supply missing head twist. Production implementation not inspected; numerical equality is the evidence."
+}
