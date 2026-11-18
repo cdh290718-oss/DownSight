@@ -1,0 +1,99 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=2 <PYTHON_ENV>/bin/python detect.py",
+  "exit_status": 0,
+  "elapsed_seconds": 43.26164746284485,
+  "weights_sha256": {
+    "original": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+    "rw500": "a68da3e49340af625ebbf6308802a6e1ac38c851ba87261f699c66d5cd3b54e8",
+    "rw5000": "3879e3a8879128955d371844ba43e96ed643f1cb088fe7ce7df60aec6cc5bf66",
+    "rw20000": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98"
+  },
+  "config_sha256": "d597c370323db5ce9216438109512754545626cba5d61b5e151e93ca2f645a66",
+  "images": [
+    {
+      "camera": "cam3",
+      "sha256": "5422b0a6dce29de8e2e0f3b912705617e111ec5a597e8c48bd36d875ec3417ff"
+    },
+    {
+      "camera": "cam4",
+      "sha256": "2e2e1f0592e1c571e5f46bf86c81e6ce9a96375dc516e6a9a4e7ff015ae401d0"
+    }
+  ],
+  "mapping": [
+    [
+      "left_shoulder",
+      5,
+      16,
+      8
+    ],
+    [
+      "right_shoulder",
+      6,
+      17,
+      9
+    ],
+    [
+      "left_elbow",
+      7,
+      18,
+      10
+    ],
+    [
+      "right_elbow",
+      8,
+      19,
+      11
+    ],
+    [
+      "left_wrist",
+      62,
+      20,
+      12
+    ],
+    [
+      "right_wrist",
+      41,
+      21,
+      13
+    ],
+    [
+      "left_hip",
+      9,
+      1,
+      1
+    ],
+    [
+      "right_hip",
+      10,
+      2,
+      2
+    ],
+    [
+      "left_knee",
+      11,
+      4,
+      3
+    ],
+    [
+      "right_knee",
+      12,
+      5,
+      4
+    ],
+    [
+      "left_ankle",
+      13,
+      7,
+      5
+    ],
+    [
+      "right_ankle",
+      14,
+      8,
+      6
+    ]
+  ],
+  "failed_images": 0,
+  "precision": "BF16 autocast",
+  "flip_test": true
+}

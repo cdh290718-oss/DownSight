@@ -1,0 +1,10 @@
+"""Collect compact reproducibility evidence without accuracy metrics or raw provenance."""
+import json,subprocess
+from pathlib import Path
+from common import ROOT,RUN,OUT,read,write,sha,setup_model
+model,_=setup_model()
+from config import cfg
+assetroot=Path(cfg.human_model_path)/'smplx';candidates=[p for p in assetroot.iterdir() if p.name.lower().startswith('smplx_neutral') and p.suffix in ['.npz','.pkl']];assert candidates
+records=read(OUT/'records.json');fit=read(OUT/'fit_complete.json');diagnostic=read(OUT/'diagnostic_20000.json');assert read(OUT/'fit_retry_status.json')['exit_status']==0;assert read(OUT/'export_status.json')['exit_status']==0
+sources={p.name:sha(p) for p in sorted(RUN.glob('*.py'))};write(RUN/'evidence/execution.json',dict(base_commit='37217711492865029a42475b7e3e84707951666d',working_tree='new uncommitted run files at execution; unrelated existing modification preserved',commands=['<DETECTOR_ENV>/bin/python detect.py','<EGOSMPLX_ENV>/bin/python prepare.py','<EGOSMPLX_ENV>/bin/python fit.py --threads 1','<EGOSMPLX_ENV>/bin/python export.py'],fit=fit,stability_flags=diagnostic['convergence_pass'],selected_feasible=diagnostic['selected_feasible'],export_exit_status=0,sources_sha256=sources,smplx_assets=[dict(file=p.name,sha256=sha(p),access='Existing external SMPL-X model; license/access required; not distributed') for p in candidates],mask='common finite in-frame predictions across four models; no GT mask',human_review=dict(new_overview='assets/new_four_models_overview.jpg',notes='All four render outputs visually inspected together. Fixed hand pose visibly mismatches real hands; clothing/surface mismatch remains. No claim of true 3D accuracy or model ranking.'),initial_failure='See initial_environment_failure.json; existing environments separated, no package installation',publication_scope='User explicitly requested overlays and fitted parameters. Compact coefficients and calibration go to Release attachments; no weights, original dataset or full raw results.'))
+print('Collected run and reload provenance; no GT metrics')

@@ -1,0 +1,360 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <EGOSMPLX_ENV>/bin/python export.py",
+  "exit_status": 0,
+  "files": [
+    {
+      "file": "real001_t029p0__goldenD2d__original__shared_cam3_cv.npz",
+      "relative_path": "01_new_four_models/real001_t029p0__goldenD2d__original__shared_cam3_cv.npz",
+      "group": "01_new_four_models",
+      "description": "Current full-2D golden D, detector original, shared body for cam3/cam4",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "c662385c77a65472385bcd4a1f9004828382704a8a6c6b6ffd9e45282be4bcd4",
+      "bytes": 3453,
+      "source_sha256": "c99439ed3ad702fff240609e0f787a3dcd1793f322a7d2df276603c36b440850",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw500__shared_cam3_cv.npz",
+      "relative_path": "01_new_four_models/real001_t029p0__goldenD2d__rw500__shared_cam3_cv.npz",
+      "group": "01_new_four_models",
+      "description": "Current full-2D golden D, detector rw500, shared body for cam3/cam4",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "7a686e7f1026c72ba6f115d7bc4575e8abae52d9c4296458320c6c1c0cf4ed51",
+      "bytes": 3452,
+      "source_sha256": "c99439ed3ad702fff240609e0f787a3dcd1793f322a7d2df276603c36b440850",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw5000__shared_cam3_cv.npz",
+      "relative_path": "01_new_four_models/real001_t029p0__goldenD2d__rw5000__shared_cam3_cv.npz",
+      "group": "01_new_four_models",
+      "description": "Current full-2D golden D, detector rw5000, shared body for cam3/cam4",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "4338e7041947ba0c012b982ec7488d09931664e69ab33ea1ee55d85d9d3e03f3",
+      "bytes": 3452,
+      "source_sha256": "c99439ed3ad702fff240609e0f787a3dcd1793f322a7d2df276603c36b440850",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw20000__shared_cam3_cv.npz",
+      "relative_path": "01_new_four_models/real001_t029p0__goldenD2d__rw20000__shared_cam3_cv.npz",
+      "group": "01_new_four_models",
+      "description": "Current full-2D golden D, detector rw20000, shared body for cam3/cam4",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "c4a2786f923412bc96dd19e071aef3d80c8d446fcde55db20c534760fd651e05",
+      "bytes": 3451,
+      "source_sha256": "c99439ed3ad702fff240609e0f787a3dcd1793f322a7d2df276603c36b440850",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_original__cam3_cv.npz",
+      "relative_path": "02_legacy_three_methods/real001_t029p0__legacy_original__cam3_cv.npz",
+      "group": "02_legacy_three_methods",
+      "description": "Archived original per-view SMPL-X body coefficients; not final MANO seam mesh",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "7621ca9af11ab52f56477cb319d0977bb10ffffc6916bc19e5648ef8484c6e91",
+      "bytes": 3934,
+      "source_sha256": "2fe6c77bbd3b79e49f7cd7ef918ba7660d09c23bb1300fef05c6ce0d96a4c13b",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_v2__cam3_cv.npz",
+      "relative_path": "02_legacy_three_methods/real001_t029p0__legacy_v2__cam3_cv.npz",
+      "group": "02_legacy_three_methods",
+      "description": "Archived v2 per-view SMPL-X body coefficients; not final MANO seam mesh",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "43d931c810d0a94f34cc813f1580378c0e125ad03417a0a6862446990dde6602",
+      "bytes": 3934,
+      "source_sha256": "1a84acd12091419228d8b73715fb1c5c21ebface8d376993142aeb0a396b5fbc",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_original__cam4_cv.npz",
+      "relative_path": "02_legacy_three_methods/real001_t029p0__legacy_original__cam4_cv.npz",
+      "group": "02_legacy_three_methods",
+      "description": "Archived original per-view SMPL-X body coefficients; not final MANO seam mesh",
+      "coordinate_frame": "cam4 CV",
+      "sha256": "0bfe20800cc76f877da6e4cdee657891361a1bc74eab47f90a8edf90a26c6568",
+      "bytes": 3935,
+      "source_sha256": "555c6ee0638bec2dcfd4bb9328396e5429e6f9487cfb6c278d7ad35222bf9ae8",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_v2__cam4_cv.npz",
+      "relative_path": "02_legacy_three_methods/real001_t029p0__legacy_v2__cam4_cv.npz",
+      "group": "02_legacy_three_methods",
+      "description": "Archived v2 per-view SMPL-X body coefficients; not final MANO seam mesh",
+      "coordinate_frame": "cam4 CV",
+      "sha256": "9473f926f811286af69d7b5906f57e01ab64af67b402209612c55eba81b9d324",
+      "bytes": 3937,
+      "source_sha256": "3f21c512cdcde44258246062feb65d33a21eec718ae2c5b5fbdad5bbf35f4fe9",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_D3d__baseline__shared_cam3_cv.npz",
+      "relative_path": "02_legacy_three_methods/real001_t029p0__legacy_D3d__baseline__shared_cam3_cv.npz",
+      "group": "02_legacy_three_methods",
+      "description": "Archived old 3D D: baseline, shared cam3/cam4 body",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "4b15010173b33750eeb6a61fc3c386e6be730c8bc9db1f4b8541848b5ca1b2e3",
+      "bytes": 3466,
+      "source_sha256": "b41e196f4531b35639ed03a6e64ae4c70644c92b79976bb1c9b94991ce11bb4c",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_D3d__head_tx_plus20mm_ry_plus3deg__shared_cam3_cv.npz",
+      "relative_path": "03_legacy_head_perturbations/real001_t029p0__legacy_D3d__head_tx_plus20mm_ry_plus3deg__shared_cam3_cv.npz",
+      "group": "03_legacy_head_perturbations",
+      "description": "Archived old 3D D: head_tx_plus20mm_ry_plus3deg, shared cam3/cam4 body",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "27a63b8331dd7c32819c77175e6a551f088ecf4946558ea76dbc895a26ffab61",
+      "bytes": 3464,
+      "source_sha256": "0dbc2305468fa97dbaad1c0dd4485422491f96ae7bdf16bc6e1cfdea12dd4526",
+      "reload_mesh_max_abs_m": 0.0
+    },
+    {
+      "file": "real001_t029p0__legacy_D3d__head_tx_minus20mm_ry_minus3deg__shared_cam3_cv.npz",
+      "relative_path": "03_legacy_head_perturbations/real001_t029p0__legacy_D3d__head_tx_minus20mm_ry_minus3deg__shared_cam3_cv.npz",
+      "group": "03_legacy_head_perturbations",
+      "description": "Archived old 3D D: head_tx_minus20mm_ry_minus3deg, shared cam3/cam4 body",
+      "coordinate_frame": "cam3 CV",
+      "sha256": "fcec6d8cf61ceb314e8cc692f4eab12ef4ba9595e2ed5d6791e615f5b2331c63",
+      "bytes": 3467,
+      "source_sha256": "2aac10c1d6890aad43632ae1e9533d93f2bf16c6d37a23d8422adbde79ebcf78",
+      "reload_mesh_max_abs_m": 0.0
+    }
+  ],
+  "checks": [
+    {
+      "detector": "original",
+      "selected_step": 19980,
+      "full_smplx_vs_fk_max_abs_m": 1.1920928955078125e-07,
+      "shared_frame": "cam3 CV"
+    },
+    {
+      "detector": "rw500",
+      "selected_step": 20000,
+      "full_smplx_vs_fk_max_abs_m": 2.384185791015625e-07,
+      "shared_frame": "cam3 CV"
+    },
+    {
+      "detector": "rw5000",
+      "selected_step": 20000,
+      "full_smplx_vs_fk_max_abs_m": 2.384185791015625e-07,
+      "shared_frame": "cam3 CV"
+    },
+    {
+      "detector": "rw20000",
+      "selected_step": 20000,
+      "full_smplx_vs_fk_max_abs_m": 1.1920928955078125e-07,
+      "shared_frame": "cam3 CV"
+    },
+    {
+      "legacy": "original",
+      "camera": "cam3",
+      "source_body_mesh_reload_max_abs_m": 0.0
+    },
+    {
+      "legacy": "v2",
+      "camera": "cam3",
+      "source_body_mesh_reload_max_abs_m": 0.0
+    },
+    {
+      "legacy": "original",
+      "camera": "cam4",
+      "source_body_mesh_reload_max_abs_m": 0.0
+    },
+    {
+      "legacy": "v2",
+      "camera": "cam4",
+      "source_body_mesh_reload_max_abs_m": 0.0
+    },
+    {
+      "legacy": "D3d_baseline",
+      "source_hash_matches_old_report": true,
+      "source_body_mesh_reload_max_abs_m": 1.7881393432617188e-07
+    },
+    {
+      "legacy": "D3d_head_tx_plus20mm_ry_plus3deg",
+      "source_hash_matches_old_report": true,
+      "source_body_mesh_reload_max_abs_m": 2.384185791015625e-07
+    },
+    {
+      "legacy": "D3d_head_tx_minus20mm_ry_minus3deg",
+      "source_hash_matches_old_report": true,
+      "source_body_mesh_reload_max_abs_m": 1.7881393432617188e-07
+    }
+  ],
+  "renders": [
+    {
+      "detector": "original",
+      "camera": "cam3",
+      "file": "original__cam3__mesh_overlay.jpg",
+      "sha256": "688061782f2fa5de516704a3ddf1d8e4bd69871e10682ffb1075c7835541bcdd",
+      "visible_pixels": 231304,
+      "drawn_triangles": 10602,
+      "rejected_near_or_long": 729,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "original",
+      "camera": "cam4",
+      "file": "original__cam4__mesh_overlay.jpg",
+      "sha256": "19760a6eac8dfd1c030bb85bd58dc41eabce523822260442de42532b7a473b62",
+      "visible_pixels": 235946,
+      "drawn_triangles": 10653,
+      "rejected_near_or_long": 749,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw500",
+      "camera": "cam3",
+      "file": "rw500__cam3__mesh_overlay.jpg",
+      "sha256": "f976e9ec4687ab21c457e868f790bfb63a86c1a27141a2203e1d9b2cfc9ace5d",
+      "visible_pixels": 221250,
+      "drawn_triangles": 10621,
+      "rejected_near_or_long": 727,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw500",
+      "camera": "cam4",
+      "file": "rw500__cam4__mesh_overlay.jpg",
+      "sha256": "68d02f3b83538ac6bdabcfc77c6c7cbf206706965a370967125289885291e74d",
+      "visible_pixels": 224017,
+      "drawn_triangles": 10668,
+      "rejected_near_or_long": 752,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw5000",
+      "camera": "cam3",
+      "file": "rw5000__cam3__mesh_overlay.jpg",
+      "sha256": "73cdd1d88297c06aaadb41dbca5a8c6df56fbe28f239afa7b26ae09864eb2e40",
+      "visible_pixels": 217589,
+      "drawn_triangles": 10606,
+      "rejected_near_or_long": 728,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw5000",
+      "camera": "cam4",
+      "file": "rw5000__cam4__mesh_overlay.jpg",
+      "sha256": "674beda5fcf075c5ce0ca9c9a33ce938549438dff499db84a9ee4b5e613cbc96",
+      "visible_pixels": 223472,
+      "drawn_triangles": 10669,
+      "rejected_near_or_long": 756,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw20000",
+      "camera": "cam3",
+      "file": "rw20000__cam3__mesh_overlay.jpg",
+      "sha256": "5f1c817dd4ab9ed8fef36504a7d958ee85acf81a6e5f639162ccb3993e8767af",
+      "visible_pixels": 217087,
+      "drawn_triangles": 10564,
+      "rejected_near_or_long": 732,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "detector": "rw20000",
+      "camera": "cam4",
+      "file": "rw20000__cam4__mesh_overlay.jpg",
+      "sha256": "10e889e8c942259386c523fed34428724f6619781a4ff700aac045f2dd90a18f",
+      "visible_pixels": 216477,
+      "drawn_triangles": 10619,
+      "rejected_near_or_long": 745,
+      "mesh_source": "parameter-reloaded SMPL-X body, no hand replacement"
+    },
+    {
+      "legacy": "original",
+      "camera": "cam3",
+      "file": "legacy_original__cam3__mesh_overlay.jpg",
+      "sha256": "4e117720c1cfacd61f04b8b5c1570b21c4ec0eec22a07590702542cc7808d421",
+      "historical_image_sha256": "4e117720c1cfacd61f04b8b5c1570b21c4ec0eec22a07590702542cc7808d421",
+      "mesh_source": "Historical published image; contains historical hand-fusion geometry beyond SMPL-X coefficients"
+    },
+    {
+      "legacy": "v2",
+      "camera": "cam3",
+      "file": "legacy_v2__cam3__mesh_overlay.jpg",
+      "sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "historical_image_sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52",
+      "mesh_source": "Historical published image; contains historical hand-fusion geometry beyond SMPL-X coefficients"
+    },
+    {
+      "legacy": "original",
+      "camera": "cam4",
+      "file": "legacy_original__cam4__mesh_overlay.jpg",
+      "sha256": "20ab7b3e7ce5fa931738858b877f621be8785c99156b8a88414e9e7b1f4382e7",
+      "historical_image_sha256": "20ab7b3e7ce5fa931738858b877f621be8785c99156b8a88414e9e7b1f4382e7",
+      "mesh_source": "Historical published image; contains historical hand-fusion geometry beyond SMPL-X coefficients"
+    },
+    {
+      "legacy": "v2",
+      "camera": "cam4",
+      "file": "legacy_v2__cam4__mesh_overlay.jpg",
+      "sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "historical_image_sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94",
+      "mesh_source": "Historical published image; contains historical hand-fusion geometry beyond SMPL-X coefficients"
+    },
+    {
+      "legacy": "D3d_baseline",
+      "camera": "cam3",
+      "file": "legacy_D3d_baseline__cam3__mesh_overlay.jpg",
+      "sha256": "4c0611257365aa7bc62ff95fb6434dc627ae22824445ec6d23566f531309db8d",
+      "historical_image_sha256": "4c0611257365aa7bc62ff95fb6434dc627ae22824445ec6d23566f531309db8d",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    },
+    {
+      "legacy": "D3d_baseline",
+      "camera": "cam4",
+      "file": "legacy_D3d_baseline__cam4__mesh_overlay.jpg",
+      "sha256": "8cb3ae38da58de4767dfd7b65c81bd234b30b2387b1be9e35db5737f81779071",
+      "historical_image_sha256": "8cb3ae38da58de4767dfd7b65c81bd234b30b2387b1be9e35db5737f81779071",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    },
+    {
+      "legacy": "D3d_head_tx_plus20mm_ry_plus3deg",
+      "camera": "cam3",
+      "file": "legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam3__mesh_overlay.jpg",
+      "sha256": "6934fe55c82e6131e0f4d6b1a4c7d738a5abd022438cf6519c25be50b4a69b9c",
+      "historical_image_sha256": "6934fe55c82e6131e0f4d6b1a4c7d738a5abd022438cf6519c25be50b4a69b9c",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    },
+    {
+      "legacy": "D3d_head_tx_plus20mm_ry_plus3deg",
+      "camera": "cam4",
+      "file": "legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam4__mesh_overlay.jpg",
+      "sha256": "ea1ab4071c0c2c03497b9cc52d76fea0178d111c5ab9dd14196add9794e298c6",
+      "historical_image_sha256": "ea1ab4071c0c2c03497b9cc52d76fea0178d111c5ab9dd14196add9794e298c6",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    },
+    {
+      "legacy": "D3d_head_tx_minus20mm_ry_minus3deg",
+      "camera": "cam3",
+      "file": "legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam3__mesh_overlay.jpg",
+      "sha256": "380c571174b9438278bd845a90314e8b7beef0c58882b09c70b4cbd09fe3bfbe",
+      "historical_image_sha256": "380c571174b9438278bd845a90314e8b7beef0c58882b09c70b4cbd09fe3bfbe",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    },
+    {
+      "legacy": "D3d_head_tx_minus20mm_ry_minus3deg",
+      "camera": "cam4",
+      "file": "legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam4__mesh_overlay.jpg",
+      "sha256": "fd9c195b21ea97c5516923acfa5981723d95bfbc3ca0d79eab828712d0e797f7",
+      "historical_image_sha256": "fd9c195b21ea97c5516923acfa5981723d95bfbc3ca0d79eab828712d0e797f7",
+      "mesh_source": "Historical published image, archived shared-body D fit"
+    }
+  ],
+  "archive": {
+    "file": "real001_t029p0_smplx_new4_and_legacy_all.zip",
+    "sha256": "898170c5cdf70a0c699b80e4bb86a53a09c55872e3bc0f0f0638fac9fd8e3dc4",
+    "bytes": 39800
+  },
+  "hand_convention": {
+    "use_pca": false,
+    "flat_hand_mean": false
+  },
+  "metrics": "No ground-truth accuracy metrics computed; reload checks only"
+}

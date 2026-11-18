@@ -1,0 +1,107 @@
+{
+  "baseline_commit": "37217711492865029a42475b7e3e84707951666d",
+  "pairs": [
+    "real001_original",
+    "real001_rw500",
+    "real001_rw5000",
+    "real001_rw20000"
+  ],
+  "methods": [
+    "2d"
+  ],
+  "conditions": [
+    "baseline"
+  ],
+  "intervention": "four detector checkpoints only; shared camera/estimated Head/shape/hand settings",
+  "observation_joints": [
+    "R_Shoulder",
+    "R_Elbow",
+    "R_Wrist",
+    "L_Shoulder",
+    "L_Elbow",
+    "L_Wrist",
+    "R_Hip",
+    "R_Knee",
+    "R_Ankle",
+    "L_Hip",
+    "L_Knee",
+    "L_Ankle"
+  ],
+  "observation_policy": "12 anatomically mapped body joints; require finite prediction in both images for all four models, common joint-view mask; retain low confidence",
+  "primary": "qualitative mesh overlays and downloadable SMPL-X coefficients; no ground-truth metrics",
+  "secondary": "none",
+  "fixed_mixed_route": "Use archived baseline accepted 3D targets and their covariances; otherwise use the same valid 2D views. Retriangulate only coordinates of already accepted 3D targets. Never change mask, covariance, group normalizer or shape subspace across interventions.",
+  "shape_policy": "fixed mean shape; zero basis, no triangulated 3D targets",
+  "sigma_px_fixed": 8.0,
+  "metric_loss_weight": 0.01,
+  "metric_huber_delta": 2.5,
+  "shoulder_weight": 0.25,
+  "head_position_sigma_m": 0.015,
+  "head_rotation_sigma_deg": 3.0,
+  "head_position_weight": 0.01,
+  "head_rotation_weight": 0.01,
+  "pose_prior_weight": 0.0008,
+  "shape_prior_weight": 0.001,
+  "shape_information_threshold": 1.0,
+  "minimum_observed_joint_z_m": 0.0001,
+  "pose_lr": 0.0015,
+  "rotation_lr": 0.0015,
+  "translation_lr": 0.003,
+  "shape_lr": 0.003,
+  "budgets": [
+    20000
+  ],
+  "checkpoint_steps": 20,
+  "trace_steps": 100,
+  "lr_schedule": [
+    [
+      0,
+      1.0
+    ],
+    [
+      10000,
+      0.25
+    ],
+    [
+      16000,
+      0.1
+    ],
+    [
+      20000,
+      0.05
+    ],
+    [
+      30000,
+      0.02
+    ]
+  ],
+  "selection": "Lowest feasible training objective at fixed checkpoints, no body-3D GT or output 3D error used",
+  "convergence": {
+    "window_steps": 1000,
+    "relative_loss_change_max": 0.001,
+    "max_joint_motion_mm": 0.1
+  },
+  "statistics": {},
+  "absolute_pose_caps_deg": {
+    "L_Hip": 150.0,
+    "R_Hip": 150.0,
+    "Spine_1": 60.0,
+    "L_Knee": 165.0,
+    "R_Knee": 165.0,
+    "Spine_2": 60.0,
+    "L_Ankle": 90.0,
+    "R_Ankle": 90.0,
+    "Spine_3": 60.0,
+    "Neck": 60.0,
+    "L_Collar": 60.0,
+    "R_Collar": 60.0,
+    "Head": 60.0,
+    "L_Shoulder": 175.0,
+    "R_Shoulder": 175.0,
+    "L_Elbow": 165.0,
+    "R_Elbow": 165.0,
+    "L_Wrist": 100.0,
+    "R_Wrist": 100.0
+  },
+  "scope": "single real stereo pair, historical estimated head and calibration; no 3D truth; fixed local hand pose"
+}

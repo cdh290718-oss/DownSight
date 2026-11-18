@@ -1,0 +1,235 @@
+{
+  "scope": "This run only; unrelated existing modifications/untracked files excluded; historical repository not audited",
+  "baseline": "37217711492865029a42475b7e3e84707951666d",
+  "remote_before_commit": "37217711492865029a42475b7e3e84707951666d",
+  "worktree_reviewed": true,
+  "unrelated_worktree_entries": 40,
+  "checks": {
+    "under_50MB_per_file": true,
+    "no_weights_dataset_video_npy_npz": true,
+    "no_full_raw_output_provenance_patch": true,
+    "no_credentials_env_or_machine_paths_found": true,
+    "python_syntax_and_json_parse": true,
+    "only_user_authorized_mesh_overlay_images": true,
+    "release_attachments_audited_separately": true
+  },
+  "scope_exception": "User explicitly requested mesh matching images and parameter downloads. Images committed; compact coefficients published separately as Release attachments. No original dataset, model weights or full raw outputs published.",
+  "files": [
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/DOWNLOADS.md",
+      "bytes": 4668,
+      "sha256": "e7e1072f8f1a1bfa92f971f099dd280eee3c473c269e88c96f285c2857276d0d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/DOWNLOADS_README.md",
+      "bytes": 1906,
+      "sha256": "7486936ac07b3001f97e2eb76ac94942c1e6767d276796d4d3b7f670f09d51be"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_baseline__cam3__mesh_overlay.jpg",
+      "bytes": 263515,
+      "sha256": "4c0611257365aa7bc62ff95fb6434dc627ae22824445ec6d23566f531309db8d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_baseline__cam4__mesh_overlay.jpg",
+      "bytes": 266592,
+      "sha256": "8cb3ae38da58de4767dfd7b65c81bd234b30b2387b1be9e35db5737f81779071"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam3__mesh_overlay.jpg",
+      "bytes": 263041,
+      "sha256": "380c571174b9438278bd845a90314e8b7beef0c58882b09c70b4cbd09fe3bfbe"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam4__mesh_overlay.jpg",
+      "bytes": 264689,
+      "sha256": "fd9c195b21ea97c5516923acfa5981723d95bfbc3ca0d79eab828712d0e797f7"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam3__mesh_overlay.jpg",
+      "bytes": 262570,
+      "sha256": "6934fe55c82e6131e0f4d6b1a4c7d738a5abd022438cf6519c25be50b4a69b9c"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam4__mesh_overlay.jpg",
+      "bytes": 266830,
+      "sha256": "ea1ab4071c0c2c03497b9cc52d76fea0178d111c5ab9dd14196add9794e298c6"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_original__cam3__mesh_overlay.jpg",
+      "bytes": 256195,
+      "sha256": "4e117720c1cfacd61f04b8b5c1570b21c4ec0eec22a07590702542cc7808d421"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_original__cam4__mesh_overlay.jpg",
+      "bytes": 255574,
+      "sha256": "20ab7b3e7ce5fa931738858b877f621be8785c99156b8a88414e9e7b1f4382e7"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_v2__cam3__mesh_overlay.jpg",
+      "bytes": 242410,
+      "sha256": "f32212b9ff77e48d9000f443d011040453ecce37b817d3025d00b8c227129e52"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/legacy_v2__cam4__mesh_overlay.jpg",
+      "bytes": 244353,
+      "sha256": "5a5ed44dc179bbb084d933d82f671fd4f8c3da3d8db92a3921bfba028dbc2a94"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/new_four_models_overview.jpg",
+      "bytes": 731734,
+      "sha256": "5f596372b2eb11e450aff7403a5484b500b6f83abd56a572308209341f97080b"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/original__cam3__mesh_overlay.jpg",
+      "bytes": 273486,
+      "sha256": "688061782f2fa5de516704a3ddf1d8e4bd69871e10682ffb1075c7835541bcdd"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/original__cam4__mesh_overlay.jpg",
+      "bytes": 281067,
+      "sha256": "19760a6eac8dfd1c030bb85bd58dc41eabce523822260442de42532b7a473b62"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw20000__cam3__mesh_overlay.jpg",
+      "bytes": 272416,
+      "sha256": "5f1c817dd4ab9ed8fef36504a7d958ee85acf81a6e5f639162ccb3993e8767af"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw20000__cam4__mesh_overlay.jpg",
+      "bytes": 276317,
+      "sha256": "10e889e8c942259386c523fed34428724f6619781a4ff700aac045f2dd90a18f"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw5000__cam3__mesh_overlay.jpg",
+      "bytes": 269389,
+      "sha256": "73cdd1d88297c06aaadb41dbca5a8c6df56fbe28f239afa7b26ae09864eb2e40"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw5000__cam4__mesh_overlay.jpg",
+      "bytes": 278479,
+      "sha256": "674beda5fcf075c5ce0ca9c9a33ce938549438dff499db84a9ee4b5e613cbc96"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw500__cam3__mesh_overlay.jpg",
+      "bytes": 271356,
+      "sha256": "f976e9ec4687ab21c457e868f790bfb63a86c1a27141a2203e1d9b2cfc9ace5d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/assets/rw500__cam4__mesh_overlay.jpg",
+      "bytes": 278295,
+      "sha256": "68d02f3b83538ac6bdabcfc77c6c7cbf206706965a370967125289885291e74d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/audit_attachments.py",
+      "bytes": 2269,
+      "sha256": "5e00bb4860818c5125cff51fd557f704ccc29b75e8017eecd3ff3c16d02035b8"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/brief.md",
+      "bytes": 657,
+      "sha256": "1e985a357d614be1d462e546db329780910fdf7dd76d4669ec18974fb0e90a4e"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/collect.py",
+      "bytes": 2077,
+      "sha256": "7b43ab820ec1016a3a10ea0c6f29eeef4cf178c995bd26f39fca9cc5a19c20be"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/common.py",
+      "bytes": 925,
+      "sha256": "bdf796ec32b1daba833449f6cb0314176a4010cc51e2e64d1dfe00dc8150f633"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/detect.py",
+      "bytes": 3977,
+      "sha256": "1b1fe6bff6f5544c006e782dae3443702dd665a26188a55dc30b819c76f2c985"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/attachment_audit.json",
+      "bytes": 2315,
+      "sha256": "f7a86de90b570621e7ea0fff12e163c6a2ac8db8ac8f7003bdd9418c2a1a46e2"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/detection.json",
+      "bytes": 1683,
+      "sha256": "75b86593f5758ef78c890ccd1973ce643f0eccd55fe6f104bb1c30eaf44cb043"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/execution.json",
+      "bytes": 3205,
+      "sha256": "b00f08b1734a28a1a1be0d1e1d2be86312d94e7c96db68a8e2e1007cb8afa0f6"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/exports.json",
+      "bytes": 15800,
+      "sha256": "d8582cd8b6ba2de623ef8bd1d5372a1fed4f39a9fb173f8ed46f3ab0c97489c2"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/initial_environment_failure.json",
+      "bytes": 355,
+      "sha256": "1c63a684fdc6e41bd75d4a0866671a2e43bdc2a3ad8a23c2ffdcd786e5652f0c"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/evidence/preparation.json",
+      "bytes": 3422,
+      "sha256": "c839443d9a96ee6b40c2b6a7ed3042033f603891bd0f9ef8320891990d3d6b58"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/export.py",
+      "bytes": 11243,
+      "sha256": "37ddf81e05f6693c2102d0e079916ab3263e0c9542aba130da2eab17b551a254"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/finalize_report.py",
+      "bytes": 9150,
+      "sha256": "f66365ba3009f72eda8a6424f5df94756a6fa8e11b6311bc6a1c6bcd804afc4b"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/fit.py",
+      "bytes": 13970,
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/job.py",
+      "bytes": 1065,
+      "sha256": "663a05d35c4104ff4a658e564ab2a2436c282c40c59e7b7b0c373b90d0935c6f"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/pipeline.py",
+      "bytes": 505,
+      "sha256": "e8b5b53c857610f9d41991c73a5da9ce6c73fc9f1bde5722f209e9e5114ab8bd"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/prepare.py",
+      "bytes": 3465,
+      "sha256": "a55de65160780575920d61f0a6b0e7d13ff82aab92444dd5680f293f8b6bb738"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/protocol.json",
+      "bytes": 2777,
+      "sha256": "c1897a0b57f5fdd9be98a00b0b1904f2b14f92f1981d127718f86bd2eca47af3"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/publish_release.py",
+      "bytes": 4151,
+      "sha256": "b896fcd223fb8a2a5040f18d1c9ada140426c95a2d8626a5075f61f0882bba5e"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/report.md",
+      "bytes": 7561,
+      "sha256": "f6d46ef66fd6b2bc97d170d5c27eb99d2964bc69ebfa79c5f35d5a25998cb11d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_golden_d_four_models/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d"
+    }
+  ],
+  "publication_gate": "Stage exactly listed files plus this audit; compare staged blobs; diff --check; verify pending commit and remote before normal push. Publish only assets hashed in attachment_audit.json."
+}

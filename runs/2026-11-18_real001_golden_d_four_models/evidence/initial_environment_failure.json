@@ -1,0 +1,9 @@
+{
+  "stage": "prepare",
+  "exit_status": 1,
+  "error": "ModuleNotFoundError: No module named 'mmcv'",
+  "cause": "Detector environment was incorrectly reused for SMPL-X setup",
+  "resolution": "Use existing egosmplx environment for preparation/fit/export; no package changes",
+  "detector_outputs_reused": true,
+  "fit_started_in_failed_attempt": false
+}

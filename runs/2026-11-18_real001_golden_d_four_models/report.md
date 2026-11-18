@@ -1,0 +1,68 @@
+# 真实样本001：四检测器与全二维黄金 D
+
+**新四组已完成，匹配图和历史参数已整理。没有计算 MPJPE、PA-MPJPE、RMSE、PCK 或对自动检测点的像素误差排名。**
+
+[下载全部 11 份 SMPL-X 参数（ZIP）](https://github.com/cdh290718-oss/DownSight/releases/download/real001-goldend2d-four-models-20261118/real001_t029p0_smplx_new4_and_legacy_all.zip) · [逐份下载索引](DOWNLOADS.md)
+
+## 新四模型匹配图
+
+四行依次为原模型检测器、500 张、5000 张、20000 张微调检测器；左列 cam3，右列 cam4。每行都是一套共享人体参数投影到两个相机。
+
+![四模型双目 mesh 匹配总览](assets/new_four_models_overview.jpg)
+
+| 检测器 | cam3 原尺寸匹配图 | cam4 原尺寸匹配图 |
+|---|---|---|
+| 原模型检测器 | [查看](assets/original__cam3__mesh_overlay.jpg) | [查看](assets/original__cam4__mesh_overlay.jpg) |
+| 500 张微调 | [查看](assets/rw500__cam3__mesh_overlay.jpg) | [查看](assets/rw500__cam4__mesh_overlay.jpg) |
+| 5000 张微调 | [查看](assets/rw5000__cam3__mesh_overlay.jpg) | [查看](assets/rw5000__cam4__mesh_overlay.jpg) |
+| 20000 张微调 | [查看](assets/rw20000__cam3__mesh_overlay.jpg) | [查看](assets/rw20000__cam4__mesh_overlay.jpg) |
+
+图像只用于定性检查。手型固定，手指与真实手部仍有明显不匹配；均值体型不保证贴合衣物轮廓。本轮不根据叠加图宣称哪组真实三维更准确。渲染使用相同透明度、颜色、鱼眼投影与自遮挡深度测试；不模拟桌面、衣物等真实物体遮挡，近相机或投影边过长的三角形可能被略去。
+
+## 历史结果与文件
+
+下表是原报告已有图片，按原文件复制并记录哈希；没有重新拟合或改名冒充新方法。旧 D 另外两组锚点扰动参数也一并提供，避免“三组”含义混淆。
+
+| 历史方法 | cam3 | cam4 | 参数关系 |
+|---|---|---|
+| 历史原方法 | [查看](assets/legacy_original__cam3__mesh_overlay.jpg) | [查看](assets/legacy_original__cam4__mesh_overlay.jpg) | 每目各一份 |
+| 历史逐目双目引导 v2 | [查看](assets/legacy_v2__cam3__mesh_overlay.jpg) | [查看](assets/legacy_v2__cam4__mesh_overlay.jpg) | 每目各一份，含额外 MANO 手网格处理 |
+| 旧三维 D 基础组 | [查看](assets/legacy_D3d_baseline__cam3__mesh_overlay.jpg) | [查看](assets/legacy_D3d_baseline__cam4__mesh_overlay.jpg) | 一份 cam3 坐标共享人体 |
+| 旧 D 正扰动 | [查看](assets/legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam3__mesh_overlay.jpg) | [查看](assets/legacy_D3d_head_tx_plus20mm_ry_plus3deg__cam4__mesh_overlay.jpg) | 头锚点 x +20 mm、绕 y +3° |
+| 旧 D 负扰动 | [查看](assets/legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam3__mesh_overlay.jpg) | [查看](assets/legacy_D3d_head_tx_minus20mm_ry_minus3deg__cam4__mesh_overlay.jpg) | 头锚点 x −20 mm、绕 y −3° |
+
+新四模型 4 份；历史原方法/v2 各 2 份、旧 D 基础 1 份；旧 D 扰动 2 份，合计 11 份。每份同时提供 NPZ 与 JSON。旧参数从现存历史文件提取核心 SMPL-X 系数，去掉派生网格/关节/检测缓存；旧 D 的三个源文件 SHA-256 与原报告证据逐项一致。所有导出的系数均通过参数重载还原检查。
+
+## 当前方法、输入与限制
+
+执行基线 `37217711492865029a42475b7e3e84707951666d`；读取最新 GitHub 报告、工作流与旧 review（待审核）。运行时本轮代码为未提交新增文件，其他既有工作树改动保持不变。旧档案和后端只读。
+
+- 方法：当前 `golden-d-2d-v1`。fit.py、geometry.py 逐字节复制固定参考实现；沿用其数值损失权重、Huber 归约、姿态限制、学习率计划、检查点选择和 20000 步预算。本轮只适配真实输入与运行路径。
+- 检测器：原 Sapiens2-1B 与 RW500/RW5000/RW20000 的全骨干微调第 1 轮权重，逐文件重新计算 SHA-256。两张原图全图框、官方预处理、配置中的翻转测试、BF16。
+- 相机：沿用原真实样本 cam3/cam4 的历史鱼眼标定与双目外参。该标定有来源，但没有被本轮真实三维真值验证；不使用 Gen 的 MCAP 相机。
+- Head：沿用旧基础组由 cam3 历史原方法 SMPL-X 得到的 native Head 位置与运动链朝向；重新从原参数还原核对。它是估计值，不是真实头部测量；也不是 Gen MCAP 的骨方向。
+- 观测：左右肩、肘、腕、髋、膝、踝，共 12 类身体点。固定四模型共有的有限画内预测掩码；不按置信度筛点。实际 22 个关节-视图观测；cam3 左肩与 cam4 右肩未进入共同掩码，其余保留。不使用真值画内掩码，也不使用三角化身体三维残差。
+- 初始化与体型：模板零身体姿态、均值体型、根据相同 Head 锚点对齐根位姿；体型基底秩为零。
+- 手部：局部手姿固定、无 WiLoR 手部观测损失，保留外部 SMPL-X 的非平手均值约定。新方案是当前黄金 D 身体优化，不是原 EgoSMPLX 包含手部替换和接缝融合的完整流程。
+
+**四组均完成 20000 步并选到了满足约束的检查点，但四组均未通过既定末段稳定性诊断。** 所以“完成预算”不等于已经充分收敛，更不等于三维正确。优化内部记录仅作运行证据，不作为真实姿态准确率。
+
+旧三方法的目标、有效点规则、是否每目独立、手部处理均不同；历史图仅作参考，不能把其差异全部归因于检测器。
+
+## 下载与还原
+
+参数在 GitHub Release 作为独立附件发布，不把 NPZ、完整原始输出或模型权重写入 Git 历史。用户本轮明确请求上传这些拟合参数与匹配图。下载包中含相机信息与坐标系说明；只分发拟合系数，重建网格仍需自行合法取得对应 SMPL-X 模型。
+
+新参数、旧 D 基础与正负扰动均位于 cam3 CV 米制坐标。旧原方法/v2 各自的 cam3、cam4 参数不能当作同一共享人体。详情见 [下载说明](DOWNLOADS_README.md)。
+
+## 执行与证据
+
+初次准备误用了检测器环境，因缺少 mmcv 退出；随后改用现有 egosmplx 环境，未安装或升级包。拟合未在失败尝试中启动，成功检测结果复用。记录见 [环境异常](evidence/initial_environment_failure.json)。证据收集脚本初次语法检查报多余右括号，修复后重跑成功，不影响拟合和导出产物。
+
+四组 CPU 单线程批量优化，检测器使用现有单张 GPU。来源、命令、退出状态、权重和输入哈希、源文件哈希、重载检查见 [执行](evidence/execution.json)、[输入](evidence/preparation.json)、[检测器](evidence/detection.json)、[导出](evidence/exports.json)。机器绝对路径、完整运行日志与 provenance 保留本地，公开文本用占位符。
+
+## 推送前自检
+
+本轮只提交代码、协议、报告、精简证据及用户指定的 mesh 匹配图。没有模型权重、数据集、原始视频、Git 跟踪的 NPY/NPZ、完整原始输出、凭据、.env、完整 provenance 或 patch；每文件小于 50 MB。另对 Release 附件检查参数字段、无对象数组、无模型/网格权重、无机器路径，见 [附件自检](evidence/attachment_audit.json)。工作区、暂存内容、待推提交和远端检查见 evidence/prepush.json；历史不在本轮增量审计范围。
+
+[原报告](https://github.com/cdh290718-oss/DownSight/blob/37217711492865029a42475b7e3e84707951666d/runs/2026-11-15_real-d-stereo/report.md)

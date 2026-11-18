@@ -1,0 +1,43 @@
+{
+  "command": "<EGOSMPLX_ENV>/bin/python audit_attachments.py",
+  "exit_status": 0,
+  "files_sha256": {
+    "real001_t029p0_smplx_new4_and_legacy_all.zip": "898170c5cdf70a0c699b80e4bb86a53a09c55872e3bc0f0f0638fac9fd8e3dc4",
+    "real001_t029p0__goldenD2d__original__shared_cam3_cv.npz": "c662385c77a65472385bcd4a1f9004828382704a8a6c6b6ffd9e45282be4bcd4",
+    "real001_t029p0__goldenD2d__rw500__shared_cam3_cv.npz": "7a686e7f1026c72ba6f115d7bc4575e8abae52d9c4296458320c6c1c0cf4ed51",
+    "real001_t029p0__goldenD2d__rw5000__shared_cam3_cv.npz": "4338e7041947ba0c012b982ec7488d09931664e69ab33ea1ee55d85d9d3e03f3",
+    "real001_t029p0__goldenD2d__rw20000__shared_cam3_cv.npz": "c4a2786f923412bc96dd19e071aef3d80c8d446fcde55db20c534760fd651e05",
+    "real001_t029p0__legacy_original__cam3_cv.npz": "7621ca9af11ab52f56477cb319d0977bb10ffffc6916bc19e5648ef8484c6e91",
+    "real001_t029p0__legacy_v2__cam3_cv.npz": "43d931c810d0a94f34cc813f1580378c0e125ad03417a0a6862446990dde6602",
+    "real001_t029p0__legacy_original__cam4_cv.npz": "0bfe20800cc76f877da6e4cdee657891361a1bc74eab47f90a8edf90a26c6568",
+    "real001_t029p0__legacy_v2__cam4_cv.npz": "9473f926f811286af69d7b5906f57e01ab64af67b402209612c55eba81b9d324",
+    "real001_t029p0__legacy_D3d__baseline__shared_cam3_cv.npz": "4b15010173b33750eeb6a61fc3c386e6be730c8bc9db1f4b8541848b5ca1b2e3",
+    "real001_t029p0__legacy_D3d__head_tx_plus20mm_ry_plus3deg__shared_cam3_cv.npz": "27a63b8331dd7c32819c77175e6a551f088ecf4946558ea76dbc895a26ffab61",
+    "real001_t029p0__legacy_D3d__head_tx_minus20mm_ry_minus3deg__shared_cam3_cv.npz": "fcec6d8cf61ceb314e8cc692f4eab12ef4ba9595e2ed5d6791e615f5b2331c63"
+  },
+  "npz_files": 11,
+  "archive_members": 27,
+  "coefficient_keys": [
+    "betas",
+    "body_pose",
+    "coordinate_frame",
+    "expression",
+    "flat_hand_mean",
+    "gender",
+    "global_orient",
+    "jaw_pose",
+    "left_hand_pose",
+    "leye_pose",
+    "pose_representation",
+    "reye_pose",
+    "right_hand_pose",
+    "transl",
+    "units",
+    "use_pca"
+  ],
+  "no_object_arrays": true,
+  "no_model_weights_or_mesh_arrays": true,
+  "no_images_or_dataset": true,
+  "no_machine_paths_credentials": true,
+  "authorization": "User explicitly requested uploading current and historical fitted SMPL-X parameters; release attachments only, not Git-tracked NPZ"
+}

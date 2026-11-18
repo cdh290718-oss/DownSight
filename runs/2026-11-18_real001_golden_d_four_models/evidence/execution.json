@@ -1,0 +1,88 @@
+{
+  "base_commit": "37217711492865029a42475b7e3e84707951666d",
+  "working_tree": "new uncommitted run files at execution; unrelated existing modification preserved",
+  "commands": [
+    "<DETECTOR_ENV>/bin/python detect.py",
+    "<EGOSMPLX_ENV>/bin/python prepare.py",
+    "<EGOSMPLX_ENV>/bin/python fit.py --threads 1",
+    "<EGOSMPLX_ENV>/bin/python export.py"
+  ],
+  "fit": {
+    "exit_status": 0,
+    "ids": [
+      [
+        "real001_original",
+        "baseline",
+        "2d"
+      ],
+      [
+        "real001_rw500",
+        "baseline",
+        "2d"
+      ],
+      [
+        "real001_rw5000",
+        "baseline",
+        "2d"
+      ],
+      [
+        "real001_rw20000",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "steps": 20000,
+    "elapsed_seconds": 102.10506057739258,
+    "protocol_sha256": "c1897a0b57f5fdd9be98a00b0b1904f2b14f92f1981d127718f86bd2eca47af3",
+    "final_selected_steps": [
+      19980,
+      20000,
+      20000,
+      20000
+    ],
+    "device": "cpu",
+    "threads": 1,
+    "body_gt_read": false
+  },
+  "stability_flags": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "selected_feasible": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "export_exit_status": 0,
+  "sources_sha256": {
+    "audit_attachments.py": "5e00bb4860818c5125cff51fd557f704ccc29b75e8017eecd3ff3c16d02035b8",
+    "collect.py": "7b43ab820ec1016a3a10ea0c6f29eeef4cf178c995bd26f39fca9cc5a19c20be",
+    "common.py": "bdf796ec32b1daba833449f6cb0314176a4010cc51e2e64d1dfe00dc8150f633",
+    "detect.py": "1b1fe6bff6f5544c006e782dae3443702dd665a26188a55dc30b819c76f2c985",
+    "export.py": "37ddf81e05f6693c2102d0e079916ab3263e0c9542aba130da2eab17b551a254",
+    "finalize_report.py": "f66365ba3009f72eda8a6424f5df94756a6fa8e11b6311bc6a1c6bcd804afc4b",
+    "fit.py": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+    "job.py": "663a05d35c4104ff4a658e564ab2a2436c282c40c59e7b7b0c373b90d0935c6f",
+    "pipeline.py": "e8b5b53c857610f9d41991c73a5da9ce6c73fc9f1bde5722f209e9e5114ab8bd",
+    "prepare.py": "a55de65160780575920d61f0a6b0e7d13ff82aab92444dd5680f293f8b6bb738",
+    "publish_release.py": "b896fcd223fb8a2a5040f18d1c9ada140426c95a2d8626a5075f61f0882bba5e"
+  },
+  "smplx_assets": [
+    {
+      "file": "SMPLX_NEUTRAL.npz",
+      "sha256": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992",
+      "access": "Existing external SMPL-X model; license/access required; not distributed"
+    }
+  ],
+  "mask": "common finite in-frame predictions across four models; no GT mask",
+  "human_review": {
+    "new_overview": "assets/new_four_models_overview.jpg",
+    "notes": "All four render outputs visually inspected together. Fixed hand pose visibly mismatches real hands; clothing/surface mismatch remains. No claim of true 3D accuracy or model ranking."
+  },
+  "initial_failure": "See initial_environment_failure.json; existing environments separated, no package installation",
+  "publication_scope": "User explicitly requested overlays and fitted parameters. Compact coefficients and calibration go to Release attachments; no weights, original dataset or full raw results."
+}

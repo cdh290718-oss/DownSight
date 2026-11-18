@@ -1,0 +1,169 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <PYTHON_ENV>/bin/python prepare.py",
+  "exit_status": 0,
+  "head_source": "historical original cam3 SMPL-X body, native Head position and kinematic rotation; estimate, not ground truth",
+  "head_source_sha256": "2fe6c77bbd3b79e49f7cd7ef918ba7660d09c23bb1300fef05c6ce0d96a4c13b",
+  "head_anchor": {
+    "position": [
+      0.05641316622495651,
+      0.43051502108573914,
+      0.3038858473300934
+    ],
+    "rotation": [
+      [
+        -0.9437367236802344,
+        -0.26973567435995743,
+        -0.1913208361754567
+      ],
+      [
+        0.06545695563384468,
+        0.4147264194575313,
+        -0.9075887747009024
+      ],
+      [
+        0.3241548755401435,
+        -0.8690481361705549,
+        -0.3737364762530403
+      ]
+    ]
+  },
+  "camera_transforms": {
+    "views": {
+      "left": {
+        "camera": {
+          "left_to_view": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      "right": {
+        "camera": {
+          "left_to_view": [
+            [
+              0.9998486861363481,
+              -0.017233030742514005,
+              0.0023722316172694905,
+              -0.1541421407125394
+            ],
+            [
+              0.01730585921381124,
+              0.9992310520501574,
+              -0.0351825504420515,
+              0.0055083755938969475
+            ],
+            [
+              -0.0017641055212629288,
+              0.035218280340802,
+              0.9993780869428479,
+              -0.008454178756232916
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "projection_checks": [
+    {
+      "camera": "cam3",
+      "calibration_sha256": "ab07a76ac2a39068e297e6f598fc13d5ceb1e7830e818b1bae4ac2cf8294239c",
+      "torch_numpy_projection_max_px": 2.5171862375827914e-05
+    },
+    {
+      "camera": "cam4",
+      "calibration_sha256": "4c8e077d3fde81bac1fdcc690ee178c181cdd498a9070f915516b91c123645c4",
+      "torch_numpy_projection_max_px": 1.057924094993723e-05
+    }
+  ],
+  "common_joint_view_mask": [
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      false
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ],
+    [
+      true,
+      true
+    ]
+  ],
+  "retained_joint_views": 22,
+  "detectors": [
+    "original",
+    "rw500",
+    "rw5000",
+    "rw20000"
+  ],
+  "shape_rank": 0,
+  "hand_observation_loss": false,
+  "body_3d_observation_loss": false,
+  "source_fit_sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+  "fit_copy_sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+  "geometry_copy_sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+}
