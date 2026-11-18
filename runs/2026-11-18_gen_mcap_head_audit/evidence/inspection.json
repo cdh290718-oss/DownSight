@@ -1,0 +1,78 @@
+{
+  "command": "inspect.py; schemas.py; sample_messages.py; decode.py",
+  "exit_status": 0,
+  "source": {
+    "filename": "0d7da991acf44b46ba41710a8960209c.mcap",
+    "bytes": 591587176,
+    "sha256": "00f34e66eacf623d03564571608665a5f6893be102f42c492785697c376e95c1",
+    "access": "read-only"
+  },
+  "channels_of_interest": {
+    "body_tracking": "robotx/motioncapture/human_pose_fuse_smooth_concat",
+    "vio": "/robot0/vio/eef_pose",
+    "relative_vio": "/robot0/vio/relative_eef_pose",
+    "camera2": "/robot0/sensor/camera2/camera_info",
+    "camera3": "/robot0/sensor/camera3/camera_info"
+  },
+  "body_sample": {
+    "frame_id": "world",
+    "number_of_poses": 22,
+    "orientation_present_count": 22,
+    "unit_quaternion_count": 22,
+    "candidate_head_index": 15,
+    "index_semantics": "assumed SMPL-like order, not named in message, not independently validated",
+    "candidate_head_quaternion_xyzw": [
+      -0.031292252931563416,
+      0.9435282370742909,
+      -0.0933370298457367,
+      -0.3163280885560495
+    ]
+  },
+  "vio_sample": {
+    "frame_id": "world",
+    "orientation_present": true,
+    "quaternion_norm": 1.000000000570909,
+    "topic_eef_meaning": "not verified as head"
+  },
+  "camera_fields": {
+    "camera2_frame": "camera2_optical_frame_update2body_0.1.0.4.4",
+    "camera3_frame": "camera3_optical_frame_update2body_0.1.0.4.4",
+    "T_b_c_lengths": [
+      7,
+      7
+    ]
+  },
+  "sample_metadata": {
+    "2": {
+      "log_time_ns": 1791273513030422000,
+      "publish_time_ns": 1791273513030422000,
+      "length": 429,
+      "sequence": 676778
+    },
+    "6": {
+      "log_time_ns": 1791273513030422000,
+      "publish_time_ns": 1791273513030422000,
+      "length": 1602,
+      "sequence": 0
+    },
+    "11": {
+      "log_time_ns": 1791273513030422272,
+      "publish_time_ns": 1791273513030422272,
+      "length": 106,
+      "sequence": 0
+    },
+    "12": {
+      "log_time_ns": 1791273513030422272,
+      "publish_time_ns": 1791273513030422272,
+      "length": 96,
+      "sequence": 0
+    },
+    "14": {
+      "log_time_ns": 1791273513030430000,
+      "publish_time_ns": 1791273513030430000,
+      "length": 429,
+      "sequence": 676777
+    }
+  },
+  "limitations": "Only first available message per channel inspected; body pose orientation semantics, axes, transforms, index and GT status unverified. No images, full raw messages or coordinates uploaded."
+}
