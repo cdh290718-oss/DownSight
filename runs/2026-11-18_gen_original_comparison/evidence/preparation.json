@@ -1,0 +1,8 @@
+{
+  "command": "reuse frozen prior original predictions and fixed prior anchors/cameras/masks",
+  "exit_status": 0,
+  "pairs": 20,
+  "previous_original_prediction_sha256": "4f7718bf36b22b76906a30ce3c6a66898e5ab6aa5c8eb5f20e050a236c34f7e7",
+  "shared_anchor_camera_mask": true,
+  "source": "previous original Sapiens predictions"
+}

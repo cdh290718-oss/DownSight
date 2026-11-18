@@ -1,0 +1,13 @@
+{
+  "command": "aggregate original 3d_results.json and previous 2d summary",
+  "exit_status": 0,
+  "images": 40,
+  "points2d": 424,
+  "mean2d_px": 37.19565750841121,
+  "within20": 121,
+  "pairs": 20,
+  "success": 20,
+  "mpjpe_mm": 126.99267418472274,
+  "pa_mm": 93.5816439401387,
+  "convergence_pass": 0
+}
