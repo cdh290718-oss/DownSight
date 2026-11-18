@@ -1,0 +1,13 @@
+{
+  "command": "<BODY_PYTHON> verify.py",
+  "exit_status": 0,
+  "shared_input_pairs": 100,
+  "total_records": 400,
+  "common_success_pairs": 100,
+  "pa_known_similarity_max_error": 2.6645352591003757e-15,
+  "reference_fit_only_change": "deny opening reference.json and head network cache",
+  "geometry_matches_reference": true,
+  "all_aggregate_metrics_recomputed": true,
+  "all_failure_records_preserved": true,
+  "syntax_valid": true
+}

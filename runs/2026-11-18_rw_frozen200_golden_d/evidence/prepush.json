@@ -1,0 +1,145 @@
+{
+  "scope": "Current run and original report update only; unrelated working tree and historical files are not published or certified",
+  "baseline": "3f2d54960a77df562452d30086d30597dbd4f56b",
+  "remote_before_push": "3f2d54960a77df562452d30086d30597dbd4f56b",
+  "worktree_reviewed": true,
+  "staged_reviewed": true,
+  "pending_commits_reviewed": true,
+  "unrelated_changes_preserved": true,
+  "checks": {
+    "text_only": true,
+    "under_50MB_per_file": true,
+    "no_weights_datasets_video_npy_npz_full_outputs": true,
+    "no_credentials_env_machine_paths": true,
+    "no_full_provenance_patch": true,
+    "syntax_and_json_valid": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/brief.md",
+      "bytes": 845,
+      "sha256": "b62946ec2ccc48288f3bfe7a949d30375f48477cf63b8181ce225a04ecdf22bc"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/common.py",
+      "bytes": 1300,
+      "sha256": "a72849448cd6e8068ac65f32b7f70e7ee947e8a5f9ad4e993541bf3c09f00456"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evaluate.py",
+      "bytes": 5681,
+      "sha256": "dc1f15f008fec9cca741f98572ecbeea50c5332f74b151d572168d5a342fc1a5"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/execution.json",
+      "bytes": 2561,
+      "sha256": "fa7f04f17df09934dc9d7b496b845415330fd4e70fa8f2335e645212780f8fc3"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/fit_excerpt.txt",
+      "bytes": 1840,
+      "sha256": "e49610367c8b1b51f9e417d73bf5dcad8c7c7fbbe1960a6bc4e977003b7078c2"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/preparation.json",
+      "bytes": 65784,
+      "sha256": "9ecf1b4c2ec98490e7d6fc1e44c80757806090f2d88984b0bc0ba2fddde775a8"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/results.json",
+      "bytes": 624736,
+      "sha256": "d5f6686ec98942f832efecaaa60dd416a73ea72c86a2b4446637eef4f9b779aa"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/summary.json",
+      "bytes": 7504,
+      "sha256": "66fb4040c02aa9d0aa9aea566d99d14af33b33a16d433d4a38901c676ce288db"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/evidence/verification.json",
+      "bytes": 438,
+      "sha256": "6e25041f796cddf23d2e780ef79a8d844149080bf3476dbd0290ef0e967dee46"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/finalize.py",
+      "bytes": 10772,
+      "sha256": "aaccb0e59cd7186f2f247070cf81849f023b8f66d7e81adb9b872f111996cc03"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/fit.py",
+      "bytes": 14033,
+      "sha256": "25fa10251625812429456a12a9de89011cd71491e9ceefeecb0b3e712dbea020"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/job.py",
+      "bytes": 1058,
+      "sha256": "4b866199161c0e3d714c0de6ced05e6c19b2fb6ac1540af58f52edff2eb7e670"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/prepare.py",
+      "bytes": 9178,
+      "sha256": "98d45139609a747fc1cb035977ebf0ec355feb9010b9ba79f9f61ddf0b17b52c"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/prepush.py",
+      "bytes": 3122,
+      "sha256": "da1ed8e1c62249d2cf1b837538f49f910c8c1f15c8601cff79c8bc6abb93a863"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/protocol.json",
+      "bytes": 2375,
+      "sha256": "4f4547506cc7c1200a0362ca065130adedd9cbe26245a2d7a596305d33072a98"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/report.md",
+      "bytes": 6374,
+      "sha256": "a5b6aedf9099de9353c3b3a4eb20ef1e1813af90bfbd19890cbecf555e474cdb"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/verify.py",
+      "bytes": 2662,
+      "sha256": "240241f6de489d830d8af07a176b5ab5a8b2b493ffd3191337d47b077a8f5c17"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000_frozen200/report.md",
+      "bytes": 3852,
+      "sha256": "3763ecbf2024e16ea2f25558415bb765b07f25d9526114de11898d6e41530c25"
+    }
+  ],
+  "staged_paths": [
+    "runs/2026-11-18_rw20000_frozen200/report.md",
+    "runs/2026-11-18_rw_frozen200_golden_d/brief.md",
+    "runs/2026-11-18_rw_frozen200_golden_d/common.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/evaluate.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/execution.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/fit_excerpt.txt",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/preparation.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/prepush.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/results.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/summary.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/evidence/verification.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/finalize.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/fit.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/geometry.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/job.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/prepare.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/prepush.py",
+    "runs/2026-11-18_rw_frozen200_golden_d/protocol.json",
+    "runs/2026-11-18_rw_frozen200_golden_d/report.md",
+    "runs/2026-11-18_rw_frozen200_golden_d/review.md",
+    "runs/2026-11-18_rw_frozen200_golden_d/verify.py"
+  ],
+  "pending_commit_paths": [],
+  "worktree_entries": 61,
+  "verification_exit_status": 0
+}

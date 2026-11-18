@@ -1,0 +1,46 @@
+{
+  "baseline_commit": "3f2d54960a77df562452d30086d30597dbd4f56b",
+  "worktree_dirty": true,
+  "preexisting_tracked_change": "runs/2026-11-16_sapiens-rw500-prep/code/train.py",
+  "unrelated_changes_preserved": true,
+  "backend_commit": "external backend is not a Git checkout; configuration SHA-256 recorded, no commit available",
+  "backend_config_sha256": "90e1da854ca3f8869181206bd585ac0a2682bd38ee368bcda9c22129858a40ad",
+  "source_sha256": {
+    "prepare.py": "98d45139609a747fc1cb035977ebf0ec355feb9010b9ba79f9f61ddf0b17b52c",
+    "verify.py": "240241f6de489d830d8af07a176b5ab5a8b2b493ffd3191337d47b077a8f5c17",
+    "prepush.py": "da1ed8e1c62249d2cf1b837538f49f910c8c1f15c8601cff79c8bc6abb93a863",
+    "job.py": "4b866199161c0e3d714c0de6ced05e6c19b2fb6ac1540af58f52edff2eb7e670",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b",
+    "finalize.py": "aaccb0e59cd7186f2f247070cf81849f023b8f66d7e81adb9b872f111996cc03",
+    "common.py": "a72849448cd6e8068ac65f32b7f70e7ee947e8a5f9ad4e993541bf3c09f00456",
+    "fit.py": "25fa10251625812429456a12a9de89011cd71491e9ceefeecb0b3e712dbea020",
+    "evaluate.py": "dc1f15f008fec9cca741f98572ecbeea50c5332f74b151d572168d5a342fc1a5"
+  },
+  "commands": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <BODY_PYTHON> prepare.py",
+      "exit_status": 0
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. CUDA_VISIBLE_DEVICES= OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 <BODY_PYTHON> fit.py --threads 1",
+      "exit_status": 0,
+      "elapsed_seconds": 382.17608737945557
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. CUDA_VISIBLE_DEVICES= <BODY_PYTHON> evaluate.py",
+      "exit_status": 0
+    }
+  ],
+  "fit_steps": 20000,
+  "fit_elapsed_seconds": 375.75286507606506,
+  "device": "cpu",
+  "threads": 1,
+  "prepared_local_sha256": "c1bd56d9658eb109acd4bd0224a5ecc5293de7c394ca1d9b93e4a79077fab39a",
+  "protocol_sha256": "4f4547506cc7c1200a0362ca065130adedd9cbe26245a2d7a596305d33072a98",
+  "fit_log_local_sha256": "f0b1edd626e19bf7c549d6d16c5c0a2bc1bd40820c7d73fb153dfbdb1be9e6f8",
+  "artifacts": {
+    "local_output": "<WORKSPACE>/DownSight/outputs/rw_frozen200_golden_d_20261118",
+    "access": "requires development-machine storage and licensed external SMPL-X/backend assets; public evidence alone is not an independent reproduction"
+  },
+  "redaction": "Machine paths replaced by <WORKSPACE>/<BODY_PYTHON>; raw coordinates, parameters, trace and full logs stay local. Metrics and failures preserved."
+}
