@@ -1,0 +1,167 @@
+{
+  "files": [
+    {
+      "file": "real001_t029p0__goldenD2d__original__cam3_cv.obj",
+      "relative_path": "cam3_cv/real001_t029p0__goldenD2d__original__cam3_cv.obj",
+      "model": "original",
+      "coordinate_frame": "cam3 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "75974991d9f8a81c44ba5a120b2e1320ebf0e46beb0cbb49d16266b87b5052dc",
+      "bytes": 755626,
+      "parameter_source_sha256": "c662385c77a65472385bcd4a1f9004828382704a8a6c6b6ffd9e45282be4bcd4",
+      "obj_reload_max_abs_m": 5.000000413701855e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__original__cam4_cv.obj",
+      "relative_path": "cam4_cv/real001_t029p0__goldenD2d__original__cam4_cv.obj",
+      "model": "original",
+      "coordinate_frame": "cam4 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "1a35224889acfbf9868ef780593e80755ae27a7ba4d8a5d1a67adc98cc88bb69",
+      "bytes": 761075,
+      "parameter_source_sha256": "c662385c77a65472385bcd4a1f9004828382704a8a6c6b6ffd9e45282be4bcd4",
+      "obj_reload_max_abs_m": 4.999950176109991e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw500__cam3_cv.obj",
+      "relative_path": "cam3_cv/real001_t029p0__goldenD2d__rw500__cam3_cv.obj",
+      "model": "rw500",
+      "coordinate_frame": "cam3 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "7b3d81928789b869880390d218ecc4dfd5dac9060556f2d52fb94d86aae626e9",
+      "bytes": 755532,
+      "parameter_source_sha256": "7a686e7f1026c72ba6f115d7bc4575e8abae52d9c4296458320c6c1c0cf4ed51",
+      "obj_reload_max_abs_m": 5.000000413701855e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw500__cam4_cv.obj",
+      "relative_path": "cam4_cv/real001_t029p0__goldenD2d__rw500__cam4_cv.obj",
+      "model": "rw500",
+      "coordinate_frame": "cam4 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "ceaa133d19cada64ddbe39ab9c9ca932c8ada05992647d818857e624ae74f41d",
+      "bytes": 761043,
+      "parameter_source_sha256": "7a686e7f1026c72ba6f115d7bc4575e8abae52d9c4296458320c6c1c0cf4ed51",
+      "obj_reload_max_abs_m": 4.999763381086098e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw5000__cam3_cv.obj",
+      "relative_path": "cam3_cv/real001_t029p0__goldenD2d__rw5000__cam3_cv.obj",
+      "model": "rw5000",
+      "coordinate_frame": "cam3 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "1111c5620bbd892f698f31f7015007f361804c61d0093448ae9bb734560a3477",
+      "bytes": 755415,
+      "parameter_source_sha256": "4338e7041947ba0c012b982ec7488d09931664e69ab33ea1ee55d85d9d3e03f3",
+      "obj_reload_max_abs_m": 4.999999858590343e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw5000__cam4_cv.obj",
+      "relative_path": "cam4_cv/real001_t029p0__goldenD2d__rw5000__cam4_cv.obj",
+      "model": "rw5000",
+      "coordinate_frame": "cam4 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "8e5253b5047e6601576d5af456d4ec6959aa5cf2733f1deb805191b1e7495359",
+      "bytes": 761030,
+      "parameter_source_sha256": "4338e7041947ba0c012b982ec7488d09931664e69ab33ea1ee55d85d9d3e03f3",
+      "obj_reload_max_abs_m": 4.99967872658047e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw20000__cam3_cv.obj",
+      "relative_path": "cam3_cv/real001_t029p0__goldenD2d__rw20000__cam3_cv.obj",
+      "model": "rw20000",
+      "coordinate_frame": "cam3 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "45dc8a2c8d4e639c534d09ec929a6e2ccd17f4c00a065ede12650b25aabbf85a",
+      "bytes": 755409,
+      "parameter_source_sha256": "c4a2786f923412bc96dd19e071aef3d80c8d446fcde55db20c534760fd651e05",
+      "obj_reload_max_abs_m": 4.999847202924457e-10
+    },
+    {
+      "file": "real001_t029p0__goldenD2d__rw20000__cam4_cv.obj",
+      "relative_path": "cam4_cv/real001_t029p0__goldenD2d__rw20000__cam4_cv.obj",
+      "model": "rw20000",
+      "coordinate_frame": "cam4 CV",
+      "units": "meters",
+      "vertices": 10475,
+      "faces": 20908,
+      "sha256": "19ebdf01d66201b96466bb7190dc00667e5c634ae9d4fd7d34e96bd84438a83c",
+      "bytes": 760992,
+      "parameter_source_sha256": "c4a2786f923412bc96dd19e071aef3d80c8d446fcde55db20c534760fd651e05",
+      "obj_reload_max_abs_m": 4.999925889981327e-10
+    }
+  ],
+  "checks": [
+    {
+      "model": "original",
+      "camera": "cam3",
+      "obj_reload_max_abs_m": 5.000000413701855e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "original",
+      "camera": "cam4",
+      "obj_reload_max_abs_m": 4.999950176109991e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw500",
+      "camera": "cam3",
+      "obj_reload_max_abs_m": 5.000000413701855e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw500",
+      "camera": "cam4",
+      "obj_reload_max_abs_m": 4.999763381086098e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw5000",
+      "camera": "cam3",
+      "obj_reload_max_abs_m": 4.999999858590343e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw5000",
+      "camera": "cam4",
+      "obj_reload_max_abs_m": 4.99967872658047e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw20000",
+      "camera": "cam3",
+      "obj_reload_max_abs_m": 4.999847202924457e-10,
+      "topology_exact": true
+    },
+    {
+      "model": "rw20000",
+      "camera": "cam4",
+      "obj_reload_max_abs_m": 4.999925889981327e-10,
+      "topology_exact": true
+    }
+  ],
+  "archive": {
+    "file": "real001_t029p0_four_models_OBJ_cam3_cam4.zip",
+    "bytes": 2423482,
+    "sha256": "218a7d99555e6835ee0f5209f35ead356d9802983b739a9f8056f8ea25c49abe"
+  },
+  "fit_unchanged": true,
+  "mano_fusion": false,
+  "command": "export_evaluate.py",
+  "exit_status": 0
+}

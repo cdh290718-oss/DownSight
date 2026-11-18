@@ -1,0 +1,75 @@
+{
+  "scope": "This run only; existing unrelated changes and historical repository excluded",
+  "baseline": "60f2c92c282d595cfadc7a5a424a158ae1c4e10c",
+  "remote_before_commit": "60f2c92c282d595cfadc7a5a424a158ae1c4e10c",
+  "worktree_reviewed": true,
+  "unrelated_entries": 40,
+  "checks": {
+    "text_only": true,
+    "under_50MB_per_file": true,
+    "no_weights_datasets_images_video_npy_npz_obj_zip_in_git": true,
+    "no_full_raw_output_provenance_patch": true,
+    "no_credentials_env_or_machine_paths_found": true,
+    "python_syntax_and_json_parse": true,
+    "derived_mesh_release_archive_audited_separately": true
+  },
+  "authorization": "User requested fitted OBJ package and automatic-point RMSE; existing GitHub delivery authorization retained",
+  "files": [
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/brief.md",
+      "bytes": 428,
+      "sha256": "f964bd540f494a87171e599449c65e96581d5959667f0f46fdce153637bbe96d"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/evidence/attachment_audit.json",
+      "bytes": 616,
+      "sha256": "29edee04a83586640256c2604933cbff604b9610bdaf0d4a124d7e0b5e861d50"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/evidence/execution.json",
+      "bytes": 1013,
+      "sha256": "bd46ea323915bf0db32b3391bacd51b3783337224279e7cc3610e1038812c20c"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/evidence/exports.json",
+      "bytes": 5907,
+      "sha256": "6debcfd2aa1a949d46eaee11ea6dc0004e7b10a1f6cbeb65aef5035a52b80303"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/evidence/point_residuals.json",
+      "bytes": 28012,
+      "sha256": "dd2a5d925de37bf2a6b654188d00fc0b73d4740f9a327ea954e0e347140327dc"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/evidence/rmse.json",
+      "bytes": 6315,
+      "sha256": "d73ff96940d77af4d32fea2dcc1e21044d7ab0957d41856bf6d1121444ae7d8f"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/export_evaluate.py",
+      "bytes": 7706,
+      "sha256": "aaf380bfd1a23ae3bec65490b4ee4aff9227abdd55d9b24d313c5ddffea1718c"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/finalize.py",
+      "bytes": 7593,
+      "sha256": "4b66865b8b225bbdaaf0f46537d49bba3a508668d3a6055f41526bb8788c8ff6"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/publish_release.py",
+      "bytes": 3885,
+      "sha256": "4ac434ccbae2325db5cf48c8270c4a7953e2835acd4c11ae8c5e2238a82eb060"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/report.md",
+      "bytes": 4182,
+      "sha256": "507980bdbd78b06f182615f3e5f1bb037145b2eab3ab72431903b733e9f57dd9"
+    },
+    {
+      "path": "runs/2026-11-18_real001_obj_rmse/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d"
+    }
+  ],
+  "publication_gate": "Stage exact files plus audit, compare blobs, diff --check, verify pending commit and remote; publish only audited ZIP."
+}

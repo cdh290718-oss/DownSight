@@ -1,0 +1,970 @@
+{
+  "original": [
+    {
+      "camera": "cam3",
+      "joint": "left_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": true,
+      "dx_px": 6.94363443775228,
+      "dy_px": 20.292425203648236,
+      "squared_distance_px2": 459.99657985079756,
+      "distance_px": 21.447530856739608
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 0.036058648632206314,
+      "dy_px": 0.00872391917027926,
+      "squared_distance_px2": 0.0013763329068704803,
+      "distance_px": 0.037098960994487166
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.5262748402162742,
+      "dy_px": -3.570133138823678,
+      "squared_distance_px2": 19.12791519723677,
+      "distance_px": 4.373547209901451
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -4.123628771550784,
+      "dy_px": -0.05838775740971869,
+      "squared_distance_px2": 17.007723375776763,
+      "distance_px": 4.124042116149733
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.0508695785287046,
+      "dy_px": 1.1888440165069483,
+      "squared_distance_px2": 2.5176769666614702,
+      "distance_px": 1.5867189312103989
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.234470701990176,
+      "dy_px": 3.022539424617662,
+      "squared_distance_px2": 19.59754529540089,
+      "distance_px": 4.42691148492952
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 28.975943976981853,
+      "dy_px": -7.1647268847007695,
+      "squared_distance_px2": 890.938640689545,
+      "distance_px": 29.84859528838074
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -7.17783347207228,
+      "dy_px": 7.225983569062748,
+      "squared_distance_px2": 103.736131893166,
+      "distance_px": 10.185093612390904
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 5.547041396908185,
+      "dy_px": 25.08310305383162,
+      "squared_distance_px2": 659.9317270681503,
+      "distance_px": 25.689136362831473
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 8.428351403690613,
+      "dy_px": 6.465532671342771,
+      "squared_distance_px2": 112.8402201082943,
+      "distance_px": 10.622627740267204
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -8.982009859536106,
+      "dy_px": 8.831445783726679,
+      "squared_distance_px2": 158.67093574770755,
+      "distance_px": 12.596465208450645
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 6.773047118547538,
+      "dy_px": 26.8259281768741,
+      "squared_distance_px2": 765.5045898208729,
+      "distance_px": 27.667753609949486
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.08254865457962524,
+      "dy_px": 0.0768439606578113,
+      "squared_distance_px2": 0.012719274662485533,
+      "distance_px": 0.11277976175930472
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": true,
+      "dx_px": -70.91254660148672,
+      "dy_px": 18.01741663073676,
+      "squared_distance_px2": 5353.216567553575,
+      "distance_px": 73.16567889081311
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.001340054173056,
+      "dy_px": 2.6313159849426597,
+      "squared_distance_px2": 15.931865933398283,
+      "distance_px": 3.9914741554215634
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.024609827048721,
+      "dy_px": -3.205688946855105,
+      "squared_distance_px2": 14.375486575771243,
+      "distance_px": 3.791501889195262
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.216440584117322,
+      "dy_px": -1.0008819379803526,
+      "squared_distance_px2": 2.4814923484629983,
+      "distance_px": 1.5752753246537565
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.5236506805177896,
+      "dy_px": -2.0797945326609124,
+      "squared_distance_px2": 10.694358055364125,
+      "distance_px": 3.2702229366457765
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 5.977835883968737,
+      "dy_px": 2.4975674102401513,
+      "squared_distance_px2": 41.97236482435799,
+      "distance_px": 6.47860824748325
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -26.388034395560908,
+      "dy_px": -3.7105669277802917,
+      "squared_distance_px2": 710.0966661868424,
+      "distance_px": 26.647639035885383
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -5.989878361749561,
+      "dy_px": -25.101695557839832,
+      "squared_distance_px2": 665.9737626670316,
+      "distance_px": 25.806467458120483
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -8.365003573060903,
+      "dy_px": -6.077491496441553,
+      "squared_distance_px2": 106.90918766664107,
+      "distance_px": 10.339689921203686
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 9.090388886757523,
+      "dy_px": -8.897437523753439,
+      "squared_distance_px2": 161.7995646015804,
+      "distance_px": 12.720045778281634
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -6.580002996262124,
+      "dy_px": -26.81704461659919,
+      "squared_distance_px2": 762.4503213994901,
+      "distance_px": 27.612502990484042
+    }
+  ],
+  "rw500": [
+    {
+      "camera": "cam3",
+      "joint": "left_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": true,
+      "dx_px": -4.465890959059152,
+      "dy_px": 19.19261580224793,
+      "squared_distance_px2": 388.30068339090315,
+      "distance_px": 19.705346568657532
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.029521815747102664,
+      "dy_px": 0.016731434754433394,
+      "squared_distance_px2": 0.0011514785139477405,
+      "distance_px": 0.0339334424122832
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.9135274107551368,
+      "dy_px": -2.9995437856186413,
+      "squared_distance_px2": 12.658850073554667,
+      "distance_px": 3.557927778012739
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -3.622366764208209,
+      "dy_px": -0.43478779231281806,
+      "squared_distance_px2": 13.310581398784505,
+      "distance_px": 3.648366949579566
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.1529402105759345,
+      "dy_px": 0.47445670730320444,
+      "squared_distance_px2": 1.5543802962678788,
+      "distance_px": 1.2467478880142042
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.23603999952752,
+      "dy_px": 1.3474623241193058,
+      "squared_distance_px2": 6.815529594408034,
+      "distance_px": 2.610656927749802
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 20.33772597820223,
+      "dy_px": -3.732630044017469,
+      "squared_distance_px2": 427.55562500994364,
+      "distance_px": 20.677418238502206
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -4.512523835102684,
+      "dy_px": 8.096181682884321,
+      "squared_distance_px2": 85.91102920464144,
+      "distance_px": 9.268820270381848
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.6068218114194224,
+      "dy_px": -5.678692055159161,
+      "squared_distance_px2": 39.04306341381981,
+      "distance_px": 6.248444879633636
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 8.005406444250866,
+      "dy_px": 5.720250409739151,
+      "squared_distance_px2": 96.80779708777422,
+      "distance_px": 9.83909533889037
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -3.786571707411099,
+      "dy_px": -7.437995994351581,
+      "squared_distance_px2": 69.66190970735637,
+      "distance_px": 8.346371050184407
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -3.126843028737767,
+      "dy_px": 5.870912603609611,
+      "squared_distance_px2": 44.24476212558815,
+      "distance_px": 6.651673633424009
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 0.021478604912090304,
+      "dy_px": 0.005609414002037738,
+      "squared_distance_px2": 0.0004927959944159269,
+      "distance_px": 0.022199008861116455
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": true,
+      "dx_px": -72.3449543117174,
+      "dy_px": 12.157780163790676,
+      "squared_distance_px2": 5381.604032875541,
+      "distance_px": 73.35941679754237
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.340625067193855,
+      "dy_px": 2.127539293891232,
+      "squared_distance_px2": 10.00494915222744,
+      "distance_px": 3.1630600930471493
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.0907149004007124,
+      "dy_px": -1.6135077129704882,
+      "squared_distance_px2": 6.974495934572816,
+      "distance_px": 2.6409270975498007
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.3277014349436627,
+      "dy_px": -0.2559530354400863,
+      "squared_distance_px2": 1.828303056702455,
+      "distance_px": 1.3521475720876235
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.7900198132963396,
+      "dy_px": -0.7949658366443373,
+      "squared_distance_px2": 3.836141613425094,
+      "distance_px": 1.9586070594749458
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.405195102655398,
+      "dy_px": 1.743684659735436,
+      "squared_distance_px2": 8.825399674434195,
+      "distance_px": 2.970757424367428
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -18.304911755554144,
+      "dy_px": -6.5959244858071315,
+      "squared_distance_px2": 378.5760142010944,
+      "distance_px": 19.457029942956208
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.676412207639146,
+      "dy_px": 5.837372272734456,
+      "squared_distance_px2": 41.23809735568887,
+      "distance_px": 6.421689602876246
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -7.747731587110138,
+      "dy_px": -5.543993998218696,
+      "squared_distance_px2": 90.7632141981891,
+      "distance_px": 9.526972981917663
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.804237854718508,
+      "dy_px": 7.659167947907235,
+      "squared_distance_px2": 73.13507930952281,
+      "distance_px": 8.551905010553076
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.126460152327809,
+      "dy_px": -5.841192712073735,
+      "squared_distance_px2": 43.89428538367694,
+      "distance_px": 6.625276249612309
+    }
+  ],
+  "rw5000": [
+    {
+      "camera": "cam3",
+      "joint": "left_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": true,
+      "dx_px": -0.8679814036756852,
+      "dy_px": 13.791400560268357,
+      "squared_distance_px2": 190.95612113089717,
+      "distance_px": 13.818687388131233
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.009021462897862875,
+      "dy_px": -0.0076463136649636,
+      "squared_distance_px2": 0.0001398529054805255,
+      "distance_px": 0.011825942054674778
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.3336832086960158,
+      "dy_px": -1.5795221882722217,
+      "squared_distance_px2": 7.940967661794,
+      "distance_px": 2.8179722606502002
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -3.672222186937006,
+      "dy_px": -2.5651320063344087,
+      "squared_distance_px2": 20.065118000153596,
+      "distance_px": 4.479410452297667
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.375856440912571,
+      "dy_px": 1.8370797538282204,
+      "squared_distance_px2": 5.267842967926162,
+      "distance_px": 2.2951781996015392
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.629090738600439,
+      "dy_px": -0.04732565271478961,
+      "squared_distance_px2": 6.914357829199483,
+      "distance_px": 2.629516653151199
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 24.43812298568014,
+      "dy_px": -3.2956698737913257,
+      "squared_distance_px2": 608.0832949802437,
+      "distance_px": 24.659344982789865
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -4.74956887327221,
+      "dy_px": 10.828081261421175,
+      "squared_distance_px2": 139.80574828589664,
+      "distance_px": 11.823948083694239
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.4164544189170556,
+      "dy_px": 0.09499115767539479,
+      "squared_distance_px2": 5.848275278740277,
+      "distance_px": 2.4183207559668913
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 6.462940882641988,
+      "dy_px": 5.45756016142667,
+      "squared_distance_px2": 71.5545677681167,
+      "distance_px": 8.458993307014534
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.9278596347803614,
+      "dy_px": -5.522796192433816,
+      "squared_distance_px2": 39.07363982413765,
+      "distance_px": 6.250891122403081
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.8398793856849807,
+      "dy_px": 12.076786371294247,
+      "squared_distance_px2": 153.91368398311698,
+      "distance_px": 12.406195387108692
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.04712927631476305,
+      "dy_px": 0.027432993809043182,
+      "squared_distance_px2": 0.0029737378352802865,
+      "distance_px": 0.054531989100713045
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": false,
+      "dx_px": -74.64244328006873,
+      "dy_px": 2.236983970940628,
+      "squared_distance_px2": 5576.4984361045235,
+      "distance_px": 74.6759562115178
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.1409546681868505,
+      "dy_px": 0.024159360202702373,
+      "squared_distance_px2": 9.866179902290172,
+      "distance_px": 3.1410475803925944
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.5261986392378049,
+      "dy_px": -0.5648234411646627,
+      "squared_distance_px2": 2.6483078061004184,
+      "distance_px": 1.6273622233849532
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.6332021600064195,
+      "dy_px": -1.5771942810501969,
+      "squared_distance_px2": 5.1548910956270815,
+      "distance_px": 2.270438524961
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.043426723899074,
+      "dy_px": 0.7401088735070971,
+      "squared_distance_px2": 4.723353920588847,
+      "distance_px": 2.1733278447093176
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.893832563683759,
+      "dy_px": 0.9217645746452376,
+      "squared_distance_px2": 16.011581965074953,
+      "distance_px": 4.001447483733225
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -23.462744058089925,
+      "dy_px": -9.171902157757074,
+      "squared_distance_px2": 634.6241479269029,
+      "distance_px": 25.19174761557647
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.462517535991765,
+      "dy_px": -0.10924711032663481,
+      "squared_distance_px2": 6.075927546181672,
+      "distance_px": 2.464939663801464
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -6.240720055633801,
+      "dy_px": -5.312473471485475,
+      "squared_distance_px2": 67.16896119802689,
+      "distance_px": 8.19566722103984
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.904379147388113,
+      "dy_px": 5.646620374672352,
+      "squared_distance_px2": 40.31973988744784,
+      "distance_px": 6.349782664583713
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.9148138977907365,
+      "dy_px": -12.065127287870041,
+      "squared_distance_px2": 154.06343653126032,
+      "distance_px": 12.412229313514166
+    }
+  ],
+  "rw20000": [
+    {
+      "camera": "cam3",
+      "joint": "left_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": false,
+      "dx_px": 12.645390943902385,
+      "dy_px": 3.313886181589396,
+      "squared_distance_px2": 170.8877537486576,
+      "distance_px": 13.072404283400111
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 0.0047476084153004194,
+      "dy_px": 0.024174699810373568,
+      "squared_distance_px2": 0.0006069558965867072,
+      "distance_px": 0.024636474922088737
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.7414670822631706,
+      "dy_px": -1.663661155437012,
+      "squared_distance_px2": 5.800476038716214,
+      "distance_px": 2.4084177458896563
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -2.304174076477125,
+      "dy_px": -2.5993941781730427,
+      "squared_distance_px2": 12.06606826822912,
+      "distance_px": 3.473624658512937
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.0143809070016232,
+      "dy_px": 2.563237324255283,
+      "squared_distance_px2": 7.599154204944819,
+      "distance_px": 2.7566563450936026
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.0546738202961023,
+      "dy_px": 0.20041055943835318,
+      "squared_distance_px2": 1.152501259552369,
+      "distance_px": 1.073546114311057
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 25.923429599244287,
+      "dy_px": -2.33899337275858,
+      "squared_distance_px2": 677.4950921847833,
+      "distance_px": 26.02873589294692
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -7.580670669976598,
+      "dy_px": 12.869878420682653,
+      "squared_distance_px2": 223.10033836979648,
+      "distance_px": 14.936543722354127
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 7.358809734281181,
+      "dy_px": 4.121016050153912,
+      "squared_distance_px2": 71.1348539909776,
+      "distance_px": 8.434148089224994
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 8.025813138718604,
+      "dy_px": 9.219939409701169,
+      "squared_distance_px2": 149.42095925618892,
+      "distance_px": 12.223786616928034
+    },
+    {
+      "camera": "cam3",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 3.2595987873820604,
+      "dy_px": -4.6896514143044215,
+      "squared_distance_px2": 32.61781464239006,
+      "distance_px": 5.711200805644121
+    },
+    {
+      "camera": "cam3",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.9019476535690956,
+      "dy_px": 15.71618749797824,
+      "squared_distance_px2": 250.6159543485245,
+      "distance_px": 15.830854504685604
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_shoulder",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.031501008023781196,
+      "dy_px": 0.044676156899527086,
+      "squared_distance_px2": 0.002988272501825489,
+      "distance_px": 0.05466509399814006
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_shoulder",
+      "fit_mask": false,
+      "automatic_target_in_image": false,
+      "dx_px": -92.97399435276645,
+      "dy_px": -7.249892214775059,
+      "squared_distance_px2": 8696.724563034104,
+      "distance_px": 93.2562306928288
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 2.287008306896496,
+      "dy_px": 0.638654024685195,
+      "squared_distance_px2": 5.638285959060174,
+      "distance_px": 2.3745075192679796
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_elbow",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 1.2702546112493565,
+      "dy_px": 1.300610139282412,
+      "squared_distance_px2": 3.305133511804469,
+      "distance_px": 1.8180026160059477
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.2030513645753445,
+      "dy_px": -2.4071243109759166,
+      "squared_distance_px2": 7.24158003429788,
+      "distance_px": 2.6910184009586184
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_wrist",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -0.8180400680482762,
+      "dy_px": 0.06817810266159086,
+      "squared_distance_px2": 0.6738378066149628,
+      "distance_px": 0.82087624317857
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": 6.094990446046722,
+      "dy_px": -0.7492737301778334,
+      "squared_distance_px2": 37.710319660135426,
+      "distance_px": 6.14087287444834
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_hip",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -24.395940935462704,
+      "dy_px": -10.851579416920856,
+      "squared_distance_px2": 712.9187099683253,
+      "distance_px": 26.700537634443343
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -7.4054310875163765,
+      "dy_px": -3.9829068933630083,
+      "squared_distance_px2": 70.70395691315255,
+      "distance_px": 8.408564497769673
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_knee",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -7.745026059190536,
+      "dy_px": -8.896354653450032,
+      "squared_distance_px2": 139.13055477750254,
+      "distance_px": 11.795361578921714
+    },
+    {
+      "camera": "cam4",
+      "joint": "left_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -3.3457186675855155,
+      "dy_px": 4.743746803266163,
+      "squared_distance_px2": 33.69696713612814,
+      "distance_px": 5.804908882672332
+    },
+    {
+      "camera": "cam4",
+      "joint": "right_ankle",
+      "fit_mask": true,
+      "automatic_target_in_image": true,
+      "dx_px": -1.6661560099308872,
+      "dy_px": -15.760316823215362,
+      "squared_distance_px2": 251.163662217554,
+      "distance_px": 15.848143809845809
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <EGOSMPLX_ENV>/bin/python export_evaluate.py",
+  "exit_status": 0,
+  "definition": "radial_rmse_px = sqrt(sum_i((u_projected-u_auto)^2 + (v_projected-v_auto)^2)/N)",
+  "coordinate_definition": "coordinate_rmse_px = radial_rmse_px/sqrt(2), provided to disambiguate convention",
+  "primary_scope": "all 12 named finite automatic targets in each camera, including omitted/out-of-image shoulder predictions; 24 pooled",
+  "supplemental_scope": "common_fit_mask, 11 points in each camera, 22 joint-view observations pooled",
+  "targets": "Each model compared with its own detector predictions, not ground truth or a common independent target",
+  "source_detections_sha256": "5541e9cdce3675e7581dbed0a17a47494d04502e2b233e2c32e6013756e84e97",
+  "source_prepared_sha256": "8a6b32acbb3a1cc3068d0157b5b59b56348aee36511dcd6bd17fda106e25fcff",
+  "summary": {
+    "original": {
+      "common_fit_mask": {
+        "cam3": {
+          "points": 11,
+          "sum_squared_distance_px2": 2749.874482495719,
+          "radial_rmse_px": 15.811027459270084,
+          "coordinate_rmse_px": 11.180084733976585
+        },
+        "cam4": {
+          "points": 11,
+          "sum_squared_distance_px2": 2492.6977895336026,
+          "radial_rmse_px": 15.053534135132528,
+          "coordinate_rmse_px": 10.64445606777538
+        },
+        "stereo": {
+          "points": 22,
+          "sum_squared_distance_px2": 5242.5722720293215,
+          "radial_rmse_px": 15.436927791425871,
+          "coordinate_rmse_px": 10.915556322004308
+        }
+      },
+      "all_12_joints_per_view": {
+        "cam3": {
+          "points": 12,
+          "sum_squared_distance_px2": 3209.8710623465163,
+          "radial_rmse_px": 16.35509875224063,
+          "coordinate_rmse_px": 11.564801234684992
+        },
+        "cam4": {
+          "points": 12,
+          "sum_squared_distance_px2": 7845.914357087177,
+          "radial_rmse_px": 25.57002535047495,
+          "coordinate_rmse_px": 18.08073832043276
+        },
+        "stereo": {
+          "points": 24,
+          "sum_squared_distance_px2": 11055.785419433694,
+          "radial_rmse_px": 21.462938424403525,
+          "coordinate_rmse_px": 15.176589304085047
+        }
+      }
+    },
+    "rw500": {
+      "common_fit_mask": {
+        "cam3": {
+          "points": 11,
+          "sum_squared_distance_px2": 797.5646793906527,
+          "radial_rmse_px": 8.515038458198811,
+          "coordinate_rmse_px": 6.021041435856624
+        },
+        "cam4": {
+          "points": 11,
+          "sum_squared_distance_px2": 659.0764726755284,
+          "radial_rmse_px": 7.7405453923158785,
+          "coordinate_rmse_px": 5.473392136988843
+        },
+        "stereo": {
+          "points": 22,
+          "sum_squared_distance_px2": 1456.6411520661816,
+          "radial_rmse_px": 8.137011826066969,
+          "coordinate_rmse_px": 5.753736240807085
+        }
+      },
+      "all_12_joints_per_view": {
+        "cam3": {
+          "points": 12,
+          "sum_squared_distance_px2": 1185.8653627815559,
+          "radial_rmse_px": 9.940931222231127,
+          "coordinate_rmse_px": 7.029299878548704
+        },
+        "cam4": {
+          "points": 12,
+          "sum_squared_distance_px2": 6040.6805055510695,
+          "radial_rmse_px": 22.436355366441667,
+          "coordinate_rmse_px": 15.864899024722089
+        },
+        "stereo": {
+          "points": 24,
+          "sum_squared_distance_px2": 7226.545868332625,
+          "radial_rmse_px": 17.35240841633209,
+          "coordinate_rmse_px": 12.27000566110694
+        }
+      }
+    },
+    "rw5000": {
+      "common_fit_mask": {
+        "cam3": {
+          "points": 11,
+          "sum_squared_distance_px2": 1058.4676364322306,
+          "radial_rmse_px": 9.809400113398793,
+          "coordinate_rmse_px": 6.936293339556374
+        },
+        "cam4": {
+          "points": 11,
+          "sum_squared_distance_px2": 940.6595015173364,
+          "radial_rmse_px": 9.247405048873963,
+          "coordinate_rmse_px": 6.538902818437497
+        },
+        "stereo": {
+          "points": 22,
+          "sum_squared_distance_px2": 1999.127137949567,
+          "radial_rmse_px": 9.532545062119768,
+          "coordinate_rmse_px": 6.7405272553912265
+        }
+      },
+      "all_12_joints_per_view": {
+        "cam3": {
+          "points": 12,
+          "sum_squared_distance_px2": 1249.423757563128,
+          "radial_rmse_px": 10.203854490514553,
+          "coordinate_rmse_px": 7.215214704483644
+        },
+        "cam4": {
+          "points": 12,
+          "sum_squared_distance_px2": 6517.15793762186,
+          "radial_rmse_px": 23.30443079763635,
+          "coordinate_rmse_px": 16.47872104870129
+        },
+        "stereo": {
+          "points": 24,
+          "sum_squared_distance_px2": 7766.581695184988,
+          "radial_rmse_px": 17.989095881469638,
+          "coordinate_rmse_px": 12.720211685202173
+        }
+      }
+    },
+    "rw20000": {
+      "common_fit_mask": {
+        "cam3": {
+          "points": 11,
+          "sum_squared_distance_px2": 1431.00381952,
+          "radial_rmse_px": 11.40575540330407,
+          "coordinate_rmse_px": 8.065086990231412
+        },
+        "cam4": {
+          "points": 11,
+          "sum_squared_distance_px2": 1262.1859962570772,
+          "radial_rmse_px": 10.711871054018346,
+          "coordinate_rmse_px": 7.574436661492263
+        },
+        "stereo": {
+          "points": 22,
+          "sum_squared_distance_px2": 2693.189815777077,
+          "radial_rmse_px": 11.064254104952491,
+          "coordinate_rmse_px": 7.823609106383001
+        }
+      },
+      "all_12_joints_per_view": {
+        "cam3": {
+          "points": 12,
+          "sum_squared_distance_px2": 1601.8915732686578,
+          "radial_rmse_px": 11.553828994712307,
+          "coordinate_rmse_px": 8.169790830830824
+        },
+        "cam4": {
+          "points": 12,
+          "sum_squared_distance_px2": 9958.91055929118,
+          "radial_rmse_px": 28.808144912060285,
+          "coordinate_rmse_px": 20.370434620722566
+        },
+        "stereo": {
+          "points": 24,
+          "sum_squared_distance_px2": 11560.802132559838,
+          "radial_rmse_px": 21.9476670481548,
+          "coordinate_rmse_px": 15.519344200974794
+        }
+      }
+    }
+  }
+}

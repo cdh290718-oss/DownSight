@@ -1,0 +1,17 @@
+{
+  "base_commit": "60f2c92c282d595cfadc7a5a424a158ae1c4e10c",
+  "worktree": "new uncommitted run code; unrelated existing changes untouched",
+  "export_exit_status": 0,
+  "validation_exit_status": 0,
+  "parameters_reused_without_fitting": true,
+  "source_run": "2026-11-18_real001_golden_d_four_models",
+  "code_sha256": {
+    "export_evaluate.py": "aaf380bfd1a23ae3bec65490b4ee4aff9227abdd55d9b24d313c5ddffea1718c",
+    "publish_release.py": "4ac434ccbae2325db5cf48c8270c4a7953e2835acd4c11ae8c5e2238a82eb060",
+    "finalize.py": "4b66865b8b225bbdaaf0f46537d49bba3a508668d3a6055f41526bb8788c8ff6"
+  },
+  "projection_code_sha256": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37",
+  "source_detection_sha256": "5541e9cdce3675e7581dbed0a17a47494d04502e2b233e2c32e6013756e84e97",
+  "source_prepared_sha256": "8a6b32acbb3a1cc3068d0157b5b59b56348aee36511dcd6bd17fda106e25fcff",
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. <EGOSMPLX_ENV>/bin/python export_evaluate.py; python finalize.py"
+}

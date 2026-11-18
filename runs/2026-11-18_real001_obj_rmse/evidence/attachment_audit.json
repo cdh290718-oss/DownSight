@@ -1,0 +1,17 @@
+{
+  "exit_status": 0,
+  "archive": {
+    "file": "real001_t029p0_four_models_OBJ_cam3_cam4.zip",
+    "bytes": 2423482,
+    "sha256": "218a7d99555e6835ee0f5209f35ead356d9802983b739a9f8056f8ea25c49abe"
+  },
+  "files_sha256": {
+    "real001_t029p0_four_models_OBJ_cam3_cam4.zip": "218a7d99555e6835ee0f5209f35ead356d9802983b739a9f8056f8ea25c49abe"
+  },
+  "obj_files": 8,
+  "archive_members": 13,
+  "no_model_weights_dataset_original_images": true,
+  "no_machine_paths_credentials": true,
+  "allowed_payload": "User-requested fitted OBJ meshes, camera config, manifest, README",
+  "rmse_independently_recomputed": true
+}
