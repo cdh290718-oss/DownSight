@@ -1,0 +1,72 @@
+{
+  "scope": "This run only; unrelated existing tracked modifications and untracked files excluded; historical repository not audited",
+  "baseline": "d8527cc45a787535e57750e0ac3c0108eb0d5e97",
+  "remote_main_before_commit": "d8527cc45a787535e57750e0ac3c0108eb0d5e97",
+  "worktree_reviewed": true,
+  "unrelated_worktree_entries": 40,
+  "checks": {
+    "text_only": true,
+    "under_50MB_per_file": true,
+    "no_dataset_weights_images_video_npy_npz": true,
+    "no_full_raw_output_provenance_patch": true,
+    "no_credentials_env_or_machine_paths_found": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-18_egowholebody100/brief.md",
+      "bytes": 406,
+      "sha256": "884dc6c32bb2fba6ffdcf67a5eb9ba3c9e1ff51dbe330851e82c00cb401982b9"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evaluate.py",
+      "bytes": 4370,
+      "sha256": "42d8c6e7c24f6762ffeb317da8465bf4c151609eeec70343adfb6f4a37cd448c"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evidence/execution.json",
+      "bytes": 873,
+      "sha256": "b65974a07dcfeaf748a32bcb4864e4532f872116dd093fb2c1355871514b8c92"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evidence/point_errors.json",
+      "bytes": 661974,
+      "sha256": "b61b1b7d54709659a7f7de89d8854cd3e97ed9e9a541066cbbe53175f2ff9051"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evidence/preparation.json",
+      "bytes": 46499,
+      "sha256": "c15a6c1119f856fd2e1b2d248932c83f65143f6cfb7ea0bc39378a441c475615"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evidence/summary.json",
+      "bytes": 7138,
+      "sha256": "6e15cc78c4eae73226f0b697d67edb448df031d5243b59ebf76721a438c8928c"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/evidence/weights.json",
+      "bytes": 927,
+      "sha256": "018db62a56c1fac38d4f08e97d00831b03ff23a2f796977db921c1a4508d3f4c"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/finalize.py",
+      "bytes": 2988,
+      "sha256": "1e31b8cd3f7c5da8c146834ba27bb4e016ab00c2d983534e432c748a232e4df1"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/prepare.py",
+      "bytes": 3319,
+      "sha256": "60913c67ed2a534c92ee281a9846f871140f96fa312656dc7a6b2ba89e9d5d01"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/report.md",
+      "bytes": 3505,
+      "sha256": "b7c5566d6ee6d39c4f798b1ebd9d3cb413eb250a27787ead489d18deb29e880a"
+    },
+    {
+      "path": "runs/2026-11-18_egowholebody100/review.md",
+      "bytes": 30,
+      "sha256": "f83eb2314d053ba97c6708f14525944b4bba5a01b703ba27a5fd44a8e5e071dd"
+    }
+  ],
+  "publication_gate": "Stage only these files plus this audit; check staged contents, diff --check, pending commit paths and remote before ordinary push."
+}

@@ -1,0 +1,24 @@
+{
+  "prepare_command": "EWB_DATA_ROOT=<DATA_DISK>/EgoWholeBody/render_people_adanna <PYTHON_ENV>/bin/python runs/2026-11-18_egowholebody100/prepare.py",
+  "inference_command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. OMP_NUM_THREADS=2 <PYTHON_ENV>/bin/python -u runs/2026-11-18_egowholebody100/evaluate.py",
+  "prepare_exit_status": 0,
+  "inference_exit_status": 0,
+  "validation_exit_status": 0,
+  "same_image_hashes_and_masks_all_models": true,
+  "no_nonfinite_scored_predictions": true,
+  "prior_finetuned_checkpoint_hashes_match": true,
+  "overlay_review": [
+    "ewb_000",
+    "ewb_001",
+    "ewb_002",
+    "ewb_003"
+  ],
+  "input_resolution": [
+    1280,
+    1024
+  ],
+  "manifest_sha256": "e1cbbfd9fdfee2500a36b33d9191b279b94cf9066c738cab6e2db4a8b8ea357e",
+  "reference_points_total": 1200,
+  "reference_points_in_image": 1194,
+  "reference_points_out_of_image": 6
+}

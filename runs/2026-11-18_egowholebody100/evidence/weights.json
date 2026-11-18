@@ -1,0 +1,22 @@
+{
+  "original": {
+    "sha256": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f",
+    "bytes": 6079194752,
+    "location": "<WORKSPACE>/EgoSMPLX/pretrained_models/external_pose/sapiens2_1b_pose.safetensors"
+  },
+  "rw500": {
+    "sha256": "a68da3e49340af625ebbf6308802a6e1ac38c851ba87261f699c66d5cd3b54e8",
+    "bytes": 6079194560,
+    "location": "<WORKSPACE>/outputs/fullmodel_training_20261117/results/adapter_01.safetensors"
+  },
+  "rw5000": {
+    "sha256": "3879e3a8879128955d371844ba43e96ed643f1cb088fe7ce7df60aec6cc5bf66",
+    "bytes": 6079194560,
+    "location": "<WORKSPACE>/outputs/rw_a5000_training_20261117T122117126742Z/results/adapter_01.safetensors"
+  },
+  "rw20000": {
+    "sha256": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98",
+    "bytes": 6079194560,
+    "location": "<WORKSPACE>/outputs/rw_a20000_training_20261117T152700444455Z/results/adapter_01.safetensors"
+  }
+}
