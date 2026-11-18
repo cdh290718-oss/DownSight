@@ -1,0 +1,11 @@
+{
+  "rgb_index_initial_exit": 143,
+  "rgb_index_last_progress": "12000 members at 161 seconds",
+  "index_initial_manifest_written": false,
+  "real_inference_initial": "stopped by Codex after observed index shell termination, before restarting with detached status-recording wrapper; no completed model output reused",
+  "initial_logs": "retained locally; no metrics derived from interrupted attempts",
+  "reason": "foreground long-running command termination; detached execution adopted",
+  "real_inference_initial_exit": 143,
+  "rgb_index_initial_command": "UNREAL_ROOT=<DATA_DISK>/UnrealEgo python -u runs/2026-11-18_cross_dataset100/index_unreal.py",
+  "real_inference_initial_command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=2 <PYTHON_ENV>/bin/python -u runs/2026-11-18_cross_dataset100/evaluate.py --datasets egopw sceneego"
+}

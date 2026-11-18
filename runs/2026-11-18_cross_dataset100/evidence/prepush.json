@@ -1,0 +1,170 @@
+{
+  "scope": "This run only; existing unrelated tracked modifications and untracked files excluded; historical repository not audited",
+  "baseline": "1d12311ec0c5ff5163000933012937003d927d36",
+  "remote_before_commit": "1d12311ec0c5ff5163000933012937003d927d36",
+  "worktree_reviewed": true,
+  "unrelated_worktree_entries": 40,
+  "checks": {
+    "text_only": true,
+    "under_50MB_per_file": true,
+    "no_dataset_weights_images_video_npy_npz": true,
+    "no_full_raw_output_provenance_patch": true,
+    "no_credentials_env_or_machine_paths_found": true,
+    "python_syntax_and_json_parse": true,
+    "all_inference_jobs_exit_zero": true,
+    "all_1200_sample_inferences_succeeded": true
+  },
+  "files": [
+    {
+      "path": "runs/2026-11-18_cross_dataset100/after_real.py",
+      "bytes": 676,
+      "sha256": "b0a1d9dee82d12ed2acd175dc486e9601dd7e13e0864625f8282549290afb2e4"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/brief.md",
+      "bytes": 545,
+      "sha256": "765d7084faea5af473409cb91fc72672a4808a29cefb20951fb4b2bda1895070"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/check_inputs.py",
+      "bytes": 2238,
+      "sha256": "12e0a3810ee84329fa781728084f68202cbbddac56d5d69da575caf3245a64d3"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/collect_execution.py",
+      "bytes": 2273,
+      "sha256": "8384cda27f4b16f76de86bb97bd97813994f1dd2f05140ff367796ad15c10796"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evaluate.py",
+      "bytes": 4994,
+      "sha256": "de64c7a0f0c5568db3bad82c22e8c4ec26dd065b4800c043beb7f3721632ea3d"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/egopw_point_errors.json",
+      "bytes": 854288,
+      "sha256": "4a6d7932d91c8ef3a2e8436ba703628486ea06e92bc9a90d68dc948a60d779fe"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/egopw_preparation.json",
+      "bytes": 44146,
+      "sha256": "e9c6130f185d29b8bee195cf27eb6096aed3e7a99f67104602de88e98a0faecf"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/execution.json",
+      "bytes": 2698,
+      "sha256": "56bf5589be3d3a957f0fea6386c8f8d66b8182ea385c705cc0f14f9174c95778"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/finetune_overlap.json",
+      "bytes": 1114,
+      "sha256": "eeb6fc590b3f7dcb9464a2a4d60c5f69a7b2f5d76a04e53a9be4a853f5a04cd0"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/inference_egopw_sceneego.json",
+      "bytes": 916,
+      "sha256": "c7db29bc6ae3446ac5995e6ca520e690fabf75609ea88d8f3d5d37c868777b89"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/inference_unrealego2.json",
+      "bytes": 901,
+      "sha256": "1315779f35f8ed5721ecce484d627714525a80bcc5440915d68276445771484a"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/initial_execution.json",
+      "bytes": 836,
+      "sha256": "ff32187ef6882d148b646be0372d437f60969991bf0f6cc334c7e5a331a9e803"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/overlay_review.json",
+      "bytes": 2410,
+      "sha256": "489edb5623b464be158c7331b5be3d92a94e1c920271562ab8e5c552fa653ae0"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/sceneego_point_errors.json",
+      "bytes": 855997,
+      "sha256": "b9f9c629b408192d0353b73054b6326c5bdc7a405627ac21fd85c765e79110e4"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/sceneego_preparation.json",
+      "bytes": 39015,
+      "sha256": "d4f9c66a815537030e87f5f6433c5afd1defcd7561cdfcb72e58782724d2e350"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/split_checks.json",
+      "bytes": 974,
+      "sha256": "f14834ca97edd7f8ed6f702ac1bc96fd4f09461b8a9e6d1d51e7e5ad62272c8a"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/summary.json",
+      "bytes": 79666,
+      "sha256": "095461712cee0fa6636d719e18f2248a791b42161ae74f1c3535bf86d145009d"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/unrealego2_error_bins.json",
+      "bytes": 965,
+      "sha256": "4558a8ac9a4289c030044203c74d01ff0535a8d7da3f2533b124edc8c31a0b80"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/unrealego2_point_errors.json",
+      "bytes": 854839,
+      "sha256": "e3a451fc534fd9fb83c8dd51743349aa3e0a7bb40d1d0be5a87c96abc4fd8dc5"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/unrealego2_preparation.json",
+      "bytes": 89545,
+      "sha256": "323c6cf0a5dac13b554b3fb681c2cf15b34ec865f0b28aece097cfa9c02e9aff"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/evidence/validation.json",
+      "bytes": 1017,
+      "sha256": "24ea5d3a570f0be74ba5357c06252554f95158d3d9caa0415cd3182f80629d86"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/finalize.py",
+      "bytes": 4349,
+      "sha256": "296b87b45ee1ffcfbbd1bc6a73060fc22811cfb282bdc3c1ea59d9f9f492f9b8"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/index_unreal.py",
+      "bytes": 1066,
+      "sha256": "60f1061bccc9598b996e099400ddd32ec84a9ae037a243c0359b0c97498d4d5d"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/job.py",
+      "bytes": 1139,
+      "sha256": "de6e18009c6f2953aaac651700688d5dc2e245eddafd589fdd08676ea4b4bf21"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/prepare_real.py",
+      "bytes": 4263,
+      "sha256": "8e0a8ee6827d4812b258a8a057612f04e08913534fe6f893ff7097037da81c0c"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/prepare_unreal.py",
+      "bytes": 5551,
+      "sha256": "c2de1b97afce0e3220a3ad49cb1b64a77a2920f1db1b0fecc1df316035d880aa"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/render_report.py",
+      "bytes": 2136,
+      "sha256": "9fae908af6bc36bf418a119e8351ab08143206cda5520d785c1eea54227bf394"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/report.md",
+      "bytes": 9841,
+      "sha256": "ed602b570ff7247c404c9eb4eff28997276f546561dab97e309c05d02e44ded9"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/results_table.md",
+      "bytes": 719,
+      "sha256": "e8b337e1a53a2c2db9c1319d59c23e9de6ce3fcc1892580e07aca95a15d61ffc"
+    },
+    {
+      "path": "runs/2026-11-18_cross_dataset100/review.md",
+      "bytes": 31,
+      "sha256": "c298c0d4b2b363f0fe3bd1928fd4fd04126ee244b1da424b7c732b7f3f313e4d"
+    }
+  ],
+  "publication_gate": "Stage only listed files plus this audit; compare staged blobs to audited files; diff --check; check pending commit paths and unchanged remote before ordinary push."
+}

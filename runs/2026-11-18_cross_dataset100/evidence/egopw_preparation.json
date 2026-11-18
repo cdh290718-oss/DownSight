@@ -1,0 +1,1311 @@
+{
+  "seed": 20261118,
+  "mapping": [
+    [
+      "left_shoulder",
+      5,
+      4
+    ],
+    [
+      "right_shoulder",
+      6,
+      1
+    ],
+    [
+      "left_elbow",
+      7,
+      5
+    ],
+    [
+      "right_elbow",
+      8,
+      2
+    ],
+    [
+      "left_wrist",
+      62,
+      6
+    ],
+    [
+      "right_wrist",
+      41,
+      3
+    ],
+    [
+      "left_hip",
+      9,
+      11
+    ],
+    [
+      "right_hip",
+      10,
+      7
+    ],
+    [
+      "left_knee",
+      11,
+      12
+    ],
+    [
+      "right_knee",
+      12,
+      8
+    ],
+    [
+      "left_ankle",
+      13,
+      13
+    ],
+    [
+      "right_ankle",
+      14,
+      9
+    ]
+  ],
+  "images": 100,
+  "split": "released test list",
+  "reference": "released ego_reprojected_pose pseudo-labels",
+  "calibration_sha256": null,
+  "selection": "balanced by test subject-directory/sequence; seeded temporal strata; no detector-dependent selection",
+  "stats": [
+    {
+      "sequence": "ayush/kitchen2",
+      "annotations": 2100,
+      "available_rgb": 2100,
+      "selected": 9
+    },
+    {
+      "sequence": "ayush/out",
+      "annotations": 3500,
+      "available_rgb": 3500,
+      "selected": 8
+    },
+    {
+      "sequence": "ayush_new/kitchen1",
+      "annotations": 3200,
+      "available_rgb": 3200,
+      "selected": 3
+    },
+    {
+      "sequence": "ayush_new/office1",
+      "annotations": 3300,
+      "available_rgb": 3300,
+      "selected": 3
+    },
+    {
+      "sequence": "ayush_new/office2",
+      "annotations": 2900,
+      "available_rgb": 2900,
+      "selected": 3
+    },
+    {
+      "sequence": "ayush_new/rountunda1",
+      "annotations": 2200,
+      "available_rgb": 2200,
+      "selected": 2
+    },
+    {
+      "sequence": "ayush_new/rountunda2",
+      "annotations": 2300,
+      "available_rgb": 2300,
+      "selected": 2
+    },
+    {
+      "sequence": "ayush_new/rountunda3",
+      "annotations": 1100,
+      "available_rgb": 1100,
+      "selected": 2
+    },
+    {
+      "sequence": "ayush_new/rountunda4",
+      "annotations": 1400,
+      "available_rgb": 1400,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa/kitchen",
+      "annotations": 1500,
+      "available_rgb": 1500,
+      "selected": 4
+    },
+    {
+      "sequence": "kripa/office1",
+      "annotations": 4700,
+      "available_rgb": 4700,
+      "selected": 4
+    },
+    {
+      "sequence": "kripa/office2",
+      "annotations": 3200,
+      "available_rgb": 3200,
+      "selected": 3
+    },
+    {
+      "sequence": "kripa/out",
+      "annotations": 2200,
+      "available_rgb": 2200,
+      "selected": 3
+    },
+    {
+      "sequence": "kripa/rountunda",
+      "annotations": 2100,
+      "available_rgb": 2100,
+      "selected": 3
+    },
+    {
+      "sequence": "kripa_new/kitchen1",
+      "annotations": 2300,
+      "available_rgb": 2300,
+      "selected": 3
+    },
+    {
+      "sequence": "kripa_new/kitchen2",
+      "annotations": 1500,
+      "available_rgb": 1500,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/office1",
+      "annotations": 2600,
+      "available_rgb": 2600,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/office2",
+      "annotations": 2300,
+      "available_rgb": 2300,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/out",
+      "annotations": 2400,
+      "available_rgb": 2400,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/rountunda2",
+      "annotations": 1900,
+      "available_rgb": 1900,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/rountunda3",
+      "annotations": 1200,
+      "available_rgb": 1200,
+      "selected": 2
+    },
+    {
+      "sequence": "kripa_new/rountunda4",
+      "annotations": 900,
+      "available_rgb": 900,
+      "selected": 2
+    },
+    {
+      "sequence": "lingjie/kitchen",
+      "annotations": 2200,
+      "available_rgb": 2200,
+      "selected": 4
+    },
+    {
+      "sequence": "lingjie/office1",
+      "annotations": 3700,
+      "available_rgb": 3700,
+      "selected": 3
+    },
+    {
+      "sequence": "lingjie/office2",
+      "annotations": 2800,
+      "available_rgb": 2800,
+      "selected": 3
+    },
+    {
+      "sequence": "lingjie/out",
+      "annotations": 3400,
+      "available_rgb": 3400,
+      "selected": 3
+    },
+    {
+      "sequence": "lingjie/rountunda1",
+      "annotations": 3800,
+      "available_rgb": 3800,
+      "selected": 3
+    },
+    {
+      "sequence": "lingjie_new/kitchen1",
+      "annotations": 4200,
+      "available_rgb": 4200,
+      "selected": 2
+    },
+    {
+      "sequence": "lingjie_new/kitchen2",
+      "annotations": 3700,
+      "available_rgb": 3700,
+      "selected": 2
+    },
+    {
+      "sequence": "lingjie_new/office1",
+      "annotations": 3900,
+      "available_rgb": 3900,
+      "selected": 2
+    },
+    {
+      "sequence": "lingjie_new/office2",
+      "annotations": 4000,
+      "available_rgb": 4000,
+      "selected": 2
+    },
+    {
+      "sequence": "lingjie_new/out1",
+      "annotations": 4400,
+      "available_rgb": 4400,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/out2",
+      "annotations": 3900,
+      "available_rgb": 3900,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/rest1",
+      "annotations": 3200,
+      "available_rgb": 3200,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/rest2",
+      "annotations": 3200,
+      "available_rgb": 3200,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/stairs1",
+      "annotations": 1000,
+      "available_rgb": 1000,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/stairs2",
+      "annotations": 800,
+      "available_rgb": 800,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/stairs3",
+      "annotations": 600,
+      "available_rgb": 600,
+      "selected": 1
+    },
+    {
+      "sequence": "lingjie_new/stairs4",
+      "annotations": 800,
+      "available_rgb": 800,
+      "selected": 1
+    }
+  ],
+  "samples": [
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_000",
+      "image_sha256": "9bbe03d82e6a6517974963b29293d3a67f89d9455c5dacc4dc1d037eead6dc0f",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_000330.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_001",
+      "image_sha256": "10d00f96c083d1d262c69a3bda9a762928eaf58d0ad5b899f08683da72289e1e",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_000500.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_002",
+      "image_sha256": "8cd4cb8a852c9dbd87123742e078875091bf27cd238a6c96322d0e60b45a8037",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_000778.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_003",
+      "image_sha256": "c286fc0775340fd9e4961719c395ffc6f9f415875c4b970620af2761201af2c2",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_000852.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_004",
+      "image_sha256": "57ae7c4840ddedd8e9a47fa35708300336f48ebcb11dba0e277f5d8123416feb",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_001120.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_005",
+      "image_sha256": "dfe68a1a5203dabb0b7c251ef92957622644a11a79c7cc8edb3add403c00ed36",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_001285.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_006",
+      "image_sha256": "16f8fc5e2d2190d82b2b2d767e12ed0505fec9042589c2c66cf3e756904b7c8a",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_001511.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_007",
+      "image_sha256": "2941837bae1173a14c95aac6451360c6a2de21367a6cb321b891896d0787044d",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_001925.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/kitchen2",
+      "id": "egopw_008",
+      "image_sha256": "01651547f465bd0f99981e63d3bc40fe923a9be78079e4bb4935328f2f5a97dd",
+      "annotation_sha256": "6033d9d49f0dc8f0ca19061637256627e30cb9559d1e3c94c3f15d99380d7c46",
+      "annotation_image_name": "img_001970.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_009",
+      "image_sha256": "75a7b015eecdb27b5cf573f7a47fdd340230b5ae983539a7c1dfab60cb83731e",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_000214.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_010",
+      "image_sha256": "c52a1e5adbf0f820a4c4c8afc19d3dd48a9a14a69d49f9c976da9388255744ff",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_000731.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_011",
+      "image_sha256": "ad660ce529d30eaf0239566551932156dac642874e8930d262c9068e19c1d315",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_001135.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_012",
+      "image_sha256": "05014fcb6aa2d330cf78dac0128493ec277e5ab4b472569a13993bf07db7be3b",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_001664.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_013",
+      "image_sha256": "1fbe0214fabfb24b6b5ebf14f9a41f046cccea9f03addf1580adddb6560d6138",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_002209.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_014",
+      "image_sha256": "8e50c50167af66e3ed830be9c1fb11825826114f795b20dfc9822b6d67cceb75",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_002502.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_015",
+      "image_sha256": "b3b38acc4fa605de7f0857ef6d58836ef5a04c942da089751c50f92d6d0eccee",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_003083.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush/out",
+      "id": "egopw_016",
+      "image_sha256": "3d77ec549efeac6681b5ff0dca7221bf0b263ef6263c5eec1417249d752c8303",
+      "annotation_sha256": "a2ebaf3b9f709f3683670949709e7f8692f0ba6b0cbcc42ad066568ab80f3ea8",
+      "annotation_image_name": "img_003245.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/kitchen1",
+      "id": "egopw_017",
+      "image_sha256": "75318c95427e6bd843683fd982e68c3265ed10789004dafd9adc50fa6806d2c9",
+      "annotation_sha256": "59f806d050db5cfc0a3920a431819b9d7075bc90a3283d84f2b4d0ffee91d0c2",
+      "annotation_image_name": "img_000521.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/kitchen1",
+      "id": "egopw_018",
+      "image_sha256": "0be38838573199e39b8f978835b92ce69354f1acdc3e9b304b00e3b7b349a435",
+      "annotation_sha256": "59f806d050db5cfc0a3920a431819b9d7075bc90a3283d84f2b4d0ffee91d0c2",
+      "annotation_image_name": "img_001149.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/kitchen1",
+      "id": "egopw_019",
+      "image_sha256": "fd7fe4fa5d1be0d892987e892832cd04da5a3e19b381e9db721c40e7147a4cf5",
+      "annotation_sha256": "59f806d050db5cfc0a3920a431819b9d7075bc90a3283d84f2b4d0ffee91d0c2",
+      "annotation_image_name": "img_002678.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office1",
+      "id": "egopw_020",
+      "image_sha256": "586ebcdbc1a61e6bd02783eac1a7fde6dfa5dd5b7e21269c542c95748ad79723",
+      "annotation_sha256": "87501bffb90957c9bc21525420ddac52d58c584d06ccf2b27cdb5ea317c871dd",
+      "annotation_image_name": "img_000165.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office1",
+      "id": "egopw_021",
+      "image_sha256": "953f9135499be5a4df52cadc61d81b2a210d632dbe3e24c403c81e15d825356e",
+      "annotation_sha256": "87501bffb90957c9bc21525420ddac52d58c584d06ccf2b27cdb5ea317c871dd",
+      "annotation_image_name": "img_001913.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office1",
+      "id": "egopw_022",
+      "image_sha256": "e91014525c045ae5e7222983302a834b7bf6492b8eac117b31cf4e0076f28e17",
+      "annotation_sha256": "87501bffb90957c9bc21525420ddac52d58c584d06ccf2b27cdb5ea317c871dd",
+      "annotation_image_name": "img_002268.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office2",
+      "id": "egopw_023",
+      "image_sha256": "77175e339ef8e7d99df6c7a9ad832249bdeb436f1e9ffc76b43fc9624eb461ea",
+      "annotation_sha256": "75ac56aa7aad3a4c75e4a18ad4c6e0335ce1e98b646de7be1acf001eb63092ed",
+      "annotation_image_name": "img_000275.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office2",
+      "id": "egopw_024",
+      "image_sha256": "3e05659fe45a84bb7eda8cd295239332fa0fabd32dc32db2d395499084cb03cc",
+      "annotation_sha256": "75ac56aa7aad3a4c75e4a18ad4c6e0335ce1e98b646de7be1acf001eb63092ed",
+      "annotation_image_name": "img_001310.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/office2",
+      "id": "egopw_025",
+      "image_sha256": "95056446e175e9767d8c0e6e0b68675878626f364d8565907c0e0663f28d2a05",
+      "annotation_sha256": "75ac56aa7aad3a4c75e4a18ad4c6e0335ce1e98b646de7be1acf001eb63092ed",
+      "annotation_image_name": "img_002359.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda1",
+      "id": "egopw_026",
+      "image_sha256": "727841d31209bb510b8afc7650416035a24b6523a1dc1b167289f74d4004fb9d",
+      "annotation_sha256": "5861e2370557f642c3b072f5e9679615fc0bebc47854f06a64adec55c4c0dba2",
+      "annotation_image_name": "img_000326.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda1",
+      "id": "egopw_027",
+      "image_sha256": "c8fc17464fc89d9933b5c4277d90b3f80f91e43d337f3eaffd8f8e751257edcc",
+      "annotation_sha256": "5861e2370557f642c3b072f5e9679615fc0bebc47854f06a64adec55c4c0dba2",
+      "annotation_image_name": "img_002290.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda2",
+      "id": "egopw_028",
+      "image_sha256": "d323debbe4fc1d8bcae7b6aea9436cc1c42946a50e77816dd15791f9290fbd87",
+      "annotation_sha256": "bf533c52ded5520b55ccbb48dabc6e758e2ef6bbb8928d79243bc8619ddcc8b7",
+      "annotation_image_name": "img_000551.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda2",
+      "id": "egopw_029",
+      "image_sha256": "a0488bd44677dbb6eb9766a8aefabc39b8959ec3c1817c5bdbd111c5be653a6e",
+      "annotation_sha256": "bf533c52ded5520b55ccbb48dabc6e758e2ef6bbb8928d79243bc8619ddcc8b7",
+      "annotation_image_name": "img_002074.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda3",
+      "id": "egopw_030",
+      "image_sha256": "4f67249381956dbadb9036c6137de0c74220a22d4084ffe74198fc2c840f82be",
+      "annotation_sha256": "72c54f1aa08e54db9d3e661dbfbdd77f43a124811fa9037d67b6abfc2b9caaa6",
+      "annotation_image_name": "img_000301.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda3",
+      "id": "egopw_031",
+      "image_sha256": "c6bc160f56ee94a4ad012c1f32d79901e53314d0956a071ad3bf0e09699c780a",
+      "annotation_sha256": "72c54f1aa08e54db9d3e661dbfbdd77f43a124811fa9037d67b6abfc2b9caaa6",
+      "annotation_image_name": "img_000923.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda4",
+      "id": "egopw_032",
+      "image_sha256": "6a2efbf94e6167a1549d043b3d8aa87a35c91aa96b593597e0273c223127b164",
+      "annotation_sha256": "cf4816e653297dffe06d1c51769beddbca7077dd372d1cf777d0ab44bccb6cfb",
+      "annotation_image_name": "img_000740.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "ayush_new/rountunda4",
+      "id": "egopw_033",
+      "image_sha256": "9d6a090c51f779ce891398916c0e610605d8734b78a3008e15c5a26fc6fa78fc",
+      "annotation_sha256": "cf4816e653297dffe06d1c51769beddbca7077dd372d1cf777d0ab44bccb6cfb",
+      "annotation_image_name": "img_001080.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/kitchen",
+      "id": "egopw_034",
+      "image_sha256": "34a10e95ba738ba66383ccdf5a9bec6a9ac484f319f77c08df2ce9e1f722a782",
+      "annotation_sha256": "81f62cbc40370e600c938605398c200979da9754635bff6d9ea3162e338c65e6",
+      "annotation_image_name": "img_000073.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/kitchen",
+      "id": "egopw_035",
+      "image_sha256": "a0dcd761cac292f81ae5cbb010207a63ecaba0488e40ae0ad8b3f430b0da8b0a",
+      "annotation_sha256": "81f62cbc40370e600c938605398c200979da9754635bff6d9ea3162e338c65e6",
+      "annotation_image_name": "img_000646.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/kitchen",
+      "id": "egopw_036",
+      "image_sha256": "587eccfbacfd69a9a0f04e56a56b4dc4eecb0e64dfb88d0e4621bc622ea8b9fd",
+      "annotation_sha256": "81f62cbc40370e600c938605398c200979da9754635bff6d9ea3162e338c65e6",
+      "annotation_image_name": "img_000987.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/kitchen",
+      "id": "egopw_037",
+      "image_sha256": "3ec9dd06e25f2dcfe826ba58afdb18f2c1a0034db34f4c4fae7501e5954f4322",
+      "annotation_sha256": "81f62cbc40370e600c938605398c200979da9754635bff6d9ea3162e338c65e6",
+      "annotation_image_name": "img_001254.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office1",
+      "id": "egopw_038",
+      "image_sha256": "539097aadb19c5166db8495989dc5150a3e6de34d9a29aec0c068ce4026acd63",
+      "annotation_sha256": "74eb4859e47404812eb6d8255156467f54d3e05c73562e69b46413c49a32cbe8",
+      "annotation_image_name": "img-03312021143148-134.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office1",
+      "id": "egopw_039",
+      "image_sha256": "9699fa82c8445ae693bc868607e32a6680df19045120800ddfff11f707842532",
+      "annotation_sha256": "74eb4859e47404812eb6d8255156467f54d3e05c73562e69b46413c49a32cbe8",
+      "annotation_image_name": "img-03312021143408-2157.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office1",
+      "id": "egopw_040",
+      "image_sha256": "0e582750aec3eda4a36f600ac341a0d2d13c51607cd038716cb758db0c22b9a6",
+      "annotation_sha256": "74eb4859e47404812eb6d8255156467f54d3e05c73562e69b46413c49a32cbe8",
+      "annotation_image_name": "img-03312021143450-2749.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office1",
+      "id": "egopw_041",
+      "image_sha256": "69c5674ad51e238db9628841bbf5a05227df4ce0e78e24682d5991487f1dbd2d",
+      "annotation_sha256": "74eb4859e47404812eb6d8255156467f54d3e05c73562e69b46413c49a32cbe8",
+      "annotation_image_name": "img-03312021143709-4702.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office2",
+      "id": "egopw_042",
+      "image_sha256": "d8c75a2ae56e010d23bc236009376b7753f5d4a761befe54ade9a865a4104c70",
+      "annotation_sha256": "dc9d8045e3240aec333054a4d47d2cec2a60cc687c22772d5ef8aa2267afb863",
+      "annotation_image_name": "img_000569.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office2",
+      "id": "egopw_043",
+      "image_sha256": "a82307417900e78d4f619116b075054c92099ab3765d56b9b3c5be972d05bf0c",
+      "annotation_sha256": "dc9d8045e3240aec333054a4d47d2cec2a60cc687c22772d5ef8aa2267afb863",
+      "annotation_image_name": "img_001425.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/office2",
+      "id": "egopw_044",
+      "image_sha256": "c54da55f628d430ffb26fb79f164530d18a9ab771925419d321ec3e74538620c",
+      "annotation_sha256": "dc9d8045e3240aec333054a4d47d2cec2a60cc687c22772d5ef8aa2267afb863",
+      "annotation_image_name": "img_003001.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/out",
+      "id": "egopw_045",
+      "image_sha256": "4bd7ff69400102279072d2a374371d042d3aaac154023e44688b20f5b94b34c0",
+      "annotation_sha256": "4fcad372de08eeeb945726377689bb72fb35e71d58f53bdf22d7088294d5b524",
+      "annotation_image_name": "img-03312021155903-523.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/out",
+      "id": "egopw_046",
+      "image_sha256": "b83d23f6e04df4f080489cf0fdcf41ebe19a46931b0459e00e58866a23b16318",
+      "annotation_sha256": "4fcad372de08eeeb945726377689bb72fb35e71d58f53bdf22d7088294d5b524",
+      "annotation_image_name": "img-03312021155944-1238.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/out",
+      "id": "egopw_047",
+      "image_sha256": "eb2976d178031870bdbf9dd56f4ca6c5c9352d321aaa0692400ee4bed4706152",
+      "annotation_sha256": "4fcad372de08eeeb945726377689bb72fb35e71d58f53bdf22d7088294d5b524",
+      "annotation_image_name": "img-03312021160009-1663.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/rountunda",
+      "id": "egopw_048",
+      "image_sha256": "4498c84764541d28fe37ea7cd114c064e9bea23e1656468533d6d1282cff75f5",
+      "annotation_sha256": "6873847d7640a9966b98659a1433032efd385e96a4c6d85468257ba58f264780",
+      "annotation_image_name": "img-03312021145112-89.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/rountunda",
+      "id": "egopw_049",
+      "image_sha256": "20713684c9698aca38f52ff588393057798705b2e17d9d3fafe56e7ee5cab806",
+      "annotation_sha256": "6873847d7640a9966b98659a1433032efd385e96a4c6d85468257ba58f264780",
+      "annotation_image_name": "img-03312021145212-1027.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa/rountunda",
+      "id": "egopw_050",
+      "image_sha256": "2eb98e14ddf59014a9d285bbc2d8e40f6e7c6feeb499ccb7cfd9652e6a7a5a01",
+      "annotation_sha256": "6873847d7640a9966b98659a1433032efd385e96a4c6d85468257ba58f264780",
+      "annotation_image_name": "img-03312021145254-1775.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/kitchen1",
+      "id": "egopw_051",
+      "image_sha256": "71a6a6e761ac5ee2b4d8133b91ed69a975f904139430c1ad0a046b182ab23264",
+      "annotation_sha256": "da0e944306a73a086667eac405c77c8641a7ad80414deb15d77da790570b9e69",
+      "annotation_image_name": "img-04142021161026-641.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/kitchen1",
+      "id": "egopw_052",
+      "image_sha256": "f649ba4e2dca32681d1981f8ff4010c2d3526511472a8dddc86b44b393a48435",
+      "annotation_sha256": "da0e944306a73a086667eac405c77c8641a7ad80414deb15d77da790570b9e69",
+      "annotation_image_name": "img-04142021161057-1492.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/kitchen1",
+      "id": "egopw_053",
+      "image_sha256": "e4955e0241e89151da4116bdbaf8fa9f522f1e2265700bfbbd29fe8377fc2eb5",
+      "annotation_sha256": "da0e944306a73a086667eac405c77c8641a7ad80414deb15d77da790570b9e69",
+      "annotation_image_name": "img-04142021161124-2175.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/kitchen2",
+      "id": "egopw_054",
+      "image_sha256": "71748817096b34a7b8fbf40ea7128088945013241c752411c614072d98d32778",
+      "annotation_sha256": "f0352533fce5c39019f84842e23d1510a75391ebf53ca4ddd9129a676f3fa9ab",
+      "annotation_image_name": "img_000423.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/kitchen2",
+      "id": "egopw_055",
+      "image_sha256": "b84cb83eb9f104a96fa536e131f283fe42955d9b24292a09230d7f77c0799720",
+      "annotation_sha256": "f0352533fce5c39019f84842e23d1510a75391ebf53ca4ddd9129a676f3fa9ab",
+      "annotation_image_name": "img_001447.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/office1",
+      "id": "egopw_056",
+      "image_sha256": "3826f67694005f6f62f56f8ee9c81c6a2d8424f1c77af7b80b0e20fc7eab5a05",
+      "annotation_sha256": "35a363a478c37e59105c7ffacdcd8c886426daa6448e005d3170d7ba9f176a94",
+      "annotation_image_name": "img-04142021154505-358.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/office1",
+      "id": "egopw_057",
+      "image_sha256": "90930dc2443498b05abe11db080d40104302730d6796a616535664fd4bf5ec5a",
+      "annotation_sha256": "35a363a478c37e59105c7ffacdcd8c886426daa6448e005d3170d7ba9f176a94",
+      "annotation_image_name": "img-04142021154617-2154.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/office2",
+      "id": "egopw_058",
+      "image_sha256": "233db3e7e15351d7bad7fec524430e841311c56b362526f475d286997f5c4207",
+      "annotation_sha256": "5c9527efda467a19205342bad8185f994bed81167b9fbe82e4bfc00b120ed441",
+      "annotation_image_name": "img_000585.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/office2",
+      "id": "egopw_059",
+      "image_sha256": "fee9d3dcc77d669361b14c75a16c6bb48ba8fd6a14d9cd65263aa3c4221419d8",
+      "annotation_sha256": "5c9527efda467a19205342bad8185f994bed81167b9fbe82e4bfc00b120ed441",
+      "annotation_image_name": "img_001872.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/out",
+      "id": "egopw_060",
+      "image_sha256": "489e6d021598c19b50d02ab12f23ac22ba9ecb3032acadbb558c68415a9b06f9",
+      "annotation_sha256": "cc0bf62704fb5eeb28ce2d31e4133f3b3d07b3c814a05b49ef23833b7f9066aa",
+      "annotation_image_name": "img_000258.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/out",
+      "id": "egopw_061",
+      "image_sha256": "f7294fec8c103e76ef5e9bd456945f8cce53361833a3c61b05430ae276bd610b",
+      "annotation_sha256": "cc0bf62704fb5eeb28ce2d31e4133f3b3d07b3c814a05b49ef23833b7f9066aa",
+      "annotation_image_name": "img_001634.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda2",
+      "id": "egopw_062",
+      "image_sha256": "0b76bf1641da6a52b429548c06dd0550ebe9a001b48abfbcdc0dee3aed55bf58",
+      "annotation_sha256": "eb47a960491cf07863a1df3b45db3ee2e3147961497ce11b9f00b8e52f3460f5",
+      "annotation_image_name": "img_000963.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda2",
+      "id": "egopw_063",
+      "image_sha256": "39456b848a5e9df2a625117de8a178376eb7a5b515289e9dbbc2fd0b996f994e",
+      "annotation_sha256": "eb47a960491cf07863a1df3b45db3ee2e3147961497ce11b9f00b8e52f3460f5",
+      "annotation_image_name": "img_001665.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda3",
+      "id": "egopw_064",
+      "image_sha256": "26fb7b6916c9dd603c34e1efb7b791d8c2148099d0fa141dc99510109abaaafc",
+      "annotation_sha256": "92a79581ddb640042b990df0bee456c06774c878709f2b8e5fe96e3f2eb8f325",
+      "annotation_image_name": "img_000334.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda3",
+      "id": "egopw_065",
+      "image_sha256": "28ad0f6792ad7384893c9699c64378a10a13c1c3b2e4e762d05375a3711a1024",
+      "annotation_sha256": "92a79581ddb640042b990df0bee456c06774c878709f2b8e5fe96e3f2eb8f325",
+      "annotation_image_name": "img_001096.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda4",
+      "id": "egopw_066",
+      "image_sha256": "0f6926a67dcaccd741df25826574135cf9509c5203b512ca7dd884b1af275ef0",
+      "annotation_sha256": "6494c9bca05745f11e318136af6cf2b6dec6057a965ab051cb4098b2d0518900",
+      "annotation_image_name": "img_000297.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "kripa_new/rountunda4",
+      "id": "egopw_067",
+      "image_sha256": "b64b59e64563af1562ab28c2a7ac6350a44ff0939814b425354322c4871e4e09",
+      "annotation_sha256": "6494c9bca05745f11e318136af6cf2b6dec6057a965ab051cb4098b2d0518900",
+      "annotation_image_name": "img_000955.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/kitchen",
+      "id": "egopw_068",
+      "image_sha256": "5efc3b6005d64c03ac35a117ecc2af8d1fab1fa31e5cbd9f1d434f5f5d4a8b54",
+      "annotation_sha256": "f3530644f780d7c40a31be175959e128e98a55492e65246eb15c3e49b7fe2e53",
+      "annotation_image_name": "img_000214.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/kitchen",
+      "id": "egopw_069",
+      "image_sha256": "dc80488181663f2568c388d659e1cde4238626c5d3f61304a833fe4fc45bcdc6",
+      "annotation_sha256": "f3530644f780d7c40a31be175959e128e98a55492e65246eb15c3e49b7fe2e53",
+      "annotation_image_name": "img_000767.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/kitchen",
+      "id": "egopw_070",
+      "image_sha256": "4e9a961a84de93811a1bbc2f1273dded2d57803ece769c90d11fceb72f06c8ac",
+      "annotation_sha256": "f3530644f780d7c40a31be175959e128e98a55492e65246eb15c3e49b7fe2e53",
+      "annotation_image_name": "img_001230.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/kitchen",
+      "id": "egopw_071",
+      "image_sha256": "66f1d776869cb10f6487418777b1fd62ba794b19309fb6dee3abeef6d280a4dd",
+      "annotation_sha256": "f3530644f780d7c40a31be175959e128e98a55492e65246eb15c3e49b7fe2e53",
+      "annotation_image_name": "img_001960.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office1",
+      "id": "egopw_072",
+      "image_sha256": "91aaa4301527fcbf7e54ae4a5d6bfb3fa7e675fcf727fb1ead31fee6b3794f4b",
+      "annotation_sha256": "6c5b4415e961e7bbeebc9404a4b3b2613963a61800ff0e4e9f8431a64f037985",
+      "annotation_image_name": "img-04032021154527-837.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office1",
+      "id": "egopw_073",
+      "image_sha256": "bbfb61b26439ebcec1c31545c4f54a95e86b1d9918cdbde633ad4bf7afcf9e7c",
+      "annotation_sha256": "6c5b4415e961e7bbeebc9404a4b3b2613963a61800ff0e4e9f8431a64f037985",
+      "annotation_image_name": "img-04032021154646-2251.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office1",
+      "id": "egopw_074",
+      "image_sha256": "1a0a382d10ac6d03147f715b423075600f396207d1da23e4e6edcfe51cb51c10",
+      "annotation_sha256": "6c5b4415e961e7bbeebc9404a4b3b2613963a61800ff0e4e9f8431a64f037985",
+      "annotation_image_name": "img-04032021154750-3376.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office2",
+      "id": "egopw_075",
+      "image_sha256": "d7816f342230d3c05a9ac64c893fc008d20bf4a64ab009faeba6530f477f1fad",
+      "annotation_sha256": "ce64f01f1654f696d7c7c9b1d8792ad6b3dbe8c853bc77695bb4556bfe72e413",
+      "annotation_image_name": "img-04032021155354-620.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office2",
+      "id": "egopw_076",
+      "image_sha256": "1d558255ff0e66519ea75496692991a57c78b478e02cdf188a1524f208ae0105",
+      "annotation_sha256": "ce64f01f1654f696d7c7c9b1d8792ad6b3dbe8c853bc77695bb4556bfe72e413",
+      "annotation_image_name": "img-04032021155439-1035.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/office2",
+      "id": "egopw_077",
+      "image_sha256": "d16a04fd0bf2af208b962417a5dbdeffbc5b9f4ba865ad6f05e4735bc786fe11",
+      "annotation_sha256": "ce64f01f1654f696d7c7c9b1d8792ad6b3dbe8c853bc77695bb4556bfe72e413",
+      "annotation_image_name": "img-04032021155640-2223.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/out",
+      "id": "egopw_078",
+      "image_sha256": "70beaa7ccd1d57575123151f126e6343a1aa52aa2d35738138a33a8913dd5eea",
+      "annotation_sha256": "fa3486695688bfc510029cdb59aefc8b2fea5bde9ab79a67ed00f95479172756",
+      "annotation_image_name": "img-04032021163223-882.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/out",
+      "id": "egopw_079",
+      "image_sha256": "5d4aa93b3e9b475ddf42b51f1687cb2160999041c5e9d37acd45a73bed49d580",
+      "annotation_sha256": "fa3486695688bfc510029cdb59aefc8b2fea5bde9ab79a67ed00f95479172756",
+      "annotation_image_name": "img-04032021163300-1398.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/out",
+      "id": "egopw_080",
+      "image_sha256": "b59b86f45885c11a6de41dca40018bddbeff8eed106594b4f7f70c02bb788717",
+      "annotation_sha256": "fa3486695688bfc510029cdb59aefc8b2fea5bde9ab79a67ed00f95479172756",
+      "annotation_image_name": "img-04032021163523-3388.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/rountunda1",
+      "id": "egopw_081",
+      "image_sha256": "71451c70d184f76bc7a576e90cc8e30038d8c9baf24103c0b5e995ab97e3e8a6",
+      "annotation_sha256": "7a8f7ffb2671ef3e306322a7c00bdb9b8dcb0d794fea1ba6e33b8a83cc456a89",
+      "annotation_image_name": "img-04032021160518-498.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/rountunda1",
+      "id": "egopw_082",
+      "image_sha256": "7ea247ba126976412f80ee31fa46ffa49b3571d79fb32d0f855c90fbea9f244d",
+      "annotation_sha256": "7a8f7ffb2671ef3e306322a7c00bdb9b8dcb0d794fea1ba6e33b8a83cc456a89",
+      "annotation_image_name": "img-04032021160655-1493.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie/rountunda1",
+      "id": "egopw_083",
+      "image_sha256": "cc38a88b8558c20462a75b00d456bd01c12aa662f465e6f7368999a662e4dca7",
+      "annotation_sha256": "7a8f7ffb2671ef3e306322a7c00bdb9b8dcb0d794fea1ba6e33b8a83cc456a89",
+      "annotation_image_name": "img-04032021160928-3350.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/kitchen1",
+      "id": "egopw_084",
+      "image_sha256": "12322302d99fc0fb1931395021134f555f0e36283b1d2702b16f50ac1a612aa2",
+      "annotation_sha256": "d62103d7979890e8b15a4d3bba4cbeed66d510bf0798445f546ea17186a6011b",
+      "annotation_image_name": "img_000268.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/kitchen1",
+      "id": "egopw_085",
+      "image_sha256": "011dc46060e96018f1ed10c04391ce79cd1c432ce192f93ef743a48c584543a4",
+      "annotation_sha256": "d62103d7979890e8b15a4d3bba4cbeed66d510bf0798445f546ea17186a6011b",
+      "annotation_image_name": "img_002623.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/kitchen2",
+      "id": "egopw_086",
+      "image_sha256": "d4f92c866620384af50e8170dc7ef1af3463fe74ef886c8301821d6cddb6cc29",
+      "annotation_sha256": "f91376d46cddb1aa9f6f2d0fcaeb81d744cd81e469806dd94628ac7554f4c792",
+      "annotation_image_name": "img_001051.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/kitchen2",
+      "id": "egopw_087",
+      "image_sha256": "9aff8b5d16ab0a24e223eecf9ad37ebe6e58de1d23239fe737c8d21132b270de",
+      "annotation_sha256": "f91376d46cddb1aa9f6f2d0fcaeb81d744cd81e469806dd94628ac7554f4c792",
+      "annotation_image_name": "img_002476.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/office1",
+      "id": "egopw_088",
+      "image_sha256": "54ab23eaef57270c9677d33edd84a11578519feb2cbe8ef414aca5b8b6d44e13",
+      "annotation_sha256": "1d1f9ae20b77f7015a18b3c4807569f1e2c410759511fa569ae2e15c1b935dd2",
+      "annotation_image_name": "img_001395.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/office1",
+      "id": "egopw_089",
+      "image_sha256": "64f19bf630ced7706362177e6d02a35234b37ae1488c79edd46512c768485fc9",
+      "annotation_sha256": "1d1f9ae20b77f7015a18b3c4807569f1e2c410759511fa569ae2e15c1b935dd2",
+      "annotation_image_name": "img_003152.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/office2",
+      "id": "egopw_090",
+      "image_sha256": "133e3fd6229063c3270e3fdf95bef9e82958055289cab864e217c7a283f0aae1",
+      "annotation_sha256": "c6ca1f2a63964829f6e5b825c44c1c162832bc3ccca3cb16f2f65f5d6b56b7ef",
+      "annotation_image_name": "img_000875.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/office2",
+      "id": "egopw_091",
+      "image_sha256": "a66ab878673e412a039231f1e5f046bb088fa893d7e444e57f6fb31bf4da4c00",
+      "annotation_sha256": "c6ca1f2a63964829f6e5b825c44c1c162832bc3ccca3cb16f2f65f5d6b56b7ef",
+      "annotation_image_name": "img_002855.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/out1",
+      "id": "egopw_092",
+      "image_sha256": "4b3e1981007190e2b5603d8c2116d188c6ad0bc0cc70dcc0c4b6dcda4a80ef90",
+      "annotation_sha256": "1f9c9bfec106e385828c20c8972a41f33d4b39b2f564deb10c63f2f0f0d77ecb",
+      "annotation_image_name": "img_001691.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/out2",
+      "id": "egopw_093",
+      "image_sha256": "27d62d8294d027b6679946c4b7c18f10222d7169100556a3cd1d80a883608659",
+      "annotation_sha256": "261e8dda0b61437f2a1c735b775fac146f67ada731d7843c7a3da9d2c570b4ac",
+      "annotation_image_name": "img_000587.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/rest1",
+      "id": "egopw_094",
+      "image_sha256": "26bee9732f04d61695984917d7527ec424db9d098b83ffb7ada924a42cc3b6db",
+      "annotation_sha256": "52266d914766710ffc23870fa3c531550fc9f9dcafa731417249bd30aeec7f36",
+      "annotation_image_name": "img_001953.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/rest2",
+      "id": "egopw_095",
+      "image_sha256": "340237784169c0acf21f4a4a693d23503f0d6e6290c13e0f36d38cc0278ca0ff",
+      "annotation_sha256": "773c0c96055d8909bc2515caa36f0a95025e14d4f10eea878e8f7421d080245a",
+      "annotation_image_name": "img_000783.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/stairs1",
+      "id": "egopw_096",
+      "image_sha256": "d9952eb6f1a94c4554d58389fc829e227ee732516e901af3e0316c2679c2c1af",
+      "annotation_sha256": "18f64d6142a99f3143ccc4b36794bbf04ef47560b7c907d96ce719030e91399b",
+      "annotation_image_name": "img_000213.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/stairs2",
+      "id": "egopw_097",
+      "image_sha256": "303297a8ac5cbf11bbe93f46ed7923ae250d9111add6fc806d27dbc597802366",
+      "annotation_sha256": "a49959e4a607d98d4bea5b1454dd78dbe04b2db43c9f5f666303729c7f1736d4",
+      "annotation_image_name": "img_000630.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/stairs3",
+      "id": "egopw_098",
+      "image_sha256": "d8af8589e524b9fc5682fd967412f9a897f1ac3ffb548a4ff9639c05913f16e5",
+      "annotation_sha256": "a8adf2f08dd3bb705e58256813b53caf605d2eb31c7e78fb7938b7a63232ad15",
+      "annotation_image_name": "img_000125.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "egopw",
+      "sequence": "lingjie_new/stairs4",
+      "id": "egopw_099",
+      "image_sha256": "61641b832df1658d0449af14a3029c523540a4ccaff15d32ccebe0ed0a2d133d",
+      "annotation_sha256": "138806f416cd3eabf73bf76607abf0b5e9af6c97f422c9334133d4518aba98ee",
+      "annotation_image_name": "img_000548.jpg",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "reference_in_image_points": 1200,
+  "visibility": "unknown, finite in-frame only",
+  "exit_status": 0
+}

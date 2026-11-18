@@ -1,0 +1,65 @@
+{
+  "base_commit": "1d12311ec0c5ff5163000933012937003d927d36",
+  "working_tree": "new uncommitted run code during execution; unrelated existing modifications preserved",
+  "backend_commit": "not available",
+  "source_sha256": {
+    "after_real.py": "b0a1d9dee82d12ed2acd175dc486e9601dd7e13e0864625f8282549290afb2e4",
+    "check_inputs.py": "12e0a3810ee84329fa781728084f68202cbbddac56d5d69da575caf3245a64d3",
+    "collect_execution.py": "8384cda27f4b16f76de86bb97bd97813994f1dd2f05140ff367796ad15c10796",
+    "evaluate.py": "de64c7a0f0c5568db3bad82c22e8c4ec26dd065b4800c043beb7f3721632ea3d",
+    "finalize.py": "296b87b45ee1ffcfbbd1bc6a73060fc22811cfb282bdc3c1ea59d9f9f492f9b8",
+    "index_unreal.py": "60f1061bccc9598b996e099400ddd32ec84a9ae037a243c0359b0c97498d4d5d",
+    "job.py": "de6e18009c6f2953aaac651700688d5dc2e245eddafd589fdd08676ea4b4bf21",
+    "prepare_real.py": "8e0a8ee6827d4812b258a8a057612f04e08913534fe6f893ff7097037da81c0c",
+    "prepare_unreal.py": "c2de1b97afce0e3220a3ad49cb1b64a77a2920f1db1b0fecc1df316035d880aa",
+    "render_report.py": "9fae908af6bc36bf418a119e8351ab08143206cda5520d785c1eea54227bf394"
+  },
+  "projector_sha256": "4b66d4147886cd8da25a911914986d2d0676eaafb399cc12b2239c9620769b71",
+  "prepare_real_exit_status": 0,
+  "jobs": {
+    "index_retry": {
+      "exit_status": 0,
+      "elapsed_seconds": 65.02439165115356
+    },
+    "prepare_unreal": {
+      "exit_status": 0,
+      "elapsed_seconds": 31.38185405731201
+    },
+    "inference_real_retry": {
+      "exit_status": 0,
+      "elapsed_seconds": 454.2037889957428
+    },
+    "inference_unreal": {
+      "exit_status": 0,
+      "elapsed_seconds": 517.4096219539642
+    }
+  },
+  "log_summaries": {
+    "inference_real_retry": {
+      "sample_status_counts": {
+        "original/egopw/ok": 100,
+        "original/sceneego/ok": 100,
+        "rw500/egopw/ok": 100,
+        "rw500/sceneego/ok": 100,
+        "rw5000/egopw/ok": 100,
+        "rw5000/sceneego/ok": 100,
+        "rw20000/egopw/ok": 100,
+        "rw20000/sceneego/ok": 100
+      },
+      "last_line": "DONE"
+    },
+    "inference_unreal": {
+      "sample_status_counts": {
+        "original/unrealego2/ok": 100,
+        "rw500/unrealego2/ok": 100,
+        "rw5000/unrealego2/ok": 100,
+        "rw20000/unrealego2/ok": 100
+      },
+      "last_line": "DONE"
+    }
+  },
+  "raw_outputs": "retained only in <WORKSPACE>/outputs/cross_dataset100_20261118",
+  "public_redaction": "absolute machine paths replaced by placeholders; only aggregated status and derived numerical errors published; initial interrupted attempts retained in initial_execution.json",
+  "command": "python runs/2026-11-18_cross_dataset100/collect_execution.py",
+  "exit_status": 0
+}

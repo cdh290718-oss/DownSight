@@ -1,0 +1,27 @@
+{
+  "datasets": [
+    "unrealego2"
+  ],
+  "command": "PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=2 <PYTHON_ENV>/bin/python runs/2026-11-18_cross_dataset100/evaluate.py --datasets unrealego2",
+  "elapsed_seconds": 220.3556592464447,
+  "weights": {
+    "original": {
+      "sha256": "2dab7014a17e99e460c18817325a71dd7a81ce48d87027f01c2ee7d7b3af969f"
+    },
+    "rw500": {
+      "sha256": "a68da3e49340af625ebbf6308802a6e1ac38c851ba87261f699c66d5cd3b54e8"
+    },
+    "rw5000": {
+      "sha256": "3879e3a8879128955d371844ba43e96ed643f1cb088fe7ce7df60aec6cc5bf66"
+    },
+    "rw20000": {
+      "sha256": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98"
+    }
+  },
+  "config_sha256": "d597c370323db5ce9216438109512754545626cba5d61b5e151e93ca2f645a66",
+  "torch": "2.7.0+cu128",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "flip_test": true,
+  "precision": "bfloat16 autocast",
+  "exit_status": 0
+}

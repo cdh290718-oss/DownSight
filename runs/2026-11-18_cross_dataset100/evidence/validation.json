@@ -1,0 +1,30 @@
+{
+  "command": "python runs/2026-11-18_cross_dataset100/finalize.py",
+  "exit_status": 0,
+  "checks": {
+    "egopw": {
+      "images": 100,
+      "unique_image_hashes": 100,
+      "four_models_identical_samples_and_masks": true,
+      "errors_recomputed_from_coordinates": true,
+      "failed_images": 0,
+      "manifest_sha256": "b53cbd5c8ad657bb470c8d21bb028e90134e779852cb2e3250cf2373f68b2edb"
+    },
+    "sceneego": {
+      "images": 100,
+      "unique_image_hashes": 100,
+      "four_models_identical_samples_and_masks": true,
+      "errors_recomputed_from_coordinates": true,
+      "failed_images": 0,
+      "manifest_sha256": "13ae713900a6fc502260f8b2f64c5eb64311bd0f519cc19b4d0cd19d02014ea9"
+    },
+    "unrealego2": {
+      "images": 100,
+      "unique_image_hashes": 100,
+      "four_models_identical_samples_and_masks": true,
+      "errors_recomputed_from_coordinates": true,
+      "failed_images": 0,
+      "manifest_sha256": "5de2ba295115aa944ab543913fddcd25666ccf943c2077a3d795255c1a607a94"
+    }
+  }
+}

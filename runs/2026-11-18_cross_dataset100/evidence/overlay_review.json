@@ -1,0 +1,64 @@
+{
+  "command": "view_image on generated reference overlays; visual inspection only",
+  "samples": {
+    "egopw": [
+      {
+        "id": "egopw_000",
+        "overlay_sha256": "17faad91a124bcaaf25db40fc51a2a060707e3c220cc88458d947e19e695a00a"
+      },
+      {
+        "id": "egopw_025",
+        "overlay_sha256": "1ded3b0c5c4f0228a35eb625cf09cb291e37964fa247a60d3786edfb9fe25be0"
+      },
+      {
+        "id": "egopw_050",
+        "overlay_sha256": "52bc74a854ff871718f8f7c092a20ccd02944d814e785b8f3358e36a60876c5d"
+      },
+      {
+        "id": "egopw_075",
+        "overlay_sha256": "635df1f4c881644d74e932f543a588a6990355cddce1729cfd104aafe713c9e1"
+      }
+    ],
+    "sceneego": [
+      {
+        "id": "sceneego_000",
+        "overlay_sha256": "edba16973bc08029834b883c9dc677f0ef770ab53c05738bcde0fd6eee6d3317"
+      },
+      {
+        "id": "sceneego_025",
+        "overlay_sha256": "e4ee72940ce0ba97fe83c83c787dae69dc319af2b33e0379c75835f079224363"
+      },
+      {
+        "id": "sceneego_050",
+        "overlay_sha256": "bc63fae018f509655bfd967ed781bd7e6038fa880223e1b51f89f8fa6e7cc1a2"
+      },
+      {
+        "id": "sceneego_075",
+        "overlay_sha256": "fdcbedb3f35272c113eddeedd316d58acae8651c57bd23a3a5fb638ba20d4a9c"
+      }
+    ],
+    "unrealego2": [
+      {
+        "id": "unrealego2_000",
+        "overlay_sha256": "3808190c2155075fe7878fbb2c95411a25c1adfd6bfa02e2d4e493e4d1f53729"
+      },
+      {
+        "id": "unrealego2_025",
+        "overlay_sha256": "0a446c030cf2d10645a9e108864a2d73befb6be626e509081c4e1ca985986ccd"
+      },
+      {
+        "id": "unrealego2_050",
+        "overlay_sha256": "1b13eb823aab9723c1c60db9cc847eaa6b289db22948cbac8f13c68d0b1383a9"
+      },
+      {
+        "id": "unrealego2_075",
+        "overlay_sha256": "2299b58ca955e9b7c9b06227edb80fc28706d2448960ec1b0cb5e265a036f764"
+      }
+    ]
+  },
+  "notes": {
+    "egopw": "Arms/shoulders generally correspond, but some lower-limb pseudo labels project onto desk or torso; labels kept unchanged, score is pseudo-label agreement.",
+    "sceneego": "Projection orientation and anatomical ordering visually plausible; some joint offsets remain, no independent camera recalibration or visibility certification.",
+    "unrealego2": "Native projection follows corresponding image anatomy; strong overexposure, near-camera face/glasses and self-occlusion occur. No image rotation or annotation adjustment."
+  }
+}

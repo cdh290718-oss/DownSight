@@ -1,0 +1,31 @@
+{
+  "jian1": {
+    "test_zip_annotation_matches_local": true,
+    "sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3"
+  },
+  "jian2": {
+    "test_zip_annotation_matches_local": true,
+    "sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77"
+  },
+  "diogo1": {
+    "test_zip_annotation_matches_local": true,
+    "sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429"
+  },
+  "diogo2": {
+    "test_zip_annotation_matches_local": true,
+    "sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1"
+  },
+  "egopw": {
+    "test_directories": [
+      "ayush",
+      "ayush_new",
+      "kripa",
+      "kripa_new",
+      "lingjie",
+      "lingjie_new"
+    ],
+    "train_test_directory_intersection": [],
+    "test_list_sha256": "baea29bbcfe8b3f76794927ed89a875009eb1d566cb1f0b87530b6374deef979",
+    "train_list_sha256": "8fde97fa016a7a631d3f293a2a2421ade0aabdcca0df6ca570ce09ef89f31ec8"
+  }
+}

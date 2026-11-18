@@ -1,0 +1,1101 @@
+{
+  "seed": 20261118,
+  "mapping": [
+    [
+      "left_shoulder",
+      5,
+      4
+    ],
+    [
+      "right_shoulder",
+      6,
+      1
+    ],
+    [
+      "left_elbow",
+      7,
+      5
+    ],
+    [
+      "right_elbow",
+      8,
+      2
+    ],
+    [
+      "left_wrist",
+      62,
+      6
+    ],
+    [
+      "right_wrist",
+      41,
+      3
+    ],
+    [
+      "left_hip",
+      9,
+      11
+    ],
+    [
+      "right_hip",
+      10,
+      7
+    ],
+    [
+      "left_knee",
+      11,
+      12
+    ],
+    [
+      "right_knee",
+      12,
+      8
+    ],
+    [
+      "left_ankle",
+      13,
+      13
+    ],
+    [
+      "right_ankle",
+      14,
+      9
+    ]
+  ],
+  "images": 100,
+  "split": "released test sequences jian1,jian2,diogo1,diogo2",
+  "reference": "released ego_pose_gt projected by existing SceneEgo calibration; no SMPL-X pseudo-GT",
+  "calibration_sha256": "5276a5088affd4866308c54d7fcfff8b769aa92af3add3c69cee78ea730e136c",
+  "selection": "balanced by test subject-directory/sequence; seeded temporal strata; no detector-dependent selection",
+  "stats": [
+    {
+      "sequence": "jian1",
+      "annotations": 3806,
+      "available_rgb": 3698,
+      "selected": 25
+    },
+    {
+      "sequence": "jian2",
+      "annotations": 4313,
+      "available_rgb": 4305,
+      "selected": 25
+    },
+    {
+      "sequence": "diogo1",
+      "annotations": 2608,
+      "available_rgb": 2572,
+      "selected": 25
+    },
+    {
+      "sequence": "diogo2",
+      "annotations": 2682,
+      "available_rgb": 2681,
+      "selected": 25
+    }
+  ],
+  "samples": [
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_000",
+      "image_sha256": "a4e3715cb7833bacde7b526f4d3266698b58911a2496e1d5a00240f5800f42cd",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_000275.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_001",
+      "image_sha256": "a5fa14c62bacccbf973189d5ed487e32fe1a01bc476bf2030e4aa3cb660d38c5",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_000457.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_002",
+      "image_sha256": "ee172356bafb3b49c0855a1a71510bbc5a9ab526300dc843a5ba35fe7e695a85",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_000537.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_003",
+      "image_sha256": "60f8646c0c21e1d4dad080715eeed3c249658dc6c3bb9a03080656140c14944d",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_000677.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_004",
+      "image_sha256": "a183ac2febbbac13c64120fbe5db7638f7e59d604e598b9b30bf049a73a66bac",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_000818.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_005",
+      "image_sha256": "5a161ecf668942baed50b6bb1ae487525dc8f5f728ff322d725bf2c2523d45a5",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001019.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_006",
+      "image_sha256": "02a4984fe5f669985034fa35bc20e12316415bd9a2b9d30f57020de274f09c61",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001207.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_007",
+      "image_sha256": "e284903f914853107e3677d21c2db54c9c0f481a27c9d6905effe3c0c1cb44a0",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001338.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_008",
+      "image_sha256": "b093c1a6af0ffdc70432d45b35648587fd28f59d56b4680eaf4b34da7312118f",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001532.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_009",
+      "image_sha256": "0b4bca2c2e255f019d007d64acd65caddd717a726594cf7f405f5055c90cd76f",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001662.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_010",
+      "image_sha256": "82f2b3d95ea4f28df6a94184f85f1cdd5a48dc540fa314b7b2124554032aee2d",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001744.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_011",
+      "image_sha256": "67b25677c2b204786a3faad50aff8ef0564dd4e1f93b399d38a89657ad9378c4",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001905.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_012",
+      "image_sha256": "6825295521a43b54200dd07ce063d58c8b96a91958a1a29c5fbc13ae18531195",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_001998.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_013",
+      "image_sha256": "a10e8c9db70aa3a5e36575955ee9ddf48438389614910f47d0380b522713a351",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002203.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_014",
+      "image_sha256": "5856014cde5d48cb9c5be4511bfdafc5c2253769ae3a7675246c3f4537f0e4b5",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002432.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_015",
+      "image_sha256": "b7ebc37f852baa2adecc56b6e59f44d7bb29f793b57acce75bd56237e61f8f7e",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002454.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_016",
+      "image_sha256": "9c854896bbb5f797e1e12f709094370d01462ef87e18ac579b4725c67117e2d9",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002683.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_017",
+      "image_sha256": "f8f4e31e74a26ff65dda2b1483e76cc826ff4fc48b925cdaef0f9d2830561527",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002738.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_018",
+      "image_sha256": "97e5f13a6e31154e0ee5d1b1eae68675eb8a1bc4c44f918104912d9b8888ecd1",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_002938.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_019",
+      "image_sha256": "2e8c0d2d575e6ad7d420d8577dfea3fa9f81ab4c7b5452496155ffcc758fb6d1",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003103.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_020",
+      "image_sha256": "57dbfaa273d8a36614b6a5f7b26043ff5c3f7d25298adb6cd50a22ececaaccfa",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003272.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_021",
+      "image_sha256": "11b09ffe9b9774b0b419ebcc319225ae59053fd3907671ffc2b096fd18843a1f",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003353.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_022",
+      "image_sha256": "d1c820eb419ed7607ba80950c1b5bd4a3e282249e6808cadae67be8c402f561a",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003622.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_023",
+      "image_sha256": "5000aecc1c03ac67379df33094afed33258ed8ecdc8cd169b603ddd84de69c10",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003757.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian1",
+      "id": "sceneego_024",
+      "image_sha256": "65d1c5e2a18d15cfb30be4c6c183b4e82dfa954599b461c0ff529a671c0a9970",
+      "annotation_sha256": "fa8cd5bc0e82d48b99fab18e4147fef2f76e9fa3487c6e1620c7b34ad21fb3a3",
+      "annotation_image_name": "img_003826.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_025",
+      "image_sha256": "f608f1104dc61b8cebc50a75ff1d1259e9376f2c6c7ef72b6aa7a530567f4ca7",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_000237.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_026",
+      "image_sha256": "e948e9eb07c53e7c5cdfac43276b06f6905c3a0fdc2b19b78bd106117b9f5b2b",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_000346.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_027",
+      "image_sha256": "62457730611851163206df6cfe8f246d4ee3eab05254cd2a59e99e737addf996",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_000536.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_028",
+      "image_sha256": "344c104aca452eff362866cc67cd6573d93c7f0ff38be96d9ffd07bc2f7f37d6",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_000803.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_029",
+      "image_sha256": "413c0f0023fab4f1a01bc3df953b0d6c6029760dc2f2aa65b3ed6b44301dbae1",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_000885.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_030",
+      "image_sha256": "1c8ec2c4ecb84a1b3031e189c0e24cc4e0afe52a9d6bc69afc13cfaf51b26489",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001026.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_031",
+      "image_sha256": "14161a119e92cadd936446b8f966e77af7843e00bb210c6db2daba403f959844",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001297.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_032",
+      "image_sha256": "674a2c9658101bc3de46b5d3aed04192a0d0362c2e143cc73caa614db02f874a",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001452.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_033",
+      "image_sha256": "0ca7d2298f3210394768210be856e42fcabffc278b37fdf09a159e131fb2ed88",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001570.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_034",
+      "image_sha256": "eea8a03ae13e3fa93adf80d2a7a4a2e249c5c18af7221e0325da86f1b010533b",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001700.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_035",
+      "image_sha256": "6ebf4f3b22e4b5791bba31a5a47debc084f0ece4a2a36250e10367df272f73f1",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_001979.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_036",
+      "image_sha256": "c1fdc3685109323a151955bf9474a03a76bb5ad5e97ef70872da1b82734e1af6",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002078.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_037",
+      "image_sha256": "fdaba770f7a2c5e95dcfcfdbc6dfbf5edfc18df0bbc075302814a0adb052fcf9",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002347.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_038",
+      "image_sha256": "19153e2b7044a10e797ca45d5647563366b107c9cc92e490d38afc1978733752",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002441.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_039",
+      "image_sha256": "b34145646111793cdc755b66f4f62cd7b3cd6a9f4ec2226d369d25f933cd8e5a",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002707.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_040",
+      "image_sha256": "75193a4f2efe829206609f77c2666b31c1e8fd153c86095568741b0722e350ae",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002760.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_041",
+      "image_sha256": "dc9ad8eb4b97cd6069b005639520103212cf46a74a315afffe6209b2070f8a5a",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_002995.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_042",
+      "image_sha256": "47999b404e8c3a8c796a7ad3e48ed676d02181dffdbca79ca76485946f56ba0a",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_003161.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_043",
+      "image_sha256": "a327e1626d22f54eef00b922e00953231d1e96b2c73711481a2b48733f899900",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_003328.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_044",
+      "image_sha256": "ac28a912105c9a4b23d170531773c450ae574306dd6874a9ac2b8526e09dd6a5",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_003423.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_045",
+      "image_sha256": "0228b95057dd51dedaa04cef88986ab704e281e6bd0e038dec5d6b38a92d949d",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_003598.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_046",
+      "image_sha256": "5a1018395cc982697cd5ce0a7896a5b100d03daa145ec7fff1dfb49621e871e8",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_003829.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_047",
+      "image_sha256": "3b67af4d7fe85e13b89a569039455371ea2d0369807aa80f431d612948e23200",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_004013.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_048",
+      "image_sha256": "caaa969c49b37def47a0a735fb46f06fffd073070ba673924c0dcd4bc6299a2e",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_004250.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "jian2",
+      "id": "sceneego_049",
+      "image_sha256": "b158a15fb0c5e4368bdbb4b25adfe2e2a6fcb4de03708be8915a04b862b69779",
+      "annotation_sha256": "4bf434faf949f2b7c690aa0330f8746d2629ad19f3821d9e3aa87b45fef0ed77",
+      "annotation_image_name": "img_004422.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_050",
+      "image_sha256": "60661e1b2c13308646d0da3674a1a51d238a9fd136f5ef0484f460004b1a63fd",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_000454.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_051",
+      "image_sha256": "405ec50bd01cc4d9935f79573aefe4b4e091eb318afa0436449b1f3472f7eeb0",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_000590.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_052",
+      "image_sha256": "7f73c65a1930bbfa170e75aa8599fa018791d8e885844907558df12635c72ce2",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_000696.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_053",
+      "image_sha256": "939f1656c8109f8d4793f609e46fcaab3b987f4d1d54d6b6c1c9e64ffdf7c510",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_000733.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_054",
+      "image_sha256": "d844f36fec51627936415eb1b4c26139dfa502043ba229e3f2ce97bfd20cdfad",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_000867.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_055",
+      "image_sha256": "2638ef325ebc9e2506cb2cdda6ec8a86977ac5319442f7949fff4a0c4d5b560e",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001015.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_056",
+      "image_sha256": "833c4439ddeabdadb51194dfd87f32897aea39e64c2342a31e9e8c5225cd570e",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001057.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_057",
+      "image_sha256": "c97057f53b49487ef5cef78499bb7a8c1dcb606bdd3e66a0c93a8d4031c83692",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001212.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_058",
+      "image_sha256": "733d3c4666d370d342b657e03a370641bcc7dd7033b6cc0a632e429b847b75f4",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001318.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_059",
+      "image_sha256": "6b213d7ac5999ce299830566b89ad13981086da8713ca8de21f0d7ba7621e59a",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001374.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_060",
+      "image_sha256": "d072c348b87d647df2ffde25cbf76be1390bc874d46474717e7bed9fca51347b",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001536.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_061",
+      "image_sha256": "12c5052fcf8f1eeba71248b64379ecbe35887dd2f4b43ad338925f6390b039b6",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001617.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_062",
+      "image_sha256": "fc90077ecbc85ff321a40a57d81bab1e762109083dab40a92b123b0b7fa2ef90",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001738.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_063",
+      "image_sha256": "b4381f011f5ec653c2497e8bfd539982d9ce60c15c87be71ff95645d9608de2f",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001757.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_064",
+      "image_sha256": "21462025f70292a39f92602aca431d48a707f4504314984cd48e0e7cd4965ce2",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001940.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_065",
+      "image_sha256": "60d78d0935a7fef9f0c8515397d45e49d8beef57e261071a978928c4c7bd677d",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_001974.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_066",
+      "image_sha256": "0a4da1213d5dfe1cae5933f65762d16d4398c605116c0b3c06f72296ead20c4e",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002124.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_067",
+      "image_sha256": "1e3621c89c952a6597c90b67a912eb555ff6e708ae10c9edda805c035cad8e10",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002189.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_068",
+      "image_sha256": "cb9b80281bdbc385601c2951fbc1643451a669a984685bff6cadbdb26fefe6e8",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002312.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_069",
+      "image_sha256": "3f0e887b4d04fa97f05c107a5bac2889c344dc2af8748061a8a5b62b88b008aa",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002420.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_070",
+      "image_sha256": "b1e7ece9546c1c53cc8d6cc1adabdc3fe0c85efb5840833b8d2a7eb463d5c0f2",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002543.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_071",
+      "image_sha256": "a302e7d5f11347e9b870475d60199faf802bac795a2afc0f63bf569fec66b251",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002584.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_072",
+      "image_sha256": "e77e97fca6ab4ae47e8898a7297ecb7e661b613de01fc6ff3c6bab0b9224dc2a",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002740.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_073",
+      "image_sha256": "bcf1a3e12d7a1f77cdc32960238eb0e07d1cb80f376d6403241e5ec110799310",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002791.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo1",
+      "id": "sceneego_074",
+      "image_sha256": "38efe786d3f264846b1894f3279bb9f75cff87a5c69bca5de9161fa297a14868",
+      "annotation_sha256": "f8ca447fe2f42343502e577f44719b5adcec7bc6b152f60b5c55215dc4982429",
+      "annotation_image_name": "img_002883.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_075",
+      "image_sha256": "c86cb7649f4ad0e47170f08e645661f7c32148c05c6a30b85592d93bfd0f4ad4",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000247.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_076",
+      "image_sha256": "2d7a3e87d10c8a3c9d3731e73fec6b440b4f25bdb436a8854380eb11d5494c87",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000337.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_077",
+      "image_sha256": "9a29b9ba97a073af1fc0f0f92d0c801f2d7bfd7129f6dbce46c7c040bfad5f62",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000397.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_078",
+      "image_sha256": "ed031a10b33d51751277252ea4d8e7fd95fae5bc8f4104471d815e3fdf2a59dc",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000522.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_079",
+      "image_sha256": "ddd83fb748ccb664a2181975bc3c8048e28507ecb7db97ef4092e131ab153b91",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000640.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_080",
+      "image_sha256": "70d4b7a16a834a786cd6598903a20bb385acfc30d1b4d2b1311198e0480f057d",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000741.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_081",
+      "image_sha256": "8ec42de5719f3af87991af3d60dddcaeb27c59721abb47a1c9efbdb16a960a97",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000864.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_082",
+      "image_sha256": "6d2348ea5a68d650020ea67e909caf38f0a0d16d54518299e43c719973c46a71",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_000906.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_083",
+      "image_sha256": "113ce0a05aae7e2240052c6e0f3308e80c02feac69f5799dc80e9f7673abfb3b",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001045.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_084",
+      "image_sha256": "704bf9b6cb85d6c1ade6e5c35ef799fc76c04596aa67730f72c97335a2310910",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001168.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_085",
+      "image_sha256": "fae5f95a6dd91fccb9e11f5814fc9284dcdb5e07f240b3103da23a3ca0958457",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001236.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_086",
+      "image_sha256": "d72ee73741c706546222f3d3961c08755940e0501e75517ec0c841572b68f5d1",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001397.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_087",
+      "image_sha256": "1222ec3a159c76687fa50426d928cd2f0f37c353f3baef6b3254d7d687d95391",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001463.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_088",
+      "image_sha256": "30e9ce6a175bb1912696379de4e6a280b6212add08e2a4922b42676e359d33bd",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001554.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_089",
+      "image_sha256": "4ffef3b1cde60cef11878543b3e059fe6d8989484cfa80a880c20e42809f71a4",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001698.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_090",
+      "image_sha256": "5c97f153417babdcf2a150c129dd09388687a889fd5473992fc5d00b93026ff5",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001766.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_091",
+      "image_sha256": "7a6eaef490ba61961b919faf65596f6a505c542906db0cddaaa16daa37c34571",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_001881.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_092",
+      "image_sha256": "ae4255794d41880823284ec1130b571278170758d3f5a26f949d1c03a4f273b6",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002036.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_093",
+      "image_sha256": "f94aa76993d58cb5af9dbb8f2ed41169cd5c5e6e5e9d76e75609fbf74dce9591",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002116.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_094",
+      "image_sha256": "71c5cc69db044793a979451f483ce4aded728607ab8133896ae234c1ef5ece32",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002271.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_095",
+      "image_sha256": "e249d8b125ef54972efe577b46766ebd66e9ff9b33abc4a67c79eb7c69b400cf",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002366.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_096",
+      "image_sha256": "7b3590cc0ca78be8f3545f775ced260edd70a1aee9b967529d5e45c2f0a0cfcd",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002455.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_097",
+      "image_sha256": "2d01f304817db8b707ced11b5b1094a9924a298fbfb1f530a6b45520bebfc002",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002561.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_098",
+      "image_sha256": "c948111988389ff9c3b95f2e279870e7c025bcbc8af3fa11583d732c8a0b5fe1",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002713.jpg",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "dataset": "sceneego",
+      "sequence": "diogo2",
+      "id": "sceneego_099",
+      "image_sha256": "d80b611951d68f7e536e784085b0f017a668f74ad37d607692e660d901bf6512",
+      "annotation_sha256": "127f33a7899bda370542420d2b85b99e442bc011a1180a904e402b4570411aa1",
+      "annotation_image_name": "img_002815.jpg",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "reference_in_image_points": 1200,
+  "visibility": "unknown, finite in-frame only",
+  "exit_status": 0
+}
