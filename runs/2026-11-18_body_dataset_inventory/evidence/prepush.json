@@ -1,0 +1,28 @@
+{
+  "baseline": "09cf25d6d8cdaf39016f8b3b02c5d13ddfa0217a",
+  "remote_before": "09cf25d6d8cdaf39016f8b3b02c5d13ddfa0217a",
+  "worktree_reviewed_existing_changes_preserved": true,
+  "initial_index_empty": true,
+  "text_only_under_50MB_no_assets_credentials_env_provenance_or_patch": true,
+  "machine_paths_redacted": true,
+  "history_audited": false,
+  "files": [
+    {
+      "path": "runs/2026-11-18_body_dataset_inventory/brief.md",
+      "sha256": "54f7fd7398c6ffafea49b2947dbaa13d54daf61cca9a84e7b09539bf5b661e99"
+    },
+    {
+      "path": "runs/2026-11-18_body_dataset_inventory/review.md",
+      "sha256": "f83eb2314d053ba97c6708f14525944b4bba5a01b703ba27a5fd44a8e5e071dd"
+    },
+    {
+      "path": "runs/2026-11-18_body_dataset_inventory/report.md",
+      "sha256": "b624227ae71b0c484331e4c8d3fd17e80e4a2347f2daaefd7fd3a778f9a35e29"
+    },
+    {
+      "path": "runs/2026-11-18_body_dataset_inventory/evidence/inventory.json",
+      "sha256": "fed8140a698b3444e64ab279973cf465303add66dde50011a06beda5cd65af7e"
+    }
+  ],
+  "exit_status": 0
+}

@@ -1,0 +1,15 @@
+{
+  "commands": ["ls -la <DATA_DISK>", "ls <DATA_DISK>/<dataset>", "ls representative sequences", "read EgoPW/readme.md", "inspect EgoSMPLX dataset adapter names"],
+  "exit_status": 0,
+  "access": "read-only, representative entries only; no completeness or pairing audit",
+  "roots": ["<DATA_DISK>", "<WORKSPACE>/datasets"],
+  "datasets": [
+    {"name":"EgoWholeBody","location":"<DATA_DISK>/EgoWholeBody","entries":["render_people_adanna","render_people_adanna.zip","render_people_mixamo_smplx.pkl","renderpeople_mixamo_labels.pkl"],"sample_sequence_entries":["img","depth","seg","ego_camera_info.pkl","joint_info.pkl","joint_info_all.pkl"],"note":"one inspected rendered-person directory; number of people and complete split unknown"},
+    {"name":"EgoPW","location":"<DATA_DISK>/EgoPW","entries":["EgoPW_dataset_release.zip","test_sequences.txt","training_seqences.txt","ayush"],"sample_sequence_entries":["imgs","external_imgs","pseudo_gt.pkl"],"note":"README describes pseudo-GT and synchronized external images; not established as downward stereo"},
+    {"name":"SceneEgo","location":"<DATA_DISK>/SceneEgo","entries":["SceneEgo_test.zip","SceneEgo_train.zip","diogo1","train"],"sample_sequence_entries":["imgs","annotation.pkl","local_pose_gt.pkl","rendered","syn.json"],"note":"repository backend SceneEgo_Paper describes official 15-joint evaluation; current files, split, axes require validation"},
+    {"name":"UnrealEgo2","location":"<DATA_DISK>/UnrealEgo","entries":["UnrealEgoData2_test_pose","UnrealEgoData2_test_rgb","UnrealEgoData2_test_sfm","UnrealEgoData2_train_val_pose"],"note":"test RGB listing shows split archives; no extraction or archive completeness check; not claiming train RGB present"},
+    {"name":"UnrealEgo-RW","location":"<DATA_DISK>/UnrealEgo-RW","entries":["UnrealEgoData_rw_test_pose","UnrealEgoData_rw_test_rgb","UnrealEgoData_rw_train_val_pose","UnrealEgoData_rw_train_val_rgb","fisheye_calib_unrealego_rw_left_opencv.json","fisheye_calib_unrealego_rw_right_opencv.json"],"sample_sequence_entries":["studio/2023_01_17","studio/2023_08_23","studio/2023_08_25"],"note":"existing prior frozen200 evaluation; no claim that full dataset is available"},
+    {"name":"EgoFishBody","location":"<DATA_DISK>/EgoFishBody","entries":["smplx_params","egodex_smplx_params","assemble_disassemble_legos"],"note":"SMPL-X parameter directories and task directories present; camera views and GT provenance unverified"},
+    {"name":"EgoDex","location":"<DATA_DISK>/EgoDex","entries":["part1.zip","part2.zip","part3.zip","part4.zip","part5.zip","test.zip","unzipped"],"note":"hand/object dataset candidate; body annotation and current data usability not verified"}
+  ]
+}
