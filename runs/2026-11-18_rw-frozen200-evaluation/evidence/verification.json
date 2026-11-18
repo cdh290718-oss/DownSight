@@ -1,0 +1,47 @@
+{
+  "command": "verify frozen selection keys, decoded image SHA256, paired extraction and prior subset; compare evaluation summaries",
+  "exit_status": 0,
+  "selection_sha256": "6bba850b8cf580704d4111b797792dfc75ea23aa8166a51ad4c008c8fa53b6e6",
+  "requested": 200,
+  "unique": 200,
+  "complete_pairs": 100,
+  "subjects": {
+    "S9": 66,
+    "S11": 66,
+    "S1": 68
+  },
+  "previous_images_hash_match": 46,
+  "gzip_validation_exit_status": 0,
+  "supervisor": {
+    "state": "completed",
+    "time_utc": "2026-11-17T20:23:38.273039+00:00"
+  },
+  "download": {
+    "files": [
+      {
+        "part": 0,
+        "size": 3102700409,
+        "sha256": "91b39d5605223ad8f7f89591df5ae626f28f7bb765d697083dd02715aac14335"
+      },
+      {
+        "part": 1,
+        "size": 10737418240,
+        "sha256": "b37083896476a61beaf87a997ebfc92e8367f318050f3922590a917b190ea856"
+      },
+      {
+        "part": 2,
+        "size": 10737418240,
+        "sha256": "6a521a3c8cec9f52dcf477c5853cae161371f3567bb76ea2dffb81a526923c2d"
+      },
+      {
+        "part": 3,
+        "size": 117428803,
+        "sha256": "ee500b3a4e19a2358df2f5ee78606f9301c0b412251984b91712f4e599a47193"
+      }
+    ],
+    "source": "official UnrealEgo-RW test RGB",
+    "original_cache_read_only": true
+  },
+  "source_preparation_command": "code/extract.py and code/manifest.py",
+  "evaluation_command": "code/evaluate_2d.py"
+}

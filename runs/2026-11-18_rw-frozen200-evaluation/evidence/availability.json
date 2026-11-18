@@ -1,0 +1,35 @@
+{
+  "command": "HTTP HEAD and three 4096-byte range comparisons; local frozen manifest verification",
+  "exit_status": 0,
+  "official_script": "https://unrealego.mpi-inf.mpg.de/data/download_unrealego_rw_test_rgb.sh",
+  "official_part_sizes_bytes": [
+    10737418240,
+    10737418240,
+    10737418240,
+    117428803
+  ],
+  "existing_part0_bytes": 7634717831,
+  "missing_bytes": 24694965692,
+  "range_probe_offsets": [
+    0,
+    3817358915,
+    7634713735
+  ],
+  "range_bytes": 4096,
+  "range_http_status": 206,
+  "range_matches": [
+    true,
+    true,
+    true
+  ],
+  "note": "three matching probes do not prove whole prefix integrity; streaming full extraction verifies gzip stream but official checksum unavailable",
+  "frozen_selection_sha256": "6bba850b8cf580704d4111b797792dfc75ea23aa8166a51ad4c008c8fa53b6e6",
+  "frozen_subject_images": {
+    "S1": 68,
+    "S9": 66,
+    "S11": 66
+  },
+  "prior_evaluated_paired_images": 46,
+  "prior_extracted_individual_images": 48,
+  "download_started": false
+}
