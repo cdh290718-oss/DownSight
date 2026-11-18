@@ -1,0 +1,22 @@
+{
+  "state": "failed",
+  "training_exit_code": 0,
+  "stages": [
+    {
+      "stage": "detector_2d",
+      "exit_code": 0,
+      "elapsed_seconds": 467.0806415081024
+    },
+    {
+      "stage": "prepare_full_2d_fit",
+      "exit_code": 0,
+      "elapsed_seconds": 0.08360815048217773
+    },
+    {
+      "stage": "fit_full_2d",
+      "exit_code": 1,
+      "elapsed_seconds": 0.985435962677002
+    }
+  ],
+  "error": "fit_full_2d failed with exit 1"
+}

@@ -1,0 +1,7 @@
+{
+  "command": "convert supervisor UTC finish time to client UTC+8 and derive duration",
+  "exit_status": 0,
+  "training_finished_client": "2026-11-18T02:26:40.152634+08:00",
+  "elapsed_hours": 2.994349596765306,
+  "optimizer_updates": 5000
+}

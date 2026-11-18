@@ -1,0 +1,57 @@
+{
+  "command": "derive relative change and worsened joints from 2d_summary.json",
+  "exit_status": 0,
+  "comparison": {
+    "validation": {
+      "old_mean_px": 12.5340648033046,
+      "new_mean_px": 11.994948624422568,
+      "reduction_percent": 4.301207847113531,
+      "old_pck20": 84.31822927542284,
+      "new_pck20": 85.75903111296722,
+      "worsened_joint_means": [
+        {
+          "name": "left_shoulder",
+          "old_px": 17.156405230978898,
+          "new_px": 17.32238398992536
+        }
+      ]
+    },
+    "same_person": {
+      "old_mean_px": 13.364817636722426,
+      "new_mean_px": 11.848927397972714,
+      "reduction_percent": 11.342393738201938,
+      "old_pck20": 82.33333333333333,
+      "new_pck20": 87.16666666666667,
+      "worsened_joint_means": []
+    },
+    "test_available": {
+      "old_mean_px": 10.829226972263237,
+      "new_mean_px": 10.447197204062615,
+      "reduction_percent": 3.5277658246439025,
+      "old_pck20": 90.94202898550725,
+      "new_pck20": 91.84782608695652,
+      "worsened_joint_means": [
+        {
+          "name": "left_shoulder",
+          "old_px": 11.48346576351902,
+          "new_px": 12.787258123968167
+        },
+        {
+          "name": "right_wrist",
+          "old_px": 11.097803421204405,
+          "new_px": 11.255911727708305
+        },
+        {
+          "name": "left_hip",
+          "old_px": 9.950820869371904,
+          "new_px": 10.24292040121297
+        },
+        {
+          "name": "right_hip",
+          "old_px": 9.787694253430535,
+          "new_px": 11.293774016494062
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "command": "public increment audit: source, content, paths, links, Git workspace/index and outgoing commit",
+  "exit_status": 0,
+  "baseline": "4a4ead16ad79c31b30c705e5bfaf326fc65173fc",
+  "remote_main_before_commit": "4a4ead16ad79c31b30c705e5bfaf326fc65173fc",
+  "checks": {
+    "no_weights_data_images_video_numpy_or_full_raw_outputs": true,
+    "all_files_below_50MiB": true,
+    "no_detected_credentials_env_or_private_keys": true,
+    "machine_absolute_paths_redacted": true,
+    "no_full_local_provenance_or_patch": true,
+    "report_local_links_resolve": true,
+    "json_finite": true,
+    "source_hashes_match": true,
+    "workspace_reviewed_unrelated_changes_excluded": true,
+    "remote_matches_baseline": true,
+    "raw_outputs_gitignored": true,
+    "original_failure_preserved": true,
+    "recovery_complete": true
+  },
+  "workspace_status_entry_count": 36,
+  "file_inventory_excluding_this_audit": [
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/brief.md",
+      "bytes": 673,
+      "sha256": "5f09afcbc7d517c352a1080dbe294dca6ee2f9b681898350ff8e1e25c9a981f9"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/code/resume.py",
+      "bytes": 3618,
+      "sha256": "e5a2191e8b84fc18d872deda5f04d7ca9a23637767d25c0c59c608c4d42b7fce"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/code/summarize.py",
+      "bytes": 3446,
+      "sha256": "84796c8d79f0181db7b56d952f3852a7deb56f6f2466601fcef6d354b4e03723"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/code/verify_evidence.py",
+      "bytes": 3700,
+      "sha256": "125e7c22ab36fa45eb811e6287e2da209b3d192c7f2018da45d0cfe07c6349a8"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/common.py",
+      "bytes": 1759,
+      "sha256": "305e2b615f906ed4d3d8a8b6a07d334e334252e54d4465f0a17185a0a35db2b3"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evaluate.py",
+      "bytes": 4801,
+      "sha256": "125f022df9c0b44688dbb27eb9fd79a0ac9fc2cd34fb61c1ae5876aaf999590f"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/2d_errors.json",
+      "bytes": 1021811,
+      "sha256": "6decb9c5737fba350974e512ceb046957d12f8f5360d1ebb7afa924d32b2a722"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/2d_improvements.json",
+      "bytes": 1593,
+      "sha256": "470404f42a852a18221b4fdeb3ea3ef5addb25b29fa6fcba3a2427d4c0e4a7d8"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/2d_summary.json",
+      "bytes": 50520,
+      "sha256": "bcec2df235946d2205ab0eaff9bbf8b98b56eb97bc7acc33f9a1771d373f33e7"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/3d_improvements.json",
+      "bytes": 1449,
+      "sha256": "b8e05763d214c86c69ae762c88754e00b49729a8cb40fedbb4507490d55b6103"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/checkpoints.json",
+      "bytes": 1112,
+      "sha256": "0823742f267cee2ec46843ea45146614426d007068a5a8f5c1a0ea53349c5d36"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/completion_time.json",
+      "bytes": 243,
+      "sha256": "0a1239a8cc49dd5dfb3c24b11634b1dab4aab120622d9669e7a5f62e95f45d84"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/evaluate_console.txt",
+      "bytes": 551,
+      "sha256": "98809cebeb5e695347b3c4f15e4c279289a7d0de339fa65c8ff067844a61ad1d"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/fit_console.txt",
+      "bytes": 2225,
+      "sha256": "6378c0f8d8041687bf855d33db0798f0d83d28b308897828dc59405f510413dc"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/fit_execution.json",
+      "bytes": 2770,
+      "sha256": "fa5e982ba6c95dfb0c8ec237226a177cdd459b0c6d54a00456dd6184c6f2ba11"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/fit_preparation.json",
+      "bytes": 4411,
+      "sha256": "0ef9cf0768b61c31892f035e1a7dce51bd1fc8ceb38033c0089feab42d2047b5"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/inference_execution.json",
+      "bytes": 885,
+      "sha256": "bb1e61a1fae33ff07a6750a6f8c73eed0f436779df50e82c7edb3ee1c49b86a9"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/original_fit_failure.txt",
+      "bytes": 249,
+      "sha256": "7e8de6980c0d8d28496afcc9cce8f350e6d0e928f9266ba99310e898123c8841"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/original_pipeline_execution.json",
+      "bytes": 448,
+      "sha256": "d5be6f0ab046e339261ede3fe5389b58bbaff4a2553948e405d624fe2a761f49"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/recovery_execution.json",
+      "bytes": 1625,
+      "sha256": "bf975ff6e787eeeda180ee28a3291cf03cade1899b846c9c5ddd1f7ab20f4f7a"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/results.json",
+      "bytes": 43081,
+      "sha256": "03152ab0824f8e21dbbed1e969858296a9494521634abfd26d20ed88b9a8a4f7"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/source.json",
+      "bytes": 1256,
+      "sha256": "8bc66074bcf18ce5d824d5ac4dc3b6b381702ef4f169a2d2e7cc51c13e3c4cf5"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/summary.json",
+      "bytes": 9144,
+      "sha256": "f5c4c03cfaccea37105ad820253147692dc2f268465d94e53ad34592dcba227e"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/validation_reproduction.json",
+      "bytes": 242,
+      "sha256": "26249376359594beb7012e3c4e4ef6487a4b95c6147742f78729b1f9e4d2c11a"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/evidence/verification.json",
+      "bytes": 490,
+      "sha256": "f297f5a66839f7a86c20f13723666791cc4903637dd943ca55eefdd258878eb8"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/fit.py",
+      "bytes": 13970,
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/protocol.json",
+      "bytes": 2731,
+      "sha256": "11496603d1d90446b8dab348858707306c21c3cb0c8031645c7d690a89ba32d7"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/report.md",
+      "bytes": 7065,
+      "sha256": "70a7d771b4e26f196ccbb9fb0708219e332e324a973b4c043f614bd738f57502"
+    },
+    {
+      "path": "runs/2026-11-18_rw-a20000-evaluation/review.md",
+      "bytes": 337,
+      "sha256": "f370fb2f15a21ffdb79652c1f9c07eb33e8f3596aa264e63b2e34cf6f826d391"
+    }
+  ],
+  "scope": "Only new recovery run published; previous run and unrelated changes untouched. No claim of historical repository audit. Outgoing commit blobs and remote parent rechecked before push."
+}

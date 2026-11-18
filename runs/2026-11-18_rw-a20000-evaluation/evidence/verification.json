@@ -1,0 +1,17 @@
+{
+  "command": "python code/verify_evidence.py",
+  "exit_status": 0,
+  "paired_2d_groups_recomputed": 9,
+  "successful_3d_records": 30,
+  "same_image_ids_and_validity_masks": true,
+  "source_fingerprints_match": true,
+  "fit_and_geometry_match_previous": true,
+  "body_gt_not_read_during_fit": true,
+  "fixed_shape_rank_zero_pairs": 10,
+  "body_model_max_difference_m": 2.980232238769531e-07,
+  "convergence_pass_per_condition": {
+    "baseline": 0,
+    "rw5000": 0,
+    "rw20000": 0
+  }
+}

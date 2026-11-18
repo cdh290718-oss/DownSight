@@ -1,0 +1,64 @@
+{
+  "command": "derive relative 3D changes and per-joint/per-pair regressions from verified summary",
+  "exit_status": 0,
+  "non_pa_reduction_percent": 5.1717551378950954,
+  "pa_reduction_percent": 5.221060457467718,
+  "non_pa_worsened_joints": [
+    {
+      "name": "Neck",
+      "old_mm": 82.68662059610709,
+      "new_mm": 82.75561856573093
+    },
+    {
+      "name": "R_Wrist",
+      "old_mm": 40.458130373989476,
+      "new_mm": 46.897380993772806
+    },
+    {
+      "name": "L_Shoulder",
+      "old_mm": 52.66235913956681,
+      "new_mm": 53.977381415490264
+    },
+    {
+      "name": "R_Hip",
+      "old_mm": 82.12034001102374,
+      "new_mm": 82.5472649305849
+    }
+  ],
+  "pa_worsened_joints": [
+    {
+      "name": "R_Wrist",
+      "old_mm": 52.760349902036396,
+      "new_mm": 57.932582153157924
+    },
+    {
+      "name": "R_Hip",
+      "old_mm": 67.49048677846119,
+      "new_mm": 70.97216173960558
+    },
+    {
+      "name": "R_Toe",
+      "old_mm": 121.78674230768358,
+      "new_mm": 123.40610315909484
+    },
+    {
+      "name": "L_Hip",
+      "old_mm": 87.65997196755984,
+      "new_mm": 88.06558969607583
+    },
+    {
+      "name": "L_Ankle",
+      "old_mm": 78.91524573302918,
+      "new_mm": 81.52928067063324
+    }
+  ],
+  "pa_pairs_improved": 6,
+  "worsened_non_pa_pairs": [
+    {
+      "pair": "body07",
+      "old_mm": 82.71728726086876,
+      "new_mm": 95.07267503236018,
+      "increase_mm": 12.355387771491422
+    }
+  ]
+}

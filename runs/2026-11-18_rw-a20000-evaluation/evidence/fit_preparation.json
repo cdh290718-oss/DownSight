@@ -1,0 +1,192 @@
+{
+  "command": "python code/prepare_fit.py",
+  "exit_status": 0,
+  "source_prepared_sha256": "d29ba0e3cb88f1b6e22a75b32b622867ad1c62a17d28dfd9d63b34fc1c98d5f7",
+  "prepared_sha256": "fa32a9c814e5cc6251312643ab4356b40744494bebf35f2225647e7cb77bd26e",
+  "protocol_sha256": "11496603d1d90446b8dab348858707306c21c3cb0c8031645c7d690a89ba32d7",
+  "operational_protocol_identical_fields": [
+    "methods",
+    "pairs",
+    "sigma_px_fixed",
+    "metric_loss_weight",
+    "metric_huber_delta",
+    "shoulder_weight",
+    "head_position_sigma_m",
+    "head_rotation_sigma_deg",
+    "head_position_weight",
+    "head_rotation_weight",
+    "pose_prior_weight",
+    "shape_prior_weight",
+    "shape_information_threshold",
+    "minimum_observed_joint_z_m",
+    "pose_lr",
+    "rotation_lr",
+    "translation_lr",
+    "shape_lr",
+    "budgets",
+    "checkpoint_steps",
+    "trace_steps",
+    "lr_schedule",
+    "selection",
+    "convergence",
+    "absolute_pose_caps_deg"
+  ],
+  "identity_checks": [
+    {
+      "version": "original",
+      "pair": "body01",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body02",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body03",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body04",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body05",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body06",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body07",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body08",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body09",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "original",
+      "pair": "body10",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body01",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body02",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body03",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body04",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body05",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body06",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body07",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body08",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body09",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw5000",
+      "pair": "body10",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body01",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body02",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body03",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body04",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body05",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body06",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body07",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body08",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body09",
+      "nuisance_inputs_identical": true
+    },
+    {
+      "version": "rw20000",
+      "pair": "body10",
+      "nuisance_inputs_identical": true
+    }
+  ],
+  "conditions": {
+    "baseline": "original",
+    "rw5000": "5000-image full epoch1",
+    "rw20000": "20000-image full epoch1"
+  },
+  "scope": "same prior S9 ten pairs, mean shape, annotation-derived Head/calibration/masks; only body XY and diagnostic scores changed"
+}

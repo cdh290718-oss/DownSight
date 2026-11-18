@@ -1,0 +1,59 @@
+{
+  "stages": [
+    {
+      "stage": "import_check",
+      "command": [
+        "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python",
+        "-c",
+        "from egosmplx_pipeline.body_common import BODY_POSE_NAMES; print(len(BODY_POSE_NAMES))"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.8563230037689209
+    },
+    {
+      "stage": "fit",
+      "command": [
+        "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python",
+        "-u",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw-a20000-evaluation/fit.py",
+        "--threads",
+        "2"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 142.85075306892395
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python",
+        "-u",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw-a20000-evaluation/evaluate.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 6.081137180328369
+    },
+    {
+      "stage": "summarize",
+      "command": [
+        "<WORKSPACE>/miniconda3/bin/python",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw-a20000-evaluation/code/summarize.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.16567111015319824
+    },
+    {
+      "stage": "verify",
+      "command": [
+        "<WORKSPACE>/miniconda3/bin/python",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw-a20000-evaluation/code/verify_evidence.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 0.06629633903503418
+    }
+  ],
+  "environment": {
+    "PYTHONPATH": "<REPO>",
+    "D_INTERVENTION_OUTPUT": "outputs/rw_a20000_evaluation_20261118/d_fit"
+  },
+  "completed": true
+}

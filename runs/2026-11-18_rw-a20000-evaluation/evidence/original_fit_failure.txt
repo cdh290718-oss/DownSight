@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/DownSight/runs/2026-11-17_rw-a20000-training/fit.py", line 19, in <module>
+    from egosmplx_pipeline.body_common import BODY_POSE_NAMES
+ModuleNotFoundError: No module named 'egosmplx_pipeline'

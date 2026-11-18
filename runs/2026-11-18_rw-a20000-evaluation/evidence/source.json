@@ -1,0 +1,22 @@
+{
+  "command": "source and protocol identity check before recovery",
+  "exit_status": 0,
+  "execution_baseline": "4a4ead16ad79c31b30c705e5bfaf326fc65173fc",
+  "working_tree": "New recovery run; preexisting unrelated changes preserved.",
+  "code_sha256": {
+    "code/resume.py": "e5a2191e8b84fc18d872deda5f04d7ca9a23637767d25c0c59c608c4d42b7fce",
+    "code/summarize.py": "84796c8d79f0181db7b56d952f3852a7deb56f6f2466601fcef6d354b4e03723",
+    "code/verify_evidence.py": "125e7c22ab36fa45eb811e6287e2da209b3d192c7f2018da45d0cfe07c6349a8",
+    "common.py": "305e2b615f906ed4d3d8a8b6a07d334e334252e54d4465f0a17185a0a35db2b3",
+    "evaluate.py": "125f022df9c0b44688dbb27eb9fd79a0ac9fc2cd34fb61c1ae5876aaf999590f",
+    "fit.py": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+  },
+  "recovery": "Set PYTHONPATH to repository root for subprocess imports; new output destination; no loss, data, optimizer or model change.",
+  "unchanged_files": [
+    "fit.py",
+    "geometry.py",
+    "protocol.json"
+  ],
+  "original_training_execution_baseline": "6fc30623c78c8eb4db2943955c9c0c5ed83a0563 plus code published at 4a4ead16ad79c31b30c705e5bfaf326fc65173fc"
+}
