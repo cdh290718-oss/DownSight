@@ -1,0 +1,40 @@
+{
+  "command": "aggregate summary.json and 3d_results.json",
+  "exit_status": 0,
+  "scope": "DFM model reference, not ground truth; 20 stereo pairs 12 body joints",
+  "results": {
+    "rw500": {
+      "images": 40,
+      "points2d": 424,
+      "mean2d_px": 34.56612064214028,
+      "within20": 139,
+      "pairs": 20,
+      "success": 20,
+      "mpjpe_mm": 118.80853351759146,
+      "pa_mm": 86.42442722545093,
+      "convergence_pass": 0
+    },
+    "rw5000": {
+      "images": 40,
+      "points2d": 424,
+      "mean2d_px": 35.013081094563695,
+      "within20": 90,
+      "pairs": 20,
+      "success": 20,
+      "mpjpe_mm": 115.17551255351263,
+      "pa_mm": 86.84551687334921,
+      "convergence_pass": 0
+    },
+    "rw20000": {
+      "images": 40,
+      "points2d": 424,
+      "mean2d_px": 36.67295473040968,
+      "within20": 87,
+      "pairs": 20,
+      "success": 20,
+      "mpjpe_mm": 114.11417098366361,
+      "pa_mm": 88.57157663730177,
+      "convergence_pass": 0
+    }
+  }
+}

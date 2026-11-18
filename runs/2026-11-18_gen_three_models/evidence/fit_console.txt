@@ -1,0 +1,25 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 20000 feasible 57 / 60 mean loss 1.7383188009262085 elapsed_s 0.0
+step 1000 / 20000 feasible 60 / 60 mean loss 0.03532426804304123 elapsed_s 7.8
+step 2000 / 20000 feasible 60 / 60 mean loss 0.015918197110295296 elapsed_s 15.7
+step 3000 / 20000 feasible 60 / 60 mean loss 0.010687591508030891 elapsed_s 23.8
+step 4000 / 20000 feasible 60 / 60 mean loss 0.008027110248804092 elapsed_s 31.7
+step 5000 / 20000 feasible 60 / 60 mean loss 0.007108309771865606 elapsed_s 39.7
+step 6000 / 20000 feasible 60 / 60 mean loss 0.006677537225186825 elapsed_s 47.6
+step 7000 / 20000 feasible 60 / 60 mean loss 0.006404486019164324 elapsed_s 55.6
+step 8000 / 20000 feasible 60 / 60 mean loss 0.0062197670340538025 elapsed_s 63.6
+step 9000 / 20000 feasible 60 / 60 mean loss 0.006072702817618847 elapsed_s 71.6
+step 10000 / 20000 feasible 60 / 60 mean loss 0.005997004918754101 elapsed_s 79.6
+step 11000 / 20000 feasible 60 / 60 mean loss 0.00597158819437027 elapsed_s 87.6
+step 12000 / 20000 feasible 60 / 60 mean loss 0.005946573335677385 elapsed_s 95.6
+step 13000 / 20000 feasible 60 / 60 mean loss 0.005908561870455742 elapsed_s 103.5
+step 14000 / 20000 feasible 60 / 60 mean loss 0.005861906334757805 elapsed_s 111.5
+step 15000 / 20000 feasible 60 / 60 mean loss 0.005821184255182743 elapsed_s 119.6
+step 16000 / 20000 feasible 60 / 60 mean loss 0.005784465000033379 elapsed_s 127.5
+step 17000 / 20000 feasible 60 / 60 mean loss 0.005769648123532534 elapsed_s 135.5
+step 18000 / 20000 feasible 60 / 60 mean loss 0.005751961376518011 elapsed_s 143.4
+step 19000 / 20000 feasible 60 / 60 mean loss 0.005737168714404106 elapsed_s 151.4
+step 20000 / 20000 feasible 60 / 60 mean loss 0.005727412644773722 elapsed_s 159.4
+DONE 60 fits

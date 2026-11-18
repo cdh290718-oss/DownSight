@@ -1,0 +1,10 @@
+{
+  "command": "sha256 three adapter files",
+  "exit_status": 0,
+  "sha256": {
+    "rw500": "a68da3e49340af625ebbf6308802a6e1ac38c851ba87261f699c66d5cd3b54e8",
+    "rw5000": "3879e3a8879128955d371844ba43e96ed643f1cb088fe7ce7df60aec6cc5bf66",
+    "rw20000": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98"
+  },
+  "match_previously_recorded": true
+}
