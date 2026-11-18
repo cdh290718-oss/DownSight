@@ -1,0 +1,582 @@
+{
+  "command": "python code/summarize.py",
+  "exit_status": 0,
+  "conditions": {
+    "baseline": {
+      "pairs": 10,
+      "non_pa_mm": 91.2730595014937,
+      "pa_mm": 69.71406369642983,
+      "per_joint_non_pa_mm": {
+        "Neck": 82.75561856573093,
+        "R_Shoulder": 22.344478388764877,
+        "R_Elbow": 19.909266058319805,
+        "R_Wrist": 46.897380993772806,
+        "L_Shoulder": 53.977381415490264,
+        "L_Elbow": 49.171816394107154,
+        "L_Wrist": 83.29104538337256,
+        "R_Hip": 82.5472649305849,
+        "R_Knee": 94.95137261861646,
+        "R_Ankle": 82.70901385649543,
+        "R_Toe": 227.0999925782484,
+        "L_Hip": 113.04257541667384,
+        "L_Knee": 105.90098012334792,
+        "L_Ankle": 82.08790281233823,
+        "L_Toe": 222.40980298654213
+      },
+      "convergence_pass": 0
+    },
+    "old_all": {
+      "pairs": 10,
+      "non_pa_mm": 96.2509214783201,
+      "pa_mm": 73.55438247454275,
+      "per_joint_non_pa_mm": {
+        "Neck": 82.68662059610709,
+        "R_Shoulder": 23.88007211272442,
+        "R_Elbow": 29.312635555182574,
+        "R_Wrist": 40.458130373989476,
+        "L_Shoulder": 52.66235913956681,
+        "L_Elbow": 57.01233361532654,
+        "L_Wrist": 88.4077976809975,
+        "R_Hip": 82.12034001102374,
+        "R_Knee": 102.78490265246619,
+        "R_Ankle": 91.44107731137994,
+        "R_Toe": 228.93747364054542,
+        "L_Hip": 113.54385329083941,
+        "L_Knee": 114.3891864117309,
+        "L_Ankle": 99.51057365455792,
+        "L_Toe": 236.61646612836324
+      },
+      "convergence_pass": 0
+    },
+    "old_hips": {
+      "pairs": 10,
+      "non_pa_mm": 92.4931513284166,
+      "pa_mm": 69.47717839705274,
+      "per_joint_non_pa_mm": {
+        "Neck": 82.87904534852164,
+        "R_Shoulder": 22.244670034091293,
+        "R_Elbow": 19.912532709810062,
+        "R_Wrist": 46.86014151347898,
+        "L_Shoulder": 54.0301392845948,
+        "L_Elbow": 49.26760280181513,
+        "L_Wrist": 83.35151152784384,
+        "R_Hip": 82.05499003182169,
+        "R_Knee": 99.71640487459547,
+        "R_Ankle": 87.14747919392273,
+        "R_Toe": 228.73769185825117,
+        "L_Hip": 112.3653054497988,
+        "L_Knee": 109.79619982664352,
+        "L_Ankle": 85.30470165974961,
+        "L_Toe": 223.7288538113102
+      },
+      "convergence_pass": 0
+    },
+    "old_left_arm": {
+      "pairs": 1,
+      "non_pa_mm": 90.1534655215111,
+      "pa_mm": 69.86530519042483,
+      "per_joint_non_pa_mm": {
+        "Neck": 86.22048450928432,
+        "R_Shoulder": 24.988645100497052,
+        "R_Elbow": 13.802256337785419,
+        "R_Wrist": 37.84512596392983,
+        "L_Shoulder": 34.59746955235938,
+        "L_Elbow": 24.54366325792005,
+        "L_Wrist": 25.60751493893504,
+        "R_Hip": 108.58594500019741,
+        "R_Knee": 139.3233348531112,
+        "R_Ankle": 153.40690006176894,
+        "R_Toe": 259.7457110460413,
+        "L_Hip": 99.13617162564047,
+        "L_Knee": 80.56367666944655,
+        "L_Ankle": 72.90254690862567,
+        "L_Toe": 191.03253699712354
+      },
+      "convergence_pass": 0
+    },
+    "old_right_knee_ankle": {
+      "pairs": 1,
+      "non_pa_mm": 87.03168385529693,
+      "pa_mm": 63.264123401284856,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.7949851183398,
+        "R_Shoulder": 25.835174759048105,
+        "R_Elbow": 13.71925356742721,
+        "R_Wrist": 37.668811436334536,
+        "L_Shoulder": 55.2368367665906,
+        "L_Elbow": 46.15891135981269,
+        "L_Wrist": 40.92107311300585,
+        "R_Hip": 108.62019111701402,
+        "R_Knee": 128.17221952316297,
+        "R_Ankle": 109.39842982601417,
+        "R_Toe": 199.27535414137373,
+        "L_Hip": 102.3976800195822,
+        "L_Knee": 83.67166374821649,
+        "L_Ankle": 75.32478791027401,
+        "L_Toe": 194.27988542325767
+      },
+      "convergence_pass": 0
+    },
+    "old_right_leg": {
+      "pairs": 1,
+      "non_pa_mm": 87.05458519179633,
+      "pa_mm": 63.18143335186129,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.71925126600301,
+        "R_Shoulder": 25.745316197095203,
+        "R_Elbow": 13.745503364020667,
+        "R_Wrist": 37.73630277576572,
+        "L_Shoulder": 55.25817432091744,
+        "L_Elbow": 46.17370193051265,
+        "L_Wrist": 40.92032642948907,
+        "R_Hip": 106.38555544166648,
+        "R_Knee": 128.24098646953144,
+        "R_Ankle": 109.44881028208064,
+        "R_Toe": 199.81673266274004,
+        "L_Hip": 102.83151005839846,
+        "L_Knee": 84.20542896657842,
+        "L_Ankle": 75.7393815665151,
+        "L_Toe": 194.85179614563077
+      },
+      "convergence_pass": 0
+    },
+    "old_right_wrist": {
+      "pairs": 10,
+      "non_pa_mm": 91.211848565778,
+      "pa_mm": 69.19742557638045,
+      "per_joint_non_pa_mm": {
+        "Neck": 82.45192066326845,
+        "R_Shoulder": 24.817495574109977,
+        "R_Elbow": 21.528618841796884,
+        "R_Wrist": 36.425507891501766,
+        "L_Shoulder": 54.00556532161041,
+        "L_Elbow": 49.18160807611597,
+        "L_Wrist": 83.3180616411889,
+        "R_Hip": 83.27465921508801,
+        "R_Knee": 95.52403219810735,
+        "R_Ankle": 83.21985995996192,
+        "R_Toe": 226.09880201967115,
+        "L_Hip": 114.68403514907641,
+        "L_Knee": 107.09769422455994,
+        "L_Ankle": 83.2862257718986,
+        "L_Toe": 223.26364193871422
+      },
+      "convergence_pass": 0
+    },
+    "old_shoulders": {
+      "pairs": 10,
+      "non_pa_mm": 91.7851511775986,
+      "pa_mm": 70.12821708413581,
+      "per_joint_non_pa_mm": {
+        "Neck": 82.75282890464237,
+        "R_Shoulder": 23.574175380941185,
+        "R_Elbow": 20.391870207758995,
+        "R_Wrist": 45.198645918490094,
+        "L_Shoulder": 54.07337217615939,
+        "L_Elbow": 49.73692120842853,
+        "L_Wrist": 83.06197209622638,
+        "R_Hip": 83.57734858445755,
+        "R_Knee": 95.6550821506078,
+        "R_Ankle": 83.33485740233546,
+        "R_Toe": 229.68509346081996,
+        "L_Hip": 113.77523667144803,
+        "L_Knee": 106.52078557865848,
+        "L_Ankle": 82.7132879301515,
+        "L_Toe": 222.72578999285332
+      },
+      "convergence_pass": 0
+    },
+    "old_wrists": {
+      "pairs": 1,
+      "non_pa_mm": 92.72227919766058,
+      "pa_mm": 68.7362867078699,
+      "per_joint_non_pa_mm": {
+        "Neck": 85.20593927757415,
+        "R_Shoulder": 25.96309362061487,
+        "R_Elbow": 13.74362385160862,
+        "R_Wrist": 29.617813619251514,
+        "L_Shoulder": 46.45219211174738,
+        "L_Elbow": 37.66519421122028,
+        "L_Wrist": 35.65767458519532,
+        "R_Hip": 110.52023373179125,
+        "R_Knee": 141.2132546111706,
+        "R_Ankle": 154.39333480508813,
+        "R_Toe": 260.537945703884,
+        "L_Hip": 101.11251747433276,
+        "L_Knee": 82.43145055575222,
+        "L_Ankle": 74.3505715849413,
+        "L_Toe": 191.96934822073644
+      },
+      "convergence_pass": 0
+    }
+  },
+  "body07": {
+    "baseline": {
+      "non_pa_mm": 95.07267503236018,
+      "pa_mm": 69.2160300224486,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.7631353804384,
+        "R_Shoulder": 25.845853600136472,
+        "R_Elbow": 13.724102592333784,
+        "R_Wrist": 37.69299752552046,
+        "L_Shoulder": 55.59179012343044,
+        "L_Elbow": 46.46859815931539,
+        "L_Wrist": 41.10181845575382,
+        "R_Hip": 109.45142620834376,
+        "R_Knee": 140.1388072179751,
+        "R_Ankle": 153.83428988415108,
+        "R_Toe": 260.47392331339853,
+        "L_Hip": 102.68699715996365,
+        "L_Knee": 83.94785991618254,
+        "L_Ankle": 75.53963230307862,
+        "L_Toe": 194.82889364538067
+      }
+    },
+    "old_all": {
+      "non_pa_mm": 82.71728726086876,
+      "pa_mm": 62.55277537535562,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 85.5370615350538,
+        "R_Shoulder": 30.44636192332978,
+        "R_Elbow": 15.620189361105382,
+        "R_Wrist": 34.56736274681583,
+        "L_Shoulder": 36.67880551531367,
+        "L_Elbow": 26.367066389285213,
+        "L_Wrist": 26.111058508132345,
+        "R_Hip": 104.55576094044761,
+        "R_Knee": 127.99907889534634,
+        "R_Ankle": 109.28914335819644,
+        "R_Toe": 196.64840635720432,
+        "L_Hip": 98.0656072322764,
+        "L_Knee": 86.8703409202679,
+        "L_Ankle": 70.7363554723988,
+        "L_Toe": 191.2667097578577
+      }
+    },
+    "old_right_wrist": {
+      "non_pa_mm": 94.62246121338998,
+      "pa_mm": 68.79881843431993,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.81603404588041,
+        "R_Shoulder": 25.815025388418846,
+        "R_Elbow": 13.753171272131466,
+        "R_Wrist": 29.625146623615155,
+        "L_Shoulder": 55.70470656287137,
+        "L_Elbow": 46.57036818801358,
+        "L_Wrist": 41.168205898466894,
+        "R_Hip": 109.7996519111793,
+        "R_Knee": 140.48983826696661,
+        "R_Ankle": 154.01642958941932,
+        "R_Toe": 260.73580006205674,
+        "L_Hip": 102.66472035123593,
+        "L_Knee": 83.92783509769704,
+        "L_Ankle": 75.52503282664802,
+        "L_Toe": 194.72495211624934
+      }
+    },
+    "old_shoulders": {
+      "non_pa_mm": 94.5613242345262,
+      "pa_mm": 69.46547878157175,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 85.66855362172431,
+        "R_Shoulder": 30.283848507209726,
+        "R_Elbow": 13.309563039053364,
+        "R_Wrist": 36.439559490263015,
+        "L_Shoulder": 49.53368294677171,
+        "L_Elbow": 40.68418920647067,
+        "L_Wrist": 37.72275956910425,
+        "R_Hip": 111.86745862034184,
+        "R_Knee": 142.52075703816865,
+        "R_Ankle": 155.08668378563485,
+        "R_Toe": 260.91803199641913,
+        "L_Hip": 102.55849664252607,
+        "L_Knee": 83.80790398123636,
+        "L_Ankle": 75.43004214787669,
+        "L_Toe": 192.58833292509217
+      }
+    },
+    "old_hips": {
+      "non_pa_mm": 95.38997835845649,
+      "pa_mm": 68.6137008403826,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.74700911805124,
+        "R_Shoulder": 25.92835303134761,
+        "R_Elbow": 13.693787672343195,
+        "R_Wrist": 37.640115444783646,
+        "L_Shoulder": 55.50287990467679,
+        "L_Elbow": 46.38857147297854,
+        "L_Wrist": 41.0605959612014,
+        "R_Hip": 106.23304048479312,
+        "R_Knee": 140.79745334659884,
+        "R_Ankle": 154.16818411164144,
+        "R_Toe": 258.20949584601937,
+        "L_Hip": 101.22046041882147,
+        "L_Knee": 88.542544810101,
+        "L_Ankle": 79.21092948495681,
+        "L_Toe": 197.506254268533
+      }
+    },
+    "old_right_leg": {
+      "non_pa_mm": 87.05458519179633,
+      "pa_mm": 63.18143335186129,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.71925126600301,
+        "R_Shoulder": 25.745316197095203,
+        "R_Elbow": 13.745503364020667,
+        "R_Wrist": 37.73630277576572,
+        "L_Shoulder": 55.25817432091744,
+        "L_Elbow": 46.17370193051265,
+        "L_Wrist": 40.92032642948907,
+        "R_Hip": 106.38555544166648,
+        "R_Knee": 128.24098646953144,
+        "R_Ankle": 109.44881028208064,
+        "R_Toe": 199.81673266274004,
+        "L_Hip": 102.83151005839846,
+        "L_Knee": 84.20542896657842,
+        "L_Ankle": 75.7393815665151,
+        "L_Toe": 194.85179614563077
+      }
+    },
+    "old_right_knee_ankle": {
+      "non_pa_mm": 87.03168385529693,
+      "pa_mm": 63.264123401284856,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 84.7949851183398,
+        "R_Shoulder": 25.835174759048105,
+        "R_Elbow": 13.71925356742721,
+        "R_Wrist": 37.668811436334536,
+        "L_Shoulder": 55.2368367665906,
+        "L_Elbow": 46.15891135981269,
+        "L_Wrist": 40.92107311300585,
+        "R_Hip": 108.62019111701402,
+        "R_Knee": 128.17221952316297,
+        "R_Ankle": 109.39842982601417,
+        "R_Toe": 199.27535414137373,
+        "L_Hip": 102.3976800195822,
+        "L_Knee": 83.67166374821649,
+        "L_Ankle": 75.32478791027401,
+        "L_Toe": 194.27988542325767
+      }
+    },
+    "old_left_arm": {
+      "non_pa_mm": 90.1534655215111,
+      "pa_mm": 69.86530519042483,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 86.22048450928432,
+        "R_Shoulder": 24.988645100497052,
+        "R_Elbow": 13.802256337785419,
+        "R_Wrist": 37.84512596392983,
+        "L_Shoulder": 34.59746955235938,
+        "L_Elbow": 24.54366325792005,
+        "L_Wrist": 25.60751493893504,
+        "R_Hip": 108.58594500019741,
+        "R_Knee": 139.3233348531112,
+        "R_Ankle": 153.40690006176894,
+        "R_Toe": 259.7457110460413,
+        "L_Hip": 99.13617162564047,
+        "L_Knee": 80.56367666944655,
+        "L_Ankle": 72.90254690862567,
+        "L_Toe": 191.03253699712354
+      }
+    },
+    "old_wrists": {
+      "non_pa_mm": 92.72227919766058,
+      "pa_mm": 68.7362867078699,
+      "convergence_pass": false,
+      "per_joint_non_pa_mm": {
+        "Neck": 85.20593927757415,
+        "R_Shoulder": 25.96309362061487,
+        "R_Elbow": 13.74362385160862,
+        "R_Wrist": 29.617813619251514,
+        "L_Shoulder": 46.45219211174738,
+        "L_Elbow": 37.66519421122028,
+        "L_Wrist": 35.65767458519532,
+        "R_Hip": 110.52023373179125,
+        "R_Knee": 141.2132546111706,
+        "R_Ankle": 154.39333480508813,
+        "R_Toe": 260.537945703884,
+        "L_Hip": 101.11251747433276,
+        "L_Knee": 82.43145055575222,
+        "L_Ankle": 74.3505715849413,
+        "L_Toe": 191.96934822073644
+      }
+    }
+  },
+  "diagnostic_2d_joint_means_px": {
+    "R_Shoulder": {
+      "rw5000": 11.613867425693824,
+      "rw20000": 9.482813283667856
+    },
+    "R_Elbow": {
+      "rw5000": 10.783990884142817,
+      "rw20000": 7.412358689050788
+    },
+    "R_Wrist": {
+      "rw5000": 10.496501972308034,
+      "rw20000": 9.739087487950922
+    },
+    "L_Shoulder": {
+      "rw5000": 14.876572005438344,
+      "rw20000": 14.40721188083494
+    },
+    "L_Elbow": {
+      "rw5000": 18.736286534737058,
+      "rw20000": 15.059693632992492
+    },
+    "L_Wrist": {
+      "rw5000": 18.183985248671668,
+      "rw20000": 16.713492121585865
+    },
+    "R_Hip": {
+      "rw5000": 8.620535888779404,
+      "rw20000": 7.576511871074159
+    },
+    "R_Knee": {
+      "rw5000": 10.68075764147095,
+      "rw20000": 10.413832135999773
+    },
+    "R_Ankle": {
+      "rw5000": 11.234003835416235,
+      "rw20000": 10.302122430255299
+    },
+    "L_Hip": {
+      "rw5000": 8.005761255321254,
+      "rw20000": 8.869975102473681
+    },
+    "L_Knee": {
+      "rw5000": 14.244805388095092,
+      "rw20000": 11.913063433246899
+    },
+    "L_Ankle": {
+      "rw5000": 10.810177193416992,
+      "rw20000": 8.98058072529535
+    }
+  },
+  "body07_regression_recovered_by_right_knee_ankle_percent": 65.0808483374101,
+  "controls_reproduction": [
+    {
+      "condition": "baseline",
+      "pair": "body01",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body02",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body03",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body04",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body05",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body06",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body07",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body08",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body09",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "baseline",
+      "pair": "body10",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body01",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body02",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body03",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body04",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body05",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body06",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body07",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body08",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body09",
+      "absolute_difference_mm": 0.0
+    },
+    {
+      "condition": "old_all",
+      "pair": "body10",
+      "absolute_difference_mm": 0.0
+    }
+  ],
+  "max_control_difference_mm": 0.0,
+  "all_feasible": true,
+  "total_instances": 54,
+  "total_converged": 0,
+  "source_files_unchanged": [
+    "fit.py",
+    "geometry.py"
+  ],
+  "protocol_changed_fields": [
+    "baseline_commit",
+    "conditions",
+    "intervention"
+  ],
+  "fitting_body_gt_read": false,
+  "shape_rank_zero_pairs": 10,
+  "scope": "Post-hoc coordinate swap on old diagnostic examples; finite-budget effects, not deployment gains or additive attribution."
+}

@@ -1,0 +1,2534 @@
+{
+  "command": "PYTHONPATH=<REPO> <BODY_PYTHON> code/stereo_diagnostic.py",
+  "exit_status": 0,
+  "records": [
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.006841464487760326,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 14.297867352138763,
+      "ray_gap_mm": 0.5763892416359726,
+      "parallax_deg": 16.620195765056884,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.002273300208746475,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 22.186829635195025,
+      "ray_gap_mm": 13.023364721726905,
+      "parallax_deg": 10.383054080351318,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.01563467180060111,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 162.46109968270454,
+      "ray_gap_mm": 12.550142932111063,
+      "parallax_deg": 9.487583963084006,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005117613628973154,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 19.00889638644588,
+      "ray_gap_mm": 7.602836116154998,
+      "parallax_deg": 14.449417660488157,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0007993179123863861,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 30.878776924293046,
+      "ray_gap_mm": 2.540514151862597,
+      "parallax_deg": 8.560337626734096,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00014693393502014085,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 42.9709571156849,
+      "ray_gap_mm": 3.2828052816421263,
+      "parallax_deg": 10.663318451718414,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.01403955193012299,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 82.52975457948982,
+      "ray_gap_mm": 2.073831968941014,
+      "parallax_deg": 7.385773340397578,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.013119182272293455,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 54.43785613179282,
+      "ray_gap_mm": 80.3668222840613,
+      "parallax_deg": 4.267393698969451,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.031251782166422555,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 203.66377388646868,
+      "ray_gap_mm": 103.0848046823909,
+      "parallax_deg": 2.5962738419674305,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.008304631477165182,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 43.66627439799434,
+      "ray_gap_mm": 8.005542637577562,
+      "parallax_deg": 7.559915923918716,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.012976926047287257,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 212.18664591097203,
+      "ray_gap_mm": 8.066266395510354,
+      "parallax_deg": 4.78246340806466,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.01846010279585247,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 506.39549753402457,
+      "ray_gap_mm": 27.51715694389752,
+      "parallax_deg": 3.197836037160901,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.003874652728058255,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 12.7872003855745,
+      "ray_gap_mm": 3.039687660617275,
+      "parallax_deg": 16.7057371781595,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.002364984203042194,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 9.062576728365705,
+      "ray_gap_mm": 3.9972733141306103,
+      "parallax_deg": 11.320936555201259,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.00033793005938150564,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 33.55075305079964,
+      "ray_gap_mm": 6.174308247380302,
+      "parallax_deg": 14.824443951325764,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.007125289023300268,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 49.726781328014205,
+      "ray_gap_mm": 6.136933388914035,
+      "parallax_deg": 17.58101495064556,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0066441917355861595,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.18658733401277,
+      "ray_gap_mm": 23.029270530710168,
+      "parallax_deg": 9.300595778912818,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.003974699256210487,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 42.50941447918661,
+      "ray_gap_mm": 2.876165547166474,
+      "parallax_deg": 12.745541105018924,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.0015203963778351753,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 8.806855368710304,
+      "ray_gap_mm": 6.4994840568210615,
+      "parallax_deg": 8.01830964787928,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01570708719801574,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 110.99153645981556,
+      "ray_gap_mm": 3.3612122214112325,
+      "parallax_deg": 6.314128376074756,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.00608958663875848,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 597.5053175035613,
+      "ray_gap_mm": 45.09185287949219,
+      "parallax_deg": 6.468245620168578,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.00234494476084737,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 38.745564087781105,
+      "ray_gap_mm": 6.38971825853298,
+      "parallax_deg": 8.13938266373646,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.014933693747175658,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 92.24777608162402,
+      "ray_gap_mm": 43.53543471429494,
+      "parallax_deg": 5.534567002322101,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0243559297154382,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 807.1020470458066,
+      "ray_gap_mm": 87.05072006151508,
+      "parallax_deg": 5.81375024313941,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.004557520826125469,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 10.468811026754553,
+      "ray_gap_mm": 11.970428854831342,
+      "parallax_deg": 16.750883930745033,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0022122055452981613,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 25.333745738360623,
+      "ray_gap_mm": 24.484220260866586,
+      "parallax_deg": 10.473653053367988,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.010588462827222532,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 53.096551619816005,
+      "ray_gap_mm": 8.088471858848921,
+      "parallax_deg": 11.841708471968289,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.004360991923332723,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 57.130280501284055,
+      "ray_gap_mm": 38.79721219776727,
+      "parallax_deg": 13.724227395823686,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.013010840877587795,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 792.2538446261847,
+      "ray_gap_mm": 83.63316124037104,
+      "parallax_deg": 12.995370901548773,
+      "positive_depths": false
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.0037594395284365617,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 851.4887830106586,
+      "ray_gap_mm": 105.04642596210907,
+      "parallax_deg": 4.805102296243417,
+      "positive_depths": false
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.014789187281911507,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 193.52110990312343,
+      "ray_gap_mm": 10.82479705535985,
+      "parallax_deg": 6.555567706993812,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01967278556185999,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 331.4174753934493,
+      "ray_gap_mm": 75.48047636883297,
+      "parallax_deg": 6.519401582297413,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.023502071670220444,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 419.93614310696967,
+      "ray_gap_mm": 66.97443617244457,
+      "parallax_deg": 5.069669053456911,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.010980601757961898,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 55.96637996580521,
+      "ray_gap_mm": 21.14810295574799,
+      "parallax_deg": 8.08169954324809,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.020341698073578662,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 75.11229713573162,
+      "ray_gap_mm": 14.880652674784958,
+      "parallax_deg": 5.420289243189354,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013766690796841556,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 108.11830960579508,
+      "ray_gap_mm": 0.2934392380177211,
+      "parallax_deg": 4.6091616474159895,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.002134184954501198,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 28.90360503748076,
+      "ray_gap_mm": 17.657553009192846,
+      "parallax_deg": 17.591480250975312,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0023185784477009947,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 15.123524187939088,
+      "ray_gap_mm": 16.741235185710554,
+      "parallax_deg": 10.595930064449965,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0067423551517224916,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 63.21091402822128,
+      "ray_gap_mm": 0.7275208152523729,
+      "parallax_deg": 10.589384799179305,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.004204303960739766,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 95.0940403371008,
+      "ray_gap_mm": 7.8670717006254485,
+      "parallax_deg": 19.439256582280812,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0128842198072195,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 121.30112019915414,
+      "ray_gap_mm": 35.93509481664229,
+      "parallax_deg": 10.212956660953946,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.006990134743100624,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 36.63677000298412,
+      "ray_gap_mm": 33.89256907717011,
+      "parallax_deg": 7.522496842811011,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.004207404580315742,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 15.629577432150166,
+      "ray_gap_mm": 0.9457262552607153,
+      "parallax_deg": 9.386244823055563,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.0002989692652423852,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 103.5811281933133,
+      "ray_gap_mm": 4.120402226289361,
+      "parallax_deg": 9.04903713865693,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.004275110765837773,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 430.75982929253183,
+      "ray_gap_mm": 42.187479487373835,
+      "parallax_deg": 8.055928611476435,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.004532369902118356,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.388293415887823,
+      "ray_gap_mm": 19.5445707533043,
+      "parallax_deg": 8.923887272466885,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.002001300901083253,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 67.6577773854934,
+      "ray_gap_mm": 1.0067075277282798,
+      "parallax_deg": 7.79276181209634,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.009303834616760294,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 167.25542992236504,
+      "ray_gap_mm": 16.711851065374937,
+      "parallax_deg": 6.179078325893674,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0029607285962302216,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 89.39132842761677,
+      "ray_gap_mm": 72.94222936075246,
+      "parallax_deg": 16.493853021659906,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0038609921538274197,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 514.3225459329699,
+      "ray_gap_mm": 108.19171742218225,
+      "parallax_deg": 16.240427549160632,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0013381380067139048,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 175.75108569348572,
+      "ray_gap_mm": 39.84969581735795,
+      "parallax_deg": 20.593799393599994,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005262822809619526,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 50.339774914402106,
+      "ray_gap_mm": 4.979467236078074,
+      "parallax_deg": 13.553967064890157,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0012192211502280324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 48.275677630190756,
+      "ray_gap_mm": 9.091338662286539,
+      "parallax_deg": 12.006401858881908,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.003927712701082324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 19.863788934719423,
+      "ray_gap_mm": 2.394072330974663,
+      "parallax_deg": 17.159690994496533,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.007419537504477431,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 570.286827030481,
+      "ray_gap_mm": 26.759405683715002,
+      "parallax_deg": 4.760391277751363,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01830599867635105,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 109.76532132911139,
+      "ray_gap_mm": 73.4259286530763,
+      "parallax_deg": 5.219552764378442,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.017003007463088814,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 377.0937990378948,
+      "ray_gap_mm": 12.503719060411367,
+      "parallax_deg": 5.828773755540672,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.0044284726435788084,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 226.144157660399,
+      "ray_gap_mm": 21.444466918700915,
+      "parallax_deg": 6.106820126711391,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.016309862832284347,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 442.99340530410234,
+      "ray_gap_mm": 88.53433184442272,
+      "parallax_deg": 2.672408988176634,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0063609894209382505,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 2636.0721253641454,
+      "ray_gap_mm": 49.42187243586632,
+      "parallax_deg": 1.4626726170760536,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.003568523165661579,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 35.573484798595295,
+      "ray_gap_mm": 8.679556153032287,
+      "parallax_deg": 15.8967064925022,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.00238229604854132,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 10.458368101835774,
+      "ray_gap_mm": 5.150451088429655,
+      "parallax_deg": 10.387181573495193,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0004897922717511324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 33.193136943223166,
+      "ray_gap_mm": 2.9023607803884532,
+      "parallax_deg": 12.995014903122417,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005523072504753676,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 43.40149910802149,
+      "ray_gap_mm": 10.635308895669645,
+      "parallax_deg": 18.0119203014827,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00028131307522849736,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 38.63688322574461,
+      "ray_gap_mm": 2.4647958610909715,
+      "parallax_deg": 8.569995408742743,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00012365123443610612,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 38.67928384192603,
+      "ray_gap_mm": 6.897875205914948,
+      "parallax_deg": 10.136136993700147,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.007271997901101236,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 57.76730878606782,
+      "ray_gap_mm": 12.665014458199842,
+      "parallax_deg": 8.517779289777678,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.004518511298831747,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 77.87792894606049,
+      "ray_gap_mm": 1.567006527497748,
+      "parallax_deg": 5.534830886970484,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.0025475106629938658,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 112.97690920423157,
+      "ray_gap_mm": 14.16754643886482,
+      "parallax_deg": 4.632827280322909,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.0135527443038994,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 67.37154836867084,
+      "ray_gap_mm": 7.6715352936670955,
+      "parallax_deg": 8.552148377815628,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.012483193541822096,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 78.02676145721028,
+      "ray_gap_mm": 4.583612428780591,
+      "parallax_deg": 6.102266699663008,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0192376686900094,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 108.62302890656599,
+      "ray_gap_mm": 4.667352623371607,
+      "parallax_deg": 4.677454415402751,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0025179656878379854,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 22.111074371129533,
+      "ray_gap_mm": 24.111385300104683,
+      "parallax_deg": 16.88085667821827,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.00220270505480779,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 85.56069067138097,
+      "ray_gap_mm": 6.345579095598505,
+      "parallax_deg": 8.954007883558322,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0006701299683250957,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 98.78630252520786,
+      "ray_gap_mm": 0.6013722380559462,
+      "parallax_deg": 10.016868179101845,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005735035253425767,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 26.99614565969684,
+      "ray_gap_mm": 0.4500534216338786,
+      "parallax_deg": 14.391433897133656,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00762413342423665,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 105.44364503212286,
+      "ray_gap_mm": 0.8332000602372691,
+      "parallax_deg": 8.225380678407413,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.0022748464451928046,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 83.06126136010423,
+      "ray_gap_mm": 43.88059643973135,
+      "parallax_deg": 7.657743105478848,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.003505739451698731,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 83.90618462315805,
+      "ray_gap_mm": 19.94546950887704,
+      "parallax_deg": 8.445396793754526,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01499135294620466,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 64.75666054462556,
+      "ray_gap_mm": 24.211467825046856,
+      "parallax_deg": 5.462037116466003,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02105869154190086,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 436.4445124965379,
+      "ray_gap_mm": 19.799510460207625,
+      "parallax_deg": 5.789820213329121,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.010250559343228672,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 45.051621704088085,
+      "ray_gap_mm": 2.6324430454551315,
+      "parallax_deg": 7.451398427203302,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.00980879530670926,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 44.09251945455739,
+      "ray_gap_mm": 8.05532731727699,
+      "parallax_deg": 5.562695345317585,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.01007686972543932,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 256.65763504103546,
+      "ray_gap_mm": 8.159690959865648,
+      "parallax_deg": 5.144780579178619,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.004923417475879606,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 17.91525421357519,
+      "ray_gap_mm": 4.133941061673764,
+      "parallax_deg": 17.093170126256133,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.006614544136546405,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 12.59096724735128,
+      "ray_gap_mm": 5.000894463655302,
+      "parallax_deg": 10.306529228573883,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0014796883197635584,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.422256281756297,
+      "ray_gap_mm": 8.401033670924248,
+      "parallax_deg": 12.2372084962411,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005141189081651935,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 26.779905899168998,
+      "ray_gap_mm": 0.6297819941104136,
+      "parallax_deg": 16.049482721318967,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.004415527554886159,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 73.59596685331826,
+      "ray_gap_mm": 16.60722756188128,
+      "parallax_deg": 7.74027879925539,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00037836805753478105,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.638630787699256,
+      "ray_gap_mm": 0.6347689565310235,
+      "parallax_deg": 10.530168359449005,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.0013493660305845092,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 49.707621051835545,
+      "ray_gap_mm": 13.64259492489308,
+      "parallax_deg": 8.42187536772295,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.023412368485230445,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 266.0339941336435,
+      "ray_gap_mm": 37.78338483005856,
+      "parallax_deg": 6.800451650587369,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02664214305172616,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 491.4121362897373,
+      "ray_gap_mm": 63.24779022971559,
+      "parallax_deg": 5.2439104066141615,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.003646675333566999,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.301709814121388,
+      "ray_gap_mm": 18.88644792981105,
+      "parallax_deg": 7.50561399766946,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.003326967597060902,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 68.72713451892139,
+      "ray_gap_mm": 2.6323365561967838,
+      "parallax_deg": 5.992238722072904,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.011886682656334089,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 181.01536162818354,
+      "ray_gap_mm": 0.6966799989001297,
+      "parallax_deg": 3.8800957491525576,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.002122185582577977,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 9.387406792452552,
+      "ray_gap_mm": 0.2546802318349051,
+      "parallax_deg": 17.959281476190316,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0011395995966391784,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 32.386175053202116,
+      "ray_gap_mm": 1.6562022043864104,
+      "parallax_deg": 13.572438769991352,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.007249655468300606,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 32.18376681272324,
+      "ray_gap_mm": 5.052159455017575,
+      "parallax_deg": 11.078271835124141,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.008244497885604678,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 39.92372497772243,
+      "ray_gap_mm": 16.68564785496781,
+      "parallax_deg": 14.15432694298064,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00928763244334453,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 3492.7054115567826,
+      "ray_gap_mm": 39.713368676567946,
+      "parallax_deg": 1.3615424081196108,
+      "positive_depths": false
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.007105403169960324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 1268.0228156102576,
+      "ray_gap_mm": 49.7375525202474,
+      "parallax_deg": 3.304797888557783,
+      "positive_depths": false
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.016425285267739703,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 235.7327688585327,
+      "ray_gap_mm": 78.18491459523138,
+      "parallax_deg": 8.256654793642479,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.005489116886995649,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 377.10808275489785,
+      "ray_gap_mm": 75.87860686639961,
+      "parallax_deg": 6.268202989102711,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.03187342944031838,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 781.5017967083429,
+      "ray_gap_mm": 87.78877161985918,
+      "parallax_deg": 5.842150887095169,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.01719238115736719,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 194.32896859725636,
+      "ray_gap_mm": 29.608271457207884,
+      "parallax_deg": 5.896491650355006,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.006439270419053594,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 86.33490415682351,
+      "ray_gap_mm": 91.85242641700047,
+      "parallax_deg": 3.2213236610668674,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013544783343035573,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 327.1879851994436,
+      "ray_gap_mm": 96.93718843996669,
+      "parallax_deg": 2.9158129886585304,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0044144150169034896,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 14.25116509419617,
+      "ray_gap_mm": 1.154669372566842,
+      "parallax_deg": 17.36387056059661,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 1.9980471494811068e-05,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 24.621635824445367,
+      "ray_gap_mm": 0.33923272532365384,
+      "parallax_deg": 12.832649909194652,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.000724587798373794,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 18.436466978252927,
+      "ray_gap_mm": 1.0105678614884173,
+      "parallax_deg": 17.030432353051445,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.0016236684531900235,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.48239931906287,
+      "ray_gap_mm": 10.349061728131783,
+      "parallax_deg": 14.800067967843702,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00464223638941317,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 112.79037567784417,
+      "ray_gap_mm": 16.07387152360721,
+      "parallax_deg": 10.844691232692893,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.011349773244264146,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 352.83952270664486,
+      "ray_gap_mm": 51.23430157676505,
+      "parallax_deg": 10.728276593847228,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.018129275590266822,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 171.342507815492,
+      "ray_gap_mm": 17.667597925004394,
+      "parallax_deg": 6.7078250019366,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.009231229708112168,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 40.98942278447266,
+      "ray_gap_mm": 9.38788477043138,
+      "parallax_deg": 7.410604162817973,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02460414351106508,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 674.2328641340684,
+      "ray_gap_mm": 31.946531627537098,
+      "parallax_deg": 3.449570581819892,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.016489916816879443,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 99.83526537900212,
+      "ray_gap_mm": 5.15377102634123,
+      "parallax_deg": 8.497452897787886,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.022084237247626263,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 579.6989109292339,
+      "ray_gap_mm": 74.34401659793292,
+      "parallax_deg": 8.05686720388678,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw5000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013829415293276538,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 65.23173463425967,
+      "ray_gap_mm": 24.54364645265706,
+      "parallax_deg": 4.307973833312018,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.006841464487760326,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 19.491535461586288,
+      "ray_gap_mm": 1.2974233740547811,
+      "parallax_deg": 15.470544830396511,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.002273300208746475,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 51.41689349849286,
+      "ray_gap_mm": 16.45235902257257,
+      "parallax_deg": 9.29219260061408,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.01563467180060111,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 85.09650640776341,
+      "ray_gap_mm": 8.577245442009204,
+      "parallax_deg": 8.610564904561562,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005117613628973154,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 14.933989117814036,
+      "ray_gap_mm": 3.3311838466796004,
+      "parallax_deg": 14.778164325937269,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0007993179123863861,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 13.329494099406592,
+      "ray_gap_mm": 3.789158741784121,
+      "parallax_deg": 8.971218471221231,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00014693393502014085,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 44.830230985111925,
+      "ray_gap_mm": 1.8453041728832036,
+      "parallax_deg": 10.740516594118318,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.01403955193012299,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 24.60433509945168,
+      "ray_gap_mm": 14.141873537732613,
+      "parallax_deg": 8.153931404590315,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.013119182272293455,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 126.18391742588436,
+      "ray_gap_mm": 44.6744731585896,
+      "parallax_deg": 4.808759364346671,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.031251782166422555,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 553.2801420515309,
+      "ray_gap_mm": 90.1649822019648,
+      "parallax_deg": 4.37479123946027,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.008304631477165182,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 39.01628075455722,
+      "ray_gap_mm": 10.943409211638942,
+      "parallax_deg": 7.960076227050927,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.012976926047287257,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 148.66337359831377,
+      "ray_gap_mm": 0.856432831010354,
+      "parallax_deg": 6.068473894096281,
+      "positive_depths": true
+    },
+    {
+      "pair": "body01",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.01846010279585247,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 271.56792740924584,
+      "ray_gap_mm": 19.81497395000034,
+      "parallax_deg": 5.009368259855767,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.003874652728058255,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 3.4304960196071645,
+      "ray_gap_mm": 9.851062815989456,
+      "parallax_deg": 17.08936950617454,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.002364984203042194,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 17.548527401691445,
+      "ray_gap_mm": 1.508739365612504,
+      "parallax_deg": 11.515194191724206,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.00033793005938150564,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 34.03389993633651,
+      "ray_gap_mm": 1.0787544992083642,
+      "parallax_deg": 14.838789041394984,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.007125289023300268,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 51.72713050822244,
+      "ray_gap_mm": 18.906113453016363,
+      "parallax_deg": 17.466043612272763,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0066441917355861595,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 13.275124874547423,
+      "ray_gap_mm": 1.3679194545326787,
+      "parallax_deg": 9.75971696274929,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.003974699256210487,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.399303204140846,
+      "ray_gap_mm": 1.9703398747195071,
+      "parallax_deg": 12.114298836677479,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.0015203963778351753,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 25.477165446212783,
+      "ray_gap_mm": 19.809024281395637,
+      "parallax_deg": 8.094801454560674,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01570708719801574,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 81.09013099998951,
+      "ray_gap_mm": 2.14474752890248,
+      "parallax_deg": 6.142866972426233,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.00608958663875848,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 485.36290686065183,
+      "ray_gap_mm": 33.92710787198565,
+      "parallax_deg": 6.005419976288468,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.00234494476084737,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 39.419519478830026,
+      "ray_gap_mm": 4.959215874012986,
+      "parallax_deg": 8.076124427666253,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.014933693747175658,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 95.72344852565723,
+      "ray_gap_mm": 22.493485760952307,
+      "parallax_deg": 5.093083326143014,
+      "positive_depths": true
+    },
+    {
+      "pair": "body02",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0243559297154382,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 548.1386217958825,
+      "ray_gap_mm": 74.28221138326884,
+      "parallax_deg": 5.0437213370967475,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.004557520826125469,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 8.544532177350112,
+      "ray_gap_mm": 17.342236562952444,
+      "parallax_deg": 17.186217754667158,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0022122055452981613,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 112.69472938265169,
+      "ray_gap_mm": 8.779852066924182,
+      "parallax_deg": 12.525770563690683,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.010588462827222532,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 100.57513012302499,
+      "ray_gap_mm": 2.621675302978514,
+      "parallax_deg": 12.920861695632349,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.004360991923332723,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 40.546612665987475,
+      "ray_gap_mm": 25.830857387673998,
+      "parallax_deg": 15.009828987909795,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.013010840877587795,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 862.9090436312275,
+      "ray_gap_mm": 86.59385991581937,
+      "parallax_deg": 6.956790924334873,
+      "positive_depths": false
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.0037594395284365617,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 992.5110992872582,
+      "ray_gap_mm": 60.28214585171752,
+      "parallax_deg": 3.2037772265468583,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.014789187281911507,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 16.097736892770175,
+      "ray_gap_mm": 12.097704318784663,
+      "parallax_deg": 7.913057532547479,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01967278556185999,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 366.1435174410672,
+      "ray_gap_mm": 73.18108084483343,
+      "parallax_deg": 6.952812838596644,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.023502071670220444,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 585.411900813887,
+      "ray_gap_mm": 64.46659907530304,
+      "parallax_deg": 6.062228720093811,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.010980601757961898,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 76.46993700098628,
+      "ray_gap_mm": 17.343204994709243,
+      "parallax_deg": 8.40583662254605,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.020341698073578662,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 216.76461467228089,
+      "ray_gap_mm": 22.416052417622787,
+      "parallax_deg": 6.513797933136025,
+      "positive_depths": true
+    },
+    {
+      "pair": "body03",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013766690796841556,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 58.261227376192906,
+      "ray_gap_mm": 7.695673652586321,
+      "parallax_deg": 4.438822763455865,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.002134184954501198,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 26.93425944699156,
+      "ray_gap_mm": 24.886053779561202,
+      "parallax_deg": 17.413966646005385,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0023185784477009947,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 22.983860591648067,
+      "ray_gap_mm": 15.314292229964181,
+      "parallax_deg": 10.771824801696225,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0067423551517224916,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 90.03228210599323,
+      "ray_gap_mm": 7.80774578491512,
+      "parallax_deg": 11.035931858154893,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.004204303960739766,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 82.57682626814628,
+      "ray_gap_mm": 14.844144527324573,
+      "parallax_deg": 18.482175583374627,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0128842198072195,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 146.7750721608488,
+      "ray_gap_mm": 45.26907545279073,
+      "parallax_deg": 10.34657850155531,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.006990134743100624,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 21.994465731831113,
+      "ray_gap_mm": 11.167376881950712,
+      "parallax_deg": 8.037177330002056,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.004207404580315742,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 36.21574044650439,
+      "ray_gap_mm": 10.843407156246483,
+      "parallax_deg": 9.868402374290113,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.0002989692652423852,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 48.0165198535317,
+      "ray_gap_mm": 3.0803035867119712,
+      "parallax_deg": 8.441241707847169,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.004275110765837773,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 369.6850059076334,
+      "ray_gap_mm": 42.27746876840776,
+      "parallax_deg": 7.4785552092598335,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.004532369902118356,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 47.873823777944715,
+      "ray_gap_mm": 8.449582025401869,
+      "parallax_deg": 9.578838487519786,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.002001300901083253,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 37.254240299374516,
+      "ray_gap_mm": 9.151918517463104,
+      "parallax_deg": 7.435997564047387,
+      "positive_depths": true
+    },
+    {
+      "pair": "body04",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.009303834616760294,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 197.7352706940268,
+      "ray_gap_mm": 2.620941501992044,
+      "parallax_deg": 6.418980434943105,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0029607285962302216,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.89646655343645,
+      "ray_gap_mm": 37.07694765598698,
+      "parallax_deg": 16.200811255144473,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0038609921538274197,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 336.4797513078961,
+      "ray_gap_mm": 45.816952530867745,
+      "parallax_deg": 6.125875983771458,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0013381380067139048,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 88.66039037005781,
+      "ray_gap_mm": 19.47463584646972,
+      "parallax_deg": 17.132671164203863,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005262822809619526,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 33.50983885510891,
+      "ray_gap_mm": 6.846191695902731,
+      "parallax_deg": 14.174869046696807,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.0012192211502280324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 36.378051646935845,
+      "ray_gap_mm": 7.260728509004367,
+      "parallax_deg": 11.713700028469717,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.003927712701082324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 20.77915288282956,
+      "ray_gap_mm": 5.041982101253088,
+      "parallax_deg": 17.023894275860982,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.007419537504477431,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 43.06191293343595,
+      "ray_gap_mm": 5.940789345742378,
+      "parallax_deg": 7.745802265867087,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01830599867635105,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 240.92267192116347,
+      "ray_gap_mm": 4.798313955294471,
+      "parallax_deg": 7.595874857008167,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.017003007463088814,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 420.39538047341887,
+      "ray_gap_mm": 6.882890618588386,
+      "parallax_deg": 6.081427163885997,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.0044284726435788084,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 26.657025359621564,
+      "ray_gap_mm": 1.9803463089039848,
+      "parallax_deg": 8.034003571973939,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.016309862832284347,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 1744.3888568902184,
+      "ray_gap_mm": 18.00671612308284,
+      "parallax_deg": 2.2613514519926707,
+      "positive_depths": true
+    },
+    {
+      "pair": "body05",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0063609894209382505,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 789.3973107834901,
+      "ray_gap_mm": 110.48806591367803,
+      "parallax_deg": 1.0865434643545784,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.003568523165661579,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.01933868976677,
+      "ray_gap_mm": 13.11837817396148,
+      "parallax_deg": 16.285112474383453,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.00238229604854132,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 22.64665112260695,
+      "ray_gap_mm": 7.790432770412985,
+      "parallax_deg": 10.621541885612857,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0004897922717511324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 34.24127268296745,
+      "ray_gap_mm": 2.9304562983617206,
+      "parallax_deg": 12.942492227392686,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005523072504753676,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 39.975326670421516,
+      "ray_gap_mm": 15.80648180917212,
+      "parallax_deg": 17.767131470192897,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00028131307522849736,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 18.897748185253576,
+      "ray_gap_mm": 1.3566416028578547,
+      "parallax_deg": 9.318082423640808,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00012365123443610612,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 38.62478101988278,
+      "ray_gap_mm": 5.835693495803522,
+      "parallax_deg": 10.039300878034773,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.007271997901101236,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 87.1131354277702,
+      "ray_gap_mm": 15.614621827960157,
+      "parallax_deg": 8.80523944970064,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.004518511298831747,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 54.07779301148072,
+      "ray_gap_mm": 8.159048221797798,
+      "parallax_deg": 5.785071401634201,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.0025475106629938658,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 107.87670480433894,
+      "ray_gap_mm": 11.918385551255952,
+      "parallax_deg": 4.630829170001986,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.0135527443038994,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 75.9963161974917,
+      "ray_gap_mm": 11.844072721566913,
+      "parallax_deg": 8.617055240167854,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.012483193541822096,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 94.27164217317909,
+      "ray_gap_mm": 3.1050261623375954,
+      "parallax_deg": 6.214567030541784,
+      "positive_depths": true
+    },
+    {
+      "pair": "body06",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.0192376686900094,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 72.02426871083179,
+      "ray_gap_mm": 7.768672285186685,
+      "parallax_deg": 4.548301685366169,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0025179656878379854,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 14.079710415987309,
+      "ray_gap_mm": 14.827084728145893,
+      "parallax_deg": 16.04419015790718,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.00220270505480779,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 44.26241216666284,
+      "ray_gap_mm": 7.020008001719266,
+      "parallax_deg": 9.499783328820264,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0006701299683250957,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 95.76934114249805,
+      "ray_gap_mm": 3.4190348314371355,
+      "parallax_deg": 9.93935595655191,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005735035253425767,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 11.759410597223821,
+      "ray_gap_mm": 2.1008408503769234,
+      "parallax_deg": 15.469167642157235,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00762413342423665,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 69.52933122650154,
+      "ray_gap_mm": 16.072062624462365,
+      "parallax_deg": 10.468496633175672,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.0022748464451928046,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 300.8125560382141,
+      "ray_gap_mm": 39.99955474178344,
+      "parallax_deg": 10.783443979168736,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.003505739451698731,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 83.51283456575196,
+      "ray_gap_mm": 12.899831199613317,
+      "parallax_deg": 8.480249793876814,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.01499135294620466,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 324.9618442257553,
+      "ray_gap_mm": 17.775582826019196,
+      "parallax_deg": 7.201974171300321,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02105869154190086,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 632.9341425397322,
+      "ray_gap_mm": 5.4559626662946465,
+      "parallax_deg": 6.998118978751806,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.010250559343228672,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 43.106259649453385,
+      "ray_gap_mm": 8.121686380637374,
+      "parallax_deg": 7.51501243871415,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.00980879530670926,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 49.348869064955935,
+      "ray_gap_mm": 2.9285339860606605,
+      "parallax_deg": 5.8731083892137255,
+      "positive_depths": true
+    },
+    {
+      "pair": "body07",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.01007686972543932,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 320.26551421754544,
+      "ray_gap_mm": 4.907871501468456,
+      "parallax_deg": 5.405898588449463,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.004923417475879606,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 16.32531027263145,
+      "ray_gap_mm": 9.542784310504738,
+      "parallax_deg": 17.218227102800785,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.006614544136546405,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 12.559606674424062,
+      "ray_gap_mm": 10.941864120051854,
+      "parallax_deg": 10.178612226091692,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.0014796883197635584,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.6818722818485,
+      "ray_gap_mm": 8.390922886451477,
+      "parallax_deg": 12.041129299611985,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.005141189081651935,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 14.989013281440876,
+      "ray_gap_mm": 8.063396615548092,
+      "parallax_deg": 15.260552202421174,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.004415527554886159,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 63.72607060366117,
+      "ray_gap_mm": 6.411171986285776,
+      "parallax_deg": 7.91552950198584,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.00037836805753478105,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 38.334012176071816,
+      "ray_gap_mm": 0.5484489039506383,
+      "parallax_deg": 10.930046188353574,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.0013493660305845092,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 62.42581530521449,
+      "ray_gap_mm": 1.0050395808363812,
+      "parallax_deg": 8.633211484480192,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.023412368485230445,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 87.76219782807968,
+      "ray_gap_mm": 18.954015383427617,
+      "parallax_deg": 5.939027936553998,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02664214305172616,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 125.5779614298824,
+      "ray_gap_mm": 27.05937081300224,
+      "parallax_deg": 4.521049251500367,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.003646675333566999,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 27.251158456272005,
+      "ray_gap_mm": 18.204863599505533,
+      "parallax_deg": 7.564288936655449,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.003326967597060902,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 53.28604870565098,
+      "ray_gap_mm": 3.0749798077693633,
+      "parallax_deg": 5.897171786720854,
+      "positive_depths": true
+    },
+    {
+      "pair": "body08",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.011886682656334089,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 318.9897849362063,
+      "ray_gap_mm": 23.188809137673225,
+      "parallax_deg": 5.2764314904055745,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.002122185582577977,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 9.99489468287793,
+      "ray_gap_mm": 5.650383153038483,
+      "parallax_deg": 17.629650597865687,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 0.0011395995966391784,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 41.46478144963555,
+      "ray_gap_mm": 3.0825843019371972,
+      "parallax_deg": 14.067916658267128,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.007249655468300606,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 33.407224907948255,
+      "ray_gap_mm": 9.754798489735235,
+      "parallax_deg": 11.087314944855374,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.008244497885604678,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 67.01163504161592,
+      "ray_gap_mm": 4.289966503916686,
+      "parallax_deg": 13.39511297076473,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00928763244334453,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 1575.6506915871187,
+      "ray_gap_mm": 38.24873834177752,
+      "parallax_deg": 4.105731703563761,
+      "positive_depths": false
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.007105403169960324,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 1387.8272906051373,
+      "ray_gap_mm": 47.37234505523799,
+      "parallax_deg": 2.8528414223536536,
+      "positive_depths": false
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.016425285267739703,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 37.48464183810347,
+      "ray_gap_mm": 39.466200300728,
+      "parallax_deg": 7.470861484074548,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.005489116886995649,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 291.05916860298964,
+      "ray_gap_mm": 53.63141417588561,
+      "parallax_deg": 6.581159492117959,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.03187342944031838,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 610.7508228380036,
+      "ray_gap_mm": 52.397519790726506,
+      "parallax_deg": 6.343659334677761,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.01719238115736719,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 146.2640090458176,
+      "ray_gap_mm": 10.720825277532045,
+      "parallax_deg": 6.3929508316356545,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.006439270419053594,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 736.110636569151,
+      "ray_gap_mm": 53.23497062856948,
+      "parallax_deg": 3.0035262297325445,
+      "positive_depths": true
+    },
+    {
+      "pair": "body09",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013544783343035573,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 155.44569147608118,
+      "ray_gap_mm": 50.41866614705746,
+      "parallax_deg": 3.447621431908665,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Shoulder",
+      "reference_ray_gap_mm": 0.0044144150169034896,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 23.71547441901879,
+      "ray_gap_mm": 2.9385651617154283,
+      "parallax_deg": 16.810926051002387,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Elbow",
+      "reference_ray_gap_mm": 1.9980471494811068e-05,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 37.80781736865862,
+      "ray_gap_mm": 1.6704703918458594,
+      "parallax_deg": 13.571185009007133,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Wrist",
+      "reference_ray_gap_mm": 0.000724587798373794,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 19.274086591362273,
+      "ray_gap_mm": 2.308286253147839,
+      "parallax_deg": 17.61945372920743,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Shoulder",
+      "reference_ray_gap_mm": 0.0016236684531900235,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 17.808678467772943,
+      "ray_gap_mm": 5.097593912509049,
+      "parallax_deg": 14.869160151399113,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Elbow",
+      "reference_ray_gap_mm": 0.00464223638941317,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 61.22266900785661,
+      "ray_gap_mm": 3.8242203028443176,
+      "parallax_deg": 10.027000672963494,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Wrist",
+      "reference_ray_gap_mm": 0.011349773244264146,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 341.02491204922364,
+      "ray_gap_mm": 36.766473293190856,
+      "parallax_deg": 11.240583646365737,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Hip",
+      "reference_ray_gap_mm": 0.018129275590266822,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 113.51758043226779,
+      "ray_gap_mm": 15.25620921565066,
+      "parallax_deg": 7.168080377492164,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Knee",
+      "reference_ray_gap_mm": 0.009231229708112168,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 66.053006700878,
+      "ray_gap_mm": 2.2871044685978763,
+      "parallax_deg": 7.704639847865336,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "R_Ankle",
+      "reference_ray_gap_mm": 0.02460414351106508,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 256.44796990970883,
+      "ray_gap_mm": 24.376434585281316,
+      "parallax_deg": 4.475417546101682,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Hip",
+      "reference_ray_gap_mm": 0.016489916816879443,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 69.45768391566568,
+      "ray_gap_mm": 8.748606269610905,
+      "parallax_deg": 7.189295227092253,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Knee",
+      "reference_ray_gap_mm": 0.022084237247626263,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 100.77408122896149,
+      "ray_gap_mm": 17.27396432954053,
+      "parallax_deg": 5.0520562348248665,
+      "positive_depths": true
+    },
+    {
+      "pair": "body10",
+      "version": "rw20000",
+      "joint": "L_Ankle",
+      "reference_ray_gap_mm": 0.013829415293276538,
+      "midpoint_distance_to_2d_reference_triangulation_mm": 450.27260936421675,
+      "ray_gap_mm": 50.47857284817938,
+      "parallax_deg": 5.308050063598061,
+      "positive_depths": true
+    }
+  ],
+  "by_joint": {
+    "L_Ankle": {
+      "rw5000": {
+        "ray_gap_mm": 31.599959821943276,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 516.3659154881625
+      },
+      "rw20000": {
+        "ray_gap_mm": 35.16644583210908,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 318.209822676372
+      }
+    },
+    "L_Elbow": {
+      "rw5000": {
+        "ray_gap_mm": 22.99218430852573,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 483.6068289059648
+      },
+      "rw20000": {
+        "ray_gap_mm": 21.01935769321591,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 286.16932970233574
+      }
+    },
+    "L_Hip": {
+      "rw5000": {
+        "ray_gap_mm": 14.048487027634613,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 81.17997833910063
+      },
+      "rw20000": {
+        "ray_gap_mm": 10.13158126635198,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 59.151201363664015
+      }
+    },
+    "L_Knee": {
+      "rw5000": {
+        "ray_gap_mm": 33.7491112473929,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 174.707813233467
+      },
+      "rw20000": {
+        "ray_gap_mm": 15.254208056440898,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 327.65858117277435
+      }
+    },
+    "L_Shoulder": {
+      "rw5000": {
+        "ray_gap_mm": 10.413337453405337,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 42.88834484309197
+      },
+      "rw20000": {
+        "ray_gap_mm": 10.511677060212016,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 37.483846147375424
+      }
+    },
+    "L_Wrist": {
+      "rw5000": {
+        "ray_gap_mm": 29.987713289825223,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 275.9711227849865
+      },
+      "rw20000": {
+        "ray_gap_mm": 21.08296643724905,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 320.7137803979701
+      }
+    },
+    "R_Ankle": {
+      "rw5000": {
+        "ray_gap_mm": 48.67924426582972,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 452.55270816603445
+      },
+      "rw20000": {
+        "ray_gap_mm": 35.89267219428103,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 414.77229376287886
+      }
+    },
+    "R_Elbow": {
+      "rw5000": {
+        "ray_gap_mm": 18.493017048201043,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 75.16470591210457
+      },
+      "rw20000": {
+        "ray_gap_mm": 11.837755480190834,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 69.98650309643683
+      }
+    },
+    "R_Hip": {
+      "rw5000": {
+        "ray_gap_mm": 18.92088364323034,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 146.9230515449041
+      },
+      "rw20000": {
+        "ray_gap_mm": 14.707470076469031,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 52.951089838748295
+      }
+    },
+    "R_Knee": {
+      "rw5000": {
+        "ray_gap_mm": 38.55831925731052,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 153.69594066711824
+      },
+      "rw20000": {
+        "ray_gap_mm": 22.868608415006,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 168.62707680108196
+      }
+    },
+    "R_Shoulder": {
+      "rw5000": {
+        "ray_gap_mm": 14.452052024624233,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 25.508719749951407
+      },
+      "rw20000": {
+        "ray_gap_mm": 13.653091971591087,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 16.943201813925384
+      }
+    },
+    "R_Wrist": {
+      "rw5000": {
+        "ray_gap_mm": 8.535763367682524,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 69.40923336161907
+      },
+      "rw20000": {
+        "ray_gap_mm": 6.636355563471433,
+        "midpoint_distance_to_2d_reference_triangulation_mm": 60.47720065498005
+      }
+    }
+  },
+  "calibration_sha256": {
+    "camera_left.json": "a0ddc12a8ca6066ba34a11d7c0eb51291595a8569680c4089283c4f2c4ce6138",
+    "camera_right.json": "d7536fcca242153ba93446440c7c19aef962ecc0dc94b08ab760b262fd45fdab"
+  },
+  "rig_sha256": "2592131d0bf1e9bd9c385e5463f0dfbd5ba69d21884ade137157a9ca777e0844",
+  "scope": "Closest-ray midpoint compared to triangulated projected-2D reference, not body-3D GT. Unfiltered points may be ill conditioned. Descriptive geometry only; no change to golden-D fitting."
+}

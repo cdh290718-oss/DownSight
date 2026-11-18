@@ -1,0 +1,27 @@
+{
+  "command": "source and input fingerprint inventory after completed diagnosis",
+  "exit_status": 0,
+  "execution_baseline": "926626bcf7c5716c3fff97a11a2607e415dd116c",
+  "working_tree": "New diagnostic run, all preexisting tracked/untracked changes preserved.",
+  "code_sha256": {
+    "code/analyze.py": "e5ed36b47b68ff7b3292a544a274e6a071fe102675e67ed1df4c83a71635527d",
+    "code/prepare_interventions.py": "b236c7579f82bbaa7f5d47a08b1d6a53ecb966e139199d85f7b5998035b279e2",
+    "code/stereo_diagnostic.py": "20a14945b29e8bc7ff14e010bf01fd1cad9a59d88099db1e70e302be2e2c8924",
+    "code/summarize.py": "a7fc12e04993c5f1b60eb847b5e7ef2ccad95a4d4301a07db187ff2116c72566",
+    "common.py": "d6e28c69165bd9e4ac28d0b8de53183138bbc9b5844c538575c433163c6bc067",
+    "evaluate.py": "b49641319707797cbb91009e588e5b9121fb3608a74197db1880f02abbc11e1a",
+    "fit.py": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+    "geometry.py": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+  },
+  "protocol_sha256": "a7ca57278120e71a77a7e0c0fd0588eb1441cae6230d99138b91f5e167670fe7",
+  "prior_evaluation": "runs/2026-11-18_rw-a20000-evaluation",
+  "latest_test_evidence": [
+    "runs/2026-11-18_rw-frozen200-evaluation",
+    "runs/2026-11-18_rw20000_frozen200"
+  ],
+  "backend_code_sha256": {
+    "egosmplx_pipeline/body_common.py": "6ce9a301389cdf4c6fe1fb9d0e5b67a7fe4250ae758622d69bab1a84817d8fe9",
+    "egosmplx_pipeline/camera.py": "034806b8c4d8a49511be974810beb5ef1cc083c724d8b753acd52cd239181b37"
+  },
+  "protocol_metadata_note": "Inherited scope prose mentions three detectors, but actual conditions/intervention and prepared inputs define coordinate combinations of RW5000/RW20000 only; no original detector inference in this run."
+}

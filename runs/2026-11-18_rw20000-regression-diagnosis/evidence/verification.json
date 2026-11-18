@@ -1,0 +1,10 @@
+{
+  "command": "check intervention replay, successful stages, controls and syntax",
+  "exit_status": 0,
+  "exact_prepared_replay": true,
+  "fit_and_evaluation_exit_zero": true,
+  "control_reproduction_max_difference_mm": 0,
+  "finite_feasible_instances": 54,
+  "body3d_read_during_fit": false,
+  "observed_converged_instances": 0
+}

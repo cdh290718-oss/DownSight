@@ -1,0 +1,25 @@
+<WORKSPACE>/miniconda3/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+step 0 / 20000 feasible 14 / 54 mean loss 0.772960364818573 elapsed_s 0.0
+step 1000 / 20000 feasible 54 / 54 mean loss 0.019618837162852287 elapsed_s 7.4
+step 2000 / 20000 feasible 54 / 54 mean loss 0.010089664719998837 elapsed_s 14.9
+step 3000 / 20000 feasible 54 / 54 mean loss 0.007278104778379202 elapsed_s 22.5
+step 4000 / 20000 feasible 54 / 54 mean loss 0.006289917975664139 elapsed_s 30.0
+step 5000 / 20000 feasible 54 / 54 mean loss 0.006106378510594368 elapsed_s 37.5
+step 6000 / 20000 feasible 54 / 54 mean loss 0.006045861169695854 elapsed_s 45.0
+step 7000 / 20000 feasible 54 / 54 mean loss 0.006050177849829197 elapsed_s 52.5
+step 8000 / 20000 feasible 54 / 54 mean loss 0.006084676366299391 elapsed_s 60.0
+step 9000 / 20000 feasible 54 / 54 mean loss 0.006105087231844664 elapsed_s 67.5
+step 10000 / 20000 feasible 54 / 54 mean loss 0.006107493303716183 elapsed_s 75.0
+step 11000 / 20000 feasible 54 / 54 mean loss 0.006117767654359341 elapsed_s 82.6
+step 12000 / 20000 feasible 54 / 54 mean loss 0.0061612180434167385 elapsed_s 90.1
+step 13000 / 20000 feasible 54 / 54 mean loss 0.006202472373843193 elapsed_s 97.6
+step 14000 / 20000 feasible 54 / 54 mean loss 0.006237979978322983 elapsed_s 105.1
+step 15000 / 20000 feasible 54 / 54 mean loss 0.0062511153519153595 elapsed_s 112.7
+step 16000 / 20000 feasible 54 / 54 mean loss 0.006272769067436457 elapsed_s 120.2
+step 17000 / 20000 feasible 54 / 54 mean loss 0.006289577577263117 elapsed_s 127.7
+step 18000 / 20000 feasible 54 / 54 mean loss 0.006318036932498217 elapsed_s 135.2
+step 19000 / 20000 feasible 54 / 54 mean loss 0.0063437302596867085 elapsed_s 142.7
+step 20000 / 20000 feasible 54 / 54 mean loss 0.0063621532171964645 elapsed_s 150.2
+DONE 54 fits

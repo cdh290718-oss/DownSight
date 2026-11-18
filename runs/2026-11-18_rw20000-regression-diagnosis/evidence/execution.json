@@ -1,0 +1,31 @@
+{
+  "stages": [
+    {
+      "stage": "fit",
+      "command": [
+        "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python",
+        "-u",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw20000-regression-diagnosis/fit.py",
+        "--threads",
+        "2"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 156.7767436504364
+    },
+    {
+      "stage": "evaluate",
+      "command": [
+        "<WORKSPACE>/miniconda3/envs/egosmplx/bin/python",
+        "-u",
+        "<WORKSPACE>/DownSight/runs/2026-11-18_rw20000-regression-diagnosis/evaluate.py"
+      ],
+      "exit_status": 0,
+      "elapsed_seconds": 6.02024245262146
+    }
+  ],
+  "environment": {
+    "PYTHONPATH": "<REPO>",
+    "OMP_NUM_THREADS": "2",
+    "D_INTERVENTION_OUTPUT": "outputs/rw20000_regression_diagnosis_20261118/d_fit"
+  }
+}

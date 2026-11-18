@@ -1,0 +1,8 @@
+{
+  "command": "view four local labeled overlays from visual_manifest.json",
+  "exit_status": 0,
+  "body07": "Projected right knee/ankle labels lie over the head/face region and are not directly visible; new right-view predictions shift farther from the reference. No gross image-coordinate transform or left/right swap observed.",
+  "s11": "Selected pair shows hands close together with motion blur; both models predict wrist positions proximal to the projected reference, with larger new-model offsets. Hip reference points are under clothing/body. This does not independently establish annotation accuracy.",
+  "limitations": "Four images selected after observing errors; examples only, no prevalence estimate or certified visibility labels.",
+  "images_published": false
+}

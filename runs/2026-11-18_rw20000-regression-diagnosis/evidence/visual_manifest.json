@@ -1,0 +1,30 @@
+{
+  "command": "python code/analyze.py",
+  "exit_status": 0,
+  "visuals": [
+    {
+      "file": "body07_left.jpg",
+      "sha256": "4875d2569634d89545952431349ed70a815a5f0eebdd761437458f18835be056",
+      "source_image_sha256": "9aabff7f0e0ee986921cefbde21add39e7e62e4b24412c348b93b79989ac7b78"
+    },
+    {
+      "file": "body07_right.jpg",
+      "sha256": "675911d2141c06a17553110c93e351175a0b4b7354dd2599e5ef60d4a8770d06",
+      "source_image_sha256": "20bde162aad26fff382bedf75d942c40b1009b56e1bb8818b2a1a9da55595ade"
+    },
+    {
+      "file": "S11_wrist_right.jpg",
+      "sha256": "39c21d98dba3ea69aa96b5b3d79f4875004db91d6432e5c371978d8ffbe19d24",
+      "source_image_sha256": "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21",
+      "id": "5fb97855525c51a9ff8b19271c5a65e978acdc29a1cb78871a86557c3cc8019e"
+    },
+    {
+      "file": "S11_wrist_left.jpg",
+      "sha256": "a7cd906368b9d8ac5b5876bdf8fa0b371282599074e4adc6ddf166284a1d86c1",
+      "source_image_sha256": "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+      "id": "f38b3da2eba428e826234fca9bccd8f7c1cc2bd80b8f57a59de50be1a81fac96"
+    }
+  ],
+  "selection": "body07 both views and S11 pair containing largest left-wrist regression; selected after observing errors.",
+  "images_published": false
+}

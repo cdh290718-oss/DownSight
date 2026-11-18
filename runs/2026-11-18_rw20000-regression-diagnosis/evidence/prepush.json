@@ -1,0 +1,154 @@
+{
+  "command": "public increment audit: content, source hashes, paths, links, workspace, index and outgoing commit",
+  "exit_status": 0,
+  "baseline": "926626bcf7c5716c3fff97a11a2607e415dd116c",
+  "remote_main_before_commit": "926626bcf7c5716c3fff97a11a2607e415dd116c",
+  "checks": {
+    "no_weights_dataset_images_video_arrays_or_complete_raw_outputs": true,
+    "files_below_50MiB": true,
+    "no_detected_credentials_env_or_private_keys": true,
+    "machine_paths_redacted": true,
+    "no_full_local_provenance_or_patch": true,
+    "source_hashes_match": true,
+    "report_links_resolve": true,
+    "json_finite": true,
+    "workspace_and_index_reviewed": true,
+    "unrelated_changes_excluded": true,
+    "remote_matches_baseline": true,
+    "local_outputs_ignored": true
+  },
+  "workspace_status_entry_count": 36,
+  "file_inventory_excluding_this_audit": [
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/brief.md",
+      "bytes": 1123,
+      "sha256": "90a9936968ce0871191fca793910f6953eb9dc2ab2f5ea5f35e8d7848a9e6b46"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/code/analyze.py",
+      "bytes": 7150,
+      "sha256": "e5ed36b47b68ff7b3292a544a274e6a071fe102675e67ed1df4c83a71635527d"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/code/prepare_interventions.py",
+      "bytes": 2223,
+      "sha256": "b236c7579f82bbaa7f5d47a08b1d6a53ecb966e139199d85f7b5998035b279e2"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/code/stereo_diagnostic.py",
+      "bytes": 3180,
+      "sha256": "20a14945b29e8bc7ff14e010bf01fd1cad9a59d88099db1e70e302be2e2c8924"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/code/summarize.py",
+      "bytes": 4114,
+      "sha256": "a7fc12e04993c5f1b60eb847b5e7ef2ccad95a4d4301a07db187ff2116c72566"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/common.py",
+      "bytes": 1767,
+      "sha256": "d6e28c69165bd9e4ac28d0b8de53183138bbc9b5844c538575c433163c6bc067"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evaluate.py",
+      "bytes": 4809,
+      "sha256": "b49641319707797cbb91009e588e5b9121fb3608a74197db1880f02abbc11e1a"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/diagnostic_2d.json",
+      "bytes": 69374,
+      "sha256": "276fb464661f2b6b9a4ea8db4ebd6e78be285c1030fda444dcff1e0ab934cd97"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/evaluate_console.txt",
+      "bytes": 551,
+      "sha256": "08383bdb7cfa29625e88bc516bb441a9d38313d9e1b3fd531a77f6dc6cd52ca1"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/execution.json",
+      "bytes": 801,
+      "sha256": "77d9f78f86c980fca656c2f1173cf07b4dc8561a9ce23e74af8576db29cf187e"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/fit_console.txt",
+      "bytes": 2246,
+      "sha256": "0e67829f02ba9275eb273cb284ad7c1e7422de463a28dc71b2e74678f6e389a3"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/fit_execution.json",
+      "bytes": 4871,
+      "sha256": "5c0365ed3f5c154d118d2bbbe3f8a88db147b9f7b8da73069331b2a6f1fc41af"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/frozen200_analysis.json",
+      "bytes": 131472,
+      "sha256": "6053bbe95313a6017983e8d8dd712ccd1f0c5924d1f6ab20e2c32c124f5603ea"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/intervention_preparation.json",
+      "bytes": 11579,
+      "sha256": "4bcb82284dea7e9e317a96d045be7a884fa75e58a92fc33fd6202e8be0285624"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/results.json",
+      "bytes": 77204,
+      "sha256": "130fe8d8cd56b6298c8e70a024e07862405963e419be5ee160137cc9a3369d35"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/source.json",
+      "bytes": 1766,
+      "sha256": "5b06728eb13fe612c69bd34c053bf70f33d29df4adcb7718b552e23a6417dd5b"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/stereo_diagnostic.json",
+      "bytes": 84331,
+      "sha256": "848868ea3de3ca7778ae7ab607b5a30ff9e6454d4ed7933724432edce017a67a"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/summary.json",
+      "bytes": 17380,
+      "sha256": "2596d64375f3026e74c78007815aa35e8f6e31e41eedd08f110a681f09b7da4b"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/verification.json",
+      "bytes": 332,
+      "sha256": "262835d06783da640d698b0b05592918fa68d2bd2879ddf291af158de39e9b86"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/visual_manifest.json",
+      "bytes": 1306,
+      "sha256": "4d0570844903adb6178cfa4cb3addcf8a97f4497ed24b23358b9161ed0668fe9"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/evidence/visual_review.json",
+      "bytes": 777,
+      "sha256": "556a2a866fc00401d70a93987cb1dc64ca0652a31f417dd12cf517c1e259471c"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/fit.py",
+      "bytes": 13970,
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/geometry.py",
+      "bytes": 3344,
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/protocol.json",
+      "bytes": 2891,
+      "sha256": "a7ca57278120e71a77a7e0c0fd0588eb1441cae6230d99138b91f5e167670fe7"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/report.md",
+      "bytes": 8387,
+      "sha256": "22809ee91319a6557e730f4c8fdc9a00cb186f177f3416bfc8f8774c5cd8e8d1"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000-regression-diagnosis/review.md",
+      "bytes": 201,
+      "sha256": "2cb9308d5cee2183397dc9e8ac989cbed256f3cf5f90a0c1ad6cdf280eb20d99"
+    }
+  ],
+  "scope": "Only this diagnostic run is published. Previous artifacts and unrelated changes unchanged; no historical audit claim. Outgoing blob identity and remote parent are checked again before push."
+}

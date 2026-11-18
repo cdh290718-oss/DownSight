@@ -1,0 +1,559 @@
+{
+  "command": "prepare frozen-coordinate swaps from existing detector inputs",
+  "exit_status": 0,
+  "source_sha256": "fa32a9c814e5cc6251312643ab4356b40744494bebf35f2225647e7cb77bd26e",
+  "prepared_sha256": "480cec1d8ce60113d7bfc31f36b9dfb919d994d1be11f360e3fd4540a87d6ac3",
+  "protocol_sha256": "a7ca57278120e71a77a7e0c0fd0588eb1441cae6230d99138b91f5e167670fe7",
+  "instances": 54,
+  "checks": [
+    {
+      "pair": "body01",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body01",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body01",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body01",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body01",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body02",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body02",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body02",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body02",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body02",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body03",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body03",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body03",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body03",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body03",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body04",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body04",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body04",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body04",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body04",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body05",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body05",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body05",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body05",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body05",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body06",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body06",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body06",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body06",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body06",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_right_leg",
+      "old_xy_joints": [
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_right_knee_ankle",
+      "old_xy_joints": [
+        "R_Knee",
+        "R_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_left_arm",
+      "old_xy_joints": [
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body07",
+      "condition": "old_wrists",
+      "old_xy_joints": [
+        "R_Wrist",
+        "L_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body08",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body08",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body08",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body08",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body08",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body09",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body09",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body09",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body09",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body09",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body10",
+      "condition": "baseline",
+      "old_xy_joints": [],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body10",
+      "condition": "old_all",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "R_Elbow",
+        "R_Wrist",
+        "L_Shoulder",
+        "L_Elbow",
+        "L_Wrist",
+        "R_Hip",
+        "R_Knee",
+        "R_Ankle",
+        "L_Hip",
+        "L_Knee",
+        "L_Ankle"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body10",
+      "condition": "old_right_wrist",
+      "old_xy_joints": [
+        "R_Wrist"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body10",
+      "condition": "old_shoulders",
+      "old_xy_joints": [
+        "R_Shoulder",
+        "L_Shoulder"
+      ],
+      "non_xy_fields_identical": true
+    },
+    {
+      "pair": "body10",
+      "condition": "old_hips",
+      "old_xy_joints": [
+        "R_Hip",
+        "L_Hip"
+      ],
+      "non_xy_fields_identical": true
+    }
+  ],
+  "scope": "All scores, masks, Head, calibration, shape and optimization unchanged. No ground-truth coordinates substituted. Post-hoc mechanism diagnostic."
+}
