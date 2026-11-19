@@ -1,0 +1,19 @@
+{
+  "base": "204193228c13924179b8176bde9c4522322b7d62",
+  "commands": [
+    "<BODY_PYTHON> -Bu run_fit.py",
+    "<BODY_PYTHON> -Bu measure.py"
+  ],
+  "fit_exit": 0,
+  "eval_exit": 0,
+  "steps": 20000,
+  "elapsed_fit_seconds": 390.3687210083008,
+  "params_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+  "reference_sha256": "973ee19514faaa95ec895f2b550229416ddd981997ad4f20581f7817607426e2",
+  "manifest_sha256": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1",
+  "evaluation_pair_counts": {
+    "S1": 34,
+    "S9": 33,
+    "S11": 33
+  }
+}

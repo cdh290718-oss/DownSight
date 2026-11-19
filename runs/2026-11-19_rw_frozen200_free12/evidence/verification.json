@@ -1,0 +1,24 @@
+{
+  "views_checked": 800,
+  "max_detector_sse_delta_px2": 2.3283064365386963e-10,
+  "archived_fits_checked": 12,
+  "max_archived_mpjpe_delta_mm": 3.052591154073525e-06,
+  "detector_all_200_px": {
+    "original": {
+      "points": 2398,
+      "radial_rmse": 126.65072618488391
+    },
+    "rw500": {
+      "points": 2398,
+      "radial_rmse": 21.977096191080047
+    },
+    "rw5000": {
+      "points": 2398,
+      "radial_rmse": 15.68150768058129
+    },
+    "rw20000": {
+      "points": 2398,
+      "radial_rmse": 14.979659879025956
+    }
+  }
+}

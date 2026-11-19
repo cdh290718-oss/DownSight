@@ -1,0 +1,13 @@
+[
+  {
+    "command": "<BODY_PYTHON> -Bu verify.py",
+    "exit": 1,
+    "excerpt": "Exception: norm is zero!",
+    "scope": "First independent metric check used an on-axis placeholder in the projection routine."
+  },
+  {
+    "command": "<BODY_PYTHON> -Bu verify.py",
+    "exit": 0,
+    "scope": "Retried using reference points with the same inputs. Fit unaffected."
+  }
+]

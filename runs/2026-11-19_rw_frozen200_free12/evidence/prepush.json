@@ -1,0 +1,27 @@
+{
+  "baseline": "204193228c13924179b8176bde9c4522322b7d62",
+  "remote_before_commit": "204193228c13924179b8176bde9c4522322b7d62",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "all_git_blobs_text_only": true,
+  "under_50MB": true,
+  "no_raw_mesh_arrays_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-19_rw_frozen200_free12/brief.md": "a89beb170e6f4c75a09a83ed46919e1b4260cb04cf27bdb7fbf2108a5804fe6f",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/execution.json": "43a4e372427370b94beb3bad0ab52b621b75a8061520a88adebe83c8b44839bf",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/inputs.json": "817c1d4aca2885014a257932d46aea8f6e3fc15ea78d29a32b777bde13762b2e",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/results.json": "7bd65bf77245a5e5790f605a9fd528174a2b8d073507cdb8b5688cf9834163ee",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json": "696e82956fc19ccdf53f9ae1da3e5477cfc419f739b6c384608e034467ec0bf9",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/summary.json": "4047ca1776119f7fa1eef6c2c9013a1aba2cb0999877665e5f3f2d5f41f2e91f",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/verification.json": "e28782b1b35f5f9848ba157cccc27723afc7ea78ff7336c1c7bc0f6e584f665a",
+    "runs/2026-11-19_rw_frozen200_free12/evidence/verification_attempts.json": "aa30eb02e579448864b3eeff1aea98dc9250316d9482d05e78c612e118a99bde",
+    "runs/2026-11-19_rw_frozen200_free12/measure.py": "796e5a8f050affb0f63ead09b8ddcdb23df04bf0cd1f6a47abf6e27f9b31025d",
+    "runs/2026-11-19_rw_frozen200_free12/report.md": "94417ed82f138b85cad03abe9caa721495aef817680911bc2dda9a27039b6505",
+    "runs/2026-11-19_rw_frozen200_free12/review.md": "218205bfaf4f3de8ba02d8b850a9ca1a2069377da8734e6af62ec023cd30d30f",
+    "runs/2026-11-19_rw_frozen200_free12/run_fit.py": "078717ea018f1a4490525e14edca29bfea7ecebb78d31e4ecb4e118cc05d455e",
+    "runs/2026-11-19_rw_frozen200_free12/verify.py": "41927f119bb4fd9e032a6318d917b77ecf6e0a33185f046d7b815552c46a2371"
+  },
+  "command": "git diff --cached --check; check_increment.py record, verify; git diff --check <baseline> HEAD; check_increment.py commit; remote HEAD checked before push."
+}
