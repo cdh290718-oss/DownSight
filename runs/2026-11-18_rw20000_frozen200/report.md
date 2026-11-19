@@ -39,3 +39,7 @@ S11 的平均误差上升，左腕、左右髋的均值也上升，见 compariso
 单位 mm，越低越好。非 PA 是左相机绝对坐标 MPJPE，不对齐；PA 为逐对相似变换后的 MPJPE。使用 15 点口径，两个 Toe 沿用 heel 代理；另有不含颈/脚趾的 12 点结果。**这是标注辅助诊断**：Head 位置和画内掩码来自标注，朝向为共享网络估计；每个拍摄会话的外参由未评估帧标注恢复，S11 标定帧与测试存在序列重叠。完成预算不等于全部达到收敛标准，不能直接作为无标注辅助的官方 benchmark 排名。
 
 [方法、分人物和收敛说明](../2026-11-18_rw_frozen200_golden_d/report.md) · [汇总证据](../2026-11-18_rw_frozen200_golden_d/evidence/summary.json) · [逐对误差](../2026-11-18_rw_frozen200_golden_d/evidence/results.json) · [本次发布检查](../2026-11-18_rw_frozen200_golden_d/evidence/prepush.json)。
+
+## OBJ 下载：固定 10 对、四模型
+
+已从上述冻结测试集固定抽取 10 对，四模型共 40 个 OBJ，按样本与模型命名，保留左相机坐标、单位米。[下载 ZIP](https://github.com/cdh290718-oss/DownSight/releases/download/unrealego-rw-test10-four-models-obj-20261119/UnrealEgoRW_test10pairs_original_rw500_rw5000_rw20000_OBJ.zip) · [抽样清单与说明](../2026-11-19_rw10_four_models_obj/report.md)。

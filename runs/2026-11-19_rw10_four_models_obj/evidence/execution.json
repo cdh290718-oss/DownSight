@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "34ff79ba1ec199db8a48803935a7f15e15810aa5",
+  "worktree_dirty": true,
+  "unrelated_changes_preserved": true,
+  "source_run": "2026-11-18_rw_frozen200_golden_d",
+  "source_parameter_sha256": "013bfc335b56dd71891ce223f43bc03fa0f88f004a34c665edfa942565709833",
+  "export_exit_status": 0,
+  "archive_validation_exit_status": 0,
+  "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=. CUDA_VISIBLE_DEVICES= <BODY_PYTHON> export.py",
+  "source_sha256": {
+    "publish_release.py": "5c54fe0dd8881316bad53d14a62e94444eff7b6ecb13363e7693cba19abdb7a5",
+    "prepush.py": "4975ef1d59966f9b9ad8d12dd737a286e94b676435556f4a775e7931e5c2f843",
+    "finalize.py": "163024cef8da4023ed47cff2e55ef84b3739cf3a5649f4b8da9e3a5f8fcdbd8f",
+    "export.py": "d7efb73861b847fb9562420ab1f8074de86c8ba3b03c40f51e6816a72778ebd9"
+  },
+  "elapsed_seconds": 12.830474615097046,
+  "refit": false,
+  "coordinate_frame": "left camera CV, meters, no PA alignment",
+  "full_local_output": "<WORKSPACE>/DownSight/outputs/rw10_four_models_obj_20261119"
+}

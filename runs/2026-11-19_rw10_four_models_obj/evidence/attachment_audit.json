@@ -1,0 +1,24 @@
+{
+  "exit_status": 0,
+  "files_sha256": {
+    "UnrealEgoRW_test10pairs_original_rw500_rw5000_rw20000_OBJ.zip": "a03646fa05b23a25eebdf584c21f83fc13a53d6d3313045bf665628bb28e90eb"
+  },
+  "archive": {
+    "file": "UnrealEgoRW_test10pairs_original_rw500_rw5000_rw20000_OBJ.zip",
+    "bytes": 12154709,
+    "sha256": "a03646fa05b23a25eebdf584c21f83fc13a53d6d3313045bf665628bb28e90eb"
+  },
+  "archive_members": 47,
+  "obj_files": 40,
+  "samples": 10,
+  "models": [
+    "original",
+    "rw500",
+    "rw5000",
+    "rw20000"
+  ],
+  "all_member_checksums_verified": true,
+  "no_weights_original_dataset_images": true,
+  "no_machine_paths_credentials": true,
+  "allowed_payload": "User-requested fitted OBJ meshes, sample index, calibrated coordinate transforms, documentation and checksums"
+}
