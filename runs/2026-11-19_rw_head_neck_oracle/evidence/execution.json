@@ -1,0 +1,149 @@
+{
+  "baseline": "f0f08013c1183a09410e6dcdcd7941d066e2f835",
+  "tree": "Existing unrelated worktree changes plus new run source. Reference implementation and protocol identities verified before fitting.",
+  "scripts": {
+    "run.py": "3225caedcef9dec0a7685627d89070216671e34b9a501abb670eb95b484bcf1c",
+    "audit.py": "84b9d7c21fdb977476b457ba5148a8f65f9f9452af8662c9d9ba3f436ab6cce3",
+    "preview.py": "062b0a48e7a2905e7ecebeb5fa07c010797b1f5e3f63499fd4b5130e18f69f3e"
+  },
+  "stages": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-19_rw_head_neck_oracle/run.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-19_rw_head_neck_oracle/run.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-19_rw_head_neck_oracle/run.py evaluate",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-19_rw_head_neck_oracle/audit.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<PYTHON> -B runs/2026-11-19_rw_head_neck_oracle/preview.py",
+      "exit_status": 0
+    }
+  ],
+  "confirmation": "Evaluation and audit also repeated, both exit status 0. Evaluator command label updated in wrapper after first evaluation; fit code and inputs unchanged.",
+  "runtime": {
+    "PYTHONPATH": ".",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "CUDA_VISIBLE_DEVICES": "",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "runtime_caches": "New local run output only"
+  },
+  "fit": {
+    "exit_status": 0,
+    "ids": [
+      [
+        "body01",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body02",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body03",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body04",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "steps": 20000,
+    "elapsed_seconds": 112.582359790802,
+    "protocol_sha256": "7deeee31182374d43b96bcfceb8185b9fa84a6d5230ac2d7249527b9f4a8f984",
+    "final_selected_steps": [
+      6060,
+      5740,
+      5340,
+      5540
+    ],
+    "device": "cpu",
+    "threads": 1,
+    "body_gt_read": false
+  },
+  "model_access": "Existing licensed neutral SMPL-X and RW test prepared samples required. Full meshes, labels, traces and coefficients retained locally.",
+  "config_patch_from_reference": {
+    "baseline_commit": "f0f08013c1183a09410e6dcdcd7941d066e2f835",
+    "pairs": [
+      "body01",
+      "body02",
+      "body03",
+      "body04"
+    ],
+    "intervention": "Replace the 12 reference detector XY in both views with official XY.",
+    "scope": "Four S9 official bilateral 2D annotation pairs; baseline solver; diagnostic."
+  },
+  "removed_protocol_metadata": [
+    "fixed_mixed_route",
+    "secondary"
+  ],
+  "diagnostics": {
+    "budget": 20000,
+    "ids": [
+      [
+        "body01",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body02",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body03",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body04",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "selected_step": [
+      6060,
+      5740,
+      5340,
+      5540
+    ],
+    "selected_feasible": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "relative_loss_change": [
+      0.007179012356739688,
+      0.008467460104844766,
+      0.004034522681793605,
+      0.0048721322859504165
+    ],
+    "max_joint_motion_mm": [
+      0.5058291077762109,
+      0.656410498339137,
+      1.0342619387404728,
+      0.4228189351248007
+    ],
+    "convergence_pass": [
+      false,
+      false,
+      false,
+      false
+    ]
+  }
+}

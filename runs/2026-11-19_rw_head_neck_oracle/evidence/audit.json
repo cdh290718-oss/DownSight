@@ -1,0 +1,140 @@
+{
+  "source_hashes": {
+    "samples.npz": "acf9b050dfe145acc5a5723a7a3da384811fba0b111e7af9ef6ed7d448fbc9f8",
+    "metadata.json": "377cabd7c357b75cd38f4db6167bbe6def82a7226c9f19ee6e70ae6b2bab3007",
+    "prepare_unrealego_rw_train.py": "baf6bc0ccd224a8e3b31107fe727486f01cb001ec6a95696e6d0b430afeab10a",
+    "human_models.py": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+    "prepare_body_archive.py": "63f9b43367df9a00ef19cf5a7dd95cb3ba492a8933f2ee206eaa731aba7d1ef0",
+    "budget_20000.npz": "273d9f381e37624392da713dee683e1008a646c8aa7d8a7fe7e45087ccaf9a1c"
+  },
+  "rest_length_mm": 163.67353417779896,
+  "shape_rank": 0,
+  "beta_abs_max": 0.0,
+  "official_scale_to_m": 0.01,
+  "native_parent_of_15": 12,
+  "rw_fit_head_neck_indices": [
+    0,
+    1
+  ],
+  "rw_gt15_neck_index": 0,
+  "smplx_output_neck_index": 7,
+  "smplx_native_neck_head": [
+    12,
+    15
+  ],
+  "subject_lengths_mm": {
+    "S1": {
+      "records": 18046,
+      "min_mm": 91.3474783017941,
+      "median_mm": 91.34751418392054,
+      "max_mm": 91.34784568994841
+    },
+    "S11": {
+      "records": 15366,
+      "min_mm": 90.76751978612735,
+      "median_mm": 90.76755318191472,
+      "max_mm": 90.76758380573543
+    },
+    "S9": {
+      "records": 14612,
+      "min_mm": 92.34957194430906,
+      "median_mm": 92.34960532685031,
+      "max_mm": 92.34963287294737
+    }
+  },
+  "pairs": [
+    {
+      "pair": "body01",
+      "head_error_mm": 0.6776759013196946,
+      "neck_error_mm": 79.61109397699505,
+      "rw_head_neck_mm": 92.34959364034073,
+      "smplx_head_neck_mm": 163.67352531979267,
+      "neck_error_lower_bound_mm": 70.64626463613854,
+      "legacy_gt2d_neck_mm": 74.23817525418137,
+      "legacy_gt2d_head_mm": 0.32328087091445923,
+      "legacy_gt2d_anchor_to_fitted_neck_mm": 164.65419870454883,
+      "legacy_gt3d_neck_mm": 74.22246801944775,
+      "legacy_triangulated_gt3d_max_mm": 0.0016273489547590466,
+      "old_all_full_nonpa_mm": 77.80967330755637,
+      "new_nonpa_mm": 77.88201195249789,
+      "new_pa_mm": 59.012331280689814,
+      "converged": false,
+      "selected_step": 6060,
+      "rw_head_to_shoulders_midpoint_mm": 158.6984574450015,
+      "rw_neck_to_shoulders_midpoint_mm": 67.52394624229233,
+      "smplx_head_to_shoulders_midpoint_mm": 140.80837160830598,
+      "smplx_neck_to_shoulders_midpoint_mm": 74.86386213914604
+    },
+    {
+      "pair": "body02",
+      "head_error_mm": 0.9073057872502817,
+      "neck_error_mm": 76.75328380986569,
+      "rw_head_neck_mm": 92.34961560742056,
+      "smplx_head_neck_mm": 163.67354517712297,
+      "neck_error_lower_bound_mm": 70.41661278312812,
+      "legacy_gt2d_neck_mm": 75.60571454586665,
+      "legacy_gt2d_head_mm": 0.33433523774147034,
+      "legacy_gt2d_anchor_to_fitted_neck_mm": 166.4811481992171,
+      "legacy_gt3d_neck_mm": 75.93428559953423,
+      "legacy_triangulated_gt3d_max_mm": 0.0015327793186703262,
+      "old_all_full_nonpa_mm": 92.97812254126924,
+      "new_nonpa_mm": 92.97023677263509,
+      "new_pa_mm": 64.66017523741968,
+      "converged": false,
+      "selected_step": 5740,
+      "rw_head_to_shoulders_midpoint_mm": 152.65129295804934,
+      "rw_neck_to_shoulders_midpoint_mm": 65.49752554878202,
+      "smplx_head_to_shoulders_midpoint_mm": 135.02186442006013,
+      "smplx_neck_to_shoulders_midpoint_mm": 74.18458930167567
+    },
+    {
+      "pair": "body03",
+      "head_error_mm": 1.746605067868635,
+      "neck_error_mm": 79.41630830984678,
+      "rw_head_neck_mm": 92.34961453262903,
+      "smplx_head_neck_mm": 163.673582810362,
+      "neck_error_lower_bound_mm": 69.5773145773013,
+      "legacy_gt2d_neck_mm": 79.49623507146302,
+      "legacy_gt2d_head_mm": 0.3612351715564728,
+      "legacy_gt2d_anchor_to_fitted_neck_mm": 167.30829378390553,
+      "legacy_gt3d_neck_mm": 79.08751791050491,
+      "legacy_triangulated_gt3d_max_mm": 0.0014912214603754134,
+      "old_all_full_nonpa_mm": 77.91279965193624,
+      "new_nonpa_mm": 77.94274681053706,
+      "new_pa_mm": 56.87712709923744,
+      "converged": false,
+      "selected_step": 5340,
+      "rw_head_to_shoulders_midpoint_mm": 129.634154113272,
+      "rw_neck_to_shoulders_midpoint_mm": 39.53259208118063,
+      "smplx_head_to_shoulders_midpoint_mm": 133.76671718237145,
+      "smplx_neck_to_shoulders_midpoint_mm": 73.61404666944625
+    },
+    {
+      "pair": "body04",
+      "head_error_mm": 1.1992536079662952,
+      "neck_error_mm": 82.80476823067058,
+      "rw_head_neck_mm": 92.34960695177224,
+      "smplx_head_neck_mm": 163.6735485409188,
+      "neck_error_lower_bound_mm": 70.12467361806041,
+      "legacy_gt2d_neck_mm": 80.7668085796722,
+      "legacy_gt2d_head_mm": 0.35056036710739136,
+      "legacy_gt2d_anchor_to_fitted_neck_mm": 164.46421292319434,
+      "legacy_gt3d_neck_mm": 75.8391922218415,
+      "legacy_triangulated_gt3d_max_mm": 0.0010474053677091057,
+      "old_all_full_nonpa_mm": 66.20534156401122,
+      "new_nonpa_mm": 66.233749205966,
+      "new_pa_mm": 58.69129438364779,
+      "converged": false,
+      "selected_step": 5540,
+      "rw_head_to_shoulders_midpoint_mm": 147.47180119835426,
+      "rw_neck_to_shoulders_midpoint_mm": 56.60385716705368,
+      "smplx_head_to_shoulders_midpoint_mm": 137.89765108935453,
+      "smplx_neck_to_shoulders_midpoint_mm": 76.0369478827714
+    }
+  ],
+  "mean_neck_mm": 79.64636358184453,
+  "mean_head_mm": 1.1327100911012264,
+  "mean_nonpa_mm": 78.75718618540901,
+  "mean_pa_mm": 59.810232000248675,
+  "fixed_shape_length_gap_mm": 71.32392649475833
+}

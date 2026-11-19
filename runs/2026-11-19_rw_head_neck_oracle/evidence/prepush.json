@@ -1,0 +1,25 @@
+{
+  "baseline": "f0f08013c1183a09410e6dcdcd7941d066e2f835",
+  "remote_before_commit": "f0f08013c1183a09410e6dcdcd7941d066e2f835",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "all_git_blobs_text_only": true,
+  "under_50MB": true,
+  "no_raw_mesh_arrays_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-19_rw_head_neck_oracle/audit.py": "84b9d7c21fdb977476b457ba5148a8f65f9f9452af8662c9d9ba3f436ab6cce3",
+    "runs/2026-11-19_rw_head_neck_oracle/brief.md": "78bf2b3cc77bdc5c1471e3c1f7e1e74f26cd38e5a7748f5994c68e5d796ede10",
+    "runs/2026-11-19_rw_head_neck_oracle/evidence/audit.json": "3462e105fa2fd73c9295fe38b6de0e9fbcf6777dde9ea20cf00b62ddda33ab38",
+    "runs/2026-11-19_rw_head_neck_oracle/evidence/execution.json": "3cd08a9e5bf2e19c0cda887eaa7a42c2f0df5a55b3f87e3f3943cc7f081ad261",
+    "runs/2026-11-19_rw_head_neck_oracle/evidence/preparation.json": "f83247b72adc847b4af3307161a94540aabd8d8cdac90595c8f981e66fbc3f19",
+    "runs/2026-11-19_rw_head_neck_oracle/evidence/results.json": "0fc7fb0560cef77db7de38ec782960b1ddaf90816eeb9ff5ce3db3d28664a6cb",
+    "runs/2026-11-19_rw_head_neck_oracle/evidence/summary.json": "8586802a5ca5b463d6dbd58be034a1b0d3fcf607b2c5c629bf582c896d1882d8",
+    "runs/2026-11-19_rw_head_neck_oracle/preview.py": "062b0a48e7a2905e7ecebeb5fa07c010797b1f5e3f63499fd4b5130e18f69f3e",
+    "runs/2026-11-19_rw_head_neck_oracle/report.md": "f0f4fef4088235582e116e68c45bc7a0e62d6c33d369558fafb90d8475cf6f26",
+    "runs/2026-11-19_rw_head_neck_oracle/review.md": "5e36263f2b96da7fd046c719a1f0839317ec3b57f902a4ea5cd24692f633c51c",
+    "runs/2026-11-19_rw_head_neck_oracle/run.py": "3225caedcef9dec0a7685627d89070216671e34b9a501abb670eb95b484bcf1c"
+  },
+  "command": "git diff --cached --check; check_increment.py record, verify; git diff --check <baseline> HEAD; check_increment.py commit; remote HEAD checked before push."
+}
