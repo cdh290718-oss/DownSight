@@ -1,0 +1,936 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "model": "original",
+      "mpjpe12_mm": 482.79986563269244,
+      "pa12_mm": 266.6132503707045,
+      "legacy15_mm": 609.8300705429598,
+      "legacy15_pa_mm": 266.96548426782465,
+      "mapped15_mm": 612.9522026497475,
+      "mapped15_pa_mm": 290.33061252237746,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 103409.55169648571,
+            "fit_vs_gt": 359805.49901705375,
+            "detection_vs_gt": 538593.1446628792
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 30376.30750964828,
+            "fit_vs_gt": 356686.4456878427,
+            "detection_vs_gt": 374962.25453512213
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body02",
+      "model": "original",
+      "mpjpe12_mm": 421.1245256308942,
+      "pa12_mm": 285.82677091335125,
+      "legacy15_mm": 532.4918372443818,
+      "legacy15_pa_mm": 283.8174626317442,
+      "mapped15_mm": 546.0794947799311,
+      "mapped15_pa_mm": 308.01451750629445,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 45619.34457443415,
+            "fit_vs_gt": 242211.7221035189,
+            "detection_vs_gt": 333252.77774854715
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 29461.876353856846,
+            "fit_vs_gt": 247167.45289127144,
+            "detection_vs_gt": 239248.492373712
+          }
+        }
+      ],
+      "converged": true
+    },
+    {
+      "pair": "body03",
+      "model": "original",
+      "mpjpe12_mm": 542.0587735797142,
+      "pa12_mm": 227.3753613264757,
+      "legacy15_mm": 661.4958426835393,
+      "legacy15_pa_mm": 228.27368615425007,
+      "mapped15_mm": 668.0630092510103,
+      "mapped15_pa_mm": 250.36662984501152,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 51612.38235762126,
+            "fit_vs_gt": 484977.0024863199,
+            "detection_vs_gt": 473220.5156720503
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 68866.80999419937,
+            "fit_vs_gt": 483018.3900747126,
+            "detection_vs_gt": 590379.3477649367
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body04",
+      "model": "original",
+      "mpjpe12_mm": 133.25908744914153,
+      "pa12_mm": 123.57712609627659,
+      "legacy15_mm": 167.88498724120407,
+      "legacy15_pa_mm": 158.0040145930248,
+      "mapped15_mm": 181.7102660945938,
+      "mapped15_pa_mm": 165.65674650248238,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 36130.82058511879,
+            "fit_vs_gt": 45220.109275059156,
+            "detection_vs_gt": 7480.014024008191
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 165150.67269459506,
+            "fit_vs_gt": 44650.96444769215,
+            "detection_vs_gt": 295427.7137374212
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body05",
+      "model": "original",
+      "mpjpe12_mm": 282.90949375180503,
+      "pa12_mm": 199.387319914105,
+      "legacy15_mm": 315.07886726915547,
+      "legacy15_pa_mm": 189.80124227023083,
+      "mapped15_mm": 331.82425871053397,
+      "mapped15_pa_mm": 196.16963542840188,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 151604.503157946,
+            "fit_vs_gt": 94071.18273746477,
+            "detection_vs_gt": 352268.636813726
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 8932.061613160993,
+            "fit_vs_gt": 89949.2332175944,
+            "detection_vs_gt": 80686.41700830503
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body06",
+      "model": "original",
+      "mpjpe12_mm": 131.2140608415078,
+      "pa12_mm": 107.50520252182528,
+      "legacy15_mm": 134.80115164069053,
+      "legacy15_pa_mm": 101.31269384098681,
+      "mapped15_mm": 156.30931585085406,
+      "mapped15_pa_mm": 106.85855220052566,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 7085.891598761969,
+            "fit_vs_gt": 14028.939536607275,
+            "detection_vs_gt": 5183.843035128719
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 131970.3208327904,
+            "fit_vs_gt": 13593.485181209442,
+            "detection_vs_gt": 194560.56446025113
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body07",
+      "model": "original",
+      "mpjpe12_mm": 556.985791524846,
+      "pa12_mm": 250.08326556437817,
+      "legacy15_mm": 693.9146115143533,
+      "legacy15_pa_mm": 268.04720245291867,
+      "mapped15_mm": 695.051947132302,
+      "mapped15_pa_mm": 291.34652941961525,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 46222.154397757186,
+            "fit_vs_gt": 546203.6714669846,
+            "detection_vs_gt": 632618.4151856175
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 89746.56227382536,
+            "fit_vs_gt": 547922.4790529653,
+            "detection_vs_gt": 631912.1942391696
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body08",
+      "model": "original",
+      "mpjpe12_mm": 501.8628828315278,
+      "pa12_mm": 230.556206122507,
+      "legacy15_mm": 629.3100662966618,
+      "legacy15_pa_mm": 236.10142389536924,
+      "mapped15_mm": 637.4095049308422,
+      "mapped15_pa_mm": 259.4458223109324,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 26248.542888939664,
+            "fit_vs_gt": 444893.83670560806,
+            "detection_vs_gt": 459006.2659097542
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 34226.293565536114,
+            "fit_vs_gt": 438498.06553075375,
+            "detection_vs_gt": 488864.4834023636
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body09",
+      "model": "original",
+      "mpjpe12_mm": 171.8347113064791,
+      "pa12_mm": 121.62309231689687,
+      "legacy15_mm": 196.13561883027373,
+      "legacy15_pa_mm": 130.97309918169256,
+      "mapped15_mm": 213.424570259479,
+      "mapped15_pa_mm": 135.57176803117525,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 6722.512444608783,
+            "fit_vs_gt": 30829.02719392492,
+            "detection_vs_gt": 20043.783314258962
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 389434.11275466596,
+            "fit_vs_gt": 31153.01113428663,
+            "detection_vs_gt": 524588.3874099884
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body10",
+      "model": "original",
+      "mpjpe12_mm": 172.06447882654118,
+      "pa12_mm": 120.71832287021454,
+      "legacy15_mm": 184.7024598371827,
+      "legacy15_pa_mm": 142.64110865495286,
+      "mapped15_mm": 195.36388352164957,
+      "mapped15_pa_mm": 144.50618057376113,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 263943.90477948735,
+            "fit_vs_gt": 35262.125262465626,
+            "detection_vs_gt": 358046.4529401763
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 132675.25063831787,
+            "fit_vs_gt": 33415.27735010842,
+            "detection_vs_gt": 181397.06604388042
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body01",
+      "model": "rw5000",
+      "mpjpe12_mm": 55.922624301706584,
+      "pa12_mm": 38.85908093989602,
+      "legacy15_mm": 85.87389287142754,
+      "legacy15_pa_mm": 59.04532300718432,
+      "mapped15_mm": 55.809110912218244,
+      "mapped15_pa_mm": 40.721152539499194,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2414.454118590752,
+            "fit_vs_gt": 3931.17174204732,
+            "detection_vs_gt": 2477.6455989215983
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2205.8959705457405,
+            "fit_vs_gt": 4057.2461890106297,
+            "detection_vs_gt": 2124.8618024243283
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body02",
+      "model": "rw5000",
+      "mpjpe12_mm": 50.79459059266236,
+      "pa12_mm": 37.20752016156647,
+      "legacy15_mm": 83.30880758899578,
+      "legacy15_pa_mm": 67.61416940246764,
+      "mapped15_mm": 53.26970963022967,
+      "mapped15_pa_mm": 33.175895546815276,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2609.0916130617716,
+            "fit_vs_gt": 3917.4983798100056,
+            "detection_vs_gt": 485.3323927476419
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2798.9012168146037,
+            "fit_vs_gt": 3070.615422532338,
+            "detection_vs_gt": 1790.2688895544925
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body03",
+      "model": "rw5000",
+      "mpjpe12_mm": 80.92976297522459,
+      "pa12_mm": 72.9036563615205,
+      "legacy15_mm": 97.1119370248115,
+      "legacy15_pa_mm": 82.21181210963552,
+      "mapped15_mm": 71.20194095922942,
+      "mapped15_pa_mm": 65.74155748282512,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 9302.107722478642,
+            "fit_vs_gt": 14285.62376639402,
+            "detection_vs_gt": 2399.6536056419773
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3579.338638346114,
+            "fit_vs_gt": 13527.33511642856,
+            "detection_vs_gt": 17461.809261593913
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body04",
+      "model": "rw5000",
+      "mpjpe12_mm": 55.98687149452946,
+      "pa12_mm": 44.98599710573837,
+      "legacy15_mm": 79.45687918934351,
+      "legacy15_pa_mm": 68.17640366574965,
+      "mapped15_mm": 62.477530572506744,
+      "mapped15_pa_mm": 47.30043031419215,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3629.1738839535615,
+            "fit_vs_gt": 5248.800511604855,
+            "detection_vs_gt": 1939.5723244820126
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 4778.628982397706,
+            "fit_vs_gt": 4271.171451914247,
+            "detection_vs_gt": 1710.7020021157807
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body05",
+      "model": "rw5000",
+      "mpjpe12_mm": 56.99110244711008,
+      "pa12_mm": 55.57431876345204,
+      "legacy15_mm": 75.32467632131865,
+      "legacy15_pa_mm": 68.44895880569497,
+      "mapped15_mm": 56.15791433251683,
+      "mapped15_pa_mm": 55.40939461682507,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3032.0224339849146,
+            "fit_vs_gt": 7935.674957955836,
+            "detection_vs_gt": 14055.02058102139
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 7471.566666793557,
+            "fit_vs_gt": 8461.017196929952,
+            "detection_vs_gt": 1279.1767469585843
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body06",
+      "model": "rw5000",
+      "mpjpe12_mm": 65.03924886770658,
+      "pa12_mm": 58.75900081874675,
+      "legacy15_mm": 88.82886622572923,
+      "legacy15_pa_mm": 77.66021904714587,
+      "mapped15_mm": 58.580392430180325,
+      "mapped15_pa_mm": 50.7937575004925,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2426.386356044385,
+            "fit_vs_gt": 5524.15844658402,
+            "detection_vs_gt": 1916.040204797116
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3170.9413631243597,
+            "fit_vs_gt": 5187.120654316523,
+            "detection_vs_gt": 1793.3099411218434
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body07",
+      "model": "rw5000",
+      "mpjpe12_mm": 51.193048794723495,
+      "pa12_mm": 41.236943054919905,
+      "legacy15_mm": 69.3998395475546,
+      "legacy15_pa_mm": 58.56059175872883,
+      "mapped15_mm": 52.82199636187711,
+      "mapped15_pa_mm": 41.95336359903103,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 1823.768725290116,
+            "fit_vs_gt": 2837.8046064594146,
+            "detection_vs_gt": 1474.306261796707
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 1537.3984168712982,
+            "fit_vs_gt": 2770.6633235816744,
+            "detection_vs_gt": 1235.181210474792
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body08",
+      "model": "rw5000",
+      "mpjpe12_mm": 43.95935806399398,
+      "pa12_mm": 31.28560526342406,
+      "legacy15_mm": 72.17089275558625,
+      "legacy15_pa_mm": 61.27849023861008,
+      "mapped15_mm": 43.293668783984444,
+      "mapped15_pa_mm": 29.96485717470348,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2787.746056892543,
+            "fit_vs_gt": 4332.650928157437,
+            "detection_vs_gt": 916.3108722644997
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2858.1940944982243,
+            "fit_vs_gt": 3705.644230378729,
+            "detection_vs_gt": 1266.1153864873295
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body09",
+      "model": "rw5000",
+      "mpjpe12_mm": 59.17932981180978,
+      "pa12_mm": 52.65545782469524,
+      "legacy15_mm": 76.94338649176164,
+      "legacy15_pa_mm": 68.73027577523794,
+      "mapped15_mm": 58.87582006083817,
+      "mapped15_pa_mm": 55.1897254974989,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 5752.005294193942,
+            "fit_vs_gt": 8916.3371896516,
+            "detection_vs_gt": 2491.191623085485
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 4205.842467185915,
+            "fit_vs_gt": 7048.741012984445,
+            "detection_vs_gt": 9041.14748117339
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body10",
+      "model": "rw5000",
+      "mpjpe12_mm": 58.6614904134883,
+      "pa12_mm": 46.67992604799804,
+      "legacy15_mm": 79.71139603731494,
+      "legacy15_pa_mm": 72.40692499103325,
+      "mapped15_mm": 56.924700291600175,
+      "mapped15_pa_mm": 47.901308030807165,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3451.4931999780583,
+            "fit_vs_gt": 5754.426180246875,
+            "detection_vs_gt": 2087.7194385015473
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2431.9779939626424,
+            "fit_vs_gt": 4363.365007828492,
+            "detection_vs_gt": 3203.1048435982866
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body01",
+      "model": "rw20000",
+      "mpjpe12_mm": 50.669490313807735,
+      "pa12_mm": 32.312784601174556,
+      "legacy15_mm": 79.2232566378591,
+      "legacy15_pa_mm": 57.64838700841826,
+      "mapped15_mm": 51.56465683483068,
+      "mapped15_pa_mm": 35.13719770497315,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 1813.5175118979732,
+            "fit_vs_gt": 3198.5820941263673,
+            "detection_vs_gt": 1851.8480599656386
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2048.0299339188778,
+            "fit_vs_gt": 3277.287252140415,
+            "detection_vs_gt": 1094.308640479017
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body02",
+      "model": "rw20000",
+      "mpjpe12_mm": 45.27780208468618,
+      "pa12_mm": 35.096214942356575,
+      "legacy15_mm": 76.37157603673799,
+      "legacy15_pa_mm": 65.84975909438442,
+      "mapped15_mm": 45.94169820747501,
+      "mapped15_pa_mm": 32.36118299861999,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2574.6263446645507,
+            "fit_vs_gt": 3694.7864595034357,
+            "detection_vs_gt": 614.9745004384595
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2384.43522775544,
+            "fit_vs_gt": 2873.509846286369,
+            "detection_vs_gt": 1183.766124954637
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body03",
+      "model": "rw20000",
+      "mpjpe12_mm": 72.05113322722917,
+      "pa12_mm": 62.12864771306837,
+      "legacy15_mm": 90.07959462720258,
+      "legacy15_pa_mm": 72.97127190237296,
+      "mapped15_mm": 62.64532930038487,
+      "mapped15_pa_mm": 57.53847188470593,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 5460.7660806877975,
+            "fit_vs_gt": 9381.73969753438,
+            "detection_vs_gt": 2913.7982806543805
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3552.309580221018,
+            "fit_vs_gt": 9159.318762015322,
+            "detection_vs_gt": 9193.964070642101
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body04",
+      "model": "rw20000",
+      "mpjpe12_mm": 43.99617089473698,
+      "pa12_mm": 34.4246223164677,
+      "legacy15_mm": 68.88837438128571,
+      "legacy15_pa_mm": 60.475616956238106,
+      "mapped15_mm": 46.21139153547494,
+      "mapped15_pa_mm": 36.31157924555315,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3625.7651273194538,
+            "fit_vs_gt": 4742.179727781812,
+            "detection_vs_gt": 1619.2137035150486
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 4300.510446745595,
+            "fit_vs_gt": 3871.0389012573946,
+            "detection_vs_gt": 1315.9514161753082
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body05",
+      "model": "rw20000",
+      "mpjpe12_mm": 44.10205621623642,
+      "pa12_mm": 36.45289955718876,
+      "legacy15_mm": 62.99925359813016,
+      "legacy15_pa_mm": 58.05367774444044,
+      "mapped15_mm": 45.87185838163102,
+      "mapped15_pa_mm": 39.716999673810584,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2326.278511674801,
+            "fit_vs_gt": 3896.0528969814936,
+            "detection_vs_gt": 2456.9615135719478
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3106.2435690077928,
+            "fit_vs_gt": 3835.5595139165403,
+            "detection_vs_gt": 1579.9182843607846
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body06",
+      "model": "rw20000",
+      "mpjpe12_mm": 66.5903507538854,
+      "pa12_mm": 62.952775602760425,
+      "legacy15_mm": 89.5716688042799,
+      "legacy15_pa_mm": 80.86307887718318,
+      "mapped15_mm": 59.88892445410799,
+      "mapped15_pa_mm": 53.938531054603956,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2675.5226547672755,
+            "fit_vs_gt": 5685.4653737726585,
+            "detection_vs_gt": 1942.209703266525
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3055.577171250634,
+            "fit_vs_gt": 5207.721193838639,
+            "detection_vs_gt": 2004.6707261721526
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body07",
+      "model": "rw20000",
+      "mpjpe12_mm": 60.314578378598014,
+      "pa12_mm": 48.12802747728755,
+      "legacy15_mm": 81.51175769902034,
+      "legacy15_pa_mm": 67.75591121379435,
+      "mapped15_mm": 63.453622050791054,
+      "mapped15_pa_mm": 49.86232207677712,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 1750.9853320856216,
+            "fit_vs_gt": 3578.657488880824,
+            "detection_vs_gt": 1485.9553025138707
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 1816.4651705670242,
+            "fit_vs_gt": 3469.953374239806,
+            "detection_vs_gt": 2710.922326719482
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body08",
+      "model": "rw20000",
+      "mpjpe12_mm": 43.64815884327422,
+      "pa12_mm": 30.90766834223775,
+      "legacy15_mm": 71.31645054526408,
+      "legacy15_pa_mm": 60.701097473793794,
+      "mapped15_mm": 43.514088899060326,
+      "mapped15_pa_mm": 29.998931991651798,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2825.7713653692604,
+            "fit_vs_gt": 4284.2822305548525,
+            "detection_vs_gt": 987.4742925694378
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2421.808214837836,
+            "fit_vs_gt": 3626.2318345196645,
+            "detection_vs_gt": 1047.5956693219623
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body09",
+      "model": "rw20000",
+      "mpjpe12_mm": 51.57427903638901,
+      "pa12_mm": 39.40644732652559,
+      "legacy15_mm": 69.34043450209212,
+      "legacy15_pa_mm": 59.26872286965664,
+      "mapped15_mm": 49.531977399240006,
+      "mapped15_pa_mm": 38.73281122219219,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 5100.587419124862,
+            "fit_vs_gt": 8054.203143809685,
+            "detection_vs_gt": 1897.658830511505
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 4449.024643976888,
+            "fit_vs_gt": 6454.52339333045,
+            "detection_vs_gt": 9096.56005955947
+          }
+        }
+      ],
+      "converged": false
+    },
+    {
+      "pair": "body10",
+      "model": "rw20000",
+      "mpjpe12_mm": 48.43867486298172,
+      "pa12_mm": 41.15687925586109,
+      "legacy15_mm": 69.68868583392204,
+      "legacy15_pa_mm": 65.31803142412546,
+      "mapped15_mm": 46.34708794596872,
+      "mapped15_pa_mm": 40.527647271602376,
+      "views": [
+        {
+          "side": "left",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 3009.6003893721836,
+            "fit_vs_gt": 4900.453784779763,
+            "detection_vs_gt": 1812.9609195979665
+          }
+        },
+        {
+          "side": "right",
+          "points": 12,
+          "squared_error_px2": {
+            "fit_vs_detection": 2176.303623296966,
+            "fit_vs_gt": 3463.8724648205834,
+            "detection_vs_gt": 1448.8067940891756
+          }
+        }
+      ],
+      "converged": false
+    }
+  ],
+  "gt_sha256": "def573431931003bdc8e09844261f432b1c609868ea8ad69e6354d2ad601eb45",
+  "fit_npz_sha256": "adc94d9b7d244d463b450b11b5b12e0d18f6be1bd316d846003d008b7b56d36d"
+}

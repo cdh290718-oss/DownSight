@@ -1,0 +1,187 @@
+{
+  "source_sha256": "fa32a9c814e5cc6251312643ab4356b40744494bebf35f2225647e7cb77bd26e",
+  "solver_input_sha256": "4034b66f151969ce4f34ff08d7a694ac224c809a591a201e54b1c1347daa6787",
+  "protocol_sha256": "488d163f2c37421bb0c746eb48ff307eb35a3de6999f44f5fd4a46206790a904",
+  "rows": [
+    {
+      "pair": "body01",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body02",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body03",
+      "model": "original",
+      "stereo_seed_issue": "unstable stereo rays",
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body04",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body05",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body06",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body07",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body08",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body09",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body10",
+      "model": "original",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body01",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body02",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body03",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body04",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body05",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body06",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body07",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body08",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body09",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body10",
+      "model": "rw5000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body01",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body02",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body03",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body04",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body05",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body06",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body07",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body08",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body09",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    },
+    {
+      "pair": "body10",
+      "model": "rw20000",
+      "stereo_seed_issue": null,
+      "valid_view_points": 24
+    }
+  ]
+}

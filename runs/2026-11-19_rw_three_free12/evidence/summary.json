@@ -1,0 +1,97 @@
+{
+  "ten_pairs": {
+    "original": {
+      "mpjpe12_mm": 339.611367137515,
+      "pa12_mm": 193.3265918016735,
+      "legacy15_mm": 412.5645513100402,
+      "legacy15_pa_mm": 200.59374179429946,
+      "mapped15_mm": 423.81884531809436,
+      "mapped15_pa_mm": 214.82669943405773,
+      "fit_vs_detection_rmse_px": 87.06893525419378,
+      "fit_vs_gt_rmse_px": 138.19608533338663,
+      "detection_vs_gt_rmse_px": 168.09893875187137,
+      "points": 240,
+      "converged": 1
+    },
+    "rw5000": {
+      "mpjpe12_mm": 57.86574277629552,
+      "pa12_mm": 48.01475063419574,
+      "legacy15_mm": 80.81305740538436,
+      "legacy15_pa_mm": 68.41331688014881,
+      "mapped15_mm": 56.94127843351811,
+      "mapped15_pa_mm": 46.815144230268984,
+      "fit_vs_detection_rmse_px": 17.352585688090894,
+      "fit_vs_gt_rmse_px": 22.28107065751264,
+      "detection_vs_gt_rmse_px": 17.21778035306849,
+      "points": 240,
+      "converged": 0
+    },
+    "rw20000": {
+      "mpjpe12_mm": 52.66626946118248,
+      "pa12_mm": 42.296696713492835,
+      "legacy15_mm": 75.89910526657938,
+      "legacy15_pa_mm": 64.89055545644077,
+      "mapped15_mm": 51.49706350089646,
+      "mapped15_pa_mm": 41.41256751244903,
+      "fit_vs_detection_rmse_px": 15.873737261923894,
+      "fit_vs_gt_rmse_px": 20.068156724241273,
+      "detection_vs_gt_rmse_px": 14.180314879419825,
+      "points": 240,
+      "converged": 0
+    }
+  },
+  "detector_only_other_splits": {
+    "original": {
+      "validation": {
+        "images": 400,
+        "points": 4789,
+        "radial_rmse_px": 84.95710715229345
+      },
+      "same_person": {
+        "images": 100,
+        "points": 1200,
+        "radial_rmse_px": 158.47678326013494
+      },
+      "test_available": {
+        "images": 46,
+        "points": 552,
+        "radial_rmse_px": 139.77861741829665
+      }
+    },
+    "rw5000": {
+      "validation": {
+        "images": 400,
+        "points": 4789,
+        "radial_rmse_px": 16.710114873338462
+      },
+      "same_person": {
+        "images": 100,
+        "points": 1200,
+        "radial_rmse_px": 17.73793331891102
+      },
+      "test_available": {
+        "images": 46,
+        "points": 552,
+        "radial_rmse_px": 13.125379874289948
+      }
+    },
+    "rw20000": {
+      "validation": {
+        "images": 400,
+        "points": 4789,
+        "radial_rmse_px": 15.97019062426123
+      },
+      "same_person": {
+        "images": 100,
+        "points": 1200,
+        "radial_rmse_px": 15.707349942157295
+      },
+      "test_available": {
+        "images": 46,
+        "points": 552,
+        "radial_rmse_px": 12.487512780423161
+      }
+    }
+  },
+  "previous_four_max_error_delta_mm": 1.4262599883352323e-05
+}

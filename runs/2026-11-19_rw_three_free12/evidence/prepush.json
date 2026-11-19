@@ -1,0 +1,23 @@
+{
+  "baseline": "ce5a8ad65b9c98f7952559ff895d8d1f4ddbf97d",
+  "remote_before_commit": "ce5a8ad65b9c98f7952559ff895d8d1f4ddbf97d",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "all_git_blobs_text_only": true,
+  "under_50MB": true,
+  "no_raw_mesh_arrays_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-19_rw_three_free12/brief.md": "37b6879e48e150a75d1dd20576892fb210ddf61500c10a838a033aa8d5514992",
+    "runs/2026-11-19_rw_three_free12/evidence/execution.json": "23e7f02078c9306e409e43dee6398dcb14125e80d6c33f5bea6672df0012fe8f",
+    "runs/2026-11-19_rw_three_free12/evidence/inputs.json": "eed229bf8dc85f43e9b9c3fed840da26e745beebd34ab0447433cdffb87b4732",
+    "runs/2026-11-19_rw_three_free12/evidence/results.json": "c6ce7559996bc90e9ca129c557ea2be2ce763fa52df7060bd2ca6e2446245bea",
+    "runs/2026-11-19_rw_three_free12/evidence/summary.json": "d1b5297f189f1a59cf2dc88409c7bfa8adb5e8b7032df8aff8fd393d115c78a3",
+    "runs/2026-11-19_rw_three_free12/experiment.py": "d6e8456ebf272bfc211d1fa1459bf4b5bfef18e4d3f3672b37c34f4f580ef299",
+    "runs/2026-11-19_rw_three_free12/metrics.py": "6e4ce6fb31cfeacbc8d7827b519e4f0db226b633ca181a7a2bc1f1da3ebcc788",
+    "runs/2026-11-19_rw_three_free12/report.md": "069bec9ec4cb4969265c7091c7996d380cdc7e11d80bb800a16f134efed94f05",
+    "runs/2026-11-19_rw_three_free12/review.md": "af06a38c18e79a6d888246476c3526d9b1b28da3a619fe4d125a3d717251ecc5"
+  },
+  "command": "git diff --cached --check; check_increment.py record, verify; git diff --check <baseline> HEAD; check_increment.py commit; remote HEAD checked before push."
+}
