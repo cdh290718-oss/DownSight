@@ -1,0 +1,197 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "mode": "auto_fixed",
+      "source_obj_sha256": "02677efff41bbcbfc7b844f72779aaebd441432d546356a7a013f31df8c757cd",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20441,
+          "rejected": 467,
+          "covered_pixels": 82158
+        },
+        {
+          "view": "right",
+          "drawn": 20470,
+          "rejected": 438,
+          "covered_pixels": 72887
+        }
+      ],
+      "images": {
+        "auto_fixed__obj.jpg": "056480afbf8466d57567e34dc34504ab15786e69f61a12dc775d7227d7e2763f",
+        "auto_fixed__left.jpg": "38ec2d301e3d5b4a68ba959035fbeb7e3f8c50c76eb784ba36c24e5841f31a4c",
+        "auto_fixed__right.jpg": "1acc19773d5e5d88eac04a328a4bdc77942d15ddf34145c8791919cb385dd2b2"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "auto_body",
+      "source_obj_sha256": "bc31fdde278b26da7daf434e6fdc5fdb5005970ee471ed0bea42001dfaae5f50",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20441,
+          "rejected": 467,
+          "covered_pixels": 82105
+        },
+        {
+          "view": "right",
+          "drawn": 20472,
+          "rejected": 436,
+          "covered_pixels": 72878
+        }
+      ],
+      "images": {
+        "auto_body__obj.jpg": "b36a11f75e157c356d38dded1533c9d3ac1670b98ee8482e307843b5a9e71a36",
+        "auto_body__left.jpg": "015c77a3d7983cffef8699b4aaf89088ff4d752f5b7005be6114533e9fed8830",
+        "auto_body__right.jpg": "0895cc519cd4fdda03a22087e6b42f679987c66f9351080059fae1131b3a191c"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto_fixed",
+      "source_obj_sha256": "4d89a860dc2b1be283d9ffc09367df2c62d37a9677bd011ecb810144de6f3ef6",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20332,
+          "rejected": 576,
+          "covered_pixels": 84373
+        },
+        {
+          "view": "right",
+          "drawn": 20364,
+          "rejected": 544,
+          "covered_pixels": 89479
+        }
+      ],
+      "images": {
+        "auto_fixed__obj.jpg": "c903abbb0e543fd169a4e00647aebb195fd954d9974b2320b9675e891588d991",
+        "auto_fixed__left.jpg": "917d8a315be5b42bb27d120db4c392d11867ec3512b3736cc62c8638f80d1b27",
+        "auto_fixed__right.jpg": "b4182302a7729801767a71071adb5cc742ecd5a8d104d9eaa30768898beb703c"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto_body",
+      "source_obj_sha256": "a5b0f96b9e5293791b6e06173d7937f4e5f3e296a6d26dc317b43a8666c7d21f",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20332,
+          "rejected": 576,
+          "covered_pixels": 84626
+        },
+        {
+          "view": "right",
+          "drawn": 20364,
+          "rejected": 544,
+          "covered_pixels": 89532
+        }
+      ],
+      "images": {
+        "auto_body__obj.jpg": "6b863d7dc204aa49e58fe5b70d469a886dd454df943cdb0f372f160504f442f2",
+        "auto_body__left.jpg": "a68fcd406d91779c1af0f88055a7a3d310887f30a479ce1ce829bd17589cd66f",
+        "auto_body__right.jpg": "23b5b6720429e0cc131b37e4d66489bf79a2f748f9a2ea6a7c4b7fef75477409"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto_fixed",
+      "source_obj_sha256": "013f5548396da60eb05a6842608b6c5e09b4b3f78cef653416964eff2122966d",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20378,
+          "rejected": 530,
+          "covered_pixels": 77934
+        },
+        {
+          "view": "right",
+          "drawn": 20418,
+          "rejected": 490,
+          "covered_pixels": 77380
+        }
+      ],
+      "images": {
+        "auto_fixed__obj.jpg": "2bf982a682f54520ab0744733fdffe869845e0646d4c2157961ae04d71437bd4",
+        "auto_fixed__left.jpg": "a6d49037d2b58cffe36621cd79165094ebdc98c54b11da0b87aa55ff12ee26c0",
+        "auto_fixed__right.jpg": "39a09099d5a4abc1d68a798ea3c2dd439e6b112213b4a470f83a28e9758462e2"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto_body",
+      "source_obj_sha256": "61221fbc526aa992b44038cc4b1b9f5351270591a2fd9bac2dd6c81283e0ef31",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20378,
+          "rejected": 530,
+          "covered_pixels": 77827
+        },
+        {
+          "view": "right",
+          "drawn": 20418,
+          "rejected": 490,
+          "covered_pixels": 77138
+        }
+      ],
+      "images": {
+        "auto_body__obj.jpg": "e634575068de6546c62b1a5859b050f970537fb240216e7d2f4fa9b6b987b3b8",
+        "auto_body__left.jpg": "e7aa9a4c4fe64f68d673b60136efa67e7f739bdfdcc58805ded17a15a5e1e587",
+        "auto_body__right.jpg": "f9c74076dca609b911265f6dc4fc89c2b768c99a4f84230f4428ca48e8a420e2"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto_fixed",
+      "source_obj_sha256": "6a52b44a6f8f053fca71215d9ed5289688f3504f9bb6f7bccc5821399d263108",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20470,
+          "rejected": 438,
+          "covered_pixels": 84471
+        },
+        {
+          "view": "right",
+          "drawn": 20496,
+          "rejected": 412,
+          "covered_pixels": 87830
+        }
+      ],
+      "images": {
+        "auto_fixed__obj.jpg": "7dc0f76b4277bef064a8d39590064dad84c8ab897f3a96e53d93f64e7f1ed90b",
+        "auto_fixed__left.jpg": "82f9fcf5b2438f7f9135abbeff3457e9986ed5b9b243d296da6e849c04fb82a2",
+        "auto_fixed__right.jpg": "849820da76bf61a5e0bac4e3701e94e1fb0198233c46b500e1ac8672b0dbe631"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto_body",
+      "source_obj_sha256": "b452ec5dbd115baa0098461c48422cbfb66f1282ca68a956fee650b0f2a324ef",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20474,
+          "rejected": 434,
+          "covered_pixels": 84559
+        },
+        {
+          "view": "right",
+          "drawn": 20501,
+          "rejected": 407,
+          "covered_pixels": 87937
+        }
+      ],
+      "images": {
+        "auto_body__obj.jpg": "c328140bc1f308f396007dd5d285c93e198744c851b6afc01d1fdf062474c8f3",
+        "auto_body__left.jpg": "13076b2c39a6b668957e72a08812c767a5bded859fda90904e9bf46c378a4cd8",
+        "auto_body__right.jpg": "c63ba0644c59dce899ed034e0c0c43dc6c09cb53233869638e752e43f02a7375"
+      }
+    }
+  ],
+  "source": "OBJ reread and verified against intended export; triangle depth-tested in each original camera; no scene depth."
+}
