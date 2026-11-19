@@ -1,0 +1,88 @@
+{
+  "means": {
+    "history": {
+      "common12_mm": 53.46659531508103,
+      "mapped15_nonpa_mm": 52.24768469310561,
+      "mapped15_pa_mm": 40.787237902310515,
+      "matched12_reproj_px": 12.693609410180658,
+      "head_position_mm": 1.560207968071879,
+      "head_chest_deg": 7.823673104777728e-15
+    },
+    "proxy": {
+      "common12_mm": 53.37436825334991,
+      "mapped15_nonpa_mm": 51.84512700736256,
+      "mapped15_pa_mm": 40.64427758831308,
+      "matched12_reproj_px": 12.68736871579035,
+      "head_position_mm": 1.5588238510785215,
+      "head_chest_deg": 5.0834078650752446e-15
+    },
+    "fixed": {
+      "common12_mm": 54.79322329123053,
+      "mapped15_nonpa_mm": 53.084361836551636,
+      "mapped15_pa_mm": 41.34917233926775,
+      "matched12_reproj_px": 12.67111639522445,
+      "head_position_mm": 1.559690553576766,
+      "head_chest_deg": 7.350302363218063e-15
+    },
+    "body": {
+      "common12_mm": 52.99864570379735,
+      "mapped15_nonpa_mm": 51.59076605831467,
+      "mapped15_pa_mm": 40.33710472694741,
+      "matched12_reproj_px": 12.690617891579608,
+      "head_position_mm": 1.5607993880085513,
+      "head_chest_deg": 1.7395886407043536e-14
+    }
+  },
+  "mean_difference_from_archived_controls": {
+    "fixed": {
+      "common12_mm": 0.0,
+      "mapped15_nonpa_mm": 0.0,
+      "mapped15_pa_mm": 0.0,
+      "matched12_reproj_px": 0.0,
+      "head_position_mm": 0.0,
+      "head_chest_deg": 0.0
+    },
+    "body": {
+      "common12_mm": 0.0,
+      "mapped15_nonpa_mm": 0.0,
+      "mapped15_pa_mm": 0.0,
+      "matched12_reproj_px": 0.0,
+      "head_position_mm": 0.0,
+      "head_chest_deg": 0.0
+    },
+    "proxy": {
+      "common12_mm": 0.00557221737119562,
+      "mapped15_nonpa_mm": 0.0030368888434892938,
+      "mapped15_pa_mm": -0.0008202594478703418,
+      "matched12_reproj_px": -0.0003589530412195785,
+      "head_position_mm": -0.0011064968587410906,
+      "head_chest_deg": -7.997317913164595e-15
+    }
+  },
+  "three_D_mm_by_pair": {
+    "history": {
+      "body01": 50.55121209319584,
+      "body02": 48.49066353657763,
+      "body03": 61.6381270378924,
+      "body04": 48.3107361047566
+    },
+    "proxy": {
+      "body01": 51.19999119656887,
+      "body02": 46.625593634626014,
+      "body03": 63.665917335881616,
+      "body04": 45.88900586237376
+    },
+    "fixed": {
+      "body01": 52.20508731348692,
+      "body02": 49.20036071354984,
+      "body03": 65.57412490282483,
+      "body04": 45.35787441634495
+    },
+    "body": {
+      "body01": 51.5646651532538,
+      "body02": 45.94169825284908,
+      "body03": 62.64532355428075,
+      "body04": 46.211377272875055
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "backend": "EgoSMPLX",
+  "weight_sha256": "c7d30f04d13ed80f1941226458a43dfd50fc0ab0e5902701b6c9895e1f92a3b3",
+  "archive": "benchmark_body_hand10_head01_20261014_v1",
+  "records": [
+    {
+      "pair": "body01_left",
+      "checkpoint_id": "output/train_5datasets_8gpu_camtrans_w10_12ep_fixed_20260809_20260809_163018/model_dump/snapshot_11.pth.tar",
+      "config_sha256": "8cf13da7ca7e6e426cd72620a41ea4c86baeb310e0e2e45e0189577fc1675ebf",
+      "prediction_manifest_sha256": "151690a0e6f39cf6062f683fa2dcdf2793898c4c241bda3d6da0b9e1645c8a3d",
+      "backend_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "profile": "mano_guided_original_seam_20260929_v1",
+      "input_mode": "full_image",
+      "rigid_head_weight": 0.1
+    },
+    {
+      "pair": "body02_left",
+      "checkpoint_id": "output/train_5datasets_8gpu_camtrans_w10_12ep_fixed_20260809_20260809_163018/model_dump/snapshot_11.pth.tar",
+      "config_sha256": "695e8c8a5d3d772831f069fde7a05ac47601bd7ddeb3dbf9d0aa2bb444c57428",
+      "prediction_manifest_sha256": "94d412bc2c5e679b8f6d21fcceb1a368027772e43cff4359424a77d9f721b795",
+      "backend_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "profile": "mano_guided_original_seam_20260929_v1",
+      "input_mode": "full_image",
+      "rigid_head_weight": 0.1
+    },
+    {
+      "pair": "body03_left",
+      "checkpoint_id": "output/train_5datasets_8gpu_camtrans_w10_12ep_fixed_20260809_20260809_163018/model_dump/snapshot_11.pth.tar",
+      "config_sha256": "1cc06f0e05bfe524bda7ac7342093963b62f1d467319ebe2b3d41e4874ad7b57",
+      "prediction_manifest_sha256": "cff9afbddd3954e34a3eb281e4593e9a2eb4e002e4ca1f563b69966bc8b6d27f",
+      "backend_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "profile": "mano_guided_original_seam_20260929_v1",
+      "input_mode": "full_image",
+      "rigid_head_weight": 0.1
+    },
+    {
+      "pair": "body04_left",
+      "checkpoint_id": "output/train_5datasets_8gpu_camtrans_w10_12ep_fixed_20260809_20260809_163018/model_dump/snapshot_11.pth.tar",
+      "config_sha256": "363620fb239196d683ebc766a911e52c6e5b4b4968a16b3129792aaf1562bef1",
+      "prediction_manifest_sha256": "39c3748d345118d9edc3a571284c45109c56c8376cc7d43a0d9be843f5423f4a",
+      "backend_config": "config_ft_egopw_sceneego_egowholebody_unrealego_egofishbody.py",
+      "profile": "mano_guided_original_seam_20260929_v1",
+      "input_mode": "full_image",
+      "rigid_head_weight": 0.1
+    }
+  ],
+  "exit_status": 0
+}
