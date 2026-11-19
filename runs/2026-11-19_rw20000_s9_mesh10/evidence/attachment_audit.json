@@ -1,0 +1,13 @@
+{
+  "archive": "RW20000_S9_body01-10_free12_OBJ.zip",
+  "tag": "rw20000-s9-mesh10-free12-20261119",
+  "files_sha256": {
+    "RW20000_S9_body01-10_free12_OBJ.zip": "2c7bc694e2954b6c213a7cae319eee5c31709c1cc6b82cd772f9127a2fbcd00d"
+  },
+  "bytes": 3036008,
+  "objects": 10,
+  "jpeg": 40,
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> -Bu build.py",
+  "base": "8d196f217f4a54b03412ee8918bd0ecf1a6e7561"
+}
