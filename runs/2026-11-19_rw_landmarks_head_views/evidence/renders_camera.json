@@ -1,0 +1,197 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "mode": "camera_lock",
+      "source_obj_sha256": "c4f3dac719b72d3ae4760588cfccbd9d4ab00caa2a0f9e8c9a9c779c4dd3ba00",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20346,
+          "rejected": 562,
+          "covered_pixels": 91959
+        },
+        {
+          "view": "right",
+          "drawn": 20374,
+          "rejected": 534,
+          "covered_pixels": 85156
+        }
+      ],
+      "images": {
+        "camera_lock__obj.jpg": "acd30430060d912f6a1cc91b71edacde8eb7220ef13a24ab78ea1bf5ae97de5c",
+        "camera_lock__left.jpg": "a697a4b3a013de0a09908037148a2070bec44f4cf706557666caaf6d65654047",
+        "camera_lock__right.jpg": "1130d9f40a26f4c49cbf27a03ffd3ebfefd47724474ff16a9f24effdbba56e98"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "torso_caminit",
+      "source_obj_sha256": "8e2e5cb748f23c17a0ca5ea0eb564ab242e3ab819ce2d7911a9e6056731054be",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20425,
+          "rejected": 483,
+          "covered_pixels": 83874
+        },
+        {
+          "view": "right",
+          "drawn": 20470,
+          "rejected": 438,
+          "covered_pixels": 74511
+        }
+      ],
+      "images": {
+        "torso_caminit__obj.jpg": "1b0ef3de2824d47ea2e9116cf9957b9f682c7226f0862c5c4e48ba8ec6530fbc",
+        "torso_caminit__left.jpg": "28538cf2cced3391f289a2ae0b18bc744e2dc5963960a8f9280d02e217e8679d",
+        "torso_caminit__right.jpg": "f8dc889810e6e6ca2f61435671c22b9400bf9610fe81c37710854ea0bca6875d"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "camera_lock",
+      "source_obj_sha256": "ae54a3c4973e965975547a690c5ba4a570b6d2da1acc05b5f436dc17c84b42d3",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20288,
+          "rejected": 620,
+          "covered_pixels": 97061
+        },
+        {
+          "view": "right",
+          "drawn": 20343,
+          "rejected": 565,
+          "covered_pixels": 98254
+        }
+      ],
+      "images": {
+        "camera_lock__obj.jpg": "15544ecda0541f6b16c94914ace4fb518643819bae748cbc7e243d478dafef93",
+        "camera_lock__left.jpg": "6957dadd57969a035eeed7f1386e37baa3afa52cab10e34ca289a5c18269e3e3",
+        "camera_lock__right.jpg": "a151794517b699aa02bdc128913a2075bf8241b7de96f970c3f939daa7aaaf88"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "torso_caminit",
+      "source_obj_sha256": "2defdb7b2050348ec83da0e6d49476a1c66b3fa5ea7b75043c26eff8ac8f1af2",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20335,
+          "rejected": 573,
+          "covered_pixels": 85285
+        },
+        {
+          "view": "right",
+          "drawn": 20380,
+          "rejected": 528,
+          "covered_pixels": 89073
+        }
+      ],
+      "images": {
+        "torso_caminit__obj.jpg": "15aac2d3551a72c16165a714f5891a34c5ddc8228b0cdfe74a7485e3db5d9196",
+        "torso_caminit__left.jpg": "d756045a84d8e75408990038d917048c91ac56cfd0fc7add0e68382522242ad6",
+        "torso_caminit__right.jpg": "3dc3c35fe00b20fe27a5e4dbe61852863517855385988ca7f32a22dda1b6c921"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "camera_lock",
+      "source_obj_sha256": "c96e4054a7be217861d548819b393d2cda8c09aaac204cc1f9f2f95079177b06",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20278,
+          "rejected": 630,
+          "covered_pixels": 91376
+        },
+        {
+          "view": "right",
+          "drawn": 20311,
+          "rejected": 597,
+          "covered_pixels": 81751
+        }
+      ],
+      "images": {
+        "camera_lock__obj.jpg": "3da36b308d3cbea71f95040924eb6f8717c07c06f66c17232204c8eeb0d74b45",
+        "camera_lock__left.jpg": "e47b101d58d30a353da5c3c7be5ed8106ca2841d01e53f41cc117ac2ae3ad9e3",
+        "camera_lock__right.jpg": "306c2f9005c20444c42db4e1fb135b739b3a4af74af259135e3a5446ea0df230"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "torso_caminit",
+      "source_obj_sha256": "201a5cbeff91b178200080f854d6303e1ebc37321561bb3497fe2a5dd2e28866",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20398,
+          "rejected": 510,
+          "covered_pixels": 86479
+        },
+        {
+          "view": "right",
+          "drawn": 20427,
+          "rejected": 481,
+          "covered_pixels": 74424
+        }
+      ],
+      "images": {
+        "torso_caminit__obj.jpg": "adc92fde63b4dc6ac5389249618448d6bb76819eb8e8d5d0dfb6ffc18a720f9a",
+        "torso_caminit__left.jpg": "afe971841b62d9519828002a74c1776279b318b5c9e422f6e5fc1cea77a05821",
+        "torso_caminit__right.jpg": "e5393ded37d63347e2146d5ccfec5b1c9b8aa05251bccb80a8eedc406b8c83eb"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "camera_lock",
+      "source_obj_sha256": "7df78f20482d63df815f713fb0b5e5792e1c39fb271385102c71278c7b492772",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20346,
+          "rejected": 562,
+          "covered_pixels": 85785
+        },
+        {
+          "view": "right",
+          "drawn": 20368,
+          "rejected": 540,
+          "covered_pixels": 83529
+        }
+      ],
+      "images": {
+        "camera_lock__obj.jpg": "6ff3eca62f55f832d21aedcec180bdad09445125b23415a8fbdb359f821b2a1a",
+        "camera_lock__left.jpg": "ea898637c811379224f369bffafe22cb13a3e71145d9d56414152ff9d8859a2a",
+        "camera_lock__right.jpg": "9279a076579da4ce62b18a3cdf29f416c732869f92d39d1ec22b878aea926cf4"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "torso_caminit",
+      "source_obj_sha256": "57ed01c2c2b7c08e4f81c740ec4fbc5b124c25cbb920881199b4e79a8d81449d",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20456,
+          "rejected": 452,
+          "covered_pixels": 87919
+        },
+        {
+          "view": "right",
+          "drawn": 20478,
+          "rejected": 430,
+          "covered_pixels": 82818
+        }
+      ],
+      "images": {
+        "torso_caminit__obj.jpg": "c2eb61cff07504edd803912b7d5ac7ff111e256c539770cf9416c6e90cf0f94c",
+        "torso_caminit__left.jpg": "a907d6945ec7f315dba5cd09e6ed7b0d3cf1d7c112309dd9e03356fc1e4661b1",
+        "torso_caminit__right.jpg": "0ee38a1c7ffc99fcf519adcb4d6eecce68ee17eff73d23941433777099107cec"
+      }
+    }
+  ],
+  "source": "OBJ reread and verified against intended export; triangle depth-tested in each original camera; no scene depth."
+}

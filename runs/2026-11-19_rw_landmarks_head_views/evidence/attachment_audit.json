@@ -1,0 +1,12 @@
+{
+  "archive": "rw_s9_body01-04_landmarks_head_OBJ.zip",
+  "tag": "rw-s9-landmarks-head-20261119",
+  "files_sha256": {
+    "rw_s9_body01-04_landmarks_head_OBJ.zip": "cc977378ffa8b04d9c13da7101db68e9620a814f365c9beda3807b465ca3c22e"
+  },
+  "bytes": 21260682,
+  "mesh_count": 68,
+  "members": 70,
+  "exit_status": 0,
+  "checks": "OBJ topology, reread coordinates, image-source mesh identity, archive member hashes; no body model, raw photos, predictions or weights."
+}

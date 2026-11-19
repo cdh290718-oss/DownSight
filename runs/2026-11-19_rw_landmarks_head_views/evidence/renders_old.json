@@ -1,0 +1,293 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "mode": "old_history",
+      "source_obj_sha256": "dcb681ece1f62798bf49fc91e0f4a14b1010ba8c142f54ec5ea3bff3fd92869f",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20459,
+          "rejected": 449,
+          "covered_pixels": 87340
+        },
+        {
+          "view": "right",
+          "drawn": 20502,
+          "rejected": 406,
+          "covered_pixels": 78834
+        }
+      ],
+      "images": {
+        "old_history__obj.jpg": "0449120a2317541c3518ba7be76d96c3f10f42e002e5ac45017a7004e180058e",
+        "old_history__left.jpg": "342e1e2a4a06b01ede8ca294c958fbe46d943c4111d7bf5cce5d8143b681aa73",
+        "old_history__right.jpg": "0fc36e3f1588d4084fe2865e90b5adbbfb60447bab11ae3856a143108d23238c"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "old_weak",
+      "source_obj_sha256": "7293f64078c3af07c7c575cbdf1c26ca3318958f7aa0b78201b190e75e07b20b",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20461,
+          "rejected": 447,
+          "covered_pixels": 87311
+        },
+        {
+          "view": "right",
+          "drawn": 20502,
+          "rejected": 406,
+          "covered_pixels": 78813
+        }
+      ],
+      "images": {
+        "old_weak__obj.jpg": "108f6b0cd1d09355111c94a0a565f9a5aec056852081b812c0e23515a96dc961",
+        "old_weak__left.jpg": "7ef4508da39849bf12d42ad9ca62b90c788344dd04612234a6d60eb801568717",
+        "old_weak__right.jpg": "40495d517bded4a51fcc9192f84d2a878605b34e3e90ccb2394a593e41f8f20a"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "old_off",
+      "source_obj_sha256": "4500d84f7886bfedf224a071388012e0b1b15f64c9a9c4a00dcfef74ceb3899d",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20485,
+          "rejected": 423,
+          "covered_pixels": 89758
+        },
+        {
+          "view": "right",
+          "drawn": 20521,
+          "rejected": 387,
+          "covered_pixels": 79306
+        }
+      ],
+      "images": {
+        "old_off__obj.jpg": "aa782fca7002d7e70208433ad64ce7b034f3c840d56ec329ee78a16f09729bf2",
+        "old_off__left.jpg": "416d565320ba5a8b623a9143c5818eb0e74f0c3f9cfbed5a409cd83a10c9cee9",
+        "old_off__right.jpg": "35ccd34054bd6c89d047b915cd59c145e2768d995d2aced88f6e7a90462c25db"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "old_history",
+      "source_obj_sha256": "fc85ea6aa9393b7f2ae0a8a4b7f7615ced09c4396a352d05cf8cc6f8c621546c",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20331,
+          "rejected": 575,
+          "covered_pixels": 93149
+        },
+        {
+          "view": "right",
+          "drawn": 20392,
+          "rejected": 516,
+          "covered_pixels": 93367
+        }
+      ],
+      "images": {
+        "old_history__obj.jpg": "d6c9e919514bd317d71dd6a59f00eec8b1f37415f773d1dcdac21613dbe55fd9",
+        "old_history__left.jpg": "1e2c84361476fb2ff332ed2dd2b5ed878f2592c66b8608fe37027eec53251084",
+        "old_history__right.jpg": "a866076e6c6b8dd44c3b28bd69b96ddd52588c234d39d1f23ec49b2ea398130d"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "old_weak",
+      "source_obj_sha256": "e6ea78285a4f6cf65d9252cbf8d0b8d23d4bc3e312d6b41ee40706bfcbd3bff1",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20333,
+          "rejected": 573,
+          "covered_pixels": 93043
+        },
+        {
+          "view": "right",
+          "drawn": 20392,
+          "rejected": 516,
+          "covered_pixels": 93262
+        }
+      ],
+      "images": {
+        "old_weak__obj.jpg": "f0b9c5c70a4a00332478aab968212dbcd179850d7ce1e43dd251799cc1680238",
+        "old_weak__left.jpg": "a90729e869ba29049982019f2d90eee62dbf795c098ba01b2b0707ca95baa72a",
+        "old_weak__right.jpg": "4ecb7618469a16c58e60f5b2947669ced08ebe2860cc921163c26c77d1c55158"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "old_off",
+      "source_obj_sha256": "43efb479f2b79e0e6ae99a738bccefea3e6141323557ff97c68501d544bc5f83",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20442,
+          "rejected": 465,
+          "covered_pixels": 97149
+        },
+        {
+          "view": "right",
+          "drawn": 20479,
+          "rejected": 429,
+          "covered_pixels": 100404
+        }
+      ],
+      "images": {
+        "old_off__obj.jpg": "d6321e2bf647f849e2790fbf34612ba6ec11034c77c40a7956b5992b024991e9",
+        "old_off__left.jpg": "854678fc00341c026e372e52e4a0c115f4f7f6d623a4f987dd5e02208555ab65",
+        "old_off__right.jpg": "d938a5e8d291fe540ccff227ca85a3eca0fbd575c85c2d0e20360bf7b1cec66b"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "old_history",
+      "source_obj_sha256": "3fa3326fffa9c60e7f528560fd1a60426eb60478b5f35d65a96ec65ba283769c",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20172,
+          "rejected": 736,
+          "covered_pixels": 95223
+        },
+        {
+          "view": "right",
+          "drawn": 20310,
+          "rejected": 598,
+          "covered_pixels": 88434
+        }
+      ],
+      "images": {
+        "old_history__obj.jpg": "dea4ab7bd1345973f7683eda0f587cb638cc16b0b5965ecf143f82fe488f6c8d",
+        "old_history__left.jpg": "b00d7b4532534964aa4a885c694523799566945d046071134fbeac48b470c19b",
+        "old_history__right.jpg": "2068194d1d53bce6f1aee54c6890df070954761443f2740785238f6e6e1a2705"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "old_weak",
+      "source_obj_sha256": "6db0e44e976e01b22bc2cd97d4df1cbb6971d566425cb861849e813f064fd994",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20169,
+          "rejected": 739,
+          "covered_pixels": 95154
+        },
+        {
+          "view": "right",
+          "drawn": 20304,
+          "rejected": 604,
+          "covered_pixels": 88350
+        }
+      ],
+      "images": {
+        "old_weak__obj.jpg": "6869af4585b15e326ba23958f3bc0a304075de62149c504423079caf6c8c5888",
+        "old_weak__left.jpg": "d2c5508fc10386dd1846c59be155f1eb62ab6111ee089688dfadab654d0af2ba",
+        "old_weak__right.jpg": "5f43249ab7030c4600be857f59b2d73ad19bbb67a9fa466d0cd3a67b4c1644b7"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "old_off",
+      "source_obj_sha256": "97e917c54d63993ea743b284688969ede33f5b5b8a59f333e11a9855ed9414a4",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20458,
+          "rejected": 450,
+          "covered_pixels": 99092
+        },
+        {
+          "view": "right",
+          "drawn": 20493,
+          "rejected": 415,
+          "covered_pixels": 86351
+        }
+      ],
+      "images": {
+        "old_off__obj.jpg": "ead8980fe83a063c3c109472a0f26922657948770e4abee33f9853fb163a45f9",
+        "old_off__left.jpg": "7927c9cc48a4d701ffed63e09a64825111b53967193cdbf77299a48b42ca6f09",
+        "old_off__right.jpg": "d865e74a92e90f9e1c598d47b09ca72c4fd0b3dffd67983aa466973cc34302b6"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "old_history",
+      "source_obj_sha256": "d44e397b14d56f8e6f5f89e67a2a3bc35ee936f67b0f6866f2a1610c9f946558",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20486,
+          "rejected": 422,
+          "covered_pixels": 91043
+        },
+        {
+          "view": "right",
+          "drawn": 20517,
+          "rejected": 391,
+          "covered_pixels": 83360
+        }
+      ],
+      "images": {
+        "old_history__obj.jpg": "f5223f8b6671ab4ba351949912daad079129898f22d6fa712d43638f5c37de42",
+        "old_history__left.jpg": "d8029fa187dc5726aea892579e1b66127ee86fdb332dc061fdf114a648d0046d",
+        "old_history__right.jpg": "fcdcf53ef6aea39f6101773df3488224e1178f91201f6c721c7fe2e240bbabaf"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "old_weak",
+      "source_obj_sha256": "735958333913201eeacaded7b259a9cb4b1c30c1ae42c0cae661953e150810c5",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20486,
+          "rejected": 422,
+          "covered_pixels": 91595
+        },
+        {
+          "view": "right",
+          "drawn": 20513,
+          "rejected": 395,
+          "covered_pixels": 84031
+        }
+      ],
+      "images": {
+        "old_weak__obj.jpg": "46b77caea3cb70755e4d9a3c09ba82cd42323e8e450abf9810c106e467ec14c5",
+        "old_weak__left.jpg": "fab2ba39c5c1e243190bbaf44e5f270bedb2ea344cacc04ec1d59f8c4a94c2af",
+        "old_weak__right.jpg": "611de4bbe3e2aa76824454c0d3b952dabc4a2425d47ba1e34f42fe84406339be"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "old_off",
+      "source_obj_sha256": "469fdf84843d80c58f51e7159f6a3791f6519fa65b65c28714b59ada2af81eb2",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20512,
+          "rejected": 396,
+          "covered_pixels": 95025
+        },
+        {
+          "view": "right",
+          "drawn": 20548,
+          "rejected": 360,
+          "covered_pixels": 88535
+        }
+      ],
+      "images": {
+        "old_off__obj.jpg": "582c98952975cbc8b4e6e1c8e222790de0349fec36b2a8111a6e3676ec32a265",
+        "old_off__left.jpg": "f75718b8a8e40ea5871e8abb04f066b54e625c6101b1bca0309c9ac92b090d4d",
+        "old_off__right.jpg": "e185d30c30052b8c131c34154fc31adc1971bd7f8b684a3b572801e9b33e4729"
+      }
+    }
+  ],
+  "source": "OBJ reread and verified against intended export; triangle depth-tested in each original camera; no scene depth."
+}

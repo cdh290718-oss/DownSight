@@ -1,0 +1,389 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "mode": "auto12_camera",
+      "source_obj_sha256": "fef307272c69a2dacdc6d9fc64e53fc66bbb8a4b07ad517822ce66fb6db400db",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20348,
+          "rejected": 560,
+          "covered_pixels": 86390
+        },
+        {
+          "view": "right",
+          "drawn": 20374,
+          "rejected": 534,
+          "covered_pixels": 79359
+        }
+      ],
+      "images": {
+        "auto12_camera__obj.jpg": "cae187b191041068bd9f9cd6a9b27b9cfdcc6c589be19fe4e14938471e74f926",
+        "auto12_camera__left.jpg": "b7d1e957a50ac099df1bccd78b7bbc48b7b23b85973fc0d11ce3c3225fb0b7b3",
+        "auto12_camera__right.jpg": "681e8221effb94dba1eaebb24d43698410bde87ee6167f415830fe315b1d66fc"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "auto12_torso",
+      "source_obj_sha256": "a1f59210df6aa03b2a3f92c681862e4810e2ad34d49ab992df11d4480a47d7df",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20439,
+          "rejected": 469,
+          "covered_pixels": 82139
+        },
+        {
+          "view": "right",
+          "drawn": 20470,
+          "rejected": 438,
+          "covered_pixels": 72835
+        }
+      ],
+      "images": {
+        "auto12_torso__obj.jpg": "74baad5d6ef16d166d9b3c0049e925ed7a7eabbb230c414c89d9e06e9f05f457",
+        "auto12_torso__left.jpg": "65c456f99ce2628e29defc33d4839370868ed3aea59b96ebdd18c164def15ad0",
+        "auto12_torso__right.jpg": "c626fee775ce05ac5e11321773bb2ddd750e45472ecbb040163005248c513437"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "auto15_camera",
+      "source_obj_sha256": "31b0ae676cba716a0129df3aa3b0d0f06e1816bb50ac888703cb3a946edcc79e",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20352,
+          "rejected": 556,
+          "covered_pixels": 77867
+        },
+        {
+          "view": "right",
+          "drawn": 20390,
+          "rejected": 518,
+          "covered_pixels": 71126
+        }
+      ],
+      "images": {
+        "auto15_camera__obj.jpg": "a64e1c04e1b997e0aa220e0fb857e1216ab6e903607eee791510fda4423d4704",
+        "auto15_camera__left.jpg": "54c3dddc37dd258999042e89bbc8f98f3df190fe79d7225638f8fbe9331e879a",
+        "auto15_camera__right.jpg": "99e5f4e69c857ed4ff8e5c67cdc35ef2731eeb9943e9c2818adf0ac92e85111c"
+      }
+    },
+    {
+      "pair": "body01",
+      "mode": "auto15_torso",
+      "source_obj_sha256": "f5941eb96f3a1a29c2e1fac343d975be186f01d7d4de08c36f75ae45368c9929",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20395,
+          "rejected": 513,
+          "covered_pixels": 79970
+        },
+        {
+          "view": "right",
+          "drawn": 20426,
+          "rejected": 482,
+          "covered_pixels": 73228
+        }
+      ],
+      "images": {
+        "auto15_torso__obj.jpg": "2d7a437c352615e81cbda72e1a8f856ab34e4424ab2919c3a7c276c2afe7d498",
+        "auto15_torso__left.jpg": "fb5a363cee3f60b62a005376bd3334a87b321b657b08ede048b55f55e1686d52",
+        "auto15_torso__right.jpg": "a74cc53ee44f8b7083356a8d0140bd6c5ab3f91f39c460ee5f5e972027ce62a6"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto12_camera",
+      "source_obj_sha256": "d15cd849974ff701eee086f6d659ba6d607f0e332eda6cc7a5d550528cf06a98",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20290,
+          "rejected": 618,
+          "covered_pixels": 95850
+        },
+        {
+          "view": "right",
+          "drawn": 20346,
+          "rejected": 562,
+          "covered_pixels": 96261
+        }
+      ],
+      "images": {
+        "auto12_camera__obj.jpg": "36f1b7097b9477b0484c041b14a6a2c690d31baf825f08509852a7504caa017e",
+        "auto12_camera__left.jpg": "f3714756f0ce996481914f51ebf5fcf741c3b4ece42b2e6ad1d5fea39205136b",
+        "auto12_camera__right.jpg": "5bcc6e3cd3cef22a1f5876e06c7e06bf3d53168d9e980cc6ac59db053d2e1394"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto12_torso",
+      "source_obj_sha256": "910c8c08ab89c51379a8f085216b3d585a146de05bc37e31a278fda359ad5e03",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20332,
+          "rejected": 576,
+          "covered_pixels": 84550
+        },
+        {
+          "view": "right",
+          "drawn": 20364,
+          "rejected": 544,
+          "covered_pixels": 89492
+        }
+      ],
+      "images": {
+        "auto12_torso__obj.jpg": "c7572a3fc5ca9ad4a5fda6b81933465f5a9573e3ab4f0b3560a4d5069d4ce210",
+        "auto12_torso__left.jpg": "1ce0456df46bc4eef68371a51edc0a2900ea7f2c4fdee54d7e08d72bca23f55c",
+        "auto12_torso__right.jpg": "e17306f25b433a92196005cc61438123bbf57cf524a77f09c80ec20b49dc22a9"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto15_camera",
+      "source_obj_sha256": "4ce53f28f5098b3427f0878e02f92375fd0e66e31b205fb5285586ea744c0228",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20288,
+          "rejected": 620,
+          "covered_pixels": 97895
+        },
+        {
+          "view": "right",
+          "drawn": 20343,
+          "rejected": 565,
+          "covered_pixels": 100891
+        }
+      ],
+      "images": {
+        "auto15_camera__obj.jpg": "0d06b49ce22e711ba667ad84f85aee285ae71033728afdc54c8c8bda6a639836",
+        "auto15_camera__left.jpg": "b841fe7b614fe6c3190422b903d5be5524ce4e289956335c6b9d61c5d3019821",
+        "auto15_camera__right.jpg": "7a24f51f8cc902145936d46dc5e2fe036d4483566e08e312308bd176edd191dc"
+      }
+    },
+    {
+      "pair": "body02",
+      "mode": "auto15_torso",
+      "source_obj_sha256": "3fca35fd5c374731a93d8b9118e72bcc813b76b100ce49d0ad96fabadb5d8404",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20316,
+          "rejected": 592,
+          "covered_pixels": 85358
+        },
+        {
+          "view": "right",
+          "drawn": 20356,
+          "rejected": 552,
+          "covered_pixels": 88278
+        }
+      ],
+      "images": {
+        "auto15_torso__obj.jpg": "6c2b8b539da9bb639091d34e7cc6307375344c2c7a41178043c381062fc3304a",
+        "auto15_torso__left.jpg": "5d7bd0ed019b3a5a19142033d7cbc47c76c1bd1e92cf8a3fc23285ad6aa0e2e0",
+        "auto15_torso__right.jpg": "bd266d26b9546d04022bbb49a65bc06f2a2753d19854fd9b9d9d06db3de2bf82"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto12_camera",
+      "source_obj_sha256": "9511bd2f5b261c4b3c2a301876aaab4d3d75c4639303ca382c2848d167cca3ef",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20286,
+          "rejected": 622,
+          "covered_pixels": 81639
+        },
+        {
+          "view": "right",
+          "drawn": 20327,
+          "rejected": 581,
+          "covered_pixels": 77535
+        }
+      ],
+      "images": {
+        "auto12_camera__obj.jpg": "d31ddafa719353bfdbfe832664df005a0ec45260a2464445f9525c46e73d1ac3",
+        "auto12_camera__left.jpg": "6a546670f333d84aa08468fd6975ac99ca26bde4a7d84d11a60b642c35a330a9",
+        "auto12_camera__right.jpg": "88da6851e5ad8e35ebeedcfd8ecadf5cc53a5294b46b7060ab8ce5b664fc6ef9"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto12_torso",
+      "source_obj_sha256": "408726d3d5be348b995957f93b0dba3b24a048053113dfb4cb6b91882567ad88",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20378,
+          "rejected": 530,
+          "covered_pixels": 77859
+        },
+        {
+          "view": "right",
+          "drawn": 20418,
+          "rejected": 490,
+          "covered_pixels": 77259
+        }
+      ],
+      "images": {
+        "auto12_torso__obj.jpg": "702f404b6ec2b1769c73ed576b3717b453834d10773222ca9b0f79b02eaea64c",
+        "auto12_torso__left.jpg": "e45961e36b47e893747ffc30522eaa8d6a85c45905d67aa485b7640eb169fd28",
+        "auto12_torso__right.jpg": "1f7a7896f9094a812fb99b86803431e7b6e54bdbdcd6c1ff9c2ace4760b261c3"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto15_camera",
+      "source_obj_sha256": "f167382556c3aae6c4c04608f806b9f61167f76849e2bbc501c50bf9eaca883d",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20288,
+          "rejected": 620,
+          "covered_pixels": 74483
+        },
+        {
+          "view": "right",
+          "drawn": 20342,
+          "rejected": 566,
+          "covered_pixels": 70520
+        }
+      ],
+      "images": {
+        "auto15_camera__obj.jpg": "4e7c5ecc8ad6d5231d9625af3224aff94216fe646de2f63059ea4fdf8d8a4474",
+        "auto15_camera__left.jpg": "6a3c2f62db3da526bdd595be3ec7a5e161f582b859aa7267a1ad3d2c519b301b",
+        "auto15_camera__right.jpg": "a5bd1d0f7a741d3fda6c4a71677a4280a359ce58f8bd591e3da3c13c38ceeb2e"
+      }
+    },
+    {
+      "pair": "body03",
+      "mode": "auto15_torso",
+      "source_obj_sha256": "17e5c1371646a3c95691e09e9845f28b02148b29040119e5949a373ecadd2bd0",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20341,
+          "rejected": 567,
+          "covered_pixels": 76803
+        },
+        {
+          "view": "right",
+          "drawn": 20364,
+          "rejected": 544,
+          "covered_pixels": 76382
+        }
+      ],
+      "images": {
+        "auto15_torso__obj.jpg": "4f5607a47809cfe9adf0a44f40863533e73f226f3f8b1824427a5a108b61e58b",
+        "auto15_torso__left.jpg": "da0b96cee7b3d31c06ea5d1ff0c6adf741d5bad0e2a8cd16364c0f42655a0ed6",
+        "auto15_torso__right.jpg": "9e24399264fe95736feda4852011c1b4e3a64fc2e8aadabd30001b887589b813"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto12_camera",
+      "source_obj_sha256": "f12131a4820adb42446a9030bfcd2e43ce06749985c20121c2753e6f94570f03",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20348,
+          "rejected": 560,
+          "covered_pixels": 82738
+        },
+        {
+          "view": "right",
+          "drawn": 20380,
+          "rejected": 528,
+          "covered_pixels": 81684
+        }
+      ],
+      "images": {
+        "auto12_camera__obj.jpg": "106e4197cb93ced461169572dac6da3d150330685bcb9137d2c16f89e753f9e8",
+        "auto12_camera__left.jpg": "b607a5411a398ef2790056a05555c9264449cbad89f26f2864202ffc4641009c",
+        "auto12_camera__right.jpg": "b1c6ecae04d9ce133812ce4b86eddccb548403aca252702523c36bce94a78152"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto12_torso",
+      "source_obj_sha256": "16410eb882efb8f09b5e5cf80ed64ced4729e800f8ff680fe1bd570beab0aa15",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20470,
+          "rejected": 438,
+          "covered_pixels": 84557
+        },
+        {
+          "view": "right",
+          "drawn": 20496,
+          "rejected": 412,
+          "covered_pixels": 87757
+        }
+      ],
+      "images": {
+        "auto12_torso__obj.jpg": "457ad88ff1b5bc3a85537c4ff01067b52fdd95b53aa6241768cd092441a0fcd2",
+        "auto12_torso__left.jpg": "6f7f8b71194a7667ae7844f2358452b281a50542fbfb4a007f8e8be1639a0f11",
+        "auto12_torso__right.jpg": "85b89080434bf268e9e036c88d0382c1145a96fa3612cc322b951583493bca20"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto15_camera",
+      "source_obj_sha256": "7ac348859d526b98627835ec59589980c158a32f67dd083068c2ecdb7b9c64ef",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20346,
+          "rejected": 562,
+          "covered_pixels": 85149
+        },
+        {
+          "view": "right",
+          "drawn": 20372,
+          "rejected": 536,
+          "covered_pixels": 84090
+        }
+      ],
+      "images": {
+        "auto15_camera__obj.jpg": "326b3c8826d740d8dfac253928e52d222677604c7185e61654763b5b927fcaf9",
+        "auto15_camera__left.jpg": "88a31ec61e339fcc7629bf22af64347e0d13d43885601ee5a40cad6de9f5fd9e",
+        "auto15_camera__right.jpg": "0aa4dd14ac9c74ba0c6adfd0c6acf2d175b2996712ccfdff974b73a9eb0a6324"
+      }
+    },
+    {
+      "pair": "body04",
+      "mode": "auto15_torso",
+      "source_obj_sha256": "3b38e878e1236dc3bfbaa0e07c1fa5788b4561a93bdea18773e355833b701b4f",
+      "views": [
+        {
+          "view": "left",
+          "drawn": 20438,
+          "rejected": 470,
+          "covered_pixels": 83339
+        },
+        {
+          "view": "right",
+          "drawn": 20465,
+          "rejected": 443,
+          "covered_pixels": 83359
+        }
+      ],
+      "images": {
+        "auto15_torso__obj.jpg": "4a1d5cfe70a4fe1223b1b6faf12d466b860ce566e8fcd03dc21a740eff3995b0",
+        "auto15_torso__left.jpg": "ff709e77404322c20139b266a41888abfc00cbbf8aa5b159059aef396ab732b1",
+        "auto15_torso__right.jpg": "9679365f3a8af3986e833d45b33f782c1814216f919b5c32ce4b684484a2e845"
+      }
+    }
+  ],
+  "source": "OBJ reread and verified against intended export; triangle depth-tested in each original camera; no scene depth."
+}

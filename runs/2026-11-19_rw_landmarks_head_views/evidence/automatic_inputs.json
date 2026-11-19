@@ -1,0 +1,743 @@
+{
+  "predictor": "RW20000, archived 308 channels, no new inference",
+  "hashes": {
+    "rw20000_validation_predictions.json": "014c5c6416ac4caa41e7c5c34177f97078711512710fae38a6c2bf7311e63365",
+    "rw20000_diagnostic_predictions.json": "0b1ab08852231f1e93a0d05288b2fdd6e0141ed886a5655328a5bd5280e59252",
+    "validation.json": "1a7b0dc948408240aadb3aad0b696d997b7d578a6fa22d2281985667b79a3aa1",
+    "keypoints308.py": "8602450c4c1ba7cad62814d6ac2a32f25d98c9d498fa7366a6846419ee6b0008"
+  },
+  "formula": "heel + bounded least-squares fraction * (mean(bigToe,smallToe) - heel); one shared scalar, calibration on validation split; raw detected neck unchanged",
+  "foot_fraction": 1.0,
+  "unbounded_fraction": 1.0855486960114635,
+  "foot_calibration_points": 800,
+  "validation_subjects": [
+    "S13",
+    "S15",
+    "S3",
+    "S5"
+  ],
+  "source_sizes_px": "872 original; both losses use frozen image adapter.",
+  "errors": [
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Shoulder",
+      "original_px": 2.037650741101751
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Elbow",
+      "original_px": 2.7063709956190256
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Wrist",
+      "original_px": 4.862883466531057
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Shoulder",
+      "original_px": 8.128564145066003
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Elbow",
+      "original_px": 6.595467594773235
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Wrist",
+      "original_px": 9.461191522359684
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Hip",
+      "original_px": 7.916312231007503
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Knee",
+      "original_px": 17.462162701452534
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Ankle",
+      "original_px": 18.256824614356578
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Hip",
+      "original_px": 11.68701928642314
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Knee",
+      "original_px": 22.12003150921557
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Ankle",
+      "original_px": 17.0542394333759
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "Neck",
+      "original_px": 117.28651444488521
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "R_Toe",
+      "original_px": 36.90038108061139
+    },
+    {
+      "pair": "body01",
+      "view": "left",
+      "joint": "L_Toe",
+      "original_px": 35.99474361312228
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Shoulder",
+      "original_px": 6.106052407055471
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Elbow",
+      "original_px": 10.023101793414174
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Wrist",
+      "original_px": 7.175454864390875
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Shoulder",
+      "original_px": 8.135380035581637
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Elbow",
+      "original_px": 6.548723650508343
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Wrist",
+      "original_px": 7.184283239982686
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Hip",
+      "original_px": 4.286744678293097
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Knee",
+      "original_px": 7.974197737498769
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Ankle",
+      "original_px": 6.144296128363162
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Hip",
+      "original_px": 8.722534478977106
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Knee",
+      "original_px": 19.931557142148197
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Ankle",
+      "original_px": 12.30142124750644
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "Neck",
+      "original_px": 123.0088068814241
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "R_Toe",
+      "original_px": 20.405080979872967
+    },
+    {
+      "pair": "body01",
+      "view": "right",
+      "joint": "L_Toe",
+      "original_px": 29.051389233604166
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Shoulder",
+      "original_px": 3.2618350847572284
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Elbow",
+      "original_px": 1.8036947851450902
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Wrist",
+      "original_px": 5.797853340711947
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Shoulder",
+      "original_px": 10.670564706384885
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Elbow",
+      "original_px": 6.046726290851502
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Wrist",
+      "original_px": 10.113504749994384
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Hip",
+      "original_px": 7.906453122744327
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Knee",
+      "original_px": 5.28859240724201
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Ankle",
+      "original_px": 10.889145126270039
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Hip",
+      "original_px": 9.172105601316714
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Knee",
+      "original_px": 4.419067582357097
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Ankle",
+      "original_px": 1.4315425561110193
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "Neck",
+      "original_px": 26.0674726120702
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "R_Toe",
+      "original_px": 31.632982439292547
+    },
+    {
+      "pair": "body02",
+      "view": "left",
+      "joint": "L_Toe",
+      "original_px": 21.517295508884246
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Shoulder",
+      "original_px": 5.388744008726318
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Elbow",
+      "original_px": 2.562714644220701
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Wrist",
+      "original_px": 4.496397685142486
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Shoulder",
+      "original_px": 11.565054661331002
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Elbow",
+      "original_px": 4.94792129093308
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Wrist",
+      "original_px": 8.39020842746803
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Hip",
+      "original_px": 1.386211907491106
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Knee",
+      "original_px": 5.483978111211077
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Ankle",
+      "original_px": 21.323617785974257
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Hip",
+      "original_px": 7.383314545917971
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Knee",
+      "original_px": 9.709548302770099
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Ankle",
+      "original_px": 16.24295280447428
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "Neck",
+      "original_px": 28.003003456289036
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "R_Toe",
+      "original_px": 38.70564060237149
+    },
+    {
+      "pair": "body02",
+      "view": "right",
+      "joint": "L_Toe",
+      "original_px": 32.53009478146673
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Shoulder",
+      "original_px": 11.136830589852906
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Elbow",
+      "original_px": 15.171768837866603
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Wrist",
+      "original_px": 14.0536636553009
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Shoulder",
+      "original_px": 25.1369909203957
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Elbow",
+      "original_px": 9.969819875381448
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Wrist",
+      "original_px": 8.618694120813238
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Hip",
+      "original_px": 2.6601145941935074
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Knee",
+      "original_px": 28.406731810174936
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Ankle",
+      "original_px": 14.332425132669028
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Hip",
+      "original_px": 12.963334823777739
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Knee",
+      "original_px": 18.968728016499252
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Ankle",
+      "original_px": 3.0390820560257295
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "Neck",
+      "original_px": 101.69878214004905
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "R_Toe",
+      "original_px": 36.850283097956066
+    },
+    {
+      "pair": "body03",
+      "view": "left",
+      "joint": "L_Toe",
+      "original_px": 25.398041102852044
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Shoulder",
+      "original_px": 6.85161322434756
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Elbow",
+      "original_px": 3.025019830253027
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Wrist",
+      "original_px": 10.64371319811545
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Shoulder",
+      "original_px": 33.868467358873225
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Elbow",
+      "original_px": 73.54640446776197
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Wrist",
+      "original_px": 46.47697368477784
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Hip",
+      "original_px": 5.7448317310108195
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Knee",
+      "original_px": 7.34773456101839
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Ankle",
+      "original_px": 5.3240934230278505
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Hip",
+      "original_px": 6.493036024127898
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Knee",
+      "original_px": 11.404361242444256
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Ankle",
+      "original_px": 4.557091094757945
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "Neck",
+      "original_px": 127.81686484372754
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "R_Toe",
+      "original_px": 19.21000300082255
+    },
+    {
+      "pair": "body03",
+      "view": "right",
+      "joint": "L_Toe",
+      "original_px": 23.272946589034838
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Shoulder",
+      "original_px": 20.132672150374443
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Elbow",
+      "original_px": 3.823012336459063
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Wrist",
+      "original_px": 6.2225965272890225
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Shoulder",
+      "original_px": 27.372514551774945
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Elbow",
+      "original_px": 5.025074795604869
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Wrist",
+      "original_px": 8.780165744845597
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Hip",
+      "original_px": 5.106053272570974
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Knee",
+      "original_px": 6.086758428378934
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Ankle",
+      "original_px": 1.5544278033574432
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Hip",
+      "original_px": 10.678998491156166
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Knee",
+      "original_px": 8.625328073853643
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Ankle",
+      "original_px": 7.414977916324689
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "Neck",
+      "original_px": 131.0995202570232
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "R_Toe",
+      "original_px": 19.366730396567178
+    },
+    {
+      "pair": "body04",
+      "view": "left",
+      "joint": "L_Toe",
+      "original_px": 14.70113795735093
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Shoulder",
+      "original_px": 10.91907555524522
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Elbow",
+      "original_px": 5.370854704635752
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Wrist",
+      "original_px": 10.244838651776613
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Shoulder",
+      "original_px": 3.506614764911767
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Elbow",
+      "original_px": 23.246103074793304
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Wrist",
+      "original_px": 7.786894745460232
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Hip",
+      "original_px": 2.4635196584602532
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Knee",
+      "original_px": 4.2813518877792855
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Ankle",
+      "original_px": 15.828294848873727
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Hip",
+      "original_px": 7.858773583306907
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Knee",
+      "original_px": 9.925959308817268
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Ankle",
+      "original_px": 3.7934429655854895
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "Neck",
+      "original_px": 12.4857696000052
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "R_Toe",
+      "original_px": 26.488693630206058
+    },
+    {
+      "pair": "body04",
+      "view": "right",
+      "joint": "L_Toe",
+      "original_px": 12.189962530982616
+    }
+  ],
+  "notes": "All four S9 pairs pass reference in-frame mask. Not an independent visibility/deployment test."
+}
