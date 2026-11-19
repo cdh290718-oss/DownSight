@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "up": [
+        -0.10212180167501188,
+        0.11147433269451078,
+        -0.9885062522680184
+      ],
+      "plane_distance_m": 1.460090332734807,
+      "photometric_checkerboard_disagreement_deg": 2.3163675503858543,
+      "initial_sparse_vs_dense_deg": 10.027047909012664,
+      "sparse_points": 50,
+      "sparse_inliers": 23,
+      "photometric_points": 8453
+    },
+    {
+      "pair": "body02",
+      "up": [
+        0.16733428014586782,
+        0.04140394542621792,
+        -0.9850304320127409
+      ],
+      "plane_distance_m": 1.4169790904802857,
+      "photometric_checkerboard_disagreement_deg": 0.7337014177492983,
+      "initial_sparse_vs_dense_deg": 2.1661324892745806,
+      "sparse_points": 132,
+      "sparse_inliers": 67,
+      "photometric_points": 7737
+    },
+    {
+      "pair": "body03",
+      "up": [
+        0.12318773889900794,
+        0.1692832823822135,
+        -0.9778384075555907
+      ],
+      "plane_distance_m": 1.442628253968325,
+      "photometric_checkerboard_disagreement_deg": 0.19323566969635533,
+      "initial_sparse_vs_dense_deg": 0.9482362547139405,
+      "sparse_points": 193,
+      "sparse_inliers": 105,
+      "photometric_points": 10982
+    },
+    {
+      "pair": "body04",
+      "up": [
+        0.1594414980148781,
+        0.3545955202548258,
+        -0.9213253636614922
+      ],
+      "plane_distance_m": 1.175361244786022,
+      "photometric_checkerboard_disagreement_deg": 1.436764153053983,
+      "initial_sparse_vs_dense_deg": 3.2382150114695443,
+      "sparse_points": 155,
+      "sparse_inliers": 96,
+      "photometric_points": 8582
+    }
+  ],
+  "method": "Per-frame planes on manually selected bare carpet in left image, calibrated stereo SIFT ray triangulation and RANSAC initial plane, robust dense photometric refinement and spatial checkerboard consistency. No test body or foot labels used. Estimated floor, not independently measured gravity."
+}

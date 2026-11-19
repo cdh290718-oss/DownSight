@@ -1,0 +1,145 @@
+{
+  "rows": [
+    {
+      "pair": "body01",
+      "mode": "free12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body01",
+      "mode": "flat12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body01",
+      "mode": "free15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body01",
+      "mode": "flat15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body02",
+      "mode": "free12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body02",
+      "mode": "flat12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body02",
+      "mode": "free15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body02",
+      "mode": "flat15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body03",
+      "mode": "free12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body03",
+      "mode": "flat12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body03",
+      "mode": "free15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body03",
+      "mode": "flat15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body04",
+      "mode": "free12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body04",
+      "mode": "flat12",
+      "points": 12,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body04",
+      "mode": "free15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    },
+    {
+      "pair": "body04",
+      "mode": "flat15",
+      "points": 15,
+      "shoulder_hip_fallback": null
+    }
+  ],
+  "source_rw20000_sha256": "77cb29f48d33d59daab5bb1502c5388436e3787854a442af0491c8e4f0b86363",
+  "prepared_sha256": "304c630ba29e22d4cae9fc3f3e31be897f4b9e4bc4ff5f16fd8849e7d00f89b6",
+  "protocol_sha256": "a175fd542043fa9d504eae4799c48ccc1b1cb3329142ef0c871b2a987fe44457",
+  "neutral_sole_vertex_patches": [
+    [
+      [
+        8922,
+        8916,
+        8915,
+        8910
+      ],
+      [
+        5816,
+        5831,
+        5782,
+        5817
+      ],
+      [
+        5791,
+        5805,
+        5793,
+        5808
+      ]
+    ],
+    [
+      [
+        8710,
+        8704,
+        8703,
+        8698
+      ],
+      [
+        8485,
+        8499,
+        8487,
+        8502
+      ],
+      [
+        8510,
+        8525,
+        8476,
+        8511
+      ]
+    ]
+  ]
+}

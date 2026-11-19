@@ -1,0 +1,42 @@
+{
+  "means": {
+    "free12": {
+      "common12_mm": 52.99864570379735,
+      "mapped15_nonpa_mm": 51.59076605831467,
+      "mapped15_pa_mm": 40.33710472694741,
+      "matched12_reproj_px": 12.690617891579608,
+      "head_position_mm": 1.5607993880085513,
+      "head_chest_deg": 1.7395886407043536e-14,
+      "mean_sole_tilt_deg": 17.457295445218588
+    },
+    "flat12": {
+      "common12_mm": 52.99864570379735,
+      "mapped15_nonpa_mm": 52.88387296661671,
+      "mapped15_pa_mm": 41.674915494217586,
+      "matched12_reproj_px": 12.690617891579608,
+      "head_position_mm": 1.5607993880085513,
+      "head_chest_deg": 1.7395886407043536e-14,
+      "mean_sole_tilt_deg": 0.9069498241425473
+    },
+    "free15": {
+      "common12_mm": 52.553733815785584,
+      "mapped15_nonpa_mm": 65.76640998168499,
+      "mapped15_pa_mm": 52.82321502658747,
+      "matched12_reproj_px": 13.08659951158109,
+      "head_position_mm": 1.2046420611957098,
+      "head_chest_deg": 9.661480220083138e-15,
+      "mean_sole_tilt_deg": 57.831266148940706
+    },
+    "flat15": {
+      "common12_mm": 52.0176140342323,
+      "mapped15_nonpa_mm": 65.01863466112178,
+      "mapped15_pa_mm": 53.66830329593892,
+      "matched12_reproj_px": 13.416472004177518,
+      "head_position_mm": 1.200874580451611,
+      "head_chest_deg": 1.1770895464023432e-14,
+      "mean_sole_tilt_deg": 1.633711864295068
+    }
+  },
+  "free12_reference_delta_mm": 0.0,
+  "max_mesh_tilt_flat_deg": 3.571654557981064
+}

@@ -1,0 +1,24 @@
+{
+  "archive": "rw_s9_flat_feet_OBJ.zip",
+  "tag": "rw-s9-flat-feet-20261119",
+  "files_sha256": {
+    "rw_s9_flat_feet_OBJ.zip": "7338f2602e5286f09e7b1876c74929c0bb0624d465ddbcfefde385d4243c7e45"
+  },
+  "bytes": 4857669,
+  "counts": {
+    "meshes": 16,
+    "jpeg": 56
+  },
+  "members_verified": true,
+  "side_view_retry": {
+    "initial_exit": 1,
+    "cause": "Visualization imported a similarly named previous assessment module and selected missing conditions (StopIteration). Switched to the current condition keys. No solver inputs or fitted outputs affected.",
+    "command": "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/side_view.py"
+  },
+  "exits": {
+    "fit": 0,
+    "evaluate": 0,
+    "render": 0,
+    "side_view": 0
+  }
+}

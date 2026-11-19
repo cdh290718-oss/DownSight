@@ -1,0 +1,516 @@
+{
+  "rows": [
+    {
+      "sole_tilt_deg": [
+        18.510195205803818,
+        30.641704349742255
+      ],
+      "mean_sole_tilt_deg": 24.575949777773037,
+      "ankle_frame_tilt_deg": [
+        18.34325101222677,
+        30.250958822871986
+      ],
+      "sole_signed_height_mm": [
+        -163.9104319669369,
+        -101.54964936816646
+      ],
+      "effective_local_ankle_deg": [
+        0.0,
+        0.0
+      ],
+      "pair": "body01",
+      "condition": "free12",
+      "obj": "body01__free12__left_cv_m.obj",
+      "obj_sha256": "bc31fdde278b26da7daf434e6fdc5fdb5005970ee471ed0bea42001dfaae5f50",
+      "common12_mm": 50.669498686703896,
+      "mapped15_nonpa_mm": 51.5646651532538,
+      "mapped15_pa_mm": 35.13720506839732,
+      "matched12_reproj_px": 11.493364949426992,
+      "head_position_mm": 1.359054354322365,
+      "head_chest_deg": 1.1908136374203535e-14,
+      "root_change_deg": 12.981327820822793,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        1.1079937423288349,
+        0.6064342854046515
+      ],
+      "mean_sole_tilt_deg": 0.8572140138667432,
+      "ankle_frame_tilt_deg": [
+        0.0,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -130.4151014566235,
+        -68.41221355916427
+      ],
+      "effective_local_ankle_deg": [
+        18.35960578918457,
+        30.489704132080078
+      ],
+      "pair": "body01",
+      "condition": "flat12",
+      "obj": "body01__flat12__left_cv_m.obj",
+      "obj_sha256": "b59a7b7b3ec4db0276ab1698e5b67cbae2dad994bd612b8a716fb526ed8f6077",
+      "common12_mm": 50.669498686703896,
+      "mapped15_nonpa_mm": 53.474352124993885,
+      "mapped15_pa_mm": 38.15395840874381,
+      "matched12_reproj_px": 11.493364949426992,
+      "head_position_mm": 1.359054354322365,
+      "head_chest_deg": 1.1908136374203535e-14,
+      "root_change_deg": 12.981327820822793,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        63.65825407650789,
+        82.4966857345151
+      ],
+      "mean_sole_tilt_deg": 73.07746990551149,
+      "ankle_frame_tilt_deg": [
+        63.617203278618454,
+        82.65730797123676
+      ],
+      "sole_signed_height_mm": [
+        -204.89337894443204,
+        -126.15270818494496
+      ],
+      "effective_local_ankle_deg": [
+        48.31229019165039,
+        54.3391227722168
+      ],
+      "pair": "body01",
+      "condition": "free15",
+      "obj": "body01__free15__left_cv_m.obj",
+      "obj_sha256": "1234ff2261311a8258d6990dd084126af54da040e3d7f3938a733fa3315b88e2",
+      "common12_mm": 46.46724669098554,
+      "mapped15_nonpa_mm": 65.0973845285951,
+      "mapped15_pa_mm": 43.32670450956648,
+      "matched12_reproj_px": 11.921264588886254,
+      "head_position_mm": 0.9797655939461519,
+      "head_chest_deg": 3.767617824975095e-15,
+      "root_change_deg": 5.004500864293485,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        3.27056746164934,
+        1.2388287399299507
+      ],
+      "mean_sole_tilt_deg": 2.2546981007896454,
+      "ankle_frame_tilt_deg": [
+        0.0,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -153.1918349007595,
+        -114.04446821924341
+      ],
+      "effective_local_ankle_deg": [
+        30.684022903442383,
+        31.477880477905273
+      ],
+      "pair": "body01",
+      "condition": "flat15",
+      "obj": "body01__flat15__left_cv_m.obj",
+      "obj_sha256": "ecc2cc3c0297bdef86f6abd5fcce4a68ddb2bfa8d0592ab6b815b97052c45289",
+      "common12_mm": 41.18191642944677,
+      "mapped15_nonpa_mm": 63.244861335743884,
+      "mapped15_pa_mm": 48.37023384745057,
+      "matched12_reproj_px": 11.22351327367511,
+      "head_position_mm": 0.9804969821526552,
+      "head_chest_deg": 7.083250428460434e-15,
+      "root_change_deg": 4.339920189444705,
+      "converged": false,
+      "selected_step": 19980
+    },
+    {
+      "sole_tilt_deg": [
+        24.358753685506844,
+        9.495442755591064
+      ],
+      "mean_sole_tilt_deg": 16.927098220548956,
+      "ankle_frame_tilt_deg": [
+        24.17037326602481,
+        9.578978592251138
+      ],
+      "sole_signed_height_mm": [
+        -158.67092103206093,
+        -172.64953892829115
+      ],
+      "effective_local_ankle_deg": [
+        0.0,
+        0.0
+      ],
+      "pair": "body02",
+      "condition": "free12",
+      "obj": "body02__free12__left_cv_m.obj",
+      "obj_sha256": "a5b0f96b9e5293791b6e06173d7937f4e5f3e296a6d26dc317b43a8666c7d21f",
+      "common12_mm": 45.277796590567654,
+      "mapped15_nonpa_mm": 45.94169825284908,
+      "mapped15_pa_mm": 32.36117321935995,
+      "matched12_reproj_px": 10.469351518643544,
+      "head_position_mm": 1.6572904661182002,
+      "head_chest_deg": 1.5323080102084725e-14,
+      "root_change_deg": 10.250919403335397,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        0.5097870372148458,
+        0.45613211265836257
+      ],
+      "mean_sole_tilt_deg": 0.48295957493660413,
+      "ankle_frame_tilt_deg": [
+        0.010957570710603664,
+        0.011328637017757128
+      ],
+      "sole_signed_height_mm": [
+        -127.81919074616921,
+        -167.77107957154658
+      ],
+      "effective_local_ankle_deg": [
+        24.272132873535156,
+        9.583677291870117
+      ],
+      "pair": "body02",
+      "condition": "flat12",
+      "obj": "body02__flat12__left_cv_m.obj",
+      "obj_sha256": "2bba40581652baf0a2c7fee88bcac34a1a94dca5476eae9f2bdeccb3c81b8af3",
+      "common12_mm": 45.277796590567654,
+      "mapped15_nonpa_mm": 47.05425077746808,
+      "mapped15_pa_mm": 32.58800224886107,
+      "matched12_reproj_px": 10.469351518643544,
+      "head_position_mm": 1.6572904661182002,
+      "head_chest_deg": 1.5323080102084725e-14,
+      "root_change_deg": 10.250919403335397,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        58.923510994392636,
+        64.72858040692768
+      ],
+      "mean_sole_tilt_deg": 61.82604570066016,
+      "ankle_frame_tilt_deg": [
+        58.99652784432116,
+        65.1342371334768
+      ],
+      "sole_signed_height_mm": [
+        -185.8837436157863,
+        -226.32917706552868
+      ],
+      "effective_local_ankle_deg": [
+        46.642024993896484,
+        64.07295989990234
+      ],
+      "pair": "body02",
+      "condition": "free15",
+      "obj": "body02__free15__left_cv_m.obj",
+      "obj_sha256": "108da3d9eaeb1729655a1467ca4e6199c0c3ebef0e98dd3e075c4017c4211a87",
+      "common12_mm": 43.79946436481138,
+      "mapped15_nonpa_mm": 63.44459970681035,
+      "mapped15_pa_mm": 52.55209912023755,
+      "matched12_reproj_px": 10.587511745658881,
+      "head_position_mm": 1.3275992813511848,
+      "head_chest_deg": 7.120547079150703e-15,
+      "root_change_deg": 6.735466890650289,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        1.0557679559956634,
+        0.2686635509118727
+      ],
+      "mean_sole_tilt_deg": 0.662215753453768,
+      "ankle_frame_tilt_deg": [
+        0.011810064411720283,
+        0.011498723932397743
+      ],
+      "sole_signed_height_mm": [
+        -143.85820398143954,
+        -177.37686283233222
+      ],
+      "effective_local_ankle_deg": [
+        30.70777702331543,
+        11.911175727844238
+      ],
+      "pair": "body02",
+      "condition": "flat15",
+      "obj": "body02__flat15__left_cv_m.obj",
+      "obj_sha256": "1d177dc9bf276958595db690068b88c04539c94af2e0f2f8830e8e40f6277c26",
+      "common12_mm": 46.99763543825656,
+      "mapped15_nonpa_mm": 62.24617191662704,
+      "mapped15_pa_mm": 50.17111647760104,
+      "matched12_reproj_px": 11.225106292090596,
+      "head_position_mm": 1.3140150577218581,
+      "head_chest_deg": 9.149403155879531e-15,
+      "root_change_deg": 5.084501465879541,
+      "converged": false,
+      "selected_step": 19980
+    },
+    {
+      "sole_tilt_deg": [
+        23.01291033323216,
+        19.226151981922687
+      ],
+      "mean_sole_tilt_deg": 21.119531157577423,
+      "ankle_frame_tilt_deg": [
+        22.370172786638047,
+        19.37015439849324
+      ],
+      "sole_signed_height_mm": [
+        -152.49142585984043,
+        -128.10279916840273
+      ],
+      "effective_local_ankle_deg": [
+        0.0,
+        0.0
+      ],
+      "pair": "body03",
+      "condition": "free12",
+      "obj": "body03__free12__left_cv_m.obj",
+      "obj_sha256": "61221fbc526aa992b44038cc4b1b9f5351270591a2fd9bac2dd6c81283e0ef31",
+      "common12_mm": 72.05112194236172,
+      "mapped15_nonpa_mm": 62.64532355428075,
+      "mapped15_pa_mm": 57.53846848597492,
+      "matched12_reproj_px": 17.57991663727657,
+      "head_position_mm": 1.5898196307383166,
+      "head_chest_deg": 2.0224861792715138e-14,
+      "root_change_deg": 12.558019980465248,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        1.5450928635366572,
+        0.4614102845462334
+      ],
+      "mean_sole_tilt_deg": 1.0032515740414454,
+      "ankle_frame_tilt_deg": [
+        0.009437482940728575,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -119.63464240131484,
+        -108.7812885227435
+      ],
+      "effective_local_ankle_deg": [
+        22.41793441772461,
+        19.441173553466797
+      ],
+      "pair": "body03",
+      "condition": "flat12",
+      "obj": "body03__flat12__left_cv_m.obj",
+      "obj_sha256": "41e5acb2b8bf0d7d34b81fb98c651b2799c266617bc04e641833bcb925d708cd",
+      "common12_mm": 72.05112194236172,
+      "mapped15_nonpa_mm": 65.18953674897142,
+      "mapped15_pa_mm": 59.61307262777697,
+      "matched12_reproj_px": 17.57991663727657,
+      "head_position_mm": 1.5898196307383166,
+      "head_chest_deg": 2.0224861792715138e-14,
+      "root_change_deg": 12.558019980465248,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        53.10774841435507,
+        69.94863881348219
+      ],
+      "mean_sole_tilt_deg": 61.52819361391863,
+      "ankle_frame_tilt_deg": [
+        52.87985474063978,
+        70.67199017966281
+      ],
+      "sole_signed_height_mm": [
+        -173.7483399296351,
+        -155.30704656373607
+      ],
+      "effective_local_ankle_deg": [
+        43.31803512573242,
+        54.97144317626953
+      ],
+      "pair": "body03",
+      "condition": "free15",
+      "obj": "body03__free15__left_cv_m.obj",
+      "obj_sha256": "0b2575bac8d5527c00dc9bd1df9bf402e4b97612acd319867892692441046d0e",
+      "common12_mm": 71.73172663193095,
+      "mapped15_nonpa_mm": 82.62888457775092,
+      "mapped15_pa_mm": 72.05193211674585,
+      "matched12_reproj_px": 18.262987518735198,
+      "head_position_mm": 1.0936841182253743,
+      "head_chest_deg": 1.881695395062391e-14,
+      "root_change_deg": 3.7603372703283147,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        3.571654557981064,
+        0.7120364098408289
+      ],
+      "mean_sole_tilt_deg": 2.1418454839109464,
+      "ankle_frame_tilt_deg": [
+        0.0,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -139.21684095347976,
+        -124.49616549070619
+      ],
+      "effective_local_ankle_deg": [
+        30.963790893554688,
+        29.560298919677734
+      ],
+      "pair": "body03",
+      "condition": "flat15",
+      "obj": "body03__flat15__left_cv_m.obj",
+      "obj_sha256": "85c5848c39c177141d09f43f828595753ddbd9308538a8c83d1392bd559c5bb5",
+      "common12_mm": 72.42863843132103,
+      "mapped15_nonpa_mm": 85.50871772528748,
+      "mapped15_pa_mm": 77.26189235081877,
+      "matched12_reproj_px": 18.454290435919354,
+      "head_position_mm": 1.0837730301548538,
+      "head_chest_deg": 1.8289361136463488e-14,
+      "root_change_deg": 2.729832514147802,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        10.28333282506057,
+        4.129872424889288
+      ],
+      "mean_sole_tilt_deg": 7.206602624974929,
+      "ankle_frame_tilt_deg": [
+        11.62230224167661,
+        3.1567661912511493
+      ],
+      "sole_signed_height_mm": [
+        -28.590853899220114,
+        -62.255206100749746
+      ],
+      "effective_local_ankle_deg": [
+        0.0,
+        0.0
+      ],
+      "pair": "body04",
+      "condition": "free12",
+      "obj": "body04__free12__left_cv_m.obj",
+      "obj_sha256": "b452ec5dbd115baa0098461c48422cbfb66f1282ca68a956fee650b0f2a324ef",
+      "common12_mm": 43.99616559555613,
+      "mapped15_nonpa_mm": 46.211377272875055,
+      "mapped15_pa_mm": 36.31157213405744,
+      "matched12_reproj_px": 11.219838460971326,
+      "head_position_mm": 1.6370331008553234,
+      "head_chest_deg": 2.2127467359170744e-14,
+      "root_change_deg": 43.56489041022746,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        1.3100032019724366,
+        1.2587450654783563
+      ],
+      "mean_sole_tilt_deg": 1.2843741337253964,
+      "ankle_frame_tilt_deg": [
+        0.0,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -49.15131261316663,
+        -60.659620278357586
+      ],
+      "effective_local_ankle_deg": [
+        11.637211799621582,
+        3.156888484954834
+      ],
+      "pair": "body04",
+      "condition": "flat12",
+      "obj": "body04__flat12__left_cv_m.obj",
+      "obj_sha256": "464d78957751ae648626b59f556264ea19b966c5594cb23ed01b9a1a94bea07b",
+      "common12_mm": 43.99616559555613,
+      "mapped15_nonpa_mm": 45.817352215033466,
+      "mapped15_pa_mm": 36.34462869148848,
+      "matched12_reproj_px": 11.219838460971326,
+      "head_position_mm": 1.6370331008553234,
+      "head_chest_deg": 2.2127467359170744e-14,
+      "root_change_deg": 43.56489041022746,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        30.556766383554432,
+        39.22994436779065
+      ],
+      "mean_sole_tilt_deg": 34.89335537567254,
+      "ankle_frame_tilt_deg": [
+        30.284780239125073,
+        38.85788025439483
+      ],
+      "sole_signed_height_mm": [
+        -98.84560719214464,
+        -83.24693351113078
+      ],
+      "effective_local_ankle_deg": [
+        40.58733367919922,
+        37.33313751220703
+      ],
+      "pair": "body04",
+      "condition": "free15",
+      "obj": "body04__free15__left_cv_m.obj",
+      "obj_sha256": "d672179b81b90f9fa33c7a245eb5a803259654d6d16d9a571189b70ba9331107",
+      "common12_mm": 48.216497575414486,
+      "mapped15_nonpa_mm": 51.89477111358359,
+      "mapped15_pa_mm": 43.36212435979999,
+      "matched12_reproj_px": 11.574634193044028,
+      "head_position_mm": 1.4175192512601285,
+      "head_chest_deg": 8.940802025582843e-15,
+      "root_change_deg": 36.333100116095984,
+      "converged": false,
+      "selected_step": 20000
+    },
+    {
+      "sole_tilt_deg": [
+        2.087738301664004,
+        0.8644379363878206
+      ],
+      "mean_sole_tilt_deg": 1.4760881190259123,
+      "ankle_frame_tilt_deg": [
+        0.0,
+        0.0
+      ],
+      "sole_signed_height_mm": [
+        -59.52308250484162,
+        -66.35175671398375
+      ],
+      "effective_local_ankle_deg": [
+        8.539996147155762,
+        9.385899543762207
+      ],
+      "pair": "body04",
+      "condition": "flat15",
+      "obj": "body04__flat15__left_cv_m.obj",
+      "obj_sha256": "c626523338d1d527429678c8a03ec35cf570479bb370e16a4fa2ba8c88d1855c",
+      "common12_mm": 47.46226583790483,
+      "mapped15_nonpa_mm": 49.07478766682873,
+      "mapped15_pa_mm": 38.86997050788531,
+      "matched12_reproj_px": 12.762978015025013,
+      "head_position_mm": 1.4252132517770773,
+      "head_chest_deg": 1.2561567135290272e-14,
+      "root_change_deg": 37.08809932975415,
+      "converged": false,
+      "selected_step": 20000
+    }
+  ]
+}

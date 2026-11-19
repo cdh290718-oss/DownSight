@@ -1,0 +1,309 @@
+{
+  "base": "f8fc5ae32df369f92bc269cb9c7cb538d1f7ef4d",
+  "worktree": "new run plus unrelated existing changes",
+  "complete": {
+    "exit_status": 0,
+    "ids": [
+      [
+        "body01",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body01",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body01",
+        "free15",
+        "2d"
+      ],
+      [
+        "body01",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body02",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body02",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body02",
+        "free15",
+        "2d"
+      ],
+      [
+        "body02",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body03",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body03",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body03",
+        "free15",
+        "2d"
+      ],
+      [
+        "body03",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body04",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body04",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body04",
+        "free15",
+        "2d"
+      ],
+      [
+        "body04",
+        "flat15",
+        "2d"
+      ]
+    ],
+    "steps": 20000,
+    "elapsed_seconds": 168.84871697425842,
+    "protocol_sha256": "a175fd542043fa9d504eae4799c48ccc1b1cb3329142ef0c871b2a987fe44457",
+    "final_selected_steps": [
+      20000,
+      20000,
+      20000,
+      19980,
+      20000,
+      20000,
+      20000,
+      19980,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000
+    ],
+    "device": "cpu",
+    "threads": 1,
+    "body_gt_read": false
+  },
+  "diagnostics": {
+    "budget": 20000,
+    "ids": [
+      [
+        "body01",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body01",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body01",
+        "free15",
+        "2d"
+      ],
+      [
+        "body01",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body02",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body02",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body02",
+        "free15",
+        "2d"
+      ],
+      [
+        "body02",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body03",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body03",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body03",
+        "free15",
+        "2d"
+      ],
+      [
+        "body03",
+        "flat15",
+        "2d"
+      ],
+      [
+        "body04",
+        "baseline",
+        "2d"
+      ],
+      [
+        "body04",
+        "flat12",
+        "2d"
+      ],
+      [
+        "body04",
+        "free15",
+        "2d"
+      ],
+      [
+        "body04",
+        "flat15",
+        "2d"
+      ]
+    ],
+    "selected_step": [
+      20000,
+      20000,
+      20000,
+      19980,
+      20000,
+      20000,
+      20000,
+      19980,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000
+    ],
+    "selected_feasible": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "relative_loss_change": [
+      0.0003350450561983301,
+      0.0003350450561983301,
+      4.41441559617743e-05,
+      1.1064971694892954e-05,
+      0.00033779900309066803,
+      0.00033779900309066803,
+      0.00012804588253158202,
+      3.270182068788186e-05,
+      0.0002512203300598232,
+      0.0002512203300598232,
+      5.974133645571641e-05,
+      2.3981563546639397e-05,
+      0.0006822020787224973,
+      0.0006822020787224973,
+      0.00024175844321311867,
+      0.00033795174283823007
+    ],
+    "max_joint_motion_mm": [
+      1.0599819000941075,
+      1.0599819000941075,
+      0.6329713617207693,
+      0.2648599544105588,
+      1.0940202375727301,
+      1.0940202375727301,
+      0.6148289475174675,
+      0.24553693556639555,
+      1.3870476838608272,
+      1.3870476838608272,
+      0.7377997049536485,
+      0.3987577937935062,
+      4.954570769698552,
+      4.783499199979295,
+      2.261580620178922,
+      2.242466000004089
+    ],
+    "convergence_pass": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "convergence_thresholds": {
+    "window_steps": 1000,
+    "relative_loss_change_max": 0.001,
+    "max_joint_motion_mm": 0.1
+  },
+  "config_sha256": "a175fd542043fa9d504eae4799c48ccc1b1cb3329142ef0c871b2a987fe44457",
+  "checkpoint_sha256": "96c0ba8e0684c3d1660e442d548f5029df526def980b27a29e4e82f72ba0ccfd",
+  "exit_prepare_and_fit": 0,
+  "camera_sha256": {
+    "camera_left.json": "a0ddc12a8ca6066ba34a11d7c0eb51291595a8569680c4089283c4f2c4ce6138",
+    "camera_right.json": "d7536fcca242153ba93446440c7c19aef962ecc0dc94b08ab760b262fd45fdab"
+  },
+  "fit_script_sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22",
+  "commands": [
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/floor.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/plane.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/experiment.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/assess.py evaluate",
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/assess.py render",
+    "<BODY_PYTHON> -Bu runs/2026-11-19_rw_flat_feet/assess.py package"
+  ]
+}
