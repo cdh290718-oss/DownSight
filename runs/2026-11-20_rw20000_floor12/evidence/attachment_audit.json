@@ -1,0 +1,37 @@
+{
+  "archive": "RW20000_floor12_front_side.zip",
+  "tag": "rw20000-floor12-views-20261120",
+  "files_sha256": {
+    "RW20000_floor12_front_side.zip": "e9aa2b708b23ea3a0c6a9bca41755d3f58354556a9b73da6ff5d9036ca83076f"
+  },
+  "bytes": 331930,
+  "images": {
+    "S1/pair001/front.jpg": "0840f62c6b535a992faf0ac33235530411be25d14bef97759245bc150eb0b24e",
+    "S1/pair001/side.jpg": "b8201264e26f47abeecbee3bdd38863d76fb3f8ce821894731150fad73507e0a",
+    "S1/pair022/front.jpg": "e2800733654422c8db9f3bf36216f07109e09378472c12c43a4c5908f3932872",
+    "S1/pair022/side.jpg": "7f0f8a27014bf7d473cec3f59e7a0568dab97b7c83ad139b730c8c059894c719",
+    "S1/pair028/front.jpg": "57b76d71d6dca555774e1b6a1455e4a806a8bad524d11ee31f180ec78fb7ad37",
+    "S1/pair028/side.jpg": "6f62e3064adffaee4c268972ec2a49b97b0a2f1f96fded2eef6bef10c8e7a0e7",
+    "S1/pair034/front.jpg": "242626a9f1f663cc418785ac664da7caef841d96e97ee81a96d8407413a59a34",
+    "S1/pair034/side.jpg": "26d5733c8d10583eacf97011fd6df8754d2ced5aeaab39f72941cc759d07f5ff",
+    "S9/pair045/front.jpg": "94ae91c4ff0c04e81be13683261eaaae8ef68a6735bc454e4f600ce6fcbb0170",
+    "S9/pair045/side.jpg": "6b0261fc21ed3ccc912659db083eb99f8af4f82a5e4e16a6e97c2453def7746d",
+    "S9/pair055/front.jpg": "8a9d116e6ba09fd8f5bc3890de0dc9606cd60ebc47cecc3bec144b2e2c67ec98",
+    "S9/pair055/side.jpg": "bb822e27039ad9011ed70a9f5faeec2acb8297d6b31c97c237bfa44237c9f970",
+    "S9/pair036/front.jpg": "0e421cf3d4c2ce2b731f22205fae5142bcc12b83eae4a0bf019a7cdaca0a80ec",
+    "S9/pair036/side.jpg": "4195f76fe3f9036c302f00658e07e1869d72bb8fb6159b8c3574a6d639131628",
+    "S9/pair037/front.jpg": "902eaa436b0d11687698e439e7cb01fbfc078366e25c323f39cadcbcead72de8",
+    "S9/pair037/side.jpg": "463b7fdc59365c00ea5d0fd321b80948d806d67f12975190129300b363bd5523",
+    "S11/pair078/front.jpg": "fc6fa103f5bd0b5c2544623bdc8fcf70eb74b1f6d825cb28f6e890359fad5264",
+    "S11/pair078/side.jpg": "8a72f125dcab5522825ca683f234febb0e0e84f3e288593a8723f81b3ccf10e7",
+    "S11/pair068/front.jpg": "74b1092254943068fe67cd98b71aa590d8296ff644af12c1d3e1b0153823e905",
+    "S11/pair068/side.jpg": "c5b366a39007dc9818e6e6e793d5bc6eeecdbcf58aa8bdf34c430961db1f2393",
+    "S11/pair094/front.jpg": "cff13cdfbdf630e1cb68d97a0e2a94278ab40bb0dc756bb2745a42d4063c6b1e",
+    "S11/pair094/side.jpg": "79ded0dc9213bfcd9a9ec6b5ac3eac1e6314873de48406a6bbccb96af2c8c4fb",
+    "S11/pair088/front.jpg": "d0d072b958f9a3fcfbff56117a2cb8b677abc966da1d28b98a3c28abaca1debb",
+    "S11/pair088/side.jpg": "5ed50df865d64cd47c2d48bcd9e467ffba3f7ab22146853df89bf4a63fe17067"
+  },
+  "overview_sha256": "75026557686e6fcd109ba03a0d5d178a5e50665d9d31bd55e7d51d6b292baf9b",
+  "command": "python -B package_views.py",
+  "exit_status": 0
+}

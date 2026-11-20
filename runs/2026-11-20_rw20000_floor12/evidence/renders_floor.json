@@ -1,0 +1,471 @@
+{
+  "rows": [
+    {
+      "pair": "pair001",
+      "method": "epipolar_patch",
+      "subject": "S1",
+      "obj_sha256": "a17cbe333b5f045c4fa88d334e43d7846fbb2029457a24adc3067470e47eace6",
+      "up": [
+        -0.1656439524758021,
+        -0.14759930858157158,
+        -0.9750777020906776
+      ],
+      "height_m": 1.362400521405377,
+      "validation": {
+        "sparse_matches": 53,
+        "ransac_inliers": 32,
+        "dense_pixels": 17139,
+        "checker_angle_deg": 4.57029528390135,
+        "checker_distance_diff_mm": 47.346101094416056,
+        "sparse_median_residual_mm": 70.76064370114632,
+        "sparse_vs_dense_deg": 4.5661609522371505,
+        "patch_candidates": 429,
+        "inlier_cells": 21,
+        "accepted": false,
+        "revised_patch_check": {
+          "sparse_matches": 53,
+          "ransac_inliers": 32,
+          "dense_pixels": 17139,
+          "checker_angle_deg": 4.57029528390135,
+          "checker_distance_diff_mm": 47.346101094416056,
+          "sparse_median_residual_mm": 70.76064370114632,
+          "sparse_vs_dense_deg": 4.5661609522371505,
+          "patch_candidates": 429,
+          "inlier_cells": 21,
+          "accepted": false
+        },
+        "revised_sift_check": {
+          "sparse_matches": 33,
+          "ransac_inliers": 14,
+          "dense_pixels": 17139,
+          "checker_angle_deg": 4.415962355646166,
+          "checker_distance_diff_mm": 45.21691418524965,
+          "sparse_median_residual_mm": 95.63115394464971,
+          "sparse_vs_dense_deg": 1.7476151274396674,
+          "accepted": false
+        }
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "b76e5c7170d860968f7e4de330068a70bb336cb8fee1d7934205303dba6a23ff",
+        "ff894f0f3b940081d65b810138a20f00cd3fb06b1a5dbe4682ccb0cea9b0cb1b"
+      ],
+      "images": {
+        "front.jpg": "0840f62c6b535a992faf0ac33235530411be25d14bef97759245bc150eb0b24e",
+        "side.jpg": "b8201264e26f47abeecbee3bdd38863d76fb3f8ce821894731150fad73507e0a"
+      }
+    },
+    {
+      "pair": "pair022",
+      "method": "epipolar_patch",
+      "subject": "S1",
+      "obj_sha256": "21e4c3e5f5bbf07481d16eefa08d29b20b40c046eec17c9429eaaa690301478a",
+      "up": [
+        -0.3474824686371345,
+        -0.20549406372267878,
+        -0.9148924110323479
+      ],
+      "height_m": 1.3280239292930687,
+      "validation": {
+        "sparse_matches": 31,
+        "ransac_inliers": 19,
+        "dense_pixels": 14948,
+        "checker_angle_deg": 3.5420559554418096,
+        "checker_distance_diff_mm": 11.245954709339978,
+        "sparse_median_residual_mm": 43.36900965119095,
+        "sparse_vs_dense_deg": 5.885743202181457,
+        "patch_candidates": 405,
+        "inlier_cells": 10,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "2e9139454b938e6cc21c32248beb22f4d65b8fe555747448989f08f8728bd2ac",
+        "c6b09ba986324fcf501091ccebb20f60661dd4228096958382dcfab2c508eda5"
+      ],
+      "images": {
+        "front.jpg": "e2800733654422c8db9f3bf36216f07109e09378472c12c43a4c5908f3932872",
+        "side.jpg": "7f0f8a27014bf7d473cec3f59e7a0568dab97b7c83ad139b730c8c059894c719"
+      }
+    },
+    {
+      "pair": "pair028",
+      "method": "epipolar_patch",
+      "subject": "S1",
+      "obj_sha256": "ddef60f378dd622828f78e09b8a31df7525728769bc53eb340ba469bf469b80d",
+      "up": [
+        0.25702535059010084,
+        -0.39547009995737187,
+        -0.8817830624330124
+      ],
+      "height_m": 1.1302990277768639,
+      "validation": {
+        "sparse_matches": 50,
+        "ransac_inliers": 39,
+        "dense_pixels": 14525,
+        "checker_angle_deg": 2.759913908038789,
+        "checker_distance_diff_mm": 18.304469259503353,
+        "sparse_median_residual_mm": 27.61708402403029,
+        "sparse_vs_dense_deg": 9.356088311928433,
+        "patch_candidates": 389,
+        "inlier_cells": 14,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "dfe4fe9b3402c25deaa442d3cba348480519ebcfa5f4cd3238333ccc7f6c41d9",
+        "d096b8fce137e8920c6c4cd96d8caaff036f13f735cb7cc61b1c545d0eaf8b7a"
+      ],
+      "images": {
+        "front.jpg": "57b76d71d6dca555774e1b6a1455e4a806a8bad524d11ee31f180ec78fb7ad37",
+        "side.jpg": "6f62e3064adffaee4c268972ec2a49b97b0a2f1f96fded2eef6bef10c8e7a0e7"
+      }
+    },
+    {
+      "pair": "pair034",
+      "method": "epipolar_patch",
+      "subject": "S1",
+      "obj_sha256": "79f5ace97d2a280c283761959152e3dad289a24d7730ef33743e9d26a10e8313",
+      "up": [
+        -0.3290807437085275,
+        -0.40675909728378806,
+        -0.8522047294501013
+      ],
+      "height_m": 1.1539046789709038,
+      "validation": {
+        "sparse_matches": 12,
+        "ransac_inliers": 9,
+        "dense_pixels": 21634,
+        "checker_angle_deg": 6.72404736457042,
+        "checker_distance_diff_mm": 8.726055038944747,
+        "sparse_median_residual_mm": 34.12351981579609,
+        "sparse_vs_dense_deg": 6.814993105258956,
+        "patch_candidates": 450,
+        "inlier_cells": 5,
+        "accepted": false,
+        "revised_patch_check": {
+          "sparse_matches": 12,
+          "ransac_inliers": 9,
+          "dense_pixels": 21634,
+          "checker_angle_deg": 6.72404736457042,
+          "checker_distance_diff_mm": 8.726055038944747,
+          "sparse_median_residual_mm": 34.12351981579609,
+          "sparse_vs_dense_deg": 6.814993105258956,
+          "patch_candidates": 450,
+          "inlier_cells": 5,
+          "accepted": false
+        },
+        "revised_sift_check": {
+          "sparse_matches": 5,
+          "ransac_inliers": 4,
+          "dense_pixels": 21634,
+          "checker_angle_deg": 6.661531785387094,
+          "checker_distance_diff_mm": 8.93264832558427,
+          "sparse_median_residual_mm": 19.774807942125385,
+          "sparse_vs_dense_deg": 3.1499944117550425,
+          "accepted": false
+        }
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "e481f7c9364ad044cb59a090aea397d280dfce58f5350c731637bfe1449f7f4a",
+        "f58be139565910e514674810cbd4d1b06db88ea66fe75a3059c0acb712339ae6"
+      ],
+      "images": {
+        "front.jpg": "242626a9f1f663cc418785ac664da7caef841d96e97ee81a96d8407413a59a34",
+        "side.jpg": "26d5733c8d10583eacf97011fd6df8754d2ced5aeaab39f72941cc759d07f5ff"
+      }
+    },
+    {
+      "pair": "pair045",
+      "method": "sift",
+      "subject": "S9",
+      "obj_sha256": "bc591a21490195da4067ecdc8f7b75bbb9b77fbd045aee4942b4a9e8e85a83f3",
+      "up": [
+        -0.01728797650749555,
+        0.3194961395490188,
+        -0.947429861615914
+      ],
+      "height_m": 1.1787436000353175,
+      "validation": {
+        "sparse_matches": 78,
+        "ransac_inliers": 58,
+        "dense_pixels": 13788,
+        "checker_angle_deg": 0.2119694285073746,
+        "checker_distance_diff_mm": 2.7941456287572386,
+        "sparse_median_residual_mm": 26.834330147670226,
+        "sparse_vs_dense_deg": 2.5526253834944144,
+        "accepted": true
+      },
+      "prior_repeat": {
+        "angle_deg": 0.0,
+        "offset_change_mm": 0.0
+      },
+      "image_sha256": [
+        "5b72bf9f3328979759514c3608b0dbaf7a69a9cea22e42c52b423d0e61238a22",
+        "73fcfa2fc888df5ea6db0ffccf89a97edae91d5b931858e8f48d4d72cbd78366"
+      ],
+      "images": {
+        "front.jpg": "94ae91c4ff0c04e81be13683261eaaae8ef68a6735bc454e4f600ce6fcbb0170",
+        "side.jpg": "6b0261fc21ed3ccc912659db083eb99f8af4f82a5e4e16a6e97c2453def7746d"
+      }
+    },
+    {
+      "pair": "pair055",
+      "method": "sift",
+      "subject": "S9",
+      "obj_sha256": "81a52f6410f06b0d1eeda5968c6245a007ba362e4143bcfd72578ae57915e148",
+      "up": [
+        -0.2153032258965829,
+        0.328036275781725,
+        -0.9198025454899442
+      ],
+      "height_m": 1.0645264603334177,
+      "validation": {
+        "sparse_matches": 34,
+        "ransac_inliers": 23,
+        "dense_pixels": 9228,
+        "checker_angle_deg": 1.454005865314656,
+        "checker_distance_diff_mm": 4.860324094160262,
+        "sparse_median_residual_mm": 34.69760533342758,
+        "sparse_vs_dense_deg": 7.216617489005606,
+        "accepted": true
+      },
+      "prior_repeat": {
+        "angle_deg": 0.0,
+        "offset_change_mm": 0.0
+      },
+      "image_sha256": [
+        "32555be5fc0533426d376d6e6a56a57330f20fdf76d068c8e5b493fd0739621a",
+        "9852acda17c82809eea1363332b104b841f5f74f12e5da4ae100c6497bf6f76e"
+      ],
+      "images": {
+        "front.jpg": "8a9d116e6ba09fd8f5bc3890de0dc9606cd60ebc47cecc3bec144b2e2c67ec98",
+        "side.jpg": "bb822e27039ad9011ed70a9f5faeec2acb8297d6b31c97c237bfa44237c9f970"
+      }
+    },
+    {
+      "pair": "pair036",
+      "method": "sift",
+      "subject": "S9",
+      "obj_sha256": "75c9e163f36013ac28a7adef6dd764822a3c98ad06ff395b664ca768f6802a57",
+      "up": [
+        0.1543005545239574,
+        0.04033382208731926,
+        -0.9872003452539042
+      ],
+      "height_m": 1.387778633552143,
+      "validation": {
+        "sparse_matches": 112,
+        "ransac_inliers": 60,
+        "dense_pixels": 15434,
+        "checker_angle_deg": 1.044825910651259,
+        "checker_distance_diff_mm": 11.660551395040297,
+        "sparse_median_residual_mm": 37.40312194745022,
+        "sparse_vs_dense_deg": 2.711296687690547,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "5d9c49e65e59710f94ee7b0f655f1cceba8487e05b9be06cb698e9df24953d6c",
+        "6cc0b524294bd053791a7fab31bee314c412cefef3967f0230a6f9ff8f54b0a2"
+      ],
+      "images": {
+        "front.jpg": "0e421cf3d4c2ce2b731f22205fae5142bcc12b83eae4a0bf019a7cdaca0a80ec",
+        "side.jpg": "4195f76fe3f9036c302f00658e07e1869d72bb8fb6159b8c3574a6d639131628"
+      }
+    },
+    {
+      "pair": "pair037",
+      "method": "sift",
+      "subject": "S9",
+      "obj_sha256": "fbefdbab794f62a75637b6fb5bfe704f18d1c03652ad975e0b6d26f510e144f7",
+      "up": [
+        0.039036516749014906,
+        0.31675160391799667,
+        -0.9477048969882347
+      ],
+      "height_m": 1.1914602410712176,
+      "validation": {
+        "sparse_matches": 36,
+        "ransac_inliers": 30,
+        "dense_pixels": 9241,
+        "checker_angle_deg": 1.9744359219331047,
+        "checker_distance_diff_mm": 27.6066824531509,
+        "sparse_median_residual_mm": 24.58086497750567,
+        "sparse_vs_dense_deg": 4.797935534093076,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "442f7c10b563697d5d38b1674cb0d0b6df7c6fbb80af6e8578c441efb1a744ad",
+        "852d3b685d618bb5fb695fe6c72088e108ff02eec6d21a479b3d6209d8e9c746"
+      ],
+      "images": {
+        "front.jpg": "902eaa436b0d11687698e439e7cb01fbfc078366e25c323f39cadcbcead72de8",
+        "side.jpg": "463b7fdc59365c00ea5d0fd321b80948d806d67f12975190129300b363bd5523"
+      }
+    },
+    {
+      "pair": "pair078",
+      "method": "sift",
+      "subject": "S11",
+      "obj_sha256": "1ef3c63ffe7333011160717a64b9abdb611a2107905a72d48054fda61447c161",
+      "up": [
+        -0.04757625208955006,
+        -0.2620776726108029,
+        -0.9638733286879643
+      ],
+      "height_m": 1.3076246362802173,
+      "validation": {
+        "sparse_matches": 142,
+        "ransac_inliers": 88,
+        "dense_pixels": 14668,
+        "checker_angle_deg": 2.2500635941625373,
+        "checker_distance_diff_mm": 14.105743595521414,
+        "sparse_median_residual_mm": 32.91590430127067,
+        "sparse_vs_dense_deg": 2.877557158171759,
+        "accepted": true
+      },
+      "prior_repeat": {
+        "angle_deg": 0.0,
+        "offset_change_mm": 0.0
+      },
+      "image_sha256": [
+        "43955ab392ef2e81f49c38bae7ce5d50b93cd5065714c8ecea7eaf8bbd5309e4",
+        "b0a60176f158795019dbb9443d735a856148e424116cc4ed11d75bf0569670f2"
+      ],
+      "images": {
+        "front.jpg": "fc6fa103f5bd0b5c2544623bdc8fcf70eb74b1f6d825cb28f6e890359fad5264",
+        "side.jpg": "8a72f125dcab5522825ca683f234febb0e0e84f3e288593a8723f81b3ccf10e7"
+      }
+    },
+    {
+      "pair": "pair068",
+      "method": "sift_revised",
+      "subject": "S11",
+      "obj_sha256": "3bb082c7d51be443f9e3db779a54b50bdd23115def54b07a0710a3bc4a411caa",
+      "up": [
+        0.10441219744060513,
+        0.12012198514424702,
+        -0.9872531598889057
+      ],
+      "height_m": 1.7063462848260373,
+      "validation": {
+        "sparse_matches": 34,
+        "ransac_inliers": 18,
+        "dense_pixels": 16064,
+        "checker_angle_deg": 4.080485821870882,
+        "checker_distance_diff_mm": 99.56004217068681,
+        "sparse_median_residual_mm": 63.11762722463199,
+        "sparse_vs_dense_deg": 12.973904445621327,
+        "accepted": false,
+        "revised_patch_check": {
+          "sparse_matches": 12,
+          "ransac_inliers": 6,
+          "dense_pixels": 16064,
+          "checker_angle_deg": 4.064394424444755,
+          "checker_distance_diff_mm": 99.45477864868523,
+          "sparse_median_residual_mm": 42.443917863437484,
+          "sparse_vs_dense_deg": 2.4450569129142745,
+          "patch_candidates": 386,
+          "inlier_cells": 5,
+          "accepted": false
+        },
+        "revised_sift_check": {
+          "sparse_matches": 34,
+          "ransac_inliers": 18,
+          "dense_pixels": 16064,
+          "checker_angle_deg": 4.080485821870882,
+          "checker_distance_diff_mm": 99.56004217068681,
+          "sparse_median_residual_mm": 63.11762722463199,
+          "sparse_vs_dense_deg": 12.973904445621327,
+          "accepted": false
+        }
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+        "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21"
+      ],
+      "images": {
+        "front.jpg": "74b1092254943068fe67cd98b71aa590d8296ff644af12c1d3e1b0153823e905",
+        "side.jpg": "c5b366a39007dc9818e6e6e793d5bc6eeecdbcf58aa8bdf34c430961db1f2393"
+      }
+    },
+    {
+      "pair": "pair094",
+      "method": "epipolar_patch",
+      "subject": "S11",
+      "obj_sha256": "63447bcc5cddaf6e2f6c1815ce1be535116b00b37030e4a178b0ea6e98f4b2d5",
+      "up": [
+        -0.11973212868767491,
+        -0.37375124156659134,
+        -0.9197685724068579
+      ],
+      "height_m": 1.6891970442951645,
+      "validation": {
+        "sparse_matches": 31,
+        "ransac_inliers": 20,
+        "dense_pixels": 20992,
+        "checker_angle_deg": 0.7729349064188565,
+        "checker_distance_diff_mm": 4.799775600365486,
+        "sparse_median_residual_mm": 31.671040878275214,
+        "sparse_vs_dense_deg": 7.174517612290652,
+        "patch_candidates": 450,
+        "inlier_cells": 14,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "264f2ecc6459a059d752d551f1b3053c331f36262d19a6c6b127efb80e69baf8",
+        "40e98291e1f2131a2f8511c49872acd14f68a9c5292fe0345d57f9980b608ca6"
+      ],
+      "images": {
+        "front.jpg": "cff13cdfbdf630e1cb68d97a0e2a94278ab40bb0dc756bb2745a42d4063c6b1e",
+        "side.jpg": "79ded0dc9213bfcd9a9ec6b5ac3eac1e6314873de48406a6bbccb96af2c8c4fb"
+      }
+    },
+    {
+      "pair": "pair088",
+      "method": "sift",
+      "subject": "S11",
+      "obj_sha256": "9628d7945137bc8ceb6536de362deb2e39c46f67ac65ac8dccde4a393c02ec85",
+      "up": [
+        0.1707317512167846,
+        -0.11744423279581857,
+        -0.978293167363164
+      ],
+      "height_m": 1.3104388609237312,
+      "validation": {
+        "sparse_matches": 115,
+        "ransac_inliers": 67,
+        "dense_pixels": 16241,
+        "checker_angle_deg": 1.5105189837853654,
+        "checker_distance_diff_mm": 29.55544324833914,
+        "sparse_median_residual_mm": 43.11873054907323,
+        "sparse_vs_dense_deg": 2.400095815808231,
+        "accepted": true
+      },
+      "prior_repeat": null,
+      "image_sha256": [
+        "3c5e1198d287f2d5239eaf8e5e8ad48e91815be85618648a2556db035e7d1741",
+        "f110644da8704ca8df07614bf00ca360515eec867e62f0761211353eb4ef6f72"
+      ],
+      "images": {
+        "front.jpg": "d0d072b958f9a3fcfbff56117a2cb8b677abc966da1d28b98a3c28abaca1debb",
+        "side.jpg": "5ed50df865d64cd47c2d48bcd9e467ffba3f7ab22146853df89bf4a63fe17067"
+      }
+    }
+  ],
+  "base": "093e213bd2c632c777f8213748917fec9f0d55a0",
+  "command": "<BODY_PYTHON> -Bu render_gallery.py",
+  "exit_status": 0,
+  "checkpoint_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+  "solver_input_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+  "calibration_sha256": {
+    "camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "manifest_sha256": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1"
+}
