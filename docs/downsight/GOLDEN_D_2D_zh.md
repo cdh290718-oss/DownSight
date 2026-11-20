@@ -1,5 +1,7 @@
 # 当前黄金 D 的单帧双目身体拟合
 
+[双目联合优化图解：肩髋初始化、左右眼重投影、关节权重与选解](golden-d-v2/README.md)
+
 后续研究默认使用 `golden-d-2d-v2`。参考实现为冻结集运行器的 RW20000 条件，原图库的十二个 OBJ 取自该条件。清单固定源码、参数、模型标识和评测记录。[当前清单](../../configs/golden_d.current.json) · [拟合入口](../../runs/2026-11-19_rw_frozen200_free12/run_fit.py) · [冻结集报告](../../runs/2026-11-19_rw_frozen200_free12/report.md)
 
 | 设置 | 上一版 v1 | 当前 v2 |

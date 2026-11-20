@@ -8,6 +8,8 @@ DownSight 探索从头戴下视双目图像恢复人体姿态与体型。
 
 ## 双目拟合流程
 
+[双目联合优化图解：从一个腕点看懂两眼如何共同拟合人体](docs/downsight/golden-d-v2/README.md)
+
 ```mermaid
 flowchart TD
     D["RW20000 左右目身体 12 点"] --> I["双肩与双髋初始化根朝向"]
