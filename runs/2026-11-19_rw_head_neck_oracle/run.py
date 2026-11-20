@@ -20,7 +20,7 @@ read, write, sha = common.read, common.write, common.sha
 
 def prepare():
     assert not (OUT / 'prepared.json').exists()
-    reference = read(ROOT / 'configs/golden_d.current.json')
+    reference = read(ROOT / 'configs/golden_d.2d-v1.json')
     hashes = {}
     for entry in reference['locked_files']:
         digest = sha(ROOT / entry['path'])

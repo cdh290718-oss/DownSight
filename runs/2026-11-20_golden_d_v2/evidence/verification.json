@@ -1,0 +1,123 @@
+{
+  "base_commit": "7aa682a50658ac1c84adc22122fc84b5cb0d86c4",
+  "command": "python -B runs/2026-11-20_golden_d_v2/verify.py",
+  "exit_status": 0,
+  "v1_manifest_sha256": "d750987671bd245ced858f1cc1a8f639ad9bb282eb33ca79726854a73f115024",
+  "v2_manifest_sha256": "652f59b10fdf2091a9d3d2968377c0956a74c7178a81f3a55f05c38552860f02",
+  "locked_files": {
+    "golden-d-2d-v1": 7,
+    "golden-d-2d-v2": 17
+  },
+  "old_reference_detector": "Sapiens2-1B full-backbone finetuning epoch 1",
+  "new_detector": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98",
+  "predictions_sha256": "5c1d9f14d2504e4d155c36e4b1362cff9df2ef945b8b4eeb66c2090c1a799592",
+  "common_pairs": 100,
+  "comparison": {
+    "mpjpe12_mm": {
+      "v1_rw20000": 67.96193932356185,
+      "v2_rw20000": 61.228293816581626,
+      "delta": -6.733645506980224
+    },
+    "pa12_mm": {
+      "v1_rw20000": 44.47355224021926,
+      "v2_rw20000": 44.5810323637825,
+      "delta": 0.107480123563235
+    }
+  },
+  "metrics_v2": {
+    "pairs": 100,
+    "view_points": 2398,
+    "mpjpe12_mm": 61.228293816581626,
+    "pa12_mm": 44.5810323637825,
+    "legacy15_mm": 85.70930491356071,
+    "legacy15_pa_mm": 70.22818573227855,
+    "mapped15_mm": 64.30251109046259,
+    "mapped15_pa_mm": 46.602227726530735,
+    "fit_vs_detection_rmse_px": 16.40309619872598,
+    "fit_vs_gt_rmse_px": 18.69026845226014,
+    "detection_vs_gt_rmse_px": 14.979659879025956,
+    "feasible": 100,
+    "converged": 2,
+    "alternative_seeds": 0
+  },
+  "settings": {
+    "methods": [
+      "2d"
+    ],
+    "sigma_px_fixed": 8.0,
+    "metric_loss_weight": 0.01,
+    "metric_huber_delta": 2.5,
+    "shoulder_weight": 0.25,
+    "head_position_sigma_m": 0.015,
+    "head_position_weight": 0.01,
+    "head_rotation_weight": 0.0,
+    "head_rotation_sigma_deg": 3.0,
+    "pose_prior_weight": 0.0008,
+    "shape_prior_weight": 0.001,
+    "shape_information_threshold": 1.0,
+    "minimum_observed_joint_z_m": 0.0001,
+    "pose_lr": 0.0015,
+    "rotation_lr": 0.0015,
+    "translation_lr": 0.003,
+    "shape_lr": 0.003,
+    "budgets": [
+      20000
+    ],
+    "checkpoint_steps": 20,
+    "trace_steps": 100,
+    "lr_schedule": [
+      [
+        0,
+        1.0
+      ],
+      [
+        10000,
+        0.25
+      ],
+      [
+        16000,
+        0.1
+      ],
+      [
+        20000,
+        0.05
+      ],
+      [
+        30000,
+        0.02
+      ]
+    ],
+    "selection": "Lowest feasible training objective at fixed checkpoints, no body-3D GT or output 3D error used",
+    "convergence": {
+      "window_steps": 1000,
+      "relative_loss_change_max": 0.001,
+      "max_joint_motion_mm": 0.1
+    },
+    "absolute_pose_caps_deg": {
+      "L_Hip": 150.0,
+      "R_Hip": 150.0,
+      "Spine_1": 60.0,
+      "L_Knee": 165.0,
+      "R_Knee": 165.0,
+      "Spine_2": 60.0,
+      "L_Ankle": 90.0,
+      "R_Ankle": 90.0,
+      "Spine_3": 60.0,
+      "Neck": 60.0,
+      "L_Collar": 60.0,
+      "R_Collar": 60.0,
+      "Head": 60.0,
+      "L_Shoulder": 175.0,
+      "R_Shoulder": 175.0,
+      "L_Elbow": 165.0,
+      "R_Elbow": 165.0,
+      "L_Wrist": 100.0,
+      "R_Wrist": 100.0
+    },
+    "landmark_ratios": [
+      0.5581079884199193,
+      1.140126751680186,
+      1.1257417878794027
+    ]
+  }
+}

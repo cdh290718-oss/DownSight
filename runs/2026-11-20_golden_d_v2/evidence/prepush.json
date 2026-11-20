@@ -1,0 +1,31 @@
+{
+  "baseline": "7aa682a50658ac1c84adc22122fc84b5cb0d86c4",
+  "remote_before_push": "7aa682a50658ac1c84adc22122fc84b5cb0d86c4",
+  "worktree_reviewed": true,
+  "excluded_worktree_status_count": 41,
+  "text_only": true,
+  "under_50MB": true,
+  "scoped_delta": true,
+  "added_links_checked": true,
+  "no_secrets_private_paths_weights_arrays_raw_outputs_or_full_provenance_in_increment": true,
+  "archive_manifest_matches_v1_byte_for_byte": true,
+  "sha256": {
+    "README.md": "fdd34d4b13ac969801e7efbee600fdcea1185476634591a34954355bdd118b75",
+    "configs/golden_d.2d-v1.json": "d750987671bd245ced858f1cc1a8f639ad9bb282eb33ca79726854a73f115024",
+    "configs/golden_d.current.json": "652f59b10fdf2091a9d3d2968377c0956a74c7178a81f3a55f05c38552860f02",
+    "docs/downsight/GOLDEN_D_2D_zh.md": "dc4210ab7eaf1cf478e961b706fbbc614a81cf930005c65f8f0146fbfcc8c397",
+    "docs/downsight/WORKFLOW_zh.md": "7154416ec48575c69c426eba5a7a39795128a9b5d48e1bfd56ea65246e4e50b1",
+    "runs/2026-11-19_rw_head_neck_oracle/run.py": "5e6c64f13403add80633a1f18c5eacfd62b164ec9a9710a6b304625320322e1b",
+    "runs/2026-11-20_golden_d_v2/brief.md": "f467b54e50c88331a72255425fbe166b5d7792fb7221f3de97c0b60b26a3666e",
+    "runs/2026-11-20_golden_d_v2/evidence/verification.json": "c66f508f54d6317a550bf712b2d3b8af0621e324f8c5c4b7a3eba4904d80babb",
+    "runs/2026-11-20_golden_d_v2/report.md": "706b0d2c0302f9e4147a94ab5798ac89a045851e2950cfd67daae74d9053b2ff",
+    "runs/2026-11-20_golden_d_v2/review.md": "230366dc7c3b3f6413a961867665231d71ab08cc5831b9a14720cc33e1eb2e48",
+    "runs/2026-11-20_golden_d_v2/verify.py": "48fd0c0d0d378e1d1c801156290c6a19528caedba5208f4d1f7d1a65cc351907"
+  },
+  "commands": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check HEAD^ HEAD",
+    "check.py commit"
+  ]
+}
