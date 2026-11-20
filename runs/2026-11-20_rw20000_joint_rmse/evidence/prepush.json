@@ -1,0 +1,26 @@
+{
+  "baseline": "b03962086b54015141422b63e027f14e3e76b6a4",
+  "remote_before_commit": "b03962086b54015141422b63e027f14e3e76b6a4",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "None. Text only.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-20_rw20000_joint_rmse/brief.md": "1a2eb1e9742a3dd4e64fb47fbbf60b1a9253acd204eaa3dad86f4decbf04b631",
+    "runs/2026-11-20_rw20000_joint_rmse/evidence/results.json": "f873591a4fe1e3cab1e684bfe48399378485d4d77b6a94529cafdae3dce5c601",
+    "runs/2026-11-20_rw20000_joint_rmse/measure_joints.py": "666d85850a611807688fd5b6340922a4a1d3fd7f8c0fe93ec553ed4bc07b092a",
+    "runs/2026-11-20_rw20000_joint_rmse/report.md": "db5fa3a8a62b96840c7d8b21b15d0c64876f9f0f19710915a522c272f6545c4e",
+    "runs/2026-11-20_rw20000_joint_rmse/review.md": "d3a0f011856d633da13790d9816079d9a8cf3d80f0908cb66d361474c02cce2b"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
