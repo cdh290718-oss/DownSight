@@ -1,0 +1,13 @@
+{
+  "archive": "RW20000_frozen200_S1_S9_S11_12_OBJ.zip",
+  "tag": "rw20000-frozen200-mesh12-20261120",
+  "files_sha256": {
+    "RW20000_frozen200_S1_S9_S11_12_OBJ.zip": "381f7797adfef34f56c7f7c538bfacac3eb851cafcb0c264a5149f8bf41986c5"
+  },
+  "bytes": 3639465,
+  "objects": 12,
+  "jpeg": 60,
+  "exit_status": 0,
+  "command": "<BODY_PYTHON> -Bu gallery.py",
+  "base": "97bd8ceee9c09083fb6db6ab2a22b1a551e47f45"
+}
