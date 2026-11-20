@@ -1,0 +1,30 @@
+{
+  "baseline": "0c8780119a54874daf7cdff7c6a862b130050c3b",
+  "remote_before_commit": "0c8780119a54874daf7cdff7c6a862b130050c3b",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested JPEG mesh visualizations, verified JPEG, no EXIF.",
+  "images": 3,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-20_rw20000_floor3/assess.py": "4b25f4e0b9e7fb32409ba7d14a0b6315d7ac21ed254ea0a3f7fa1a0a30da581c",
+    "runs/2026-11-20_rw20000_floor3/assets/pair045.jpg": "3aca1b0fb21fe18c7ddd0476b6f6e2f5415592373f00d4c3a621b2bbc9de0230",
+    "runs/2026-11-20_rw20000_floor3/assets/pair055.jpg": "4875e36e290bcd9f0d50b513ce0d34014d1956f8f37f398b446ee6d048295c18",
+    "runs/2026-11-20_rw20000_floor3/assets/pair078.jpg": "ccc27b53e41aef29fa80686c809b93f276e70d926a7ddcce52980d25caeea7c4",
+    "runs/2026-11-20_rw20000_floor3/brief.md": "89ff33c1a5336567994ca5acde3743217aa5ed28c1fb65fa589637591602c6d8",
+    "runs/2026-11-20_rw20000_floor3/evidence/attempts.json": "69eabcb7a8126eb593fcf27b7b1ffc24ebbf4982a3e2fc3f099d47ac84aab163",
+    "runs/2026-11-20_rw20000_floor3/evidence/planes.json": "e538022074ed5f4a154635c7ccfce6bf399820da6433798e5ff9f6629d843ca4",
+    "runs/2026-11-20_rw20000_floor3/report.md": "e57a5486147eb29cda999da004877ee44dc35c690a8b49ebcd8a285624108013",
+    "runs/2026-11-20_rw20000_floor3/review.md": "b94421467f99e4efeae81211ce80a1746d500dfedddd03d1fecccf7f3185855c"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

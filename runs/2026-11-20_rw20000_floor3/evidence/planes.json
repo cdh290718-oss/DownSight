@@ -1,0 +1,118 @@
+{
+  "rows": [
+    {
+      "pair": "pair045",
+      "obj_sha256": "bc591a21490195da4067ecdc8f7b75bbb9b77fbd045aee4942b4a9e8e85a83f3",
+      "up_left_cv": [
+        -0.01728797650749555,
+        0.3194961395490188,
+        -0.947429861615914
+      ],
+      "camera_height_m": 1.1787436000353175,
+      "validation": {
+        "sparse_matches": 78,
+        "ransac_inliers": 58,
+        "dense_pixels": 13788,
+        "checker_angle_deg": 0.2119694285073746,
+        "checker_distance_diff_mm": 2.7941456287572386,
+        "sparse_median_residual_mm": 26.834330147670226,
+        "sparse_vs_dense_deg": 2.5526253834944144,
+        "accepted": true
+      },
+      "pred_trunk_from_up_deg": 18.30561216873596,
+      "gt_trunk_from_up_deg": 9.227105552489672,
+      "trunk_axis_error_deg": 9.93177144916143,
+      "foot_lowest_mm": {
+        "left": -202.9873044445505,
+        "right": -169.33692975781932
+      },
+      "mesh_lowest_mm": -202.9873044445505,
+      "pred_ankle_height_mm": [
+        -89.76403043200176,
+        -54.194219568513226
+      ],
+      "gt_ankle_height_mm": [
+        -53.57706586195832,
+        -51.85733114367941
+      ],
+      "side_image_sha256": "3aca1b0fb21fe18c7ddd0476b6f6e2f5415592373f00d4c3a621b2bbc9de0230"
+    },
+    {
+      "pair": "pair055",
+      "obj_sha256": "81a52f6410f06b0d1eeda5968c6245a007ba362e4143bcfd72578ae57915e148",
+      "up_left_cv": [
+        -0.2153032258965829,
+        0.328036275781725,
+        -0.9198025454899442
+      ],
+      "camera_height_m": 1.0645264603334177,
+      "validation": {
+        "sparse_matches": 34,
+        "ransac_inliers": 23,
+        "dense_pixels": 9228,
+        "checker_angle_deg": 1.454005865314656,
+        "checker_distance_diff_mm": 4.860324094160262,
+        "sparse_median_residual_mm": 34.69760533342758,
+        "sparse_vs_dense_deg": 7.216617489005606,
+        "accepted": true
+      },
+      "pred_trunk_from_up_deg": 27.261136405903937,
+      "gt_trunk_from_up_deg": 15.543658676037355,
+      "trunk_axis_error_deg": 12.408864881148537,
+      "foot_lowest_mm": {
+        "left": -167.73017702496284,
+        "right": -148.31562196086145
+      },
+      "mesh_lowest_mm": -167.73017702496284,
+      "pred_ankle_height_mm": [
+        -99.0256630063866,
+        -74.53767958550684
+      ],
+      "gt_ankle_height_mm": [
+        -71.07136480643383,
+        -82.40278670044887
+      ],
+      "side_image_sha256": "4875e36e290bcd9f0d50b513ce0d34014d1956f8f37f398b446ee6d048295c18"
+    },
+    {
+      "pair": "pair078",
+      "obj_sha256": "1ef3c63ffe7333011160717a64b9abdb611a2107905a72d48054fda61447c161",
+      "up_left_cv": [
+        -0.04757625208955006,
+        -0.2620776726108029,
+        -0.9638733286879643
+      ],
+      "camera_height_m": 1.3076246362802173,
+      "validation": {
+        "sparse_matches": 142,
+        "ransac_inliers": 88,
+        "dense_pixels": 14668,
+        "checker_angle_deg": 2.2500635941625373,
+        "checker_distance_diff_mm": 14.105743595521414,
+        "sparse_median_residual_mm": 32.91590430127067,
+        "sparse_vs_dense_deg": 2.877557158171759,
+        "accepted": true
+      },
+      "pred_trunk_from_up_deg": 2.7034704631251656,
+      "gt_trunk_from_up_deg": 4.321050684149415,
+      "trunk_axis_error_deg": 1.8316794116880142,
+      "foot_lowest_mm": {
+        "left": -186.745623161509,
+        "right": -181.71345069417177
+      },
+      "mesh_lowest_mm": -186.745623161509,
+      "pred_ankle_height_mm": [
+        -109.25357513425892,
+        -69.61766371471634
+      ],
+      "gt_ankle_height_mm": [
+        -222.6638603438187,
+        -173.0631476562745
+      ],
+      "side_image_sha256": "ccc27b53e41aef29fa80686c809b93f276e70d926a7ddcce52980d25caeea7c4"
+    }
+  ],
+  "base": "0c8780119a54874daf7cdff7c6a862b130050c3b",
+  "command": "<BODY_PYTHON> -Bu assess.py",
+  "exit_status": 0
+}

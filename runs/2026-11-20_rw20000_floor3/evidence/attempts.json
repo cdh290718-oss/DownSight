@@ -1,0 +1,21 @@
+{
+  "first_exit": 1,
+  "first_failure": "pair055 failed stability checks before the third sample",
+  "first_pair055": {
+    "sparse_median_residual_mm": 76.85648101432785,
+    "checker_distance_diff_mm": 67.79151378518632,
+    "checker_angle_deg": 4.637145482459385
+  },
+  "second_exit": 0,
+  "second_pair055": {
+    "sparse_matches": 62,
+    "ransac_inliers": 29,
+    "dense_pixels": 13007,
+    "checker_angle_deg": 4.637146051287409,
+    "checker_distance_diff_mm": 67.79152479441164,
+    "sparse_median_residual_mm": 61.33714607836005,
+    "sparse_vs_dense_deg": 5.57433980361634,
+    "accepted": false
+  },
+  "final_change": "Trim pair055 support polygons away from the carpet rim and nearby furniture after visual inspection; all acceptance thresholds held fixed."
+}
