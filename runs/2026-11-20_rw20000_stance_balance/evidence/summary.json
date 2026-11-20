@@ -1,0 +1,66 @@
+{
+  "standing": {
+    "baseline": {
+      "count": 4,
+      "inside": 0,
+      "mean_margin_mm": -50.15159501775691,
+      "robust_all_four_at_5deg": 0,
+      "pa": 34.15828001301541,
+      "nonpa": 54.192231395559176,
+      "gt_sq": 16.09156843301208,
+      "det_sq": 11.897907868041393
+    },
+    "soft": {
+      "count": 4,
+      "inside": 0,
+      "mean_margin_mm": -32.47690198299305,
+      "robust_all_four_at_5deg": 0,
+      "pa": 35.93739101958189,
+      "nonpa": 59.71510246363657,
+      "gt_sq": 17.83294233740912,
+      "det_sq": 13.639607916512936
+    },
+    "strong": {
+      "count": 4,
+      "inside": 2,
+      "mean_margin_mm": -0.5353375688380644,
+      "robust_all_four_at_5deg": 0,
+      "pa": 48.38767285950872,
+      "nonpa": 86.59873783572924,
+      "gt_sq": 26.718175851839227,
+      "det_sq": 24.29135810474317
+    },
+    "contact": {
+      "count": 4,
+      "inside": 4,
+      "mean_margin_mm": 7.909221408247376,
+      "robust_all_four_at_5deg": 0,
+      "pa": 47.66355741104424,
+      "nonpa": 85.99296458971128,
+      "gt_sq": 26.82080858511981,
+      "det_sq": 24.454454481236034
+    }
+  },
+  "uncertain": {
+    "baseline": {
+      "count": 4,
+      "inside": 0,
+      "mean_margin_mm": -224.32624133626047,
+      "robust_all_four_at_5deg": 0,
+      "pa": 55.093733925037895,
+      "nonpa": 72.66055830813109,
+      "gt_sq": 14.984805896991181,
+      "det_sq": 11.826965952337025
+    },
+    "soft": {
+      "count": 4,
+      "inside": 0,
+      "mean_margin_mm": -173.77815596099504,
+      "robust_all_four_at_5deg": 0,
+      "pa": 68.48132832109036,
+      "nonpa": 88.38700737863407,
+      "gt_sq": 24.038482543884264,
+      "det_sq": 25.20718335466266
+    }
+  }
+}

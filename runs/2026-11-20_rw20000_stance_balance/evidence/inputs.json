@@ -1,0 +1,34 @@
+{
+  "base": "fe573bb52cf18541932160ae7418cc01e7d34d0e",
+  "source_hashes": {
+    "outputs/rw_frozen200_free12_20261119/budget_20000.npz": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "outputs/rw_frozen200_free12_20261119/prepared.json": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "outputs/rw_frozen200_free12_20261119/protocol.json": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "outputs/rw_frozen200_golden_d_20261118/reference.json": "973ee19514faaa95ec895f2b550229416ddd981997ad4f20581f7817607426e2",
+    "outputs/rw_test_completion_20261117/test_manifest.json": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1",
+    "outputs/rw_frozen200_golden_d_20261118/camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "outputs/rw_frozen200_golden_d_20261118/camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "groups": {
+    "standing": [
+      "pair001",
+      "pair036",
+      "pair068",
+      "pair078"
+    ],
+    "upright_uncertain": [
+      "pair022",
+      "pair028",
+      "pair034",
+      "pair088"
+    ],
+    "excluded": [
+      "pair037",
+      "pair045",
+      "pair055",
+      "pair094"
+    ]
+  },
+  "publication_source": "2026-11-20_rw20000_frozen_mesh12",
+  "exit_status": 0
+}

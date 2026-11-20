@@ -1,0 +1,387 @@
+{
+  "rows": [
+    {
+      "pair": "pair001",
+      "group": "standing",
+      "source_obj_sha256": "a17cbe333b5f045c4fa88d334e43d7846fbb2029457a24adc3067470e47eace6",
+      "candidate_up": [
+        -0.05936125680110215,
+        -0.03196563205011588,
+        -0.9977246311275624
+      ],
+      "plane_offset_m": 1.6035781632011328,
+      "tilt_from_camera_prior_deg": 3.865858192922,
+      "before": {
+        "margin_mm": -60.36110109731315,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 48,
+        "area_cm2": 407.59107172318176,
+        "margin_at_5deg_mm": [
+          -93.01212283016496,
+          -51.50766033788285,
+          -137.51841069875425,
+          16.796208504127947
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -39.99648103849975,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 47,
+        "area_cm2": 407.1786417627341,
+        "margin_at_5deg_mm": [
+          -72.90880368789831,
+          -42.30370878268752,
+          -117.54988807295689,
+          37.55692599595739
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 220,
+      "loss": 23.751644134521484,
+      "frozen_polygon_margin_after_mm": -39.8839794469014,
+      "max_anchor_displacement_mm": 0.4728981369907461
+    },
+    {
+      "pair": "pair036",
+      "group": "standing",
+      "source_obj_sha256": "75c9e163f36013ac28a7adef6dd764822a3c98ad06ff395b664ca768f6802a57",
+      "candidate_up": [
+        0.05460574226394855,
+        -0.04605245939123571,
+        -0.9974454290314942
+      ],
+      "plane_offset_m": 1.5578015608006655,
+      "tilt_from_camera_prior_deg": 4.096275073488099,
+      "before": {
+        "margin_mm": -38.59319579084314,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 19,
+        "area_cm2": 299.5852694293767,
+        "margin_at_5deg_mm": [
+          -92.81363457487915,
+          15.627242993192848,
+          23.62990219726879,
+          -100.81629377895507
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -25.397136923920538,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 19,
+        "area_cm2": 292.73722107449106,
+        "margin_at_5deg_mm": [
+          -79.70540049338831,
+          28.91112664554729,
+          13.755297684844292,
+          -87.17320778043855
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 220,
+      "loss": 9.200404167175293,
+      "frozen_polygon_margin_after_mm": -24.42156932904188,
+      "max_anchor_displacement_mm": 0.3360666955528612
+    },
+    {
+      "pair": "pair068",
+      "group": "standing",
+      "source_obj_sha256": "3bb082c7d51be443f9e3db779a54b50bdd23115def54b07a0710a3bc4a411caa",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.628004550933838,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -84.03256472934572,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 17,
+        "area_cm2": 35.19531292532682,
+        "margin_at_5deg_mm": [
+          -88.97258022585525,
+          -79.0925492328362,
+          2.1862038929566507,
+          -170.25133335164804
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -52.95037981596445,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 15,
+        "area_cm2": 33.45519423847874,
+        "margin_at_5deg_mm": [
+          -57.65348829268757,
+          -48.247271339241394,
+          -21.09404814972038,
+          -138.7443047064114
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 220,
+      "loss": 42.290836334228516,
+      "frozen_polygon_margin_after_mm": -52.50414397161723,
+      "max_anchor_displacement_mm": 0.8101838568043459
+    },
+    {
+      "pair": "pair078",
+      "group": "standing",
+      "source_obj_sha256": "1ef3c63ffe7333011160717a64b9abdb611a2107905a72d48054fda61447c161",
+      "candidate_up": [
+        0.04563622667607766,
+        -0.20180096767093017,
+        -0.9783627672095079
+      ],
+      "plane_offset_m": 1.5161616806920688,
+      "tilt_from_camera_prior_deg": 11.940559899773149,
+      "before": {
+        "margin_mm": -17.619518453525608,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 39,
+        "area_cm2": 152.06442877420213,
+        "margin_at_5deg_mm": [
+          -1.7359792450004352,
+          -88.22473385987215,
+          -57.30920200551889,
+          20.23107133962118
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -11.563610153587451,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 39,
+        "area_cm2": 152.06850136860155,
+        "margin_at_5deg_mm": [
+          -7.989443629139559,
+          -82.3083115851526,
+          -51.33588909499931,
+          14.008196546707484
+        ],
+        "penetration_mm": 0.0109296849615248
+      },
+      "steps": 220,
+      "loss": 2.0025768280029297,
+      "frozen_polygon_margin_after_mm": -11.48769753637549,
+      "max_anchor_displacement_mm": 0.32597430277366024
+    },
+    {
+      "pair": "pair022",
+      "group": "uncertain",
+      "source_obj_sha256": "21e4c3e5f5bbf07481d16eefa08d29b20b40c046eec17c9429eaaa690301478a",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.5799516439437866,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -152.48193158796602,
+        "supported": [
+          1
+        ],
+        "contacts": 18,
+        "area_cm2": 4.457834368913895,
+        "margin_at_5deg_mm": [
+          -96.7267820352111,
+          -208.23708114072093,
+          -124.56655989537431,
+          -213.60110750008047
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -154.05412327561467,
+        "supported": [
+          1
+        ],
+        "contacts": 25,
+        "area_cm2": 13.22648078122768,
+        "margin_at_5deg_mm": [
+          -74.31211312483363,
+          -233.79613342639576,
+          -134.40362655785725,
+          -173.70461999337212
+        ],
+        "penetration_mm": 0.21278858184814453
+      },
+      "steps": 220,
+      "loss": 151.82058715820312,
+      "frozen_polygon_margin_after_mm": -102.22125462082732,
+      "max_anchor_displacement_mm": 1.7329928398932426
+    },
+    {
+      "pair": "pair028",
+      "group": "uncertain",
+      "source_obj_sha256": "ddef60f378dd622828f78e09b8a31df7525728769bc53eb340ba469bf469b80d",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.492512822151184,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -311.6406275912693,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 16,
+        "area_cm2": 47.27430134882964,
+        "margin_at_5deg_mm": [
+          -336.09543218099583,
+          -288.5340091417063,
+          -386.2155466895906,
+          -237.065708492948
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -240.32687877117493,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 37,
+        "area_cm2": 271.04636972557614,
+        "margin_at_5deg_mm": [
+          -265.5266117247159,
+          -217.08742661870397,
+          -315.89339626088827,
+          -164.7603612814616
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 220,
+      "loss": 717.984619140625,
+      "frozen_polygon_margin_after_mm": -239.9993308339756,
+      "max_anchor_displacement_mm": 4.026293701745244
+    },
+    {
+      "pair": "pair034",
+      "group": "uncertain",
+      "source_obj_sha256": "79f5ace97d2a280c283761959152e3dad289a24d7730ef33743e9d26a10e8313",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.579878330230713,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -172.91194314285156,
+        "supported": [
+          0
+        ],
+        "contacts": 13,
+        "area_cm2": 6.070856453712642,
+        "margin_at_5deg_mm": [
+          -103.97473878646716,
+          -255.95823850328532,
+          -158.26259169424355,
+          -196.87946006096135
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -115.21793808561672,
+        "supported": [
+          0
+        ],
+        "contacts": 15,
+        "area_cm2": 7.656261821704642,
+        "margin_at_5deg_mm": [
+          -86.08462554312912,
+          -198.11370766181824,
+          -103.43626317614991,
+          -179.98758856095193
+        ],
+        "penetration_mm": 0.10585784912109375
+      },
+      "steps": 220,
+      "loss": 196.1264190673828,
+      "frozen_polygon_margin_after_mm": -117.46829609622034,
+      "max_anchor_displacement_mm": 1.5913734064306064
+    },
+    {
+      "pair": "pair088",
+      "group": "uncertain",
+      "source_obj_sha256": "9628d7945137bc8ceb6536de362deb2e39c46f67ac65ac8dccde4a393c02ec85",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.4762780666351318,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -260.2704630229551,
+        "supported": [
+          1
+        ],
+        "contacts": 11,
+        "area_cm2": 10.12118871547507,
+        "margin_at_5deg_mm": [
+          -338.1012049684157,
+          -182.43972107749445,
+          -262.5193304018777,
+          -258.02159564403246
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": -185.51368371157383,
+        "supported": [
+          1
+        ],
+        "contacts": 88,
+        "area_cm2": 148.0563592612038,
+        "margin_at_5deg_mm": [
+          -262.6982420763979,
+          -108.3291253467497,
+          -192.00868107936003,
+          -186.06100595687474
+        ],
+        "penetration_mm": 0.31280517578125
+      },
+      "steps": 220,
+      "loss": 469.3668518066406,
+      "frozen_polygon_margin_after_mm": -186.98791471302388,
+      "max_anchor_displacement_mm": 4.132306098743487
+    }
+  ],
+  "checkpoint_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+  "adjusted_sha256": "77fdefd957b233fa811d3be323e5206e532ba02c4d79772b31b209a6ef6da0bc",
+  "contact_band_m": 0.005,
+  "command": "<BODY_PYTHON> -Bu balance.py",
+  "exit_status": 0
+}

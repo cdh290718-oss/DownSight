@@ -1,0 +1,201 @@
+{
+  "rows": [
+    {
+      "pair": "pair001",
+      "group": "standing",
+      "source_obj_sha256": "a17cbe333b5f045c4fa88d334e43d7846fbb2029457a24adc3067470e47eace6",
+      "candidate_up": [
+        -0.05936125680110215,
+        -0.03196563205011588,
+        -0.9977246311275624
+      ],
+      "plane_offset_m": 1.6035781632011328,
+      "tilt_from_camera_prior_deg": 3.865858192922,
+      "before": {
+        "margin_mm": -60.36110109731315,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 48,
+        "area_cm2": 407.59107172318176,
+        "margin_at_5deg_mm": [
+          -93.01212283016496,
+          -51.50766033788285,
+          -137.51841069875425,
+          16.796208504127947
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": 7.98327001333083,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 68,
+        "area_cm2": 533.4744134441149,
+        "margin_at_5deg_mm": [
+          -25.57381955063126,
+          -46.5183404553194,
+          -68.22065713428015,
+          57.396237858984954
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 650,
+      "loss": 137.28077697753906,
+      "frozen_polygon_margin_after_mm": 9.484721841248806,
+      "max_anchor_displacement_mm": 5.913575674813412
+    },
+    {
+      "pair": "pair036",
+      "group": "standing",
+      "source_obj_sha256": "75c9e163f36013ac28a7adef6dd764822a3c98ad06ff395b664ca768f6802a57",
+      "candidate_up": [
+        0.05460574226394855,
+        -0.04605245939123571,
+        -0.9974454290314942
+      ],
+      "plane_offset_m": 1.5578015608006655,
+      "tilt_from_camera_prior_deg": 4.096275073488099,
+      "before": {
+        "margin_mm": -38.59319579084314,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 19,
+        "area_cm2": 299.5852694293767,
+        "margin_at_5deg_mm": [
+          -92.81363457487915,
+          15.627242993192848,
+          23.62990219726879,
+          -100.81629377895507
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": 10.360578506125705,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 22,
+        "area_cm2": 299.95137995192846,
+        "margin_at_5deg_mm": [
+          -43.27212744543485,
+          -3.0977982012431737,
+          -20.584580909861707,
+          -50.81887198529061
+        ],
+        "penetration_mm": 0.0
+      },
+      "steps": 650,
+      "loss": 50.62833786010742,
+      "frozen_polygon_margin_after_mm": 10.87040497630759,
+      "max_anchor_displacement_mm": 2.3355530037836054
+    },
+    {
+      "pair": "pair068",
+      "group": "standing",
+      "source_obj_sha256": "3bb082c7d51be443f9e3db779a54b50bdd23115def54b07a0710a3bc4a411caa",
+      "candidate_up": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "plane_offset_m": 1.628004550933838,
+      "tilt_from_camera_prior_deg": 0.0,
+      "before": {
+        "margin_mm": -84.03256472934572,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 17,
+        "area_cm2": 35.19531292532682,
+        "margin_at_5deg_mm": [
+          -88.97258022585525,
+          -79.0925492328362,
+          2.1862038929566507,
+          -170.25133335164804
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": 2.575057656880264,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 76,
+        "area_cm2": 583.6037084279576,
+        "margin_at_5deg_mm": [
+          -0.9957185290777049,
+          6.145833842838178,
+          77.30975111662092,
+          -80.3156579082242
+        ],
+        "penetration_mm": 0.4162788391113281
+      },
+      "steps": 650,
+      "loss": 225.92803955078125,
+      "frozen_polygon_margin_after_mm": 5.943604907940269,
+      "max_anchor_displacement_mm": 6.853779950207992
+    },
+    {
+      "pair": "pair078",
+      "group": "standing",
+      "source_obj_sha256": "1ef3c63ffe7333011160717a64b9abdb611a2107905a72d48054fda61447c161",
+      "candidate_up": [
+        0.04563622667607766,
+        -0.20180096767093017,
+        -0.9783627672095079
+      ],
+      "plane_offset_m": 1.5161616806920688,
+      "tilt_from_camera_prior_deg": 11.940559899773149,
+      "before": {
+        "margin_mm": -17.619518453525608,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 39,
+        "area_cm2": 152.06442877420213,
+        "margin_at_5deg_mm": [
+          -1.7359792450004352,
+          -88.22473385987215,
+          -57.30920200551889,
+          20.23107133962118
+        ],
+        "penetration_mm": 0.0
+      },
+      "after": {
+        "margin_mm": 10.717979456652705,
+        "supported": [
+          0,
+          1
+        ],
+        "contacts": 51,
+        "area_cm2": 371.7202822165976,
+        "margin_at_5deg_mm": [
+          52.65711677879015,
+          -60.0589392612616,
+          -29.134450299291736,
+          50.57040921259714
+        ],
+        "penetration_mm": 0.19251256234298353
+      },
+      "steps": 650,
+      "loss": 18.375328063964844,
+      "frozen_polygon_margin_after_mm": 11.331997820617945,
+      "max_anchor_displacement_mm": 1.8825730697179741
+    }
+  ],
+  "checkpoint_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+  "adjusted_sha256": "447f371fa0c7353510f227b640b3a01ee2edf2824e3b7094ed12a96003402e96",
+  "contact_band_m": 0.005,
+  "command": "<BODY_PYTHON> -Bu balance.py --contact",
+  "exit_status": 0
+}
