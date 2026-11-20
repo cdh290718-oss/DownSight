@@ -1,0 +1,39 @@
+{
+  "baseline": "3e473cf67f6b39f20e5a19f8f211bfb27a070931",
+  "remote_before_commit": "3e473cf67f6b39f20e5a19f8f211bfb27a070931",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested JPEG mesh visualizations, verified JPEG, no EXIF.",
+  "images": 12,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair001/comparison.jpg": "45268c9ede9c1c8b0c3af20296accec729663ee5c158917ce0cb3134591d6640",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair022/comparison.jpg": "529f6deafeeea1b8ef8f06bd99e349e9bda7384e276713d203d8a541e5c33f31",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair028/comparison.jpg": "d545202a513fc2c056cb423eceb24af7a6d56cadafa2b1ff536754c4d46b9140",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair034/comparison.jpg": "81a8a40c1b6c848d41426d1c1ffd356cdb09d5c4c81ac87f7625e9015191e285",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair036/comparison.jpg": "6cdc7c2ce8c5842b8f8eb3c54f378a4078902d2449da2b4cf581d044bbe4bb41",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair037/comparison.jpg": "86fb6f1e466e376b63f2eef4af8566ac41da476d760dd9917535b1e9def165f3",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair045/comparison.jpg": "f7b20b1297adf9480e1c9a293da437a38fcb23e8af237d9b6af6191268b4d736",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair055/comparison.jpg": "83f114a5edb0749d9d129d4e21a12b28ea544ef2b82108fe4ac19f6ad2810266",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair068/comparison.jpg": "09942bee303a45308d0a0c517b3d3ddd396c4a442b13d44f24ea7750b3d321fc",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair078/comparison.jpg": "3540746b1b501ca5842821e5923134e83a069da74cdd8b63a877c765858c69ce",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair088/comparison.jpg": "e4213539c5c94f56f269495cd94ffdced5cac4862e852958dc3cec6016b5ceda",
+    "runs/2026-11-20_rw20000_stereo_axes/assets/pair094/comparison.jpg": "9731d628e05fcc4ae7e564764a2a3404c4d58e6d58800eeab06da873340c3035",
+    "runs/2026-11-20_rw20000_stereo_axes/brief.md": "1b3d4e61992a2afec37e39cf1811b23428d9910ade31e2ee80bcafde7ad26212",
+    "runs/2026-11-20_rw20000_stereo_axes/evidence/attachment_audit.json": "6eeb2e620f6ced414d187c8f1f64699ba9a423f310b0a8f22384344d365c21ad",
+    "runs/2026-11-20_rw20000_stereo_axes/evidence/renders_stereo.json": "ac1f896b569b368d2c2d72969669831e80f8448c31f11ac1c47731918a7f4048",
+    "runs/2026-11-20_rw20000_stereo_axes/export_rig.py": "a4520e619da84a0a159f08dd5f0d50ade65b078b07e3d55b5c422904874afb83",
+    "runs/2026-11-20_rw20000_stereo_axes/report.md": "87337edad65d753aefd84572d34a70d41af9bf72b0f7483b642a73f3a90b7110",
+    "runs/2026-11-20_rw20000_stereo_axes/review.md": "65cd7179ae4bed56769ade41e80d183205af472054049db3853e05ab21ec4a77"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
