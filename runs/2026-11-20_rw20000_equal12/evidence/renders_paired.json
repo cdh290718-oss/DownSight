@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "pair": "pair001",
+      "subject": "S1",
+      "floor_valid": false,
+      "images": {
+        "comparison.jpg": "b502a41524c50c0566c798ca8469cf881ca559cff7fb8ceea5ddb1529fdf3b09"
+      }
+    },
+    {
+      "pair": "pair022",
+      "subject": "S1",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "a2e5b4d00e8dad04938f4ba16d23431d712e8aa46826202dffd8f461b7479780"
+      }
+    },
+    {
+      "pair": "pair028",
+      "subject": "S1",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "4bdcef9b221031d3f8dc4590c9a96b74b684e0d98acd2bdd5f8fef23048c3d19"
+      }
+    },
+    {
+      "pair": "pair034",
+      "subject": "S1",
+      "floor_valid": false,
+      "images": {
+        "comparison.jpg": "33f2f9878428ef06bec2cefaeb41a504825694c5601310877024b92caf282f40"
+      }
+    },
+    {
+      "pair": "pair045",
+      "subject": "S9",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "db3d83e0fe4d2943d8ed2466a6f2af6aca8c1f4b8b1f4ffcd30d011aea545c84"
+      }
+    },
+    {
+      "pair": "pair055",
+      "subject": "S9",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "165a84513d48dd4a5caf3b25802a34d54d0cb2310cd9576775169920339ce6d0"
+      }
+    },
+    {
+      "pair": "pair036",
+      "subject": "S9",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "350c5bfe0002deecb3c9cf4ca3efccde20ef35cc883d6767956d68168cce11da"
+      }
+    },
+    {
+      "pair": "pair037",
+      "subject": "S9",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "a46712f2789fa2d669e801a8cf05212635225e1c99064abc2256a708aedfad9f"
+      }
+    },
+    {
+      "pair": "pair078",
+      "subject": "S11",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "ff6ac054053a3db3a4e2f2ddbffcb2453cb11951fa15667bf499eb05104db8ef"
+      }
+    },
+    {
+      "pair": "pair068",
+      "subject": "S11",
+      "floor_valid": false,
+      "images": {
+        "comparison.jpg": "c5c61a8f1f3753f6d13d9bfba67b96e1d6017fee4f0db4bef15d92f05f2737ea"
+      }
+    },
+    {
+      "pair": "pair094",
+      "subject": "S11",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "75c8012c3173c2fb4e1b0e64d1b09e404b814d9d05e8bbecba50234cf02b8d07"
+      }
+    },
+    {
+      "pair": "pair088",
+      "subject": "S11",
+      "floor_valid": true,
+      "images": {
+        "comparison.jpg": "b4101cd5cc81088e42ddf22ec4a46748abbb7f00600132f2cfafeaa2222c6d16"
+      }
+    }
+  ],
+  "command": "<BODY_PYTHON> -Bu views.py",
+  "exit_status": 0
+}
