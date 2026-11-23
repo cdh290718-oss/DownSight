@@ -1,0 +1,44 @@
+{
+  "exit_status": 0,
+  "base": "7f185e9157d968c8320408e665bcc398f8f418ae",
+  "seeds_identical": true,
+  "gradient_checks": {
+    "pair001": {
+      "lm_directional_derivative": 0.2493323304099827,
+      "reference_directional_derivative": 0.249333691727407
+    },
+    "pair073": {
+      "lm_directional_derivative": 0.14706021639982175,
+      "reference_directional_derivative": 0.1470593466309512
+    }
+  },
+  "pose_caps_pass": true,
+  "max_angle_cap_roundoff_rad": 2.220446049250313e-16,
+  "score_pooling_pass": true,
+  "pairs": 100,
+  "valid_view_points": 2398,
+  "lm_feasible": 100,
+  "stops": {
+    "budget": 98,
+    "stagnation": 2
+  },
+  "iterations_min": 80,
+  "iterations_median": 400.0,
+  "iterations_max": 400,
+  "seed_max_abs_objective_diff": 1.0007043749205025e-07,
+  "selection_max_abs_objective_diff": 3.823134553382346e-08,
+  "lower_selected_objective": 34,
+  "lower_mpjpe": 37,
+  "median_mpjpe_difference_mm": 2.7352253707910705,
+  "python": "3.8.20",
+  "scipy": "1.10.1",
+  "numpy": "1.23.1",
+  "torch": "1.12.1",
+  "commands": [
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/fit_lm.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/measure_lm.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/verify.py"
+  ],
+  "device": "cpu",
+  "threads": 1
+}

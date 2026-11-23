@@ -1,0 +1,53 @@
+{
+  "commands": [
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/fit_lm.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/measure_lm.py",
+    "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/verify.py"
+  ],
+  "exit_status": [
+    0,
+    0,
+    1
+  ],
+  "log_excerpt": "assert all(np.array_equal(a,b.detach().numpy()) for a,b in zip(archived,problem.variables))\nAssertionError",
+  "diagnosis": "Reconstructing the translation seed in a smaller batch gave small FP32 differences.",
+  "different_translation_components": 184,
+  "maximum_translation_difference_m": 1.1920928955078125e-07,
+  "differences_body_delta_shape_global0": 0,
+  "selection": "Pilot excluded. Reload the archived initial variables exactly before running the same solver and budget.",
+  "pilot_scores": {
+    "adam": {
+      "mpjpe_mm": 61.228300148018135,
+      "rmse_mm": 79.62332011297842,
+      "pa_mpjpe_mm": 44.58103260834479,
+      "wrist_rmse_mm": 108.90698788494413,
+      "nonwrist_mpjpe_mm": 60.36319246686726,
+      "gt_rmse_px": 18.69027092126092
+    },
+    "lm": {
+      "mpjpe_mm": 77.4353061452991,
+      "rmse_mm": 126.53669686472192,
+      "pa_mpjpe_mm": 65.88777253137131,
+      "wrist_rmse_mm": 124.47539734391076,
+      "nonwrist_mpjpe_mm": 77.74063040545636,
+      "gt_rmse_px": 22.757996800998686
+    },
+    "lm_minus_adam": {
+      "mpjpe_mm": 16.20700599728096,
+      "rmse_mm": 46.9133767517435,
+      "pa_mpjpe_mm": 21.30673992302652,
+      "wrist_rmse_mm": 15.568409458966627,
+      "nonwrist_mpjpe_mm": 17.377437938589097,
+      "gt_rmse_px": 4.067725879737765
+    }
+  },
+  "pilot_elapsed_s": 153.04544635862112,
+  "pilot_params_sha256": "ab496d1d6dfd8b559b785cd6e94e78b44b8eb98b389cf21b31f32fdd2489e560",
+  "final_cap_check_retry": {
+    "command": "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_lm/verify.py",
+    "first_exit_status": 1,
+    "log_excerpt": "AssertionError: angle-cap comparison",
+    "reason": "Adding the tolerance to FP32 caps rounded it away; compare the difference in FP64. Only verification rerun; fit and scores intact.",
+    "max_excess_rad": 2.220446049250313e-16
+  }
+}
