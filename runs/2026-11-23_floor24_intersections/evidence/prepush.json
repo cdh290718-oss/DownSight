@@ -1,0 +1,29 @@
+{
+  "baseline": "48b7a18815c1501dd0fad047602cd97bd61862d8",
+  "remote_before_commit": "48b7a18815c1501dd0fad047602cd97bd61862d8",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "None. Text only.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-23_floor24_intersections/brief.md": "b4c6091e8f1c256c95443ecd5490efbdd17196cde5a9604a7fa06a5944b3655c",
+    "runs/2026-11-23_floor24_intersections/check_pixels.py": "79bb31476ffbd0bbb8a4e3ade87c4470042fcfbbd06b6bbde59699af8f6479d9",
+    "runs/2026-11-23_floor24_intersections/evidence/execution.json": "52949e5fcb084b494ecf734a04aea25283dbe65f7ee0244362c830bb95854461",
+    "runs/2026-11-23_floor24_intersections/evidence/pixels.json": "d5ed130fdbeeefb0625dfd5f8908617bbbac470fc165599b3c19503da78533bf",
+    "runs/2026-11-23_floor24_intersections/evidence/results.json": "a42f5c5e8326631d4841a498a6e70e661ba60458d186814cd55478f5cb6436ac",
+    "runs/2026-11-23_floor24_intersections/inspect_obj.py": "f5cda119a4a885bcb30e0c93d825f5f0698a7cb51ae557b818455049e12cf6d2",
+    "runs/2026-11-23_floor24_intersections/report.md": "068ddf9a17433ec6eaf3095578491fa0ed027e74e663f2bb8f49c0750dc0c036",
+    "runs/2026-11-23_floor24_intersections/review.md": "4953106c05f800ea8e5dd5d8a1b009c10f24a3fe10df7db1c26649e612c5c585"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

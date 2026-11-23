@@ -1,0 +1,123 @@
+{
+  "rows": {
+    "val055": {
+      "obj_sha256": "99b9806486f287bcc1a0dbf538fa01f776536bcf25518025af21c0661f6b04b2",
+      "choice": "baseline",
+      "elbows": {
+        "L": {
+          "fit_bend_deg": 54.28380754285171,
+          "gt_bend_deg": 9.765236539709155,
+          "bend_normal_offset_deg": 12.754123683573148,
+          "upperarm_dir_error_deg": 9.869996196010623,
+          "forearm_dir_error_deg": 37.14405199106131
+        },
+        "R": {
+          "fit_bend_deg": 122.7325552553301,
+          "gt_bend_deg": 113.98204452309479,
+          "bend_normal_offset_deg": 4.106686134187952,
+          "upperarm_dir_error_deg": 3.6516789379561865,
+          "forearm_dir_error_deg": 12.858040792251447
+        }
+      },
+      "surface_crossing_face_pairs": {
+        "head / head": 305,
+        "L_upperarm / trunk": 95,
+        "L_foot / L_foot": 11,
+        "R_upperarm / trunk": 89,
+        "R_forearm / R_upperarm": 76,
+        "trunk / trunk": 9,
+        "R_forearm / R_forearm": 3,
+        "R_foot / R_foot": 11
+      }
+    },
+    "val031": {
+      "obj_sha256": "0df834f96f5e05b440925714ee319161931ead699261cd82873838e8b4256abd",
+      "choice": "baseline",
+      "elbows": {
+        "L": {
+          "fit_bend_deg": 93.25735617220747,
+          "gt_bend_deg": 131.8523995872383,
+          "bend_normal_offset_deg": 92.66177365682981,
+          "upperarm_dir_error_deg": 15.246059131027137,
+          "forearm_dir_error_deg": 91.59051711965682
+        },
+        "R": {
+          "fit_bend_deg": 119.5370908211242,
+          "gt_bend_deg": 138.982666797069,
+          "bend_normal_offset_deg": 85.49260090427406,
+          "upperarm_dir_error_deg": 17.315302886387276,
+          "forearm_dir_error_deg": 75.02333363555903
+        }
+      },
+      "surface_crossing_face_pairs": {
+        "head / head": 290,
+        "trunk / trunk": 5,
+        "L_thigh / R_thigh": 28,
+        "L_forearm / L_upperarm": 22,
+        "L_forearm / L_forearm": 5,
+        "L_foot / L_foot": 20,
+        "R_forearm / R_upperarm": 44,
+        "R_forearm / R_forearm": 1,
+        "R_foot / R_foot": 11
+      }
+    },
+    "pair068": {
+      "obj_sha256": "8d11e28b750c0e86ddbf05fbbd27199f73764d715368a028e62596559ac592f3",
+      "choice": "baseline",
+      "elbows": {
+        "L": {
+          "fit_bend_deg": 32.67222674706673,
+          "gt_bend_deg": 44.91210904390818,
+          "bend_normal_offset_deg": 23.054742612906672,
+          "upperarm_dir_error_deg": 10.181078872385394,
+          "forearm_dir_error_deg": 9.425142339926555
+        },
+        "R": {
+          "fit_bend_deg": 32.2344982384698,
+          "gt_bend_deg": 42.58649878195162,
+          "bend_normal_offset_deg": 27.442449725211358,
+          "upperarm_dir_error_deg": 13.34161296869735,
+          "forearm_dir_error_deg": 6.7593758367050905
+        }
+      },
+      "surface_crossing_face_pairs": {
+        "head / head": 290,
+        "trunk / trunk": 31,
+        "L_upperarm / trunk": 26,
+        "L_thigh / R_thigh": 28,
+        "L_hand / R_hand": 337,
+        "L_foot / L_foot": 11,
+        "R_upperarm / trunk": 48,
+        "R_foot / R_foot": 11
+      }
+    },
+    "pair055": {
+      "obj_sha256": "23a7715a961f239ece2d81350257e419e75180ce0c674c78a8e910a21edc77c7",
+      "choice": "baseline",
+      "elbows": {
+        "L": {
+          "fit_bend_deg": 65.61900467878742,
+          "gt_bend_deg": 63.0870941100423,
+          "bend_normal_offset_deg": 16.14345946702031,
+          "upperarm_dir_error_deg": 12.856088000466613,
+          "forearm_dir_error_deg": 4.033233264596761
+        },
+        "R": {
+          "fit_bend_deg": 89.09721536830368,
+          "gt_bend_deg": 73.70356381188599,
+          "bend_normal_offset_deg": 10.721330392951728,
+          "upperarm_dir_error_deg": 10.074889519680033,
+          "forearm_dir_error_deg": 15.34516267070954
+        }
+      },
+      "surface_crossing_face_pairs": {
+        "head / head": 298,
+        "L_hand / L_thigh": 121,
+        "trunk / trunk": 62,
+        "L_foot / L_foot": 17,
+        "R_foot / R_foot": 15
+      }
+    }
+  },
+  "command": "<BODY_PYTHON> -Bu runs/2026-11-23_floor24_intersections/inspect_obj.py"
+}
