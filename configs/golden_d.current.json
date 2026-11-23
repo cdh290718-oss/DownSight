@@ -1,9 +1,9 @@
 {
-  "method_id": "golden-d-2d-v2",
+  "method_id": "golden-d-2d-v3",
   "status": "current_default_research_baseline",
-  "decision": "User designated the evaluated RW20000 position-only Head / free-feet fit as the current research baseline.",
-  "source_commit": "8d196f217f4a54b03412ee8918bd0ecf1a6e7561",
-  "implementation": "runs/2026-11-19_rw_frozen200_free12/run_fit.py",
+  "decision": "User designated the evaluated joint candidate strategy with movable root or upper spine as Golden D v3.",
+  "source_commit": "48b7a18815c1501dd0fad047602cd97bd61862d8",
+  "implementation": "runs/2026-11-23_test500_joint/body.py",
   "protocol": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
   "methods": [
     "2d"
@@ -17,20 +17,21 @@
   "shape_policy": "reference experiment has zero-rank shape basis and fixed mean shape; shape optimization requires a separately identified variant",
   "hand_policy": "no WiLoR hand observation loss in this reference; local hand pose fixed",
   "step_budget": 20000,
-  "checkpoint_selection": "lowest feasible training objective; no body 3D GT selection",
+  "checkpoint_selection": "First retain the lowest feasible v2 Adam checkpoint. Then choose the lowest feasible original objective over the retained baseline, wrist seed and composed four-limb poses across all feasible trunk seeds.",
   "reference_detector": "RW20000 epoch 1; exact Sapiens2 base plus trained adapter identified by the checkpoint record.",
-  "reference_results": "runs/2026-11-19_rw_frozen200_free12/evidence/summary.json",
+  "reference_results": "runs/2026-11-23_test500_joint/evidence/results.json",
   "comparisons": [
-    "runs/2026-11-18_rw_frozen200_golden_d/report.md",
-    "runs/2026-11-19_rw_frozen200_free12/report.md"
+    "runs/2026-11-23_test500_joint/report.md",
+    "runs/2026-11-23_fullbody_joint_candidates/report.md",
+    "runs/2026-11-23_joint_pa15/report.md",
+    "runs/2026-11-23_validation_pa15/report.md"
   ],
   "legacy_archive": "experiments/synthetic_template_head_stereo_20261109/golden_d.json",
   "deployment_status": "research baseline designation; legacy EgoSMPLX CLI remains a separate pipeline",
   "limitations": [
-    "Frozen 100 stereo pairs from S1, S9, S11; not an independent blind test.",
-    "Annotation-assisted Head position, session extrinsics and in-image masks.",
-    "Fixed fitting budget; only two RW20000 fits pass the strict convergence diagnostic.",
-    "Existing research environment and external assets required."
+    "500 additional test frames from the same three test subjects as the previous 100, with no repeated source frames. The 200 validation pairs are from four other subjects.",
+    "Annotation-assisted Head, per-session extrinsics and in-image masks; existing research environment and external assets required.",
+    "Candidate scoring uses the original objective; free feet, no mesh self-intersection or contact term."
   ],
   "locked_files": [
     {
@@ -100,11 +101,71 @@
     {
       "path": "runs/2026-11-17_newdetector_d10/evaluate.py",
       "sha256": "5fdbfd63eaadc09d3471bea47ead5053e8c56c5277c121c6b156d16fee628bcf"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/body.py",
+      "sha256": "5bc8910c377720892560faa1e6b24f701b1640f2b8cd3bbff66cbdea0ceda052"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/detect.py",
+      "sha256": "26841f039d168cbb790cadc88f74b44877a718e5fdb574c9652a92f2fc3f592a"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/score.py",
+      "sha256": "eb7a879abf809acb8679d535144c4d1f45835ca79d0cfc806bea9e8d59b0c24a"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/paths.py",
+      "sha256": "5892ccbcc4a656e85cef29b16f0159f4f059aea78acd44652759ce0c820346e0"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/paired.sh",
+      "sha256": "be641b7a38373b0b03fbbac2f55f0f27a2d3e5239c27500a8b4762180169d686"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/run.sh",
+      "sha256": "655ed28ad4546676922ebcf72e643f50c3d1713fc15f026dfba763deb4478bc0"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/sample.py",
+      "sha256": "df663698daa9ef3b9d42346503c70cf5b03a3a6a0dc2030d0ba18c40184d10aa"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/results.json",
+      "sha256": "076b5df8e15234c303fa072a1576770c6d9b28b377590752af15aecc3531d360"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/inputs.json",
+      "sha256": "c2b66b159405f00b8abdea9ca37c2e7459f5dc80164f53d1bbc236998761baec"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/detection.json",
+      "sha256": "8c3fa13a9c6053d30bfe82874ed8089dced305f0f16a900198264fd2bcf643b4"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/verification.json",
+      "sha256": "3bf742c2519d3ede5247b5219f212a02ad1694efe60e7253e065dbbe45b9c38c"
+    },
+    {
+      "path": "runs/2026-11-23_fullbody_joint_candidates/search.py",
+      "sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912"
+    },
+    {
+      "path": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
+      "sha256": "9cfb7b2467f7af686e5cdb624f44b0c438295fe8fe21cf14c0081e2a7a7e6fa0"
+    },
+    {
+      "path": "runs/2026-11-23_stereo_wrist_candidates/shared.py",
+      "sha256": "686c861bc56a1d87d2d21d8887afb6fd561065e21e51e22072a4eb092da65e3f"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000_frozen200/code/evaluate_2d.py",
+      "sha256": "9cba879adda449350e8ed921b6481ab74c41afca09a8fa2c98a3d5314ba69a0b"
     }
   ],
-  "previous_manifest": "configs/golden_d.2d-v1.json",
+  "previous_manifest": "configs/golden_d.2d-v2.json",
   "detector_assets": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
-  "reference_result_key": "overall.rw20000",
+  "reference_result_key": "summary.joint",
   "observations": "12 bilateral shoulder, elbow, wrist, hip, knee and ankle joints. Reference in-image masks without a confidence threshold.",
   "feet_policy": "Free feet with generic pose prior and joint limits. No ground, contact, flat-foot or balance loss.",
   "reprojection_groups": {
@@ -112,6 +173,36 @@
     "shoulder": 0.25,
     "wrist": 1.0
   },
-  "primary_evaluation": "12-joint per-pair similarity PA and left-camera MPJPE; pooled radial 2D RMSE on original images.",
-  "protocol_scope": "Effective solver settings. The archived runner constructs the protocol and runs four detector conditions. Only the rw20000 rows define v2."
+  "primary_evaluation": "12-joint per-frame similarity PA-MPJPE and left-camera non-PA MPJPE, in mm.",
+  "protocol_scope": "The v2 settings define the Adam initialization and the objective reused throughout. The v3 reference runner evaluates the RW20000 detector; summary.joint selects the complete strategy.",
+  "candidate_search": {
+    "wrist_seed": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
+    "implementation": "runs/2026-11-23_fullbody_joint_candidates/search.py",
+    "trunk_seeds": "Identity plus single-axis root (camera) or spine3 (local) rotation, preserving the fitted Head position by compensating translation.",
+    "trunk_rotation_deg": [
+      -4,
+      4
+    ],
+    "four_limb_depth_offsets_mm": [
+      -240,
+      -120,
+      -60,
+      -20,
+      0,
+      20,
+      60,
+      120,
+      240
+    ],
+    "bend_plane_angles_deg": [
+      -90,
+      -30,
+      0,
+      30,
+      90,
+      180
+    ],
+    "selected_method": "joint",
+    "fixed_trunk_control": "fixed"
+  }
 }

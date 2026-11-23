@@ -19,7 +19,7 @@ def digest(data):
 
 
 def main():
-    current = read('configs/golden_d.current.json')
+    current = read('configs/golden_d.2d-v2.json')
     previous = read(current['previous_manifest'])
     assert (previous['method_id'],current['method_id']) == ('golden-d-2d-v1','golden-d-2d-v2')
     for version in [previous,current]:
@@ -60,7 +60,7 @@ def main():
     result = dict(base_commit='7aa682a50658ac1c84adc22122fc84b5cb0d86c4',
                   command='python -B runs/2026-11-20_golden_d_v2/verify.py',exit_status=0,
                   v1_manifest_sha256=digest((ROOT/current['previous_manifest']).read_bytes()),
-                  v2_manifest_sha256=digest((ROOT/'configs/golden_d.current.json').read_bytes()),
+                  v2_manifest_sha256=digest((ROOT/'configs/golden_d.2d-v2.json').read_bytes()),
                   locked_files={v['method_id']:len(v['locked_files']) for v in (previous,current)},
                   old_reference_detector=previous['reference_detector'],new_detector=read(current['detector_assets'])['sha256']['rw20000'],
                   predictions_sha256=inputs['prediction_sha256']['rw20000'],common_pairs=len(after),

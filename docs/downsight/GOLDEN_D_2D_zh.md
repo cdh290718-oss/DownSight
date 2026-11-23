@@ -1,10 +1,12 @@
 # 当前黄金 D 的单帧双目身体拟合
 
-[双目联合优化图解：肩髋初始化、左右眼重投影、关节权重与选解](golden-d-v2/README.md)
+当前默认研究基线为 **`golden-d-2d-v3`**。v2 提供黄金 D 的双目连续拟合起点，v3 继续搜索腕部、四肢与躯干候选，以原损失选择完整姿态。评测结果取 500 对报告中的 `summary.joint`。[v3 方法与流程图](golden-d-v3/README.md) · [当前清单](../../configs/golden_d.current.json) · [500 对测试](../../runs/2026-11-23_test500_joint/report.md)
 
-后续研究默认使用 `golden-d-2d-v2`。参考实现为冻结集运行器的 RW20000 条件，原图库的十二个 OBJ 取自该条件。清单固定源码、参数、模型标识和评测记录。[当前清单](../../configs/golden_d.current.json) · [拟合入口](../../runs/2026-11-19_rw_frozen200_free12/run_fit.py) · [冻结集报告](../../runs/2026-11-19_rw_frozen200_free12/report.md)
+## 历史连续拟合基线 v1 与 v2
 
-| 设置 | 上一版 v1 | 当前 v2 |
+v2 的归档参考实现取冻结集运行器的 RW20000 条件。[v2 图解](golden-d-v2/README.md) · [v2 清单](../../configs/golden_d.2d-v2.json) · [v2 拟合入口](../../runs/2026-11-19_rw_frozen200_free12/run_fit.py)
+
+| 设置 | v1 | v2 |
 |---|---|---|
 | 默认身体检测器 | Sapiens2-1B 全骨干微调第 1 轮 | RW20000 第 1 轮 |
 | 根位姿起点 | 历史估计的头朝向初始化根旋转，头位置初始化平移 | 左右肩髋在该帧的双目观测初始化根旋转，头位置初始化平移；肩髋三角化不稳定时以同四点双目重投影求初值 |
@@ -13,7 +15,7 @@
 
 旧版正式清单与实现仍可核对。[v1 清单](../../configs/golden_d.2d-v1.json) · [v1 方法原文](https://github.com/cdh290718-oss/DownSight/blob/7aa682a50658ac1c84adc22122fc84b5cb0d86c4/docs/downsight/GOLDEN_D_2D_zh.md)
 
-## 拟合与评测
+## v1、v2 的拟合与评测
 
 两版均从标准体型和模板身体姿态出发，用双目 12 点的分组 Huber 重投影约束同一具人体。当前三角化只给肩髋初始化提供依据。正式身体损失在有效视角间平均，再分别求身体、肩、腕三组均值，乘以 1、0.25、1。保留姿态先验、关节范围、正深度检查和自由脚。体型固定均值，手指固定，WiLoR 手点未参与。Adam 预算为 20000 步，按最低可行拟合目标选择检查点。身体三维评测真值仅用于评分。[损失实现](../../runs/2026-11-17_newdetector_d10/fit.py) · [有效设置](../../runs/2026-11-19_rw_frozen200_free12/evidence/settings.json)
 

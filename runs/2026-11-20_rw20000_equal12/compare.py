@@ -38,7 +38,7 @@ def main():
         assert sha(base.OUT/name)==expected
     for p in base.camera_files():
         assert sha(p)==inputs['cameras'][p.name]
-    manifest=read(ROOT/'configs/golden_d.current.json')
+    manifest=read(ROOT/'configs/golden_d.2d-v2.json')
     assert manifest['method_id']=='golden-d-2d-v2'
     for f in manifest['locked_files']:
         assert sha(ROOT/f['path'])==f['sha256']

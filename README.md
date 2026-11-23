@@ -2,21 +2,18 @@
 
 DownSight 探索从头戴下视双目图像恢复人体姿态与体型。
 
-> **当前黄金 D 为 `golden-d-2d-v2`。** RW20000 的双目身体 12 点共同约束一具 SMPL-X 人体。逐帧用双肩和双髋初始化根朝向，用 Head 三维位置初始化平移。拟合中头随上胸，双脚自由。
+> **当前黄金 D 为 `golden-d-2d-v3`。** 两只眼共同拟合一具 SMPL-X 人体。v3 从 v2 的 Adam 解出发，联合搜索四肢姿态，允许根或上段脊柱转动，再用原损失选出可行姿态。
 
-[方法与版本对照](docs/downsight/GOLDEN_D_2D_zh.md) · [默认配置清单](configs/golden_d.current.json) · [100 对冻结集结果](runs/2026-11-19_rw_frozen200_free12/report.md) · [本次基线切换](runs/2026-11-20_golden_d_v2/report.md)
+[黄金 D v3 方法与流程图](docs/downsight/golden-d-v3/README.md) · [当前版本清单](configs/golden_d.current.json) · [500 对官方测试结果](runs/2026-11-23_test500_joint/report.md) · [版本定版记录](runs/2026-11-23_golden_d_v3/report.md)
 
-## 双目拟合流程
+[![黄金 D v3 双目拟合与联合候选流程](docs/downsight/golden-d-v3/stereo-fit.png)](docs/downsight/golden-d-v3/README.md)
 
-[双目联合优化图解：从一个腕点看懂两眼如何共同拟合人体](docs/downsight/golden-d-v2/README.md)
-
-[![黄金 D v2 双目联合优化流程图：肩髋初始化、左右鱼眼投影与 Adam 更新](docs/downsight/golden-d-v2/stereo-fit.png)](docs/downsight/golden-d-v2/stereo-fit.png)
-
-参考实验固定均值体型及手指局部姿态，采用标注辅助的 Head 位置、外参和画内掩码。地面参考仅用于展示。[单帧正侧视图](runs/2026-11-20_rw20000_floor12/report.md) · [原 EgoSMPLX 部署入口](README_LEGACY.md)
+参考实验固定均值体型和手指姿态，使用标注辅助的 Head 位置、会话外参和画内掩码。地面视角用于网格展示。[原 EgoSMPLX 部署入口](README_LEGACY.md)
 
 | 版本 | 识别特征 | 用途 |
 |---|---|---|
-| 黄金 D v2 | RW20000、肩髋起步、Head 位置约束、头随上胸 | 当前研究基线 |
+| 黄金 D v3 | v2 起步，四肢与根或上段脊柱联合搜索 | 当前研究基线 |
+| 黄金 D v2 | RW20000、肩髋初始化、Head 位置约束、Adam 选解 | [v3 的起点及对照](docs/downsight/golden-d-v2/README.md) |
 | 黄金 D v1 | 全二维重投影、历史 Head 朝向初始化并参与拟合 | [前版清单](configs/golden_d.2d-v1.json) |
 | 三维黄金 D | 三角化目标的协方差加权三维残差 | [历史合成归档](experiments/synthetic_template_head_stereo_20261109/METHOD.md) |
 
