@@ -1,0 +1,29 @@
+{
+  "baseline": "657d09dfd56b10c7b226fd926e4902a0ee205049",
+  "remote_before_commit": "657d09dfd56b10c7b226fd926e4902a0ee205049",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "None. Text only.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-23_rw20000_wrist_depth/brief.md": "fae7eaf199defffee2f7ac61274d0437ac98d3f3e0852b0e67f525b7c7962c1e",
+    "runs/2026-11-23_rw20000_wrist_depth/check_depth.py": "d1bf84952e4e9bb0c122f985e1022561f92c5b14045ad4c35b0e3b93e62bd31b",
+    "runs/2026-11-23_rw20000_wrist_depth/evidence/fit_results.json": "0e61d65df3d830ba28ba3f5b33d5db25e86ce076b7dd7c3a5f8ad9e6a52e4a40",
+    "runs/2026-11-23_rw20000_wrist_depth/evidence/results.json": "f7daa3ec16ae3242f26929ddf3638bf551fc493ea229ce12a2b315c33e3e0bef",
+    "runs/2026-11-23_rw20000_wrist_depth/fit_range.py": "4793540c19969d8f83b7a33ee5b4e0d7777ff42b119d4e3d4580f040d98ac1ad",
+    "runs/2026-11-23_rw20000_wrist_depth/report.md": "56e2a34d8a147077602821f81d24d7ab4dd1ef85e7390dfc0776dd819ccd1df3",
+    "runs/2026-11-23_rw20000_wrist_depth/review.md": "043e233c44b93ebc5017f512062fdba63348994643042d44e15b4f427b52d8b6",
+    "runs/2026-11-23_rw20000_wrist_depth/score.py": "2c953f6a4dc0ea1c9372ce0642c1dfa0e012a9e081e697dd387b7d44893dc8a9"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

@@ -1,0 +1,1577 @@
+{
+  "reasons": {
+    "accepted": 181,
+    "ray_distance_gap_or_parallax": 13,
+    "reprojection_depth_or_uncertainty": 5,
+    "missing view": 1
+  },
+  "accepted": {
+    "n": 181,
+    "stereo_range_rmse_mm": 71.8318127730669,
+    "stereo_range_median_abs_mm": 35.74119840444134,
+    "fit_range_rmse_mm": 97.45313047147488,
+    "fit_range_median_abs_mm": 28.381827838018125,
+    "stereo_closer": 82
+  },
+  "sigma_le_50mm": {
+    "n": 10,
+    "stereo_range_rmse_mm": 17.278900699059808,
+    "stereo_range_median_abs_mm": 9.441163635988945,
+    "fit_range_rmse_mm": 203.45267515490883,
+    "fit_range_median_abs_mm": 32.03573561899027,
+    "stereo_closer": 9
+  },
+  "rows": [
+    {
+      "pair": "pair001",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 70.08827216581054,
+      "stereo_range_error_mm": -69.13659664356354,
+      "fit_range_error_mm": -4.359573000193295
+    },
+    {
+      "pair": "pair001",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 117.50601076212087,
+      "stereo_range_error_mm": 67.19760684593862,
+      "fit_range_error_mm": 25.044982495442014
+    },
+    {
+      "pair": "pair002",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 111.51162597687338,
+      "stereo_range_error_mm": -153.85516290181744,
+      "fit_range_error_mm": -134.44315975231302
+    },
+    {
+      "pair": "pair002",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 415.1980994329531,
+      "stereo_range_error_mm": 277.3396002433954,
+      "fit_range_error_mm": 16.646560560821367
+    },
+    {
+      "pair": "pair003",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 31.41080123811501,
+      "stereo_range_error_mm": 1.2971988057651207,
+      "fit_range_error_mm": 447.175285069222
+    },
+    {
+      "pair": "pair003",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 113.26348228714255,
+      "stereo_range_error_mm": -33.02261186015942,
+      "fit_range_error_mm": -48.0605451603352
+    },
+    {
+      "pair": "pair004",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 30.177171026314856,
+      "stereo_range_error_mm": -3.32778105808218,
+      "fit_range_error_mm": 456.6534473735063
+    },
+    {
+      "pair": "pair004",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 112.60686252672984,
+      "stereo_range_error_mm": -39.87503327130737,
+      "fit_range_error_mm": -41.734517039294985
+    },
+    {
+      "pair": "pair005",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 134.74400028937222,
+      "stereo_range_error_mm": -12.197949666841401,
+      "fit_range_error_mm": -17.244812959540724
+    },
+    {
+      "pair": "pair005",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 198.27151432006113,
+      "stereo_range_error_mm": -11.8557780545393,
+      "fit_range_error_mm": -28.07818703228182
+    },
+    {
+      "pair": "pair006",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 301.6819203469074,
+      "stereo_range_error_mm": -3.2987663987356086,
+      "fit_range_error_mm": -14.314562573427004
+    },
+    {
+      "pair": "pair006",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 176.10280846732056,
+      "stereo_range_error_mm": 1.5786770794188332,
+      "fit_range_error_mm": -31.30156518324634
+    },
+    {
+      "pair": "pair007",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 196.24373354477714,
+      "stereo_range_error_mm": -59.62584383839842,
+      "fit_range_error_mm": 35.54616495510232
+    },
+    {
+      "pair": "pair007",
+      "joint": "L_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair008",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 242.21004560919266,
+      "stereo_range_error_mm": 16.615377573898414,
+      "fit_range_error_mm": 31.612398446721702
+    },
+    {
+      "pair": "pair008",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 262.0580762053863,
+      "stereo_range_error_mm": -9.501234297118021,
+      "fit_range_error_mm": -1.2213148117163897
+    },
+    {
+      "pair": "pair009",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 446.2009612977768,
+      "stereo_range_error_mm": 226.77346020832755,
+      "fit_range_error_mm": 15.288380722636274
+    },
+    {
+      "pair": "pair009",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 340.42773525330216,
+      "stereo_range_error_mm": -6.258296968798982,
+      "fit_range_error_mm": -10.400978473876776
+    },
+    {
+      "pair": "pair010",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair010",
+      "joint": "L_Wrist",
+      "reason": "reprojection_depth_or_uncertainty"
+    },
+    {
+      "pair": "pair011",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair011",
+      "joint": "L_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair012",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 236.4446849906984,
+      "stereo_range_error_mm": -29.38153037782598,
+      "fit_range_error_mm": 32.957697990351754
+    },
+    {
+      "pair": "pair012",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 169.2630365946282,
+      "stereo_range_error_mm": -172.3970558850184,
+      "fit_range_error_mm": -1.5166829015083039
+    },
+    {
+      "pair": "pair013",
+      "joint": "R_Wrist",
+      "reason": "reprojection_depth_or_uncertainty"
+    },
+    {
+      "pair": "pair013",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 359.71728188563577,
+      "stereo_range_error_mm": 64.34308845961012,
+      "fit_range_error_mm": -29.172428520824912
+    },
+    {
+      "pair": "pair014",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 219.91187838986622,
+      "stereo_range_error_mm": -26.313115810080777,
+      "fit_range_error_mm": 21.877670013466634
+    },
+    {
+      "pair": "pair014",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 300.0280837947872,
+      "stereo_range_error_mm": 17.371940300594968,
+      "fit_range_error_mm": -9.7282211141988
+    },
+    {
+      "pair": "pair015",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 309.48073984145407,
+      "stereo_range_error_mm": 16.305432697701015,
+      "fit_range_error_mm": 22.60478223799889
+    },
+    {
+      "pair": "pair015",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 244.20751451096692,
+      "stereo_range_error_mm": -105.44127143820481,
+      "fit_range_error_mm": -21.70077970634243
+    },
+    {
+      "pair": "pair016",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 240.18498511296949,
+      "stereo_range_error_mm": -16.338052607283938,
+      "fit_range_error_mm": 29.573454853675905
+    },
+    {
+      "pair": "pair016",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 352.8331674395658,
+      "stereo_range_error_mm": 56.343078880482736,
+      "fit_range_error_mm": -25.395435524069864
+    },
+    {
+      "pair": "pair017",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 250.3764859529531,
+      "stereo_range_error_mm": 3.4017522945049006,
+      "fit_range_error_mm": 5.287620149428074
+    },
+    {
+      "pair": "pair017",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 240.10192256836805,
+      "stereo_range_error_mm": -110.8466849745584,
+      "fit_range_error_mm": -6.148517461307734
+    },
+    {
+      "pair": "pair018",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 156.80313412592795,
+      "stereo_range_error_mm": -18.025756877559363,
+      "fit_range_error_mm": 8.94241288130726
+    },
+    {
+      "pair": "pair018",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 244.8876866815005,
+      "stereo_range_error_mm": 2.4986610304700285,
+      "fit_range_error_mm": -8.416140765302838
+    },
+    {
+      "pair": "pair019",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 261.21439461041456,
+      "stereo_range_error_mm": 10.68392935761131,
+      "fit_range_error_mm": 21.524797049914945
+    },
+    {
+      "pair": "pair019",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 299.2310093934577,
+      "stereo_range_error_mm": 37.818270202721884,
+      "fit_range_error_mm": -12.416301828854337
+    },
+    {
+      "pair": "pair020",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 270.3768940407955,
+      "stereo_range_error_mm": 29.26135290284526,
+      "fit_range_error_mm": 14.700795897835018
+    },
+    {
+      "pair": "pair020",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 219.7053127635527,
+      "stereo_range_error_mm": -68.60305000355793,
+      "fit_range_error_mm": -2.3665632803462344
+    },
+    {
+      "pair": "pair021",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 58.8890180037921,
+      "stereo_range_error_mm": -41.64572298294694,
+      "fit_range_error_mm": 350.7496157114085
+    },
+    {
+      "pair": "pair021",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 32.851464791777666,
+      "stereo_range_error_mm": 13.98974134954628,
+      "fit_range_error_mm": 32.7179364625908
+    },
+    {
+      "pair": "pair022",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 57.955765166935564,
+      "stereo_range_error_mm": 3.7506826901223533,
+      "fit_range_error_mm": 21.509402968524107
+    },
+    {
+      "pair": "pair022",
+      "joint": "L_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair023",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 301.76986219985025,
+      "stereo_range_error_mm": 48.01039822911757,
+      "fit_range_error_mm": 4.838378565268586
+    },
+    {
+      "pair": "pair023",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 330.1458718981336,
+      "stereo_range_error_mm": 49.128163653045846,
+      "fit_range_error_mm": -8.204809774684406
+    },
+    {
+      "pair": "pair024",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair024",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 19.657907500196597,
+      "stereo_range_error_mm": -17.62108093230305,
+      "fit_range_error_mm": -13.136647044767747
+    },
+    {
+      "pair": "pair025",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 231.13861877730588,
+      "stereo_range_error_mm": 97.2494325865283,
+      "fit_range_error_mm": 16.88652205615537
+    },
+    {
+      "pair": "pair025",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 198.29498597989914,
+      "stereo_range_error_mm": -11.297708215195822,
+      "fit_range_error_mm": -12.817430815066144
+    },
+    {
+      "pair": "pair026",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 196.03498445413487,
+      "stereo_range_error_mm": 99.09717027027088,
+      "fit_range_error_mm": 3.2300736231278826
+    },
+    {
+      "pair": "pair026",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 331.9110131504924,
+      "stereo_range_error_mm": 120.97089722646437,
+      "fit_range_error_mm": -11.514400842327799
+    },
+    {
+      "pair": "pair027",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 98.38965527841022,
+      "stereo_range_error_mm": 31.77509994219607,
+      "fit_range_error_mm": 54.18395244945751
+    },
+    {
+      "pair": "pair027",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 182.71688588156024,
+      "stereo_range_error_mm": -140.51160173110694,
+      "fit_range_error_mm": 22.351038464914375
+    },
+    {
+      "pair": "pair028",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 159.13718083985,
+      "stereo_range_error_mm": 64.50946690473164,
+      "fit_range_error_mm": -21.379424481631048
+    },
+    {
+      "pair": "pair028",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 156.2046110134866,
+      "stereo_range_error_mm": -23.21867190780069,
+      "fit_range_error_mm": 25.51376225981816
+    },
+    {
+      "pair": "pair029",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 124.85302373634633,
+      "stereo_range_error_mm": 58.988522599450086,
+      "fit_range_error_mm": -11.610041884934198
+    },
+    {
+      "pair": "pair029",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 222.12866208077105,
+      "stereo_range_error_mm": 114.07910399808397,
+      "fit_range_error_mm": 82.1792145858622
+    },
+    {
+      "pair": "pair030",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 207.70435897305825,
+      "stereo_range_error_mm": 57.58430498584155,
+      "fit_range_error_mm": 9.545643880501942
+    },
+    {
+      "pair": "pair030",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 67.2628181141003,
+      "stereo_range_error_mm": 17.083809007418903,
+      "fit_range_error_mm": 7.30520655543515
+    },
+    {
+      "pair": "pair031",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 101.74698985456065,
+      "stereo_range_error_mm": -39.63757583309013,
+      "fit_range_error_mm": -7.234044807838291
+    },
+    {
+      "pair": "pair031",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 65.42212097392155,
+      "stereo_range_error_mm": -47.47628898162465,
+      "fit_range_error_mm": -47.02790656149519
+    },
+    {
+      "pair": "pair032",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 125.12965055459635,
+      "stereo_range_error_mm": 56.16763917457001,
+      "fit_range_error_mm": 38.22866122902746
+    },
+    {
+      "pair": "pair032",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 124.61818177314488,
+      "stereo_range_error_mm": -32.29887333036841,
+      "fit_range_error_mm": -12.265833771659128
+    },
+    {
+      "pair": "pair033",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 177.41488753918293,
+      "stereo_range_error_mm": -26.945495416741515,
+      "fit_range_error_mm": -1.5255763975123848
+    },
+    {
+      "pair": "pair033",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 240.99724136698285,
+      "stereo_range_error_mm": -16.322583339811068,
+      "fit_range_error_mm": 21.46750948423759
+    },
+    {
+      "pair": "pair034",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 107.43203418084357,
+      "stereo_range_error_mm": -52.82890030366427,
+      "fit_range_error_mm": -20.54697614060852
+    },
+    {
+      "pair": "pair034",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 302.27543343144725,
+      "stereo_range_error_mm": 22.49468725872017,
+      "fit_range_error_mm": 59.90262459298768
+    },
+    {
+      "pair": "pair035",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 213.07766209317842,
+      "stereo_range_error_mm": -64.18370876735146,
+      "fit_range_error_mm": 24.35157953778122
+    },
+    {
+      "pair": "pair035",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 322.253645447483,
+      "stereo_range_error_mm": 23.964661554449542,
+      "fit_range_error_mm": 24.26832339113716
+    },
+    {
+      "pair": "pair036",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 101.63928254119186,
+      "stereo_range_error_mm": -38.7495739802467,
+      "fit_range_error_mm": -38.806112902768916
+    },
+    {
+      "pair": "pair036",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 116.59072479738336,
+      "stereo_range_error_mm": -9.823749217782286,
+      "fit_range_error_mm": -38.367241081759374
+    },
+    {
+      "pair": "pair037",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 119.40564464174095,
+      "stereo_range_error_mm": -15.428731214383816,
+      "fit_range_error_mm": 26.352315245624645
+    },
+    {
+      "pair": "pair037",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 114.59099393229971,
+      "stereo_range_error_mm": -50.26566066229377,
+      "fit_range_error_mm": -78.48120791033325
+    },
+    {
+      "pair": "pair038",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 199.33768862959377,
+      "stereo_range_error_mm": -43.75146445466471,
+      "fit_range_error_mm": 68.74345618867528
+    },
+    {
+      "pair": "pair038",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 261.1303730512803,
+      "stereo_range_error_mm": -11.613607224159939,
+      "fit_range_error_mm": 34.807967238680405
+    },
+    {
+      "pair": "pair039",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 101.51026191147672,
+      "stereo_range_error_mm": -43.268449152911174,
+      "fit_range_error_mm": -51.267787289440705
+    },
+    {
+      "pair": "pair039",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 185.21898975148528,
+      "stereo_range_error_mm": -60.203406389617186,
+      "fit_range_error_mm": 46.123728095010755
+    },
+    {
+      "pair": "pair040",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 145.37341849662835,
+      "stereo_range_error_mm": -50.28105972853181,
+      "fit_range_error_mm": -60.270957946096935
+    },
+    {
+      "pair": "pair040",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 252.43849565015387,
+      "stereo_range_error_mm": 33.35390824277296,
+      "fit_range_error_mm": 99.62276865531582
+    },
+    {
+      "pair": "pair041",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 156.86306756033483,
+      "stereo_range_error_mm": -20.3008882652399,
+      "fit_range_error_mm": 20.046103987828356
+    },
+    {
+      "pair": "pair041",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 187.50494020271438,
+      "stereo_range_error_mm": -35.91934857574897,
+      "fit_range_error_mm": 155.26377362692534
+    },
+    {
+      "pair": "pair042",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 127.2370196876508,
+      "stereo_range_error_mm": -96.34154779386162,
+      "fit_range_error_mm": 52.648227300987614
+    },
+    {
+      "pair": "pair042",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 151.88508976977013,
+      "stereo_range_error_mm": -35.671494797676395,
+      "fit_range_error_mm": 148.4718625913134
+    },
+    {
+      "pair": "pair043",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 153.32008146651384,
+      "stereo_range_error_mm": -61.20443768914341,
+      "fit_range_error_mm": 25.110922921548706
+    },
+    {
+      "pair": "pair043",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 166.028986020291,
+      "stereo_range_error_mm": -59.15941497745436,
+      "fit_range_error_mm": 35.71379985183043
+    },
+    {
+      "pair": "pair044",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 144.52578739776814,
+      "stereo_range_error_mm": -46.226927363550274,
+      "fit_range_error_mm": 16.16916699586046
+    },
+    {
+      "pair": "pair044",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 171.76168462441797,
+      "stereo_range_error_mm": -42.62667586075708,
+      "fit_range_error_mm": 20.35804725557022
+    },
+    {
+      "pair": "pair045",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 57.592303561741204,
+      "stereo_range_error_mm": 1.7233345088661922,
+      "fit_range_error_mm": 2.620015241331042
+    },
+    {
+      "pair": "pair045",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 163.67575971435485,
+      "stereo_range_error_mm": -40.70706773262778,
+      "fit_range_error_mm": 34.449608276848174
+    },
+    {
+      "pair": "pair046",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 288.4777898741797,
+      "stereo_range_error_mm": 33.1167552217202,
+      "fit_range_error_mm": 38.39605120854983
+    },
+    {
+      "pair": "pair046",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 273.5884045026441,
+      "stereo_range_error_mm": 174.64539034991233,
+      "fit_range_error_mm": 114.16374939193918
+    },
+    {
+      "pair": "pair047",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair047",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 32.852590516011155,
+      "stereo_range_error_mm": -33.45856573706219,
+      "fit_range_error_mm": -41.217091986572804
+    },
+    {
+      "pair": "pair048",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 177.0185901460099,
+      "stereo_range_error_mm": -59.770900041080765,
+      "fit_range_error_mm": 55.30599625681065
+    },
+    {
+      "pair": "pair048",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 26.911292394205702,
+      "stereo_range_error_mm": -30.621200143808174,
+      "fit_range_error_mm": -35.5325810344205
+    },
+    {
+      "pair": "pair049",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair049",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 34.06542756067242,
+      "stereo_range_error_mm": -19.00271851163407,
+      "fit_range_error_mm": -31.35353477538974
+    },
+    {
+      "pair": "pair050",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 175.84132821712566,
+      "stereo_range_error_mm": -35.977198542057835,
+      "fit_range_error_mm": 35.81139948341083
+    },
+    {
+      "pair": "pair050",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 103.66678783273717,
+      "stereo_range_error_mm": 1.894809389304697,
+      "fit_range_error_mm": -19.940941112134126
+    },
+    {
+      "pair": "pair051",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 103.55317034148881,
+      "stereo_range_error_mm": -43.66039012915635,
+      "fit_range_error_mm": -23.618371540676808
+    },
+    {
+      "pair": "pair051",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 81.6865339203276,
+      "stereo_range_error_mm": -28.79285722205799,
+      "fit_range_error_mm": 242.7442111374728
+    },
+    {
+      "pair": "pair052",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 123.52828101913627,
+      "stereo_range_error_mm": -30.292841613291266,
+      "fit_range_error_mm": -29.34419131566146
+    },
+    {
+      "pair": "pair052",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 52.799770845990516,
+      "stereo_range_error_mm": 15.210367941557667,
+      "fit_range_error_mm": 335.0755185984822
+    },
+    {
+      "pair": "pair053",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 135.0651800408856,
+      "stereo_range_error_mm": -35.74119840444134,
+      "fit_range_error_mm": -66.7570046906657
+    },
+    {
+      "pair": "pair053",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 202.36519445565514,
+      "stereo_range_error_mm": -2.5298393339662217,
+      "fit_range_error_mm": 43.47108240877884
+    },
+    {
+      "pair": "pair054",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 167.21596134176582,
+      "stereo_range_error_mm": -41.1905526160028,
+      "fit_range_error_mm": 26.58410919360965
+    },
+    {
+      "pair": "pair054",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 187.62817882327738,
+      "stereo_range_error_mm": -39.15626608141021,
+      "fit_range_error_mm": 35.07607639574684
+    },
+    {
+      "pair": "pair055",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 116.4691784259998,
+      "stereo_range_error_mm": -31.304192051630597,
+      "fit_range_error_mm": -37.09348943278445
+    },
+    {
+      "pair": "pair055",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 182.11663687591232,
+      "stereo_range_error_mm": -39.46565952608161,
+      "fit_range_error_mm": 30.15289318768044
+    },
+    {
+      "pair": "pair056",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 160.0071378109298,
+      "stereo_range_error_mm": -33.587169280642314,
+      "fit_range_error_mm": 46.04676072214453
+    },
+    {
+      "pair": "pair056",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 193.97073561572768,
+      "stereo_range_error_mm": -72.12248163305135,
+      "fit_range_error_mm": 36.73453742765087
+    },
+    {
+      "pair": "pair057",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 82.13466702889102,
+      "stereo_range_error_mm": -15.036094756295137,
+      "fit_range_error_mm": 9.636474206065115
+    },
+    {
+      "pair": "pair057",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 301.1769519699669,
+      "stereo_range_error_mm": 227.45440306985665,
+      "fit_range_error_mm": 170.76095356485254
+    },
+    {
+      "pair": "pair058",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair058",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 28.136737030586076,
+      "stereo_range_error_mm": -4.892585922431608,
+      "fit_range_error_mm": -13.154733898957327
+    },
+    {
+      "pair": "pair059",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair059",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 118.57991685324805,
+      "stereo_range_error_mm": -71.22299947267491,
+      "fit_range_error_mm": -82.98466576377727
+    },
+    {
+      "pair": "pair060",
+      "joint": "R_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair060",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 159.20605652723125,
+      "stereo_range_error_mm": -207.54137724198452,
+      "fit_range_error_mm": 47.10974750295727
+    },
+    {
+      "pair": "pair061",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 217.80491389745475,
+      "stereo_range_error_mm": -34.23695322996878,
+      "fit_range_error_mm": 57.402298476449175
+    },
+    {
+      "pair": "pair061",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 165.7829506846658,
+      "stereo_range_error_mm": -169.23770742406364,
+      "fit_range_error_mm": 24.886867628589158
+    },
+    {
+      "pair": "pair062",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 326.65695797378805,
+      "stereo_range_error_mm": 72.4394990874464,
+      "fit_range_error_mm": 33.28063279593741
+    },
+    {
+      "pair": "pair062",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 144.8147457037193,
+      "stereo_range_error_mm": -57.56623581777337,
+      "fit_range_error_mm": 42.11803904765754
+    },
+    {
+      "pair": "pair063",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 156.31672365663658,
+      "stereo_range_error_mm": -73.15038256458483,
+      "fit_range_error_mm": 41.56206602671031
+    },
+    {
+      "pair": "pair063",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 177.84925205120658,
+      "stereo_range_error_mm": -43.15195329858745,
+      "fit_range_error_mm": 26.620448959658873
+    },
+    {
+      "pair": "pair064",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 163.5841123954536,
+      "stereo_range_error_mm": -56.36202123784451,
+      "fit_range_error_mm": 29.63385950106656
+    },
+    {
+      "pair": "pair064",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 168.75489499537184,
+      "stereo_range_error_mm": -53.68475381140425,
+      "fit_range_error_mm": 23.700095138379673
+    },
+    {
+      "pair": "pair065",
+      "joint": "R_Wrist",
+      "reason": "reprojection_depth_or_uncertainty"
+    },
+    {
+      "pair": "pair065",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 125.10745254441402,
+      "stereo_range_error_mm": -272.80811122226544,
+      "fit_range_error_mm": 26.277856931229305
+    },
+    {
+      "pair": "pair066",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 371.94418710839716,
+      "stereo_range_error_mm": 129.48772875804192,
+      "fit_range_error_mm": 42.114554364424464
+    },
+    {
+      "pair": "pair066",
+      "joint": "L_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair067",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 53.344188991638,
+      "stereo_range_error_mm": -9.251027720077353,
+      "fit_range_error_mm": -6.491649671219458
+    },
+    {
+      "pair": "pair067",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 311.5900786816347,
+      "stereo_range_error_mm": -68.69076917750183,
+      "fit_range_error_mm": 37.509109402179774
+    },
+    {
+      "pair": "pair068",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 100.40232363060757,
+      "stereo_range_error_mm": -40.564412240451816,
+      "fit_range_error_mm": -20.576637089921633
+    },
+    {
+      "pair": "pair068",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 128.29455144085253,
+      "stereo_range_error_mm": 30.106318322269622,
+      "fit_range_error_mm": -16.86236396002694
+    },
+    {
+      "pair": "pair069",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 321.7988941330342,
+      "stereo_range_error_mm": 31.109990377997775,
+      "fit_range_error_mm": -28.381827838018125
+    },
+    {
+      "pair": "pair069",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 243.95260870332592,
+      "stereo_range_error_mm": -69.09496392732883,
+      "fit_range_error_mm": -47.17629691692349
+    },
+    {
+      "pair": "pair070",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 212.23510314037148,
+      "stereo_range_error_mm": -50.692220991375045,
+      "fit_range_error_mm": -13.379763963348502
+    },
+    {
+      "pair": "pair070",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 332.8088085422174,
+      "stereo_range_error_mm": -109.1221282243644,
+      "fit_range_error_mm": -63.06638955937694
+    },
+    {
+      "pair": "pair071",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 387.62471034224853,
+      "stereo_range_error_mm": 100.04592760727726,
+      "fit_range_error_mm": -25.108571819048798
+    },
+    {
+      "pair": "pair071",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 229.77418005264963,
+      "stereo_range_error_mm": -126.26225123652613,
+      "fit_range_error_mm": -40.72623097541761
+    },
+    {
+      "pair": "pair072",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 147.6644161881762,
+      "stereo_range_error_mm": -22.08185766020254,
+      "fit_range_error_mm": -91.34751290660293
+    },
+    {
+      "pair": "pair072",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 186.34585089286665,
+      "stereo_range_error_mm": 39.61226365341719,
+      "fit_range_error_mm": -75.53525972997865
+    },
+    {
+      "pair": "pair073",
+      "joint": "R_Wrist",
+      "reason": "missing view"
+    },
+    {
+      "pair": "pair073",
+      "joint": "L_Wrist",
+      "reason": "reprojection_depth_or_uncertainty"
+    },
+    {
+      "pair": "pair074",
+      "joint": "R_Wrist",
+      "reason": "reprojection_depth_or_uncertainty"
+    },
+    {
+      "pair": "pair074",
+      "joint": "L_Wrist",
+      "reason": "ray_distance_gap_or_parallax"
+    },
+    {
+      "pair": "pair075",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 132.34942879106742,
+      "stereo_range_error_mm": -19.500873824159992,
+      "fit_range_error_mm": 13.656809899965205
+    },
+    {
+      "pair": "pair075",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 183.0193407542193,
+      "stereo_range_error_mm": -78.18594111439691,
+      "fit_range_error_mm": -33.11061486132083
+    },
+    {
+      "pair": "pair076",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 128.88119261214786,
+      "stereo_range_error_mm": -10.957834752237883,
+      "fit_range_error_mm": 18.318039586659896
+    },
+    {
+      "pair": "pair076",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 208.33363798897514,
+      "stereo_range_error_mm": -41.61820356746182,
+      "fit_range_error_mm": -28.468799917737762
+    },
+    {
+      "pair": "pair077",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 197.86732191545616,
+      "stereo_range_error_mm": 54.19536096249078,
+      "fit_range_error_mm": 18.223113021916816
+    },
+    {
+      "pair": "pair077",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 139.81875042334119,
+      "stereo_range_error_mm": -31.90758119537229,
+      "fit_range_error_mm": -26.4603081478878
+    },
+    {
+      "pair": "pair078",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 263.35667360954614,
+      "stereo_range_error_mm": -21.713216646168544,
+      "fit_range_error_mm": -24.61476616057956
+    },
+    {
+      "pair": "pair078",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 266.3720308530989,
+      "stereo_range_error_mm": -21.129236342350865,
+      "fit_range_error_mm": -32.67463248342606
+    },
+    {
+      "pair": "pair079",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 145.20596395533565,
+      "stereo_range_error_mm": -127.99659855129752,
+      "fit_range_error_mm": -145.87528386814265
+    },
+    {
+      "pair": "pair079",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 288.30288483619313,
+      "stereo_range_error_mm": 96.06518452643442,
+      "fit_range_error_mm": -1.444966525898428
+    },
+    {
+      "pair": "pair080",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 309.96312680275054,
+      "stereo_range_error_mm": 19.910295424839354,
+      "fit_range_error_mm": -19.118258419209223
+    },
+    {
+      "pair": "pair080",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 253.62767295751277,
+      "stereo_range_error_mm": -85.43171992975529,
+      "fit_range_error_mm": -47.01015579061729
+    },
+    {
+      "pair": "pair081",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 152.54812862547004,
+      "stereo_range_error_mm": -112.38027868751533,
+      "fit_range_error_mm": -19.357414535516536
+    },
+    {
+      "pair": "pair081",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 349.480558398346,
+      "stereo_range_error_mm": 182.10232275582095,
+      "fit_range_error_mm": -1.25829553139023
+    },
+    {
+      "pair": "pair082",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 285.6563647813312,
+      "stereo_range_error_mm": -53.14532952015816,
+      "fit_range_error_mm": -41.78914746818852
+    },
+    {
+      "pair": "pair082",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 98.7136309126089,
+      "stereo_range_error_mm": -151.5747307212581,
+      "fit_range_error_mm": -195.27484582784615
+    },
+    {
+      "pair": "pair083",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 309.62173833448094,
+      "stereo_range_error_mm": -6.392778840390356,
+      "fit_range_error_mm": -29.92044417807338
+    },
+    {
+      "pair": "pair083",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 203.19054598107203,
+      "stereo_range_error_mm": -123.6303213840031,
+      "fit_range_error_mm": -35.581535314272216
+    },
+    {
+      "pair": "pair084",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 150.20426868530708,
+      "stereo_range_error_mm": -15.243807974251734,
+      "fit_range_error_mm": -35.81764422664413
+    },
+    {
+      "pair": "pair084",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 157.10142460169973,
+      "stereo_range_error_mm": -10.486197572500133,
+      "fit_range_error_mm": -13.298299306021665
+    },
+    {
+      "pair": "pair085",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 46.96188133145065,
+      "stereo_range_error_mm": -4.850153069491436,
+      "fit_range_error_mm": 8.360840721312101
+    },
+    {
+      "pair": "pair085",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 36.33401606972435,
+      "stereo_range_error_mm": 0.9662680015213865,
+      "fit_range_error_mm": 1.1666314172532333
+    },
+    {
+      "pair": "pair086",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 92.48154904427611,
+      "stereo_range_error_mm": 7.620691642620637,
+      "fit_range_error_mm": 57.13101136738169
+    },
+    {
+      "pair": "pair086",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 56.77880082075314,
+      "stereo_range_error_mm": 12.105094946307403,
+      "fit_range_error_mm": 455.9480605159403
+    },
+    {
+      "pair": "pair087",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 92.7821818885291,
+      "stereo_range_error_mm": 11.944320204549442,
+      "fit_range_error_mm": 62.8072754345374
+    },
+    {
+      "pair": "pair087",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 53.00916215343991,
+      "stereo_range_error_mm": -6.756040670814867,
+      "fit_range_error_mm": 447.7270879664812
+    },
+    {
+      "pair": "pair088",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 75.1518146748013,
+      "stereo_range_error_mm": -7.226529048656449,
+      "fit_range_error_mm": 32.22001695692667
+    },
+    {
+      "pair": "pair088",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 63.881310496143925,
+      "stereo_range_error_mm": -11.855929378562003,
+      "fit_range_error_mm": 368.18905211080505
+    },
+    {
+      "pair": "pair089",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 92.44913642187934,
+      "stereo_range_error_mm": 10.378775444434662,
+      "fit_range_error_mm": 44.551777293485806
+    },
+    {
+      "pair": "pair089",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 76.5689007454739,
+      "stereo_range_error_mm": -2.6045531019334156,
+      "fit_range_error_mm": 331.1350531730191
+    },
+    {
+      "pair": "pair090",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 93.27918736722106,
+      "stereo_range_error_mm": 19.455952265243713,
+      "fit_range_error_mm": 56.531840551811484
+    },
+    {
+      "pair": "pair090",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 78.39272796025251,
+      "stereo_range_error_mm": -2.1795819103709313,
+      "fit_range_error_mm": 3.982909333734186
+    },
+    {
+      "pair": "pair091",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 108.63665913526553,
+      "stereo_range_error_mm": -17.92085974471469,
+      "fit_range_error_mm": 18.349607798281873
+    },
+    {
+      "pair": "pair091",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 80.64998332879878,
+      "stereo_range_error_mm": -2.0744745789145203,
+      "fit_range_error_mm": -9.888269854415766
+    },
+    {
+      "pair": "pair092",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 106.33034524223149,
+      "stereo_range_error_mm": -15.019937238492487,
+      "fit_range_error_mm": 18.119925305861596
+    },
+    {
+      "pair": "pair092",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 76.27324452747816,
+      "stereo_range_error_mm": -20.09633041180997,
+      "fit_range_error_mm": -12.804388746615603
+    },
+    {
+      "pair": "pair093",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 219.94518313670946,
+      "stereo_range_error_mm": 15.885366413057934,
+      "fit_range_error_mm": -20.81770171870645
+    },
+    {
+      "pair": "pair093",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 176.6580315755555,
+      "stereo_range_error_mm": -81.59966442862054,
+      "fit_range_error_mm": 6.695609739222674
+    },
+    {
+      "pair": "pair094",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 196.55079246773641,
+      "stereo_range_error_mm": 73.61344766379196,
+      "fit_range_error_mm": 23.83953177626075
+    },
+    {
+      "pair": "pair094",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 159.92766501538756,
+      "stereo_range_error_mm": 15.400892002087275,
+      "fit_range_error_mm": 21.61147346465775
+    },
+    {
+      "pair": "pair095",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 251.74903388477392,
+      "stereo_range_error_mm": -45.95484953276152,
+      "fit_range_error_mm": -40.516916872986975
+    },
+    {
+      "pair": "pair095",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 80.53036167212602,
+      "stereo_range_error_mm": -14.342116851093268,
+      "fit_range_error_mm": -5.956132093373922
+    },
+    {
+      "pair": "pair096",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 305.7333528754856,
+      "stereo_range_error_mm": 12.354476761092803,
+      "fit_range_error_mm": -28.534529974323377
+    },
+    {
+      "pair": "pair096",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 433.0178443492216,
+      "stereo_range_error_mm": 148.4656424496924,
+      "fit_range_error_mm": -54.70465682016234
+    },
+    {
+      "pair": "pair097",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 250.75876987886951,
+      "stereo_range_error_mm": -18.419811871711932,
+      "fit_range_error_mm": -20.860227218514325
+    },
+    {
+      "pair": "pair097",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 322.3480757694668,
+      "stereo_range_error_mm": 16.712994579818453,
+      "fit_range_error_mm": -40.07614191653852
+    },
+    {
+      "pair": "pair098",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 243.34840466589884,
+      "stereo_range_error_mm": -50.60251541124605,
+      "fit_range_error_mm": -13.66135199046603
+    },
+    {
+      "pair": "pair098",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 265.68574394054133,
+      "stereo_range_error_mm": -23.515982116457668,
+      "fit_range_error_mm": -39.24330613200677
+    },
+    {
+      "pair": "pair099",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 141.6692619044174,
+      "stereo_range_error_mm": -74.15735043449389,
+      "fit_range_error_mm": -43.645570408586295
+    },
+    {
+      "pair": "pair099",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 276.970070668897,
+      "stereo_range_error_mm": 104.94134320789128,
+      "fit_range_error_mm": 23.9769658876382
+    },
+    {
+      "pair": "pair100",
+      "joint": "R_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 122.70979601248831,
+      "stereo_range_error_mm": -34.50116514265689,
+      "fit_range_error_mm": -22.515160484370966
+    },
+    {
+      "pair": "pair100",
+      "joint": "L_Wrist",
+      "reason": "accepted",
+      "range_sigma_mm": 266.248858674839,
+      "stereo_range_error_mm": -45.54923165667879,
+      "fit_range_error_mm": -30.936636918085124
+    }
+  ],
+  "input_sha256": {
+    "outputs/rw_frozen200_free12_20261119/budget_20000.npz": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "outputs/rw_frozen200_free12_20261119/prepared.json": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "outputs/rw_frozen200_golden_d_20261118/reference.json": "973ee19514faaa95ec895f2b550229416ddd981997ad4f20581f7817607426e2",
+    "outputs/rw_frozen200_golden_d_20261118/camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "outputs/rw_frozen200_golden_d_20261118/camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "command": "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_wrist_depth/check_depth.py"
+}
