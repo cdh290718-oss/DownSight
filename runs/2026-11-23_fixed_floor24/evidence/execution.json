@@ -1,0 +1,95 @@
+{
+  "base": "c0c225eef7d39c344a7a61fd1e87566e3fd8a47e",
+  "dirty_at_execution": true,
+  "old_floor_commit": "7aa682a50658ac1c84adc22122fc84b5cb0d86c4",
+  "source_hashes": {
+    "build_views.py": "89c562d928ebd4c4cc89f0fa10f03419f4b578bf6134d642102a370512d5d5ad",
+    "dense_plane.py": "e492962bb8d068d41d6599638afe11431ed7601e330884d6d50f6b3eaaa300ef",
+    "package.py": "e69201d39953448cefb8874bef226517c11ccd484e7fe44f0d34dc616b310da7",
+    "regions.json": "bcf4df2ea99033fac529150797d3083bf463d8b461ca304a88610e1673bd793a",
+    "regions_recheck.json": "be214fb2e3b3ecfa8344ea42212738bb0721efbac2abc0882803a8d556e140cd",
+    "run.sh": "38d7e6065f18f8dc0f0540ca67e910c86b4837fe316747ba1850a63fdfc6fde3",
+    "sample.py": "1891a02416da0b991b6f95b7951654d5b4ff658a6b4c15d557b13bcfb0c229d9"
+  },
+  "commands": [
+    {
+      "command": "python -B sample.py",
+      "exit_status": 0,
+      "note": ""
+    },
+    {
+      "command": "bash run.sh test",
+      "exit_status": 0,
+      "note": ""
+    },
+    {
+      "command": "bash run.sh validation",
+      "exit_status": 1,
+      "note": "First pass: val017 SIFT had two matches and the patch method fewer than three reciprocal points."
+    },
+    {
+      "command": "bash run.sh validation",
+      "exit_status": 0,
+      "note": "Dense fallback added; all twelve completed."
+    },
+    {
+      "command": "bash run.sh validation val017 val042 val073 val100",
+      "exit_status": 1,
+      "note": "Review of wider masks: NumPy bool in serializing the mask choice after val017; convert to native bool."
+    },
+    {
+      "command": "bash run.sh validation val134",
+      "exit_status": 0,
+      "note": "Wider visible floor polygon recheck."
+    },
+    {
+      "command": "bash run.sh validation val017 val042 val073 val100",
+      "exit_status": 0,
+      "note": "All four rechecks completed."
+    },
+    {
+      "command": "python -B package.py",
+      "exit_status": 0,
+      "note": "Decoded images; all original and archive member hashes verified."
+    }
+  ],
+  "runtime": "Existing external SMPL-X backend on one CPU thread. Per-frame pose agreement verified against archived fixed-branch MPJPE. Full-resolution originals copied byte-for-byte, preview size 436 by 436, floor renders 350 by 480.",
+  "groups": {
+    "test": {
+      "pairs": 12,
+      "passed": 9,
+      "tentative": [
+        "pair001",
+        "pair034",
+        "pair068"
+      ],
+      "changed_from_golden": [
+        "pair088"
+      ]
+    },
+    "validation": {
+      "pairs": 12,
+      "passed": 8,
+      "tentative": [
+        "val017",
+        "val042",
+        "val073",
+        "val100"
+      ],
+      "changed_from_golden": [
+        "val017",
+        "val178",
+        "val181"
+      ]
+    },
+    "offline_files": {
+      ".html": 1,
+      ".jpg": 48,
+      ".png": 48,
+      ".obj": 24
+    }
+  },
+  "publication_scope": "Current run only, JPEG derivatives and text; local PNG, OBJ, ZIP and full logs excluded. Check workspace, index, outgoing delta and remote head.",
+  "publish_parent": "0a1c771a1ae5fc7ce6ac10a460f3964cfbab557a",
+  "remote_recheck": "Initial increment audit stopped on concurrent HEAD update; verified changes only to unrelated rw_joint_ranges run and repeated on refreshed baseline."
+}

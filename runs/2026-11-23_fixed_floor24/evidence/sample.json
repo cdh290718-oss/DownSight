@@ -1,0 +1,269 @@
+{
+  "rule": "SHA-256 fixed-floor24-v1/source pair_id, first three distinct sequences per validation subject",
+  "rows": [
+    {
+      "split": "test",
+      "pair": "pair001",
+      "subject": "S1",
+      "sequence": "studio/2023_01_17/S1/seq_1-0-2",
+      "frame": 0,
+      "image_sha256": [
+        "b76e5c7170d860968f7e4de330068a70bb336cb8fee1d7934205303dba6a23ff",
+        "ff894f0f3b940081d65b810138a20f00cd3fb06b1a5dbe4682ccb0cea9b0cb1b"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair022",
+      "subject": "S1",
+      "sequence": "studio/2023_01_17/S1/seq_3-0-58",
+      "frame": 0,
+      "image_sha256": [
+        "2e9139454b938e6cc21c32248beb22f4d65b8fe555747448989f08f8728bd2ac",
+        "c6b09ba986324fcf501091ccebb20f60661dd4228096958382dcfab2c508eda5"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair028",
+      "subject": "S1",
+      "sequence": "studio/2023_01_17/S1/seq_3-1-36",
+      "frame": 0,
+      "image_sha256": [
+        "dfe4fe9b3402c25deaa442d3cba348480519ebcfa5f4cd3238333ccc7f6c41d9",
+        "d096b8fce137e8920c6c4cd96d8caaff036f13f735cb7cc61b1c545d0eaf8b7a"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair034",
+      "subject": "S1",
+      "sequence": "studio/2023_01_17/S1/seq_3-1-78",
+      "frame": 0,
+      "image_sha256": [
+        "e481f7c9364ad044cb59a090aea397d280dfce58f5350c731637bfe1449f7f4a",
+        "f58be139565910e514674810cbd4d1b06db88ea66fe75a3059c0acb712339ae6"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair045",
+      "subject": "S9",
+      "sequence": "studio/2023_08_23/S9/seq_1-0-8",
+      "frame": 20,
+      "image_sha256": [
+        "5b72bf9f3328979759514c3608b0dbaf7a69a9cea22e42c52b423d0e61238a22",
+        "73fcfa2fc888df5ea6db0ffccf89a97edae91d5b931858e8f48d4d72cbd78366"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair055",
+      "subject": "S9",
+      "sequence": "studio/2023_08_23/S9/seq_1-1-17",
+      "frame": 20,
+      "image_sha256": [
+        "32555be5fc0533426d376d6e6a56a57330f20fdf76d068c8e5b493fd0739621a",
+        "9852acda17c82809eea1363332b104b841f5f74f12e5da4ae100c6497bf6f76e"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair036",
+      "subject": "S9",
+      "sequence": "studio/2023_08_23/S9/seq_1-0-1",
+      "frame": 760,
+      "image_sha256": [
+        "5d9c49e65e59710f94ee7b0f655f1cceba8487e05b9be06cb698e9df24953d6c",
+        "6cc0b524294bd053791a7fab31bee314c412cefef3967f0230a6f9ff8f54b0a2"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair037",
+      "subject": "S9",
+      "sequence": "studio/2023_08_23/S9/seq_1-0-11",
+      "frame": 0,
+      "image_sha256": [
+        "442f7c10b563697d5d38b1674cb0d0b6df7c6fbb80af6e8578c441efb1a744ad",
+        "852d3b685d618bb5fb695fe6c72088e108ff02eec6d21a479b3d6209d8e9c746"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair078",
+      "subject": "S11",
+      "sequence": "studio/2023_08_25/S11/seq_1-0-30",
+      "frame": 0,
+      "image_sha256": [
+        "43955ab392ef2e81f49c38bae7ce5d50b93cd5065714c8ecea7eaf8bbd5309e4",
+        "b0a60176f158795019dbb9443d735a856148e424116cc4ed11d75bf0569670f2"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair068",
+      "subject": "S11",
+      "sequence": "studio/2023_08_25/S11/seq_1-0-0",
+      "frame": 0,
+      "image_sha256": [
+        "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+        "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair094",
+      "subject": "S11",
+      "sequence": "studio/2023_08_25/S11/seq_1-1-18",
+      "frame": 0,
+      "image_sha256": [
+        "264f2ecc6459a059d752d551f1b3053c331f36262d19a6c6b127efb80e69baf8",
+        "40e98291e1f2131a2f8511c49872acd14f68a9c5292fe0345d57f9980b608ca6"
+      ]
+    },
+    {
+      "split": "test",
+      "pair": "pair088",
+      "subject": "S11",
+      "sequence": "studio/2023_08_25/S11/seq_1-1-13",
+      "frame": 110,
+      "image_sha256": [
+        "3c5e1198d287f2d5239eaf8e5e8ad48e91815be85618648a2556db035e7d1741",
+        "f110644da8704ca8df07614bf00ca360515eec867e62f0761211353eb4ef6f72"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val017",
+      "subject": "S3",
+      "sequence": "studio/2023_01_18/S3/seq_2-19-12",
+      "frame": 0,
+      "image_sha256": [
+        "32ff35ab75242b98dab28eb2873a816e8ea85cbfb3f5b25e0c1d0a91231f3fbf",
+        "5eea0421016c33a95ff9b4a78b8dcf7df6ae03dfc76af0eca75ade537c741eea"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val031",
+      "subject": "S3",
+      "sequence": "studio/2023_01_18/S3/seq_3-0-10",
+      "frame": 260,
+      "image_sha256": [
+        "618843d13d6ccc61d26730ed9b6c1975c11797f6a8a8c0ba06f3d02f2d757d70",
+        "4b95ad535cd8181c02f13a303e7c463c6d3b567c69bff2f9f2d737e1c91f9cf3"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val042",
+      "subject": "S3",
+      "sequence": "studio/2023_01_18/S3/seq_3-15-3",
+      "frame": 0,
+      "image_sha256": [
+        "d7117306bb4851397b808222d1c5ebb3e4a5b862d15b47e46ee09e57e379a3e8",
+        "2d5c7f312a1d8a4c93d630b547097c998c0322dd52be5f661424931f85f37623"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val055",
+      "subject": "S5",
+      "sequence": "studio/2023_01_19/S5/seq_3-0-5",
+      "frame": 0,
+      "image_sha256": [
+        "2b9c3f7a23436209dd844e8f2185c9c32c0dd045907b29829d422528a0809ede",
+        "ec2d2913140a038da6778c786b9258b501ef38b27281669a84525ed3ae5517fc"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val073",
+      "subject": "S5",
+      "sequence": "studio/2023_01_19/S5/seq_3-8-22",
+      "frame": 0,
+      "image_sha256": [
+        "1985f01f8da546a32d8ba4085266fa083aa618bc4e82d2c8532badc1556d7370",
+        "fea76ada619886a283f7234fac320b2b0d68aff66600ffe78c03dca165031bcf"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val100",
+      "subject": "S5",
+      "sequence": "studio/2023_01_19/S5/seq_4-7-5",
+      "frame": 0,
+      "image_sha256": [
+        "c135b71fd9f130a4a7d882cf654846e0c23e192944dcb03ba565575f8ae1b113",
+        "776878e5030c58a6558a5e8462801815dbbe8f78b776d285995fee7f69cb87af"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val102",
+      "subject": "S13",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-16",
+      "frame": 180,
+      "image_sha256": [
+        "82c8de3ed4e6219897d77e31da9003f5ce159eebb7618683255c27275ad220bd",
+        "36975b789346af65bb27b3fb960f4c6d305748b3c234055a84db6407eea89f23"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val122",
+      "subject": "S13",
+      "sequence": "studio/2023_08_25/S13/seq_1-0-26",
+      "frame": 0,
+      "image_sha256": [
+        "6596394251c73550b94d0b7d8ee305236a9a8c57b166e8e616fa9a6e298d0027",
+        "290aa49f23b0246fdbb18da786c8bba47c7473d7028a14f523fd72b77201e8ad"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val134",
+      "subject": "S13",
+      "sequence": "studio/2023_08_25/S13/seq_1-1-2",
+      "frame": 0,
+      "image_sha256": [
+        "e2e41c6591fc9cea8a276890e150e5d56c8951353bf18d84736e9cde834defe6",
+        "a5dd37cbdb8134e2aebf39aa6d52f5c656217868a89b99cba584c7086087ce8b"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val168",
+      "subject": "S15",
+      "sequence": "studio/2023_08_25/S15/seq_1-0-8",
+      "frame": 480,
+      "image_sha256": [
+        "6df059c694d3a39f1e5e071b9d3ef95b9d0a328395ac28919a038afb9d04aa72",
+        "d9b8aeb3ad5c80ed25648be56a4299c76df588b9c252b961ec00f7e003a97e06"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val178",
+      "subject": "S15",
+      "sequence": "studio/2023_08_25/S15/seq_1-1-2",
+      "frame": 440,
+      "image_sha256": [
+        "121709dcf07da590f06d4cdfc97abd6b2a1cf346150bd5fc35bf0c88d2697322",
+        "589da362240e3b5975f3188585801bf9610c77661ff72f9c43b236b2aba37b6c"
+      ]
+    },
+    {
+      "split": "validation",
+      "pair": "val181",
+      "subject": "S15",
+      "sequence": "studio/2023_08_25/S15/seq_1-1-3",
+      "frame": 270,
+      "image_sha256": [
+        "556db1c06d0d3bf15faeec25f07021ac321d788c8efb3b3317a29308043f5b6b",
+        "8233bf018ae4b20180c154ec9a98b6db714840b43dec009d389f86ebb3518dc1"
+      ]
+    }
+  ]
+}
