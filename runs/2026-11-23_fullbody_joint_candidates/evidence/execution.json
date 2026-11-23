@@ -1,0 +1,89 @@
+{
+  "base": "aa0c1bc0e8cc4d1c0c50a5e41d09d08aa4e2d450",
+  "dirty_at_execution": true,
+  "new_code_sha256": {
+    "ablation.py": "d036908ae0d9799d3b30c9e7b4e2517fe54eccd0ad0d840fa4f057f7e0a8d8a6",
+    "score.py": "5c6e57928c8b895a9b4ba3b51e71f2b67712ff600098003d646d7a74b111db1c",
+    "search.py": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "verify.py": "b4d733137a1ae42ebc33f8107a864c000fca04baf420581b78b1ee2eca308869",
+    "run.sh": "a4cd166bddf02d6297a5b59dcae149569549a58b20f64bf36e6cbc8ca5eb5a41"
+  },
+  "commands": [
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh search test",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh search validation",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh score test",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh score validation",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh ablation isolate-test",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh ablation score-test",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh ablation isolate-validation",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_fullbody_joint_candidates/run.sh ablation score-validation",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-23_fullbody_joint_candidates/verify.py",
+      "exit_status": 0
+    }
+  ],
+  "settings": {
+    "adam_steps_reused": 20000,
+    "metric_huber_delta": 2.5,
+    "sigma_px": 8,
+    "root_or_spine3_single_axis_deg": [
+      -4,
+      4
+    ],
+    "depth_mm": [
+      -240,
+      -120,
+      -60,
+      -20,
+      0,
+      20,
+      60,
+      120,
+      240
+    ],
+    "swivel_deg": [
+      -90,
+      -30,
+      0,
+      30,
+      90,
+      180
+    ],
+    "meaningful_chain_deg": 0.1,
+    "mpjpe_tie_mm": 0.01,
+    "lower_loss_threshold": 1e-08
+  },
+  "resources": {
+    "derived_poses": "outputs/fullbody_joint_candidates_20261123/{test,validation}_bank.npz",
+    "wrist_inputs": "outputs/stereo_wrist_candidates_20261123/{test,validation}_objective.npz",
+    "test_fit": "outputs/rw_frozen200_free12_20261119",
+    "validation_fit": "outputs/stereo_wrist_candidates_20261123/validation_fit",
+    "access": "Development environment and licensed external SMPL-X assets; upstream model and fit provenance per linked reports."
+  },
+  "publication_scope": "runs/2026-11-23_fullbody_joint_candidates",
+  "unrelated_changes_excluded": true
+}
