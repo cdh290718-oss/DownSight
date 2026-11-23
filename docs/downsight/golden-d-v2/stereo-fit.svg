@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="868" viewBox="0 0 1280 868" role="img" aria-labelledby="title desc">
+<title id="title">黄金 D v2 双目联合优化</title>
+<desc id="desc">从双肩双髋和 Head 初始化人体，经左右鱼眼投影计算重投影误差，再由 Adam 更新共享的人体参数。</desc>
+<defs><marker id="arrow" viewBox="0 0 7 10" refX="6" refY="5" markerWidth="7" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M2 1 L6 5 L2 9" fill="none" stroke="#626262" stroke-width="1.35"/></marker></defs>
+<rect width="1280" height="868" fill="white"/>
+<g fill="none" stroke="#626262" stroke-width="1.4" stroke-linejoin="round" marker-end="url(#arrow)">
+<path id="A-B" d="M201 276 V346"/>
+<path id="A-E" d="M312 276 V319 Q312 327 320 327 H753 Q761 327 761 335 V345"/>
+<path id="B-C" d="M201 433 V454 Q201 462 209 462 H374 Q382 462 382 470 V503"/>
+<path id="H-C" d="M484 437 V503"/>
+<path id="H-O" d="M554 437 V480 Q554 488 562 488 H973 Q981 488 981 496 V505"/>
+<path id="C-P" d="M433 598 V766"/>
+<path id="P-J" d="M348 776 V759 Q348 751 340 751 H20 Q12 751 12 743 V149 Q12 141 20 141 H787 Q795 141 795 133 V123"/>
+<path id="J-L" d="M864 115 V158 Q864 166 856 166 H627 Q619 166 619 174 V186"/>
+<path id="J-R" d="M932 115 V182"/>
+<path id="J-O" d="M1000 115 V133 Q1000 141 1008 141 H1120 Q1128 141 1128 149 V503"/>
+<path id="L-E" d="M619 272 V294 Q619 302 627 302 H839 Q847 302 847 310 V342"/>
+<path id="R-E" d="M932 276 V342"/>
+<path id="E-O" d="M847 437 V454 Q847 462 855 462 H1047 Q1055 462 1055 470 V503"/>
+<path id="O-U" d="M1055 598 V639"/>
+<path id="U-P" d="M1003 726 V743 Q1003 751 995 751 H526 Q518 751 518 759 V768"/>
+<path id="U-S" d="M1106 726 V766"/>
+</g>
+<g font-family="DejaVu Sans, Droid Sans Fallback, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">
+<g id="J"><rect x="727" y="11" width="342" height="104" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="898" y="48.8" fill="#269bff">SMPL-X</text>
+<text x="898" y="68.8" fill="#269bff">正向运动学：左相机坐标中的三</text>
+<text x="898" y="88.8" fill="#269bff">维关节</text>
+</g>
+<g id="A"><rect x="89" y="200" width="335" height="76" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="256.5" y="243.8" fill="#269bff">左右图各自检测 12 个身体关节</text>
+</g>
+<g id="L"><rect x="528" y="196" width="182" height="76" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="619" y="239.8" fill="#269bff">左鱼眼投影</text>
+</g>
+<g id="R"><rect x="761" y="192" width="342" height="84" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="932" y="229.8" fill="#269bff">用固定外参变到右相机，再做右</text>
+<text x="932" y="249.8" fill="#269bff">鱼眼投影</text>
+</g>
+<g id="B"><rect x="39" y="357" width="324" height="76" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="201" y="400.8" fill="#269bff">用双肩、双髋估计初始根朝向</text>
+</g>
+<g id="H"><rect x="414" y="361" width="211" height="76" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="519.5" y="404.8" fill="#269bff">Head 三维位置</text>
+</g>
+<g id="E"><rect x="676" y="352" width="341" height="85" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="846.5" y="390.3" fill="#269bff">分别对照各眼检测点，合并有效</text>
+<text x="846.5" y="410.3" fill="#269bff">重投影误差</text>
+</g>
+<g id="C"><rect x="280" y="513" width="306" height="85" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="433" y="551.3" fill="#269bff">初始平移：让模板头部对齐</text>
+<text x="433" y="571.3" fill="#269bff">Head</text>
+</g>
+<g id="O"><rect x="907" y="513" width="295" height="85" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="1054.5" y="551.3" fill="#269bff">总损失：二维误差、Head</text>
+<text x="1054.5" y="571.3" fill="#269bff">位置、姿态先验、正深度</text>
+</g>
+<g id="U"><rect x="901" y="649" width="307" height="77" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="1054.5" y="693.3" fill="#269bff">Adam 更新同一套人体参数</text>
+</g>
+<g id="P"><rect x="262" y="776" width="342" height="85" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="433" y="814.3" fill="#269bff">一套人体参数：身体局部旋转、</text>
+<text x="433" y="834.3" fill="#269bff">根旋转、根平移</text>
+</g>
+<g id="S"><rect x="934" y="776" width="343" height="85" rx="21" fill="#e5f2ff" stroke="#d8dfe5" stroke-width="1.5"/>
+<text x="1105.5" y="814.3" fill="#269bff">保留损失最低的可行检查点，生</text>
+<text x="1105.5" y="834.3" fill="#269bff">成三维关节和网格</text>
+</g>
+</g>
+</svg>

@@ -10,20 +10,7 @@ DownSight 探索从头戴下视双目图像恢复人体姿态与体型。
 
 [双目联合优化图解：从一个腕点看懂两眼如何共同拟合人体](docs/downsight/golden-d-v2/README.md)
 
-```mermaid
-flowchart TD
-    D["RW20000 左右目身体 12 点"] --> I["双肩与双髋初始化根朝向"]
-    H["Head 三维位置"] --> I
-    I --> P["更新根旋转、平移和身体关节角"]
-    P --> J["共享的 SMPL-X 三维关节"]
-    J --> V["分别投影至左右鱼眼图像"]
-    C["相机内参、畸变和双目外参"] --> V
-    V --> L["分组 Huber 重投影、Head 位置、姿态先验及正深度约束"]
-    D --> L
-    H --> L
-    L --> P
-    P --> S["选取训练损失最低的可行检查点，输出关节及网格"]
-```
+[![黄金 D v2 双目联合优化流程图：肩髋初始化、左右鱼眼投影与 Adam 更新](docs/downsight/golden-d-v2/stereo-fit.png)](docs/downsight/golden-d-v2/stereo-fit.png)
 
 参考实验固定均值体型及手指局部姿态，采用标注辅助的 Head 位置、外参和画内掩码。地面参考仅用于展示。[单帧正侧视图](runs/2026-11-20_rw20000_floor12/report.md) · [原 EgoSMPLX 部署入口](README_LEGACY.md)
 
