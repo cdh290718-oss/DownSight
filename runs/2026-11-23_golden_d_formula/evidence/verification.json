@@ -1,0 +1,7 @@
+{
+  "base": "7e11bfd8d24ad0ad799b7aaa1ac69fc8d277d214",
+  "command": "python3 - <<'PY'\nfrom pathlib import Path\nfrom markdown_it import MarkdownIt\nimport hashlib,json\ndoc=Path('docs/downsight/golden-d-v2/README.md').read_text()\ncfg=json.loads(Path('configs/golden_d.current.json').read_text())\nassert all(hashlib.sha256(Path(f['path']).read_bytes()).hexdigest()==f['sha256'] for f in cfg['locked_files'])\ns=json.loads(Path(cfg['protocol']).read_text())\nassert (s['sigma_px_fixed'],s['metric_huber_delta'],s['head_rotation_weight'])==(8.,2.5,0.)\nblock=doc.split('记横、纵方向的像素差为 Δx 和 Δy。')[1].split('Huber 在小误差区')[0]\nhtml=MarkdownIt().render(block)\nassert '√(Δx² + Δy²) / (8 × √2)' in html and 'Huber(d)，阈值 δ = 2.5' in html and 'operatorname' not in doc\nprint(html)\nPY",
+  "exit_status": 0,
+  "output": "<blockquote>\n<p><strong>归一化距离</strong>　d = √(Δx² + Δy²) / (8 × √2)</p>\n<p><strong>单眼代价</strong>　Huber(d)，阈值 δ = 2.5。</p>\n</blockquote>\n\n",
+  "preview_attempt": "POST https://api.github.com/markdown — HTTP 403 rate limit exceeded; exit status 1. Used local Markdown preview before publication."
+}
