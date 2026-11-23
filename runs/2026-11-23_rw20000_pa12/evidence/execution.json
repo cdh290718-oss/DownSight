@@ -1,0 +1,11 @@
+{
+  "command": "<BODY_PYTHON> -Bu runs/2026-11-23_rw20000_pa12/evaluate_pa.py",
+  "exit_status": 0,
+  "device": "cpu",
+  "baseline": "a24b0909f8d809e4f8db1f79b612cffe5ddb10e3",
+  "cross_checks": [
+    "framewise raw and PA MPJPE vs archived values",
+    "per-joint raw RMSE vs archived values",
+    "archived input hashes"
+  ]
+}

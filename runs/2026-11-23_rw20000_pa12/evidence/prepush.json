@@ -1,0 +1,27 @@
+{
+  "baseline": "a24b0909f8d809e4f8db1f79b612cffe5ddb10e3",
+  "remote_before_commit": "a24b0909f8d809e4f8db1f79b612cffe5ddb10e3",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "None. Text only.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-23_rw20000_pa12/brief.md": "21dd09e99506e4293102c7c264cb6f3b8347b26d39e5d01077c396278c762fc4",
+    "runs/2026-11-23_rw20000_pa12/evaluate_pa.py": "6efff72dcd1ab5e55293d11173621e1fd3840236f74dab360d32117093b05939",
+    "runs/2026-11-23_rw20000_pa12/evidence/execution.json": "9da270d33a4c41dd6cf65b2fc056d858f681e8c58b82f37b516ece21a147fad3",
+    "runs/2026-11-23_rw20000_pa12/evidence/results.json": "327cf3129960f65e62cd72db427273e6de456be33314e0189dbb1aae8bfaba8c",
+    "runs/2026-11-23_rw20000_pa12/report.md": "4088876fb12f7fb03355a75d142a957f6224ab3406a9f432bb512caae53d769f",
+    "runs/2026-11-23_rw20000_pa12/review.md": "7c52574851426b8bf1ee8ac4bc805fbd014c1743b03a31da73a38a295af61559"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
