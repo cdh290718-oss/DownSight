@@ -1,0 +1,43 @@
+{
+  "start_commit": "6ab1671d99c7ecac157e267478c4bc49c94d2ece",
+  "dirty_at_start": true,
+  "publication_parent": "6ab1671d99c7ecac157e267478c4bc49c94d2ece",
+  "commands": [
+    {
+      "command": "python -B -u runs/2026-11-23_test500_joint/sample.py",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_test500_joint/run.sh detect",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-23_test500_joint/paired.sh",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-23_test500_joint/verify.py",
+      "exit_status": 0
+    }
+  ],
+  "dispatch": "8 independent CPU shards, 1 thread per shard; one GPU for RW20000 inference.",
+  "input_assets": [
+    "Official local multipart UnrealEgo-RW test RGB studio tar archive (original prefix and archived completion parts)",
+    "UnrealEgo_RW_Test/prepared/samples.npz",
+    "Archived per-session rig and two fisheye camera files",
+    "SMPL-X neutral model in existing body environment",
+    "RW20000 detector weights as hashed in detection.json"
+  ],
+  "source_hashes": {
+    "body.py": "5bc8910c377720892560faa1e6b24f701b1640f2b8cd3bbff66cbdea0ceda052",
+    "detect.py": "26841f039d168cbb790cadc88f74b44877a718e5fdb574c9652a92f2fc3f592a",
+    "paired.sh": "be641b7a38373b0b03fbbac2f55f0f27a2d3e5239c27500a8b4762180169d686",
+    "paths.py": "5892ccbcc4a656e85cef29b16f0159f4f059aea78acd44652759ce0c820346e0",
+    "run.sh": "655ed28ad4546676922ebcf72e643f50c3d1713fc15f026dfba763deb4478bc0",
+    "sample.py": "df663698daa9ef3b9d42346503c70cf5b03a3a6a0dc2030d0ba18c40184d10aa",
+    "score.py": "eb7a879abf809acb8679d535144c4d1f45835ca79d0cfc806bea9e8d59b0c24a",
+    "verify.py": "5157ff780d2e9db6249ccc7516f970d7d8622e4da77f18adfae37ab65e37d40e"
+  },
+  "adam_steps_per_pair": 20000,
+  "all_500_pairs_feasible": true
+}

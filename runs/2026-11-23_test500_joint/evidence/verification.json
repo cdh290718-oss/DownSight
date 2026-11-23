@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "source_pairs": 500,
+  "subjects": [
+    "S1",
+    "S11",
+    "S9"
+  ],
+  "sequences": 93,
+  "same_sequence_min_frame_gap": 10,
+  "prior_test_same_sequence_min_frame_gap": 10,
+  "previous_test_pair_overlap": 0,
+  "previous_validation_pair_overlap": 0,
+  "detector_training_subject_overlap": [],
+  "per_frame_means_verified": true,
+  "results_sha256": "076b5df8e15234c303fa072a1576770c6d9b28b377590752af15aecc3531d360",
+  "samples_sha256": "55514f32b4dc0a090b32fb6ecaeb47b926a0ee9e44732f62d01f3717eaf57550"
+}
