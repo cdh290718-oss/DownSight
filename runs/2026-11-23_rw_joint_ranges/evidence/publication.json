@@ -1,0 +1,16 @@
+{
+  "scope": "runs/2026-11-23_rw_joint_ranges",
+  "baseline_observed_before_commit": "c0c225eef7d39c344a7a61fd1e87566e3fd8a47e",
+  "scope_file_count_with_receipt": 19,
+  "sources_and_prepared_hashes_recorded": true,
+  "worktree_reviewed": true,
+  "unrelated_modified_and_untracked_files_excluded": true,
+  "checks": [
+    "Expected paths only in index and outgoing commit",
+    "Readable UTF-8 source, report and summary JSON only",
+    "Each file below 50 MB",
+    "No weights, arrays, images, video or raw output",
+    "No machine paths, credentials, environment files, full provenance or patch"
+  ],
+  "verification": "Recheck staged blobs, committed blobs, outgoing paths and live main SHA before non-force push."
+}

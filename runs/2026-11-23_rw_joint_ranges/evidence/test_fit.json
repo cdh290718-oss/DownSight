@@ -1,0 +1,19 @@
+{
+  "command": "bash run.sh fit_prior test",
+  "exit_status": 0,
+  "elapsed_seconds": 277.65904569625854,
+  "steps": 20000,
+  "source_input_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+  "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "prior_sha256": "ee22388674b6ff2d54204288532084f6bd775064a00fed267a27dfc92b39c618",
+  "camera_sha256": [
+    "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  ],
+  "selected_fit_sha256": "1d5b7186e1d1172d6b716cb21b7789806bd884fc631dbb4ac69a76204e5c493c",
+  "pair_count": 100,
+  "conditions": [
+    "baseline",
+    "rw_prior"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "command": "bash run.sh verify_fit",
+  "exit_status": 0,
+  "source_sha256": {
+    "angles.py": "659fa9a83ddc00d24e537799670e88ceb70e4f0342da21361ed7c4e68f45e279",
+    "fit_prior.py": "2ceea000800daa635567e9def61a2fd2c2dece96a1f01118fd96fc51bdd5eb28",
+    "run.sh": "472cf4efa9a36901e20e19024ef9c8e3bf9b414a0356c0b4f7e47ff93bd9e94b",
+    "score.py": "7321514fa50eb35ab2269f16e2c62a007c5943961cdc8a3030553121d05471f2",
+    "survey.py": "9798583250018c170916ef3178228c0c627f6af10b9f9f362b50aead80b95dc0",
+    "verify_fit.py": "c7110f92adc3490c352823c949369927f76ae9575b498b739436075f3d775d5f",
+    "verify_survey.py": "7c3e766dda831fbd4ba13e339969d87687227c8827d5dfc918c2f516cf9f5208"
+  },
+  "results": {
+    "validation": {
+      "archived_control_mean_differences": {
+        "mpjpe_mm": 0.0,
+        "rmse_mm": 0.0,
+        "pa_mm": 0.0,
+        "px_rmse": 0.0
+      },
+      "maximum_paired_control_drift_mm": 0.0,
+      "per_joint_mpjpe_mm": {
+        "baseline": {
+          "R_Shoulder": 46.35427768865398,
+          "R_Elbow": 38.72842812460132,
+          "R_Wrist": 56.76462543610257,
+          "L_Shoulder": 36.913168209311564,
+          "L_Elbow": 37.24139100414625,
+          "L_Wrist": 66.54860235383472,
+          "R_Hip": 70.86131048504497,
+          "R_Knee": 91.166860105666,
+          "R_Ankle": 97.98616918085146,
+          "L_Hip": 67.13496062462879,
+          "L_Knee": 79.47018019915089,
+          "L_Ankle": 90.48751222842012
+        },
+        "rw_prior": {
+          "R_Shoulder": 46.35331443850175,
+          "R_Elbow": 38.72735569840091,
+          "R_Wrist": 56.76601971596287,
+          "L_Shoulder": 36.91497734074028,
+          "L_Elbow": 37.24345951401427,
+          "L_Wrist": 66.54889637188076,
+          "R_Hip": 70.8789496402236,
+          "R_Knee": 91.09027589742487,
+          "R_Ankle": 97.92152623982791,
+          "L_Hip": 67.1804144399609,
+          "L_Knee": 79.51084622892039,
+          "L_Ankle": 90.49644073937614
+        }
+      }
+    },
+    "test": {
+      "archived_control_mean_differences": {
+        "mpjpe_mm": 0.0,
+        "rmse_mm": 0.0,
+        "pa_mm": 0.0,
+        "px_rmse": 0.0
+      },
+      "maximum_paired_control_drift_mm": 0.0,
+      "per_joint_mpjpe_mm": {
+        "baseline": {
+          "R_Shoulder": 49.67214506160114,
+          "R_Elbow": 33.69320111094363,
+          "R_Wrist": 62.37048558081315,
+          "L_Shoulder": 37.87763819335388,
+          "L_Elbow": 37.85194832036725,
+          "L_Wrist": 68.73719152673179,
+          "R_Hip": 65.68519827618817,
+          "R_Knee": 79.4211528192201,
+          "R_Ankle": 85.02140018953918,
+          "L_Hip": 67.19981903947023,
+          "L_Knee": 66.45718009463515,
+          "L_Ankle": 80.75224156335393
+        },
+        "rw_prior": {
+          "R_Shoulder": 49.67151542857174,
+          "R_Elbow": 33.69308482523356,
+          "R_Wrist": 62.36980502062538,
+          "L_Shoulder": 37.87887032036936,
+          "L_Elbow": 37.851585021622924,
+          "L_Wrist": 68.73730143043203,
+          "R_Hip": 65.70552114304475,
+          "R_Knee": 79.43386898058702,
+          "R_Ankle": 85.0274507232752,
+          "L_Hip": 67.20962490951636,
+          "L_Knee": 66.4881934336015,
+          "L_Ankle": 80.75273416683915
+        }
+      }
+    }
+  }
+}

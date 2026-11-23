@@ -1,0 +1,73 @@
+{
+  "command": "bash run.sh verify_survey",
+  "exit_status": 0,
+  "baseline": "c0c225eef7d39c344a7a61fd1e87566e3fd8a47e",
+  "dirty_worktree_at_execution": true,
+  "sources": {
+    "Train": {
+      "raw_pose_dir_available": false,
+      "labels15_equal_corresponding_labels16": true,
+      "raw_to_m": 0.01,
+      "official_joint_names": [
+        "Head",
+        "Neck",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase"
+      ]
+    },
+    "Test": {
+      "raw_pose_dir_available": false,
+      "labels15_equal_corresponding_labels16": true,
+      "raw_to_m": 0.01,
+      "official_joint_names": [
+        "Head",
+        "Neck",
+        "RightArm",
+        "RightForeArm",
+        "RightHand",
+        "LeftArm",
+        "LeftForeArm",
+        "LeftHand",
+        "RightUpLeg",
+        "RightLeg",
+        "RightFoot",
+        "RightToeBase",
+        "LeftUpLeg",
+        "LeftLeg",
+        "LeftFoot",
+        "LeftToeBase"
+      ]
+    }
+  },
+  "checked_angle_percentiles": [
+    0,
+    0.5,
+    1,
+    5,
+    50,
+    95,
+    99,
+    99.5,
+    100
+  ],
+  "max_percentile_difference_deg": 4.985217100239581e-12,
+  "external_sha256": {
+    "json_preparation": "baf6bc0ccd224a8e3b31107fe727486f01cb001ec6a95696e6d0b430afeab10a",
+    "model_setup": "a82f92f9980b7e58c05e176aedd0dfed812f0a463a7dbf627b722dce1169b145",
+    "neutral_smplx": "376021446ddc86e99acacd795182bbef903e61d33b76b9d8b359c2b0865bd992"
+  },
+  "official_source_url": "https://unrealego.mpi-inf.mpg.de/",
+  "source": "Prepared official per-view 3D annotations. Original JSON roots unavailable at recorded locations."
+}
