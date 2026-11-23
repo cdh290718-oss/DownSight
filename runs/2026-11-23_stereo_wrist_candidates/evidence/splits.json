@@ -1,0 +1,56 @@
+{
+  "base": "4461ff0c066c242f8de21b0b1130f3c25916a554",
+  "train": [
+    "S10",
+    "S12",
+    "S14",
+    "S16",
+    "S2",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "validation": {
+    "S3": 50,
+    "S5": 50,
+    "S13": 50,
+    "S15": 50
+  },
+  "test": [
+    "S1",
+    "S11",
+    "S9"
+  ],
+  "calibrations": [
+    {
+      "subject": "S3",
+      "excluded_frame": true,
+      "excluded_sequence": false
+    },
+    {
+      "subject": "S5",
+      "excluded_frame": true,
+      "excluded_sequence": true
+    },
+    {
+      "subject": "S13",
+      "excluded_frame": true,
+      "excluded_sequence": false
+    },
+    {
+      "subject": "S15",
+      "excluded_frame": true,
+      "excluded_sequence": false
+    }
+  ],
+  "fallback_initializations": 0,
+  "hashes": {
+    "validation_manifest": "1a7b0dc948408240aadb3aad0b696d997b7d578a6fa22d2281985667b79a3aa1",
+    "predictions": "014c5c6416ac4caa41e7c5c34177f97078711512710fae38a6c2bf7311e63365",
+    "validation_source": "9f2a17379bfbd9a306f6fddc0b3de0956eab2bd2006b0f5f1a3e0f4d18cf1d6d",
+    "validation_prepared": "2c898e7e304085abc70a274fbd92e3f5294a91d3ea90e427ea1ba3852d69ee53",
+    "test_manifest": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1",
+    "protocol": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+  }
+}

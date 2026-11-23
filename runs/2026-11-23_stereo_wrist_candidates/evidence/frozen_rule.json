@@ -1,0 +1,307 @@
+{
+  "rule": [
+    0.03,
+    50,
+    0.03
+  ],
+  "active": false,
+  "grid": [
+    {
+      "rule": [
+        0.03,
+        0,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 135,
+        "wrist_rmse": 131.134458994729,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 7.637244086721261,
+        "other10_change_mm": 3.329788995202745
+      }
+    },
+    {
+      "rule": [
+        0.03,
+        0,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 107,
+        "wrist_rmse": 124.34110737567019,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.641270145047816,
+        "other10_change_mm": 2.509343725282859
+      }
+    },
+    {
+      "rule": [
+        0.03,
+        10,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 129,
+        "wrist_rmse": 122.53423812195157,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 6.109012868702788,
+        "other10_change_mm": 2.5850347935086146
+      }
+    },
+    {
+      "rule": [
+        0.03,
+        10,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 108,
+        "wrist_rmse": 120.87982007463368,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.300651946692905,
+        "other10_change_mm": 2.297334719577493
+      }
+    },
+    {
+      "rule": [
+        0.03,
+        50,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 115,
+        "wrist_rmse": 112.53486757466955,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 3.0581146641443335,
+        "other10_change_mm": 0.95405141892813
+      }
+    },
+    {
+      "rule": [
+        0.03,
+        50,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 100,
+        "wrist_rmse": 111.39264311974664,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 2.665391477227227,
+        "other10_change_mm": 0.832180038844807
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        0,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 106,
+        "wrist_rmse": 130.44280429045966,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 7.130212934311374,
+        "other10_change_mm": 3.0277933075261365
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        0,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 84,
+        "wrist_rmse": 124.10960647027169,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.321240717659296,
+        "other10_change_mm": 2.290712133548255
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        10,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 105,
+        "wrist_rmse": 122.72395645684071,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.939697571637751,
+        "other10_change_mm": 2.453502772578132
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        10,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 86,
+        "wrist_rmse": 121.30727505098527,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.206756891529717,
+        "other10_change_mm": 2.1566438839291253
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        50,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 85,
+        "wrist_rmse": 113.00912707672502,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 3.090902065074562,
+        "other10_change_mm": 0.8786317649584159
+      }
+    },
+    {
+      "rule": [
+        0.1,
+        50,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 76,
+        "wrist_rmse": 111.49162232639712,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 2.5951876692187876,
+        "other10_change_mm": 0.7508953393754678
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        0,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 82,
+        "wrist_rmse": 133.44102327625728,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 6.758070127523335,
+        "other10_change_mm": 2.7814577228262776
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        0,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 65,
+        "wrist_rmse": 128.0419126275023,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.242015353689505,
+        "other10_change_mm": 2.2053001769997858
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        10,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 78,
+        "wrist_rmse": 123.40991572763714,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 5.148087566768129,
+        "other10_change_mm": 1.9930066498060424
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        10,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 64,
+        "wrist_rmse": 122.32767893887372,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 4.5325098088822235,
+        "other10_change_mm": 1.752691874036484
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        50,
+        0
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 54,
+        "wrist_rmse": 116.34430026828998,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 2.62866322643574,
+        "other10_change_mm": 0.7037775265193431
+      }
+    },
+    {
+      "rule": [
+        0.2,
+        50,
+        0.03
+      ],
+      "tune": {
+        "wrists": 200,
+        "changed": 48,
+        "wrist_rmse": 115.5591308944326,
+        "baseline_wrist_rmse": 106.28514058889394,
+        "mpjpe_change_mm": 2.2668308370081043,
+        "other10_change_mm": 0.5585697331302122
+      }
+    }
+  ],
+  "tuning": {
+    "wrists": 200,
+    "changed": 100,
+    "wrist_rmse": 111.39264311974664,
+    "baseline_wrist_rmse": 106.28514058889394,
+    "mpjpe_change_mm": 2.665391477227227,
+    "other10_change_mm": 0.832180038844807
+  },
+  "confirmation": {
+    "wrists": 200,
+    "changed": 104,
+    "wrist_rmse": 91.97418706663494,
+    "baseline_wrist_rmse": 105.9600666640328,
+    "mpjpe_change_mm": -0.767252727492993,
+    "other10_change_mm": 0.7437909196270753
+  },
+  "tuning_subjects": [
+    "S3",
+    "S5"
+  ],
+  "confirmation_subjects": [
+    "S13",
+    "S15"
+  ],
+  "candidates_sha256": "afabd6f3d8b58e83092fdf64cd0faf0ba1c88b31c988586f72f0bb0bab7262ad",
+  "selector_sha256": "2c924e51e47185d882049f4ceb08f5c6213850c1c1d13572d0f322a88321c3b1",
+  "generator_sha256": "9cfb7b2467f7af686e5cdb624f44b0c438295fe8fe21cf14c0081e2a7a7e6fa0"
+}

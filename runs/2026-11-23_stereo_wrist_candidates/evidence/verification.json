@@ -1,0 +1,94 @@
+{
+  "base": "4461ff0c066c242f8de21b0b1130f3c25916a554",
+  "status": 0,
+  "diagnostics": {
+    "validation": {
+      "feasible": 200,
+      "excluded": [],
+      "nontrivial_wrists": 395,
+      "n_candidates": 6498,
+      "saved_parameter_hashes": {
+        "objective": "b3b9c06d8d02137eb1be79ba42bb2f8b9f1551280d03f8d5c240de2f21b42ae3",
+        "image": "d9af2e7bf1c7159a624c85b7c323cf887ce3b4eaf6a5679d51861294d93531fe",
+        "gated": "569017497cccd505e6f2ed875ab8d73a5b68a0706cc802698db467d64e74e29b"
+      },
+      "valid_2d": 4789,
+      "n_subjects": 4
+    },
+    "test": {
+      "feasible": 100,
+      "excluded": [],
+      "nontrivial_wrists": 199,
+      "n_candidates": 3364,
+      "saved_parameter_hashes": {
+        "objective": "8d58d3eeeb06e9d216461b45bd14ad9e3b3b3bc445b2a99a521b7fe6693187f9",
+        "image": "12103982b681128b4e11831143e09d20166fcc953ef583bd53998898d8885fb1",
+        "gated": "b90dc7ccc992ee42981cb69241df0b8c44c87d01365118afc9f85774f0c54f4f"
+      },
+      "valid_2d": 2398,
+      "n_subjects": 3
+    }
+  },
+  "commands": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/validation.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/validation.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/candidates.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/select_wrist.py freeze",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/select_wrist.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/score_candidates.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/candidates.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/select_wrist.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/score_candidates.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/verify.py",
+      "exit_status": 0
+    }
+  ],
+  "validation_adam_steps": 20000,
+  "validation_fit_s": 256.4253673553467,
+  "selection_tolerance_mm": 0.001,
+  "confirmation_rule": "wrist RMSE and whole-body mean compared to baseline; at most +0.25 mm other-ten mean on both subject groups",
+  "image_descriptor": "oriented wrist and forearm patches; bilateral mean normalized correlation; minimum local intensity std 4",
+  "candidate_depth_offsets_mm": [
+    -300,
+    -200,
+    -120,
+    -80,
+    -40,
+    -20,
+    0,
+    20,
+    40,
+    80,
+    120,
+    200,
+    300
+  ]
+}

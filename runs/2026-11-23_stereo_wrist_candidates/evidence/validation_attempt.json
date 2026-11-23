@@ -1,0 +1,6 @@
+{
+  "command": "<BODY_PYTHON> -Bu runs/2026-11-23_stereo_wrist_candidates/candidates.py validation",
+  "exit_status": 1,
+  "assertion": "assert np.max(np.linalg.norm(xyz[:,w]-targets,axis=1))<5e-5",
+  "action": "Use double precision for direction normalization and atan2(cross-norm, dot) for the angle. Repeat validation with the same FK tolerance, before locking the selector or processing test frames."
+}
