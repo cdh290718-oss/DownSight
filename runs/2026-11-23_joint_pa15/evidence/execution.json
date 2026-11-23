@@ -1,0 +1,20 @@
+{
+  "command": "<BODY_PYTHON> -Bu runs/2026-11-23_joint_pa15/score.py",
+  "first_attempt": {
+    "exit_status": 1,
+    "check": "historical per-frame baseline agreement at 1e-6 mm"
+  },
+  "final_attempt": {
+    "exit_status": 0,
+    "archived_parameter_equality": true,
+    "prior_candidate_pa12_tolerance_mm": 1e-06,
+    "historical_tolerance_mm": 0.001,
+    "observed_maximum_absolute_difference_mm": {
+      "pa12_mm": 3.159164228350164e-05,
+      "mapped15_pa_mm": 3.232302485400851e-05,
+      "legacy15_pa_mm": 2.6367803059201833e-05
+    }
+  },
+  "script_sha256": "0f40d1f2a57287e2fb29247b51c75c3f237150daca369204cf5342a20441541a",
+  "verified_pairs": 100
+}
