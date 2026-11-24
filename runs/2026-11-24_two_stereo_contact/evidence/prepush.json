@@ -1,0 +1,12 @@
+{
+  "scope": "runs/2026-11-24_two_stereo_contact",
+  "remote_before": "ad4aff7c23d1347da99df113fddbbe29282b9cef",
+  "worktree_reviewed": true,
+  "unrelated_modified_and_untracked_files_excluded": true,
+  "checks": [
+    "allowlisted text and one derived hand boundary diagram",
+    "less than 50 MB per file",
+    "credentials, machine paths, environment files, arrays, datasets, weights, source images, meshes, patches and raw output excluded",
+    "staged and outgoing paths rechecked before push"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pair": "pair068",
+  "counts": {
+    "hard": {
+      "attempts": 300,
+      "feasible": 0,
+      "minimum_gap_capped_mm": null
+    },
+    "joint": {
+      "attempts": 300,
+      "feasible": 0,
+      "minimum_gap_capped_mm": null
+    }
+  },
+  "kept": 0,
+  "point_source": "outline-only single-frame model wrists",
+  "parameter_sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85",
+  "exit_status": 0
+}

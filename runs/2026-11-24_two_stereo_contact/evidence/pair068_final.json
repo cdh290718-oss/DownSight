@@ -1,0 +1,685 @@
+{
+  "rows": {
+    "v3": {
+      "chosen": "v3_init",
+      "result": {
+        "base_loss": 0.007561326026916504,
+        "outline_loss": 1.8163363933563232,
+        "joint_feasible": true,
+        "outline_px_by_eye": [
+          {
+            "foreground": 21.472605406993512,
+            "L_hand": 19.934026387608917,
+            "R_hand": 28.539093295982074
+          },
+          {
+            "foreground": 19.82916933567799,
+            "L_hand": 16.10027700749285,
+            "R_hand": 24.901052632819194
+          }
+        ],
+        "raw_triangles": 782,
+        "active_triangles": 470,
+        "crossings": {
+          "R_foot/R_foot": 11,
+          "R_upperarm/trunk": 48,
+          "trunk/trunk": 31,
+          "head/head": 290,
+          "L_thigh/R_thigh": 28,
+          "L_hand/R_hand": 337,
+          "L_upperarm/trunk": 26,
+          "L_foot/L_foot": 11
+        },
+        "active_crossings": {
+          "R_upperarm/trunk": 48,
+          "trunk/trunk": 31,
+          "L_thigh/R_thigh": 28,
+          "L_hand/R_hand": 337,
+          "L_upperarm/trunk": 26
+        },
+        "target_depth_gap_mm": [
+          19.961069107055664,
+          0.0
+        ],
+        "all_contact_mm": {
+          "L_hand/R_hand": [
+            19.961069107055664,
+            0.0
+          ],
+          "L_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "L_hand/R_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/R_thigh": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    "outline": {
+      "chosen": "outline_init",
+      "result": {
+        "base_loss": 0.0077996933832764626,
+        "outline_loss": 0.8471347093582153,
+        "joint_feasible": true,
+        "outline_px_by_eye": [
+          {
+            "foreground": 20.824391982409146,
+            "L_hand": 5.544563240700435,
+            "R_hand": 6.460506515095475
+          },
+          {
+            "foreground": 18.475121262693488,
+            "L_hand": 4.34639571417023,
+            "R_hand": 5.3427156842739345
+          }
+        ],
+        "raw_triangles": 933,
+        "active_triangles": 592,
+        "crossings": {
+          "R_upperarm/trunk": 56,
+          "trunk/trunk": 26,
+          "R_foot/R_foot": 11,
+          "head/head": 347,
+          "L_thigh/R_thigh": 36,
+          "L_hand/R_hand": 362,
+          "R_hand/R_hand": 59,
+          "L_upperarm/trunk": 27,
+          "L_foot/L_foot": 9
+        },
+        "active_crossings": {
+          "R_upperarm/trunk": 56,
+          "trunk/trunk": 26,
+          "L_thigh/R_thigh": 36,
+          "head/head": 26,
+          "L_hand/R_hand": 362,
+          "R_hand/R_hand": 59,
+          "L_upperarm/trunk": 27
+        },
+        "target_depth_gap_mm": [
+          8.470006942749023,
+          0.0
+        ],
+        "all_contact_mm": {
+          "L_hand/R_hand": [
+            8.470006942749023,
+            0.0
+          ],
+          "L_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "L_hand/R_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/R_thigh": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    "hard": {
+      "chosen": "hard_init",
+      "result": {
+        "base_loss": 0.13076680898666382,
+        "outline_loss": 3.635631561279297,
+        "joint_feasible": true,
+        "outline_px_by_eye": [
+          {
+            "foreground": 24.69649618204756,
+            "L_hand": 58.84839498119166,
+            "R_hand": 46.291012426433696
+          },
+          {
+            "foreground": 24.534169711719123,
+            "L_hand": 53.2287175992509,
+            "R_hand": 54.16667581105598
+          }
+        ],
+        "raw_triangles": 310,
+        "active_triangles": 0,
+        "crossings": {
+          "R_foot/R_foot": 11,
+          "head/head": 288,
+          "L_foot/L_foot": 11
+        },
+        "active_crossings": {},
+        "target_depth_gap_mm": [
+          0.0,
+          12.0
+        ],
+        "all_contact_mm": {
+          "L_hand/R_hand": [
+            0.0,
+            12.0
+          ],
+          "L_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "L_hand/R_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/R_thigh": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    "joint": {
+      "chosen": "hard_init",
+      "result": {
+        "base_loss": 0.13076680898666382,
+        "outline_loss": 3.635631561279297,
+        "joint_feasible": true,
+        "outline_px_by_eye": [
+          {
+            "foreground": 24.69649618204756,
+            "L_hand": 58.84839498119166,
+            "R_hand": 46.291012426433696
+          },
+          {
+            "foreground": 24.534169711719123,
+            "L_hand": 53.2287175992509,
+            "R_hand": 54.16667581105598
+          }
+        ],
+        "raw_triangles": 310,
+        "active_triangles": 0,
+        "crossings": {
+          "R_foot/R_foot": 11,
+          "head/head": 288,
+          "L_foot/L_foot": 11
+        },
+        "active_crossings": {},
+        "target_depth_gap_mm": [
+          0.0,
+          12.0
+        ],
+        "all_contact_mm": {
+          "L_hand/R_hand": [
+            0.0,
+            12.0
+          ],
+          "L_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "L_hand/R_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/L_thigh": [
+            0.0,
+            12.0
+          ],
+          "R_hand/R_thigh": [
+            0.0,
+            12.0
+          ]
+        }
+      }
+    },
+    "joint_near": {
+      "chosen": null
+    }
+  },
+  "trials": {
+    "v3_init": {
+      "base": 0.007561326026916504,
+      "objective": 0.02209201717376709,
+      "raw": 782,
+      "outside_template_zones": 470,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_init": {
+      "base": 0.0077996933832764626,
+      "objective": 0.014576771058142184,
+      "raw": 933,
+      "outside_template_zones": 592,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_init": {
+      "base": 0.13076680898666382,
+      "objective": 0.1598518614768982,
+      "raw": 310,
+      "outside_template_zones": 0,
+      "positive": true,
+      "near_gap_capped_mm": 12.0
+    },
+    "joint_init": {
+      "base": 0.19011685252189636,
+      "objective": 0.22373230814933776,
+      "raw": 323,
+      "outside_template_zones": 0,
+      "positive": true,
+      "near_gap_capped_mm": 12.0
+    },
+    "archive_root_0_-4": {
+      "base": 0.010335808619856834,
+      "objective": 0.024462920054793356,
+      "raw": 725,
+      "outside_template_zones": 419,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_0_-4": {
+      "base": 0.008758916519582272,
+      "objective": 0.02289054837077856,
+      "raw": 755,
+      "outside_template_zones": 444,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_root_0_4": {
+      "base": 0.010258534923195839,
+      "objective": 0.02438186217844486,
+      "raw": 852,
+      "outside_template_zones": 539,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_0_4": {
+      "base": 0.009001661092042923,
+      "objective": 0.023165862828493117,
+      "raw": 881,
+      "outside_template_zones": 568,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_root_1_-4": {
+      "base": 0.01083629671484232,
+      "objective": 0.02554077783972025,
+      "raw": 809,
+      "outside_template_zones": 502,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_1_-4": {
+      "base": 0.008208009414374828,
+      "objective": 0.022988306693732738,
+      "raw": 747,
+      "outside_template_zones": 436,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_root_1_4": {
+      "base": 0.010746209882199764,
+      "objective": 0.024898099683225157,
+      "raw": 826,
+      "outside_template_zones": 516,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_1_4": {
+      "base": 0.00824189092963934,
+      "objective": 0.0223315229639411,
+      "raw": 798,
+      "outside_template_zones": 486,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_root_2_-4": {
+      "base": 0.008691535331308842,
+      "objective": 0.02384423003345728,
+      "raw": 738,
+      "outside_template_zones": 430,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_2_-4": {
+      "base": 0.009352443739771843,
+      "objective": 0.02392903332412243,
+      "raw": 740,
+      "outside_template_zones": 433,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_root_2_4": {
+      "base": 0.008593982085585594,
+      "objective": 0.023814860686659813,
+      "raw": 754,
+      "outside_template_zones": 439,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "archive_spine3_2_4": {
+      "base": 0.009434791281819344,
+      "objective": 0.023339389517903326,
+      "raw": 856,
+      "outside_template_zones": 546,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_0_-4": {
+      "base": 0.010713627561926842,
+      "objective": 0.01794335912168026,
+      "raw": 707,
+      "outside_template_zones": 363,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_0_-4": {
+      "base": 0.009125795215368271,
+      "objective": 0.016478245586156844,
+      "raw": 751,
+      "outside_template_zones": 426,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_0_4": {
+      "base": 0.010376960970461369,
+      "objective": 0.017203650690615177,
+      "raw": 723,
+      "outside_template_zones": 404,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_0_4": {
+      "base": 0.009110565297305584,
+      "objective": 0.015946079842746257,
+      "raw": 856,
+      "outside_template_zones": 506,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_1_-4": {
+      "base": 0.010776272043585777,
+      "objective": 0.017828190073370935,
+      "raw": 681,
+      "outside_template_zones": 349,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_1_-4": {
+      "base": 0.00853151734918356,
+      "objective": 0.015357521854341031,
+      "raw": 887,
+      "outside_template_zones": 555,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_1_4": {
+      "base": 0.011082466691732407,
+      "objective": 0.018417963594198228,
+      "raw": 832,
+      "outside_template_zones": 489,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_1_4": {
+      "base": 0.008377879858016968,
+      "objective": 0.015649728536605834,
+      "raw": 770,
+      "outside_template_zones": 432,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_2_-4": {
+      "base": 0.008797046728432178,
+      "objective": 0.01617286831885576,
+      "raw": 750,
+      "outside_template_zones": 413,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_2_-4": {
+      "base": 0.009526741690933704,
+      "objective": 0.016815302558243275,
+      "raw": 758,
+      "outside_template_zones": 416,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_root_2_4": {
+      "base": 0.008851798251271248,
+      "objective": 0.015789607241749763,
+      "raw": 1027,
+      "outside_template_zones": 680,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "outline_refit_spine3_2_4": {
+      "base": 0.009531841613352299,
+      "objective": 0.016873373843729497,
+      "raw": 1025,
+      "outside_template_zones": 671,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_fixed": {
+      "base": 0.013496327213943005,
+      "objective": 0.027597593121230602,
+      "raw": 629,
+      "outside_template_zones": 322,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_0_-4": {
+      "base": 0.01937221549451351,
+      "objective": 0.03237211345136166,
+      "raw": 671,
+      "outside_template_zones": 362,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_0_-4": {
+      "base": 0.017205074429512024,
+      "objective": 0.03039785587787628,
+      "raw": 666,
+      "outside_template_zones": 360,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_0_4": {
+      "base": 0.011825038120150566,
+      "objective": 0.02674174515902996,
+      "raw": 650,
+      "outside_template_zones": 341,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_0_4": {
+      "base": 0.010762341320514679,
+      "objective": 0.02548988324403763,
+      "raw": 644,
+      "outside_template_zones": 327,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_1_-4": {
+      "base": 0.013600136153399944,
+      "objective": 0.02692188870161772,
+      "raw": 662,
+      "outside_template_zones": 354,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_1_-4": {
+      "base": 0.01360885240137577,
+      "objective": 0.028107044234871863,
+      "raw": 636,
+      "outside_template_zones": 329,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_1_4": {
+      "base": 0.017481260001659393,
+      "objective": 0.031575729072093967,
+      "raw": 661,
+      "outside_template_zones": 349,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_1_4": {
+      "base": 0.014733262360095978,
+      "objective": 0.028197230637073516,
+      "raw": 580,
+      "outside_template_zones": 268,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_2_-4": {
+      "base": 0.01413972768932581,
+      "objective": 0.028098147489130497,
+      "raw": 577,
+      "outside_template_zones": 267,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_2_-4": {
+      "base": 0.01330333761870861,
+      "objective": 0.027007451578974724,
+      "raw": 657,
+      "outside_template_zones": 348,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_root_2_4": {
+      "base": 0.014614555053412914,
+      "objective": 0.027825797729194163,
+      "raw": 688,
+      "outside_template_zones": 382,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "hard_refit_spine3_2_4": {
+      "base": 0.014688157476484776,
+      "objective": 0.028693290151655674,
+      "raw": 661,
+      "outside_template_zones": 349,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_fixed": {
+      "base": 0.012002033181488514,
+      "objective": 0.02786483473330736,
+      "raw": 782,
+      "outside_template_zones": 460,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_0_-4": {
+      "base": 0.018428737297654152,
+      "objective": 0.03270507396757603,
+      "raw": 760,
+      "outside_template_zones": 438,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_0_-4": {
+      "base": 0.015901898965239525,
+      "objective": 0.030293546304106713,
+      "raw": 737,
+      "outside_template_zones": 433,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_0_4": {
+      "base": 0.010685531422495842,
+      "objective": 0.02499671058356762,
+      "raw": 810,
+      "outside_template_zones": 502,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_0_4": {
+      "base": 0.009913855232298374,
+      "objective": 0.02487343851476908,
+      "raw": 883,
+      "outside_template_zones": 552,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_1_-4": {
+      "base": 0.012468863278627396,
+      "objective": 0.02810755231976509,
+      "raw": 783,
+      "outside_template_zones": 452,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_1_-4": {
+      "base": 0.01217217743396759,
+      "objective": 0.028106160283088686,
+      "raw": 753,
+      "outside_template_zones": 435,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_1_4": {
+      "base": 0.015921195968985558,
+      "objective": 0.030992782577872274,
+      "raw": 853,
+      "outside_template_zones": 529,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_1_4": {
+      "base": 0.013179355300962925,
+      "objective": 0.027051156677305697,
+      "raw": 860,
+      "outside_template_zones": 546,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_2_-4": {
+      "base": 0.012738456018269062,
+      "objective": 0.02679696775227785,
+      "raw": 830,
+      "outside_template_zones": 524,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_2_-4": {
+      "base": 0.012472773902118206,
+      "objective": 0.0274137147590518,
+      "raw": 806,
+      "outside_template_zones": 491,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_root_2_4": {
+      "base": 0.01303301751613617,
+      "objective": 0.027818591475486758,
+      "raw": 725,
+      "outside_template_zones": 411,
+      "positive": true,
+      "near_gap_capped_mm": null
+    },
+    "joint_refit_spine3_2_4": {
+      "base": 0.013455799780786037,
+      "objective": 0.028226301871240138,
+      "raw": 824,
+      "outside_template_zones": 508,
+      "positive": true,
+      "near_gap_capped_mm": null
+    }
+  },
+  "raw_feasible_candidates": [],
+  "final_sha256": "8977ad3b0dd0f856ee4cbbc1721583d945dfe3ab4792076a6da41e840163a61f",
+  "exit_status": 0
+}

@@ -1,0 +1,400 @@
+{
+  "results": {
+    "pair055": {
+      "v3": {
+        "pa_mm": 41.623484714536644,
+        "nonpa_mm": 46.058694271765766,
+        "target_crossings": 121,
+        "raw_crossings": 513,
+        "active_crossings": 193,
+        "target_sample_depth_mm": 71.49559020996094,
+        "target_sample_gap_mm": 0.0,
+        "outline_px": 19.21659278869629,
+        "official_target_used_only_after_selection": true
+      },
+      "outline": {
+        "pa_mm": 40.961644752384984,
+        "nonpa_mm": 46.42933560849575,
+        "target_crossings": 24,
+        "raw_crossings": 546,
+        "active_crossings": 203,
+        "target_sample_depth_mm": 11.267117500305176,
+        "target_sample_gap_mm": 0.0,
+        "outline_px": 14.811904907226562,
+        "official_target_used_only_after_selection": true
+      },
+      "hard": {
+        "pa_mm": 46.86388019986031,
+        "nonpa_mm": 51.98182791957523,
+        "target_crossings": 0,
+        "raw_crossings": 331,
+        "active_crossings": 0,
+        "target_sample_depth_mm": 0.0,
+        "target_sample_gap_mm": 2.199271460995078,
+        "outline_px": 17.126070499420166,
+        "official_target_used_only_after_selection": true
+      },
+      "joint": {
+        "pa_mm": 46.86388019986031,
+        "nonpa_mm": 51.98182791957523,
+        "target_crossings": 0,
+        "raw_crossings": 331,
+        "active_crossings": 0,
+        "target_sample_depth_mm": 0.0,
+        "target_sample_gap_mm": 2.199271460995078,
+        "outline_px": 17.126070499420166,
+        "official_target_used_only_after_selection": true
+      },
+      "joint_near": {
+        "pa_mm": 46.86388019986031,
+        "nonpa_mm": 51.98182791957523,
+        "target_crossings": 0,
+        "raw_crossings": 331,
+        "active_crossings": 0,
+        "target_sample_depth_mm": 0.0,
+        "target_sample_gap_mm": 2.199271460995078,
+        "outline_px": 17.126070499420166,
+        "official_target_used_only_after_selection": true
+      }
+    },
+    "pair068": {
+      "v3": {
+        "pa_mm": 32.63562181883986,
+        "nonpa_mm": 44.97120119118121,
+        "target_crossings": 337,
+        "raw_crossings": 782,
+        "active_crossings": 470,
+        "target_sample_depth_mm": 19.961069107055664,
+        "target_sample_gap_mm": 0.0,
+        "outline_px": 21.79603672027588,
+        "official_target_used_only_after_selection": true
+      },
+      "outline": {
+        "pa_mm": 32.94797449377756,
+        "nonpa_mm": 44.5178248230379,
+        "target_crossings": 362,
+        "raw_crossings": 933,
+        "active_crossings": 592,
+        "target_sample_depth_mm": 8.470006942749023,
+        "target_sample_gap_mm": 0.0,
+        "outline_px": 10.165616512298584,
+        "official_target_used_only_after_selection": true
+      },
+      "hard": {
+        "pa_mm": 73.31833093817714,
+        "nonpa_mm": 81.95778747545744,
+        "target_crossings": 0,
+        "raw_crossings": 310,
+        "active_crossings": 0,
+        "target_sample_depth_mm": 0.0,
+        "target_sample_gap_mm": 184.40765142440796,
+        "outline_px": 43.62757873535156,
+        "official_target_used_only_after_selection": true
+      },
+      "joint": {
+        "pa_mm": 73.31833093817714,
+        "nonpa_mm": 81.95778747545744,
+        "target_crossings": 0,
+        "raw_crossings": 310,
+        "active_crossings": 0,
+        "target_sample_depth_mm": 0.0,
+        "target_sample_gap_mm": 184.40765142440796,
+        "outline_px": 43.62757873535156,
+        "official_target_used_only_after_selection": true
+      }
+    }
+  },
+  "segmentation": {
+    "checkpoint_sha256": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+    "config_sha256": "d33d8802741cb7b0cddc09ac3b2f780a801932bdeb88dc097c22a43996fef61d",
+    "strict_load": true,
+    "device": "cuda",
+    "precision": "bfloat16 autocast; float32 interpolation/softmax",
+    "preprocessing": "official test_pipeline: 1024x768 direct resize keep_ratio=False; BGR to RGB; official normalization",
+    "postprocessing": "bilinear logits resize to original H,W align_corners=False; softmax; argmax",
+    "frames": [
+      {
+        "id": "pair055_left",
+        "image_sha256": "32555be5fc0533426d376d6e6a56a57330f20fdf76d068c8e5b493fd0739621a",
+        "original_hw": [
+          872,
+          872
+        ],
+        "parts": {
+          "6": {
+            "name": "Left_Hand",
+            "pixels": 5305,
+            "mean_softmax": 0.8380005359649658,
+            "high_confidence_pixels": 3371,
+            "bbox_xyxy": [
+              535,
+              334,
+              655,
+              467
+            ]
+          },
+          "7": {
+            "name": "Left_Lower_Arm",
+            "pixels": 587,
+            "mean_softmax": 0.6233474016189575,
+            "high_confidence_pixels": 85,
+            "bbox_xyxy": [
+              584,
+              324,
+              647,
+              391
+            ]
+          },
+          "11": {
+            "name": "Left_Upper_Arm",
+            "pixels": 410,
+            "mean_softmax": 0.756337583065033,
+            "high_confidence_pixels": 218,
+            "bbox_xyxy": [
+              604,
+              313,
+              660,
+              337
+            ]
+          },
+          "15": {
+            "name": "Right_Hand",
+            "pixels": 4662,
+            "mean_softmax": 0.8015398383140564,
+            "high_confidence_pixels": 2656,
+            "bbox_xyxy": [
+              283,
+              358,
+              351,
+              523
+            ]
+          },
+          "16": {
+            "name": "Right_Lower_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "20": {
+            "name": "Right_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          }
+        }
+      },
+      {
+        "id": "pair055_right",
+        "image_sha256": "9852acda17c82809eea1363332b104b841f5f74f12e5da4ae100c6497bf6f76e",
+        "original_hw": [
+          872,
+          872
+        ],
+        "parts": {
+          "6": {
+            "name": "Left_Hand",
+            "pixels": 2212,
+            "mean_softmax": 0.8805664777755737,
+            "high_confidence_pixels": 1654,
+            "bbox_xyxy": [
+              582,
+              349,
+              691,
+              466
+            ]
+          },
+          "7": {
+            "name": "Left_Lower_Arm",
+            "pixels": 119,
+            "mean_softmax": 0.49971553683280945,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": [
+              624,
+              395,
+              635,
+              411
+            ]
+          },
+          "11": {
+            "name": "Left_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "15": {
+            "name": "Right_Hand",
+            "pixels": 7205,
+            "mean_softmax": 0.9101572632789612,
+            "high_confidence_pixels": 6120,
+            "bbox_xyxy": [
+              326,
+              338,
+              410,
+              526
+            ]
+          },
+          "16": {
+            "name": "Right_Lower_Arm",
+            "pixels": 30,
+            "mean_softmax": 0.34933164715766907,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": [
+              326,
+              334,
+              337,
+              342
+            ]
+          },
+          "20": {
+            "name": "Right_Upper_Arm",
+            "pixels": 58,
+            "mean_softmax": 0.5114216804504395,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": [
+              364,
+              333,
+              380,
+              341
+            ]
+          }
+        }
+      },
+      {
+        "id": "pair068_left",
+        "image_sha256": "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+        "original_hw": [
+          872,
+          872
+        ],
+        "parts": {
+          "6": {
+            "name": "Left_Hand",
+            "pixels": 1720,
+            "mean_softmax": 0.907796323299408,
+            "high_confidence_pixels": 1394,
+            "bbox_xyxy": [
+              446,
+              541,
+              481,
+              619
+            ]
+          },
+          "7": {
+            "name": "Left_Lower_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "11": {
+            "name": "Left_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "15": {
+            "name": "Right_Hand",
+            "pixels": 1560,
+            "mean_softmax": 0.9025143384933472,
+            "high_confidence_pixels": 1269,
+            "bbox_xyxy": [
+              418,
+              536,
+              454,
+              616
+            ]
+          },
+          "16": {
+            "name": "Right_Lower_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "20": {
+            "name": "Right_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          }
+        }
+      },
+      {
+        "id": "pair068_right",
+        "image_sha256": "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21",
+        "original_hw": [
+          872,
+          872
+        ],
+        "parts": {
+          "6": {
+            "name": "Left_Hand",
+            "pixels": 1187,
+            "mean_softmax": 0.9164565801620483,
+            "high_confidence_pixels": 1004,
+            "bbox_xyxy": [
+              501,
+              536,
+              530,
+              611
+            ]
+          },
+          "7": {
+            "name": "Left_Lower_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "11": {
+            "name": "Left_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "15": {
+            "name": "Right_Hand",
+            "pixels": 1231,
+            "mean_softmax": 0.8648700714111328,
+            "high_confidence_pixels": 862,
+            "bbox_xyxy": [
+              479,
+              533,
+              508,
+              613
+            ]
+          },
+          "16": {
+            "name": "Right_Lower_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          },
+          "20": {
+            "name": "Right_Upper_Arm",
+            "pixels": 0,
+            "mean_softmax": null,
+            "high_confidence_pixels": 0,
+            "bbox_xyxy": null
+          }
+        }
+      }
+    ],
+    "prediction_hashes": {
+      "pair055_left": "d653d5734264b785ddc5d8029ab026bec13fbf28dd86a4be5a0dd8f41a9bc9ad",
+      "pair055_right": "83049b60729c0e4f35c0104e8b3664b6f09654393d183370a2302ea24fc9fbac",
+      "pair068_left": "9e82568fd6e86c0b5c82cddeed44715d4101628c43036ff3cbffc3e8e0197b6f",
+      "pair068_right": "67e10a48643bfb55f2ba5c5889f187e475657ded51974a6d1052e7565e2236f9"
+    }
+  },
+  "reference_sha256": "973ee19514faaa95ec895f2b550229416ddd981997ad4f20581f7817607426e2",
+  "truth_manifest_sha256": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1",
+  "exit_status": 0
+}

@@ -1,0 +1,404 @@
+{
+  "rows": {
+    "v3": {
+      "base_loss": 0.007561326026916504,
+      "outline_loss": 1.8163363933563232,
+      "joint_feasible": true,
+      "outline_px_by_eye": [
+        {
+          "foreground": 21.472605406993512,
+          "L_hand": 19.934026387608917,
+          "R_hand": 28.539093295982074
+        },
+        {
+          "foreground": 19.82916933567799,
+          "L_hand": 16.10027700749285,
+          "R_hand": 24.901052632819194
+        }
+      ],
+      "raw_triangles": 782,
+      "active_triangles": 470,
+      "crossings": {
+        "R_foot/R_foot": 11,
+        "R_upperarm/trunk": 48,
+        "trunk/trunk": 31,
+        "head/head": 290,
+        "L_thigh/R_thigh": 28,
+        "L_hand/R_hand": 337,
+        "L_upperarm/trunk": 26,
+        "L_foot/L_foot": 11
+      },
+      "active_crossings": {
+        "R_upperarm/trunk": 48,
+        "trunk/trunk": 31,
+        "L_thigh/R_thigh": 28,
+        "L_hand/R_hand": 337,
+        "L_upperarm/trunk": 26
+      },
+      "target_depth_gap_mm": [
+        19.961069107055664,
+        0.0
+      ],
+      "all_contact_mm": {
+        "L_hand/R_hand": [
+          19.961069107055664,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      }
+    },
+    "outline": {
+      "base_loss": 0.0077996933832764626,
+      "outline_loss": 0.8471347093582153,
+      "joint_feasible": true,
+      "outline_px_by_eye": [
+        {
+          "foreground": 20.824391982409146,
+          "L_hand": 5.544563240700435,
+          "R_hand": 6.460506515095475
+        },
+        {
+          "foreground": 18.475121262693488,
+          "L_hand": 4.34639571417023,
+          "R_hand": 5.3427156842739345
+        }
+      ],
+      "raw_triangles": 933,
+      "active_triangles": 592,
+      "crossings": {
+        "R_upperarm/trunk": 56,
+        "trunk/trunk": 26,
+        "R_foot/R_foot": 11,
+        "head/head": 347,
+        "L_thigh/R_thigh": 36,
+        "L_hand/R_hand": 362,
+        "R_hand/R_hand": 59,
+        "L_upperarm/trunk": 27,
+        "L_foot/L_foot": 9
+      },
+      "active_crossings": {
+        "R_upperarm/trunk": 56,
+        "trunk/trunk": 26,
+        "L_thigh/R_thigh": 36,
+        "head/head": 26,
+        "L_hand/R_hand": 362,
+        "R_hand/R_hand": 59,
+        "L_upperarm/trunk": 27
+      },
+      "target_depth_gap_mm": [
+        8.470006942749023,
+        0.0
+      ],
+      "all_contact_mm": {
+        "L_hand/R_hand": [
+          8.470006942749023,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      }
+    },
+    "hard": {
+      "base_loss": 0.13076680898666382,
+      "outline_loss": 3.635631561279297,
+      "joint_feasible": true,
+      "outline_px_by_eye": [
+        {
+          "foreground": 24.69649618204756,
+          "L_hand": 58.84839498119166,
+          "R_hand": 46.291012426433696
+        },
+        {
+          "foreground": 24.534169711719123,
+          "L_hand": 53.2287175992509,
+          "R_hand": 54.16667581105598
+        }
+      ],
+      "raw_triangles": 310,
+      "active_triangles": 0,
+      "crossings": {
+        "R_foot/R_foot": 11,
+        "head/head": 288,
+        "L_foot/L_foot": 11
+      },
+      "active_crossings": {},
+      "target_depth_gap_mm": [
+        0.0,
+        12.0
+      ],
+      "all_contact_mm": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      }
+    },
+    "joint": {
+      "base_loss": 0.19011685252189636,
+      "outline_loss": 4.201931953430176,
+      "joint_feasible": true,
+      "outline_px_by_eye": [
+        {
+          "foreground": 26.01673358033107,
+          "L_hand": 64.0,
+          "R_hand": 59.51405256594849
+        },
+        {
+          "foreground": 25.424178309072165,
+          "L_hand": 64.0,
+          "R_hand": 63.58413895227997
+        }
+      ],
+      "raw_triangles": 323,
+      "active_triangles": 0,
+      "crossings": {
+        "R_foot/R_foot": 11,
+        "head/head": 301,
+        "L_foot/L_foot": 11
+      },
+      "active_crossings": {},
+      "target_depth_gap_mm": [
+        0.0,
+        12.0
+      ],
+      "all_contact_mm": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      }
+    }
+  },
+  "repair": {
+    "tried": 82,
+    "raw_zero": 0,
+    "template_exception_feasible": 10
+  },
+  "optimizer": [
+    {
+      "seed": "v3",
+      "hard": false,
+      "outline": true,
+      "steps": 72,
+      "best_loss": 0.01457677036523819,
+      "accepted_scales": {
+        "1.0": 72
+      },
+      "blocked_steps": 0
+    },
+    {
+      "seed": "chain7",
+      "hard": true,
+      "outline": false,
+      "steps": 72,
+      "best_loss": 0.13076680898666382,
+      "accepted_scales": {
+        "1.0": 15,
+        "0.0625": 2,
+        "block": 166
+      },
+      "blocked_steps": 55
+    },
+    {
+      "seed": "cold",
+      "hard": true,
+      "outline": false,
+      "steps": 72,
+      "best_loss": 0.4259834587574005,
+      "accepted_scales": {
+        "1.0": 21,
+        "0.25": 1,
+        "0.0625": 5,
+        "block": 91
+      },
+      "blocked_steps": 45
+    },
+    {
+      "seed": "chain7",
+      "hard": true,
+      "outline": true,
+      "steps": 72,
+      "best_loss": 0.22373230755329132,
+      "accepted_scales": {
+        "1.0": 11,
+        "0.5": 1,
+        "0.25": 1,
+        "0.0625": 2,
+        "block": 58
+      },
+      "blocked_steps": 57
+    },
+    {
+      "seed": "cold",
+      "hard": true,
+      "outline": true,
+      "steps": 72,
+      "best_loss": 0.4320865869522095,
+      "accepted_scales": {
+        "1.0": 17,
+        "block": 109,
+        "0.0625": 13
+      },
+      "blocked_steps": 42
+    }
+  ],
+  "terminal_raw_zero": {
+    "v3": false,
+    "outline": false,
+    "hard": false,
+    "joint": false
+  },
+  "geometry_checks": 2037,
+  "raw_zero_checks": 0,
+  "template": {
+    "R_foot/R_foot": 11,
+    "head/head": 298,
+    "L_foot/L_foot": 11
+  },
+  "exemptions": {
+    "L_foot": 97,
+    "R_foot": 97,
+    "head": 1460
+  },
+  "view_support": [
+    {
+      "foreground": {
+        "area": 11681,
+        "edge": 794
+      },
+      "L_hand": {
+        "area": 99,
+        "edge": 44
+      },
+      "R_hand": {
+        "area": 94,
+        "edge": 49
+      },
+      "L_forearm": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_forearm": {
+        "area": 0,
+        "edge": 0
+      },
+      "L_upperarm": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_upperarm": {
+        "area": 0,
+        "edge": 0
+      },
+      "L_thigh": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_thigh": {
+        "area": 0,
+        "edge": 0
+      }
+    },
+    {
+      "foreground": {
+        "area": 11510,
+        "edge": 822
+      },
+      "L_hand": {
+        "area": 71,
+        "edge": 40
+      },
+      "R_hand": {
+        "area": 73,
+        "edge": 50
+      },
+      "L_forearm": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_forearm": {
+        "area": 0,
+        "edge": 0
+      },
+      "L_upperarm": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_upperarm": {
+        "area": 0,
+        "edge": 0
+      },
+      "L_thigh": {
+        "area": 0,
+        "edge": 0
+      },
+      "R_thigh": {
+        "area": 0,
+        "edge": 0
+      }
+    }
+  ],
+  "state_sha256": "7f6ca19c95b67780aa32e3e9231fbff37132f13c6356ef5fe4504de1f192c300",
+  "exit_status": 0
+}

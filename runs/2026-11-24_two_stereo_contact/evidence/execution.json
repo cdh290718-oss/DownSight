@@ -1,0 +1,158 @@
+{
+  "execution_base": "af9d1f55f085ebfc13c01f55a9784147d45984e2",
+  "publication_parent": "ad4aff7c23d1347da99df113fddbbe29282b9cef",
+  "parallel_change_review": "independent elbow run directory only",
+  "worktree_dirty": true,
+  "scope": "two previously identified test failures; no population inference",
+  "settings": {
+    "stride_px": 4,
+    "max_distance_px": 64,
+    "scale_px": 12,
+    "outline_weight": 0.008,
+    "confidence": 0.55,
+    "min_area": 12,
+    "min_boundary": 6,
+    "steps_per_branch": 72,
+    "repair_starts_per_frame": 82,
+    "numerical_strict_triangle_eps": 1e-07,
+    "template_neighbour_rings": 2,
+    "contact_screen_mm": 8
+  },
+  "input_hashes": {
+    "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "parameter_sha256": "0e8e6cf5b2a9dbb89ac6e5d8bec4e5adf24f685e9e9faf18820aa0d34db105ae",
+    "choices_sha256": "266724d05ed3786f0d6ff54d8f5393e387a14d1e1bcf2483cdf28a2b478e2d10",
+    "wrist_sha256": "8d58d3eeeb06e9d216461b45bd14ad9e3b3b3bc445b2a99a521b7fe6693187f9",
+    "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "prepared_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+  },
+  "scores_sha256": "c0726bcbae5055e601ec358e9a734aa3553b497d2cb68bffe2f31b9e4b55d6b0",
+  "sources": {
+    "assess.py": "f59c7fdbce971ddb74fff164acf987779ec5ad0c763707581a06991000ec327d",
+    "common_run.py": "c1544a0d109f9a653062fd2dba830f4b0f75a7d1a3f5abf3dfce13fa19ec97b5",
+    "fit_probe.py": "daaa93c6fe025d9eef1223ffe6c2cab28f845f68d0d3f15a0c6c56f8bac42d49",
+    "outline.py": "df53b2c37ded8cbe177d12e3d1cc086eb39a397682c1baadede16b3ed5b163d2",
+    "postselect.py": "7565fbe7865aa78a6c2454599cf7cfac8387c3b04526cc0ef2e9bad4d5690353",
+    "preview.py": "431f3832a8cb04ce990e520a60dc0af3cd1cce558fd3ed631195b04b120a29f0",
+    "reach.py": "d524702968d77b8b253d2f62d8eb1207dbd858e8f4a2115a3e3c25091d2ed4a7",
+    "repair_local.py": "120501d8e5c1358ef19cb8a325d4142834a2bdf20a287cf9cf98c3e2ee7ed1ea",
+    "run.sh": "94267f8143e6826701b50c552581238f9284ce5c6803d81d643e1951d4387e02",
+    "segment.py": "1ed7401b404b4a6c22f781df9892f3e559b1797f665595a27d54bc41fadb9632",
+    "surface.py": "76cb000480c23926757c83c709e2bc76025319215227916a0b8bc2d5d623bb2f"
+  },
+  "states": {
+    "pair055": {
+      "unique_final_candidates": 135,
+      "raw_feasible_final": 0,
+      "raw_feasible_at_repair_initialization": 0,
+      "whole_mesh_checks_during_fit": 1819,
+      "template_crossing_pairs": 320,
+      "final_selection": {
+        "v3": "v3_init",
+        "outline": "outline_init",
+        "hard": "repair_v3_58",
+        "joint": "repair_v3_58",
+        "joint_near": "repair_v3_58"
+      }
+    },
+    "pair068": {
+      "unique_final_candidates": 54,
+      "raw_feasible_final": 0,
+      "raw_feasible_at_repair_initialization": 0,
+      "whole_mesh_checks_during_fit": 2037,
+      "template_crossing_pairs": 320,
+      "final_selection": {
+        "v3": "v3_init",
+        "outline": "outline_init",
+        "hard": "hard_init",
+        "joint": "hard_init",
+        "joint_near": null
+      }
+    }
+  },
+  "devices": {
+    "segmentation": "one CUDA GPU",
+    "fit_and_evaluation": "CPU"
+  },
+  "diagnostic_image_sha256": "da4483272ff3e91edaecfe37340c4750d4a82fd137eecc394d0cac563b4eb64b",
+  "repeat055_verified_sha256": {
+    "pair055_states.npz": "462e00848bb07c1fe53183d8542ddcd60dc28004a5974f37ec9cadb7359de603",
+    "pair055_selection.json": "2549ae7fdc8c5e0a82c8aa1536e8168734a3af7781702e80d65e8a341a916925"
+  },
+  "commands": [
+    {
+      "command": "python -B runs/2026-11-24_two_stereo_contact/segment.py",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh common_run",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh fit_probe pair055",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh fit_probe pair068",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh repair_local pair055",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh repair_local pair068",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh reach",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh postselect pair055",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh postselect pair068",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh assess",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-24_two_stereo_contact/run.sh preview",
+      "exit_status": 0
+    }
+  ],
+  "recoveries": [
+    {
+      "commands": [
+        "fit_probe pair055",
+        "fit_probe pair068"
+      ],
+      "exit_status": 1,
+      "error": "AttributeError: SMPLX has no attribute jaw_pose",
+      "fix": "passed explicit zero face and expression parameters"
+    },
+    {
+      "commands": [
+        "fit_probe pair055",
+        "fit_probe pair068"
+      ],
+      "exit_status": 1,
+      "error": "IndexError: too many indices for tensor of dimension 2",
+      "fix": "converted face index arrays to explicit torch int64"
+    },
+    {
+      "commands": [
+        "fit_probe pair055"
+      ],
+      "exit_status": 143,
+      "artifact_complete": true,
+      "recovery": "reran to normal exit; both selection evidence and saved parameters matched SHA-256"
+    }
+  ],
+  "exit_status": 0
+}
