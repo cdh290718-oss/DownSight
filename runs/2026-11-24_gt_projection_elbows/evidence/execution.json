@@ -1,0 +1,143 @@
+{
+  "baseline": "af9d1f55f085ebfc13c01f55a9784147d45984e2",
+  "cwd": "<WORKSPACE>",
+  "commands": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_gt_projection_elbows/pixel_intervention.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_gt_projection_elbows/pixel_intervention.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_gt_projection_elbows/search_poses.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_gt_projection_elbows/evaluate.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_gt_projection_elbows/rescore.py",
+      "exit_status": 0
+    }
+  ],
+  "inputs_regenerated_equal": {
+    "fit/prepared.json": true,
+    "fit/protocol.json": true,
+    "image_inputs.json": true
+  },
+  "initial_issues": [
+    "First prepare raised AssertionError on comparing backend indices to RW indices before fitting; use names in official order.",
+    "First auxiliary image-inputs import failed due to a module-name collision. Renamed experiment module. Prepared inputs, configuration and image IDs regenerated and hash-verified."
+  ],
+  "fit_diagnostics": {
+    "budget": 20000,
+    "ids": [
+      [
+        "val031_detector",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val031_projected_wrists",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val031_projected_all",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val031_annotated_all",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val055_detector",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val055_projected_wrists",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val055_projected_all",
+        "baseline",
+        "2d"
+      ],
+      [
+        "val055_annotated_all",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "selected_step": [
+      20000,
+      20000,
+      19980,
+      20000,
+      20000,
+      20000,
+      20000,
+      20000
+    ],
+    "selected_feasible": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "relative_loss_change": [
+      0.0006902669542947966,
+      0.0007916977468204761,
+      0.0001626628290153581,
+      0.00013942106185085927,
+      0.0017169246348526356,
+      0.002265580105798953,
+      0.008457595996109887,
+      0.008527334951437872
+    ],
+    "max_joint_motion_mm": [
+      3.6683331892993576,
+      3.245887843428762,
+      0.4412766605687357,
+      0.4292896029732359,
+      3.3753282231542743,
+      3.5021986186729244,
+      5.217257229385725,
+      5.241729157313866
+    ],
+    "convergence_pass": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "warnings": [
+    "Existing MMCV migration warning and 10 shape coefficients model notice."
+  ],
+  "logs": [
+    "8 independent fits completed",
+    "8 of 8 final candidates pass elbow limits"
+  ],
+  "source_hashes": {
+    "rescore.py": "d55445151ab0eab865c546f16007bae9c7241a49bea5c5240803a61ed0a17519",
+    "pixel_intervention.py": "1561d9d3e2bf59aebfb63c8f005ca5ecd0f40158de28ca6147835a45dbc13f27",
+    "search_poses.py": "72e2eedcdee93214916a1e419997b630a564b669acf6165e687074e65f23adef",
+    "evaluate.py": "7fd4b0590c8bfd37d1ef81a8d532c62190f045cd1a4f8b5633c01f12a4ef8968"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "baseline": "af9d1f55f085ebfc13c01f55a9784147d45984e2",
+  "remote_before_commit": "af9d1f55f085ebfc13c01f55a9784147d45984e2",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 42,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested JPEG mesh visualizations, verified JPEG, no EXIF.",
+  "images": 2,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-24_gt_projection_elbows/assets/val031/comparison.jpg": "a3c36568a234a01920d14c0012cafdecaacaf037692d4ac456b9dd6d217a15e6",
+    "runs/2026-11-24_gt_projection_elbows/assets/val055/comparison.jpg": "310d77167f05bfa984ee4c8d044207296c03c829e8a56cd25df6edd0b7a84870",
+    "runs/2026-11-24_gt_projection_elbows/brief.md": "e437db25a5a750109fa77d65e6193ca05d2c81fabe3769e1d6cee079a8108aef",
+    "runs/2026-11-24_gt_projection_elbows/evaluate.py": "7fd4b0590c8bfd37d1ef81a8d532c62190f045cd1a4f8b5633c01f12a4ef8968",
+    "runs/2026-11-24_gt_projection_elbows/evidence/execution.json": "f10cd53ccc1731676da11f0844431ebf12e837147793eb27e1aebf2093d510cf",
+    "runs/2026-11-24_gt_projection_elbows/evidence/input_errors.json": "2842516b7b535b8d115d54b16c63fdc613382e9384cf55df73f2eb7c1e1d9d50",
+    "runs/2026-11-24_gt_projection_elbows/evidence/rescore.json": "f576075609bcd354f36b9d8f80a1863deea4ec05dab7a515f7411dffefe465c5",
+    "runs/2026-11-24_gt_projection_elbows/evidence/scores.json": "df99b0b5957746980af51b3bbd5c19f645ec2a1bf45cdfbb74fa229446f41dc5",
+    "runs/2026-11-24_gt_projection_elbows/evidence/validation_limits.json": "5deae6e4e67dca03cbc2cc21ec89501790aa8548fba1b242a6411dca29ad0d0b",
+    "runs/2026-11-24_gt_projection_elbows/evidence/validation_search.json": "957c42763364a16b4d9985e9c4b95c1df94cfa5f059c1eb3fc5fef276a927dff",
+    "runs/2026-11-24_gt_projection_elbows/evidence/views.json": "3aed77f92b5db957340f56450eba933121102a7dd8bef42b3faac7bf2900ae76",
+    "runs/2026-11-24_gt_projection_elbows/pixel_intervention.py": "1561d9d3e2bf59aebfb63c8f005ca5ecd0f40158de28ca6147835a45dbc13f27",
+    "runs/2026-11-24_gt_projection_elbows/report.md": "a1c2cf0353d260b2af7eb8223045aadb976ba43b6d01ffbc92848804c4293062",
+    "runs/2026-11-24_gt_projection_elbows/rescore.py": "d55445151ab0eab865c546f16007bae9c7241a49bea5c5240803a61ed0a17519",
+    "runs/2026-11-24_gt_projection_elbows/review.md": "fc65f623ea9aa2dcba7f75ad4469feb47800dfdb18f9d290dfad064fd9047471",
+    "runs/2026-11-24_gt_projection_elbows/search_poses.py": "72e2eedcdee93214916a1e419997b630a564b669acf6165e687074e65f23adef"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

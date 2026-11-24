@@ -1,0 +1,90 @@
+{
+  "val031": {
+    "detector": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.03304389491677284,
+        "non_pa_mm": 109.4047812254914,
+        "name": "baseline"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.03304389491677284,
+        "non_pa_mm": 109.4047812254914,
+        "name": "baseline"
+      }
+    },
+    "projected_wrists": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.03898518159985542,
+        "non_pa_mm": 80.91276776984459,
+        "name": "wrist"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.03898518159985542,
+        "non_pa_mm": 80.91276776984459,
+        "name": "wrist"
+      }
+    },
+    "projected_all": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.026567600667476654,
+        "non_pa_mm": 27.546052948245958,
+        "name": "fixed"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.024413324892520905,
+        "non_pa_mm": 32.07329259455232,
+        "name": "spine3_0_4"
+      }
+    }
+  },
+  "val055": {
+    "detector": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.006566305179148912,
+        "non_pa_mm": 58.5471777980302,
+        "name": "baseline"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.006566305179148912,
+        "non_pa_mm": 58.5471777980302,
+        "name": "baseline"
+      }
+    },
+    "projected_wrists": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.028918622061610222,
+        "non_pa_mm": 49.73396631647093,
+        "name": "baseline"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.028918622061610222,
+        "non_pa_mm": 49.73396631647093,
+        "name": "baseline"
+      }
+    },
+    "projected_all": {
+      "selected_for_own_inputs": {
+        "feasible": true,
+        "detector_loss": 0.03388076648116112,
+        "non_pa_mm": 56.20606411455481,
+        "name": "baseline"
+      },
+      "lowest_detector_loss": {
+        "feasible": true,
+        "detector_loss": 0.03287295624613762,
+        "non_pa_mm": 51.003227083933226,
+        "name": "spine3_0_-4"
+      }
+    }
+  }
+}
