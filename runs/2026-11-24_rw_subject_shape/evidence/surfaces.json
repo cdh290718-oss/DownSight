@@ -1,0 +1,338 @@
+{
+  "exit_status": 0,
+  "rows": {
+    "val031": {
+      "mean": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 22,
+          "R_forearm / R_upperarm": 44
+        },
+        "all_intersections": {
+          "head / head": 290,
+          "trunk / trunk": 5,
+          "L_thigh / R_thigh": 28,
+          "L_forearm / L_upperarm": 22,
+          "L_forearm / L_forearm": 5,
+          "L_foot / L_foot": 20,
+          "R_forearm / R_upperarm": 44,
+          "R_forearm / R_forearm": 1,
+          "R_foot / R_foot": 11
+        },
+        "forearm_direction_error_deg": {
+          "L": 91.59052321047992,
+          "R": 75.02332575587646
+        }
+      },
+      "cohort": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 32,
+          "R_forearm / R_upperarm": 53
+        },
+        "all_intersections": {
+          "head / head": 288,
+          "L_thigh / R_thigh": 54,
+          "L_forearm / L_upperarm": 32,
+          "L_forearm / L_forearm": 7,
+          "L_upperarm / L_upperarm": 2,
+          "L_foot / L_foot": 18,
+          "R_forearm / R_upperarm": 53,
+          "R_forearm / R_forearm": 1,
+          "R_foot / R_foot": 17
+        },
+        "forearm_direction_error_deg": {
+          "L": 90.48292903175563,
+          "R": 74.86851663720996
+        }
+      },
+      "personal": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 35,
+          "R_forearm / R_upperarm": 51
+        },
+        "all_intersections": {
+          "head / head": 285,
+          "L_thigh / R_thigh": 54,
+          "L_forearm / L_upperarm": 35,
+          "L_forearm / L_forearm": 4,
+          "L_upperarm / L_upperarm": 3,
+          "L_foot / L_foot": 11,
+          "trunk / trunk": 12,
+          "R_forearm / R_upperarm": 51,
+          "R_forearm / R_forearm": 1,
+          "R_foot / R_foot": 11,
+          "R_upperarm / R_upperarm": 1
+        },
+        "forearm_direction_error_deg": {
+          "L": 89.7967933527549,
+          "R": 74.95996485969478
+        }
+      },
+      "stereo12": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 39,
+          "R_forearm / R_upperarm": 53
+        },
+        "all_intersections": {
+          "head / head": 306,
+          "L_thigh / R_thigh": 61,
+          "L_forearm / L_upperarm": 39,
+          "L_forearm / L_forearm": 5,
+          "L_upperarm / L_upperarm": 3,
+          "L_foot / L_foot": 40,
+          "trunk / trunk": 25,
+          "R_forearm / R_upperarm": 53,
+          "R_upperarm / R_upperarm": 2,
+          "R_upperarm / trunk": 5,
+          "R_forearm / R_forearm": 4,
+          "R_foot / R_foot": 51
+        },
+        "forearm_direction_error_deg": {
+          "L": 90.2242336326567,
+          "R": 75.28463789482149
+        }
+      }
+    },
+    "val055": {
+      "mean": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 0,
+          "R_forearm / R_upperarm": 76
+        },
+        "all_intersections": {
+          "head / head": 305,
+          "L_upperarm / trunk": 95,
+          "L_foot / L_foot": 11,
+          "R_upperarm / trunk": 89,
+          "R_forearm / R_upperarm": 76,
+          "trunk / trunk": 9,
+          "R_forearm / R_forearm": 3,
+          "R_foot / R_foot": 11
+        },
+        "forearm_direction_error_deg": {
+          "L": 37.14405696931998,
+          "R": 12.85803713392709
+        }
+      },
+      "cohort": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 0,
+          "R_forearm / R_upperarm": 79
+        },
+        "all_intersections": {
+          "head / head": 295,
+          "L_upperarm / trunk": 102,
+          "L_foot / L_foot": 9,
+          "R_upperarm / trunk": 92,
+          "R_forearm / R_upperarm": 79,
+          "trunk / trunk": 12,
+          "R_foot / R_foot": 13,
+          "L_upperarm / L_upperarm": 1,
+          "R_forearm / R_forearm": 1
+        },
+        "forearm_direction_error_deg": {
+          "L": 37.08389988750185,
+          "R": 13.232412436695277
+        }
+      },
+      "personal": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 0,
+          "R_forearm / R_upperarm": 79
+        },
+        "all_intersections": {
+          "head / head": 298,
+          "L_upperarm / trunk": 107,
+          "L_foot / L_foot": 9,
+          "R_upperarm / trunk": 89,
+          "R_forearm / R_upperarm": 79,
+          "trunk / trunk": 13,
+          "R_foot / R_foot": 13,
+          "R_forearm / R_forearm": 1
+        },
+        "forearm_direction_error_deg": {
+          "L": 37.01800674207025,
+          "R": 13.234872317900308
+        }
+      },
+      "stereo12": {
+        "original_regions": {
+          "L_forearm / L_upperarm": 0,
+          "R_forearm / R_upperarm": 74
+        },
+        "all_intersections": {
+          "head / head": 306,
+          "L_upperarm / trunk": 102,
+          "L_foot / L_foot": 11,
+          "R_upperarm / trunk": 93,
+          "trunk / trunk": 9,
+          "R_forearm / R_upperarm": 74,
+          "R_foot / R_foot": 11,
+          "R_forearm / R_forearm": 1
+        },
+        "forearm_direction_error_deg": {
+          "L": 37.27118304478543,
+          "R": 12.857098770132623
+        }
+      }
+    },
+    "pair055": {
+      "mean": {
+        "original_regions": {
+          "L_hand / L_thigh": 121
+        },
+        "all_intersections": {
+          "head / head": 298,
+          "L_hand / L_thigh": 121,
+          "trunk / trunk": 62,
+          "L_foot / L_foot": 17,
+          "R_foot / R_foot": 15
+        },
+        "forearm_direction_error_deg": {
+          "L": 4.033247530304551,
+          "R": 15.345169703905217
+        }
+      },
+      "cohort": {
+        "original_regions": {
+          "L_hand / L_thigh": 103
+        },
+        "all_intersections": {
+          "head / head": 305,
+          "trunk / trunk": 185,
+          "L_hand / L_thigh": 103,
+          "L_foot / L_foot": 15,
+          "R_forearm / R_upperarm": 17,
+          "R_upperarm / trunk": 5,
+          "R_foot / R_foot": 15,
+          "R_upperarm / R_upperarm": 1
+        },
+        "forearm_direction_error_deg": {
+          "L": 2.614766759697847,
+          "R": 14.965822513716848
+        }
+      },
+      "personal": {
+        "original_regions": {
+          "L_hand / L_thigh": 108
+        },
+        "all_intersections": {
+          "head / head": 308,
+          "trunk / trunk": 172,
+          "L_hand / L_thigh": 108,
+          "L_foot / L_foot": 15,
+          "R_forearm / R_upperarm": 26,
+          "R_upperarm / trunk": 9,
+          "R_foot / R_foot": 11
+        },
+        "forearm_direction_error_deg": {
+          "L": 2.386672075592533,
+          "R": 15.900253310741238
+        }
+      },
+      "stereo12": {
+        "original_regions": {
+          "L_hand / L_thigh": 114
+        },
+        "all_intersections": {
+          "head / head": 304,
+          "trunk / trunk": 175,
+          "L_hand / L_thigh": 114,
+          "L_upperarm / trunk": 5,
+          "L_foot / L_foot": 18,
+          "R_forearm / R_upperarm": 19,
+          "R_upperarm / trunk": 10,
+          "R_foot / R_foot": 17
+        },
+        "forearm_direction_error_deg": {
+          "L": 2.5922697239897587,
+          "R": 15.497078448170234
+        }
+      }
+    },
+    "pair068": {
+      "mean": {
+        "original_regions": {
+          "L_hand / R_hand": 337
+        },
+        "all_intersections": {
+          "head / head": 290,
+          "trunk / trunk": 31,
+          "L_upperarm / trunk": 26,
+          "L_thigh / R_thigh": 28,
+          "L_hand / R_hand": 337,
+          "L_foot / L_foot": 11,
+          "R_upperarm / trunk": 48,
+          "R_foot / R_foot": 11
+        },
+        "forearm_direction_error_deg": {
+          "L": 9.425134049810948,
+          "R": 6.759363473439282
+        }
+      },
+      "cohort": {
+        "original_regions": {
+          "L_hand / R_hand": 425
+        },
+        "all_intersections": {
+          "head / head": 291,
+          "L_upperarm / trunk": 45,
+          "L_thigh / R_thigh": 57,
+          "trunk / trunk": 25,
+          "L_hand / R_hand": 425,
+          "L_foot / L_foot": 15,
+          "R_upperarm / trunk": 76,
+          "R_foot / R_foot": 9
+        },
+        "forearm_direction_error_deg": {
+          "L": 8.628084863621577,
+          "R": 6.938642555763991
+        }
+      },
+      "personal": {
+        "original_regions": {
+          "L_hand / R_hand": 382
+        },
+        "all_intersections": {
+          "head / head": 301,
+          "trunk / trunk": 28,
+          "L_upperarm / trunk": 36,
+          "L_thigh / R_thigh": 54,
+          "L_hand / R_hand": 382,
+          "L_foot / L_foot": 9,
+          "R_upperarm / trunk": 68,
+          "R_foot / R_foot": 9
+        },
+        "forearm_direction_error_deg": {
+          "L": 8.943260082067692,
+          "R": 6.838296548334324
+        }
+      },
+      "stereo12": {
+        "original_regions": {
+          "L_hand / R_hand": 453
+        },
+        "all_intersections": {
+          "head / head": 294,
+          "L_upperarm / trunk": 49,
+          "trunk / trunk": 36,
+          "L_thigh / R_thigh": 53,
+          "L_hand / R_hand": 453,
+          "L_foot / L_foot": 15,
+          "R_upperarm / trunk": 79,
+          "R_thigh / R_thigh": 3,
+          "R_foot / R_foot": 11
+        },
+        "forearm_direction_error_deg": {
+          "L": 8.124453223547675,
+          "R": 6.539441571333088
+        }
+      }
+    }
+  },
+  "baseline_obj_sha256": {
+    "pair068": "8d11e28b750c0e86ddbf05fbbd27199f73764d715368a028e62596559ac592f3",
+    "pair055": "23a7715a961f239ece2d81350257e419e75180ce0c674c78a8e910a21edc77c7",
+    "val031": "0df834f96f5e05b440925714ee319161931ead699261cd82873838e8b4256abd",
+    "val055": "99b9806486f287bcc1a0dbf538fa01f776536bcf25518025af21c0661f6b04b2"
+  }
+}

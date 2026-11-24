@@ -1,0 +1,171 @@
+{
+  "exit_status": 0,
+  "records": {
+    "S1": {
+      "uniform_scale": {
+        "mae_mm": 16.615366094150787,
+        "proportion_mae_pp": 2.013782904316767
+      },
+      "matched_official": {
+        "mae_mm": 16.75283150097084,
+        "proportion_mae_pp": 2.0142655634317013
+      },
+      "stereo12": {
+        "mae_mm": 36.66188146408197,
+        "proportion_mae_pp": 2.860205665671658
+      }
+    },
+    "S10": {
+      "uniform_scale": {
+        "mae_mm": 32.924612603645286,
+        "proportion_mae_pp": 3.9522648879784015
+      }
+    },
+    "S11": {
+      "uniform_scale": {
+        "mae_mm": 21.005084238525516,
+        "proportion_mae_pp": 2.8795707353734916
+      },
+      "matched_official": {
+        "mae_mm": 22.036770185959313,
+        "proportion_mae_pp": 2.9956453001927086
+      },
+      "stereo12": {
+        "mae_mm": 39.615587818482354,
+        "proportion_mae_pp": 2.6529592771041566
+      }
+    },
+    "S12": {
+      "uniform_scale": {
+        "mae_mm": 22.94830666311355,
+        "proportion_mae_pp": 3.3514252952256403
+      }
+    },
+    "S13": {
+      "uniform_scale": {
+        "mae_mm": 23.531464030524848,
+        "proportion_mae_pp": 2.8912338746078414
+      },
+      "matched_official": {
+        "mae_mm": 24.066981597181186,
+        "proportion_mae_pp": 2.8552290444107467
+      },
+      "stereo12": {
+        "mae_mm": 22.105094275849694,
+        "proportion_mae_pp": 2.733044273697297
+      }
+    },
+    "S14": {
+      "uniform_scale": {
+        "mae_mm": 13.88470631418485,
+        "proportion_mae_pp": 1.928381044139868
+      }
+    },
+    "S15": {
+      "uniform_scale": {
+        "mae_mm": 16.907965982149808,
+        "proportion_mae_pp": 2.3066046365510386
+      },
+      "matched_official": {
+        "mae_mm": 17.027123446658855,
+        "proportion_mae_pp": 1.9279269132421673
+      },
+      "stereo12": {
+        "mae_mm": 27.150685363643163,
+        "proportion_mae_pp": 1.8986077074110235
+      }
+    },
+    "S16": {
+      "uniform_scale": {
+        "mae_mm": 17.550917708398387,
+        "proportion_mae_pp": 2.5219889128119957
+      }
+    },
+    "S2": {
+      "uniform_scale": {
+        "mae_mm": 16.79120125486283,
+        "proportion_mae_pp": 2.040937056889561
+      }
+    },
+    "S3": {
+      "uniform_scale": {
+        "mae_mm": 23.39197447430708,
+        "proportion_mae_pp": 2.91393946722505
+      },
+      "matched_official": {
+        "mae_mm": 20.097194801552714,
+        "proportion_mae_pp": 2.6270173101434606
+      },
+      "stereo12": {
+        "mae_mm": 78.09815104389786,
+        "proportion_mae_pp": 3.996409143772836
+      }
+    },
+    "S4": {
+      "uniform_scale": {
+        "mae_mm": 16.651317245865915,
+        "proportion_mae_pp": 2.0254729926772606
+      }
+    },
+    "S5": {
+      "uniform_scale": {
+        "mae_mm": 16.581511619608857,
+        "proportion_mae_pp": 2.0126915700526786
+      },
+      "matched_official": {
+        "mae_mm": 16.05237615197848,
+        "proportion_mae_pp": 1.9694695690416877
+      },
+      "stereo12": {
+        "mae_mm": 20.468353569141076,
+        "proportion_mae_pp": 2.042304268297434
+      }
+    },
+    "S6": {
+      "uniform_scale": {
+        "mae_mm": 32.30769241414289,
+        "proportion_mae_pp": 4.012438769257526
+      }
+    },
+    "S7": {
+      "uniform_scale": {
+        "mae_mm": 16.532926808617212,
+        "proportion_mae_pp": 2.0082386121839533
+      }
+    },
+    "S8": {
+      "uniform_scale": {
+        "mae_mm": 23.442915047952315,
+        "proportion_mae_pp": 2.877665442650549
+      }
+    },
+    "S9": {
+      "uniform_scale": {
+        "mae_mm": 24.703425075871863,
+        "proportion_mae_pp": 3.00220174440355
+      },
+      "matched_official": {
+        "mae_mm": 21.004789886127707,
+        "proportion_mae_pp": 2.652163366506315
+      },
+      "stereo12": {
+        "mae_mm": 38.272456095418306,
+        "proportion_mae_pp": 2.531517139981633
+      }
+    }
+  },
+  "summary": {
+    "uniform_scale": {
+      "mae_mm": 20.985711723495125,
+      "proportion_mae_pp": 2.671177371646573
+    },
+    "matched_official": {
+      "mae_mm": 19.576866795775583,
+      "proportion_mae_pp": 2.4345310095669697
+    },
+    "stereo12": {
+      "mae_mm": 37.48174423293063,
+      "proportion_mae_pp": 2.673578210848006
+    }
+  }
+}
