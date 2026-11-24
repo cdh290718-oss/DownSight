@@ -1,0 +1,21 @@
+{
+  "count": 200,
+  "archived_inputs": {
+    "pairs": 200,
+    "seconds": 39.4248839057982,
+    "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "parameter_sha256": "ad8fcb3ea77ccd9d586135fcfc1293c81c8569190c60dd83431b9e820cb3db70",
+    "choices_sha256": "a4d55550420d97ad572a82bf37ff93c405cd75c608047847cf3968e5018bebb3",
+    "wrist_sha256": "b3b9c06d8d02137eb1be79ba42bb2f8b9f1551280d03f8d5c240de2f21b42ae3",
+    "baseline_sha256": "8af2b4f6d7aec35888a416ea9a144bd70c3b0688e8fd5bbcc7c1ef1147fce88d",
+    "prepared_sha256": "2c898e7e304085abc70a274fbd92e3f5294a91d3ea90e427ea1ba3852d69ee53",
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "chain_probes": 845006,
+    "composed_poses": 2528,
+    "exit_status": 0
+  },
+  "selected_sha256": "18b376b526ce5563c512acb498c0a51aad31270812f286eba87cfdee098d1c43",
+  "training_sha256": "b73e76802720d8e229f78ef61cb78683a6ac99ff9f824fedc754d69b40a6cd06",
+  "decision_sha256": "c7002e314911d7ea2132101243a3d7f4837b56e2eb42b91e932ebb93f0daecf6",
+  "exit_status": 0
+}

@@ -1,0 +1,37 @@
+{
+  "baseline": "b1e7d687f8a2409070c39dc405c6a0ef0cc76f32",
+  "remote_before_commit": "b1e7d687f8a2409070c39dc405c6a0ef0cc76f32",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested JPEG mesh visualizations, verified JPEG, no EXIF.",
+  "images": 2,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-24_conditional_limbs/assets/val031/comparison.jpg": "d623e25f425b316775085c14fd4ecb79737ddc7871832f01464f4ec006fd2e7b",
+    "runs/2026-11-24_conditional_limbs/assets/val055/comparison.jpg": "e1b3be855ccaec0c2566f8c5bf04271db0b927d07d78d5cbf86279b67b206849",
+    "runs/2026-11-24_conditional_limbs/brief.md": "ce88727f2e67173a61a81b113090d66f32778ee76a6f35c1c5082b1593272795",
+    "runs/2026-11-24_conditional_limbs/evaluate.py": "f42aa58480994e1ca7e73a552b94f2df57b83d57af0bd27bf62d77529b601f7a",
+    "runs/2026-11-24_conditional_limbs/evidence/execution.json": "1d7dda41a80d18d165290468c54ec449ecf67fd18b7fe54cc65b27db1648436c",
+    "runs/2026-11-24_conditional_limbs/evidence/test_scores.json": "79c9cc36c39a0cc6fc6a32a86edb8139a65b6b35f91308db1a1369f8d585fdf3",
+    "runs/2026-11-24_conditional_limbs/evidence/test_selection.json": "d93bb34c4fa4158c9961fd3595a2885dd7b6eda0aeeea8be724513adb48305b1",
+    "runs/2026-11-24_conditional_limbs/evidence/training.json": "9fcaad0f4389c91e63b65585b3e06cefae7f05f86c9e13496e014aec82fed8c2",
+    "runs/2026-11-24_conditional_limbs/evidence/validation_scores.json": "c0c9166c04b3a4d8c18e4eb958953a293e9d9e72173abf2ac201921d8de20d45",
+    "runs/2026-11-24_conditional_limbs/evidence/validation_selection.json": "a94cfa7c801b67a001f3b5ee4f44dee55d7f29a106ff7e58984447402fef8b79",
+    "runs/2026-11-24_conditional_limbs/evidence/views.json": "f445f6a3ea0c540f95ce5785c1009d28503dfb3da92003a476ce280b80e91c97",
+    "runs/2026-11-24_conditional_limbs/prior.py": "e45bc1734789e4e2cac5e4115015dcf7c32603d7a371e1f56addc7d0aa9fce03",
+    "runs/2026-11-24_conditional_limbs/report.md": "f8fdfafb7e7f915570eeedfaa9ce639bff62117b7ba150c5fb3340c20bae3a7f",
+    "runs/2026-11-24_conditional_limbs/review.md": "5b269616a5eafa29945e5a77fae535a5e07243d398ab6beca5ca86507f2059e1",
+    "runs/2026-11-24_conditional_limbs/select_pose.py": "602a234e2f26b61defacc617d21834dfdf2e9b7c0fb6cf9ad80bbce871fe23b5",
+    "runs/2026-11-24_conditional_limbs/show_cases.py": "064e230c396e824d97155e497511fa9f0483b465b69ef6b446e0e58f13a8b685"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

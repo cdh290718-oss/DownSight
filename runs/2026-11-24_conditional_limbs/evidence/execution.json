@@ -1,0 +1,53 @@
+{
+  "baseline": "b1e7d687f8a2409070c39dc405c6a0ef0cc76f32",
+  "commands": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/prior.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/select_pose.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/select_pose.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/evaluate.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/evaluate.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_conditional_limbs/show_cases.py",
+      "exit_status": 0
+    }
+  ],
+  "without_val031": {
+    "v3": {
+      "mpjpe": 62.433785414820406,
+      "pa": 45.10065796819193
+    },
+    "prior": {
+      "mpjpe": 62.42736723148622,
+      "pa": 45.169790393202696
+    }
+  },
+  "flagged": {
+    "val031": {
+      "name": "recomposed/spine3_0_-4",
+      "base": "baseline",
+      "chain_trials": 4362,
+      "base_penalty": 0.05281744100346824
+    },
+    "val055": {
+      "name": "archived/baseline",
+      "base": "baseline",
+      "chain_trials": 4444,
+      "base_penalty": 0.0
+    }
+  }
+}

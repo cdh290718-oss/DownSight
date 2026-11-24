@@ -1,0 +1,28 @@
+{
+  "frames": 79705,
+  "people": [
+    "S10",
+    "S12",
+    "S14",
+    "S16",
+    "S2",
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "chain_order": [
+    "L_arm",
+    "R_arm",
+    "L_leg",
+    "R_leg"
+  ],
+  "threshold": [
+    0.1688150360861739,
+    0.17564671241025742,
+    0.1544624958267127,
+    0.15982695536718067
+  ],
+  "statistic": "95th percentile of leave-one-subject-out nearest 6D distance",
+  "weight": 0.01
+}
