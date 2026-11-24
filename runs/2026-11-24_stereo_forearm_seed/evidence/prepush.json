@@ -1,0 +1,13 @@
+{
+  "baseline": "fca81c0b5af5ee116a76b2c7251f62114a5b61b1",
+  "scope": "runs/2026-11-24_stereo_forearm_seed",
+  "worktree": "unrelated tracked and untracked changes excluded",
+  "checks": [
+    "explicit path and extension allowlist",
+    "two derived renders, numeric summaries only",
+    "each file below 50 MB",
+    "credential and machine-path patterns",
+    "no arrays, weights, datasets, meshes, full provenance or patch",
+    "staged and outgoing blobs checked against worktree; remote main checked before push"
+  ]
+}

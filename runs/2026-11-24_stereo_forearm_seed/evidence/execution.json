@@ -1,0 +1,32 @@
+{
+  "baseline": "fca81c0b5af5ee116a76b2c7251f62114a5b61b1",
+  "cwd": "<WORKSPACE>",
+  "command": "bash runs/2026-11-24_stereo_forearm_seed/run.sh",
+  "exit_status": 0,
+  "device": "CPU",
+  "threads": 1,
+  "stages": [
+    "fit",
+    "score",
+    "render"
+  ],
+  "initial_fit_score_exit_status": 0,
+  "scope": "two preselected validation frames",
+  "runtime_messages": [
+    "MMCV version transition warning",
+    "SMPL model with ten shape coefficients"
+  ],
+  "source_sha256": {
+    "compare_views.py": "ef061ccbee7fe136628b768cf9358ecc6510ec6cd57433e01e25740d83fea2aa",
+    "forearm_seed.py": "f827c0419ec9f302dc40c1e227ef9c9cc2903ae610954811ab8434c427db33e1",
+    "run.sh": "79f463ffa1f5465a246fad20be8bad82b17eaa513137d071bf05f07dad4b5da6"
+  },
+  "derived_views_sha256": {
+    "val031.jpg": "a54e78c86047919c680720913cdd9bce6c396f51ae1abf9ccbd87c4faa837750",
+    "val055.jpg": "ccf73762c2aa2325b2370f384a67744a200fd32d5a3a63fb254e49d807a3e0f4"
+  },
+  "floor_inputs_sha256": {
+    "val031": "e7c98f9403663f6607cd963ee7463fffec626ba61cb5f6ef4ff8738b990fc630",
+    "val055": "bcf962191617c624ab3973d14ec74b76956ec9daf6f895c18520a5661d2509a6"
+  }
+}

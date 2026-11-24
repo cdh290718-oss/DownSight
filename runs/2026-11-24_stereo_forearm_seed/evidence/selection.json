@@ -1,0 +1,131 @@
+{
+  "frames": {
+    "val031": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.7045438134299359,
+            -0.3686779157239695,
+            -0.6063782725453093
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            true
+          ],
+          "direction": [
+            0.5219126657125785,
+            -0.42293090610064704,
+            -0.7407675870566125
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.03304389491677284,
+        "old": 0.033025264739990234,
+        "left": 0.030292704701423645,
+        "right": 0.012205769307911396,
+        "both": 0.009491635486483574
+      },
+      "initial_loss": {
+        "old": 0.03304389491677284,
+        "left": 0.0901113897562027,
+        "right": 0.08755853772163391,
+        "both": 0.14462602138519287
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 997,
+        "left": 996,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "val055": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4967290535878836,
+            0.5280099215811586,
+            0.6888147574156234
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.628693857861584,
+            0.7189884552526542,
+            -0.2963100307119563
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.006566302850842476,
+        "old": 0.006560192909091711,
+        "left": 0.0065594990737736225,
+        "right": 0.006562223192304373,
+        "both": 0.006560042966157198
+      },
+      "initial_loss": {
+        "old": 0.006566302850842476,
+        "left": 0.013506892137229443,
+        "right": 0.006732982117682695,
+        "both": 0.01367357186973095
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 995,
+        "both": 1000
+      }
+    }
+  },
+  "steps_per_start": 1000,
+  "fields": [
+    "old",
+    "left",
+    "right",
+    "both"
+  ],
+  "hashes": {
+    "validation_bank.npz": "ad8fcb3ea77ccd9d586135fcfc1293c81c8569190c60dd83431b9e820cb3db70",
+    "validation_choices.json": "a4d55550420d97ad572a82bf37ff93c405cd75c608047847cf3968e5018bebb3",
+    "prepared.json": "2c898e7e304085abc70a274fbd92e3f5294a91d3ea90e427ea1ba3852d69ee53",
+    "protocol.json": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "checkpoints_sha256": "79c9f388a3515a7e6c4d538d8f915692e920f99dd4997ba6e9142ae74016ef1a",
+  "exit_status": 0
+}
