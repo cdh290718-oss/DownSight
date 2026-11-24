@@ -1,0 +1,12 @@
+{
+  "scope": "runs/2026-11-24_v3_contact",
+  "remote_before": "301abb1dd4b1e3e53f4c1a1ca629ec5c93ec8a49",
+  "worktree_reviewed": true,
+  "unrelated_modified_and_untracked_files_excluded": true,
+  "checks": [
+    "allowlisted UTF-8 text only",
+    "less than 50 MB per file",
+    "credentials, machine paths, environment files, arrays, datasets, weights, images, meshes, patches and raw output excluded",
+    "staged and outgoing paths rechecked before push"
+  ]
+}

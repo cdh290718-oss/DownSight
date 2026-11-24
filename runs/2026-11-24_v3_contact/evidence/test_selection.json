@@ -1,0 +1,5220 @@
+{
+  "rows": {
+    "pair001": {
+      "before": {
+        "L_hand/R_hand": [
+          18.46908187866211,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.5708773732185364,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra43",
+      "base_name": "baseline",
+      "mesh_alternatives": 22,
+      "v3_loss": 0.00466906325891614,
+      "selected_loss": 0.004670325666666031,
+      "selected_total": 0.004670325666666031
+    },
+    "pair002": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.004154253285378218,
+      "selected_loss": 0.004154253285378218,
+      "selected_total": 0.004154253285378218
+    },
+    "pair003": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "spine3_1_4",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005970028694719076,
+      "selected_loss": 0.005970028694719076,
+      "selected_total": 0.005970028694719076
+    },
+    "pair004": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.012088633142411709,
+      "selected_loss": 0.012088633142411709,
+      "selected_total": 0.012088633142411709
+    },
+    "pair005": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003941248636692762,
+      "selected_loss": 0.003941248636692762,
+      "selected_total": 0.003941248636692762
+    },
+    "pair006": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0031079717446118593,
+      "selected_loss": 0.0031079717446118593,
+      "selected_total": 0.0031079717446118593
+    },
+    "pair007": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.010687937028706074,
+      "selected_loss": 0.010687937028706074,
+      "selected_total": 0.010687937028706074
+    },
+    "pair008": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00388796697370708,
+      "selected_loss": 0.00388796697370708,
+      "selected_total": 0.00388796697370708
+    },
+    "pair009": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.002185664139688015,
+      "selected_loss": 0.002185664139688015,
+      "selected_total": 0.002185664139688015
+    },
+    "pair010": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "spine3_1_-4",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.1858372986316681,
+      "selected_loss": 0.1858372986316681,
+      "selected_total": 0.1858372986316681
+    },
+    "pair011": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008659341372549534,
+      "selected_loss": 0.008659341372549534,
+      "selected_total": 0.008659341372549534
+    },
+    "pair012": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0032166698947548866,
+      "selected_loss": 0.0032166698947548866,
+      "selected_total": 0.0032166698947548866
+    },
+    "pair013": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0022951867431402206,
+      "selected_loss": 0.0022951867431402206,
+      "selected_total": 0.0022951867431402206
+    },
+    "pair014": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.002081913873553276,
+      "selected_loss": 0.002081913873553276,
+      "selected_total": 0.002081913873553276
+    },
+    "pair015": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0030936505645513535,
+      "selected_loss": 0.0030936505645513535,
+      "selected_total": 0.0030936505645513535
+    },
+    "pair016": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0029395970050245523,
+      "selected_loss": 0.0029395970050245523,
+      "selected_total": 0.0029395970050245523
+    },
+    "pair017": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0024378905072808266,
+      "selected_loss": 0.0024378905072808266,
+      "selected_total": 0.0024378905072808266
+    },
+    "pair018": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0029853954911231995,
+      "selected_loss": 0.0029853954911231995,
+      "selected_total": 0.0029853954911231995
+    },
+    "pair019": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          10.074382781982422
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          10.074382781982422
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0020044450648128986,
+      "selected_loss": 0.0020044450648128986,
+      "selected_total": 0.0020044450648128986
+    },
+    "pair020": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.004035212565213442,
+      "selected_loss": 0.004035212565213442,
+      "selected_total": 0.004035212565213442
+    },
+    "pair021": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.006219925358891487,
+      "selected_loss": 0.006219925358891487,
+      "selected_total": 0.006219925358891487
+    },
+    "pair022": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.012674846686422825,
+      "selected_loss": 0.012674846686422825,
+      "selected_total": 0.012674846686422825
+    },
+    "pair023": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0024446905590593815,
+      "selected_loss": 0.0024446905590593815,
+      "selected_total": 0.0024446905590593815
+    },
+    "pair024": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.1330423355102539,
+      "selected_loss": 0.1330423355102539,
+      "selected_total": 0.1330423355102539
+    },
+    "pair025": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.002923692809417844,
+      "selected_loss": 0.002923692809417844,
+      "selected_total": 0.002923692809417844
+    },
+    "pair026": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.006666033063083887,
+      "selected_loss": 0.006666033063083887,
+      "selected_total": 0.006666033063083887
+    },
+    "pair027": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0060442592948675156,
+      "selected_loss": 0.0060442592948675156,
+      "selected_total": 0.0060442592948675156
+    },
+    "pair028": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00610247440636158,
+      "selected_loss": 0.00610247440636158,
+      "selected_total": 0.00610247440636158
+    },
+    "pair029": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008145703002810478,
+      "selected_loss": 0.008145703002810478,
+      "selected_total": 0.008145703002810478
+    },
+    "pair030": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0034531238488852978,
+      "selected_loss": 0.0034531238488852978,
+      "selected_total": 0.0034531238488852978
+    },
+    "pair031": {
+      "before": {
+        "L_hand/R_hand": [
+          3.646195888519287,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          0.048571761697530746
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra25",
+      "base_name": "baseline",
+      "mesh_alternatives": 1,
+      "v3_loss": 0.007177544757723808,
+      "selected_loss": 0.007177860476076603,
+      "selected_total": 0.007177860476076603
+    },
+    "pair032": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0053094737231731415,
+      "selected_loss": 0.0053094737231731415,
+      "selected_total": 0.0053094737231731415
+    },
+    "pair033": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0032527584116905928,
+      "selected_loss": 0.0032527584116905928,
+      "selected_total": 0.0032527584116905928
+    },
+    "pair034": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00351574900560081,
+      "selected_loss": 0.00351574900560081,
+      "selected_total": 0.00351574900560081
+    },
+    "pair035": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.007277205586433411,
+      "selected_loss": 0.007277205586433411,
+      "selected_total": 0.007277205586433411
+    },
+    "pair036": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.009258456528186798,
+      "selected_loss": 0.009258456528186798,
+      "selected_total": 0.009258456528186798
+    },
+    "pair037": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.01432439498603344,
+      "selected_loss": 0.01432439498603344,
+      "selected_total": 0.01432439498603344
+    },
+    "pair038": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00812541227787733,
+      "selected_loss": 0.00812541227787733,
+      "selected_total": 0.00812541227787733
+    },
+    "pair039": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008067398332059383,
+      "selected_loss": 0.008067398332059383,
+      "selected_total": 0.008067398332059383
+    },
+    "pair040": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008144342340528965,
+      "selected_loss": 0.008144342340528965,
+      "selected_total": 0.008144342340528965
+    },
+    "pair041": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008996319025754929,
+      "selected_loss": 0.008996319025754929,
+      "selected_total": 0.008996319025754929
+    },
+    "pair042": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00851166620850563,
+      "selected_loss": 0.00851166620850563,
+      "selected_total": 0.00851166620850563
+    },
+    "pair043": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          33.95631408691406,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          13.443586349487305,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          6.336697101593018
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          13.380843162536621,
+          0.0
+        ]
+      },
+      "selected": "extra52",
+      "base_name": "baseline",
+      "mesh_alternatives": 81,
+      "v3_loss": 0.009349433705210686,
+      "selected_loss": 0.009350699372589588,
+      "selected_total": 0.02230305848161524
+    },
+    "pair044": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          33.070438385009766,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          1.8203253746032715,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra34",
+      "base_name": "baseline",
+      "mesh_alternatives": 6,
+      "v3_loss": 0.00872714351862669,
+      "selected_loss": 0.00872745830565691,
+      "selected_total": 0.00872745830565691
+    },
+    "pair045": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.354044198989868
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.354044198989868
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.011889553628861904,
+      "selected_loss": 0.011889553628861904,
+      "selected_total": 0.011889553628861904
+    },
+    "pair046": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.009255836717784405,
+      "selected_loss": 0.009255836717784405,
+      "selected_total": 0.009255836717784405
+    },
+    "pair047": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.01257327850908041,
+      "selected_loss": 0.01257327850908041,
+      "selected_total": 0.01257327850908041
+    },
+    "pair048": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.012987862341105938,
+      "selected_loss": 0.012987862341105938,
+      "selected_total": 0.012987862341105938
+    },
+    "pair049": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.013568764552474022,
+      "selected_loss": 0.013568764552474022,
+      "selected_total": 0.013568764552474022
+    },
+    "pair050": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.010601283982396126,
+      "selected_loss": 0.010601283982396126,
+      "selected_total": 0.010601283982396126
+    },
+    "pair051": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.009682207368314266,
+      "selected_loss": 0.009682207368314266,
+      "selected_total": 0.009682207368314266
+    },
+    "pair052": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.015319249592721462,
+      "selected_loss": 0.015319249592721462,
+      "selected_total": 0.015319249592721462
+    },
+    "pair053": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          67.41173553466797,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          11.305268287658691,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "root_1_-4",
+      "base_name": "baseline",
+      "mesh_alternatives": 45,
+      "v3_loss": 0.012913359329104424,
+      "selected_loss": 0.016085309907794,
+      "selected_total": 0.02474411169832465
+    },
+    "pair054": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          74.5480728149414,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          62.397850036621094,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          3.7327020168304443,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          62.17317581176758,
+          0.0
+        ]
+      },
+      "selected": "extra21",
+      "base_name": "baseline",
+      "mesh_alternatives": 84,
+      "v3_loss": 0.012100396677851677,
+      "selected_loss": 0.013613535091280937,
+      "selected_total": 0.37599486944658284
+    },
+    "pair055": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          71.4955825805664,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          1.747183084487915
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra20",
+      "base_name": "baseline",
+      "mesh_alternatives": 34,
+      "v3_loss": 0.013380004093050957,
+      "selected_loss": 0.014381678774952888,
+      "selected_total": 0.014381678774952888
+    },
+    "pair056": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.017790457233786583,
+      "selected_loss": 0.017790457233786583,
+      "selected_total": 0.017790457233786583
+    },
+    "pair057": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          10.917611122131348
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          10.917611122131348
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.019198179244995117,
+      "selected_loss": 0.019198179244995117,
+      "selected_total": 0.019198179244995117
+    },
+    "pair058": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.015573522076010704,
+      "selected_loss": 0.015573522076010704,
+      "selected_total": 0.015573522076010704
+    },
+    "pair059": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.011178281158208847,
+      "selected_loss": 0.011178281158208847,
+      "selected_total": 0.011178281158208847
+    },
+    "pair060": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.018557243049144745,
+      "selected_loss": 0.018557243049144745,
+      "selected_total": 0.018557243049144745
+    },
+    "pair061": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          60.032047271728516,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          43.630638122558594,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          5.274253845214844,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          43.27387237548828,
+          0.0
+        ]
+      },
+      "selected": "extra59",
+      "base_name": "baseline",
+      "mesh_alternatives": 84,
+      "v3_loss": 0.006845375057309866,
+      "selected_loss": 0.00684663699939847,
+      "selected_total": 0.17827196491049838
+    },
+    "pair062": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "wrist",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0077429343946278095,
+      "selected_loss": 0.0077429343946278095,
+      "selected_total": 0.0077429343946278095
+    },
+    "pair063": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          61.18098831176758,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          51.51020050048828,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.9222524166107178
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          51.82553482055664,
+          0.0
+        ]
+      },
+      "selected": "extra18",
+      "base_name": "baseline",
+      "mesh_alternatives": 82,
+      "v3_loss": 0.010345066897571087,
+      "selected_loss": 0.011189725250005722,
+      "selected_total": 0.2594481172654559
+    },
+    "pair064": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          65.79158782958984,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          60.82878494262695,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          25.559001922607422,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          60.69419479370117,
+          0.0
+        ]
+      },
+      "selected": "extra17",
+      "base_name": "baseline",
+      "mesh_alternatives": 84,
+      "v3_loss": 0.01028330810368061,
+      "selected_loss": 0.010652976110577583,
+      "selected_total": 0.4106564835176134
+    },
+    "pair065": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.009718259796500206,
+      "selected_loss": 0.009718259796500206,
+      "selected_total": 0.009718259796500206
+    },
+    "pair066": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.007315941620618105,
+      "selected_loss": 0.007315941620618105,
+      "selected_total": 0.007315941620618105
+    },
+    "pair067": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.012185219675302505,
+      "selected_loss": 0.012185219675302505,
+      "selected_total": 0.012185219675302505
+    },
+    "pair068": {
+      "before": {
+        "L_hand/R_hand": [
+          19.961069107055664,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          10.812684059143066,
+          0.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra13",
+      "base_name": "baseline",
+      "mesh_alternatives": 60,
+      "v3_loss": 0.007561326026916504,
+      "selected_loss": 0.009017807431519032,
+      "selected_total": 0.016784147464146464
+    },
+    "pair069": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          9.276448249816895
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          9.276448249816895
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.002047391142696142,
+      "selected_loss": 0.002047391142696142,
+      "selected_total": 0.002047391142696142
+    },
+    "pair070": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.010126822628080845,
+      "selected_loss": 0.010126822628080845,
+      "selected_total": 0.010126822628080845
+    },
+    "pair071": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.1433210372924805
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.1433210372924805
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005793520249426365,
+      "selected_loss": 0.005793520249426365,
+      "selected_total": 0.005793520249426365
+    },
+    "pair072": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.009409447200596333,
+      "selected_loss": 0.009409447200596333,
+      "selected_total": 0.009409447200596333
+    },
+    "pair073": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.008338705636560917,
+      "selected_loss": 0.008338705636560917,
+      "selected_total": 0.008338705636560917
+    },
+    "pair074": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.02153942547738552,
+      "selected_loss": 0.02153942547738552,
+      "selected_total": 0.02153942547738552
+    },
+    "pair075": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.004132445901632309,
+      "selected_loss": 0.004132445901632309,
+      "selected_total": 0.004132445901632309
+    },
+    "pair076": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0031822347082197666,
+      "selected_loss": 0.0031822347082197666,
+      "selected_total": 0.0031822347082197666
+    },
+    "pair077": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0038399442564696074,
+      "selected_loss": 0.0038399442564696074,
+      "selected_total": 0.0038399442564696074
+    },
+    "pair078": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          9.74373722076416
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          9.74373722076416
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00224338099360466,
+      "selected_loss": 0.00224338099360466,
+      "selected_total": 0.00224338099360466
+    },
+    "pair079": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.006457019597291946,
+      "selected_loss": 0.006457019597291946,
+      "selected_total": 0.006457019597291946
+    },
+    "pair080": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          29.009523391723633,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          2.0164999961853027
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "extra35",
+      "base_name": "baseline",
+      "mesh_alternatives": 12,
+      "v3_loss": 0.002450278727337718,
+      "selected_loss": 0.0024515418335795403,
+      "selected_total": 0.0024515418335795403
+    },
+    "pair081": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005035421345382929,
+      "selected_loss": 0.005035421345382929,
+      "selected_total": 0.005035421345382929
+    },
+    "pair082": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005683550611138344,
+      "selected_loss": 0.005683550611138344,
+      "selected_total": 0.005683550611138344
+    },
+    "pair083": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003524772822856903,
+      "selected_loss": 0.003524772822856903,
+      "selected_total": 0.003524772822856903
+    },
+    "pair084": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          3.1587321758270264
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          3.1587321758270264
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.004101944621652365,
+      "selected_loss": 0.004101944621652365,
+      "selected_total": 0.004101944621652365
+    },
+    "pair085": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.011062624864280224,
+      "selected_loss": 0.011062624864280224,
+      "selected_total": 0.011062624864280224
+    },
+    "pair086": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          9.078673362731934,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.564961850643158,
+          0.0
+        ]
+      },
+      "selected": "extra25",
+      "base_name": "baseline",
+      "mesh_alternatives": 1,
+      "v3_loss": 0.013331419788300991,
+      "selected_loss": 0.01333173830062151,
+      "selected_total": 0.01333173830062151
+    },
+    "pair087": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          16.02680778503418,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          5.7873969078063965
+        ]
+      },
+      "selected": "extra14",
+      "base_name": "baseline",
+      "mesh_alternatives": 21,
+      "v3_loss": 0.013830001465976238,
+      "selected_loss": 0.014391166158020496,
+      "selected_total": 0.014391166158020496
+    },
+    "pair088": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005444211885333061,
+      "selected_loss": 0.005444211885333061,
+      "selected_total": 0.005444211885333061
+    },
+    "pair089": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "fixed",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003928778693079948,
+      "selected_loss": 0.003928778693079948,
+      "selected_total": 0.003928778693079948
+    },
+    "pair090": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.004460045602172613,
+      "selected_loss": 0.004460045602172613,
+      "selected_total": 0.004460045602172613
+    },
+    "pair091": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.00342975789681077,
+      "selected_loss": 0.00342975789681077,
+      "selected_total": 0.00342975789681077
+    },
+    "pair092": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003521511796861887,
+      "selected_loss": 0.003521511796861887,
+      "selected_total": 0.003521511796861887
+    },
+    "pair093": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005203979089856148,
+      "selected_loss": 0.005203979089856148,
+      "selected_total": 0.005203979089856148
+    },
+    "pair094": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005144965369254351,
+      "selected_loss": 0.005144965369254351,
+      "selected_total": 0.005144965369254351
+    },
+    "pair095": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.0035118903033435345,
+      "selected_loss": 0.0035118903033435345,
+      "selected_total": 0.0035118903033435345
+    },
+    "pair096": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          24.50722312927246,
+          0.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          6.767091274261475
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          0.6139759421348572
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          6.353454113006592
+        ]
+      },
+      "selected": "extra34",
+      "base_name": "baseline",
+      "mesh_alternatives": 6,
+      "v3_loss": 0.002440104493871331,
+      "selected_loss": 0.002440420212224126,
+      "selected_total": 0.002440420212224126
+    },
+    "pair097": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003195409895852208,
+      "selected_loss": 0.003195409895852208,
+      "selected_total": 0.003195409895852208
+    },
+    "pair098": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          13.167816162109375,
+          0.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          3.2653229236602783
+        ]
+      },
+      "selected": "extra33",
+      "base_name": "baseline",
+      "mesh_alternatives": 5,
+      "v3_loss": 0.002595264697447419,
+      "selected_loss": 0.002595580415800214,
+      "selected_total": 0.002595580415800214
+    },
+    "pair099": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.005632470827549696,
+      "selected_loss": 0.005632470827549696,
+      "selected_total": 0.005632470827549696
+    },
+    "pair100": {
+      "before": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "after": {
+        "L_hand/R_hand": [
+          0.0,
+          12.0
+        ],
+        "L_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "L_hand/R_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/L_thigh": [
+          0.0,
+          12.0
+        ],
+        "R_hand/R_thigh": [
+          0.0,
+          12.0
+        ]
+      },
+      "selected": "v3",
+      "base_name": "baseline",
+      "mesh_alternatives": 0,
+      "v3_loss": 0.003535857889801264,
+      "selected_loss": 0.003535857889801264,
+      "selected_total": 0.003535857889801264
+    }
+  },
+  "parameter_sha256": "fb1ccda73400dfc9020f9d5b044ec9d4bd02fd03410ee513f071e97735335385",
+  "inputs": {
+    "pairs": 100,
+    "seconds": 19.664339654147625,
+    "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "parameter_sha256": "0e8e6cf5b2a9dbb89ac6e5d8bec4e5adf24f685e9e9faf18820aa0d34db105ae",
+    "choices_sha256": "266724d05ed3786f0d6ff54d8f5393e387a14d1e1bcf2483cdf28a2b478e2d10",
+    "wrist_sha256": "8d58d3eeeb06e9d216461b45bd14ad9e3b3b3bc445b2a99a521b7fe6693187f9",
+    "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "prepared_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "chain_probes": 422271,
+    "composed_poses": 1268,
+    "exit_status": 0
+  },
+  "exit_status": 0
+}
