@@ -1,0 +1,102 @@
+{
+  "baseline": "3aa12aa6f98af3552b71fe48ec8fb333075f783c",
+  "files_at_run": {
+    "limits.py": "28aa1fc4a2c1422d1390e48f6b9d68067499c08202634224ffeab1b0dad6726b",
+    "select_pose.py": "c06becb7d940fdd488b8557da2876589be2a9819a145ee5c28e04c8eef3a4713",
+    "show_cases.py": "68b963c2f247afe949eb897178c3a24a8179e45674ad4f0b2151e0ed89f74631",
+    "evaluate.py": "a4be1313d5494f8a6c533e98ea76c2cf383b342fa044b32914febecd5f548ca3"
+  },
+  "inputs": {
+    "validation": {
+      "manifest_sha256": "1a7b0dc948408240aadb3aad0b696d997b7d578a6fa22d2281985667b79a3aa1",
+      "truth_sha256": "861389b980bdb57bff866aef8143de23d555bfb62dd237fd3800f02b678c7bf4",
+      "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+      "parameter_sha256": "ad8fcb3ea77ccd9d586135fcfc1293c81c8569190c60dd83431b9e820cb3db70",
+      "choices_sha256": "a4d55550420d97ad572a82bf37ff93c405cd75c608047847cf3968e5018bebb3",
+      "wrist_sha256": "b3b9c06d8d02137eb1be79ba42bb2f8b9f1551280d03f8d5c240de2f21b42ae3",
+      "baseline_sha256": "8af2b4f6d7aec35888a416ea9a144bd70c3b0688e8fd5bbcc7c1ef1147fce88d",
+      "prepared_sha256": "2c898e7e304085abc70a274fbd92e3f5294a91d3ea90e427ea1ba3852d69ee53",
+      "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+    },
+    "test": {
+      "manifest_sha256": "2a78a1997e960973cd68d049cb17390d4e2d8d23311b66816f3d8dae50807ef1",
+      "truth_sha256": "973ee19514faaa95ec895f2b550229416ddd981997ad4f20581f7817607426e2",
+      "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+      "parameter_sha256": "0e8e6cf5b2a9dbb89ac6e5d8bec4e5adf24f685e9e9faf18820aa0d34db105ae",
+      "choices_sha256": "266724d05ed3786f0d6ff54d8f5393e387a14d1e1bcf2483cdf28a2b478e2d10",
+      "wrist_sha256": "8d58d3eeeb06e9d216461b45bd14ad9e3b3b3bc445b2a99a521b7fe6693187f9",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "prepared_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+      "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+    }
+  },
+  "commands_successful": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/select_pose.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/select_pose.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/evaluate.py validation",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/evaluate.py test",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/show_cases.py",
+      "exit_status": 0
+    }
+  ],
+  "initial_failures": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/select_pose.py validation",
+      "exit_status": 1,
+      "diagnostic": "assert np.rad2deg(err)<8 failed before selection or evaluation in the original-template mirror check"
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-24_elbow_limits/select_pose.py test",
+      "exit_status": 1,
+      "diagnostic": "assert np.rad2deg(err)<8 failed before selection or evaluation in the original-template mirror check"
+    }
+  ],
+  "mirror_probes_deg": [
+    [
+      80,
+      0,
+      0
+    ],
+    [
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      0,
+      80
+    ],
+    [
+      100,
+      12,
+      30
+    ]
+  ],
+  "final_mirror_difference_deg": [
+    7.777906605916026,
+    0.7224290929497874,
+    8.94658991552565,
+    7.049445388618136
+  ],
+  "warnings": [
+    "MMCV v2 migration notice",
+    "model setup reports 10 shape coefficients"
+  ],
+  "worktree": "Pre-existing unrelated changes excluded; run added under baseline.",
+  "raw_parameters": "outputs/elbow_limits_20261124/{split}_selected.npz",
+  "original_archive": "outputs/fullbody_joint_candidates_20261123/{split}_bank.npz"
+}

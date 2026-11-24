@@ -1,0 +1,37 @@
+{
+  "baseline": "3aa12aa6f98af3552b71fe48ec8fb333075f783c",
+  "remote_before_commit": "3aa12aa6f98af3552b71fe48ec8fb333075f783c",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested JPEG mesh visualizations, verified JPEG, no EXIF.",
+  "images": 2,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-24_elbow_limits/assets/val031/comparison.jpg": "113c4f81263e3c64a876f64e7a8c11a78de32df7492719b680e82ed33974813b",
+    "runs/2026-11-24_elbow_limits/assets/val055/comparison.jpg": "c1d4299cce3c3c34f9d27daecc13a4f36a9cf9e194188fa32a554501622037e2",
+    "runs/2026-11-24_elbow_limits/brief.md": "b29643600c220a8f532d50d3a3ac3a872122e6c5327a749f9d8b2a127c02f9a4",
+    "runs/2026-11-24_elbow_limits/evaluate.py": "a4be1313d5494f8a6c533e98ea76c2cf383b342fa044b32914febecd5f548ca3",
+    "runs/2026-11-24_elbow_limits/evidence/elbow_crossings.json": "511f9c68f9c530794639d78c24403bcf9b78283419d097749a7ae421ce172ee1",
+    "runs/2026-11-24_elbow_limits/evidence/execution.json": "cde795ae66cc1d229dad37605a4754cadffbe6c5689cb8c625bccf69969a69db",
+    "runs/2026-11-24_elbow_limits/evidence/test_limits.json": "5578d85d41db09c19f846d7a2d242cbd44fac117e11c792160db0479cfe27c2c",
+    "runs/2026-11-24_elbow_limits/evidence/test_scores.json": "2c84b37fdeb38974c35b76b992cc79ff810d9b2b7bace637bbec7d55b0886f09",
+    "runs/2026-11-24_elbow_limits/evidence/validation_limits.json": "3a5c6f2447cf8800aaf2f0541d937789a0c7abadde06e0f50416c3fc48bcd287",
+    "runs/2026-11-24_elbow_limits/evidence/validation_scores.json": "e2f997d94afe1c5e6c9f1a4d0afb562e7493d308df710475313191482532e48b",
+    "runs/2026-11-24_elbow_limits/evidence/views.json": "b474f94e0e27e9826fde35a752ced838167d610ce558dff0fdf9e04ea940d271",
+    "runs/2026-11-24_elbow_limits/limits.py": "28aa1fc4a2c1422d1390e48f6b9d68067499c08202634224ffeab1b0dad6726b",
+    "runs/2026-11-24_elbow_limits/report.md": "e8ff353be11d98b2fd4e520354c1f6218b37a8509a69c6b1dca320256901041e",
+    "runs/2026-11-24_elbow_limits/review.md": "0a7ce2e80ad8e73edfde5f0cd37d2c6541c2fbf11796b413288179c7229f71dc",
+    "runs/2026-11-24_elbow_limits/select_pose.py": "c06becb7d940fdd488b8557da2876589be2a9819a145ee5c28e04c8eef3a4713",
+    "runs/2026-11-24_elbow_limits/show_cases.py": "68b963c2f247afe949eb897178c3a24a8179e45674ad4f0b2151e0ed89f74631"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
