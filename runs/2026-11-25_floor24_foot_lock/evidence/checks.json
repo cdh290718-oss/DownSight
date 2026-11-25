@@ -1,0 +1,33 @@
+{
+  "execution_base": "13bbff9a4fcae8ea394de454e3853ab76410c814",
+  "commands": [
+    {
+      "command": "bash <RUN>/workers.sh 8 lock",
+      "exit_status": 143,
+      "completed_pose_files": 24
+    },
+    {
+      "command": "bash <RUN>/run.sh assess_feet",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/workers.sh 8 replay",
+      "exit_status": 0,
+      "exact_pose_matches": 24
+    }
+  ],
+  "source_sha256": {
+    "assess_feet.py": "2c053e415d75c4a7522cdd148cbed45ff7982e0a22376a7776cb7a599f3c04c2",
+    "lock.py": "095ce0302dba7deb96719d41fa28079577cd7785a501336a7ac95284e45f6b10",
+    "replay.py": "ed6c3354219f53df8af7192e7980d48c0a8f979014d57872916448c11397dd2f",
+    "run.sh": "40964f05851a416e55a3a0206e63866cf0754411c77f3b4b649efd160a9163fa",
+    "workers.sh": "11d1f1b47cf715f05766b5f375f80955c957bf1fe57350a18a8ca267e3cd2a5d"
+  },
+  "publication_checks": [
+    "allowlisted increment only",
+    "JPEG metadata inspected",
+    "no arrays, data, absolute paths, secrets, raw outputs or patches",
+    "files <50 MB",
+    "worktree, staged, outgoing diff and remote checked"
+  ]
+}
