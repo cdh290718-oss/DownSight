@@ -1,0 +1,40 @@
+{
+  "eyes": {
+    "clip001_left": {
+      "image_sha256": "3e7cfa21147d64210500d2562c04a3f81b1b8598503f665aff379c2024fcbf69",
+      "sampled_sha256": "bc5b86dce809bcc59bc7e7f2a239d69749b6dca9504195515c7b8d1bd5d63793"
+    },
+    "clip001_right": {
+      "image_sha256": "ef0b73dbd61a6f2e58dbfce4f5fb218fcc2e299e2c0c5f93332da41a7df83504",
+      "sampled_sha256": "be09b7c623fa69931c6d04a526cd36d3eca87be9279a5d8e8c40fb62fc7788f8"
+    },
+    "clip002_left": {
+      "image_sha256": "471b1468d84211256a56396b10c959b4cf411b4ca18deb7e9e1059856e3caed1",
+      "sampled_sha256": "8afbfe66cbf8a0aaeacd6a08738f13b350142a6bd7f4e21dc026bcc8db9f713f"
+    },
+    "clip002_right": {
+      "image_sha256": "caf5c5e5c8fad584eff355ee094814fafbef6bb76dfdb0ff197273885fb451b5",
+      "sampled_sha256": "75e48d9fc6ee2faf41a4610b63c60f6ef749877f8158cc3c71a8f64339a0c02b"
+    },
+    "clip003_left": {
+      "image_sha256": "1e80fd7a5106bb6a8d912f6bcc8e6ce0566fcdb20b321572fcc9d24ca5cdef09",
+      "sampled_sha256": "e765eba7752b3ab9881899681341283775e28a18239e9cd59c7404b6c3f97e20"
+    },
+    "clip003_right": {
+      "image_sha256": "e6ec02afb0f5fca1dc03d34c35530bdafeb941fd6624f482d93169b6ec8405a4",
+      "sampled_sha256": "68879056b3fb455d27aa3352fa7ff9ba2eb503b4cc05bf1ac3dd856e07067d76"
+    },
+    "clip004_left": {
+      "image_sha256": "586a5f58897bd3915e3dc3f49c9e071166a1e30f2151c2f8e16ed27f9bcd4985",
+      "sampled_sha256": "37ec42b06b64dd9e4f313991a2d82b69326642d83e12e9e61252c40e0942f336"
+    },
+    "clip004_right": {
+      "image_sha256": "84b0b410713b9beeea96bd846ef75ac3d8f8ec4c1d7f18fd7cac51d1a0813ef8",
+      "sampled_sha256": "535c3377b5351311705c37183335abfaa9ab2cefbfe14576e9015239e2d4b2d9"
+    }
+  },
+  "weight_sha256": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4",
+  "config_sha256": "d33d8802741cb7b0cddc09ac3b2f780a801932bdeb88dc097c22a43996fef61d",
+  "manifest_sha256": "e82d8c9a9eea604625866be8cecc8929affd813084deefefe380c5c161682f4f",
+  "exit_status": 0
+}

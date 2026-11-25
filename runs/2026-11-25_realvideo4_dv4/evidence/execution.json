@@ -1,0 +1,37 @@
+{
+  "baseline": "bb6c9d0aa0cef70dc151fa8f26100abfc77f6bfe",
+  "ancestor_at_push": "f9ed07edf7443cad2f57cf732d24b91a498b0247",
+  "commands": [
+    {
+      "command": "bash run.sh segment",
+      "exit_status": 0
+    },
+    {
+      "command": "bash run.sh refit 0",
+      "completed_pose_evidence": "clip001.json"
+    },
+    {
+      "command": "bash run.sh refit 1",
+      "completed_pose_evidence": "clip002.json"
+    },
+    {
+      "command": "bash run.sh refit 2",
+      "completed_pose_evidence": "clip003.json"
+    },
+    {
+      "command": "bash run.sh refit 3",
+      "completed_pose_evidence": "clip004.json"
+    },
+    {
+      "command": "bash run.sh gallery",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B bundle.py",
+      "exit_status": 0
+    }
+  ],
+  "coordinates": "cam3 OpenCV meters",
+  "workspace": "repository root; run.sh in run directory",
+  "external_assets": "Existing Sapiens2 segmenter, SMPL-X body model, verified images and calibrated v3 starts of the previous run."
+}
