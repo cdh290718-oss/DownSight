@@ -1,0 +1,30 @@
+{
+  "baseline": "7c18a6216417f5b4257c1b8fd989c1f886adc03e",
+  "cwd": "<WORKSPACE>",
+  "commands": [
+    {
+      "command": "python -B runs/2026-11-25_official_forearm_direction/overlay.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_official_forearm_direction/compare.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_official_forearm_direction/compare.py score",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_official_forearm_direction/diagnose.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_official_forearm_direction/fit_overlay.py",
+      "exit_status": 0
+    }
+  ],
+  "warnings": [
+    "MMCV legacy migration notice",
+    "existing model configured for ten shape coefficients"
+  ]
+}

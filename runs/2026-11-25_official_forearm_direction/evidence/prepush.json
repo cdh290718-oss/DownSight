@@ -1,0 +1,37 @@
+{
+  "baseline": "7c18a6216417f5b4257c1b8fd989c1f886adc03e",
+  "remote_before_commit": "7c18a6216417f5b4257c1b8fd989c1f886adc03e",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested annotated point-overlay JPEGs, verified JPEG, no EXIF.",
+  "images": 3,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_official_forearm_direction/assets/arms.jpg": "6244e586c3fb39873af3eb469bcb0513ff2042c7dbb5a012c14da36b8593ed6f",
+    "runs/2026-11-25_official_forearm_direction/assets/fits.jpg": "f9d21e30cd4aca8666fc9688c4e0302e9e23b8d9b3e877e55815cfde9a50de4c",
+    "runs/2026-11-25_official_forearm_direction/assets/stereo.jpg": "a40d6d285709c778e8b1e150ec224d205e9aaf2ef3e8db666912062830f94826",
+    "runs/2026-11-25_official_forearm_direction/brief.md": "9a834799ebebad49c717812c8a0d149d0d75a692f38924841c7092dd412cd367",
+    "runs/2026-11-25_official_forearm_direction/compare.py": "860fecb4f55046d7897373adb7f0a1d0224edd8b4b440b7184480bc752887ba2",
+    "runs/2026-11-25_official_forearm_direction/diagnose.py": "a77977b64777be8bf2d7202b305df5eb0c003279b38a1d4dd90e529e2fb0fa20",
+    "runs/2026-11-25_official_forearm_direction/evidence/execution.json": "43a35cdb67063ab5052dfb4ed15883ec64bc1a8d36ae0adadebc52db0222df5c",
+    "runs/2026-11-25_official_forearm_direction/evidence/fit.json": "20af62d474dceb5a82d026a376640603baf10afe5f202a680b480487f0b992f9",
+    "runs/2026-11-25_official_forearm_direction/evidence/fit_view.json": "2a5bff89954ebb2359bd8dcc65c0d3ea5c9dcb4ab457647ecaf6a4f87b85ad4a",
+    "runs/2026-11-25_official_forearm_direction/evidence/render.json": "a5170bc0452bf49885de1b8ef899ab2662ad078fdf053bccddfff6c1a966e539",
+    "runs/2026-11-25_official_forearm_direction/evidence/scores.json": "d0a7dde1769d3fac85e9787cfd62391849b8b61f231b9b9344f3a18933d81ade",
+    "runs/2026-11-25_official_forearm_direction/evidence/val055_geometry.json": "2c7b3b9377d597a3c198a4950f1c19ec4f1e4b7212958d28e3683fd883678f74",
+    "runs/2026-11-25_official_forearm_direction/fit_overlay.py": "df21704886ce1d6122e185af281e83e903c2bf056862ec5c430e9138b1f00ab9",
+    "runs/2026-11-25_official_forearm_direction/overlay.py": "58e2aeb0396a8f082cbd8bb747a223e42723d6ce7809059267b53f55b882cee4",
+    "runs/2026-11-25_official_forearm_direction/report.md": "9762e9c54a1275f739bcea31fd68e028b44b0ad21508fd200b0526f117f9b875",
+    "runs/2026-11-25_official_forearm_direction/review.md": "f225e829aac02a23733c5c08e3675f209e36fc62200f755d8d537975671926fe"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
