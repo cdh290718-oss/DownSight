@@ -1,0 +1,57 @@
+{
+  "start_commit": "5cbdec92842e29e3537882b0ea8331aa4a55656d",
+  "publication_parent": "e62474e2ee4d2e488c872d0898f7257b8cfcbd67",
+  "cwd": "<WORKSPACE>",
+  "commands": [
+    {
+      "command": "python -B runs/2026-11-25_wilor_wrists/detect.py (first wrapper)",
+      "exit_status": 1
+    },
+    {
+      "command": "WiLoR predictor subprocess",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_wilor_wrists/detect.py --summarize",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_wilor_wrists/guided.py",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-25_wilor_wrists/body.sh (first guided fit + score)",
+      "exit_status": 1
+    },
+    {
+      "command": "bash runs/2026-11-25_wilor_wrists/body.sh",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_wilor_wrists/overlay.py",
+      "exit_status": 0
+    }
+  ],
+  "notes": [
+    "Local WiLoR directory lacks Git metadata. Inference succeeded; hashed installed backend Python sources and summarized its completed outputs. Confirmed per-image SHA in each raw prediction file against source image.",
+    "Initial scorer assumed all triangulations successful and stopped on val031 guided left wrist; fixed scorer to retain this case with null 3D metrics. Re-ran fit, score and overlays.",
+    "Two detector-only views of each of two known cases. Guided crop introduced after default misses. Output and image folders on development machine are restricted; report omits machine paths."
+  ],
+  "raw_image_dimensions": [
+    872,
+    872
+  ],
+  "input_image_hash_verification": true,
+  "derived_views": {
+    "val031.jpg": "75e64c79a8b57e2f2d55f31479153d6a1d45039bda370dc27860ee37271737f8",
+    "val055.jpg": "f8b6ace28ae832dfe22e1180f1e3135125d8d3c79d8c320d932106e78b882ee3"
+  },
+  "code_sha256": {
+    "guided.py": "e44d6ba212df9bcdb59028dbc93bedd888788ed249c7b920d4b5c614e68ef738",
+    "compare_wrists.py": "77ec146d08a64ec39e10e2f753ed7023809ed1fcb931dac4721305f76156a983",
+    "body.sh": "16df5f1aa9fbcaa644c7415a228d43b7396d89b9809ab8a0427d96ed7f54237f",
+    "detect.py": "9816430ace72cf0a003ae167d8da5efb90d5ae822122091b8ee4e6f801b17883",
+    "overlay.py": "402a8d0ce3ec12c9b9faa0fe2d8f92893fc3f1fa9136cb4ed2e02ce2b33f8c7d"
+  },
+  "exit_status": 0
+}

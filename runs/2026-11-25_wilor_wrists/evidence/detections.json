@@ -1,0 +1,110 @@
+{
+  "selected": {
+    "studio_2023_01_19_S5_seq_3-0-5_000000_left": {
+      "L": {
+        "count": 1,
+        "score": 0.20264752209186554,
+        "uv": [
+          487.99530029296875,
+          380.4280090332031
+        ]
+      },
+      "R": {
+        "count": 1,
+        "score": 0.7945757508277893,
+        "uv": [
+          257.0243225097656,
+          533.8787841796875
+        ]
+      }
+    },
+    "studio_2023_01_19_S5_seq_3-0-5_000000_right": {
+      "L": {
+        "count": 0,
+        "score": null,
+        "uv": null
+      },
+      "R": {
+        "count": 2,
+        "score": 0.7817816734313965,
+        "uv": [
+          340.3817138671875,
+          542.976806640625
+        ]
+      }
+    },
+    "studio_2023_01_18_S3_seq_3-0-10_000260_left": {
+      "L": {
+        "count": 0,
+        "score": null,
+        "uv": null
+      },
+      "R": {
+        "count": 0,
+        "score": null,
+        "uv": null
+      }
+    },
+    "studio_2023_01_18_S3_seq_3-0-10_000260_right": {
+      "L": {
+        "count": 0,
+        "score": null,
+        "uv": null
+      },
+      "R": {
+        "count": 1,
+        "score": 0.20510834455490112,
+        "uv": [
+          134.43487548828125,
+          254.51869201660156
+        ]
+      }
+    }
+  },
+  "weights_sha256": {
+    "wilor_checkpoint": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+    "wilor_config": "64e75699eb7f1234ee16ba1bbb983db35e03f584fe4bd524559432b1efec3d2c",
+    "wilor_detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033"
+  },
+  "input_sha256": {
+    "studio_2023_01_19_S5_seq_3-0-5_000000_left": "2b9c3f7a23436209dd844e8f2185c9c32c0dd045907b29829d422528a0809ede",
+    "studio_2023_01_19_S5_seq_3-0-5_000000_right": "ec2d2913140a038da6778c786b9258b501ef38b27281669a84525ed3ae5517fc",
+    "studio_2023_01_18_S3_seq_3-0-10_000260_left": "618843d13d6ccc61d26730ed9b6c1975c11797f6a8a8c0ba06f3d02f2d757d70",
+    "studio_2023_01_18_S3_seq_3-0-10_000260_right": "4b95ad535cd8181c02f13a303e7c463c6d3b567c69bff2f9f2d737e1c91f9cf3"
+  },
+  "backend_source_sha256": {
+    "wilor/configs/__init__.py": "2570cce9c9bf45b46fbe53b94b57655638d90fe6a3183854a766cf128eedb3ba",
+    "wilor/datasets/__init__.py": "b29e3aae790d09fe65c3dd868f4d8859ff23218f06336a8c5bc15e5ef9fc9dbc",
+    "wilor/datasets/dataset.py": "ff6c0b14d9d2130687dae844a461ec071c85f32c13a1079a39d0ad944e4b0ee9",
+    "wilor/datasets/image_dataset.py": "d31cee66bb81b5a0c1caf0ee677c41aaef9898c93935e8accec614342c0218fa",
+    "wilor/datasets/mocap_dataset.py": "65ac23eb9c4434b5fc9fbcb42469093bebf38e14615f631cd6b564af273fa822",
+    "wilor/datasets/utils.py": "24229bd14758b5f73a3531ceb73f4c93f3955278df21800f5a34115221e534fd",
+    "wilor/datasets/vitdet_dataset.py": "44ba126c1cde1cef163a735b00801c74bb1437afe3186619314f90860569cbfd",
+    "wilor/models/__init__.py": "900b2265362c0199e8906be50bcab685667fae2caacf75d126b53acef2b65a93",
+    "wilor/models/backbones/__init__.py": "f4e16992c4890acb10ce5c5f8646e7e2419d28582085efd3558e96ffa1a2c487",
+    "wilor/models/backbones/vit.py": "b01ce63b23eb03ce023b9b06f5caf53c82c9f1cc5fff3c90d99c7939f427470d",
+    "wilor/models/discriminator.py": "c72ed76c595d5c8350784093dc3332aaeff89a5821de0d218f7c344f9912d4c9",
+    "wilor/models/heads/__init__.py": "788c3df4b0f0eecec99a4e94149f05cc00e03261564080c2be4952cfbf12ab62",
+    "wilor/models/heads/refinement_net.py": "5878350b52af6c4cd27541ee02579ea7fe30549ef8e101a72fe2cf6a82eef59d",
+    "wilor/models/losses.py": "53052f7589ead73531202548f452d294a3ae0a15d279a55a8508239ec282c311",
+    "wilor/models/mano_wrapper.py": "dbe78558c3ccaa6deaba7731858565dcdd193fb0ee7b6543c059a07f0408239a",
+    "wilor/models/wilor.py": "5e925462a00ca9f6e9d5140effdde1d7974e5c5eb9b754d20dafb5e28a4791e6",
+    "wilor/utils/__init__.py": "6cecaa6a761c94e3b67358e8416008d445ad9a538c05f0074af92e35b57ec791",
+    "wilor/utils/camera.py": "d33c99ea8ca4bd66a70237254af8308bacd489a4daa6eef126a1a0e3535799e1",
+    "wilor/utils/geometry.py": "9eb08e438622a36f3bc40d3fd48b776022b80ee26406f0d826d7b7132821e778",
+    "wilor/utils/mesh_renderer.py": "9825b4c4c50ed1020b4cab3db2135e0f88a8eb5616a5ab0bd84a44049d749253",
+    "wilor/utils/misc.py": "5e1bc5edea3a9792e315189a9e5761cd9c87ba03e269d12585ffe8662a9beaba",
+    "wilor/utils/pose_utils.py": "5bc11827ca90d8757eb273ca72ec2d430ccd8cd24c6695da1c98853b5cc3b818",
+    "wilor/utils/pylogger.py": "c8a816419a6b61389321f971427e1b88f7fda0345ae49f579318abdcb8349296",
+    "wilor/utils/render_openpose.py": "420563f3d6869a2ce25257176ecb73d58c8409ce37b2ef2f3631893eabe7cdd4",
+    "wilor/utils/renderer.py": "148a78219241740821d8f0516fd391b1eac09d44237d12a4f28bbcb91f2c8019",
+    "wilor/utils/rich_utils.py": "4634c280ef2f3f4e52ad20e319d89e4ba45cd1137fc6ba47e122898e932f4d00",
+    "wilor/utils/skeleton_renderer.py": "a8818691fb88bf46cc5f3ac9fcc85cdf6c3ed54322882557ed5c5cb7b4c08557",
+    "wilor/utils/so3_temporal_filter.py": "4be25c24f96cb5e2af0c5a6360e5038d9effac9a3efe7e0853d073dabca27bf9",
+    "wilor/utils/stereo_mano_optimizer.py": "e2d3d0e5ed1df793f024d54c3f3d3c9c98af2b00d79a1502f8f8e60a736d280e",
+    "wilor/utils/theta_reliability.py": "ae1b39104784a43d1656ad971112f98c28fdbf5d3447d0839be73bec5c580d63",
+    "wilor/utils/yolo_loader.py": "8043fcc05eb37c03574774dcb710b67cf80fb62f8412d425709ecde18a0aab0c"
+  },
+  "report_sha256": "3fb1fd8bb66180aa5ef18243c0045d6d2cec43df9c16f301d06ead248513f6d8",
+  "exit_status": 0
+}

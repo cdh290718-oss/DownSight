@@ -1,0 +1,11 @@
+{
+  "scope": "runs/2026-11-25_wilor_wrists",
+  "remote_before": "e62474e2ee4d2e488c872d0898f7257b8cfcbd67",
+  "checks": [
+    "worktree and staged items reviewed, unrelated changes excluded",
+    "explicit allowlist only, each file below 50 MB",
+    "scanned for machine paths, credentials, binary/raw asset formats; only derived labeled JPEG wrist crops",
+    "staged and outgoing Git blobs match reviewed local bytes",
+    "no full provenance or patch; remote main verified"
+  ]
+}
