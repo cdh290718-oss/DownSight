@@ -1,0 +1,136 @@
+{
+  "base_commit": "ef1400e241216602251fdf81cb7a346342c86157",
+  "head_at_verification": "ef1400e241216602251fdf81cb7a346342c86157",
+  "dirty_worktree": true,
+  "original_search_hashes": {
+    "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "parameter_sha256": "0e8e6cf5b2a9dbb89ac6e5d8bec4e5adf24f685e9e9faf18820aa0d34db105ae",
+    "choices_sha256": "266724d05ed3786f0d6ff54d8f5393e387a14d1e1bcf2483cdf28a2b478e2d10",
+    "wrist_sha256": "8d58d3eeeb06e9d216461b45bd14ad9e3b3b3bc445b2a99a521b7fe6693187f9",
+    "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "prepared_sha256": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+  },
+  "cold_replay": {
+    "steps": 20000,
+    "batch_size": 400,
+    "rw_frames": 100,
+    "archived_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "replay_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+    "rw_field_max_abs_difference": {
+      "body_pose": 0.0,
+      "betas": 0.0,
+      "delta": 0.0,
+      "translation": 0.0,
+      "global0": 0.0,
+      "loss": 0.0,
+      "selected_step": 0.0
+    },
+    "elapsed_seconds": 474.2755901813507
+  },
+  "v3_max_parameter_difference": 0.0,
+  "v3_max_metric_difference_mm": {
+    "pa": 1.0118361188915515e-05,
+    "nonpa": 1.6714119411176398e-05
+  },
+  "paired_frame_counts": {
+    "matched": {
+      "v3": 83,
+      "adam": 16,
+      "new_root_0_4": 1
+    },
+    "outline": {
+      "adam": 96,
+      "new_fixed": 3,
+      "new_root_0_4": 1
+    }
+  },
+  "eye_channel_support": {
+    "foreground": 200,
+    "L_hand": 182,
+    "R_hand": 185,
+    "L_forearm": 75,
+    "R_forearm": 72,
+    "R_upperarm": 5,
+    "L_upperarm": 15,
+    "L_thigh": 1,
+    "R_thigh": 1
+  },
+  "earlier_v2_pa_mm": 44.58103260834479,
+  "earlier_v2_nonpa_mm": 61.228300148018135,
+  "parameters": {
+    "shape": "neutral zero",
+    "outline_weight": 0.008,
+    "steps": 72,
+    "probability_threshold": 0.55,
+    "outline_sigma_px": 12,
+    "max_distance_px": 64,
+    "stride": 4,
+    "minimum_area": 12,
+    "minimum_boundary": 6
+  },
+  "recoveries": [
+    {
+      "command": "bash <RUN>/run.sh refit",
+      "exit_status": 1,
+      "error": "FileNotFoundError: cold/prepared.json",
+      "fix": "copied the verified prepared file into the new private output directory before replay"
+    },
+    {
+      "command": "bash <RUN>/run.sh evaluate",
+      "exit_status": 1,
+      "error": "ImportError: gap from an older assess module",
+      "fix": "bound the diagnostic gap routine to the exact two-frame experiment file"
+    }
+  ],
+  "commands": [
+    {
+      "command": "bash <RUN>/run.sh segment",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh refit",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/workers.sh 12",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh evaluate",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh chart",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh regions",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh verify",
+      "exit_status": 0
+    }
+  ],
+  "source_sha256": {
+    "shared_run.py": "db1c584099363fbd2e19877b2166164ce6b6db1bc57bd6aa5bb6d1df630f3cf5",
+    "verify.py": "e875837c50000a3503a37644dde7c733406fbbd89c9b2d5882f0e9a3e25cc2a9",
+    "regions.py": "224bf9d477321c1efedd251a55492db363a590677b592275ac33bd686d272902",
+    "refit.py": "202ad4cfcbf873672caad598bab09a50cde0888e1e9c79147c9ef6b76fcb4125",
+    "run.sh": "62c91438c91fe6411fdf8937e4a5d86db21ccbe842e86df6160633c27091b85b",
+    "workers.sh": "10dc258068b9c1a36c3393bde9908fe6a75c2e0a51bf30f2e1b0b6b155bdd561",
+    "chart.py": "5c47c7320ff41e25ec2b36e4bb9493272df5bda37b05c112aff1726984bc8dab",
+    "evaluate.py": "eb5de770c7dc6f950d736efaa206a7b35fc432c23806705137e94ab1a0b7a055",
+    "compare.py": "52d3c33dbd865cc8b7de2759c8744d98624cc7364c5f2d90df83c698b0dbc524",
+    "segment.py": "f20727dd9d3b2bc107e3e730594cd2df0ac30db43935838a6467bdb46790782c"
+  },
+  "outcome_sha256": {
+    "segmentation.json": "1e42c47246b5c43498b1ffa9f17b675dae5675b97a8936d928fa59937709a145",
+    "selections.json": "283c513f1a15fd02fa4156379c781c68c6a2545858d16170b346add35103756b",
+    "results.json": "cf8305516673a669cd869e4625707f00842879058436e8f9fc2cc369650e5215",
+    "regions.json": "1c7f91ad07a14fd4d814561a62388408fa5c83458405d06b2256c9c527aaf391",
+    "paired_changes.png": "1f29cb67be56a34f6b3dc895acb159566d928c3f2499e521dd7636939e7a279e"
+  },
+  "exit_status": 0
+}

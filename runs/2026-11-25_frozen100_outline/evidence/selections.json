@@ -1,0 +1,3641 @@
+{
+  "rows": {
+    "pair001": {
+      "pair": "pair001",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3760,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00466906325891614
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.01070793490111828
+        }
+      },
+      "pose_sha256": "dcec65d3dd2296c9984bf826c10e7c6335361e130053be7004ed4b49d54ac6b5",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair002": {
+      "pair": "pair002",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5154,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.004154253285378218
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.010503146901726722
+        }
+      },
+      "pose_sha256": "7535b62e403e2e5932712e16f3eec237a5752b8ddced6bfdddbc43997687516e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair003": {
+      "pair": "pair003",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "spine3_1_4",
+      "prior_v3_choice": "spine3_1_4",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4995,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.004067643545567989
+        },
+        "outline": {
+          "choice": "new_fixed",
+          "candidates": 29,
+          "loss": 0.014300646524876356
+        }
+      },
+      "pose_sha256": "0e37dc2e4fd40f922572bf5d860bc3d30ebb7d35726beca64521557be9fa9c75",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair004": {
+      "pair": "pair004",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4988,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.00971112959086895
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 29,
+          "loss": 0.019190161250531676
+        }
+      },
+      "pose_sha256": "1e90735594371ea6d64b67cfdf71967df7fb1170b80a59a23defbc62d5e8c92a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair005": {
+      "pair": "pair005",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4535,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.003941248636692762
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.011514811150729656
+        }
+      },
+      "pose_sha256": "0f7d35512fd46abbb8fc7b017fc6decdb69a002ee727ec943eae2715bd289753",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair006": {
+      "pair": "pair006",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3374,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.0031079717446118593
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.01066370457224548
+        }
+      },
+      "pose_sha256": "383bcb56168d92998de57e06b08ba99ad83e692d5d91437697f47c18f8974bb0",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair007": {
+      "pair": "pair007",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3787,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.010687937028706074
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.01555773352831602
+        }
+      },
+      "pose_sha256": "7c502d3b28f0ff233c51126eeec14612c9a79affdb1a168b5a1ec589a501acc8",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair008": {
+      "pair": "pair008",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3606,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.00388796697370708
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 20,
+          "loss": 0.007775551613420248
+        }
+      },
+      "pose_sha256": "c1c513a8c24759893a5e382d7169834563db37a4742bd5aeffcb80c6f350bb6f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair009": {
+      "pair": "pair009",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4799,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002185664139688015
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.0064852758813649415
+        }
+      },
+      "pose_sha256": "bb003f18714455ae94e4460d28cfcf32ed05b54da043f83df71b0f5026a9dc1c",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair010": {
+      "pair": "pair010",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "spine3_1_-4",
+      "prior_v3_choice": "spine3_1_-4",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 2428,
+      "methods": {
+        "matched": {
+          "choice": "new_root_0_4",
+          "candidates": 24,
+          "loss": 0.1033547893166542
+        },
+        "outline": {
+          "choice": "new_root_0_4",
+          "candidates": 24,
+          "loss": 0.11847826194763184
+        }
+      },
+      "pose_sha256": "4f3b018d3d8cd554b14ce41cdac0da7b07070c10be307a6fed1e7a76bf083db3",
+      "eye_support": [
+        [
+          "foreground"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair011": {
+      "pair": "pair011",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3538,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.008659341372549534
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.019859370976686476
+        }
+      },
+      "pose_sha256": "b39a27f11b973e575a798461677b9b441c4dd9b3a558a06c3172efdd579ed02a",
+      "eye_support": [
+        [
+          "foreground"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair012": {
+      "pair": "pair012",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3604,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0032166698947548866
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.008716439282521606
+        }
+      },
+      "pose_sha256": "fdb2db91299641a485be4860e884f2d044a7161eddda4656fca608d1998f8472",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair013": {
+      "pair": "pair013",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 2786,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 9,
+          "loss": 0.0022951867431402206
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 19,
+          "loss": 0.009845383547246456
+        }
+      },
+      "pose_sha256": "ad2463b76f211add6e2e770d83c46f89062a441212c3aeb15884ba0d87a9aeab",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair014": {
+      "pair": "pair014",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3664,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002081913873553276
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.006560913726687431
+        }
+      },
+      "pose_sha256": "116d0106d048f69fbd239b41772ecfb7713619cb3e323630fd07d621dd2f6ea0",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair015": {
+      "pair": "pair015",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3772,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0030936505645513535
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.00868806215748191
+        }
+      },
+      "pose_sha256": "64caa9edc651f419d8da6191318d7caedba9babc0e7c1ccb3480132f679f64dd",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair016": {
+      "pair": "pair016",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3562,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0029395970050245523
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007601766761392355
+        }
+      },
+      "pose_sha256": "5db090dffb0e316f1fcc0e2c954dbd977e55ad515242ffcfffbf3803c293fdb4",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair017": {
+      "pair": "pair017",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3502,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0024378905072808266
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007473635578528047
+        }
+      },
+      "pose_sha256": "e290b468edff729abffae86504128c62c4e86c971c4aefacb248832766f74285",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair018": {
+      "pair": "pair018",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4246,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0029853954911231995
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007622586471959948
+        }
+      },
+      "pose_sha256": "ec6e4dbd79e7ada0fb9243bb6cc889efc1a9d4528b0f5418e32597b4e4a2acee",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair019": {
+      "pair": "pair019",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3922,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0020044450648128986
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.00752621984295547
+        }
+      },
+      "pose_sha256": "af36894283ce81238ff24806c21015916873b0fe8b3bf4ff7231e7fd41e82452",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair020": {
+      "pair": "pair020",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4682,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.004035212565213442
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.008888495717197657
+        }
+      },
+      "pose_sha256": "381d33e99e67e3f0f96bbf7cc6f6e25489635d5145a84ff5e472f7df5b36075e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair021": {
+      "pair": "pair021",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4876,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.005779906641691923
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.013672055702656508
+        }
+      },
+      "pose_sha256": "87a99fbace4b84a75409461f68add025a7a39a0d7580bf0f153fac5898994ace",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair022": {
+      "pair": "pair022",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4486,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.012674846686422825
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.022108289189636705
+        }
+      },
+      "pose_sha256": "4f05a09d9ae1ded696031c7a6ce4ef50f15aeedf857885ffd65dd74b75dd7df5",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair023": {
+      "pair": "pair023",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4390,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0024446905590593815
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007612363195046783
+        }
+      },
+      "pose_sha256": "837dd2d2e475c30b4fa14833a5e8c03885853437538b1e679b5be44b64e5cfb8",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair024": {
+      "pair": "pair024",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3958,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.13303719460964203
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.14892659187316895
+        }
+      },
+      "pose_sha256": "5e10de4ecbd15f0f782c8d736962ccc1b0d9a955c89675536c480257c2529273",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair025": {
+      "pair": "pair025",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5043,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002923692809417844
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.011217643547803163
+        }
+      },
+      "pose_sha256": "e222137448a14f049e2fb08281dd4bb86d28f3cd47f20513df2ce1cf8218fa99",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair026": {
+      "pair": "pair026",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5205,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.006666033063083887
+        },
+        "outline": {
+          "choice": "new_fixed",
+          "candidates": 27,
+          "loss": 0.014098024189472199
+        }
+      },
+      "pose_sha256": "f2cb4a874ce08ca9bf9cca6327fed6a705b26ec9a5da95026dd651ceae8b474a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair027": {
+      "pair": "pair027",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4890,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0060442592948675156
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.014242031369358301
+        }
+      },
+      "pose_sha256": "fb4f70618ca75ed3c14858ab049c7a0d5534e736fcbdb8f50f72573c32a5b7d2",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair028": {
+      "pair": "pair028",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4182,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00610247440636158
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.011566637761890888
+        }
+      },
+      "pose_sha256": "1ae6c9b4b1a920170c669651f64731d2b291f1cec7af3fff5e23dae663d0f915",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair029": {
+      "pair": "pair029",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4179,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.008145703002810478
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.014199716605246066
+        }
+      },
+      "pose_sha256": "13da7e891009cd33875444b030a74c37fc64d39d23670a82f054dce0f898e81e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair030": {
+      "pair": "pair030",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4658,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0034531238488852978
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009651440611109138
+        }
+      },
+      "pose_sha256": "c37d76b347659d6f70a02ccc5b0e845c45e8b7ecb18312191bab80a46fe86562",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair031": {
+      "pair": "pair031",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4576,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.007177544757723808
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.013912719558924437
+        }
+      },
+      "pose_sha256": "e4ef9f4948f9147ecc85f69088d12e9510ca031ea733a878817b320a49b23047",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair032": {
+      "pair": "pair032",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4022,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0053094737231731415
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.01280369858816266
+        }
+      },
+      "pose_sha256": "03eecfad9ceb3e7a6f1806f724d4305221c051ca8bfbc27659f0656aeff78bce",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair033": {
+      "pair": "pair033",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4596,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0032527584116905928
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009662703713402152
+        }
+      },
+      "pose_sha256": "6205dd63a1535abb077c54648e95bfcb672e2610bbb9e0f3fe0fed3072de47ff",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair034": {
+      "pair": "pair034",
+      "subject": "S1",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4748,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00351574900560081
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009903683753684164
+        }
+      },
+      "pose_sha256": "c56a1460515c567301227a5765d03a5f816a9dc612fcd1b638ec0bb863cf9101",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair035": {
+      "pair": "pair035",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4146,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.007277205586433411
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.015050975453108548
+        }
+      },
+      "pose_sha256": "d50c5c821d244d0433a4248d371df2182fb1565aecba68c6bdeaca841553200e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair036": {
+      "pair": "pair036",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4551,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.009258456528186798
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.018834378100931644
+        }
+      },
+      "pose_sha256": "f89ac4524aa2393f5c6f9ea6318f5fc28c41d9a34a6a6e8bb78863c111e1a9f2",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair037": {
+      "pair": "pair037",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5451,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.014316928572952747
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.022811559960246086
+        }
+      },
+      "pose_sha256": "921c27d12e45ee11dd42207db1005f820105f20075c4ee335fd57272e69fbdf5",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair038": {
+      "pair": "pair038",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4311,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00812541227787733
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.014946110591292382
+        }
+      },
+      "pose_sha256": "ed76879396a79d220979927f7c49c8e3cd0b241c56fd7eb833a09eef0a36d577",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair039": {
+      "pair": "pair039",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4374,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.008066520094871521
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.015058032512664795
+        }
+      },
+      "pose_sha256": "f561a3644f5c565d3fa4bf05a0d58a143169825f5a2e6a73e85c4010a3e6f4ff",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair040": {
+      "pair": "pair040",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4402,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.008144342340528965
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.015669126711785795
+        }
+      },
+      "pose_sha256": "6c1729f206ce7e10d87c49761783f574774419ccc800a45007e67c8bb43e1918",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair041": {
+      "pair": "pair041",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4244,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.00891460943967104
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.01681692658364773
+        }
+      },
+      "pose_sha256": "ebd549a7cff4eaa2bc24da30feac629c9cee7e975038cc92012a3ca510038b4b",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair042": {
+      "pair": "pair042",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4567,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.008450191468000412
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 29,
+          "loss": 0.016208141885697844
+        }
+      },
+      "pose_sha256": "69907c5f85f2ade0de6505a224ec241f9eeaed6fdcda4308bf5b117fe27d276f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair043": {
+      "pair": "pair043",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3917,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.009349433705210686
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.016036300010979176
+        }
+      },
+      "pose_sha256": "c279870b978b26c36c1823993e55fbf705278e3eeb0e42dda3e03741b09aa2e0",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair044": {
+      "pair": "pair044",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3700,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 9,
+          "loss": 0.00872714351862669
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 19,
+          "loss": 0.016234341271221638
+        }
+      },
+      "pose_sha256": "918f6127f63dca19ffc0fb463fab6121d645a88cec99cfa0d798bf958a994bcd",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair045": {
+      "pair": "pair045",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5038,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.011889553628861904
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.02259595326334238
+        }
+      },
+      "pose_sha256": "39c768807ac0241de97c48c5f1f40c9f0ef06a0b149a9dd32ba3ac7d0578b0f6",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "R_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair046": {
+      "pair": "pair046",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4216,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.009255836717784405
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.01841977249085903
+        }
+      },
+      "pose_sha256": "122680f3848110653b5133ed38b59c08eee73f22f50e0a3dba7fc98bf8b5fb58",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair047": {
+      "pair": "pair047",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4042,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.01257327850908041
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.02367810932546854
+        }
+      },
+      "pose_sha256": "bd4f91b6653f196bbe71ec5d888dcc6d0b7f45c5b372134c07d3035a32f318f0",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair048": {
+      "pair": "pair048",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4275,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.012987862341105938
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.022729106493294238
+        }
+      },
+      "pose_sha256": "a3a46b6cecadcc9028928600a05bd1fe87c6f6d15c3668dc5c5a888dd13931d1",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair049": {
+      "pair": "pair049",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4096,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.013568764552474022
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.02414038971811533
+        }
+      },
+      "pose_sha256": "48e569803c40332011f35ca8ece658ad22ba86eb6eb974cd1e96bbb95588b2a4",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair050": {
+      "pair": "pair050",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4362,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.010601283982396126
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.01769676873832941
+        }
+      },
+      "pose_sha256": "0e0d54c1e11eca5c4bc74e5e955d7c0f45bfa402683b3dd946a0d793bc08a18f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair051": {
+      "pair": "pair051",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4761,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.009556504897773266
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 29,
+          "loss": 0.016340491831302643
+        }
+      },
+      "pose_sha256": "7c60dcb78e6f83f0a07cc9249577ddef0256c0520b282a4956988afe3614067f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair052": {
+      "pair": "pair052",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5075,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.015319249592721462
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.0263480191975832
+        }
+      },
+      "pose_sha256": "04710525acc5a445fe1a68598f104ad70568f4a4c63e1b0eeafb9b20bdf9460f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair053": {
+      "pair": "pair053",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4193,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.012913359329104424
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.022385789304971697
+        }
+      },
+      "pose_sha256": "2c234d9c79140a49fbaf7190812a057405a22080c104803b63f20c90cfaa7bb3",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair054": {
+      "pair": "pair054",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4963,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.012100396677851677
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.023692134730517865
+        }
+      },
+      "pose_sha256": "6dad815d53879e28fa05bad7e4af0e8701a1df68b95c568baed120409dff8e2e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair055": {
+      "pair": "pair055",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5142,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.013380004093050957
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.023472827419638635
+        }
+      },
+      "pose_sha256": "b0886df8c66d2182306df271020dbbc77826bcffb0898c60d073e202a7c16131",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair056": {
+      "pair": "pair056",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4693,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.017790457233786583
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.02842995947599411
+        }
+      },
+      "pose_sha256": "31166c71ff925869f3ef4c0b4a716826d46da364b3e8911625b02a081943ebf4",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair057": {
+      "pair": "pair057",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3930,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.019198179244995117
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.03639558552205563
+        }
+      },
+      "pose_sha256": "0f27817d9f2d6de7cbf1a6e115bc32b976b9ad7310b876ecc210a250335b16ae",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair058": {
+      "pair": "pair058",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4119,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.015573522076010704
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.025836253225803376
+        }
+      },
+      "pose_sha256": "05ecb3433805c3ff14ee466b0eb990ca4390a9e7a53859b6c083e2dc3b1fd199",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm",
+          "L_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair059": {
+      "pair": "pair059",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4322,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.011178281158208847
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.020429138697683813
+        }
+      },
+      "pose_sha256": "126403e13b75b1268e19d9b457cdd1c9e048993231639dbb5e1e2f4833d1e07d",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair060": {
+      "pair": "pair060",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3232,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 10,
+          "loss": 0.018557243049144745
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 20,
+          "loss": 0.027776613876223565
+        }
+      },
+      "pose_sha256": "9ff468fb713b5abc20a97efe4f2cf434b83ce68601dc9804ef426605e17550ec",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair061": {
+      "pair": "pair061",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4665,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.006845375057309866
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.013497956167906524
+        }
+      },
+      "pose_sha256": "8d38ab1825ffc37da24cb39f66cecd253cf80f55a8f6d635819bcf762d6e6c82",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair062": {
+      "pair": "pair062",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "wrist",
+      "prior_v3_choice": "wrist",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4316,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007665689568966627
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.013915317453444005
+        }
+      },
+      "pose_sha256": "f01de4f929feb792728931df654f56e48f42a44920e3a8c83ad5148d1b6f0712",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair063": {
+      "pair": "pair063",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4368,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 11,
+          "loss": 0.010345066897571087
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 21,
+          "loss": 0.02045255898684263
+        }
+      },
+      "pose_sha256": "117228978a7498dc549271e4db0e9434c8fc3789aa75d819f04148347672a194",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair064": {
+      "pair": "pair064",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5139,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.01028330810368061
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.020750658728182318
+        }
+      },
+      "pose_sha256": "72d863cc04da39e1d6109f1a54824478e591559feb40847938a2cbd466accc2e",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair065": {
+      "pair": "pair065",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3772,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.009718259796500206
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.019647744596004487
+        }
+      },
+      "pose_sha256": "20a0364731c0b5ab148f9aef22294228f9736f3cbb001011047d6d98db7b3445",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand"
+        ],
+        [
+          "foreground",
+          "R_hand",
+          "R_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair066": {
+      "pair": "pair066",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3592,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.007315941620618105
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.021672513082623482
+        }
+      },
+      "pose_sha256": "494e8923f24b9c840ec06bf253839e18c6475c96dc3f2bc722a8a43adf2ae61f",
+      "eye_support": [
+        [
+          "foreground"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair067": {
+      "pair": "pair067",
+      "subject": "S9",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4378,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.012185219675302505
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.023354191593825818
+        }
+      },
+      "pose_sha256": "5a9f52a2d582062db1abc7317d698951ce2ceea7489ceabf9d5c1e117fce7ab8",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm",
+          "R_upperarm"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm",
+          "R_forearm",
+          "L_upperarm",
+          "R_upperarm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair068": {
+      "pair": "pair068",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3652,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.007561326026916504
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.014576771058142184
+        }
+      },
+      "pose_sha256": "3bb60fb1b40d89b1c344a7139178a6f6ac1b9199de1ba40aab4cdde2bd6469d3",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair069": {
+      "pair": "pair069",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3862,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002047391142696142
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007664540819823742
+        }
+      },
+      "pose_sha256": "c18aa7334292559d737a3001a858b80389d0960b5fd4791b3ebd1dc1ebcf4b27",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair070": {
+      "pair": "pair070",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3292,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.010126822628080845
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.016043394461274146
+        }
+      },
+      "pose_sha256": "a6b9ff53cd599f0186d4ccac8b48762661e3916e1b4aa82182bf19ba0a467c6a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair071": {
+      "pair": "pair071",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3958,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.005793520249426365
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.01304493310675025
+        }
+      },
+      "pose_sha256": "eb7808e169ec6c104fbee5899c5732e81c736b90eb2e02d488ca15e2a189fe35",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair072": {
+      "pair": "pair072",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3376,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.009409447200596333
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.01548000454902649
+        }
+      },
+      "pose_sha256": "227e435dac305c56deb4c2169afa3d3f4344a3366685143c40311cf552492532",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair073": {
+      "pair": "pair073",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3112,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.008338705636560917
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.0179191622287035
+        }
+      },
+      "pose_sha256": "445f621712af4cdbe6efecb0d763e3b835a353226c235427b216af3578037a77",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand"
+        ],
+        [
+          "foreground",
+          "L_thigh"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair074": {
+      "pair": "pair074",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3582,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 12,
+          "loss": 0.02153942547738552
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 24,
+          "loss": 0.0276555600464344
+        }
+      },
+      "pose_sha256": "ec4df141bff11013a27df1bc8437d37ae8ab6197a05a048ee714e79bd7fc2298",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair075": {
+      "pair": "pair075",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4203,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.004131020978093147
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009655342891812324
+        }
+      },
+      "pose_sha256": "8e2d3c3db4918a51690a57f28d2d1d9d4954b99b29adb78982e294733e041e76",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair076": {
+      "pair": "pair076",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4116,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0031822347082197666
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.00862957345508039
+        }
+      },
+      "pose_sha256": "f2b38bcc80a6132bafc22c4e05d87c6a40bce33532201aef4819a4ad9004e1b8",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair077": {
+      "pair": "pair077",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4424,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0038399442564696074
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009517519768327475
+        }
+      },
+      "pose_sha256": "258bfc256889fb49859ac47d2c1fb85e5b001b907f172f9e33e17ec21e0e3ccd",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair078": {
+      "pair": "pair078",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3604,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00224338099360466
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.007373392710462213
+        }
+      },
+      "pose_sha256": "f30b4f5353e34564bb37bff9b2dbe3138f0e56d6137b419fd891b799aa078475",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair079": {
+      "pair": "pair079",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4368,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.006457019597291946
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.011772432882338762
+        }
+      },
+      "pose_sha256": "195d8e681b6736315a471ce8592a6c5de0dbb3c38f9b4745013784bdaed2457a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair080": {
+      "pair": "pair080",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3664,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002450278727337718
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.008373880287632345
+        }
+      },
+      "pose_sha256": "f4c8f19ca7e136fff860051bc5caf3f1be342acfa179693ab8a84417fa2c4a77",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair081": {
+      "pair": "pair081",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4178,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.005035421345382929
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.009492281526327133
+        }
+      },
+      "pose_sha256": "d693594a70f85e002552eb17dcaea0405573cdbd7c4768a145990739f4e6c357",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair082": {
+      "pair": "pair082",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4083,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.005683550611138344
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.013078642632812262
+        }
+      },
+      "pose_sha256": "ae7abb8bdf5ab26faf746e4c168e1b42e3b0467780afa0a5ebd23ef15e3bf578",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair083": {
+      "pair": "pair083",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3454,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.003524772822856903
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.008948212642222644
+        }
+      },
+      "pose_sha256": "b55d71278a8fcda5cefe0bdf6646cd94023bf9f49a5be91fcc4702a7c889b943",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair084": {
+      "pair": "pair084",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4557,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.004101944621652365
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.010229985367506743
+        }
+      },
+      "pose_sha256": "bcc2c69c3dfaced584fe7d4e95fab9ac1fb34e1352c8fe2164adcb9f866a2d07",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair085": {
+      "pair": "pair085",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4876,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.011062624864280224
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.018027744479477407
+        }
+      },
+      "pose_sha256": "432f45811a1fb0bf7f41b17fe00d398999a5476dda34823c345a6209c0b5fb0c",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair086": {
+      "pair": "pair086",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4492,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.013331419788300991
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.024969424620270728
+        }
+      },
+      "pose_sha256": "553b9ab299f22eaf90c897ad6d50643b05872df8239a7d16cd0b4fd0901bb2cd",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "R_thigh"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair087": {
+      "pair": "pair087",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3988,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.013830001465976238
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.023762234531342984
+        }
+      },
+      "pose_sha256": "994ad1580f448612b553cead592fb300a863430c4118ceb5537f3a590a2e3df7",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair088": {
+      "pair": "pair088",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4630,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.004705456551164389
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.009636542789638042
+        }
+      },
+      "pose_sha256": "baf985095f42a497342457e821fa50fff47416d218d271d0e4b6283daf4d0b4a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair089": {
+      "pair": "pair089",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "fixed",
+      "prior_v3_choice": "fixed",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4818,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.0037649297155439854
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 28,
+          "loss": 0.00940081818960607
+        }
+      },
+      "pose_sha256": "63219b2dc313ccce7dcf1f82cc6fe75188f24dfb1f36a905e4184fc994b53b12",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair090": {
+      "pair": "pair090",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4509,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.004460045602172613
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.010204518657177686
+        }
+      },
+      "pose_sha256": "f19b9d72913417f9668467abc92753178137167d487d30306a98bd5adefe0c40",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair091": {
+      "pair": "pair091",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4712,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.00342975789681077
+        },
+        "outline": {
+          "choice": "new_fixed",
+          "candidates": 27,
+          "loss": 0.00906614880822599
+        }
+      },
+      "pose_sha256": "85ea7538945c68603a20925e4f2ce8044f7cb397d4e5b1dd70ab6d44ca954502",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair092": {
+      "pair": "pair092",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4313,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.0035215069074183702
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009452622257173061
+        }
+      },
+      "pose_sha256": "48021ed91c7f89e818fcb486289b96c270c08f1b947c5689fea3c66ed63b5c94",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair093": {
+      "pair": "pair093",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4150,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.0052039441652596
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.010435193467885257
+        }
+      },
+      "pose_sha256": "7dd5bfc51211de6cacb2b84bb13b08c68e1c1521a0da29e384191dae495e69f6",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair094": {
+      "pair": "pair094",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 5167,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.005144965369254351
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.011369746584445239
+        }
+      },
+      "pose_sha256": "adc27144450313d8ba6dd957d822f6286ff0c616515c7fab5871def05e2f982f",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair095": {
+      "pair": "pair095",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4234,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.0035118903033435345
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.00981036381609738
+        }
+      },
+      "pose_sha256": "5a518db56a7fafc07228e86c167ad2ff3f20811c37cf0dcadeaae8440d205727",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand",
+          "L_forearm"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair096": {
+      "pair": "pair096",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3868,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.002440104493871331
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.009275933587923647
+        }
+      },
+      "pose_sha256": "847ee4ae08b82249914a7a393d3c51f0d488e8e0f488d5f177d6976ece7b57a9",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair097": {
+      "pair": "pair097",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4126,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.003195409895852208
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.008404368091374636
+        }
+      },
+      "pose_sha256": "f505d6f75f3898c340f9be472c317de74c19a157bdc7cbce681985834b5e2d4a",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair098": {
+      "pair": "pair098",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 3586,
+      "methods": {
+        "matched": {
+          "choice": "adam",
+          "candidates": 26,
+          "loss": 0.002595114056020975
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.008116663629189134
+        }
+      },
+      "pose_sha256": "392f93bbbd75e1c90b3bd0160aa2dee06d5deec8e90dfa57b5b4af122cc73c3b",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair099": {
+      "pair": "pair099",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4263,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.005632470827549696
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.012122165210545063
+        }
+      },
+      "pose_sha256": "cf81f98d9368710cd8b590784851c84ba54bd87324564bfec111ac2ecf376611",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    },
+    "pair100": {
+      "pair": "pair100",
+      "subject": "S11",
+      "archive_max_parameter_difference": 0.0,
+      "v3_choice": "baseline",
+      "prior_v3_choice": "baseline",
+      "baseline_sha256": "93ed5f0171b4952ccf3204664d74be7b61aa1bdb0e5f729ca2c7c2cb871cba20",
+      "regenerated_chain_probes": 4189,
+      "methods": {
+        "matched": {
+          "choice": "v3",
+          "candidates": 13,
+          "loss": 0.003535857889801264
+        },
+        "outline": {
+          "choice": "adam",
+          "candidates": 27,
+          "loss": 0.009056589452549816
+        }
+      },
+      "pose_sha256": "a9a791332412e1bfd98182c222c6bd3d25dede822c899262e274fc3d8225a091",
+      "eye_support": [
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ],
+        [
+          "foreground",
+          "L_hand",
+          "R_hand"
+        ]
+      ],
+      "exit_status": 0
+    }
+  },
+  "exit_status": 0
+}
