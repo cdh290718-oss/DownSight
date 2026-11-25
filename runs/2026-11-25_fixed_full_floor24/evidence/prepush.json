@@ -1,0 +1,25 @@
+{
+  "remote_checked": "58387c62eeea1800489ef09b8efd4ee48e4b95f4",
+  "scope": "runs/2026-11-25_fixed_full_floor24",
+  "expected_file_count": 56,
+  "unrelated_worktree_changes_excluded": true,
+  "new_previews": 48,
+  "path_check": "relative paths or placeholders",
+  "command": "bash <RUN>/run.sh",
+  "attempts": [
+    {
+      "exit_status": 1,
+      "reason": "source selection order differs from published display order; stopped before writing images"
+    },
+    {
+      "exit_status": 0,
+      "verification": "same 24 source identities and image hashes verified, published order preserved"
+    }
+  ],
+  "checks": [
+    "worktree, stage, outgoing commit and remote",
+    "allowlisted text and derived JPEG previews only",
+    "per-file limit 50 MB",
+    "no credentials, environment files, datasets, original images, archives, full geometry, weights, arrays, private patches or absolute machine paths"
+  ]
+}
