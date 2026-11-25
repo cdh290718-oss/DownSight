@@ -1,0 +1,33 @@
+{
+  "baseline": "5b5eaf4c14fc7a0490137e922cfc26908b45eb8e",
+  "remote_before_commit": "5b5eaf4c14fc7a0490137e922cfc26908b45eb8e",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested real001 physical anchor overlay and pose comparison JPEGs, verified JPEG, no EXIF.",
+  "images": 4,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_real001_head_mount/assets/all_front_side.jpg": "dd41b420105f583b8f645c1b404fc94e53448b09a85b7f1d10c1d6d8f45f7e49",
+    "runs/2026-11-25_real001_head_mount/assets/historical_vs_mount.jpg": "156707e9631aaed6b1073cee0330729e78c2b3312d30caeceb1ae1d8cfb41370",
+    "runs/2026-11-25_real001_head_mount/assets/mount_cam3.jpg": "20f08d1a1d08103847683c87b6f617c894966201656d1537d463d25ba9c2e1fd",
+    "runs/2026-11-25_real001_head_mount/assets/mount_cam4.jpg": "18a5efe20318787d1f9a0aefe12ea88c33ac659c40ebad693c86d942b67da5af",
+    "runs/2026-11-25_real001_head_mount/brief.md": "f6e280dc99a18940dfa53df7b8b2214658f326039e37dc4ffdc430abc367a0fe",
+    "runs/2026-11-25_real001_head_mount/evidence/execution.json": "aceb156026be9adf686b74c6ffae269e05ba51be4024cd3a40139622cd67eb7b",
+    "runs/2026-11-25_real001_head_mount/evidence/inputs.json": "953893365b744519dfa9430b5b7c1ecbd7efd7319b41d9c6b527b5a9911d1933",
+    "runs/2026-11-25_real001_head_mount/evidence/results.json": "ad23944439d0bdf1b650269e8b01daf2165d3de2f91ac75da023b2e18342ba78",
+    "runs/2026-11-25_real001_head_mount/experiment.py": "c244a5fac3674b205bf6337c19a8ce8df7c6e93b12c70ecf9e262c112246c933",
+    "runs/2026-11-25_real001_head_mount/report.md": "48bc306dc37bb8e20524ba1a0a29734143b1fd3217e01b54b01a8c64241c7899",
+    "runs/2026-11-25_real001_head_mount/review.md": "f2de3a648168946ea21ddef65632f48a492005d0ac79e0af0043817c47ca799a",
+    "runs/2026-11-25_real001_head_mount/score.py": "42aa4b614095110cc466beadff34f7e7cd271b9c354e4b65ed1f11e0f05b237b"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}

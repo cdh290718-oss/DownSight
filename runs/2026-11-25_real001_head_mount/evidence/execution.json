@@ -1,0 +1,29 @@
+{
+  "base_commit": "5b5eaf4c14fc7a0490137e922cfc26908b45eb8e",
+  "cwd": "<WORKSPACE>",
+  "env": "existing single-threaded CPU EgoSMPLX environment",
+  "commands": [
+    {
+      "command": "python -Bu runs/2026-11-25_real001_head_mount/experiment.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_head_mount/experiment.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_head_mount/experiment.py candidates",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_head_mount/score.py",
+      "exit_status": 0
+    }
+  ],
+  "exploratory_checks": [
+    "Initial direct calling of the SMPL-X layer without explicit global rotation failed. All measured geometry was obtained with explicit zero template parameters or the selected fitted parameters.",
+    "A separate diagnostic import of a same-named module failed. Re-executing that read-only diagnostic by file path confirmed the facial landmarks and template coordinates."
+  ],
+  "inputs": "Same prepared real001 and protocol hashes as previous run, unchanged shoulder/hip root rotation. New conditions change Head position and dependent initial translation only.",
+  "weights_shapes_and_raw_outputs": "Local research assets; see inputs and upstream hashes."
+}
