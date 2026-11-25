@@ -1,0 +1,36 @@
+{
+  "baseline": "f2a5e19f3293888e4ef76ad940299ad21395fc9f",
+  "remote_before_commit": "f2a5e19f3293888e4ef76ad940299ad21395fc9f",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested annotated point-overlay JPEGs, verified JPEG, no EXIF.",
+  "images": 10,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair004_detector.jpg": "a4499f57149421c564808eeb52307261dd371d71f9c6e80f2ba633da8bc9214a",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair004_fit.jpg": "9876b23e6b876067beceeec7eeafe0b93f4b36b45b158868c4503f9198a47940",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair010_detector.jpg": "5dbf8a3a010c5213569356ff69cb09d4cd853eae904021124efee3f36d624baa",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair010_fit.jpg": "3cd76093a56e10d58f493174fff1031b02ca0ffa39f41d2c4bcec07cb97c8ed1",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair024_detector.jpg": "f867f6524afde5dd71ce1418b8ee9abb56f533e68c53ee480cfb72472ecf671e",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair024_fit.jpg": "b893d97d44ce5fda4f273374d4a4e2df8500900181fd6298eae4a4b5e506dddf",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair028_detector.jpg": "4157e682219d201755169adda784585224e7979eb60e4949fac506568589bf6a",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair028_fit.jpg": "bb627f42791ceb5cb4ab9a150c90cfb510082eb5ac8b85ab3c13bc76827df9f9",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair081_detector.jpg": "3e68a0c02fdb5bf582096c9d2a242fc7f13525d9cf2986df128999d77d1e95fb",
+    "runs/2026-11-25_five_fullframe_overlays/assets/pair081_fit.jpg": "803bcf19ff41c4de0e32640e028eecfdc35568e47efa856659aa646e0af3063e",
+    "runs/2026-11-25_five_fullframe_overlays/brief.md": "c66f316c1771ca0602a32c6cb987695b4a6a1da1fcf23896e81e5d2bcf2fc2de",
+    "runs/2026-11-25_five_fullframe_overlays/evidence/gallery.json": "8d360ecb8ddc7812b8de67ff17d09dfead973c2b8291c370332509770e15b87c",
+    "runs/2026-11-25_five_fullframe_overlays/gallery.py": "7f72db7b8d628f48ea4bb76d7dce815c971685a3e9702ecc9d0535e12d4c4d61",
+    "runs/2026-11-25_five_fullframe_overlays/report.md": "75d7ac76be7b2867780ad3af8d0b6553bf260f731b5bcc8069623e1bb074c273",
+    "runs/2026-11-25_five_fullframe_overlays/review.md": "bc714c261cfc9b72930691cdde6d9a4e928c0024344a9b24a515d468796969cd"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
