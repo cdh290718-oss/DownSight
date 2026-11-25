@@ -1,0 +1,32 @@
+{
+  "baseline": "5cbdec92842e29e3537882b0ea8331aa4a55656d",
+  "remote_before_commit": "5cbdec92842e29e3537882b0ea8331aa4a55656d",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 42,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Text files only, no binaries.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_frozen100_point_errors/brief.md": "c185b11b918adcf12911c835788ec42b8778078880728534125f8ca08a218f12",
+    "runs/2026-11-25_frozen100_point_errors/evidence/execution.json": "15c44e6cc3226aae7bc9268a78877eeb39613a15ab864fb6414f42fa8dbbdc83",
+    "runs/2026-11-25_frozen100_point_errors/evidence/pixels.json": "7a4ec2422216686a036de80b66ecefd224dcec8cce3138727bc5cb09fa4b747f",
+    "runs/2026-11-25_frozen100_point_errors/evidence/refinement_scores.json": "3a98201b91851f067dc9dc7d42ef472b061b23c22c7b3ce3136ba706851986ad",
+    "runs/2026-11-25_frozen100_point_errors/evidence/selection.json": "3fa22e643ecc7f9cef1d6035818b113a5549e3fa0a5586002d551c6c2f84d752",
+    "runs/2026-11-25_frozen100_point_errors/pairs.md": "c6c586a793d7918e4cff3ee3b2f3120509070f6dad2e2413a3d70fc55420dde2",
+    "runs/2026-11-25_frozen100_point_errors/pixels.py": "f2aee64b5dae1b81fead38df0679f2249dde4f1b94ea745e8eaec0c561d3614e",
+    "runs/2026-11-25_frozen100_point_errors/refine.py": "eb16f4f505676a105583160c81e14976404e20f68b7cfc39dbbb9dc955c402f6",
+    "runs/2026-11-25_frozen100_point_errors/report.md": "3bf3ba9f00d929f12c56718b38650171facab2d5c5bc709f6fcd5ef034bdc1f0",
+    "runs/2026-11-25_frozen100_point_errors/review.md": "692703155ee63858da26b0253e39825ca845283373279f7676df683e654597b1",
+    "runs/2026-11-25_frozen100_point_errors/score.py": "671d39df865530a8d28fc698379e58e58de493a1bdaee0292e9ede4a5e921139"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}

@@ -1,0 +1,5467 @@
+{
+  "frames": {
+    "pair001": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.3970021077668294,
+            0.9156387600590936,
+            -0.06320591353774051
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.23544352558024026,
+            0.9220489395661456,
+            -0.3072329723634705
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.00466906325891614,
+        "old": 0.004667815286666155,
+        "left": 0.004669531714171171,
+        "right": 0.004669797141104937,
+        "both": 0.0046717142686247826
+      },
+      "initial_loss": {
+        "old": 0.00466906325891614,
+        "left": 0.008905947208404541,
+        "right": 0.0163204837590456,
+        "both": 0.02055736444890499
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 991,
+        "both": 1000
+      }
+    },
+    "pair002": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.31249006805324464,
+            0.7972296073097144,
+            0.5165025755955891
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1835381968996048,
+            0.976216318102876,
+            0.11539250646600126
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.004154253285378218,
+        "old": 0.004152899608016014,
+        "left": 0.004153153859078884,
+        "right": 0.004153265152126551,
+        "both": 0.004153282847255468
+      },
+      "initial_loss": {
+        "old": 0.004154253285378218,
+        "left": 0.015019027516245842,
+        "right": 0.011014103889465332,
+        "both": 0.02187887392938137
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 997,
+        "right": 992,
+        "both": 1000
+      }
+    },
+    "pair003": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5728798057350607,
+            0.8191547740505599,
+            0.028181276250999313
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.46028086211721386,
+            0.2946101318635656,
+            -0.8374642668030481
+          ]
+        }
+      },
+      "archive_name": "spine3_1_4",
+      "winner": "left",
+      "losses": {
+        "archive": 0.005970028694719076,
+        "old": 0.004043875727802515,
+        "left": 0.004041688982397318,
+        "right": 0.004044280853122473,
+        "both": 0.004044043831527233
+      },
+      "initial_loss": {
+        "old": 0.005970028694719076,
+        "left": 0.006313107442110777,
+        "right": 0.014198011718690395,
+        "both": 0.01454109139740467
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair004": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4764822590639488,
+            0.8681102091603563,
+            -0.13910183876886206
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4305295254038798,
+            0.3328405324748761,
+            -0.838964544958457
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "old",
+      "losses": {
+        "archive": 0.012088633142411709,
+        "old": 0.009704035706818104,
+        "left": 0.009704147465527058,
+        "right": 0.009704173542559147,
+        "both": 0.009704282507300377
+      },
+      "initial_loss": {
+        "old": 0.012088633142411709,
+        "left": 0.015931738540530205,
+        "right": 0.015600353479385376,
+        "both": 0.019443459808826447
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 993,
+        "left": 997,
+        "right": 990,
+        "both": 1000
+      }
+    },
+    "pair005": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.10078315444693464,
+            0.8057934939325763,
+            0.5835577100130339
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.24337873470809296,
+            0.9391475739322784,
+            0.24242241206003107
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.003941248636692762,
+        "old": 0.00393809424713254,
+        "left": 0.003937223926186562,
+        "right": 0.00393708748742938,
+        "both": 0.003937928006052971
+      },
+      "initial_loss": {
+        "old": 0.003941248636692762,
+        "left": 0.004207028076052666,
+        "right": 0.003995938692241907,
+        "both": 0.004261718597263098
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 995,
+        "right": 998,
+        "both": 998
+      }
+    },
+    "pair006": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.410014428952647,
+            0.773402840845839,
+            0.48346273260947503
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5583593690543138,
+            0.6409802108235262,
+            0.5266680019916687
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0031079717446118593,
+        "old": 0.0031067957170307636,
+        "left": 0.0031064744107425213,
+        "right": 0.0031058350577950478,
+        "both": 0.0031065584626048803
+      },
+      "initial_loss": {
+        "old": 0.0031079717446118593,
+        "left": 0.003851407440379262,
+        "right": 0.003178544109687209,
+        "both": 0.003921980038285255
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 1000,
+        "both": 999
+      }
+    },
+    "pair007": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3357147932557768,
+            0.5177572721197152,
+            0.7869072275410756
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.021474048665009002,
+            0.975989987112542,
+            0.21675426244942206
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.010687937028706074,
+        "old": 0.010687937028706074,
+        "left": 0.010687473230063915,
+        "right": 0.010687089525163174,
+        "both": 0.010687616653740406
+      },
+      "initial_loss": {
+        "old": 0.010687937028706074,
+        "left": 0.01222030445933342,
+        "right": 0.014718779362738132,
+        "both": 0.01625114493072033
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 0,
+        "left": 982,
+        "right": 962,
+        "both": 992
+      }
+    },
+    "pair008": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.09711236836688462,
+            0.6756584727053031,
+            0.7307905419281997
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.07173231393253729,
+            0.7614490216967293,
+            0.6442436359755351
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.00388796697370708,
+        "old": 0.0038869171403348446,
+        "left": 0.0038869453128427267,
+        "right": 0.0038862803485244513,
+        "both": 0.0038864004891365767
+      },
+      "initial_loss": {
+        "old": 0.00388796697370708,
+        "left": 0.004843051545321941,
+        "right": 0.005242412909865379,
+        "both": 0.006197497248649597
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 995,
+        "left": 1000,
+        "right": 998,
+        "both": 997
+      }
+    },
+    "pair009": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.16690524417123753,
+            0.9451200338531083,
+            0.2808749919050092
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.34964492386308704,
+            0.3335652634217671,
+            0.8754899441199443
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.002185664139688015,
+        "old": 0.0021841300185769796,
+        "left": 0.0022054556757211685,
+        "right": 0.0021817046217620373,
+        "both": 0.0022060596384108067
+      },
+      "initial_loss": {
+        "old": 0.002185664139688015,
+        "left": 0.021329296752810478,
+        "right": 0.006963619031012058,
+        "both": 0.02610725164413452
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair010": {
+      "triangulation": {
+        "left": {
+          "available": false
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            true
+          ],
+          "direction": [
+            0.7537852855900855,
+            0.39102616934730894,
+            -0.5281157809736827
+          ]
+        }
+      },
+      "archive_name": "spine3_1_-4",
+      "winner": "old",
+      "losses": {
+        "archive": 0.1858372986316681,
+        "old": 0.14274734258651733,
+        "left": 0.14274734258651733,
+        "right": 0.20840592682361603,
+        "both": 0.20840592682361603
+      },
+      "initial_loss": {
+        "old": 0.1858372986316681,
+        "left": 0.1858372986316681,
+        "right": 0.26991310715675354,
+        "both": 0.26991310715675354
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 22,
+        "left": 22,
+        "right": 25,
+        "both": 25
+      }
+    },
+    "pair011": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.15344681871752627,
+            0.2245779043148634,
+            0.9622987263417814
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.09737647111352556,
+            -0.08884994299475485,
+            0.9912736809293917
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.008659341372549534,
+        "old": 0.00865865871310234,
+        "left": 0.008662419393658638,
+        "right": 0.008658228442072868,
+        "both": 0.008663280867040157
+      },
+      "initial_loss": {
+        "old": 0.008659341372549534,
+        "left": 0.028906188905239105,
+        "right": 0.017450721934437752,
+        "both": 0.03769757226109505
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 988,
+        "left": 999,
+        "right": 949,
+        "both": 999
+      }
+    },
+    "pair012": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1617162181546321,
+            0.42460529345977227,
+            0.8908188421624815
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.1743642619300554,
+            0.4603247942226067,
+            0.8704586078530683
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.0032166698947548866,
+        "old": 0.003209813265129924,
+        "left": 0.003206293797120452,
+        "right": 0.0032077948562800884,
+        "both": 0.0032064926344901323
+      },
+      "initial_loss": {
+        "old": 0.0032166698947548866,
+        "left": 0.011614772491157055,
+        "right": 0.0038247371558099985,
+        "both": 0.012222839519381523
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 996,
+        "both": 991
+      }
+    },
+    "pair013": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2679505117758809,
+            -0.0203089959199121,
+            0.9632185982028009
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6741906130182764,
+            0.13045041065254784,
+            -0.7269454640333224
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.0022951867431402206,
+        "old": 0.0022947320248931646,
+        "left": 0.002294457284733653,
+        "right": 0.0023158707190304995,
+        "both": 0.002315527992323041
+      },
+      "initial_loss": {
+        "old": 0.0022951867431402206,
+        "left": 0.0037660005036741495,
+        "right": 0.04773668944835663,
+        "both": 0.04920750856399536
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 997,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair014": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.19107699588355687,
+            0.207929610814625,
+            0.9592991496872046
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.09486899041852344,
+            0.7130359006824899,
+            0.694679551300368
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.002081913873553276,
+        "old": 0.0020766144152730703,
+        "left": 0.002078662160784006,
+        "right": 0.002074545482173562,
+        "both": 0.002075170399621129
+      },
+      "initial_loss": {
+        "old": 0.002081913873553276,
+        "left": 0.003040193347260356,
+        "right": 0.0028274853248149157,
+        "both": 0.0037857647985219955
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 996,
+        "both": 1000
+      }
+    },
+    "pair015": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1411947091608819,
+            0.7790281141142588,
+            0.6108839918712515
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.31934790373558913,
+            0.2900820391141251,
+            0.9021470650415463
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.0030936505645513535,
+        "old": 0.0030904519371688366,
+        "left": 0.0030882670544087887,
+        "right": 0.003090508049353957,
+        "both": 0.0030881352722644806
+      },
+      "initial_loss": {
+        "old": 0.0030936505645513535,
+        "left": 0.012068714946508408,
+        "right": 0.003102332353591919,
+        "both": 0.012077397666871548
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 986,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair016": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3428649489203669,
+            0.5764989224692131,
+            0.7416822899285583
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1013731214602164,
+            0.5475138751175955,
+            0.8306335213553123
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0029395970050245523,
+        "old": 0.0029376691672950983,
+        "left": 0.0029381681233644485,
+        "right": 0.0029375001322478056,
+        "both": 0.0029383786022663116
+      },
+      "initial_loss": {
+        "old": 0.0029395970050245523,
+        "left": 0.0034969975240528584,
+        "right": 0.003250744193792343,
+        "both": 0.003808144712820649
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 1000,
+        "both": 999
+      }
+    },
+    "pair017": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2818261134257233,
+            0.4818569384689661,
+            0.8296914683427004
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.06228300876904234,
+            0.7342323581153157,
+            0.6760352587810033
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0024378905072808266,
+        "old": 0.0024355335626751184,
+        "left": 0.002433165442198515,
+        "right": 0.0024325454141944647,
+        "both": 0.0024331125896424055
+      },
+      "initial_loss": {
+        "old": 0.0024378905072808266,
+        "left": 0.005252503324300051,
+        "right": 0.0029952332843095064,
+        "both": 0.005809845868498087
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 995,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair018": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4502878695926219,
+            0.8843090352424346,
+            0.12344377135494718
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.33164757502544534,
+            0.8785174786016398,
+            0.34382688343286794
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0029853954911231995,
+        "old": 0.002982527483254671,
+        "left": 0.0029803328216075897,
+        "right": 0.0029781849589198828,
+        "both": 0.0029787442181259394
+      },
+      "initial_loss": {
+        "old": 0.0029853954911231995,
+        "left": 0.004186166916042566,
+        "right": 0.003503312123939395,
+        "both": 0.004704083316028118
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 998,
+        "both": 997
+      }
+    },
+    "pair019": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.11290350990416148,
+            0.5789979724432993,
+            0.8074739285932823
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.05968691380292106,
+            0.6269196842445087,
+            0.7767941695374961
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.0020044450648128986,
+        "old": 0.002003091387450695,
+        "left": 0.0020014834590256214,
+        "right": 0.0020020080264657736,
+        "both": 0.002001569140702486
+      },
+      "initial_loss": {
+        "old": 0.0020044450648128986,
+        "left": 0.0024742349050939083,
+        "right": 0.0021003540605306625,
+        "both": 0.002570144133642316
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 997,
+        "right": 1000,
+        "both": 989
+      }
+    },
+    "pair020": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.0335425550880233,
+            0.9087191497159393,
+            0.41605817374221526
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4587972952157635,
+            0.6148909844155995,
+            0.6414157147958839
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.004035212565213442,
+        "old": 0.004032631870359182,
+        "left": 0.004029868636280298,
+        "right": 0.004029522649943829,
+        "both": 0.0040276614017784595
+      },
+      "initial_loss": {
+        "old": 0.004035212565213442,
+        "left": 0.008902660571038723,
+        "right": 0.004335825797170401,
+        "both": 0.009203274734318256
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 991,
+        "both": 1000
+      }
+    },
+    "pair021": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4607477312441077,
+            0.7725757566343604,
+            -0.4368503501363517
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.03728903534238586,
+            0.6777030715457367,
+            -0.7343895932410183
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "left",
+      "losses": {
+        "archive": 0.006219925358891487,
+        "old": 0.0057660420425236225,
+        "left": 0.005765597801655531,
+        "right": 0.005767747759819031,
+        "both": 0.005766030866652727
+      },
+      "initial_loss": {
+        "old": 0.006219925358891487,
+        "left": 0.008502348326146603,
+        "right": 0.007865059189498425,
+        "both": 0.010147483088076115
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 993,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair022": {
+      "triangulation": {
+        "left": {
+          "available": false
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.8192997165247753,
+            0.2811072348880402,
+            -0.49972662226063475
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.012674846686422825,
+        "old": 0.01267295703291893,
+        "left": 0.01267295703291893,
+        "right": 0.012673589400947094,
+        "both": 0.012673589400947094
+      },
+      "initial_loss": {
+        "old": 0.012674846686422825,
+        "left": 0.012674846686422825,
+        "right": 0.018597394227981567,
+        "both": 0.018597394227981567
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 999,
+        "right": 985,
+        "both": 985
+      }
+    },
+    "pair023": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1763335375697957,
+            0.5330899062346927,
+            0.8274790845687932
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.1947952827877667,
+            0.5357562117812433,
+            0.8215960560649287
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0024446905590593815,
+        "old": 0.002443103352561593,
+        "left": 0.002442293567582965,
+        "right": 0.0024415457155555487,
+        "both": 0.002441918710246682
+      },
+      "initial_loss": {
+        "old": 0.0024446905590593815,
+        "left": 0.002660896396264434,
+        "right": 0.002698271069675684,
+        "both": 0.0029144769068807364
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 999,
+        "right": 997,
+        "both": 1000
+      }
+    },
+    "pair024": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            true,
+            false
+          ],
+          "direction": [
+            -0.3164302872621257,
+            -0.7084722095394004,
+            -0.6308240654996989
+          ]
+        },
+        "right": {
+          "available": false
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.1330423355102539,
+        "old": 0.1329144388437271,
+        "left": 0.1329033076763153,
+        "right": 0.1329144388437271,
+        "both": 0.1329033076763153
+      },
+      "initial_loss": {
+        "old": 0.1330423355102539,
+        "left": 0.14139878749847412,
+        "right": 0.1330423355102539,
+        "both": 0.14139878749847412
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 998,
+        "right": 999,
+        "both": 998
+      }
+    },
+    "pair025": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.16471193819054575,
+            0.8823708980818302,
+            0.4407851808259646
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.004117284074349094,
+            0.7615135999651692,
+            0.648135853845426
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.002923692809417844,
+        "old": 0.0029207661282271147,
+        "left": 0.0029220327269285917,
+        "right": 0.002920693252235651,
+        "both": 0.0029204238671809435
+      },
+      "initial_loss": {
+        "old": 0.002923692809417844,
+        "left": 0.0030263562221080065,
+        "right": 0.005404546391218901,
+        "both": 0.005507209803909063
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 954,
+        "both": 996
+      }
+    },
+    "pair026": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5424594281889402,
+            0.4400942745469482,
+            0.7155800432375983
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6447238440544453,
+            0.6573968845163005,
+            0.3900775578470535
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.006666033063083887,
+        "old": 0.0066625154577195644,
+        "left": 0.006664787884801626,
+        "right": 0.006661355961114168,
+        "both": 0.00666632317006588
+      },
+      "initial_loss": {
+        "old": 0.006666033063083887,
+        "left": 0.014054317958652973,
+        "right": 0.012340122833848,
+        "both": 0.0197284072637558
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 981,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair027": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.31718000282047676,
+            0.8678131493132364,
+            -0.3824881484305689
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2611380282798123,
+            0.9490284672149933,
+            -0.1764990045345637
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0060442592948675156,
+        "old": 0.006042208522558212,
+        "left": 0.006042545195668936,
+        "right": 0.00604200130328536,
+        "both": 0.006042463704943657
+      },
+      "initial_loss": {
+        "old": 0.0060442592948675156,
+        "left": 0.018714599311351776,
+        "right": 0.006352343130856752,
+        "both": 0.019022682681679726
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair028": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.8067864210720614,
+            0.5905076596951895,
+            0.019909159074270835
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.9561196360205706,
+            -0.1717458225961771,
+            0.23735756578768263
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.00610247440636158,
+        "old": 0.00610247440636158,
+        "left": 0.006101484410464764,
+        "right": 0.006101400591433048,
+        "both": 0.006102961953729391
+      },
+      "initial_loss": {
+        "old": 0.00610247440636158,
+        "left": 0.009412212297320366,
+        "right": 0.013118390925228596,
+        "both": 0.016428127884864807
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 0,
+        "left": 1000,
+        "right": 988,
+        "both": 995
+      }
+    },
+    "pair029": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.7729832241701353,
+            0.6230264293403104,
+            0.11972887494253728
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.9935566722474342,
+            -0.09108853435975811,
+            0.06743899421548263
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.008145703002810478,
+        "old": 0.008143596351146698,
+        "left": 0.008144043385982513,
+        "right": 0.00814469438046217,
+        "both": 0.008144431747496128
+      },
+      "initial_loss": {
+        "old": 0.008145703002810478,
+        "left": 0.008568103425204754,
+        "right": 0.015338979661464691,
+        "both": 0.01576138287782669
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 995,
+        "right": 999,
+        "both": 997
+      }
+    },
+    "pair030": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.43171773626308246,
+            0.7315234341891691,
+            -0.5277246075634184
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.25483822704835796,
+            0.448664558083394,
+            0.8565965166603715
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.0034531238488852978,
+        "old": 0.0034512700513005257,
+        "left": 0.003448492381721735,
+        "right": 0.0034536654129624367,
+        "both": 0.003459458937868476
+      },
+      "initial_loss": {
+        "old": 0.0034531238488852978,
+        "left": 0.006308218464255333,
+        "right": 0.013232133351266384,
+        "both": 0.016087226569652557
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 998,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair031": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.9196736372679322,
+            0.2995598986782392,
+            -0.2538981449681252
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.10941692435797785,
+            0.9342472110838128,
+            -0.3394261116151177
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.007177544757723808,
+        "old": 0.007177366875112057,
+        "left": 0.007177672814577818,
+        "right": 0.007177364081144333,
+        "both": 0.007177773397415876
+      },
+      "initial_loss": {
+        "old": 0.007177544757723808,
+        "left": 0.010039211250841618,
+        "right": 0.014178009703755379,
+        "both": 0.017039677128195763
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 978,
+        "left": 985,
+        "right": 986,
+        "both": 995
+      }
+    },
+    "pair032": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.31208954860087856,
+            0.87252302387119,
+            0.37590382608956585
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.7767235634087045,
+            0.5782990734453363,
+            -0.24954095394934636
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.0053094737231731415,
+        "old": 0.005309032276272774,
+        "left": 0.005310338456183672,
+        "right": 0.005309115629643202,
+        "both": 0.005310612265020609
+      },
+      "initial_loss": {
+        "old": 0.0053094737231731415,
+        "left": 0.006781982723623514,
+        "right": 0.007440295536071062,
+        "both": 0.008912804536521435
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 990,
+        "left": 995,
+        "right": 963,
+        "both": 998
+      }
+    },
+    "pair033": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.09299802052031346,
+            0.7595112026476319,
+            0.6438121630041259
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.11904054661866133,
+            0.9358435933503385,
+            0.3317018496268248
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0032527584116905928,
+        "old": 0.0032511602621525526,
+        "left": 0.0032496340572834015,
+        "right": 0.0032492096070200205,
+        "both": 0.00324970087967813
+      },
+      "initial_loss": {
+        "old": 0.0032527584116905928,
+        "left": 0.0038091971073299646,
+        "right": 0.0034532940480858088,
+        "both": 0.004009732510894537
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 998,
+        "right": 1000,
+        "both": 997
+      }
+    },
+    "pair034": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4789665991794343,
+            0.8161260528700817,
+            -0.32330985555220537
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.006875468576692296,
+            0.9853904972643125,
+            -0.17017137195498494
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.00351574900560081,
+        "old": 0.003512527095153928,
+        "left": 0.003511213231831789,
+        "right": 0.003511840244755149,
+        "both": 0.003512380179017782
+      },
+      "initial_loss": {
+        "old": 0.00351574900560081,
+        "left": 0.003853853791952133,
+        "right": 0.0037207414861768484,
+        "both": 0.0040588462725281715
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 986,
+        "right": 999,
+        "both": 994
+      }
+    },
+    "pair035": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.21569152965393043,
+            0.41989123944556794,
+            0.8815716142619455
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.11175699843697696,
+            0.5349351629687226,
+            0.8374692500145803
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.007277205586433411,
+        "old": 0.007274549454450607,
+        "left": 0.007271690294146538,
+        "right": 0.007270300295203924,
+        "both": 0.007271719165146351
+      },
+      "initial_loss": {
+        "old": 0.007277205586433411,
+        "left": 0.009732358157634735,
+        "right": 0.010812967084348202,
+        "both": 0.0132681205868721
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 999,
+        "both": 996
+      }
+    },
+    "pair036": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4928110809199477,
+            0.7840447242841336,
+            0.3773739641850372
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.8204758698836965,
+            0.4677371715954697,
+            0.3286963420034696
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.009258456528186798,
+        "old": 0.009255465120077133,
+        "left": 0.009254474192857742,
+        "right": 0.009252277202904224,
+        "both": 0.009254980832338333
+      },
+      "initial_loss": {
+        "old": 0.009258456528186798,
+        "left": 0.015502938069403172,
+        "right": 0.013850647024810314,
+        "both": 0.020095128566026688
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 999
+      }
+    },
+    "pair037": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4040290013591649,
+            0.9039644422486834,
+            0.14003161504011377
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3568531793978538,
+            0.8198845950426715,
+            0.4477109102594639
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.01432439498603344,
+        "old": 0.014296242035925388,
+        "left": 0.014279485680162907,
+        "right": 0.014268522150814533,
+        "both": 0.014289984479546547
+      },
+      "initial_loss": {
+        "old": 0.01432439498603344,
+        "left": 0.020970823243260384,
+        "right": 0.01837906427681446,
+        "both": 0.025025492534041405
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair038": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.3087013558455787,
+            0.41574333417639553,
+            0.8554887217181739
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6143501601671426,
+            0.7837306273441762,
+            0.09132461040327608
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.00812541227787733,
+        "old": 0.008121587336063385,
+        "left": 0.008119098842144012,
+        "right": 0.010330528020858765,
+        "both": 0.010335327126085758
+      },
+      "initial_loss": {
+        "old": 0.00812541227787733,
+        "left": 0.017713012173771858,
+        "right": 0.022582491859793663,
+        "both": 0.032170090824365616
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair039": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.07443548263837904,
+            0.9486437929784016,
+            0.3074643279600792
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.20784557314693727,
+            0.9778456819112139,
+            -0.024860412120765507
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.008067398332059383,
+        "old": 0.00806214939802885,
+        "left": 0.0080603351816535,
+        "right": 0.008060812018811703,
+        "both": 0.008063485845923424
+      },
+      "initial_loss": {
+        "old": 0.008067398332059383,
+        "left": 0.015931446105241776,
+        "right": 0.017142560333013535,
+        "both": 0.025006607174873352
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 975,
+        "both": 1000
+      }
+    },
+    "pair040": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.627438743244722,
+            0.7775751098157279,
+            0.04120160276667139
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.19659119818971202,
+            0.6550987623550318,
+            0.7295186854051366
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.008144342340528965,
+        "old": 0.008142550475895405,
+        "left": 0.008140185847878456,
+        "right": 0.008148683235049248,
+        "both": 0.008149613626301289
+      },
+      "initial_loss": {
+        "old": 0.008144342340528965,
+        "left": 0.01057666726410389,
+        "right": 0.01837768591940403,
+        "both": 0.02081000991165638
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 998,
+        "right": 986,
+        "both": 1000
+      }
+    },
+    "pair041": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3206862742721479,
+            0.9416996260411269,
+            -0.10179453721811597
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.7546011705298317,
+            0.4718796656570715,
+            0.45596782186287915
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "old",
+      "losses": {
+        "archive": 0.008996319025754929,
+        "old": 0.008905625902116299,
+        "left": 0.00917176902294159,
+        "right": 0.008906332775950432,
+        "both": 0.009171904996037483
+      },
+      "initial_loss": {
+        "old": 0.008996319025754929,
+        "left": 0.031968895345926285,
+        "right": 0.009729987010359764,
+        "both": 0.03270256519317627
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 998,
+        "both": 987
+      }
+    },
+    "pair042": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.06891031014364775,
+            0.9865394866090523,
+            -0.14829433744096132
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.7109402927658491,
+            0.6992526767219472,
+            0.0748972243758108
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "both",
+      "losses": {
+        "archive": 0.00851166620850563,
+        "old": 0.008440121077001095,
+        "left": 0.008440813980996609,
+        "right": 0.00800682045519352,
+        "both": 0.00800567027181387
+      },
+      "initial_loss": {
+        "old": 0.00851166620850563,
+        "left": 0.015161808580160141,
+        "right": 0.009221483021974564,
+        "both": 0.015871623530983925
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 994,
+        "left": 964,
+        "right": 1000,
+        "both": 995
+      }
+    },
+    "pair043": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5291549171567393,
+            0.609269094918056,
+            0.5905812760548518
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5285323178976901,
+            0.6399490389543223,
+            0.557780258237179
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.009349433705210686,
+        "old": 0.009349280968308449,
+        "left": 0.009349229745566845,
+        "right": 0.00934931356459856,
+        "both": 0.009349538013339043
+      },
+      "initial_loss": {
+        "old": 0.009349433705210686,
+        "left": 0.013742770068347454,
+        "right": 0.013308202847838402,
+        "both": 0.017701538279652596
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 997,
+        "right": 962,
+        "both": 990
+      }
+    },
+    "pair044": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.414507443584313,
+            0.5729316644094415,
+            0.7070593236286645
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.32978169233671256,
+            0.7418214997455793,
+            0.5839048706037253
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.00872714351862669,
+        "old": 0.008726369589567184,
+        "left": 0.008727028034627438,
+        "right": 0.008727102540433407,
+        "both": 0.008727356791496277
+      },
+      "initial_loss": {
+        "old": 0.00872714351862669,
+        "left": 0.01036527007818222,
+        "right": 0.015089023858308792,
+        "both": 0.016727149486541748
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 986,
+        "left": 985,
+        "right": 988,
+        "both": 994
+      }
+    },
+    "pair045": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.44889593406478273,
+            0.66385173563321,
+            0.5981582679165113
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.24442083985373658,
+            0.8871286305952213,
+            -0.391485945882405
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.011889553628861904,
+        "old": 0.011884460225701332,
+        "left": 0.011860760860145092,
+        "right": 0.011870445683598518,
+        "both": 0.01186777837574482
+      },
+      "initial_loss": {
+        "old": 0.011889553628861904,
+        "left": 0.01401275210082531,
+        "right": 0.01599113829433918,
+        "both": 0.01811433956027031
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 996,
+        "both": 1000
+      }
+    },
+    "pair046": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.574967080284799,
+            0.5235069351169511,
+            -0.628771298226334
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4706107838751239,
+            0.387464286852803,
+            0.7927149024170608
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.009255836717784405,
+        "old": 0.009253705851733685,
+        "left": 0.012824960984289646,
+        "right": 0.009250743314623833,
+        "both": 0.012824082747101784
+      },
+      "initial_loss": {
+        "old": 0.009255836717784405,
+        "left": 0.06665904819965363,
+        "right": 0.009449368342757225,
+        "both": 0.06685257703065872
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 972,
+        "both": 1000
+      }
+    },
+    "pair047": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.694057270193121,
+            0.5407605281553511,
+            -0.4752499940886046
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.12362093124248771,
+            -0.18202644238738694,
+            0.9754917937279285
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.01257327850908041,
+        "old": 0.012571846134960651,
+        "left": 0.012586393393576145,
+        "right": 0.012570434249937534,
+        "both": 0.012586808763444424
+      },
+      "initial_loss": {
+        "old": 0.01257327850908041,
+        "left": 0.054213691502809525,
+        "right": 0.014314739964902401,
+        "both": 0.055955152958631516
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair048": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.7291050525542624,
+            0.3834553936261501,
+            -0.5668930970111212
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.11465615955674054,
+            0.6517478338317843,
+            0.7497190981769614
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.012987862341105938,
+        "old": 0.012986904010176659,
+        "left": 0.012987619265913963,
+        "right": 0.012985121458768845,
+        "both": 0.012987739406526089
+      },
+      "initial_loss": {
+        "old": 0.012987862341105938,
+        "left": 0.026100613176822662,
+        "right": 0.017882542684674263,
+        "both": 0.030995294451713562
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 993,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair049": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.7175703495274103,
+            0.4571346914366533,
+            -0.5254718521141035
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.28957407771327426,
+            -0.12575575128153738,
+            0.9488584428333463
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.013568764552474022,
+        "old": 0.013568577356636524,
+        "left": 0.013568767346441746,
+        "right": 0.013568226248025894,
+        "both": 0.013568797148764133
+      },
+      "initial_loss": {
+        "old": 0.013568764552474022,
+        "left": 0.02339954301714897,
+        "right": 0.016591303050518036,
+        "both": 0.026422079652547836
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 988,
+        "left": 998,
+        "right": 969,
+        "both": 1000
+      }
+    },
+    "pair050": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.6408690066649948,
+            0.4748062390670851,
+            0.6031964453137905
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.31365454635664847,
+            0.6729622668943365,
+            0.6698825366332825
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.010601283982396126,
+        "old": 0.010600083507597446,
+        "left": 0.010657249949872494,
+        "right": 0.010598775930702686,
+        "both": 0.01065060030668974
+      },
+      "initial_loss": {
+        "old": 0.010601283982396126,
+        "left": 0.027636339887976646,
+        "right": 0.013436805456876755,
+        "both": 0.030471863225102425
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 999,
+        "both": 990
+      }
+    },
+    "pair051": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.671752028368722,
+            0.7295136950049353,
+            -0.1286817049263559
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.17539119176819468,
+            0.778741860742809,
+            0.602328020414923
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "old",
+      "losses": {
+        "archive": 0.009682207368314266,
+        "old": 0.009548971429467201,
+        "left": 0.00954926572740078,
+        "right": 0.009564652107656002,
+        "both": 0.00956394150853157
+      },
+      "initial_loss": {
+        "old": 0.009682207368314266,
+        "left": 0.01718752272427082,
+        "right": 0.037044234573841095,
+        "both": 0.044549550861120224
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 995,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair052": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5777092089123308,
+            -0.032601207543388355,
+            -0.815591338358005
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.8766069204647094,
+            0.3641463174407072,
+            0.3145755338352782
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.015319249592721462,
+        "old": 0.015318225137889385,
+        "left": 0.010325019247829914,
+        "right": 0.015316533856093884,
+        "both": 0.010324995964765549
+      },
+      "initial_loss": {
+        "old": 0.015319249592721462,
+        "left": 0.0368911474943161,
+        "right": 0.017292112112045288,
+        "both": 0.03886401280760765
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 972,
+        "both": 1000
+      }
+    },
+    "pair053": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.6515020638464578,
+            0.6493999246943313,
+            -0.3922050466411708
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6936972092231207,
+            0.5460586392258018,
+            0.46968515459073173
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.012913359329104424,
+        "old": 0.012913273647427559,
+        "left": 0.014319204725325108,
+        "right": 0.012913195416331291,
+        "both": 0.014362516812980175
+      },
+      "initial_loss": {
+        "old": 0.012913359329104424,
+        "left": 0.05846167355775833,
+        "right": 0.016351735219359398,
+        "both": 0.061900053173303604
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 975,
+        "left": 1000,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair054": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.2743369722486024,
+            0.6395495990256347,
+            0.718133369259234
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3061072676812001,
+            0.6784480151705569,
+            0.6678372791211059
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.012100396677851677,
+        "old": 0.012100187130272388,
+        "left": 0.012100204825401306,
+        "right": 0.012100416235625744,
+        "both": 0.01210139598697424
+      },
+      "initial_loss": {
+        "old": 0.012100396677851677,
+        "left": 0.015283825807273388,
+        "right": 0.015161051414906979,
+        "both": 0.01834448054432869
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 988,
+        "left": 998,
+        "right": 995,
+        "both": 998
+      }
+    },
+    "pair055": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.2854154267157651,
+            0.7136509436183875,
+            0.6397189733509886
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.17586509655089186,
+            0.9369551541476783,
+            0.30197103657676494
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.013380004093050957,
+        "old": 0.013379368931055069,
+        "left": 0.013378184288740158,
+        "right": 0.013391400687396526,
+        "both": 0.013392798602581024
+      },
+      "initial_loss": {
+        "old": 0.013380004093050957,
+        "left": 0.015984447672963142,
+        "right": 0.023943915963172913,
+        "both": 0.0265483595430851
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair056": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2322367172378706,
+            0.972639878105275,
+            -0.006146111448163754
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.08585510430349695,
+            0.9943094045225804,
+            0.06306908230652339
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.017790457233786583,
+        "old": 0.017788970842957497,
+        "left": 0.017789393663406372,
+        "right": 0.017785804346203804,
+        "both": 0.017796006053686142
+      },
+      "initial_loss": {
+        "old": 0.017790457233786583,
+        "left": 0.029536878690123558,
+        "right": 0.02729335054755211,
+        "both": 0.039039772003889084
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 1000,
+        "both": 975
+      }
+    },
+    "pair057": {
+      "triangulation": {
+        "left": {
+          "available": false
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5547466254537623,
+            0.7940686472472548,
+            0.24841732026285485
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.019198179244995117,
+        "old": 0.019198179244995117,
+        "left": 0.019198179244995117,
+        "right": 0.01919390633702278,
+        "both": 0.01919390633702278
+      },
+      "initial_loss": {
+        "old": 0.019198179244995117,
+        "left": 0.019198179244995117,
+        "right": 0.023560499772429466,
+        "both": 0.023560499772429466
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 0,
+        "left": 0,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair058": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.7465698369979347,
+            0.3886747835548661,
+            -0.5399679537837918
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.08159783904492006,
+            0.37014830333547366,
+            0.9253820974068333
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.015573522076010704,
+        "old": 0.015572907403111458,
+        "left": 0.015576067380607128,
+        "right": 0.015575959347188473,
+        "both": 0.015584595501422882
+      },
+      "initial_loss": {
+        "old": 0.015573522076010704,
+        "left": 0.03692624717950821,
+        "right": 0.03700583055615425,
+        "both": 0.058358557522296906
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 993,
+        "both": 1000
+      }
+    },
+    "pair059": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.6644695804669244,
+            0.7444518104897667,
+            -0.0653580790156663
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.18447175967481308,
+            -0.5439202439304146,
+            0.8186091485716224
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.011178281158208847,
+        "old": 0.011178073473274708,
+        "left": 0.011178064160048962,
+        "right": 0.011177967302501202,
+        "both": 0.011178301647305489
+      },
+      "initial_loss": {
+        "old": 0.011178281158208847,
+        "left": 0.01926506496965885,
+        "right": 0.013900931924581528,
+        "both": 0.021987713873386383
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 994,
+        "left": 1000,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair060": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.07969153985782325,
+            0.6587310708771812,
+            0.7481461319395369
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.0059417697736775825,
+            -0.14154044260723594,
+            0.9899146420164238
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.018557243049144745,
+        "old": 0.018557172268629074,
+        "left": 0.018591711297631264,
+        "right": 0.018556931987404823,
+        "both": 0.018592551350593567
+      },
+      "initial_loss": {
+        "old": 0.018557243049144745,
+        "left": 0.05164073780179024,
+        "right": 0.018890749663114548,
+        "both": 0.05197424814105034
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 898,
+        "left": 1000,
+        "right": 941,
+        "both": 1000
+      }
+    },
+    "pair061": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5980102819434137,
+            0.7776968675706964,
+            0.1938331366425396
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.22934560732311657,
+            -0.06133254863744655,
+            0.9714107837980934
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.006845375057309866,
+        "old": 0.006843931041657925,
+        "left": 0.008295110426843166,
+        "right": 0.0068412525579333305,
+        "both": 0.008295334875583649
+      },
+      "initial_loss": {
+        "old": 0.006845375057309866,
+        "left": 0.03112761862576008,
+        "right": 0.010130736976861954,
+        "both": 0.03441298007965088
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 995,
+        "left": 999,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair062": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.28665065981357524,
+            0.8909714582724836,
+            0.3521381259850258
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.026474163530145294,
+            -0.19787173706846875,
+            0.979870345675838
+          ]
+        }
+      },
+      "archive_name": "wrist",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0077429343946278095,
+        "old": 0.007657023146748543,
+        "left": 0.00783564057201147,
+        "right": 0.007656814996153116,
+        "both": 0.007835563272237778
+      },
+      "initial_loss": {
+        "old": 0.0077429343946278095,
+        "left": 0.018038805574178696,
+        "right": 0.007796473801136017,
+        "both": 0.01809234544634819
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 999,
+        "both": 999
+      }
+    },
+    "pair063": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4337166044899783,
+            0.6741028509504174,
+            0.5978923425920447
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5860369736391032,
+            0.6734512090604051,
+            0.4505819953604445
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.010345066897571087,
+        "old": 0.010342806577682495,
+        "left": 0.010342797264456749,
+        "right": 0.01034272275865078,
+        "both": 0.01034275721758604
+      },
+      "initial_loss": {
+        "old": 0.010345066897571087,
+        "left": 0.012389671988785267,
+        "right": 0.01631985232234001,
+        "both": 0.01836445741355419
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 934,
+        "both": 994
+      }
+    },
+    "pair064": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4601373707703288,
+            0.7056074769261746,
+            0.5388800316642349
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4849750835993891,
+            0.6358700759778875,
+            0.6003902187441442
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.01028330810368061,
+        "old": 0.010278929956257343,
+        "left": 0.010276163928210735,
+        "right": 0.010272016748785973,
+        "both": 0.010275649838149548
+      },
+      "initial_loss": {
+        "old": 0.01028330810368061,
+        "left": 0.012625706382095814,
+        "right": 0.014060459099709988,
+        "both": 0.01640285737812519
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 994,
+        "right": 996,
+        "both": 1000
+      }
+    },
+    "pair065": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.4192620184619286,
+            0.6518994670103894,
+            0.631859513489193
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.2967630485018384,
+            -0.39158122894309966,
+            0.8709740720499706
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.009718259796500206,
+        "old": 0.009717337787151337,
+        "left": 0.009791729040443897,
+        "right": 0.009717769920825958,
+        "both": 0.009805205278098583
+      },
+      "initial_loss": {
+        "old": 0.009718259796500206,
+        "left": 0.04998978227376938,
+        "right": 0.025328414514660835,
+        "both": 0.0655999407172203
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 983,
+        "both": 997
+      }
+    },
+    "pair066": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.016876213884639755,
+            -0.059759211605616216,
+            0.9980701528616088
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.049335743695910386,
+            -0.13022469400908562,
+            0.9902562867582368
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.007315941620618105,
+        "old": 0.007313774898648262,
+        "left": 0.007310833781957626,
+        "right": 0.007311221677809954,
+        "both": 0.007311938796192408
+      },
+      "initial_loss": {
+        "old": 0.007315941620618105,
+        "left": 0.008315419778227806,
+        "right": 0.007625914644449949,
+        "both": 0.008625391870737076
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 999,
+        "right": 997,
+        "both": 997
+      }
+    },
+    "pair067": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.19748942525147659,
+            0.7348996145821924,
+            -0.6487838495221552
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.48287977316511754,
+            0.8140859921162373,
+            -0.3226315578304859
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.012185219675302505,
+        "old": 0.01218335423618555,
+        "left": 0.012183169834315777,
+        "right": 0.01218093279749155,
+        "both": 0.01218203455209732
+      },
+      "initial_loss": {
+        "old": 0.012185219675302505,
+        "left": 0.013830102048814297,
+        "right": 0.018072914332151413,
+        "both": 0.01971779577434063
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair068": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.3202101678705804,
+            0.9201544091195186,
+            0.22534709177223491
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6516864970334709,
+            0.7173845989210523,
+            0.24630072434957415
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.007561326026916504,
+        "old": 0.007560979574918747,
+        "left": 0.007562881801277399,
+        "right": 0.007560668047517538,
+        "both": 0.007562610786408186
+      },
+      "initial_loss": {
+        "old": 0.007561326026916504,
+        "left": 0.014002252370119095,
+        "right": 0.008027535863220692,
+        "both": 0.014468463137745857
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 995,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair069": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.09027798430102962,
+            0.5140403977873171,
+            0.8530019665822581
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.03833821927470944,
+            0.19519738391285332,
+            0.9800143683928428
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.002047391142696142,
+        "old": 0.002046233508735895,
+        "left": 0.0020446921698749065,
+        "right": 0.0020452348981052637,
+        "both": 0.0020455310586839914
+      },
+      "initial_loss": {
+        "old": 0.002047391142696142,
+        "left": 0.0029402824584394693,
+        "right": 0.0028388851787894964,
+        "both": 0.0037317764945328236
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 986,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair070": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5604788432139897,
+            0.7603490567057088,
+            -0.32822671779769363
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.0287114713796035,
+            0.5874272282835565,
+            0.8087675209121077
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.010126822628080845,
+        "old": 0.010125936940312386,
+        "left": 0.010151601396501064,
+        "right": 0.010124649852514267,
+        "both": 0.010143116116523743
+      },
+      "initial_loss": {
+        "old": 0.010126822628080845,
+        "left": 0.01347906794399023,
+        "right": 0.011158859357237816,
+        "both": 0.014511105604469776
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair071": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.10588635250990694,
+            0.24906001823282692,
+            0.9626822880213448
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.24272117560382725,
+            0.07756940129545227,
+            0.9669898752811019
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.005793520249426365,
+        "old": 0.005787282716482878,
+        "left": 0.005789455026388168,
+        "right": 0.005790384951978922,
+        "both": 0.005791128147393465
+      },
+      "initial_loss": {
+        "old": 0.005793520249426365,
+        "left": 0.00877233874052763,
+        "right": 0.008887985721230507,
+        "both": 0.011866805143654346
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 990,
+        "left": 995,
+        "right": 970,
+        "both": 997
+      }
+    },
+    "pair072": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.08105930437065896,
+            0.9078313163713274,
+            0.4114264092039399
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.18866332967996874,
+            0.8190004716618537,
+            0.5418896340139093
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.009409447200596333,
+        "old": 0.009408236481249332,
+        "left": 0.009411695413291454,
+        "right": 0.009407398290932178,
+        "both": 0.009414019994437695
+      },
+      "initial_loss": {
+        "old": 0.009409447200596333,
+        "left": 0.021088045090436935,
+        "right": 0.012493654154241085,
+        "both": 0.024172252044081688
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 986,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair073": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.0381177618387651,
+            0.6070226259601933,
+            -0.7937698456131944
+          ]
+        },
+        "right": {
+          "available": false
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.008338705636560917,
+        "old": 0.008338547311723232,
+        "left": 0.015261159278452396,
+        "right": 0.008338547311723232,
+        "both": 0.015261159278452396
+      },
+      "initial_loss": {
+        "old": 0.008338705636560917,
+        "left": 0.07730673998594284,
+        "right": 0.008338705636560917,
+        "both": 0.07730673998594284
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 970,
+        "left": 1000,
+        "right": 970,
+        "both": 1000
+      }
+    },
+    "pair074": {
+      "triangulation": {
+        "left": {
+          "available": false
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.8592155018427555,
+            -0.011496973847461801,
+            0.5114846439390458
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.02153942547738552,
+        "old": 0.021539226174354553,
+        "left": 0.021539226174354553,
+        "right": 0.021547378972172737,
+        "both": 0.021547378972172737
+      },
+      "initial_loss": {
+        "old": 0.02153942547738552,
+        "left": 0.02153942547738552,
+        "right": 0.04753129184246063,
+        "both": 0.04753129184246063
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 973,
+        "left": 973,
+        "right": 992,
+        "both": 992
+      }
+    },
+    "pair075": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5886423797504129,
+            0.804102597527943,
+            0.08318149680419004
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.55036470933749,
+            0.8112593498077438,
+            0.19737516071019892
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.004132445901632309,
+        "old": 0.004128108266741037,
+        "left": 0.004123450256884098,
+        "right": 0.004127187188714743,
+        "both": 0.004128186497837305
+      },
+      "initial_loss": {
+        "old": 0.004132445901632309,
+        "left": 0.004974654875695705,
+        "right": 0.006243293639272451,
+        "both": 0.007085503078997135
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 995,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair076": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5615627445196948,
+            0.8247778171496368,
+            0.06624829284885922
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.6001258763588334,
+            0.7973475294119349,
+            -0.06392065288485291
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.0031822347082197666,
+        "old": 0.0031796602997928858,
+        "left": 0.0031805119942873716,
+        "right": 0.0031805026810616255,
+        "both": 0.0031807832419872284
+      },
+      "initial_loss": {
+        "old": 0.0031822347082197666,
+        "left": 0.003920583985745907,
+        "right": 0.014118782244622707,
+        "both": 0.01485713105648756
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair077": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.30290258134905773,
+            0.927413208769187,
+            0.21944194314788085
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.1961420616535988,
+            0.9697330807040686,
+            -0.1454167935228667
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0038399442564696074,
+        "old": 0.003839071374386549,
+        "left": 0.0038386054802685976,
+        "right": 0.003838252741843462,
+        "both": 0.0038384487852454185
+      },
+      "initial_loss": {
+        "old": 0.0038399442564696074,
+        "left": 0.004155266564339399,
+        "right": 0.007941702380776405,
+        "both": 0.008257024921476841
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 1000,
+        "both": 982
+      }
+    },
+    "pair078": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2909146963638854,
+            0.617018343894177,
+            0.7312024362224154
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.04468298200434361,
+            0.4648817331985366,
+            0.8842445392862339
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.00224338099360466,
+        "old": 0.002240388887003064,
+        "left": 0.0022384135518223047,
+        "right": 0.002240023808553815,
+        "both": 0.0022381239105015993
+      },
+      "initial_loss": {
+        "old": 0.00224338099360466,
+        "left": 0.002977296244353056,
+        "right": 0.002497450215741992,
+        "both": 0.003231365466490388
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 986,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair079": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.15660559214629827,
+            0.5554709373802049,
+            0.8166558187109572
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5009191079991264,
+            0.8420381584433333,
+            0.2001294255393728
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.006457019597291946,
+        "old": 0.006456030998378992,
+        "left": 0.006454608403146267,
+        "right": 0.0064558833837509155,
+        "both": 0.0064546833746135235
+      },
+      "initial_loss": {
+        "old": 0.006457019597291946,
+        "left": 0.009911925531923771,
+        "right": 0.006786184385418892,
+        "both": 0.010241091251373291
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 1000,
+        "right": 999,
+        "both": 986
+      }
+    },
+    "pair080": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.01941806104970058,
+            0.35441628484191856,
+            0.9348861085415283
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.0809729362003585,
+            0.22930590923766309,
+            0.9699805068102045
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.002450278727337718,
+        "old": 0.0024491832591593266,
+        "left": 0.002447570441290736,
+        "right": 0.002448374405503273,
+        "both": 0.0024479783605784178
+      },
+      "initial_loss": {
+        "old": 0.002450278727337718,
+        "left": 0.003319324692711234,
+        "right": 0.003025307087227702,
+        "both": 0.0038943530526012182
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 1000,
+        "both": 992
+      }
+    },
+    "pair081": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.051047496877702964,
+            0.552978687040888,
+            0.8316301610337714
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.571241923413971,
+            0.7801051137880054,
+            0.25518361306343723
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.005035421345382929,
+        "old": 0.005034848116338253,
+        "left": 0.005034649278968573,
+        "right": 0.005095100495964289,
+        "both": 0.005095154978334904
+      },
+      "initial_loss": {
+        "old": 0.005035421345382929,
+        "left": 0.01224781945347786,
+        "right": 0.006229633931070566,
+        "both": 0.013442032039165497
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 996,
+        "both": 1000
+      }
+    },
+    "pair082": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.7301015661316883,
+            0.6635817295804601,
+            -0.16312875681209962
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.026764741622102968,
+            0.4876117032629371,
+            0.8726502595237793
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "both",
+      "losses": {
+        "archive": 0.005683550611138344,
+        "old": 0.005682724062353373,
+        "left": 0.005682297050952911,
+        "right": 0.005681983660906553,
+        "both": 0.0056819068267941475
+      },
+      "initial_loss": {
+        "old": 0.005683550611138344,
+        "left": 0.008252397179603577,
+        "right": 0.006685740780085325,
+        "both": 0.009254587814211845
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 996,
+        "left": 995,
+        "right": 973,
+        "both": 1000
+      }
+    },
+    "pair083": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.25505710447613755,
+            0.871143432681945,
+            0.4195890765396142
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.12152268055064104,
+            0.3771898956920539,
+            0.9181285425797437
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.003524772822856903,
+        "old": 0.003523770486935973,
+        "left": 0.003528232453390956,
+        "right": 0.003522801212966442,
+        "both": 0.003528211498633027
+      },
+      "initial_loss": {
+        "old": 0.003524772822856903,
+        "left": 0.016129804775118828,
+        "right": 0.003620581701397896,
+        "both": 0.01622561179101467
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 996,
+        "right": 997,
+        "both": 999
+      }
+    },
+    "pair084": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.33263819356959456,
+            0.9060862003986986,
+            -0.2614567452291226
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4870144077576272,
+            0.8569912196316593,
+            0.16847259750692037
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.004101944621652365,
+        "old": 0.004100307356566191,
+        "left": 0.004114917945116758,
+        "right": 0.004099241457879543,
+        "both": 0.0041152420453727245
+      },
+      "initial_loss": {
+        "old": 0.004101944621652365,
+        "left": 0.01544978003948927,
+        "right": 0.004428643733263016,
+        "both": 0.01577647775411606
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair085": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.5292484545380899,
+            0.5275635619953177,
+            -0.6645094140972392
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4985572388838398,
+            0.5617350627025526,
+            -0.6602229917891994
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.011062624864280224,
+        "old": 0.011061050929129124,
+        "left": 0.01106736995279789,
+        "right": 0.01106084045022726,
+        "both": 0.011067614890635014
+      },
+      "initial_loss": {
+        "old": 0.011062624864280224,
+        "left": 0.039519183337688446,
+        "right": 0.012622921727597713,
+        "both": 0.041079480201005936
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 998,
+        "both": 1000
+      }
+    },
+    "pair086": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.13863762063090174,
+            0.5275473047462023,
+            -0.8381368929958996
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.40355273033748357,
+            0.7660368082535952,
+            -0.5003326915541365
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.013331419788300991,
+        "old": 0.013331105932593346,
+        "left": 0.005285332445055246,
+        "right": 0.013331573456525803,
+        "both": 0.005286002531647682
+      },
+      "initial_loss": {
+        "old": 0.013331419788300991,
+        "left": 0.007048165425658226,
+        "right": 0.023138340562582016,
+        "both": 0.016855085268616676
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 997,
+        "right": 992,
+        "both": 996
+      }
+    },
+    "pair087": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.15044296697139908,
+            0.5337665534860394,
+            -0.8321419230326502
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.4333158168085848,
+            0.7932102865256274,
+            -0.42784909051374775
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.013830001465976238,
+        "old": 0.013829711824655533,
+        "left": 0.004623735789209604,
+        "right": 0.01382991299033165,
+        "both": 0.004623871296644211
+      },
+      "initial_loss": {
+        "old": 0.013830001465976238,
+        "left": 0.005701005924493074,
+        "right": 0.02228623814880848,
+        "both": 0.014157244004309177
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 999,
+        "right": 995,
+        "both": 991
+      }
+    },
+    "pair088": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.04839970930268291,
+            0.6743389325150747,
+            -0.7368340873180645
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.7022903654963385,
+            0.5849434321664142,
+            -0.4057455159288821
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "old",
+      "losses": {
+        "archive": 0.005444211885333061,
+        "old": 0.004685924854129553,
+        "left": 0.004686211235821247,
+        "right": 0.004689677618443966,
+        "both": 0.004689094610512257
+      },
+      "initial_loss": {
+        "old": 0.005444211885333061,
+        "left": 0.005033696070313454,
+        "right": 0.02612818032503128,
+        "both": 0.025717666372656822
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 997,
+        "left": 995,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair089": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.11308742598163171,
+            0.7412957557792461,
+            -0.6615828266729157
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.5092188272342232,
+            0.7641967233022372,
+            -0.39585294502419244
+          ]
+        }
+      },
+      "archive_name": "fixed",
+      "winner": "right",
+      "losses": {
+        "archive": 0.003928778693079948,
+        "old": 0.003752319375053048,
+        "left": 0.0037528048269450665,
+        "right": 0.003752283053472638,
+        "both": 0.0037528674583882093
+      },
+      "initial_loss": {
+        "old": 0.003928778693079948,
+        "left": 0.004493946675211191,
+        "right": 0.00883199367672205,
+        "both": 0.009397161193192005
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair090": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.2679614026486928,
+            0.8398755654468171,
+            -0.4720230092441836
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.527139028484712,
+            0.7752333371206406,
+            -0.3480484415494334
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.004460045602172613,
+        "old": 0.004458426497876644,
+        "left": 0.0044578309170901775,
+        "right": 0.004457395989447832,
+        "both": 0.00445777690038085
+      },
+      "initial_loss": {
+        "old": 0.004460045602172613,
+        "left": 0.004892583005130291,
+        "right": 0.011404368095099926,
+        "both": 0.011836905032396317
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 998,
+        "left": 982,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair091": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.21422202797380555,
+            0.8180240195316607,
+            -0.5338029844428142
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.37425399783668906,
+            0.8886259011416358,
+            -0.2650998923490379
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.00342975789681077,
+        "old": 0.0034268933814018965,
+        "left": 0.0034262652043253183,
+        "right": 0.0034218761138617992,
+        "both": 0.0034261057153344154
+      },
+      "initial_loss": {
+        "old": 0.00342975789681077,
+        "left": 0.00725318631157279,
+        "right": 0.003502445761114359,
+        "both": 0.007325875107198954
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 998,
+        "right": 1000,
+        "both": 998
+      }
+    },
+    "pair092": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.23679375027066943,
+            0.8460900465431709,
+            -0.4775566489677713
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3206555375021822,
+            0.9060984616134417,
+            -0.2759811662612895
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.003521511796861887,
+        "old": 0.003517723875120282,
+        "left": 0.0035195592790842056,
+        "right": 0.003516949014738202,
+        "both": 0.0035190193448215723
+      },
+      "initial_loss": {
+        "old": 0.003521511796861887,
+        "left": 0.004154662601649761,
+        "right": 0.0035806274972856045,
+        "both": 0.004213778767734766
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 997,
+        "both": 999
+      }
+    },
+    "pair093": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.08412718786537361,
+            0.9184476877217984,
+            -0.3864925111568738
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.10712103111635468,
+            0.9916432836218395,
+            0.07189355145119114
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.005203979089856148,
+        "old": 0.005200822371989489,
+        "left": 0.005586895160377026,
+        "right": 0.005197844002395868,
+        "both": 0.005586651619523764
+      },
+      "initial_loss": {
+        "old": 0.005203979089856148,
+        "left": 0.006467904895544052,
+        "right": 0.006510856095701456,
+        "both": 0.007774782367050648
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 971,
+        "right": 977,
+        "both": 1000
+      }
+    },
+    "pair094": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.04979539384073928,
+            0.9852736976842223,
+            -0.16357310110132897
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.15496835591146715,
+            0.9548973470681513,
+            -0.25329008118815727
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.005144965369254351,
+        "old": 0.005144604481756687,
+        "left": 0.005144281312823296,
+        "right": 0.005150636192411184,
+        "both": 0.005150286480784416
+      },
+      "initial_loss": {
+        "old": 0.005144965369254351,
+        "left": 0.0061584822833538055,
+        "right": 0.01999356597661972,
+        "both": 0.021007083356380463
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 999,
+        "right": 1000,
+        "both": 1000
+      }
+    },
+    "pair095": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.282958410038972,
+            0.8652044496425307,
+            -0.41395144462482886
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.002317775506750004,
+            0.7380732844283465,
+            0.674716573629145
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.0035118903033435345,
+        "old": 0.003510121488943696,
+        "left": 0.0035105631686747074,
+        "right": 0.00350917293690145,
+        "both": 0.0035105638671666384
+      },
+      "initial_loss": {
+        "old": 0.0035118903033435345,
+        "left": 0.0035588694736361504,
+        "right": 0.0036463437136262655,
+        "both": 0.003693323116749525
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 1000,
+        "right": 976,
+        "both": 1000
+      }
+    },
+    "pair096": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.026116773292267966,
+            0.24766911117271398,
+            0.9684926047852499
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.04141376883165882,
+            0.3199050963399661,
+            0.946544044979881
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.002440104493871331,
+        "old": 0.002439190400764346,
+        "left": 0.00243923207744956,
+        "right": 0.002438947791233659,
+        "both": 0.002439547097310424
+      },
+      "initial_loss": {
+        "old": 0.002440104493871331,
+        "left": 0.005770406220108271,
+        "right": 0.002989050466567278,
+        "both": 0.006319351959973574
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 998,
+        "right": 1000,
+        "both": 999
+      }
+    },
+    "pair097": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.2761947586157639,
+            0.34426051772297517,
+            0.8973300124537733
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.12996941250399388,
+            0.5240436534125196,
+            0.8417162236356297
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "left",
+      "losses": {
+        "archive": 0.003195409895852208,
+        "old": 0.003194558434188366,
+        "left": 0.003193641547113657,
+        "right": 0.0031942720524966717,
+        "both": 0.00319368252530694
+      },
+      "initial_loss": {
+        "old": 0.003195409895852208,
+        "left": 0.0038813422434031963,
+        "right": 0.0031976134050637484,
+        "both": 0.003883545519784093
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 1000,
+        "left": 1000,
+        "right": 999,
+        "both": 996
+      }
+    },
+    "pair098": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            -0.03209170255033081,
+            0.6290024588921064,
+            0.7767406448326915
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.08075603660866823,
+            0.5965522762684905,
+            0.7985009982649628
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.002595264697447419,
+        "old": 0.0025919105391949415,
+        "left": 0.002591975498944521,
+        "right": 0.002591836266219616,
+        "both": 0.0025918385945260525
+      },
+      "initial_loss": {
+        "old": 0.002595264697447419,
+        "left": 0.003178076818585396,
+        "right": 0.003497243858873844,
+        "both": 0.0040800562128424644
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 995,
+        "left": 998,
+        "right": 959,
+        "both": 995
+      }
+    },
+    "pair099": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.3049682370492236,
+            0.8057252661181743,
+            -0.5077412430853789
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1107349414899458,
+            0.952423815281631,
+            -0.2839483206810702
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "old",
+      "losses": {
+        "archive": 0.005632470827549696,
+        "old": 0.005631159991025925,
+        "left": 0.005639770999550819,
+        "right": 0.005631176754832268,
+        "both": 0.005639394745230675
+      },
+      "initial_loss": {
+        "old": 0.005632470827549696,
+        "left": 0.02340839058160782,
+        "right": 0.005687108263373375,
+        "both": 0.02346302755177021
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 997,
+        "left": 997,
+        "right": 999,
+        "both": 1000
+      }
+    },
+    "pair100": {
+      "triangulation": {
+        "left": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.1201202513070825,
+            0.6007013911769135,
+            0.790397978150276
+          ]
+        },
+        "right": {
+          "available": true,
+          "clipped": [
+            false,
+            false
+          ],
+          "direction": [
+            0.30346604878965383,
+            0.9323079924536503,
+            -0.19674898840664928
+          ]
+        }
+      },
+      "archive_name": "baseline",
+      "winner": "right",
+      "losses": {
+        "archive": 0.003535857889801264,
+        "old": 0.0035330099053680897,
+        "left": 0.003531751222908497,
+        "right": 0.0035301940515637398,
+        "both": 0.0035321605391800404
+      },
+      "initial_loss": {
+        "old": 0.003535857889801264,
+        "left": 0.006394026335328817,
+        "right": 0.0048220488242805,
+        "both": 0.007680217269808054
+      },
+      "initial_feasible": {
+        "old": true,
+        "left": true,
+        "right": true,
+        "both": true
+      },
+      "steps": {
+        "old": 999,
+        "left": 989,
+        "right": 998,
+        "both": 1000
+      }
+    }
+  },
+  "steps_per_start": 1000,
+  "fields": [
+    "old",
+    "left",
+    "right",
+    "both"
+  ],
+  "hashes": {
+    "test_bank.npz": "0e8e6cf5b2a9dbb89ac6e5d8bec4e5adf24f685e9e9faf18820aa0d34db105ae",
+    "test_choices.json": "266724d05ed3786f0d6ff54d8f5393e387a14d1e1bcf2483cdf28a2b478e2d10",
+    "prepared.json": "aecb62f8a9cf8c31982f165fd56204049d1fecdcfdd8a515a8d68b5befde65f6",
+    "protocol.json": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "checkpoints_sha256": "b86d25b7b3f68ed081ea620eb8c14c44e367186a1c577e80ef1a494cfbe0df3f",
+  "exit_status": 0
+}

@@ -1,0 +1,22 @@
+{
+  "baseline": "5cbdec92842e29e3537882b0ea8331aa4a55656d",
+  "commands": [
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_frozen100_point_errors/refine.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_frozen100_point_errors/pixels.py",
+      "exit_status": 0
+    },
+    {
+      "command": "<BODY_PYTHON> -Bu runs/2026-11-25_frozen100_point_errors/score.py",
+      "exit_status": 0
+    }
+  ],
+  "warnings": [
+    "Existing MMCV version migration warning",
+    "Model configured with 10 shape coefficients."
+  ],
+  "workspace": "<WORKSPACE>"
+}
