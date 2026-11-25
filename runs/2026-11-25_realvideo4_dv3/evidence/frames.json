@@ -1,0 +1,126 @@
+[
+  {
+    "pair": "clip001",
+    "delta_ms": 2.0564,
+    "overlap_duration_s": 46.3378971,
+    "views": {
+      "left": {
+        "frame_one_based": 1363,
+        "csv_frame_count": 2739,
+        "container_packets": 2741,
+        "pts_s": 23.18695,
+        "max_timing_discrepancy_ms": 0.03619999999791845,
+        "seconds_from_stream_start": 23.1702683,
+        "ticks": 252562823919,
+        "clip": "9187a90eaff485e1e7609b97b236041ed155ad98aa5f8f7a28c501410fdaedd9",
+        "csv": "1373e55d6945fb7a2bf848551657809c7f7194a9b2225776e334e163ee919669",
+        "frame": "3e7cfa21147d64210500d2562c04a3f81b1b8598503f665aff379c2024fcbf69"
+      },
+      "right": {
+        "frame_one_based": 1375,
+        "csv_frame_count": 2753,
+        "container_packets": 2754,
+        "pts_s": 23.186967,
+        "max_timing_discrepancy_ms": 0.034299999999376496,
+        "seconds_from_stream_start": 23.1703026,
+        "ticks": 252562844483,
+        "clip": "f71fc95266ed1406a2316f82824fe2b9b22282dcee3eebd317a77e6a720ba7c8",
+        "csv": "bd07436d84c4972f05bc6941894b19d273c6b8408eb03f014a344e9005afac0e",
+        "frame": "ef0b73dbd61a6f2e58dbfce4f5fb218fcc2e299e2c0c5f93332da41a7df83504"
+      }
+    }
+  },
+  {
+    "pair": "clip002",
+    "delta_ms": 1.9468,
+    "overlap_duration_s": 40.6625322,
+    "views": {
+      "left": {
+        "frame_one_based": 1212,
+        "csv_frame_count": 2423,
+        "container_packets": 2424,
+        "pts_s": 20.357567,
+        "max_timing_discrepancy_ms": 0.02649999999904118,
+        "seconds_from_stream_start": 20.340893,
+        "ticks": 253255748422,
+        "clip": "a70e7de0b4649ff1581d6b64a63aaa713f351e5974e181fef2d90c99e61ce1ca",
+        "csv": "d1f0c105d807233615488806eb922c79ef2d414b47d78c3dad9aa5e781b8ff42",
+        "frame": "471b1468d84211256a56396b10c959b4cf411b4ca18deb7e9e1059856e3caed1"
+      },
+      "right": {
+        "frame_one_based": 1212,
+        "csv_frame_count": 2425,
+        "container_packets": 2426,
+        "pts_s": 20.3575,
+        "max_timing_discrepancy_ms": 0.03160000000335117,
+        "seconds_from_stream_start": 20.3408178,
+        "ticks": 253255767890,
+        "clip": "99b5dd22e8d7c5d5a95ecf983d8760c6a8c8364d0e917a9e5d0022238f28ec4c",
+        "csv": "c35ce95317315bf309a7eb5e64ad5cb71f8a0275c05475010caff4e403bf23b5",
+        "frame": "caf5c5e5c8fad584eff355ee094814fafbef6bb76dfdb0ff197273885fb451b5"
+      }
+    }
+  },
+  {
+    "pair": "clip003",
+    "delta_ms": 1.3847,
+    "overlap_duration_s": 13.6435283,
+    "views": {
+      "left": {
+        "frame_one_based": 397,
+        "csv_frame_count": 791,
+        "container_packets": 792,
+        "pts_s": 6.84715,
+        "max_timing_discrepancy_ms": 0.029199999999729442,
+        "seconds_from_stream_start": 6.8304819,
+        "ticks": 254516207296,
+        "clip": "19ed5b5234b63cf85883e475572e8a8cbedb8cbeef1ce759f260c5bf20955f35",
+        "csv": "64e0fe697d6793c82956d3596a3e358c74b2d97dd9bab6af6799d07ea1edbde0",
+        "frame": "1e80fd7a5106bb6a8d912f6bcc8e6ce0566fcdb20b321572fcc9d24ca5cdef09"
+      },
+      "right": {
+        "frame_one_based": 407,
+        "csv_frame_count": 814,
+        "container_packets": 815,
+        "pts_s": 6.847133,
+        "max_timing_discrepancy_ms": 0.03730000000023992,
+        "seconds_from_stream_start": 6.8304492,
+        "ticks": 254516221143,
+        "clip": "56ded5b06a54adbc94414fe45b124645b27ba5bc56d5e2d0f9f8cb2c37ba84da",
+        "csv": "9a809dc400c02276f579491492cf20d71bb2cb649848fd1a8463e9458dc88f79",
+        "frame": "e6ec02afb0f5fca1dc03d34c35530bdafeb941fd6624f482d93169b6ec8405a4"
+      }
+    }
+  },
+  {
+    "pair": "clip004",
+    "delta_ms": 0.3123,
+    "overlap_duration_s": 23.6713908,
+    "views": {
+      "left": {
+        "frame_one_based": 702,
+        "csv_frame_count": 1399,
+        "container_packets": 1400,
+        "pts_s": 11.8527,
+        "max_timing_discrepancy_ms": 0.028399999999595416,
+        "seconds_from_stream_start": 11.8360307,
+        "ticks": 256215955817,
+        "clip": "34e9b5f369997259fd71e5fb6b622de3f68326f951f1da3729e4e056da200e25",
+        "csv": "85a3ab83987a1e702e99815c4c2da5dc7bccf9b60e7881a9aff90f4c4237f058",
+        "frame": "586a5f58897bd3915e3dc3f49c9e071166a1e30f2151c2f8e16ed27f9bcd4985"
+      },
+      "right": {
+        "frame_one_based": 705,
+        "csv_frame_count": 1409,
+        "container_packets": 1410,
+        "pts_s": 11.852467,
+        "max_timing_discrepancy_ms": 0.04420000000016078,
+        "seconds_from_stream_start": 11.8357713,
+        "ticks": 256215958940,
+        "clip": "28df735989512e0dfbebca2df4cc018df80d517aeff1c83d9989663352404eb3",
+        "csv": "d508333029dcfd2f2678fd4b31224daf953d22909f5809d58a00ddfc6f484e20",
+        "frame": "84b0b410713b9beeea96bd846ef75ac3d8f8ec4c1d7f18fd7cac51d1a0813ef8"
+      }
+    }
+  }
+]

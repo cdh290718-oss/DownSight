@@ -1,0 +1,45 @@
+{
+  "baseline": "326a47ac9d316f4f1ee8f4242ef5681f029471ac",
+  "workspace": "<WORKSPACE>",
+  "cwd": "repository root",
+  "environment": "Existing computer vision Python for frames/calibrate; existing Sapiens2 RW20000 environment on one GPU for detect; existing EgoSMPLX single CPU thread for solve and gallery.",
+  "commands": [
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/frames.py",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/calibrate.py",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/detect.py",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/solve.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/solve.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/solve.py candidates",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B runs/2026-11-25_realvideo4_dv3/gallery.py",
+      "exit_status": 0
+    }
+  ],
+  "external_requirements": [
+    "User realdata videos, CSV logs and November 8 lower fisheye calibration, including board validation images",
+    "Pinned SMPL-X model, Sapiens2 weights, research environments and local pinned v3 protocol as in linked baseline"
+  ],
+  "initial_checks": [
+    "Initial extraction stopped before saving frames because container packet count exceeded CSV count. Cross-checked the selected indices against native media PTS and decoded by presentation index.",
+    "An initial check of four held-out board pairs recovered both corner grids for only one pair. Expanded the check to other unused board images; clips and calibration parameters were unchanged.",
+    "The fit wrote its full 20000-step archive, diagnostic and exit_status 0 before the enclosing prepare/fit/candidates shell returned 143. Ran the candidate stage separately against the verified completed archive."
+  ]
+}

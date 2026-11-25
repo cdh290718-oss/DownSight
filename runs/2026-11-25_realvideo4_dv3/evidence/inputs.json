@@ -1,0 +1,46 @@
+{
+  "shards": {
+    "0": "04313f1dec3d08fa70e5ded06e5551629337faf4d1ee8912439cec8976a98f41"
+  },
+  "protocol": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "method": "golden-d-2d-v3",
+  "backend_native_roundtrip_max_px": [
+    0.00025502448258122,
+    0.0002710574132752017
+  ],
+  "baseline_m": 0.1520187234608972,
+  "brow_cam3_m": [
+    0.0768831729972209,
+    0.0467993041606615,
+    -0.05173225213179377
+  ],
+  "head_cam3_m": [
+    0.0686145073787291,
+    0.1387879203018692,
+    0.008860490984699682
+  ],
+  "template_brow_to_head_m": [
+    0.011097215116024017,
+    -0.06269940733909607,
+    -0.09026291035115719
+  ],
+  "summary": {
+    "clip001": {
+      "valid_joint_views": 22,
+      "fallback_reason": "missing bilateral landmarks"
+    },
+    "clip002": {
+      "valid_joint_views": 21,
+      "fallback_reason": "missing bilateral landmarks"
+    },
+    "clip003": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "clip004": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    }
+  },
+  "exit_status": 0
+}
