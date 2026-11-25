@@ -1,0 +1,74 @@
+{
+  "inputs": {
+    "cam3": {
+      "image": "5422b0a6dce29de8e2e0f3b912705617e111ec5a597e8c48bd36d875ec3417ff",
+      "calibration": "ab07a76ac2a39068e297e6f598fc13d5ceb1e7830e818b1bae4ac2cf8294239c",
+      "id": "s001_cam3_f00001711"
+    },
+    "cam4": {
+      "image": "2e2e1f0592e1c571e5f46bf86c81e6ce9a96375dc516e6a9a4e7ff015ae401d0",
+      "calibration": "4c8e077d3fde81bac1fdcc690ee178c181cdd498a9070f915516b91c123645c4",
+      "id": "s001_cam4_f00001701"
+    }
+  },
+  "shards": {
+    "0": "5ddac82961ce005b11a9db96cb3a2be5709a0dbb0953e0abf56e584b66abf896"
+  },
+  "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "detector_sha256": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98",
+  "detection_cache_sha256": "5541e9cdce3675e7581dbed0a17a47494d04502e2b233e2c32e6013756e84e97",
+  "head_source_sha256": "2fe6c77bbd3b79e49f7cd7ef918ba7660d09c23bb1300fef05c6ce0d96a4c13b",
+  "seed_fallback_reason": "missing bilateral landmarks",
+  "available": {
+    "R_Shoulder": [
+      true,
+      false
+    ],
+    "R_Elbow": [
+      true,
+      true
+    ],
+    "R_Wrist": [
+      true,
+      true
+    ],
+    "L_Shoulder": [
+      false,
+      true
+    ],
+    "L_Elbow": [
+      true,
+      true
+    ],
+    "L_Wrist": [
+      true,
+      true
+    ],
+    "R_Hip": [
+      true,
+      true
+    ],
+    "R_Knee": [
+      true,
+      true
+    ],
+    "R_Ankle": [
+      true,
+      true
+    ],
+    "L_Hip": [
+      true,
+      true
+    ],
+    "L_Knee": [
+      true,
+      true
+    ],
+    "L_Ankle": [
+      true,
+      true
+    ]
+  },
+  "views_retained": 22,
+  "method": "golden-d-2d-v3"
+}

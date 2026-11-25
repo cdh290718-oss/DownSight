@@ -1,0 +1,172 @@
+{
+  "views": {
+    "cam3": {
+      "valid": 11,
+      "included_distance_px": {
+        "R_Shoulder": 0.16516257330548573,
+        "R_Elbow": 3.945903264622421,
+        "R_Wrist": 0.8368428483542135,
+        "L_Elbow": 2.4597354081263036,
+        "L_Wrist": 2.745524901049935,
+        "R_Hip": 13.94873757005758,
+        "R_Knee": 12.551815404834352,
+        "R_Ankle": 15.858363936529386,
+        "L_Hip": 26.3234458224455,
+        "L_Knee": 8.853676089242077,
+        "L_Ankle": 5.873362306844558
+      },
+      "rmse_px": 11.43875694140196,
+      "visible_pixels": 227593,
+      "drawn": 10633,
+      "rejected": 580
+    },
+    "cam4": {
+      "valid": 11,
+      "included_distance_px": {
+        "R_Elbow": 2.4202406609981315,
+        "R_Wrist": 0.6354936003372245,
+        "L_Shoulder": 0.09553387921271016,
+        "L_Elbow": 2.416651622502258,
+        "L_Wrist": 2.687093447028265,
+        "R_Hip": 26.854622884982568,
+        "R_Knee": 12.098972236186757,
+        "R_Ankle": 15.874370555403889,
+        "L_Hip": 4.142629506994441,
+        "L_Knee": 8.835613209486732,
+        "L_Ankle": 5.966136298729004
+      },
+      "rmse_px": 10.743738059085697,
+      "visible_pixels": 221614,
+      "drawn": 10732,
+      "rejected": 645
+    }
+  },
+  "images": {
+    "obj_front_side": {
+      "sha256": "de1e939ee0ef36ecfe5c2f290c240b6d716656a952bb317cec4877abd1ddf281",
+      "size": [
+        700,
+        516
+      ]
+    },
+    "cam3_mesh": {
+      "sha256": "06a5bcd619edb6a532fe28f7fc828dea30533dcb31ba3d03b1d5b401d77e1577",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "cam3_points": {
+      "sha256": "cb7b9dbbf293a6d1a1a6d5fcc6704d47657c14c76070c147850ee174d48f8163",
+      "size": [
+        1280,
+        822
+      ]
+    },
+    "cam3_mesh_points": {
+      "sha256": "3aceb021d4065b3550ed793411e26355bf9249525bed08253579cac5057c5b95",
+      "size": [
+        1280,
+        822
+      ]
+    },
+    "cam4_mesh": {
+      "sha256": "1c35de4aa3adab67a273d454754b2a5d1ab1659d6a628f75126ec47b49f75142",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    "cam4_points": {
+      "sha256": "a3e06e4d894700fcac4a1e1f43b84cf26efd4c27212db561ac281126829433ae",
+      "size": [
+        1280,
+        822
+      ]
+    },
+    "cam4_mesh_points": {
+      "sha256": "e02eceb26c54ed15215c4511a320f862fb05510ae5c3202247654d5e18812085",
+      "size": [
+        1280,
+        822
+      ]
+    },
+    "stereo_overview": {
+      "sha256": "cde651f896b6b8fbcf019231687d80ebdc9f49f9e045e4bbf3dddab1998f1dec",
+      "size": [
+        1280,
+        411
+      ]
+    }
+  },
+  "combined_rmse_px": 11.096690223817147,
+  "current_selection": {
+    "pair": "real001",
+    "offset": 0,
+    "selected": [
+      "baseline",
+      "baseline",
+      "baseline"
+    ],
+    "losses": [
+      0.006793509237468243,
+      0.006793509237468243,
+      0.006793509237468243
+    ],
+    "probes": 3645
+  },
+  "selection_sha256": "d8488cf84384a6a2e1bd6841b5d17f9923bc1af6cf69dc3cbf0e08e0225371a4",
+  "obj": {
+    "name": "real001_t029p0_v3_rw20000_cam3_cv.obj",
+    "sha256": "0747328a9b828e82be65acf8a57fb2dfae3755fa5214a6ba0badeffce7f63cea",
+    "vertex_count": 10475,
+    "face_count": 20908,
+    "reload_max_abs_m": 4.999958780338432e-10,
+    "coordinates": "cam3 CV metres"
+  },
+  "diagnostic": {
+    "budget": 20000,
+    "ids": [
+      [
+        "real001",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "selected_step": [
+      20000
+    ],
+    "selected_feasible": [
+      true
+    ],
+    "relative_loss_change": [
+      0.0006690319449567615
+    ],
+    "max_joint_motion_mm": [
+      2.2787472889508766
+    ],
+    "convergence_pass": [
+      false
+    ]
+  },
+  "fit_complete": {
+    "exit_status": 0,
+    "ids": [
+      [
+        "real001",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "steps": 20000,
+    "elapsed_seconds": 104.02894043922424,
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+    "final_selected_steps": [
+      20000
+    ],
+    "device": "cpu",
+    "threads": 1,
+    "body_gt_read": false
+  },
+  "exit_status": 0
+}

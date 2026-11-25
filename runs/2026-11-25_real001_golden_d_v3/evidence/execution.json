@@ -1,0 +1,29 @@
+{
+  "baseline": "87525b94a23ca4bfac09d2aefbfb802f190e96b0",
+  "cwd": "<WORKSPACE>",
+  "environment": "Existing EgoSMPLX research environment, CPU single thread; native real001 calibration.",
+  "resource_requirements": [
+    "Real001 original images and calibration matching evidence/inputs.json",
+    "Archived real001 detections, masks, transforms and historical Head",
+    "SMPL-X neutral model and Golden D v3 reference protocol and point schema"
+  ],
+  "commands": [
+    {
+      "command": "python -Bu runs/2026-11-25_real001_golden_d_v3/run_pair.py prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_golden_d_v3/run_pair.py fit",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_golden_d_v3/run_pair.py candidates",
+      "exit_status": 0
+    },
+    {
+      "command": "python -Bu runs/2026-11-25_real001_golden_d_v3/render_result.py",
+      "exit_status": 0
+    }
+  ],
+  "obj_local": "outputs/real001_golden_d_v3_20261125/real001_t029p0_v3_rw20000_cam3_cv.obj"
+}

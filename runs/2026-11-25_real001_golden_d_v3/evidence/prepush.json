@@ -1,0 +1,37 @@
+{
+  "baseline": "87525b94a23ca4bfac09d2aefbfb802f190e96b0",
+  "remote_before_commit": "87525b94a23ca4bfac09d2aefbfb802f190e96b0",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested real001 mesh, point overlay and OBJ render JPEGs, verified JPEG, no EXIF.",
+  "images": 8,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam3_mesh.jpg": "06a5bcd619edb6a532fe28f7fc828dea30533dcb31ba3d03b1d5b401d77e1577",
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam3_mesh_points.jpg": "3aceb021d4065b3550ed793411e26355bf9249525bed08253579cac5057c5b95",
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam3_points.jpg": "cb7b9dbbf293a6d1a1a6d5fcc6704d47657c14c76070c147850ee174d48f8163",
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam4_mesh.jpg": "1c35de4aa3adab67a273d454754b2a5d1ab1659d6a628f75126ec47b49f75142",
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam4_mesh_points.jpg": "e02eceb26c54ed15215c4511a320f862fb05510ae5c3202247654d5e18812085",
+    "runs/2026-11-25_real001_golden_d_v3/assets/cam4_points.jpg": "a3e06e4d894700fcac4a1e1f43b84cf26efd4c27212db561ac281126829433ae",
+    "runs/2026-11-25_real001_golden_d_v3/assets/obj_front_side.jpg": "de1e939ee0ef36ecfe5c2f290c240b6d716656a952bb317cec4877abd1ddf281",
+    "runs/2026-11-25_real001_golden_d_v3/assets/stereo_overview.jpg": "cde651f896b6b8fbcf019231687d80ebdc9f49f9e045e4bbf3dddab1998f1dec",
+    "runs/2026-11-25_real001_golden_d_v3/brief.md": "05dd97d271760523f828123d4234c2c494ad05a9649b379a0d3a2699990d1e7d",
+    "runs/2026-11-25_real001_golden_d_v3/evidence/execution.json": "af76b31fe70fa38d150d2a5495eabd8d9753900e849cacca10d7902588dc3827",
+    "runs/2026-11-25_real001_golden_d_v3/evidence/inputs.json": "f9628876e45bf8e3a659f952498a625b362beb36cbf0aee04400f4c899eca073",
+    "runs/2026-11-25_real001_golden_d_v3/evidence/results.json": "f7bd58f79f594d7708dd0c6a55ed592104c00c86083cb180721139a6c7e7b1e4",
+    "runs/2026-11-25_real001_golden_d_v3/render_result.py": "b0572ee7bbc328c609d9db55e06092428a1258f4b8439c36e10eec1c5c0fd4fa",
+    "runs/2026-11-25_real001_golden_d_v3/report.md": "7ecebf55248c16edbc20da2900a95424d8a01144ba00c86641e2e4466b0d4925",
+    "runs/2026-11-25_real001_golden_d_v3/review.md": "c85e8bcaea0108d5e88950910667ce6d15185422dc97cdcf52f2780764f7b9d0",
+    "runs/2026-11-25_real001_golden_d_v3/run_pair.py": "7bc76dccd8a153cd936c25740028ee304be68c7207155d33fc3adb05918604b5"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}
