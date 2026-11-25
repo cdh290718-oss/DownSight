@@ -1,0 +1,23 @@
+{
+  "base_commit": "bb6c9d0aa0cef70dc151fa8f26100abfc77f6bfe",
+  "dirty_worktree": true,
+  "method_id": "golden-d-2d-v4",
+  "config_sha256": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54",
+  "score_source_sha256": "b586d7fbd683f6fdb46da6854b482d5f410c1ecb467fdedc6fd039b9b18d05d5",
+  "image_sha256": "cadc277387ac5cee076ae4aeda526803d9deeed7576af3ab0f82815089234f40",
+  "source_sha256": "2b90cc50cb81ce7e02d4eac50c224d76dceaf072e56db0040fc1c8d68ca45b4c",
+  "checked_metric_keys": [
+    "current",
+    "reset",
+    "locked"
+  ],
+  "commands": [
+    {
+      "command": "python -B <RUN>/draw.py",
+      "exit_status": 0
+    }
+  ],
+  "locked_implementation_files_verified": true,
+  "links_checked": true,
+  "publication_scope": "allowlist, PNG metadata, size, paths and secrets, staged and outgoing changes and remote"
+}

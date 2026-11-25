@@ -4,7 +4,7 @@ DownSight 探索从头戴下视双目图像恢复人体姿态与体型。
 
 **当前黄金 D 为 `golden-d-2d-v4`。** 从同帧黄金 D v3 姿态出发，保留完整双目轮廓，再拟合一具标准体型的 SMPL-X 人体。手指、双踝及双前脚掌的局部旋转从轮廓拟合第一步起固定，直到最终选姿。
 
-[黄金 D v4 方法](docs/downsight/golden-d-v4/README.md) · [当前版本清单](configs/golden_d.current.json) · [24 对重新拟合结果](runs/2026-11-25_floor24_foot_lock/report.md) · [定版与回放核查](runs/2026-11-25_golden_d_v4/report.md)
+[黄金 D v4 架构图与技术说明](docs/downsight/golden-d-v4/README.md) · [当前版本清单](configs/golden_d.current.json) · [24 对重新拟合结果](runs/2026-11-25_floor24_foot_lock/report.md) · [定版与回放核查](runs/2026-11-25_golden_d_v4/report.md)
 
 参考实验固定均值体型和手指姿态，使用标注辅助的 Head 位置、会话外参和画内掩码。地面视角用于网格展示。[原 EgoSMPLX 部署入口](README_LEGACY.md)
 
