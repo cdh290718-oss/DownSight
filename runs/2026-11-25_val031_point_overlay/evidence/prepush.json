@@ -1,0 +1,28 @@
+{
+  "baseline": "bbbe42bb118d1645c209480c2469d52603347b5c",
+  "remote_before_commit": "bbbe42bb118d1645c209480c2469d52603347b5c",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 41,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested annotated point-overlay JPEGs, verified JPEG, no EXIF.",
+  "images": 2,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-25_val031_point_overlay/assets/arms.jpg": "8480c47af4bb7d83381e8428c675b2f52324bcb083336e2deb45d9703f71a5e9",
+    "runs/2026-11-25_val031_point_overlay/assets/stereo.jpg": "b914e26eb92973063f4d723ae95cd30749fbc191952a0047769787f47e7def9f",
+    "runs/2026-11-25_val031_point_overlay/brief.md": "bbc42d6a1d4207a41436a1e7b37c6d4c37e7ad3f2b31873357fde19a8db6a1ee",
+    "runs/2026-11-25_val031_point_overlay/evidence/render.json": "ec879820c7c89c7959583f6174c6c96d1d9d287876afa20d333811deead2f7ca",
+    "runs/2026-11-25_val031_point_overlay/render.py": "20885d19e9be5d1b407f07dade3ef02fbd90326c7472b1e3d2b346e26f385d2f",
+    "runs/2026-11-25_val031_point_overlay/report.md": "ce5fc44b8aac34474900960bdb7231060d4ed981bfdd48422c74ac3037769d6b",
+    "runs/2026-11-25_val031_point_overlay/review.md": "17c27f033044a9272424ec79c985e55b9baef0713beba259b92313903df99136"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check_increment.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check_increment.py commit",
+    "remote HEAD checked before push"
+  ]
+}
