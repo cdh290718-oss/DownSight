@@ -1,0 +1,67 @@
+{
+  "base_commit": "a8e4a94ee1c949dee7a7d322f78956ec9a3f70ea",
+  "dirty_worktree": true,
+  "split": "validation",
+  "device": "single CUDA GPU segmentation / CPU fit and scoring",
+  "input_archive": {
+    "source_sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912",
+    "parameter_sha256": "ad8fcb3ea77ccd9d586135fcfc1293c81c8569190c60dd83431b9e820cb3db70",
+    "choices_sha256": "a4d55550420d97ad572a82bf37ff93c405cd75c608047847cf3968e5018bebb3",
+    "wrist_sha256": "b3b9c06d8d02137eb1be79ba42bb2f8b9f1551280d03f8d5c240de2f21b42ae3",
+    "baseline_sha256": "8af2b4f6d7aec35888a416ea9a144bd70c3b0688e8fd5bbcc7c1ef1147fce88d",
+    "prepared_sha256": "2c898e7e304085abc70a274fbd92e3f5294a91d3ea90e427ea1ba3852d69ee53",
+    "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22"
+  },
+  "historical_sources": {
+    "runs/2026-11-23_fullbody_joint_candidates/evidence/validation_search.json": "14a1e94b26610683e9cb93ac23c9a2c78457a71162ac3574dfdffc17658ab85c",
+    "runs/2026-11-24_v3_contact/evidence/verification.json": "a276d8bdea0a08e705f0a892e8db302265f4cfa536326e575bba3ae292bcd20a",
+    "runs/2026-11-24_v3_contact/evidence/validation_evaluation.json": "5ac3c6fcafb2f9faec7b983df19b4a83362e771ec3309504fc82dfd6511d9765",
+    "runs/2026-11-25_frozen100_fingers/evidence/results.json": "291478fef16e694cb4532f8aac6ae436ca2d5edb8f2f1491fbd4bde744d397e2",
+    "runs/2026-11-25_frozen100_fingers/fit.py": "8ecc3ad6cba905c368c96e7d4ee94dffebd4d2980a252e684fdbfd7d6d341986",
+    "runs/2026-11-25_frozen100_fingers/hand_edges.py": "7e9eff053bd73dced12686e75fbe1523917499dd242d07e34d88ad45b389cf69",
+    "runs/2026-11-25_frozen100_outline/compare.py": "52d3c33dbd865cc8b7de2759c8744d98624cc7364c5f2d90df83c698b0dbc524"
+  },
+  "run_sources": {
+    "variants.py": "eaa4d26a1bf4936cfbef795531fe4d3197d1def93ccdd79f37ed3db802937e51",
+    "verify.py": "ab51d21424cfa8e04100b87d232ca46e12451c6094a6ab6338cfa2c833734446",
+    "run.sh": "cc9d9b226975fce40c2aeacb3550456925de59af7e87a041c8d09c6de66870f2",
+    "workers.sh": "d68f34c2f9fe01362a0cd079b8262827f3228c44a9647e0dd2dd92a99ec108b2",
+    "inputs.py": "574434933b1f568c43779f8d90d6fc3ed7ee7c36498d5b665782d90a6f9e2c65",
+    "score.py": "a823871aa864923f3c78e6191747a31927dee06f81e4688307ac14cef8408d43",
+    "segment.py": "a54c8878e20ed1904c6f3f8f5875ede0e88f38e0a35f831ac6184912afb61367"
+  },
+  "outputs": {
+    "results.json": "664d043d5152ed89e99f14f989a7d9d9c5825a903005442ce627a2dedee0b7a6",
+    "selections.json": "107463c4f3268cd311eb6b9bab93ec8d3679bc87347c174f0fb04c0b5d7037f8",
+    "segmentation.json": "15abd50f6ea6b1600846b8e063ffc0a996d9396ff52de773db7da44547e71fd7"
+  },
+  "config": {
+    "steps": 72,
+    "weight": 0.008,
+    "grid_stride_px": 4,
+    "outline_scale_px": 12.0,
+    "shape": "10 zero betas",
+    "body_observations": 12,
+    "fixed_finger_joints": 30,
+    "includes_contact_loss": false
+  },
+  "commands": [
+    {
+      "command": "bash <RUN>/run.sh segment",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/workers.sh 16 variants",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh score",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh verify",
+      "exit_status": 0
+    }
+  ],
+  "exit_status": 0
+}
