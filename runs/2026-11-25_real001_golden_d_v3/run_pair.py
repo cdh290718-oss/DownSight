@@ -21,7 +21,7 @@ def cameras():
 def prepare():
     (OUT/'images').mkdir(parents=True,exist_ok=True)
     v3.shard(0).mkdir(parents=True,exist_ok=True)
-    manifest=read(ROOT/'configs/golden_d.current.json')
+    manifest=read(ROOT/'configs/golden_d.2d-v3.json')
     assert manifest['method_id']=='golden-d-2d-v3'
     for locked in manifest['locked_files']:
         assert sha(ROOT/locked['path'])==locked['sha256']

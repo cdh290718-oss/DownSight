@@ -13,7 +13,7 @@ def unit(v):
     return v/np.linalg.norm(v)
 
 def prepare():
-    manifest=read(ROOT/'configs/golden_d.current.json')
+    manifest=read(ROOT/'configs/golden_d.2d-v3.json')
     assert manifest['method_id']=='golden-d-2d-v3'
     assert all(sha(ROOT/k['path'])==k['sha256'] for k in manifest['locked_files'])
     calibration=read(RUN/'evidence/calibration.json')

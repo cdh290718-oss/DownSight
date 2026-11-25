@@ -1,9 +1,9 @@
 {
-  "method_id": "golden-d-2d-v3",
+  "method_id": "golden-d-2d-v4",
   "status": "current_default_research_baseline",
-  "decision": "User designated the evaluated joint candidate strategy with movable root or upper spine as Golden D v3.",
-  "source_commit": "48b7a18815c1501dd0fad047602cd97bd61862d8",
-  "implementation": "runs/2026-11-23_test500_joint/body.py",
+  "decision": "User designated the full stereo contour refit with locked fingers, ankles and forefeet as Golden D v4.",
+  "source_commit": "f18af244dcdb5807d09ccca0c79d21a38eb89ad9",
+  "implementation": "runs/2026-11-25_floor24_foot_lock/lock.py",
   "protocol": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
   "methods": [
     "2d"
@@ -15,23 +15,22 @@
   "head_constraints": "3D Head position soft anchor only. Neck and Head local rotations fixed at identity relative to their parents.",
   "initialization": "Template pose and mean shape. Per-frame stereo shoulders and hips initialize root rotation; same four points via reprojection on unstable rays. Initial translation matches the Head point.",
   "shape_policy": "reference experiment has zero-rank shape basis and fixed mean shape; shape optimization requires a separately identified variant",
-  "hand_policy": "no WiLoR hand observation loss in this reference; local hand pose fixed",
+  "hand_policy": "All 30 local finger rotations stay at their v3 start throughout contour fitting and candidate selection. Full hand boundaries remain active.",
   "step_budget": 20000,
-  "checkpoint_selection": "First retain the lowest feasible v2 Adam checkpoint. Then choose the lowest feasible original objective over the retained baseline, wrist seed and composed four-limb poses across all feasible trunk seeds.",
+  "checkpoint_selection": "Select the feasible complete pose with lowest original body objective plus the full stereo contour term from the v3 start, contour Adam result, archived v3 branches and regenerated branches.",
   "reference_detector": "RW20000 epoch 1; exact Sapiens2 base plus trained adapter identified by the checkpoint record.",
-  "reference_results": "runs/2026-11-23_test500_joint/evidence/results.json",
+  "reference_results": "runs/2026-11-25_floor24_foot_lock/evidence/results.json",
   "comparisons": [
-    "runs/2026-11-23_test500_joint/report.md",
-    "runs/2026-11-23_fullbody_joint_candidates/report.md",
-    "runs/2026-11-23_joint_pa15/report.md",
-    "runs/2026-11-23_validation_pa15/report.md"
+    "runs/2026-11-25_floor24_foot_lock/report.md",
+    "runs/2026-11-25_validation200_fingers/report.md",
+    "runs/2026-11-25_frozen100_fingers/report.md"
   ],
   "legacy_archive": "experiments/synthetic_template_head_stereo_20261109/golden_d.json",
   "deployment_status": "research baseline designation; legacy EgoSMPLX CLI remains a separate pipeline",
   "limitations": [
-    "500 additional test frames from the same three test subjects as the previous 100, with no repeated source frames. The 200 validation pairs are from four other subjects.",
-    "Annotation-assisted Head, per-session extrinsics and in-image masks; existing research environment and external assets required.",
-    "Candidate scoring uses the original objective; free feet, no mesh self-intersection or contact term."
+    "24 archived stereo pairs evaluated with all v4 locks. Larger hand-only and v3 evaluations apply to their respective methods.",
+    "Reference uses annotation-assisted Head, per-session extrinsics, in-image masks, standard shape and external assets.",
+    "Local foot rotations fixed relative to the kinematic chain. Ground contact and self-intersection are not enforced."
   ],
   "locked_files": [
     {
@@ -161,20 +160,120 @@
     {
       "path": "runs/2026-11-18_rw20000_frozen200/code/evaluate_2d.py",
       "sha256": "9cba879adda449350e8ed921b6481ab74c41afca09a8fa2c98a3d5314ba69a0b"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/lock.py",
+      "sha256": "095ce0302dba7deb96719d41fa28079577cd7785a501336a7ac95284e45f6b10"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/assess_feet.py",
+      "sha256": "2c053e415d75c4a7522cdd148cbed45ff7982e0a22376a7776cb7a599f3c04c2"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/run.sh",
+      "sha256": "40964f05851a416e55a3a0206e63866cf0754411c77f3b4b649efd160a9163fa"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/workers.sh",
+      "sha256": "11d1f1b47cf715f05766b5f375f80955c957bf1fe57350a18a8ca267e3cd2a5d"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/evidence/results.json",
+      "sha256": "b586d7fbd683f6fdb46da6854b482d5f410c1ecb467fdedc6fd039b9b18d05d5"
+    },
+    {
+      "path": "runs/2026-11-25_floor24_foot_lock/evidence/checks.json",
+      "sha256": "e53214be54761b78ea3069bd888f47d649a3e0f4abf0abec375ab8212fbdbdfc"
+    },
+    {
+      "path": "runs/2026-11-25_validation200_fingers/inputs.py",
+      "sha256": "574434933b1f568c43779f8d90d6fc3ed7ee7c36498d5b665782d90a6f9e2c65"
+    },
+    {
+      "path": "runs/2026-11-25_validation200_fingers/segment.py",
+      "sha256": "a54c8878e20ed1904c6f3f8f5875ede0e88f38e0a35f831ac6184912afb61367"
+    },
+    {
+      "path": "runs/2026-11-25_validation200_fingers/evidence/segmentation.json",
+      "sha256": "15abd50f6ea6b1600846b8e063ffc0a996d9396ff52de773db7da44547e71fd7"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_fingers/fit.py",
+      "sha256": "8ecc3ad6cba905c368c96e7d4ee94dffebd4d2980a252e684fdbfd7d6d341986"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_fingers/geometry_inputs.py",
+      "sha256": "db13ea7af9c4c7b8663ea44d8a4ac8b58a6b71191d65a652cbde310f690f163e"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_fingers/hand_edges.py",
+      "sha256": "7e9eff053bd73dced12686e75fbe1523917499dd242d07e34d88ad45b389cf69"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_outline/compare.py",
+      "sha256": "52d3c33dbd865cc8b7de2759c8744d98624cc7364c5f2d90df83c698b0dbc524"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_outline/segment.py",
+      "sha256": "f20727dd9d3b2bc107e3e730594cd2df0ac30db43935838a6467bdb46790782c"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_outline/shared_run.py",
+      "sha256": "db1c584099363fbd2e19877b2166164ce6b6db1bc57bd6aa5bb6d1df630f3cf5"
+    },
+    {
+      "path": "runs/2026-11-25_frozen100_outline/evidence/segmentation.json",
+      "sha256": "1e42c47246b5c43498b1ffa9f17b675dae5675b97a8936d928fa59937709a145"
+    },
+    {
+      "path": "runs/2026-11-24_two_stereo_contact/fit_probe.py",
+      "sha256": "daaa93c6fe025d9eef1223ffe6c2cab28f845f68d0d3f15a0c6c56f8bac42d49"
+    },
+    {
+      "path": "runs/2026-11-24_two_stereo_contact/outline.py",
+      "sha256": "df53b2c37ded8cbe177d12e3d1cc086eb39a397682c1baadede16b3ed5b163d2"
+    },
+    {
+      "path": "runs/2026-11-24_two_stereo_contact/common_run.py",
+      "sha256": "c1544a0d109f9a653062fd2dba830f4b0f75a7d1a3f5abf3dfce13fa19ec97b5"
+    },
+    {
+      "path": "runs/2026-11-23_fixed_floor24/evidence/sample.json",
+      "sha256": "5bc50e75e8fb62a08c4421b599186d791d21fd2fd60ab5bcc098d5456c392038"
+    },
+    {
+      "path": "runs/2026-11-23_fullbody_joint_candidates/evidence/test_search.json",
+      "sha256": "ec62d68cc75e883ba1009a2820b91bbbf0f267119822b999baa216ffdffff63d"
+    },
+    {
+      "path": "runs/2026-11-23_fullbody_joint_candidates/evidence/validation_search.json",
+      "sha256": "14a1e94b26610683e9cb93ac23c9a2c78457a71162ac3574dfdffc17658ab85c"
+    },
+    {
+      "path": "runs/2026-11-24_v3_contact/contact.py",
+      "sha256": "56769581b430a655a45310521e2d7bbe81e18f02990537a605f1c97fada41894"
+    },
+    {
+      "path": "runs/2026-11-24_v3_contact/select_pose.py",
+      "sha256": "ccb5ca8ecb5eeca1423b9d1fb18560dee3d8041fc8b694a0d69062a3d5a5a1df"
+    },
+    {
+      "path": "runs/2026-11-24_two_stereo_contact/repair_local.py",
+      "sha256": "120501d8e5c1358ef19cb8a325d4142834a2bdf20a287cf9cf98c3e2ee7ed1ea"
     }
   ],
-  "previous_manifest": "configs/golden_d.2d-v2.json",
+  "previous_manifest": "configs/golden_d.2d-v3.json",
   "detector_assets": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
-  "reference_result_key": "summary.joint",
+  "reference_result_key": "summary.locked",
   "observations": "12 bilateral shoulder, elbow, wrist, hip, knee and ankle joints. Reference in-image masks without a confidence threshold.",
-  "feet_policy": "Free feet with generic pose prior and joint limits. No ground, contact, flat-foot or balance loss.",
+  "feet_policy": "During the contour refit both ankle and both forefoot local rotations stay at the v3 start (identity in the reference). Knees and hips can move the feet.",
   "reprojection_groups": {
     "body": 1.0,
     "shoulder": 0.25,
     "wrist": 1.0
   },
   "primary_evaluation": "12-joint per-frame similarity PA-MPJPE and left-camera non-PA MPJPE, in mm.",
-  "protocol_scope": "The v2 settings define the Adam initialization and the objective reused throughout. The v3 reference runner evaluates the RW20000 detector; summary.joint selects the complete strategy.",
+  "protocol_scope": "The v2 settings and v3 candidates supply the start. The v4 contour stage refits each stereo frame from that start.",
   "candidate_search": {
     "wrist_seed": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
     "implementation": "runs/2026-11-23_fullbody_joint_candidates/search.py",
@@ -204,5 +303,28 @@
     ],
     "selected_method": "joint",
     "fixed_trunk_control": "fixed"
-  }
+  },
+  "refinement": {
+    "start": "golden-d-2d-v3",
+    "steps": 72,
+    "optimizer": "Adam",
+    "contour_weight": 0.008,
+    "boundary": "full binocular Sapiens2 foreground and supported part boundaries including hands",
+    "finger_joints": 30,
+    "foot_body_pose_indices_zero_based": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "constraint_start": "first contour update and every subsequent trial and final candidate",
+    "output_array": "locked",
+    "reference_split_sizes": {
+      "test": 12,
+      "validation": 12
+    },
+    "implementation_entrypoint": "run(start, stride)",
+    "segmentation_weights_sha256": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4"
+  },
+  "step_budget_scope": "20,000 steps in the inherited v2 initialization, then v3 search, then 72 contour refinement steps."
 }

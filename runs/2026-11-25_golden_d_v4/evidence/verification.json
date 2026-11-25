@@ -1,0 +1,52 @@
+{
+  "base_commit": "4a32d40765230fcf8db903cc102b1caef54484b1",
+  "dirty_worktree": true,
+  "method": "golden-d-2d-v4",
+  "implementation_commit": "f18af244dcdb5807d09ccca0c79d21a38eb89ad9",
+  "manifest_sha256": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54",
+  "prior_manifest_sha256": "c38dc072ff9d4b77a3d9da8ab0020e5dbdfefd47e7ee1153da3cdbfcc909323a",
+  "locked_files": 57,
+  "reference_key": "summary.locked",
+  "reference_summary": {
+    "pa_mm": 41.300542583262164,
+    "nonpa_mm": 58.07719601768694,
+    "toe_mm": 98.7406394216494,
+    "toe_direction_deg": 18.320100601182673
+  },
+  "exact_pose_and_selection_matches": [
+    "pair001",
+    "pair022",
+    "pair028",
+    "pair034",
+    "pair036",
+    "pair037",
+    "pair045",
+    "pair055",
+    "pair068",
+    "pair078",
+    "pair088",
+    "pair094",
+    "val017",
+    "val031",
+    "val042",
+    "val055",
+    "val073",
+    "val100",
+    "val102",
+    "val122",
+    "val134",
+    "val168",
+    "val178",
+    "val181"
+  ],
+  "commands": [
+    {
+      "command": "bash <RUN>/reproduce.sh",
+      "exit_status": 0
+    },
+    {
+      "command": "python -B <RUN>/verify.py",
+      "exit_status": 0
+    }
+  ]
+}

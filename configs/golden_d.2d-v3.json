@@ -1,0 +1,208 @@
+{
+  "method_id": "golden-d-2d-v3",
+  "status": "current_default_research_baseline",
+  "decision": "User designated the evaluated joint candidate strategy with movable root or upper spine as Golden D v3.",
+  "source_commit": "48b7a18815c1501dd0fad047602cd97bd61862d8",
+  "implementation": "runs/2026-11-23_test500_joint/body.py",
+  "protocol": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
+  "methods": [
+    "2d"
+  ],
+  "conditions": [
+    "rw20000"
+  ],
+  "body_observation_loss": "dual-view calibrated 2D reprojection, normalized Huber; no triangulated body 3D residual",
+  "head_constraints": "3D Head position soft anchor only. Neck and Head local rotations fixed at identity relative to their parents.",
+  "initialization": "Template pose and mean shape. Per-frame stereo shoulders and hips initialize root rotation; same four points via reprojection on unstable rays. Initial translation matches the Head point.",
+  "shape_policy": "reference experiment has zero-rank shape basis and fixed mean shape; shape optimization requires a separately identified variant",
+  "hand_policy": "no WiLoR hand observation loss in this reference; local hand pose fixed",
+  "step_budget": 20000,
+  "checkpoint_selection": "First retain the lowest feasible v2 Adam checkpoint. Then choose the lowest feasible original objective over the retained baseline, wrist seed and composed four-limb poses across all feasible trunk seeds.",
+  "reference_detector": "RW20000 epoch 1; exact Sapiens2 base plus trained adapter identified by the checkpoint record.",
+  "reference_results": "runs/2026-11-23_test500_joint/evidence/results.json",
+  "comparisons": [
+    "runs/2026-11-23_test500_joint/report.md",
+    "runs/2026-11-23_fullbody_joint_candidates/report.md",
+    "runs/2026-11-23_joint_pa15/report.md",
+    "runs/2026-11-23_validation_pa15/report.md"
+  ],
+  "legacy_archive": "experiments/synthetic_template_head_stereo_20261109/golden_d.json",
+  "deployment_status": "research baseline designation; legacy EgoSMPLX CLI remains a separate pipeline",
+  "limitations": [
+    "500 additional test frames from the same three test subjects as the previous 100, with no repeated source frames. The 200 validation pairs are from four other subjects.",
+    "Annotation-assisted Head, per-session extrinsics and in-image masks; existing research environment and external assets required.",
+    "Candidate scoring uses the original objective; free feet, no mesh self-intersection or contact term."
+  ],
+  "locked_files": [
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/run_fit.py",
+      "sha256": "078717ea018f1a4490525e14edca29bfea7ecebb78d31e4ecb4e118cc05d455e"
+    },
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/measure.py",
+      "sha256": "796e5a8f050affb0f63ead09b8ddcdb23df04bf0cd1f6a47abf6e27f9b31025d"
+    },
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
+      "sha256": "696e82956fc19ccdf53f9ae1da3e5477cfc419f739b6c384608e034467ec0bf9"
+    },
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/inputs.json",
+      "sha256": "817c1d4aca2885014a257932d46aea8f6e3fc15ea78d29a32b777bde13762b2e"
+    },
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/summary.json",
+      "sha256": "4047ca1776119f7fa1eef6c2c9013a1aba2cb0999877665e5f3f2d5f41f2e91f"
+    },
+    {
+      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/execution.json",
+      "sha256": "43a4e372427370b94beb3bad0ab52b621b75a8061520a88adebe83c8b44839bf"
+    },
+    {
+      "path": "runs/2026-11-19_rw_three_free12/experiment.py",
+      "sha256": "d6e8456ebf272bfc211d1fa1459bf4b5bfef18e4d3f3672b37c34f4f580ef299"
+    },
+    {
+      "path": "runs/2026-11-19_rw_three_free12/metrics.py",
+      "sha256": "6e4ce6fb31cfeacbc8d7827b519e4f0db226b633ca181a7a2bc1f1da3ebcc788"
+    },
+    {
+      "path": "runs/2026-11-19_rw_position_only/trial.py",
+      "sha256": "170d6744eb89591125180114d4c31aaaa6a4c9f34205291ad3ec46e86db76f56"
+    },
+    {
+      "path": "runs/2026-11-19_rw_landmarks_head_views/study.py",
+      "sha256": "de769b2d60198241fed9ef13b992aa48249f67b5d410ad8ae2da1ad12bd34c4a"
+    },
+    {
+      "path": "runs/2026-11-19_rw_landmarks_head_views/evidence/calibration.json",
+      "sha256": "c1247e182c3a252139e4d117abccecaf8ab5710692899ca46b85a69c3cd47c09"
+    },
+    {
+      "path": "runs/2026-11-18_rw_frozen200_golden_d/protocol.json",
+      "sha256": "4f4547506cc7c1200a0362ca065130adedd9cbe26245a2d7a596305d33072a98"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
+      "sha256": "31d1549c521ba63e0fed77cb88f016d8c8b8e98fd48f2617c0e62b0a22ab9a7d"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/fit.py",
+      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/geometry.py",
+      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/common.py",
+      "sha256": "553a6a3ea3c83dcd1cc5763f66cfcd05a94b293813f7bb395230959d909a783e"
+    },
+    {
+      "path": "runs/2026-11-17_newdetector_d10/evaluate.py",
+      "sha256": "5fdbfd63eaadc09d3471bea47ead5053e8c56c5277c121c6b156d16fee628bcf"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/body.py",
+      "sha256": "5bc8910c377720892560faa1e6b24f701b1640f2b8cd3bbff66cbdea0ceda052"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/detect.py",
+      "sha256": "26841f039d168cbb790cadc88f74b44877a718e5fdb574c9652a92f2fc3f592a"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/score.py",
+      "sha256": "eb7a879abf809acb8679d535144c4d1f45835ca79d0cfc806bea9e8d59b0c24a"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/paths.py",
+      "sha256": "5892ccbcc4a656e85cef29b16f0159f4f059aea78acd44652759ce0c820346e0"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/paired.sh",
+      "sha256": "be641b7a38373b0b03fbbac2f55f0f27a2d3e5239c27500a8b4762180169d686"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/run.sh",
+      "sha256": "655ed28ad4546676922ebcf72e643f50c3d1713fc15f026dfba763deb4478bc0"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/sample.py",
+      "sha256": "df663698daa9ef3b9d42346503c70cf5b03a3a6a0dc2030d0ba18c40184d10aa"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/results.json",
+      "sha256": "076b5df8e15234c303fa072a1576770c6d9b28b377590752af15aecc3531d360"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/inputs.json",
+      "sha256": "c2b66b159405f00b8abdea9ca37c2e7459f5dc80164f53d1bbc236998761baec"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/detection.json",
+      "sha256": "8c3fa13a9c6053d30bfe82874ed8089dced305f0f16a900198264fd2bcf643b4"
+    },
+    {
+      "path": "runs/2026-11-23_test500_joint/evidence/verification.json",
+      "sha256": "3bf742c2519d3ede5247b5219f212a02ad1694efe60e7253e065dbbe45b9c38c"
+    },
+    {
+      "path": "runs/2026-11-23_fullbody_joint_candidates/search.py",
+      "sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912"
+    },
+    {
+      "path": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
+      "sha256": "9cfb7b2467f7af686e5cdb624f44b0c438295fe8fe21cf14c0081e2a7a7e6fa0"
+    },
+    {
+      "path": "runs/2026-11-23_stereo_wrist_candidates/shared.py",
+      "sha256": "686c861bc56a1d87d2d21d8887afb6fd561065e21e51e22072a4eb092da65e3f"
+    },
+    {
+      "path": "runs/2026-11-18_rw20000_frozen200/code/evaluate_2d.py",
+      "sha256": "9cba879adda449350e8ed921b6481ab74c41afca09a8fa2c98a3d5314ba69a0b"
+    }
+  ],
+  "previous_manifest": "configs/golden_d.2d-v2.json",
+  "detector_assets": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
+  "reference_result_key": "summary.joint",
+  "observations": "12 bilateral shoulder, elbow, wrist, hip, knee and ankle joints. Reference in-image masks without a confidence threshold.",
+  "feet_policy": "Free feet with generic pose prior and joint limits. No ground, contact, flat-foot or balance loss.",
+  "reprojection_groups": {
+    "body": 1.0,
+    "shoulder": 0.25,
+    "wrist": 1.0
+  },
+  "primary_evaluation": "12-joint per-frame similarity PA-MPJPE and left-camera non-PA MPJPE, in mm.",
+  "protocol_scope": "The v2 settings define the Adam initialization and the objective reused throughout. The v3 reference runner evaluates the RW20000 detector; summary.joint selects the complete strategy.",
+  "candidate_search": {
+    "wrist_seed": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
+    "implementation": "runs/2026-11-23_fullbody_joint_candidates/search.py",
+    "trunk_seeds": "Identity plus single-axis root (camera) or spine3 (local) rotation, preserving the fitted Head position by compensating translation.",
+    "trunk_rotation_deg": [
+      -4,
+      4
+    ],
+    "four_limb_depth_offsets_mm": [
+      -240,
+      -120,
+      -60,
+      -20,
+      0,
+      20,
+      60,
+      120,
+      240
+    ],
+    "bend_plane_angles_deg": [
+      -90,
+      -30,
+      0,
+      30,
+      90,
+      180
+    ],
+    "selected_method": "joint",
+    "fixed_trunk_control": "fixed"
+  }
+}

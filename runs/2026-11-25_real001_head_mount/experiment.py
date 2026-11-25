@@ -35,7 +35,7 @@ def reconstructed_joint(layer, path):
 
 
 def prepare():
-    for record in read(ROOT / 'configs/golden_d.current.json')['locked_files']:
+    for record in read(ROOT / 'configs/golden_d.2d-v3.json')['locked_files']:
         assert sha(ROOT / record['path']) == record['sha256']
     prior = read(PREVIOUS / 'evidence/inputs.json')
     assert sha(SOURCE / 'prepared.json') == prior['shards']['0']

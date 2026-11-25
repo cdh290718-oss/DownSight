@@ -6,7 +6,7 @@
 
 ## 每轮交接
 
-后续研究默认黄金 D 为 `golden-d-2d-v3`。它在 v2 的 RW20000 双目拟合后，以原损失选择四肢联合、允许根或躯干转动的完整姿态。方法与版本身份见 [v3 README](golden-d-v3/README.md) 和 [当前清单](../../configs/golden_d.current.json)。新 brief 应记录相对当前参考的检测器、Head、观测掩码、体型及手部设置变化。
+后续研究默认黄金 D 为 `golden-d-2d-v4`。从 v3 起点用完整双目轮廓重新拟合，手指、双踝与前脚掌从轮廓细化第一步到最终选姿保持固定。新 brief 应写明相对该参考的输入、体型、轮廓及手脚约束变化。[v4 方法](golden-d-v4/README.md) · [当前清单](../../configs/golden_d.current.json)
 
 1. 开发机读取远端最新提交、上轮报告及用户本轮指令；记录代码和后端版本，避免覆盖其他人的变更。
 2. 为唯一 run 目录创建 `brief.md`、`report.md`、`review.md` 和 `evidence/`；从 `runs/templates/` 取报告模板。执行时由流水线在输出目录 `provenance/<uuid>.json` 记录启动和结束状态；它在本地记录完整展开配置，可能包含敏感内容，公开之前必须脱敏。原有 `run_state.json` 保存输入、代码和配置指纹。

@@ -1,6 +1,6 @@
 # 黄金 D v3 · 双目四肢与躯干联合拟合
 
-黄金 D v3 是 DownSight 当前的单帧双目人体研究基线。给定一对同步鱼眼图像，左右眼共享一具 SMPL-X 人体。先用黄金 D v2 的 Adam 拟合得到起始姿态，再同时尝试双臂、双腿的弯曲方式，并允许根或上段脊柱小幅转动。最终用两眼共同的原拟合损失选出一套身体姿态、根旋转和平移，可据此生成三维关节和网格。[当前版本清单](../../../configs/golden_d.current.json) · [500 对实现入口](../../../runs/2026-11-23_test500_joint/body.py) · [v2 方法原文](../golden-d-v2/README.md)
+黄金 D v3 是[黄金 D v4](../golden-d-v4/README.md) 的单帧拟合起点。给定一对同步鱼眼图像，左右眼共享一具 SMPL-X 人体。先用黄金 D v2 的 Adam 拟合得到起始姿态，再同时尝试双臂、双腿的弯曲方式，并允许根或上段脊柱小幅转动。最终用两眼共同的原拟合损失选出一套身体姿态、根旋转和平移，可据此生成三维关节和网格。[v3 归档清单](../../../configs/golden_d.2d-v3.json) · [500 对实现入口](../../../runs/2026-11-23_test500_joint/body.py) · [v2 方法原文](../golden-d-v2/README.md)
 
 [![黄金 D v3 流程：双目 Adam 拟合、腕部起点、躯干与四条肢体链生成候选、完整姿态评分](stereo-fit.png)](stereo-fit.png)
 
@@ -42,4 +42,4 @@ RW20000 版 Sapiens2 在每只眼中检测左右肩、肘、腕、髋、膝、�
 
 ## 如何复核
 
-打开 500 对实验的逐帧证据，读取 `summary.joint.pa_mm` 和 `summary.joint.nonpa_mm`；同一文件中的 `baseline`、`fixed` 可直接配对比较。复跑完整拟合需要开发机的 SMPL-X、检测器权重、双目 RGB、相机标定和 Head 等外部资源。当前清单记录研究基线，部署使用另有独立入口。[500 对复跑记录](../../../runs/2026-11-23_test500_joint/report.md) · [逐帧证据](../../../runs/2026-11-23_test500_joint/evidence/results.json) · [部署说明](../../../README_LEGACY.md)
+打开 500 对实验的逐帧证据，读取 `summary.joint.pa_mm` 和 `summary.joint.nonpa_mm`；同一文件中的 `baseline`、`fixed` 可直接配对比较。复跑完整拟合需要开发机的 SMPL-X、检测器权重、双目 RGB、相机标定和 Head 等外部资源。v3 归档清单记录该版研究基线，部署使用另有独立入口。[500 对复跑记录](../../../runs/2026-11-23_test500_joint/report.md) · [逐帧证据](../../../runs/2026-11-23_test500_joint/evidence/results.json) · [部署说明](../../../README_LEGACY.md)

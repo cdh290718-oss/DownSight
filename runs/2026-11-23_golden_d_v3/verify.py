@@ -13,7 +13,7 @@ def digest(data):return hashlib.sha256(data).hexdigest()
 def pinned(commit,path):return subprocess.check_output(['git','show',commit+':'+path],cwd=ROOT)
 
 def main():
-    manifest=read('configs/golden_d.current.json')
+    manifest=read('configs/golden_d.2d-v3.json')
     old=manifest['previous_manifest']
     assert (ROOT/old).read_bytes()==pinned('8f53897','configs/golden_d.current.json')
     assert read(old)['method_id']=='golden-d-2d-v2' and manifest['method_id']=='golden-d-2d-v3'
@@ -36,7 +36,7 @@ def main():
         comparison[split]['joint_calibrated_pa15_mm']=pa['summary']['joint']['mapped15_pa_mm']
     evidence=dict(exit_status=0,command='python -B runs/2026-11-23_golden_d_v3/verify.py',worktree_base='8f53897c7b8677033c01f0353debb8fda8075f11',
                   method=manifest['method_id'],source_commit=manifest['source_commit'],locked_files=len(manifest['locked_files']),
-                  archived_v2_sha256=digest((ROOT/old).read_bytes()),manifest_sha256=digest((ROOT/'configs/golden_d.current.json').read_bytes()),
+                  archived_v2_sha256=digest((ROOT/old).read_bytes()),manifest_sha256=digest((ROOT/'configs/golden_d.2d-v3.json').read_bytes()),
                   diagram_sha256=digest((ROOT/'docs/downsight/golden-d-v3/stereo-fit.png').read_bytes()),test500=ref['summary'],test500_counts=ref['counts'],comparison=comparison)
     (RUN/'evidence/verification.json').write_text(json.dumps(evidence,indent=2)+'\n')
     print(manifest['method_id'],key,joint)
