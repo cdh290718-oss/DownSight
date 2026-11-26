@@ -1,0 +1,96 @@
+{
+  "base_commit": "88d405716e1add5628a3538ca8a5f5d642f398c5",
+  "dirty_worktree": true,
+  "settings_sha256": "be824a6456fcad4b511690d529429228c33a1535077b693817908437834c80ad",
+  "angle_evidence_sha256": "40688b281fee77aecbebeea726d02e199deff4d3df9a5f466eb8033c77df8368",
+  "rows": {
+    "clip003": {
+      "Purple": {
+        "obj": "clip003_purple_cam3_m.obj",
+        "sha256": "56ec096a9d4deb69a930f67211219d6b1b1341b97862f1f50c4272701150dfae",
+        "vertices": 10475,
+        "faces": 20908,
+        "max_vertex_readback_error_m": 4.999923808313156e-10,
+        "degree": 0,
+        "translation_m": [
+          0.01690917498210326,
+          0.03986037069715783,
+          0.0724130816925413
+        ],
+        "source_mesh_sha256": "2a271bbea7df7622685d5aa56331cb0a361c73058ede0a1134a24f2ffac5646d",
+        "pose_sha256": "7eb550630620023c935893d7004b331fba24af5201dcd4eab1050d748d5405ce",
+        "left_right_mask_disagreement_pixels": [
+          0,
+          0
+        ]
+      },
+      "Green": {
+        "obj": "clip003_green_cam3_m.obj",
+        "sha256": "f46c50505565e6d265e723851c67eb9339c064876258fbce0ceb2f6c3564f403",
+        "vertices": 10475,
+        "faces": 20908,
+        "max_vertex_readback_error_m": 4.999944902550624e-10,
+        "degree": -10,
+        "translation_m": [
+          0.016548693788831507,
+          0.03277222349189877,
+          0.08011629275939547
+        ],
+        "source_mesh_sha256": "2a271bbea7df7622685d5aa56331cb0a361c73058ede0a1134a24f2ffac5646d",
+        "pose_sha256": "7eb550630620023c935893d7004b331fba24af5201dcd4eab1050d748d5405ce",
+        "left_right_mask_disagreement_pixels": [
+          0,
+          0
+        ]
+      }
+    },
+    "clip004": {
+      "Purple": {
+        "obj": "clip004_purple_cam3_m.obj",
+        "sha256": "b7cbfc15b37b018153029fcb5fa5fd5d4701cd2e8c9d8ab4ae51f541ae0caa83",
+        "vertices": 10475,
+        "faces": 20908,
+        "max_vertex_readback_error_m": 4.999869407384949e-10,
+        "degree": 0,
+        "translation_m": [
+          0.01690917498210326,
+          0.03986037069715783,
+          0.0724130816925413
+        ],
+        "source_mesh_sha256": "74b045cd2d9c27ca5073210993929092e6062d94dd04e243e7a50fc90d44e63f",
+        "pose_sha256": "6685acbcfae281724627a5dd8085bf8ec0d52348f786a526f81d4d475b76bf35",
+        "left_right_mask_disagreement_pixels": [
+          0,
+          0
+        ]
+      },
+      "Green": {
+        "obj": "clip004_green_cam3_m.obj",
+        "sha256": "982128ab67eede373356ffa4e550a98f7b8d397a4dd261e0d153a4dca3ecdff8",
+        "vertices": 10475,
+        "faces": 20908,
+        "max_vertex_readback_error_m": 4.999957115003895e-10,
+        "degree": -10,
+        "translation_m": [
+          0.016548693788831507,
+          0.03277222349189877,
+          0.08011629275939547
+        ],
+        "source_mesh_sha256": "74b045cd2d9c27ca5073210993929092e6062d94dd04e243e7a50fc90d44e63f",
+        "pose_sha256": "6685acbcfae281724627a5dd8085bf8ec0d52348f786a526f81d4d475b76bf35",
+        "left_right_mask_disagreement_pixels": [
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "image_sha256": {
+    "clip003_stereo.jpg": "151898c782982e09522e4612242c7d2f854252b73c8ec7f297b2aca301ced1ed",
+    "clip004_stereo.jpg": "2a7152af31781463bd87cd0dff7cb6a018c85ae518a04fffa0a0c239726ed342",
+    "full_body.jpg": "20e4c318f45478fa18c5f5216237d8e9d00ae9bb5077d752817a602b9fa20b84"
+  },
+  "bundle_sha256": "e954a5c50e6faae336a4e78f21c48c9140500a14e1153afe6b4343212baaa528",
+  "command": "bash runs/2026-11-26_realvideo4_pitch_obj/run.sh",
+  "exit_status": 0
+}
