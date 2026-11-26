@@ -1,0 +1,85 @@
+{
+  "execution_base": "01726e67a3d06e08f0db0b6f51d88e77b0cd0f36",
+  "publish_parent": "1f3a2502b3e29a57fc1283cb3f668cbd19908913",
+  "dirty_worktree": true,
+  "publication_scope": "allowlisted source, aggregate and per-frame evidence, downwards-camera annotated crops only",
+  "fit_cpu": true,
+  "inputs": "original frozen v4 poses, synced stereo frames and Scaramuzza calibration referenced by prior run 01726e6",
+  "sources": {
+    "template.py": "f85a0294012338b15f5ac598d8a0bc1caa1926e563a1d9c65afed29586fa48fb",
+    "measure.py": "07f90f9ce5a11533357e7d44a6dc9bb635485284ecb39627ffa4ec73781ac0bc",
+    "check.py": "bba0d1a230ad38473c7a55838d98c821cd6c805fb8bf4cf1cfdf28f4fc77c4c5",
+    "body_run.py": "cd953f501df776f25c10986cbdab11ce8c4238b243296b993a30594cb8648fd6",
+    "body_score.py": "ba7bb99d9975c91d33a6438e5bc2b86177fe0303b0a33bc15d98a99ea035298d",
+    "run.sh": "cc24ba76eeea6659d9928ca738ba8adb2e2ca50ad98aeed7f7e4b498c94f4784"
+  },
+  "outputs": {
+    "fit003.json": "2972b61a227024ec90e1d881e1f2b87ecaf3c64dc87d65007ca0dda95c058f3a",
+    "check.json": "7566dd6597a2222b5e3a263a891f0ca4ce31522c760bb6db3085a8d2e60632e2",
+    "refitted.json": "623208fef55823b3a676b557441c078c9d20ada525858246c8d6f77fa89a74bc",
+    "body.json": "7c37a2e9cf3d8e30c3b6bd40e10f0a34f311c25edbc70e47dca55438da9a7398"
+  },
+  "commands": [
+    {
+      "command": "bash <RUN>/run.sh template clip003",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh measure",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh template clip001 clip002 clip004",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh check",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run prepare",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run fit",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run candidates",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run v4 0",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run v4 1",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run v4 2",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_run v4 3",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh template refitted clip001 clip002 clip003 clip004",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh check refitted",
+      "exit_status": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh body_score",
+      "exit_status": 0
+    }
+  ],
+  "checks": [
+    "worktree, staged, outgoing increment, live remote",
+    "size, JPEG metadata, credentials and private paths",
+    "no weights, arrays, datasets, raw images, video, meshes, environment files or patches"
+  ]
+}

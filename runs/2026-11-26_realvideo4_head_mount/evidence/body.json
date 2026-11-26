@@ -1,0 +1,103 @@
+{
+  "rows": {
+    "clip001": {
+      "rmse_before_px": 13.703773426551413,
+      "rmse_after_px": 18.412628607985816,
+      "v4_pose_sha256": "cca7cb542422d968c5f0c8a22be6c67c15f8efe390c6e9504d9fef930696725c",
+      "selected": "adam",
+      "valid": 22,
+      "head_target_error_mm": 4.354828785890816,
+      "contour_after_px": 13.348350048065186,
+      "contour_before_px": 12.041979789733887
+    },
+    "clip002": {
+      "rmse_before_px": 14.312304841166103,
+      "rmse_after_px": 14.436947083628546,
+      "v4_pose_sha256": "027a91036f28d8a2907aa49bc197ffe6c0e99da13b5fbaf713b5b3c8f9a5092d",
+      "selected": "adam",
+      "valid": 21,
+      "head_target_error_mm": 0.24987588090849197,
+      "contour_after_px": 10.583950996398926,
+      "contour_before_px": 10.835230350494385
+    },
+    "clip003": {
+      "rmse_before_px": 7.5021282903422435,
+      "rmse_after_px": 8.16352594635744,
+      "v4_pose_sha256": "98378d4a65046aff79c78e63eb72d07093a1113936d0503c462a2ed7b810e23f",
+      "selected": "adam",
+      "valid": 24,
+      "head_target_error_mm": 1.087073705031949,
+      "contour_after_px": 10.811950922012329,
+      "contour_before_px": 9.73990273475647
+    },
+    "clip004": {
+      "rmse_before_px": 9.522654888412667,
+      "rmse_after_px": 10.265420422304373,
+      "v4_pose_sha256": "eb5509c6cd92ae6ae19e37fc0a46218c85c729f4d4672992e8f7afefa49d3070",
+      "selected": "adam",
+      "valid": 24,
+      "head_target_error_mm": 1.2876894403884889,
+      "contour_after_px": 10.085742473602295,
+      "contour_before_px": 10.380536556243896
+    }
+  },
+  "steps": 20000,
+  "prepared_sha256": "a7da12d072619810513edba144d88dbf7c3e3c1c0287e821888efd3785c4c544",
+  "protocol_sha256": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "diagnostics": {
+    "budget": 20000,
+    "ids": [
+      [
+        "clip001",
+        "baseline",
+        "2d"
+      ],
+      [
+        "clip002",
+        "baseline",
+        "2d"
+      ],
+      [
+        "clip003",
+        "baseline",
+        "2d"
+      ],
+      [
+        "clip004",
+        "baseline",
+        "2d"
+      ]
+    ],
+    "selected_step": [
+      19960,
+      20000,
+      20000,
+      19980
+    ],
+    "selected_feasible": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "relative_loss_change": [
+      6.300031522819598e-05,
+      0.00045856295265730887,
+      0.00030388668734669953,
+      6.30371983389037e-05
+    ],
+    "max_joint_motion_mm": [
+      0.6992629508951986,
+      3.866623310916918,
+      0.65127567644505,
+      0.4908638273667963
+    ],
+    "convergence_pass": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "exit_status": 0
+}
