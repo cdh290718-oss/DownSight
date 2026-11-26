@@ -1,0 +1,12 @@
+{
+  "baseline": "2fdce1b012fe1377df5bc919ff1a62eb8fe81181",
+  "controls": "a24704f162f449ff64ec50f59f098ad26bada724",
+  "commands": [
+    {"command":"bash <RUN>/run.sh wrists","first_exit":1,"reason":"SMPL-X layer required explicit zero jaw, eyes and expression inputs","retry_exit":0},
+    {"command":"python -B <RUN>/targets.py","exit":0},
+    {"command":"bash <RUN>/run.sh refine <index>","indices":[0,1,2,3],"exits":[0,0,0,0],"steps":70},
+    {"command":"bash <RUN>/run.sh display_cases","exit":0},
+    {"command":"bash <RUN>/run.sh compare_cases","exit":0}
+  ],
+  "inputs":"See previous paired report, wrists and masks hashes and per-frame start hashes. Local logs and original data retained on developer workstation."
+}

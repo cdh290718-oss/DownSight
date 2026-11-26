@@ -1,0 +1,117 @@
+{
+  "images": {
+    "clip001_obj": {
+      "size": [
+        700,
+        1440
+      ],
+      "sha256": "06e20f4e4760269a1b28ab279395492492f63831de4f9c16d3f33522c1f9d822"
+    },
+    "clip001_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bd3db4f215b565c0eb6d1ffca781a3b0fa7d42c81b302befea736febc8af1a9f"
+    },
+    "clip001_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f6609f9e3cc01d86a781b255bd0e802532eea35eb584e01897f6b4f60f7a41c0"
+    },
+    "clip001_hands": {
+      "size": [
+        1500,
+        1120
+      ],
+      "sha256": "a23d9e3cf5caf471b1b7f42be57b16c0aeba905c7451205e3420e3de0b9e9c94"
+    },
+    "clip002_obj": {
+      "size": [
+        700,
+        1440
+      ],
+      "sha256": "8ae295110bddb2912526f872b028f2a56bc898ec7045c5c07f24a9b4a349f384"
+    },
+    "clip002_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "39f3839414504c30364e1bdd0cc6e9f5210db71120bd80a5e73315725f26b139"
+    },
+    "clip002_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bd7e628b8391fc8eb25ac22e105dd93d23c5953dd784c4d5b785c5b082ff79b9"
+    },
+    "clip002_hands": {
+      "size": [
+        1500,
+        1120
+      ],
+      "sha256": "8bf588b9dce91b61fe44880c313fdae1b455ca6827bbc8cd66eca54879ca80d0"
+    },
+    "clip003_obj": {
+      "size": [
+        700,
+        1440
+      ],
+      "sha256": "4d897539a770f964a05319a0a7697f032451ac86d20485e5073e28fe2040385e"
+    },
+    "clip003_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "532d880169a7e76631ebe3bb45537f7b1b3d2fdba0cda988d2efb9a9ae8d0547"
+    },
+    "clip003_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "1349834969f9d345f4721d3adb9616582f94ea93249b49ec917e77a2b8fedc16"
+    },
+    "clip003_hands": {
+      "size": [
+        1500,
+        1120
+      ],
+      "sha256": "79c0741141e06a7d679344e61edc1f994b65e40afda69749be1b79552e6fd3fa"
+    },
+    "clip004_obj": {
+      "size": [
+        700,
+        1440
+      ],
+      "sha256": "5a2ce9c1a23cba8d70255d71fc99ea387c7589e0a334d2b204fdcbccda7de4c1"
+    },
+    "clip004_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "48c10b41456c6a7e6af15a6cb52f37899f4f500fbd1f9c69f370fc7675537d89"
+    },
+    "clip004_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "290be6d17215567d8cad9929d7e74714172533b525f07f3649e01bccb880c14a"
+    },
+    "clip004_hands": {
+      "size": [
+        1500,
+        1120
+      ],
+      "sha256": "60cac0f15bcf080f335b6dfe551f52027a834d33e52dada57eb959bf3b926b0a"
+    }
+  },
+  "exit_status": 0
+}
