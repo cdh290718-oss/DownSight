@@ -1,0 +1,25 @@
+{
+  "source_palm_sha256": "477b89a238d9a824a92a35424621aaa4d835f4275c00a3edb2477aa2881bc008",
+  "translated_palm_sha256": "95ecc596121d6eb9855a6a7daacbf3b638b7cb45823931f01759bbbef4392ae8",
+  "purple": {
+    "obj": "clip003_purple_cam3_m.obj",
+    "sha256": "56ec096a9d4deb69a930f67211219d6b1b1341b97862f1f50c4272701150dfae",
+    "vertices": 10475,
+    "faces": 20908,
+    "max_vertex_readback_error_m": 4.999923808313156e-10,
+    "degree": 0,
+    "translation_m": [
+      0.01690917498210326,
+      0.03986037069715783,
+      0.0724130816925413
+    ],
+    "source_mesh_sha256": "2a271bbea7df7622685d5aa56331cb0a361c73058ede0a1134a24f2ffac5646d",
+    "pose_sha256": "7eb550630620023c935893d7004b331fba24af5201dcd4eab1050d748d5405ce",
+    "left_right_mask_disagreement_pixels": [
+      0,
+      0
+    ]
+  },
+  "optimizer_sha256": "306fecb74a1921e77770a6bd02c2bf4ac840bf270f13c1e756bef3bf714269df",
+  "steps": 70
+}

@@ -1,0 +1,33 @@
+{
+  "base_commit": "008b5c9a17d32d5ac2f8f3fc626def47f95a99d2",
+  "commands": [
+    {
+      "command": "bash runs/2026-11-26_realvideo34_purple_hand_a/run.sh fit_hand_a 2",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-26_realvideo34_purple_hand_a/run.sh fit_hand_a 3",
+      "exit_status": 0
+    },
+    {
+      "command": "bash runs/2026-11-26_realvideo34_purple_hand_a/run.sh gallery_a",
+      "exit_status": 0
+    }
+  ],
+  "fit_entrypoint_at_execution": "fit.py (renamed fit_hand_a.py without changing solver)",
+  "render_retries": [
+    {
+      "exit_status": 1,
+      "cause": "fit module name collision"
+    },
+    {
+      "exit_status": 1,
+      "cause": "render_result import search path"
+    },
+    {
+      "exit_status": 1,
+      "cause": "overstrict head surface identity assertion; measured vertex differences retained, checked head joint separately"
+    }
+  ],
+  "exit_status": 0
+}
