@@ -1,0 +1,43 @@
+{
+  "baseline": "fc57fe0f820c4a854dca8b35a31a4fe617d6f170",
+  "image_sha256": {
+    "overview.jpg": "f1cb1491cc4bdee0b0e72e797b8590ac998713bed0cdbabe6383b812d9092df1",
+    "clip003_cam3_mesh.jpg": "fb1ba7097100abb99ab05cb673fde5e6ebd20ed3bdb08187db409614d2f35413",
+    "clip003_cam3_points.jpg": "9328c2926c45365e625287634a7888bbcbf008dbc3beeaea6ee26fe505e7df1c",
+    "clip003_cam3_combined.jpg": "8c97002a9e376c6cccb2a3e966b3ff4d12bf73979999ba3f558783c65263854a",
+    "clip003_cam4_mesh.jpg": "9b26c228e7a3dd2b33d9366c7e091bddaf0b5991c3af168ede43c2100e9e076e",
+    "clip003_cam4_points.jpg": "891980ca45faa7bbfe0f52e97408547cc2826055b69030a602147a562e9483cd",
+    "clip003_cam4_combined.jpg": "c0470d0cfccb8ec522a07ca8918ab76df3c69a2bf0d0aaa0fc6503ac021e6d6b",
+    "clip004_cam3_mesh.jpg": "a9a2844ea03a51654ba1b49d59b00c9f3d5fcc27c115280b067c0c838b3d8558",
+    "clip004_cam3_points.jpg": "9eb796f5db8854341b67c4abd734eb1c299484e6a68607d771174ddb2e62dc8c",
+    "clip004_cam3_combined.jpg": "31215ad7e239b83eb2f84b0aacc6cbe71ab746d4493e5569dfcc53f148058271",
+    "clip004_cam4_mesh.jpg": "922186c76095da2e5ad324865a607d4b7768bb2a62c23e92d426a914b9b3e6e6",
+    "clip004_cam4_points.jpg": "5c72d594e9a892717446065966eb18e1370ddc70e62acca27097301471d58e2c",
+    "clip004_cam4_combined.jpg": "f8adc2c973007ad824badd7ad375667aaa0767a5ab3792a94dbb8004db246112",
+    "clip003_hands.jpg": "117a8903e448458ed4d21cffd73b44aed3e8db6191c90222290aab41641582eb",
+    "clip003_obj.jpg": "1fb92b4dac3e6a602e3cc73acf7a1398344c90b41d6beb940a42acb3b97dceff",
+    "clip004_hands.jpg": "fce1d67b6660ee86653acc3e220baf4e355722d673e60e146be509f90f96e798",
+    "clip004_obj.jpg": "91fd7538430242a34a6ce6baecf7dbd0e1ac6495f2bf1e77b44d789404b62a94"
+  },
+  "rows": {
+    "clip003": {
+      "sha256": "8f0596aa4ca682157fb199d3c304df09396a7c5ffa22448282016a69ba1d726d",
+      "pose_sha256": "e5f32663dadd33a2be9ae094818e79c644c8c5fc05a6cc39e1c667b0f2b6cdfc",
+      "body_rmse_px": 27.009639093617654,
+      "hand_wrist_rmse_px": 3.2338512293413326,
+      "heldout_tips_rmse_px": 37.12646494488455,
+      "head_max_difference_mm": 1.1732671542572701,
+      "purple_head_joint_difference_mm": 5.974556488259599e-06
+    },
+    "clip004": {
+      "sha256": "71d775238287e9a226f5efd09a4243036bfca27bb31704148c0d6a26b025c351",
+      "pose_sha256": "cbacb4b2f3297dcc22bb74774ba39c1745db8ac7483cd5ac9f688208b296e192",
+      "body_rmse_px": 29.957915325939645,
+      "hand_wrist_rmse_px": 2.388194673711764,
+      "heldout_tips_rmse_px": 35.038863725733215,
+      "head_max_difference_mm": 1.3622096978945752,
+      "purple_head_joint_difference_mm": 5.974556488259599e-06
+    }
+  },
+  "source_evidence_sha256": "f0b2ae707f4c859c509ed01fccaa0cb1e0d2553fb9a237427f7216d4f00285ba"
+}
