@@ -1,0 +1,20 @@
+{
+  "baseline": "01726e67a3d06e08f0db0b6f51d88e77b0cd0f36",
+  "commands": [
+    "python -B guided.py",
+    "bash run.sh palm 0",
+    "bash run.sh palm 1",
+    "bash run.sh palm 2",
+    "bash run.sh palm 3",
+    "bash run.sh gallery",
+    "python -B bundle.py"
+  ],
+  "per_frame_completion": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "inputs": "Hash checked v4 poses, v4 stereo masks, full cached real-video point arrays and guided-crop source photos.",
+  "geometry": "cam3 CV, meters, unchanged fixed body and finger shape, tested single frames only."
+}

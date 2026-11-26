@@ -1,0 +1,32 @@
+{
+  "before": {
+    "mcp_rmse": 39.437211441144534,
+    "wrist_rmse": 4.002672426706006,
+    "normal_vs_stereo": 64.14869126697948,
+    "normal_vs_wilor": 40.36157671364352,
+    "heldout_tips_rmse": 40.62835772561053,
+    "heldout_thumb_rmse": 68.21251983961609,
+    "max_wrist_shift_mm": 0.0,
+    "outline_px": 10.74941235780716
+  },
+  "sapiens_only": {
+    "mcp_rmse": 8.407711142260583,
+    "wrist_rmse": 4.00267653748382,
+    "normal_vs_stereo": 6.915545856521989,
+    "normal_vs_wilor": 48.16615864568446,
+    "heldout_tips_rmse": 47.96773676327569,
+    "heldout_thumb_rmse": 34.27925847733887,
+    "max_wrist_shift_mm": 6.143906148721002e-05,
+    "outline_px": 13.166525602340698
+  },
+  "after": {
+    "mcp_rmse": 8.407712373000708,
+    "wrist_rmse": 4.002674270878906,
+    "normal_vs_stereo": 6.915583854782904,
+    "normal_vs_wilor": 48.1661958754768,
+    "heldout_tips_rmse": 47.96775877169841,
+    "heldout_thumb_rmse": 34.27924638547431,
+    "max_wrist_shift_mm": 6.365778847967515e-05,
+    "outline_px": 13.166525602340698
+  }
+}
