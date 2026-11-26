@@ -1,0 +1,30 @@
+{
+  "baseline": "a24704f162f449ff64ec50f59f098ad26bada724",
+  "processes": {
+    "stereo": {
+      "command": "bash runs/2026-11-26_realvideo4_mount_pitch/run.sh stereo",
+      "exit_status": 0
+    },
+    "pitch": {
+      "command": "bash runs/2026-11-26_realvideo4_mount_pitch/run.sh pitch",
+      "exit_status": 0
+    },
+    "negative": {
+      "command": "bash runs/2026-11-26_realvideo4_mount_pitch/run.sh negative",
+      "exit_status": 0
+    },
+    "temporal": {
+      "command": "bash runs/2026-11-26_realvideo4_mount_pitch/run.sh temporal",
+      "exit_status": 0
+    }
+  },
+  "sha256": {
+    "evidence/angles.json": "40688b281fee77aecbebeea726d02e199deff4d3df9a5f466eb8033c77df8368",
+    "evidence/negative_native.json": "41acd5a774811c67062b74d99dc277cfb96065028d95d28686e609fee3a87ada",
+    "evidence/stereo.json": "7728dff33958e484c932201258d3cb7c3f0eb9421387d27d43dbbd85e78fd328",
+    "evidence/temporal.json": "be824a6456fcad4b511690d529429228c33a1535077b693817908437834c80ad",
+    "assets/heldout.jpg": "da3eff204f21d9192878570e84eac686aa137997492a258c20b1e9f7ccc5c25d",
+    "assets/negative.jpg": "09f9f6c1d595e412e2f7187f766aa2613b3ea6e713751891d5e4aeab2ee34cad",
+    "assets/temporal.jpg": "47b3d8a5a4777d08e047324b003d8c20c36d84f8d752c277d10c7379df80131d"
+  }
+}
