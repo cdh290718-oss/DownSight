@@ -1,0 +1,60 @@
+{
+  "stages": {
+    "start": {
+      "wrist_px": 4.002671247221718,
+      "root_px": 8.407712588439633,
+      "tips_px": 47.96776162754409,
+      "thumbtip_px": 34.27924497223735,
+      "pinkytip_px": 41.18367175793322,
+      "segment_hand_edge_px": 10.772673128581893,
+      "wilor_hand_edge_px": 10.490545265947416,
+      "segment_edge_px": 13.166525602340698,
+      "max_body_joint_shift_mm": 0.0,
+      "normal_vs_stereo_deg": 6.915605104411232
+    },
+    "control": {
+      "wrist_px": 4.002671247221718,
+      "root_px": 8.302864662324888,
+      "tips_px": 42.443232876038074,
+      "thumbtip_px": 15.175686950376976,
+      "pinkytip_px": 39.03285793734408,
+      "segment_hand_edge_px": 6.701118847773558,
+      "wilor_hand_edge_px": 11.589307588768666,
+      "segment_edge_px": 10.113820016384125,
+      "max_body_joint_shift_mm": 0.0,
+      "normal_vs_stereo_deg": 7.047004523417681
+    },
+    "wilor": {
+      "wrist_px": 4.002671247221718,
+      "root_px": 8.27460334409593,
+      "tips_px": 55.41217782203868,
+      "thumbtip_px": 21.402117074133542,
+      "pinkytip_px": 46.23259904712691,
+      "segment_hand_edge_px": 7.713972779147893,
+      "wilor_hand_edge_px": 9.655670714062513,
+      "segment_edge_px": 10.882476568222046,
+      "max_body_joint_shift_mm": 0.0,
+      "normal_vs_stereo_deg": 7.046772165979419
+    }
+  },
+  "wilor_vs_detected_wrist_px": {
+    "clip001_left_left": 56.94108753995258,
+    "clip001_left_right": 53.816693481935665,
+    "clip001_right_left": 50.464130859645834,
+    "clip001_right_right": 45.21417159425662,
+    "clip002_left_left": 32.8130044941635,
+    "clip002_left_right": 31.50189949746291,
+    "clip002_right_left": 38.830286282269775,
+    "clip002_right_right": 36.06173126419489,
+    "clip003_left_left": 48.21565201724771,
+    "clip003_left_right": 46.890541698224276,
+    "clip003_right_left": 44.43123018275874,
+    "clip003_right_right": 23.488445120867063,
+    "clip004_left_left": 17.386142918645408,
+    "clip004_left_right": 10.385394919608515,
+    "clip004_right_left": 31.908686967079554,
+    "clip004_right_right": 12.174579051062965
+  },
+  "hands_with_increased_tip_rmse": 7,
+  "exit_status": 0
+}

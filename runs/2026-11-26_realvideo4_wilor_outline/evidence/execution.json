@@ -1,0 +1,11 @@
+{
+  "baseline": "2158af2a451eead8bc727270eb4e7a7b01c49f1a",
+  "commands": [
+    {"command": "python -B <RUN>/masks.py", "exit": 0},
+    {"command": "bash <RUN>/run.sh paired <index> (indices 0,1,2,3; executed before the module rename)", "exits": [0,0,0,0]},
+    {"command": "bash <RUN>/run.sh render", "first_exit": 1, "first_error": "Local module named fit shadowed the historical backend module during imports. Renamed it paired; fitted poses unchanged.", "retry_exit": 0},
+    {"command": "python -B <RUN>/summarize.py", "exit": 0}
+  ],
+  "geometry": "Fixed cam3 metric body and wrist positions. Unregistered monocular WiLoR projections in each native photo. Four independent stereo pairs.",
+  "public_artifacts": "Derived comparison JPEGs; fitted cam3 OBJ A/B archive. Original images, arrays and runtime paths excluded."
+}
