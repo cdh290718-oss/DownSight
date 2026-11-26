@@ -1,0 +1,30 @@
+=== Part 1: Wrist-aligned RMSE ===
+  clip003 orig_A      wrist=3.49  tips=36.46  wrist_aligned_tips=37.73
+  clip003 purple_A    wrist=51.90  tips=70.06  wrist_aligned_tips=57.22
+  clip004 orig_A      wrist=2.50  tips=35.25  wrist_aligned_tips=36.33
+  clip004 purple_A    wrist=48.13  tips=54.59  wrist_aligned_tips=70.13
+
+=== Part 2: 3D arm reachability ===
+<CONDA_ROOT>/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+Timeout (0:00:30)!
+Thread 0x00007f5676810500 (most recent call first):
+  File "<WORKSPACE>/runs/2026-11-25_frozen100_outline/compare.py", line 20 in __init__
+  File "<WORKSPACE>/runs/2026-11-24_two_stereo_contact/fit_probe.py", line 54 in <listcomp>
+  File "<WORKSPACE>/runs/2026-11-24_two_stereo_contact/fit_probe.py", line 54 in __init__
+  File "runs/2026-11-26_wrist_reachability_check/check_arm.py", line 41 in <module>
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 87 in _run_code
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 97 in _run_module_code
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 265 in run_path
+  File "<string>", line 1 in <module>
+Timeout (0:00:30)!
+Thread 0x00007f5676810500 (most recent call first):
+  File "<WORKSPACE>/runs/2026-11-25_frozen100_outline/compare.py", line 20 in __init__
+  File "<WORKSPACE>/runs/2026-11-24_two_stereo_contact/fit_probe.py", line 54 in <listcomp>
+  File "<WORKSPACE>/runs/2026-11-24_two_stereo_contact/fit_probe.py", line 54 in __init__
+  File "runs/2026-11-26_wrist_reachability_check/check_arm.py", line 41 in <module>
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 87 in _run_code
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 97 in _run_module_code
+  File "<CONDA_ROOT>/envs/egosmplx/lib/python3.8/runpy.py", line 265 in run_path
+  File "<string>", line 1 in <module>

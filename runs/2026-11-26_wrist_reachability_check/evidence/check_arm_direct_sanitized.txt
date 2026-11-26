@@ -1,0 +1,20 @@
+=== Part 1: Wrist-aligned RMSE ===
+  clip003 orig_A      wrist=3.49  tips=36.46  wrist_aligned_tips=37.73
+  clip003 purple_A    wrist=51.90  tips=70.06  wrist_aligned_tips=57.22
+  clip004 orig_A      wrist=2.50  tips=35.25  wrist_aligned_tips=36.33
+  clip004 purple_A    wrist=48.13  tips=54.59  wrist_aligned_tips=70.13
+
+=== Part 2: 3D arm reachability ===
+<CONDA_ROOT>/envs/egosmplx/lib/python3.8/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+WARNING: You are using a SMPL model, with only 10 shape coefficients.
+
+  clip003  |t_purp|=8.44 cm  t=[0.0169, 0.0399, 0.0724]
+    left : upper=26.76cm  fore=25.31cm  sum=52.06cm | orig_sh->wr=50.38cm  purp_sh->orig_wr=51.56cm  margin=+0.50cm
+    right: upper=27.49cm  fore=24.98cm  sum=52.47cm | orig_sh->wr=49.38cm  purp_sh->orig_wr=50.16cm  margin=+2.31cm
+
+  clip004  |t_purp|=8.44 cm  t=[0.0169, 0.0399, 0.0724]
+    left : upper=26.76cm  fore=25.31cm  sum=52.06cm | orig_sh->wr=46.63cm  purp_sh->orig_wr=46.22cm  margin=+5.84cm
+    right: upper=27.49cm  fore=24.98cm  sum=52.47cm | orig_sh->wr=46.09cm  purp_sh->orig_wr=45.72cm  margin=+6.75cm
+
+Done.
