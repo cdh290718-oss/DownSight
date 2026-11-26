@@ -1,0 +1,50 @@
+{
+  "base_commit": "6c068dab49905b2f93334b77fb177dca06df32e2",
+  "dirty_worktree": true,
+  "rows": {
+    "clip001": {
+      "pose_sha256": "cca7cb542422d968c5f0c8a22be6c67c15f8efe390c6e9504d9fef930696725c",
+      "original_obj_sha256": "f63e6e8fc9a570d7a440bb9302b85bf220fa02a0298b2f2c17826c422d45a16b",
+      "obj": "clip001_refit_cam3_m.obj",
+      "obj_sha256": "37d9bc5c45eafe5f83b097a577d6967058558beb2c1f7d606fb0362835180811",
+      "max_vertex_readback_error_m": 4.999527319915487e-10,
+      "vertices": 10475,
+      "faces": 20908,
+      "comparison_sha256": "60824f677262b51cca4238ce8fa57af4d21c6ea00c3001dfb3df29b0a52d6920"
+    },
+    "clip002": {
+      "pose_sha256": "027a91036f28d8a2907aa49bc197ffe6c0e99da13b5fbaf713b5b3c8f9a5092d",
+      "original_obj_sha256": "4b22436622eb2b102cad2a2825a2fafdff205e6d61d30f0d973862d9e64274df",
+      "obj": "clip002_refit_cam3_m.obj",
+      "obj_sha256": "c5ea515358fbd465450d4076d2f55de8cf0a62e0d2e8f11fb2f4ff8f90e7cfbf",
+      "max_vertex_readback_error_m": 4.999912428527153e-10,
+      "vertices": 10475,
+      "faces": 20908,
+      "comparison_sha256": "c6a555159a57f12532f7031233c0959d7f34108e0139c1266cbe25a9bece3d7e"
+    },
+    "clip003": {
+      "pose_sha256": "98378d4a65046aff79c78e63eb72d07093a1113936d0503c462a2ed7b810e23f",
+      "original_obj_sha256": "3d8960e4ae4566cc3de8f7e29d4f3e2a131bfd6511e6d8fa0b0bbd907395cd75",
+      "obj": "clip003_refit_cam3_m.obj",
+      "obj_sha256": "356ca2a582292e392e6749a4021c40515fe176646c6f264eadee77b035bfee5f",
+      "max_vertex_readback_error_m": 4.999765046420634e-10,
+      "vertices": 10475,
+      "faces": 20908,
+      "comparison_sha256": "bce46b73f934f34d5e38960344a2083b39104c722f22f9378b49152c83d735fb"
+    },
+    "clip004": {
+      "pose_sha256": "eb5509c6cd92ae6ae19e37fc0a46218c85c729f4d4672992e8f7afefa49d3070",
+      "original_obj_sha256": "5a139b8793c96e95bf98e68b6bf757969c398825556dd41b8e56424509c3a1ea",
+      "obj": "clip004_refit_cam3_m.obj",
+      "obj_sha256": "7c84260f80797da6bc37aa0799ade688d56afa5425b54799a732dd4648019fcf",
+      "max_vertex_readback_error_m": 4.999984454245876e-10,
+      "vertices": 10475,
+      "faces": 20908,
+      "comparison_sha256": "84afa21e1f2ba3cfbec87086c9f2781e847e12dc7804d7632d1efec225e706fd"
+    }
+  },
+  "overview_sha256": "e0d62cf39cf379084954b9ff5ffd3a16034439d7528a65371361fa4830ac5c8a",
+  "bundle_sha256": "71efd037b972af3a45b5d8e52daa0c4e4976ae1909558db813ca37438fc2a415",
+  "command": "bash <RUN>/run.sh",
+  "exit_status": 0
+}
