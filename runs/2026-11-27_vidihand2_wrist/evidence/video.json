@@ -1,0 +1,130 @@
+{
+  "clip003_left": {
+    "frames": 81,
+    "center_index": 40,
+    "source_one_based": 397,
+    "source_sha256": "19ed5b5234b63cf85883e475572e8a8cbedb8cbeef1ce759f260c5bf20955f35",
+    "center_pixel_max_diff": 0,
+    "fps": 29.312527789680605,
+    "K": [
+      [
+        166.5814561765588,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        166.5814561765588,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "size": [
+      640,
+      480
+    ],
+    "detector_inframe_native": 37,
+    "also_in_virtual": 37,
+    "file_sha256": "0e7a71a2537b562d68590cf1d79933e7364417cd57acb794eb8e080fe0c9da20"
+  },
+  "clip004_left": {
+    "frames": 81,
+    "center_index": 40,
+    "source_one_based": 702,
+    "source_sha256": "34e9b5f369997259fd71e5fb6b622de3f68326f951f1da3729e4e056da200e25",
+    "center_pixel_max_diff": 0,
+    "fps": 28.95934520606084,
+    "K": [
+      [
+        166.5814561765588,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        166.5814561765588,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "size": [
+      640,
+      480
+    ],
+    "detector_inframe_native": 42,
+    "also_in_virtual": 42,
+    "file_sha256": "92c4e0a29336fd518b6406dfd7d5b6394f1bbfe6c589a6a785a31f1f57996c68"
+  },
+  "clip003_right": {
+    "frames": 81,
+    "center_index": 40,
+    "source_one_based": 407,
+    "source_sha256": "56ded5b06a54adbc94414fe45b124645b27ba5bc56d5e2d0f9f8cb2c37ba84da",
+    "center_pixel_max_diff": 0,
+    "fps": 29.49394220234815,
+    "K": [
+      [
+        166.5814561765588,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        166.5814561765588,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "size": [
+      640,
+      480
+    ],
+    "detector_inframe_native": 34,
+    "also_in_virtual": 34,
+    "file_sha256": "fc6e29db3e3e191244a9f970bb7ccc9806f273c6135e9f961df99f8d7f92d2f4"
+  },
+  "clip004_right": {
+    "frames": 81,
+    "center_index": 40,
+    "source_one_based": 705,
+    "source_sha256": "28df735989512e0dfbebca2df4cc018df80d517aeff1c83d9989663352404eb3",
+    "center_pixel_max_diff": 0,
+    "fps": 29.86802737432194,
+    "K": [
+      [
+        166.5814561765588,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        166.5814561765588,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "size": [
+      640,
+      480
+    ],
+    "detector_inframe_native": 42,
+    "also_in_virtual": 42,
+    "file_sha256": "731bf88c07487675a57a57aab9ea3c8db746700d3f1442cee68ba17a6989b529"
+  }
+}

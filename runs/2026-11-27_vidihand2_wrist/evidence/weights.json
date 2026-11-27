@@ -1,0 +1,21 @@
+{
+  "revision": "5117c7a34939cd6a2af0da12859237a38ede4276",
+  "files": [
+    {
+      "path": "vidihand_v2/projector.safetensors",
+      "size": 41311156,
+      "sha256": "535c0f93b3f3c5b341f77537e7557c8763aee7e7bc0ec8ad7728a32f094ec534",
+      "status": 206,
+      "content_range": "bytes 0-7/41311156",
+      "bytes_read": 8
+    },
+    {
+      "path": "vidihand_v2/vdm.safetensors",
+      "size": 6074049720,
+      "sha256": "8767174a11122c669912c523bc2245d285065b83cc7cc7d88478515f7c788e3b",
+      "status": 206,
+      "content_range": "bytes 0-7/6074049720",
+      "bytes_read": 8
+    }
+  ]
+}

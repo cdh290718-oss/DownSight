@@ -1,0 +1,35 @@
+{
+  "baseline": "2d933139ff816f4fbfe5f7248585dbb4e23ead4f",
+  "remote_before_commit": "2d933139ff816f4fbfe5f7248585dbb4e23ead4f",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 62,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "No binary assets in the published delta.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-27_vidihand2_wrist/brief.md": "b6ec5eabc8badd35f48ce9186fafaad9e4db7e93a4c66d21609e826e49571616",
+    "runs/2026-11-27_vidihand2_wrist/evidence/execution.json": "b3018f8a01c14367515a6501a38459c0c244754480a17e31b3ea1da84b356935",
+    "runs/2026-11-27_vidihand2_wrist/evidence/fixed_fingers.json": "78c2716ca6575902f6fa7ed874cff4a1580c1a7aab414b70f2d68b7a3aa850fa",
+    "runs/2026-11-27_vidihand2_wrist/evidence/upstream.json": "87e81ba0dafa83a26af44f1ec3033dc08ce11d483a542c4c34260634fb21673a",
+    "runs/2026-11-27_vidihand2_wrist/evidence/video.json": "678e4e398e3d06bc09688fcaff298af292991a40c0952133b0619922b08958f8",
+    "runs/2026-11-27_vidihand2_wrist/evidence/weights.json": "3a4c6fa9193abc75accfd1fcc3bb4715a1b73cd435cf9ad26d98434b43a82fca",
+    "runs/2026-11-27_vidihand2_wrist/evidence/wilor_native.json": "d56047f478e274211014be022258403fc91471cc363db627915c157d8776656f",
+    "runs/2026-11-27_vidihand2_wrist/evidence/wrist.json": "10f87c2d8df91ffdc35c9b482e8fd2cf5173d0649b7d3b6ea22abf2b38f65f3e",
+    "runs/2026-11-27_vidihand2_wrist/fixed_fingers.py": "21a0b83f1f59e8d563f987a8f25c1db03c1091a5e7c7c2eea79e6d8b536c3a24",
+    "runs/2026-11-27_vidihand2_wrist/report.md": "65e5e4a4bb0c1dd62dac27176e66d42b0237defa6767c7011ccb50b1ba9af7cd",
+    "runs/2026-11-27_vidihand2_wrist/review.md": "681c3753b7abb92146787d7573068330fc9da68a58cbaed61fd64a515ed05826",
+    "runs/2026-11-27_vidihand2_wrist/run.sh": "9d933c7c212011e946aa5213436682c6ac4bab67505169e16cdcf716d6287222",
+    "runs/2026-11-27_vidihand2_wrist/video_inputs.py": "f179e617992882819074e333e42fef35363f2e82dadfb7cef6391cd0d2c2713e",
+    "runs/2026-11-27_vidihand2_wrist/wrist_probe.py": "3731fd7f6b43123bbec0ddc9565c05abf9e7fd408997685ed1d6012eff5f8fd7"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}

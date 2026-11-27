@@ -1,0 +1,66 @@
+{
+  "leaderboard": "https://egohandbench.github.io/leaderboard.html",
+  "raw": [
+    {
+      "method": "wilor",
+      "name": "WiLoR",
+      "dataset": "mean",
+      "FAcc": 0.9204496741294861,
+      "F1": 0.9699004873749709,
+      "MPJPE-abs-p": 59.10859398075214,
+      "MPJPE-p": 36.6475757387171,
+      "PA-p": 9.532938326597728,
+      "EPE2D-p": 15.663730346947153,
+      "Jitter": 14.947331779082903
+    },
+    {
+      "method": "vidihand_v2",
+      "name": "ACE-ViDiHand2",
+      "dataset": "mean",
+      "FAcc": 0.9991003821293513,
+      "F1": 0.9997022245378029,
+      "MPJPE-abs-p": 26.103134623983266,
+      "MPJPE-p": 14.044968543943597,
+      "PA-p": 5.955256764695091,
+      "EPE2D-p": 5.582289150704578,
+      "Jitter": 1.4349755434314173
+    }
+  ],
+  "scores": [
+    {
+      "method": "vidihand_v2",
+      "name": "ACE-ViDiHand2",
+      "dataset": "mean",
+      "Overall": 89.41577747596841,
+      "scores": {
+        "FAcc": 99.83071039472087,
+        "F1": 99.91125670027645,
+        "MPJPE-abs-p": 87.54765214334198,
+        "MPJPE-p": 76.44825877981485,
+        "PA-p": 72.49691535084253,
+        "EPE2D-p": 92.44872946419578,
+        "Jitter": 97.22691949858647
+      },
+      "ITW": 88.59023445886741,
+      "rank": 1
+    },
+    {
+      "method": "wilor",
+      "name": "WiLoR",
+      "dataset": "mean",
+      "Overall": 70.16329311371773,
+      "scores": {
+        "FAcc": 84.20351748767044,
+        "F1": 90.01825124400112,
+        "MPJPE-abs-p": 71.07492257444534,
+        "MPJPE-p": 39.36166834027933,
+        "PA-p": 55.97676991619534,
+        "EPE2D-p": 79.1915663439357,
+        "Jitter": 71.31635588949679
+      },
+      "ITW": 69.86046420264083,
+      "rank": 7
+    }
+  ],
+  "git_revision": "23cf80c292f2fb2db20caa1dee96516a63ee30a7"
+}

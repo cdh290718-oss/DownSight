@@ -1,0 +1,27 @@
+{
+  "baseline": "2d933139ff816f4fbfe5f7248585dbb4e23ead4f",
+  "commands": [
+    {
+      "command": "body_python -B <RUN>/wrist_probe.py",
+      "exit": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh fixed_fingers",
+      "exit": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh video_inputs",
+      "exit": 0
+    },
+    {
+      "command": "GET HTTP Range bytes=0-7 against pinned checkpoint artifacts",
+      "http_status": [
+        206,
+        206
+      ]
+    }
+  ],
+  "vidihand2_inference": "pending_large_download_authorization",
+  "wilor_baseline": "archived native uv and source/fixed wrist data",
+  "full_checkpoints_downloaded": false
+}
