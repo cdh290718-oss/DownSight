@@ -1,0 +1,19 @@
+{
+  "official": {
+    "rev": "eafd29261a374f542eb4269109452b9a2809fb54",
+    "path": "baselines/wilor/official/checkpoints/mano/MANO_RIGHT.pkl",
+    "sha256": "7f2a7c8f79d5bae02a8922ebd7ff79f9248dbd662cb3e3a05e963d95daf3c665",
+    "size": 9904022
+  },
+  "official_minus_local_max": {
+    "J_regressor": 0.0,
+    "v_template": 0.0,
+    "shapedirs": 0.0,
+    "posedirs": 0.0,
+    "lbs_weights": 0.0,
+    "hand_mean": 0.0,
+    "parents": 0.0,
+    "faces_tensor": 0.0
+  },
+  "installed_sha256": "45d60aa3b27ef9107a7afd4e00808f307fd91111e1cfa35afd5c4a62de264767"
+}

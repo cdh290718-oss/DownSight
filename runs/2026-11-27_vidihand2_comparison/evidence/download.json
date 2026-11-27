@@ -1,0 +1,23 @@
+{
+  "source_commit": "23cf80c292f2fb2db20caa1dee96516a63ee30a7",
+  "source_files": {
+    "utils/io.py": "95696a814eb20e611a87f062445a304ff96420e813cfb11cc36acdad5ed111a2",
+    "utils/mano.py": "d8a1650703d1c8bdbbfe8ee62922f650ad24f269c5257a3d9c5c6cd68d62ae8d",
+    "vidihand_v2/config.yaml": "38c33f9cf716b4648b87d44c0151279dcb469be6511e558c331b8c61cff16910",
+    "vidihand_v2/inference.py": "e69495eb38bb67f47e57820fe5d1817998e6418c0ef33050efc68b4f80b0c333",
+    "vidihand_v2/archs/arch_utils.py": "6462b9dcadf11a20343596ec23f7dc7a8a4a2adb524d37105ce61aca8c52afdb",
+    "vidihand_v2/archs/vidihand2_arch.py": "a2fc40f99e3bd74f3928b0bd1021a57e1443f761e12793cb7c2e7f37aea2509d",
+    "vidihand_v2/archs/wan.py": "d7b51695a14016e170abcc1e4f21fcb062794b822eb18dfea546b93166c00617"
+  },
+  "weights_revision": "5117c7a34939cd6a2af0da12859237a38ede4276",
+  "weights": {
+    "vidihand_v2/projector.safetensors": {
+      "bytes": 41311156,
+      "sha256": "535c0f93b3f3c5b341f77537e7557c8763aee7e7bc0ec8ad7728a32f094ec534"
+    },
+    "vidihand_v2/vdm.safetensors": {
+      "bytes": 6074049720,
+      "sha256": "8767174a11122c669912c523bc2245d285065b83cc7cc7d88478515f7c788e3b"
+    }
+  }
+}

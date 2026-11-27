@@ -1,0 +1,67 @@
+{
+  "views": {
+    "clip003_left": {
+      "raw_classes": [
+        0.0,
+        1.0,
+        1.0
+      ],
+      "raw_scores": [
+        0.7997267842292786,
+        0.6244239807128906,
+        0.3903469741344452
+      ],
+      "sha256": {
+        "left": "645b77bbcd94580c78f859bed77992815ed15f1e142516de9985fa5aa29b2073",
+        "right": "8fb244d25734bbedd8640142afe113f3264e1d3f38738ff6f75a51ffe3061c90"
+      }
+    },
+    "clip004_left": {
+      "raw_classes": [
+        0.0,
+        1.0
+      ],
+      "raw_scores": [
+        0.7725988030433655,
+        0.7669407725334167
+      ],
+      "sha256": {
+        "left": "bf71d6bc92561f4de39a2e8fe2872d6fb539696be414c424e56409a9b616424e",
+        "right": "5d770a1b226282b977febf0b2c2235ca537fc87f1e2fd5bbdfd1702fec130887"
+      }
+    },
+    "clip003_right": {
+      "raw_classes": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "raw_scores": [
+        0.7753227353096008,
+        0.7503181099891663,
+        0.48645833134651184
+      ],
+      "sha256": {
+        "left": "bc17ebd613e7b2dd581e341f8e04c6d30bd1f756541ddf7424e8eaae03ada65d",
+        "right": "54fdab8690d65061fac053b6eb1db48cd82b53277cebb90e63fcb62967540d0f"
+      }
+    },
+    "clip004_right": {
+      "raw_classes": [
+        0.0,
+        1.0
+      ],
+      "raw_scores": [
+        0.7715245485305786,
+        0.7707154750823975
+      ],
+      "sha256": {
+        "left": "3615677eef8e32e3bb463a6655cb93a7809da7a023129b7d0456df89a7fdcd21",
+        "right": "af1e78e10d12a3f2be746686711aca540037caaec12c9682a0fef20aa7e14ff6"
+      }
+    }
+  },
+  "torch": "2.7.0+cu128",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "exit_status": 0
+}

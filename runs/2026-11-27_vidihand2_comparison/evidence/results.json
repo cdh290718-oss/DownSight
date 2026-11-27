@@ -1,0 +1,89 @@
+{
+  "images": {
+    "clip003_wilor_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "4ce2a01366d8b12e59cd5cfa2c66ed6c8d8a89af79f80397c9a97d42ca078d5f"
+    },
+    "clip003_vidi_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "7323817fc2a6d4484ad269cfd21066a5b3fe2ab996a80b9a8f5ebf65665ad2a4"
+    },
+    "clip003_local_OBJ": {
+      "size": [
+        1536,
+        564
+      ],
+      "sha256": "f67ce0696b6592fbd7b48d4294612cb33d8baafc805e2f8fab8f53486e000358"
+    },
+    "clip003_cam3": {
+      "size": [
+        1280,
+        2984
+      ],
+      "sha256": "d802717526a0339cfe35e29bf5bd80a30516828bb83bc447257ca517e24aa959"
+    },
+    "clip003_cam4": {
+      "size": [
+        1280,
+        2984
+      ],
+      "sha256": "ad0d04922104ba4f7f236ed407dd6078a3b65d54a3104f01880ed690b7a64e0b"
+    },
+    "clip003_hands": {
+      "size": [
+        1175,
+        1044
+      ],
+      "sha256": "cb63d177e5525be312d08cfccf39604db193c06990c096ff7d508e934321cd42"
+    },
+    "clip004_wilor_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "5a3608e107b109dfca2e93f2b67a300ee75ef7668263282fd105b7a99f69965e"
+    },
+    "clip004_vidi_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "d411a6601b8808830c79ec72195a28e472bf08a052c3ae88eb111092cfa2f99a"
+    },
+    "clip004_local_OBJ": {
+      "size": [
+        1536,
+        564
+      ],
+      "sha256": "12cb0f59f92ae6b77c3427bff3c6eb630a525651d1d6e7bdb539e4183fa3bc5b"
+    },
+    "clip004_cam3": {
+      "size": [
+        1280,
+        2984
+      ],
+      "sha256": "1505d16dae2ba2a488a1a34a692d7cecb914c3f75228335ffd3d09d2bc6fff30"
+    },
+    "clip004_cam4": {
+      "size": [
+        1280,
+        2984
+      ],
+      "sha256": "cd0c83c8247093dd0e170457044422908897c7d499126c7d24ea7b5f15fc5e79"
+    },
+    "clip004_hands": {
+      "size": [
+        1175,
+        1044
+      ],
+      "sha256": "a18d2ead962d8d7655458a0da7891db488440ec3dba9fa3023d567ce54b96083"
+    }
+  },
+  "exit_status": 0
+}

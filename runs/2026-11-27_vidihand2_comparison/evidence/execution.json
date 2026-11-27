@@ -1,0 +1,42 @@
+{
+  "baseline": "228d4d4717e4bf61c5029121fab19d80f3f55104",
+  "source_run": "2026-11-27_vidihand2_wrist",
+  "commands": [
+    {
+      "command": "python3 -B <RUN>/fetch.py",
+      "exit": 0,
+      "transfer": "Initial transfer interrupted for parallel resumption. Partial trailing bytes in 16 incomplete ranges were fetched again. Final whole-file hashes match; published retry logic records completed responses."
+    },
+    {
+      "command": "python3 -B <RUN>/run.py wilor",
+      "exit": 0
+    },
+    {
+      "command": "python3 -B <RUN>/run.py temporal",
+      "exit": 0
+    },
+    {
+      "command": "python3 -B <RUN>/run.py vidi",
+      "exit": 0
+    },
+    {
+      "command": "python3 -B <RUN>/run.py compare",
+      "exit": 0
+    }
+  ],
+  "env": "Existing WiLoR CUDA environment for both networks, existing body environment for SMPL-X rendering; no package installation.",
+  "coverage": {
+    "side_frames": 648,
+    "wilor": 598,
+    "vidi": 648,
+    "only_vidi": 50,
+    "only_wilor": 0,
+    "both": 598,
+    "duplicate_side_frames": 191
+  },
+  "worktree": "Scoped new run on preexisting modified worktree; public evidence uses relative identifiers.",
+  "wilor_checkpoints_sha256": {
+    "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+    "detector": "5ef3df44e42d2db52d4ffe91f83a22ce9925e2acc9abebf453f2c5d22e380033"
+  }
+}
