@@ -62,5 +62,17 @@
       "rank": 7
     }
   ],
-  "git_revision": "23cf80c292f2fb2db20caa1dee96516a63ee30a7"
+  "git_revision": "23cf80c292f2fb2db20caa1dee96516a63ee30a7",
+  "default_table_WiLoR": {
+    "display_rank": 6,
+    "raw": {
+      "version": "egohandbench",
+      "run_id": "wilor_v2_b128_40k",
+      "PA-p": 8.794235775529716,
+      "EPE2D-p": 13.726311074677856,
+      "training_initialization": "official_recipe_pretrained_backbone"
+    },
+    "score": 75.37209110159802
+  },
+  "explanation": "scores/raw arrays are the original checkpoint tracks; the visible default table includes the egohandbench WiLoR variant, whose row is recorded separately."
 }
