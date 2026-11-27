@@ -1,0 +1,26 @@
+{
+  "commit": "35b6949bd862cfdaca24dc865f1677b3e637f5ee",
+  "frames_by_number_of_selected_hands": {
+    "2": 100,
+    "1": 80,
+    "0": 20
+  },
+  "immutable_body_and_fallback_checks": 200,
+  "sha256": {
+    "configs/golden_d.current.json": "debb1c17a52208283efdc62b7a282ce71147630d62e3c3796111d3328fa068f8",
+    "outputs/rw_a20000_dataset_20261117/validation.json": "1a7b0dc948408240aadb3aad0b696d997b7d578a6fa22d2281985667b79a3aa1",
+    "outputs/rw_a20000_evaluation_20261117/rw20000_validation_predictions.json": "014c5c6416ac4caa41e7c5c34177f97078711512710fae38a6c2bf7311e63365",
+    "runs/2026-11-25_validation200_fingers/evidence/results.json": "664d043d5152ed89e99f14f989a7d9d9c5825a903005442ce627a2dedee0b7a6",
+    "runs/2026-11-25_validation200_fingers/evidence/selections.json": "107463c4f3268cd311eb6b9bab93ec8d3679bc87347c174f0fb04c0b5d7037f8",
+    "runs/2026-11-25_validation200_fingers/evidence/segmentation.json": "15abd50f6ea6b1600846b8e063ffc0a996d9396ff52de773db7da44547e71fd7",
+    "outputs/rw_frozen200_golden_d_20261118/camera_left.json": "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "outputs/rw_frozen200_golden_d_20261118/camera_right.json": "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  },
+  "recovery": "Initial forked CPU workers stalled before producing any pose. Replaced with serial CPU fitting and scoring.",
+  "dirty_tree": true,
+  "exit_status": {
+    "predict_new": 0,
+    "measure fit": 0,
+    "measure score": 0
+  }
+}
