@@ -1,0 +1,30 @@
+{
+  "baseline": "248cbfc9d06701396f00f08963aa300d888857e5",
+  "remote_before_commit": "248cbfc9d06701396f00f08963aa300d888857e5",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 62,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested cropped photos with native mesh overlay and shaded mesh panels as JPEGs, no EXIF.",
+  "images": 2,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-27_wilor_native_hands/assets/clip003.jpg": "ba42aeccef932148e2a1d1f57cb0ebe896bd655323d722519a2afa8e37c6159e",
+    "runs/2026-11-27_wilor_native_hands/assets/clip004.jpg": "3fea49d83130a04e8a39bb0263441b13d425d7f6b49f9bb9a049d75c5da4f14c",
+    "runs/2026-11-27_wilor_native_hands/brief.md": "14d5754a33c98a416e4e823d47d45ebcb905125d2249a2cd204a4e7cb7871403",
+    "runs/2026-11-27_wilor_native_hands/evidence/execution.json": "da2654ea287d5c6bd57bb2f75b822fc64ff5b7d1ecb56b9c598eef49fd006706",
+    "runs/2026-11-27_wilor_native_hands/evidence/results.json": "0c20af72f8b5dd0cc8ceff41e95b0b0bb19494431d85037b0b6d30206455e3bf",
+    "runs/2026-11-27_wilor_native_hands/render_native.py": "3a101162e5aaf11dd861d75a75e40f03e624f4af7447df157701c19b3ca5840c",
+    "runs/2026-11-27_wilor_native_hands/report.md": "ad8cbc499d1c98c12b6fbcfe381fc5148df1a5fa97cf2ea1d290510b08606a3d",
+    "runs/2026-11-27_wilor_native_hands/review.md": "4dd6f490f53f8bd424999a167c4ec7397b5de5a116f504445630b6f78e8c9235",
+    "runs/2026-11-27_wilor_native_hands/run.sh": "f1a108e708867edf1003b1973b3a189da10d315833d43914bd7426339b54e86e"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}

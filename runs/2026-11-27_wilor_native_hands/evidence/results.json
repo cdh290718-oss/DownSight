@@ -1,0 +1,133 @@
+{
+  "cases": {
+    "clip003_left_L": {
+      "input_pack_sha256": "a32475e764bc970b5f5be6ef94dd4974db5685ba32357f2fe372f2e1cc045f79",
+      "photo_sha256": "1e80fd7a5106bb6a8d912f6bcc8e6ce0566fcdb20b321572fcc9d24ca5cdef09",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        264,
+        14,
+        264,
+        264
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip003_right_L": {
+      "input_pack_sha256": "5db29ae10ac8bf7b817e5d6ac2e9e5fbf3e00cf2b11858a945c8e02124de7a06",
+      "photo_sha256": "e6ec02afb0f5fca1dc03d34c35530bdafeb941fd6624f482d93169b6ec8405a4",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        178,
+        46,
+        234,
+        234
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip003_left_R": {
+      "input_pack_sha256": "f78b717d8345425f01324b7adeea99b1c8cba1435a76187f20120b41c3f7e7f9",
+      "photo_sha256": "1e80fd7a5106bb6a8d912f6bcc8e6ce0566fcdb20b321572fcc9d24ca5cdef09",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        869,
+        0,
+        234,
+        234
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip003_right_R": {
+      "input_pack_sha256": "088d074b86826eb959d4ce5746d83f20934a989ec7e05dfc271b8c43d40f32be",
+      "photo_sha256": "e6ec02afb0f5fca1dc03d34c35530bdafeb941fd6624f482d93169b6ec8405a4",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        779,
+        0,
+        205,
+        205
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip004_left_L": {
+      "input_pack_sha256": "8fa7d14da569ef3b714ffecdeb5c5b0f78e6a2faf1c80312462ad25754e68e60",
+      "photo_sha256": "586a5f58897bd3915e3dc3f49c9e071166a1e30f2151c2f8e16ed27f9bcd4985",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        426,
+        78,
+        187,
+        187
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip004_right_L": {
+      "input_pack_sha256": "54dc8a8e356b87a1124386d0b3c1f6e932d3976bc0035ebcdedb56d380fb3300",
+      "photo_sha256": "84b0b410713b9beeea96bd846ef75ac3d8f8ec4c1d7f18fd7cac51d1a0813ef8",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        310,
+        84,
+        202,
+        202
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip004_left_R": {
+      "input_pack_sha256": "58e2e354ff281b262b22923e9bf36c8bd1bf3c3c6d8c6661b1a03c3c3e366576",
+      "photo_sha256": "586a5f58897bd3915e3dc3f49c9e071166a1e30f2151c2f8e16ed27f9bcd4985",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        740,
+        22,
+        199,
+        199
+      ],
+      "faces": 1538,
+      "vertices": 778
+    },
+    "clip004_right_R": {
+      "input_pack_sha256": "216e2ae1490fdafcc5ba976231a3948f67f2e5a57de8a37e0c6195aaf023d2c9",
+      "photo_sha256": "84b0b410713b9beeea96bd846ef75ac3d8f8ec4c1d7f18fd7cac51d1a0813ef8",
+      "vertex_replay_max_px": 0.0,
+      "joint_replay_max_px": 0.0,
+      "crop_xywh": [
+        616,
+        10,
+        202,
+        202
+      ],
+      "faces": 1538,
+      "vertices": 778
+    }
+  },
+  "images": {
+    "clip003": {
+      "sha256": "ba42aeccef932148e2a1d1f57cb0ebe896bd655323d722519a2afa8e37c6159e",
+      "size": [
+        1024,
+        1140
+      ]
+    },
+    "clip004": {
+      "sha256": "3fea49d83130a04e8a39bb0263441b13d425d7f6b49f9bb9a049d75c5da4f14c",
+      "size": [
+        1024,
+        1140
+      ]
+    }
+  },
+  "exit_status": 0
+}

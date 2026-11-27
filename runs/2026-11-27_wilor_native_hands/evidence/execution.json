@@ -1,0 +1,11 @@
+{
+  "baseline": "248cbfc9d06701396f00f08963aa300d888857e5",
+  "command": "bash <RUN>/run.sh",
+  "cpu_preliminary_exit": 1,
+  "cpu_preliminary_max_pixel_discrepancy": 0.059508636715870665,
+  "acceptance_px": 0.05,
+  "final_method": "Original WiLoR forward pass on a single GPU, native camera translation and MANO vertex projections. Independent per-eye predictions, original wrist-guided crop. Verify against archived vertices and joints.",
+  "views": "One native overlay and two wrist-local shaded views per hand and input eye.",
+  "gpu_replay_exit": 0,
+  "final_gallery_exit": 0
+}
