@@ -1,0 +1,50 @@
+{
+  "baseline": "39555f64c7db7267e553cc46844baaab12a98f47",
+  "worktree": "Pre-existing unrelated changes excluded; new run executed against baseline, using the scripts listed below.",
+  "inputs": {
+    "stereo_body": "2026-11-27_smplx_stereo_fingers B, clips 003/004",
+    "native": "2026-11-27_wilor_native_hands, archived parameters for each side and each eye; one source per complete body",
+    "camera": "2026-11-25_realvideo4_dv3, calibrated raw fisheye views",
+    "source_cpu_vs_native_replay_max_mm": {
+      "clip003_left_L": 0.051747117170216204,
+      "clip003_right_L": 0.041419305421951234,
+      "clip003_left_R": 0.05229296080836848,
+      "clip003_right_R": 0.04621061273270914,
+      "clip004_left_L": 0.03146668413136212,
+      "clip004_right_L": 0.04470349339923403,
+      "clip004_left_R": 0.030335040044084757,
+      "clip004_right_R": 0.038169266951592395
+    },
+    "checkpoints": {
+      "wilor": "22fb2660f6ac3f611919c9abd5c412372a212309d04fcf3697b291da25a29456",
+      "image_detector": "57be3cd654227a7a3ecb3a7a29bdff544f7288fc63d14f41ef71226e7d971c98"
+    }
+  },
+  "conditions": [
+    "cam3,cam4: native wrist and fingers",
+    "wrist suffix: rotate wrist to stereo index/pinky MCP with regularizer to native orientation",
+    "B_wrist suffix: use archived B wrist rotation and retain native finger rotations",
+    "B: archived full stereo solution"
+  ],
+  "commands": [
+    {
+      "command": "bash <RUN>/run.sh source",
+      "exit": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh transfer",
+      "exit": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh visuals",
+      "exit": 0
+    }
+  ],
+  "script_sha256": {
+    "run.sh": "34d43ccb319c227ff790ea44e865d6fc856ed21e9b02f66d93face2ca6fd2ae2",
+    "source.py": "eb3ae06ca7e1ae13e37d09d9503ddaf99b895f372108d4f41f92012663021032",
+    "transfer.py": "90ff5e092f3d50599972ec4e704063b96a3234cfe8e14903cebc62037d433e43",
+    "visuals.py": "f66907ed21188e6b8efb76da497f5985433bbe17d1337f1c0cf6e8a758ffc33c"
+  },
+  "validation": "33 in-frame observed tips in identical order, over 2 stereo pairs and 4 hands. No manual or 3D ground truth. Native and SMPL-X shape coefficients are independent. Checked hand segment rotations, position preservation and OBJ readback. Renders used the OBJ vertices after parsing."
+}

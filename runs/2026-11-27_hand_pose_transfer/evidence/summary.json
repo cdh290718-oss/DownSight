@@ -1,0 +1,42 @@
+{
+  "cam3": {
+    "tips": 43.74192826893768,
+    "count": 33,
+    "mean_bone_deg": 3.309142543127563,
+    "mean_normal_deg": 34.93041210444328
+  },
+  "cam3_wrist": {
+    "tips": 51.28634741648526,
+    "count": 33,
+    "mean_bone_deg": 3.2958776706836517,
+    "mean_normal_deg": 5.975291289668518
+  },
+  "cam3_B_wrist": {
+    "tips": 30.296229662774607,
+    "count": 33,
+    "mean_bone_deg": 3.2504140570807234,
+    "mean_normal_deg": 12.614310540630651
+  },
+  "cam4": {
+    "tips": 45.72899606047203,
+    "count": 33,
+    "mean_bone_deg": 3.224607311491832,
+    "mean_normal_deg": 32.43175397323674
+  },
+  "cam4_wrist": {
+    "tips": 53.7502492005388,
+    "count": 33,
+    "mean_bone_deg": 3.18108767385674,
+    "mean_normal_deg": 5.81634374804009
+  },
+  "cam4_B_wrist": {
+    "tips": 31.94353527954716,
+    "count": 33,
+    "mean_bone_deg": 3.100863222422927,
+    "mean_normal_deg": 12.614310540630651
+  },
+  "B": {
+    "tips": 13.321941113099584,
+    "count": 33
+  }
+}
