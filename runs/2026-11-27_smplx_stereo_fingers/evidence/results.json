@@ -1,0 +1,75 @@
+{
+  "images": {
+    "clip003_body": {
+      "size": [
+        700,
+        1014
+      ],
+      "sha256": "c42807e6e5e3945e81ddf99977d536211fcd6793dce12883890c1f6b4a6bfd4f"
+    },
+    "clip003_mesh_hands": {
+      "size": [
+        1260,
+        486
+      ],
+      "sha256": "39c79aaa59931de493ba4c79985533fdca61b0accda6a018075e53cfe3fc87aa"
+    },
+    "clip003_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "cf4ce9dd300c8e8ead5ad6f9b6bf5d3f35aa3a599fa77fa70f5d58d8fbeb3919"
+    },
+    "clip003_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "a0cf9110a321e1f818723ad558497f478d6856a2f8e1eb9f4efadbe8f8fef7df"
+    },
+    "clip003_stereo_hands": {
+      "size": [
+        885,
+        1288
+      ],
+      "sha256": "9a82c58897c820c624be0306fb61075435fd0c7e3937b8b4b8f6243f25912880"
+    },
+    "clip004_body": {
+      "size": [
+        700,
+        1014
+      ],
+      "sha256": "3def56d35184d535f7a8080e2404639f26d82df64b370d99931939c12083c31d"
+    },
+    "clip004_mesh_hands": {
+      "size": [
+        1260,
+        486
+      ],
+      "sha256": "1f28a68a2a7aa79b348c639b3c904b1102707510238d6dec38504fe816ffc504"
+    },
+    "clip004_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "cbe9ca91fc62ad50d47975415fb27317bc1c5505dd18409e6f9c5cc4bb8a7d8f"
+    },
+    "clip004_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "fa4d7bb69045b7ef8d1156cfe1b487bbe003ad4c10e625b60049f3b68505d05e"
+    },
+    "clip004_stereo_hands": {
+      "size": [
+        885,
+        1288
+      ],
+      "sha256": "d7d1f8ce5aab9f6de7604c264c775996e8e0db7861642d0b8760ebbc4bcf3953"
+    }
+  },
+  "exit_status": 0
+}

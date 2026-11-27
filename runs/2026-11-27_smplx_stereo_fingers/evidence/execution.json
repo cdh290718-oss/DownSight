@@ -1,0 +1,10 @@
+{
+  "baseline":"23de98076f242ce034ef83d631d9ff12ac5536bb",
+  "conditions":["A: archived four-root protocol rerun","B: fifteen non-tip hand joints with archived per-eye screening"],
+  "commands":[
+    {"command":"bash <RUN>/run.sh compare_fit <index>","indices":[2,3],"first_exits":[1,1],"reason":"Strict preflight equality compared detector coordinates with an archived single-precision copy. Verified exact equality at archive precision before rerun.","retry_exits":[0,0],"steps":70},
+    {"command":"python -B <RUN>/measure.py","exit":0},
+    {"command":"bash <RUN>/run.sh visuals","exit":0}
+  ],
+  "evaluation":"Euclidean distances to in-frame detector fingertips; no independent 3D labels. Controls share fixed body/shape/wrist centers, contour term and optimizer."
+}
