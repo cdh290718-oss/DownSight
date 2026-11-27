@@ -1,0 +1,175 @@
+{
+  "hashes": {
+    "v003_03_obj.jpg": "d63b76e5d566f9e21a35ae906d5246460c845202b90df3b7a365778baf76ad26",
+    "v003_03_handobj.jpg": "9db3b00d4eb5f6c31ee7707edc11fee0ce96da76415b81efded3037ab0f0b741",
+    "v003_03_mesh.jpg": "37b798992d2f0e0b0cb271680e6c5ce949f21c9af63b14cd74c2d32d9aa789ed",
+    "v003_03_points.jpg": "e0753af3bfed9394167ddd00ea466b44fb12f488ac01743cf38028808bffd1e1",
+    "v003_03_both.jpg": "660d31441bf5c210342791af5831be6fd0dfcfea9c51b22d05a2a93c8885a2fa",
+    "v003_03_hands.jpg": "fc202d88a89a3191b10864c2f1de88958aa28377f6d0573ea851419f83a34695",
+    "v003_03_overview.jpg": "b63ba00644c0611a55b26fa1ff1c247729f94c0341d0ea40d68b08e56d8cafce"
+  },
+  "source": {
+    "v4_sha256": "483ff4a23aa4f35c17583a4b039e09e3dd9410580ef4c9bfced9038467ea50fa",
+    "palm_sha256": "483ff4a23aa4f35c17583a4b039e09e3dd9410580ef4c9bfced9038467ea50fa",
+    "palm_fallback": "palm seed points outside image",
+    "valid_elbow_wrist_by_eye": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "purple_translation_m": [
+      0.01690917498210326,
+      0.03986037069715783,
+      0.0724130816925413
+    ]
+  },
+  "obj": "v003_03_equal_cam3_m.obj",
+  "obj_sha256": "3ce9fe3677e5db7652c4619392be88ac519ab5bafb46267ebc09bf40bbdc7dcb",
+  "drift_mm": 0.0,
+  "hands": {
+    "left": {
+      "source": "cam3",
+      "candidates": {
+        "cam3": {
+          "score": 13.010842328529405,
+          "evaluations": 10,
+          "source_sha256": "3d9f9760f5c9421b11ba06715925c519703179b6fc2a59869ca1eff9c2cf0d7d"
+        },
+        "cam4": {
+          "score": 13.54039828916021,
+          "evaluations": 8,
+          "source_sha256": "9dbc7d91e2de1856ed96b9ec25ddcd9043608a7cf7fd230954f683c417b5490d"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "right": {
+      "source": "no candidate",
+      "candidates": {},
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ]
+      ]
+    }
+  },
+  "errors": {
+    "body": [
+      44.00961783728796,
+      10.975374699677598,
+      6.614202844950553,
+      41.48846474371242,
+      21.704163691310544,
+      3.7144114780498527,
+      37.12090173638984,
+      35.03612854241853,
+      32.49542510513762,
+      43.1254704363377,
+      28.164219927463783,
+      19.87568779334289,
+      20.733759789220812,
+      16.47563648535096,
+      5.242948872314683,
+      63.30100326621632,
+      22.168585158611034,
+      4.041518969102574,
+      24.980932948438717,
+      16.60262903019705,
+      7.721213817727389,
+      30.779944991741502,
+      23.693831688674482,
+      20.73884471546812
+    ],
+    "tips": [
+      23.30731135308865,
+      220.67091027565615,
+      231.79775091781156,
+      5.354836056002043,
+      4.344485170993131,
+      254.90025872226516,
+      245.34258622920714,
+      650.2286945536346,
+      81.5897288181781,
+      13.433393850890258,
+      265.86919291453376,
+      272.01774111380587,
+      24.89985098232642,
+      10.019239938794449,
+      240.69671352558112,
+      225.48803405041463,
+      100.29321978072463
+    ]
+  },
+  "exit_status": 0
+}
