@@ -1,0 +1,14 @@
+{
+  "baseline": "b8140a4d5f85ab3d2d6c0c3c992ee1d295a76362",
+  "worktree_dirty_before_start": true,
+  "commands": [
+    {"command": "python3 -B <RUN>/launch.py predict_new", "exit": 0, "cases": ["clip001","clip002"]},
+    {"command": "python3 -B <RUN>/launch.py experiment baseline", "attempt": 1, "exit": 1, "detail": "Torch interpreted the two-dimensional numpy joint-index array as coordinates. Converted indices to a single tensor as in the archived B implementation."},
+    {"command": "python3 -B <RUN>/launch.py experiment baseline", "attempt": 2, "exit": 0, "cases": ["clip001","clip002"], "steps": 70},
+    {"command": "python3 -B <RUN>/launch.py experiment gallery", "exit": 0, "clips": 4, "full_body_OBJ_roundtrips": 8}
+  ],
+  "rectified_size": [640,480],
+  "fit_limits": {"wrist_solver_function_evaluations":180,"wrist_prior_radians":0.65,"source_selection":"mean of non-tip error scores over usable eyes"},
+  "body_context": "001/002 use archived palm seeds; 003/004 use archived arm-corrected purple seeds.",
+  "new_predictions": "WiLoR detector and MANO pose model on one GPU for the 001/002 center frames. 003/004 use checked perspective prediction hashes."
+}

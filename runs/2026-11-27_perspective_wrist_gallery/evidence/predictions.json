@@ -1,0 +1,58 @@
+{
+  "clip001_left": {
+    "raw_classes": [
+      1.0,
+      0.0
+    ],
+    "raw_scores": [
+      0.844849705696106,
+      0.8241651654243469
+    ],
+    "sha256": {
+      "left": "4832bcc2aa4e7d220034bc689847634b7b39c402e7eca02bf2b5f94a7683453e",
+      "right": "ff181fc7a369f2a3d1cc70cc1cf7499cdfeb41e47fe5c1114391ebb36139b369"
+    }
+  },
+  "clip002_left": {
+    "raw_classes": [
+      1.0,
+      0.0
+    ],
+    "raw_scores": [
+      0.8270039558410645,
+      0.7669528126716614
+    ],
+    "sha256": {
+      "left": "2633141ad9b3d314ddcd74769f625de9e9a1be715c2f527f15e4a8a4a13d7e86",
+      "right": "6f05470d44387fac0365b1ee77186a3eca28be3dcf9f29498e14737b4a3f1caa"
+    }
+  },
+  "clip001_right": {
+    "raw_classes": [
+      1.0,
+      0.0
+    ],
+    "raw_scores": [
+      0.8297578692436218,
+      0.8089436292648315
+    ],
+    "sha256": {
+      "left": "658be1a3abfe7ec123c396a17f03250b926fbeefcef8f92b58e69288d446a85a",
+      "right": "e05456745dd61106bbc8b2df8755228bae35bf60ed7d12d9abf7a7bf1d516e8e"
+    }
+  },
+  "clip002_right": {
+    "raw_classes": [
+      1.0,
+      0.0
+    ],
+    "raw_scores": [
+      0.8056793212890625,
+      0.6682392954826355
+    ],
+    "sha256": {
+      "left": "4c1a67a5693dbc375d804e9235379040e24de0325c06053c3fb81fcb472aacfc",
+      "right": "0639b9ac8cf67749ac2734639dcff81ab5209bdac16dbb703b26f46223e7326d"
+    }
+  }
+}
