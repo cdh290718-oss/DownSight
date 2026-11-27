@@ -1,0 +1,23 @@
+{
+  "base": "a88734531c1cab03f3ab1bceb230dcac62790f1f",
+  "commands": [
+    "bash runs/2026-11-27_v5_hand_self_review/run.sh",
+    "python -B runs/2026-11-27_v5_hand_self_review/report.py"
+  ],
+  "exit_codes": [
+    0,
+    0
+  ],
+  "archive_sha256": {
+    "results.json": "5be4cf8125f6a1e169a62d3c0ebd127a15aca76c5e88c8ed71f7326c43a99945",
+    "execution.json": "0e1b7ec962f738183588a225d335b1955c2c2558654447385fb7dc0c17d1e9de",
+    "selection.json": "80decc607f5c9d0848bcbb495fbb7cfb692f610f7265a277f4baf009402505ed",
+    "predictions.json": "d3e00dc37f2b036ca798ec8150c0dc6b379ac1652dfadd8729f365ee0192a1d1"
+  },
+  "renders_sha256": {
+    "val044.jpg": "b2e44d1ac9e634e68c246e3221a57dcd3ce6c938141fc63fd272784b63e0cec3",
+    "val003.jpg": "b47c957c92b2384ac0ac25f861b20ce313f2de5b17fa8ba4d1a91311396d8403",
+    "val001.jpg": "1b832954145e8dd8c46eb4c99f3ee77cea5a516795c791337d70bfccd6d13cca",
+    "val184.jpg": "dea94f2e78060ae1cc43fef103e244e8c41a4efd44966e3468af28d9c6efdca9"
+  }
+}

@@ -1,0 +1,4568 @@
+{
+ "val001": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 65,
+   "v5": 61,
+   "archived": 61,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 61
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val002": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val003": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 5,
+   "v5": 1,
+   "archived": 1,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 1
+   }
+  }
+ },
+ "val004": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 23,
+   "v5": 11,
+   "archived": 11,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 11
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 145,
+   "v5": 135,
+   "archived": 135,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 5,
+    "middle/ring": 44,
+    "middle/thumb": 62,
+    "middle/middle": 1,
+    "pinky/ring": 8,
+    "ring/thumb": 15
+   }
+  }
+ },
+ "val005": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 60,
+   "v5": 113,
+   "archived": 113,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 50,
+    "middle/ring": 30,
+    "middle/thumb": 26,
+    "thumb/thumb": 7
+   }
+  }
+ },
+ "val006": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val007": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val008": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val009": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val010": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val011": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val012": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val013": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 85,
+   "v5": 86,
+   "archived": 86,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 5,
+    "middle/palm": 23,
+    "palm/ring": 24,
+    "index/index": 8,
+    "middle/middle": 3,
+    "palm/pinky": 23
+   }
+  }
+ },
+ "val014": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 21,
+   "v5": 19,
+   "archived": 19,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 1,
+    "index/thumb": 18
+   }
+  }
+ },
+ "val015": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val016": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 80,
+   "v5": 112,
+   "archived": 112,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 72,
+    "index/thumb": 31,
+    "pinky/ring": 6,
+    "palm/pinky": 2,
+    "middle/palm": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 148,
+   "v5": 121,
+   "archived": 121,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 10,
+    "palm/ring": 4,
+    "middle/palm": 17,
+    "index/middle": 48,
+    "pinky/ring": 2,
+    "middle/ring": 39,
+    "middle/middle": 1
+   }
+  }
+ },
+ "val017": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 160,
+   "v5": 167,
+   "archived": 167,
+   "source": "cam4",
+   "regions": {
+    "index/palm": 19,
+    "middle/palm": 20,
+    "index/middle": 75,
+    "index/index": 5,
+    "pinky/ring": 43,
+    "palm/pinky": 5
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val018": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 47,
+   "v5": 71,
+   "archived": 71,
+   "source": "cam4",
+   "regions": {
+    "index/index": 13,
+    "index/middle": 58
+   }
+  }
+ },
+ "val019": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 129,
+   "v5": 120,
+   "archived": 120,
+   "source": "cam4",
+   "regions": {
+    "index/palm": 17,
+    "index/index": 1,
+    "index/middle": 66,
+    "middle/palm": 17,
+    "middle/middle": 1,
+    "pinky/ring": 10,
+    "palm/pinky": 6,
+    "palm/ring": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 47,
+   "v5": 59,
+   "archived": 59,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 11,
+    "middle/palm": 5,
+    "index/middle": 21,
+    "index/index": 1,
+    "pinky/ring": 21
+   }
+  }
+ },
+ "val020": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 75,
+   "v5": 99,
+   "archived": 99,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 45,
+    "middle/palm": 1,
+    "index/thumb": 49,
+    "ring/ring": 4
+   }
+  }
+ },
+ "val021": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val022": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val023": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 4,
+   "finger_only": 0,
+   "v5": 4,
+   "archived": 4,
+   "source": "cam4",
+   "regions": {
+    "palm/palm": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val024": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val025": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val026": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val027": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 63,
+   "v5": 83,
+   "archived": 83,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 23,
+    "index/thumb": 60
+   }
+  }
+ },
+ "val028": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 118,
+   "v5": 139,
+   "archived": 139,
+   "source": "cam4",
+   "regions": {
+    "index/index": 13,
+    "index/middle": 68,
+    "middle/palm": 2,
+    "index/thumb": 42,
+    "pinky/ring": 14
+   }
+  }
+ },
+ "val029": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 216,
+   "v5": 214,
+   "archived": 214,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 78,
+    "middle/palm": 11,
+    "index/thumb": 44,
+    "middle/ring": 45,
+    "pinky/ring": 23,
+    "index/palm": 6,
+    "palm/pinky": 6,
+    "middle/middle": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 18,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 6,
+    "middle/palm": 4
+   }
+  }
+ },
+ "val030": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val031": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val032": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 65,
+   "v5": 67,
+   "archived": 67,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 11,
+    "index/palm": 14,
+    "index/thumb": 29,
+    "palm/ring": 3,
+    "middle/middle": 2,
+    "ring/ring": 2,
+    "middle/ring": 1,
+    "index/index": 2,
+    "index/middle": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val033": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val034": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 1,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val035": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val036": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 54,
+   "v5": 51,
+   "archived": 51,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 13,
+    "index/middle": 24,
+    "index/palm": 11,
+    "index/index": 2,
+    "middle/middle": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 8,
+   "v5": 30,
+   "archived": 30,
+   "source": "cam3",
+   "regions": {
+    "index/index": 5,
+    "index/middle": 23,
+    "middle/palm": 2
+   }
+  }
+ },
+ "val037": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 3,
+   "finger_only": 94,
+   "v5": 133,
+   "archived": 133,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 53,
+    "palm/palm": 3,
+    "index/thumb": 17,
+    "middle/ring": 50,
+    "thumb/thumb": 10
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val038": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val039": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val040": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 81,
+   "v5": 86,
+   "archived": 86,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 25,
+    "index/index": 7,
+    "middle/thumb": 53,
+    "middle/middle": 1
+   }
+  }
+ },
+ "val041": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val042": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val043": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val044": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 45,
+   "v5": 41,
+   "archived": 41,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 6,
+    "index/index": 3,
+    "middle/middle": 16,
+    "middle/ring": 12,
+    "index/middle": 3,
+    "ring/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 13,
+   "v5": 13,
+   "archived": 13,
+   "source": "cam3",
+   "regions": {
+    "index/index": 9,
+    "middle/ring": 2,
+    "ring/ring": 2
+   }
+  }
+ },
+ "val045": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val046": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val047": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val048": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val049": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val050": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 42,
+   "v5": 42,
+   "archived": 42,
+   "source": "cam4",
+   "regions": {
+    "ring/ring": 2,
+    "palm/pinky": 40
+   }
+  }
+ },
+ "val051": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 108,
+   "v5": 102,
+   "archived": 102,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 61,
+    "middle/ring": 41
+   }
+  }
+ },
+ "val052": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 131,
+   "v5": 112,
+   "archived": 112,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 18,
+    "index/thumb": 62,
+    "middle/middle": 2,
+    "pinky/ring": 15,
+    "index/palm": 8,
+    "palm/ring": 1,
+    "index/index": 2,
+    "index/middle": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 4,
+   "v5": 4,
+   "archived": 4,
+   "source": "cam4",
+   "regions": {
+    "palm/pinky": 4
+   }
+  }
+ },
+ "val053": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 57,
+   "v5": 78,
+   "archived": 78,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 34,
+    "pinky/ring": 35,
+    "index/thumb": 7,
+    "palm/pinky": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 2,
+   "finger_only": 23,
+   "v5": 47,
+   "archived": 47,
+   "source": "cam3",
+   "regions": {
+    "palm/palm": 3,
+    "index/middle": 44
+   }
+  }
+ },
+ "val054": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 37,
+   "v5": 41,
+   "archived": 41,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 41
+   }
+  }
+ },
+ "val055": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 45,
+   "v5": 37,
+   "archived": 37,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 6,
+    "palm/pinky": 3,
+    "middle/palm": 8,
+    "pinky/ring": 16,
+    "index/thumb": 4
+   }
+  }
+ },
+ "val056": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 77,
+   "v5": 67,
+   "archived": 67,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 32,
+    "middle/ring": 35
+   }
+  }
+ },
+ "val057": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 106,
+   "v5": 114,
+   "archived": 114,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 68,
+    "index/thumb": 19,
+    "middle/ring": 27
+   }
+  }
+ },
+ "val058": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val059": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 10,
+   "v5": 8,
+   "archived": 8,
+   "source": "cam4",
+   "regions": {
+    "pinky/ring": 5,
+    "palm/pinky": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 11,
+   "v5": 11,
+   "archived": 11,
+   "source": "cam3",
+   "regions": {
+    "middle/ring": 11
+   }
+  }
+ },
+ "val060": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 38,
+   "v5": 36,
+   "archived": 36,
+   "source": "cam3",
+   "regions": {
+    "index/index": 3,
+    "index/middle": 23,
+    "thumb/thumb": 10
+   }
+  }
+ },
+ "val061": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val062": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 10,
+   "v5": 12,
+   "archived": 12,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 12
+   }
+  }
+ },
+ "val063": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val064": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val065": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val066": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 190,
+   "v5": 198,
+   "archived": 198,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 71,
+    "index/thumb": 29,
+    "index/index": 7,
+    "middle/thumb": 61,
+    "ring/ring": 2,
+    "palm/pinky": 28
+   }
+  }
+ },
+ "val067": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val068": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val069": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val070": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 25,
+   "v5": 24,
+   "archived": 24,
+   "source": "cam3",
+   "regions": {
+    "palm/pinky": 23,
+    "palm/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val071": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val072": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 2,
+   "finger_only": 33,
+   "v5": 49,
+   "archived": 49,
+   "source": "cam3",
+   "regions": {
+    "palm/palm": 2,
+    "index/middle": 44,
+    "index/index": 3
+   }
+  }
+ },
+ "val073": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val074": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val075": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val076": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 30,
+   "v5": 30,
+   "archived": 30,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 30
+   }
+  }
+ },
+ "val077": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val078": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 17,
+   "v5": 12,
+   "archived": 12,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 12
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 87,
+   "v5": 92,
+   "archived": 92,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 55,
+    "middle/ring": 37
+   }
+  }
+ },
+ "val079": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val080": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 1,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val081": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val082": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val083": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val084": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 3,
+   "finger_only": 46,
+   "v5": 45,
+   "archived": 45,
+   "source": "cam4",
+   "regions": {
+    "ring/ring": 1,
+    "middle/ring": 20,
+    "pinky/ring": 16,
+    "palm/palm": 2,
+    "palm/pinky": 3,
+    "palm/ring": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val085": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val086": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 34,
+   "v5": 44,
+   "archived": 44,
+   "source": "cam3",
+   "regions": {
+    "palm/pinky": 6,
+    "palm/ring": 3,
+    "middle/ring": 16,
+    "pinky/ring": 18,
+    "ring/ring": 1
+   }
+  }
+ },
+ "val087": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val088": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val089": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val090": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 17,
+   "finger_only": 0,
+   "v5": 15,
+   "archived": 15,
+   "source": "cam4",
+   "regions": {
+    "palm/palm": 15
+   }
+  }
+ },
+ "val091": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val092": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val093": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 12,
+   "finger_only": 0,
+   "v5": 33,
+   "archived": 33,
+   "source": "cam3",
+   "regions": {
+    "palm/palm": 12,
+    "index/middle": 21
+   }
+  }
+ },
+ "val094": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 60,
+   "v5": 62,
+   "archived": 62,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 62
+   }
+  }
+ },
+ "val095": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 99,
+   "v5": 102,
+   "archived": 102,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 57,
+    "middle/ring": 45
+   }
+  }
+ },
+ "val096": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 33,
+   "v5": 33,
+   "archived": 33,
+   "source": "cam3",
+   "regions": {
+    "pinky/ring": 17,
+    "middle/ring": 12,
+    "palm/pinky": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val097": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val098": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val099": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val100": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val101": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val102": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val103": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val104": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val105": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val106": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val107": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val108": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 10,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 5,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val109": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 6,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 2,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val110": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 29,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 10
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val111": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 50,
+   "v5": 43,
+   "archived": 43,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 25,
+    "pinky/ring": 13,
+    "palm/pinky": 5
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 39,
+   "v5": 44,
+   "archived": 44,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 4,
+    "palm/pinky": 33,
+    "index/index": 3,
+    "pinky/pinky": 4
+   }
+  }
+ },
+ "val112": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 49,
+   "v5": 49,
+   "archived": 49,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 32,
+    "pinky/ring": 14,
+    "palm/pinky": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 62,
+   "v5": 42,
+   "archived": 42,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 8,
+    "index/thumb": 26,
+    "middle/ring": 8
+   }
+  }
+ },
+ "val113": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 21,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 107,
+   "v5": 135,
+   "archived": 135,
+   "source": "cam4",
+   "regions": {
+    "index/index": 16,
+    "index/thumb": 46,
+    "index/middle": 69,
+    "middle/ring": 4
+   }
+  }
+ },
+ "val114": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 49,
+   "v5": 47,
+   "archived": 47,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 27,
+    "pinky/ring": 14,
+    "palm/pinky": 5,
+    "middle/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 18,
+   "v5": 1,
+   "archived": 1,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 1
+   }
+  }
+ },
+ "val115": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 20,
+   "v5": 19,
+   "archived": 19,
+   "source": "cam3",
+   "regions": {
+    "pinky/ring": 15,
+    "palm/pinky": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 57,
+   "v5": 48,
+   "archived": 48,
+   "source": "cam4",
+   "regions": {
+    "palm/pinky": 44,
+    "pinky/ring": 4
+   }
+  }
+ },
+ "val116": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 83,
+   "v5": 88,
+   "archived": 88,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 63,
+    "pinky/ring": 14,
+    "ring/ring": 5,
+    "palm/pinky": 5,
+    "middle/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 31,
+   "v5": 23,
+   "archived": 23,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 23
+   }
+  }
+ },
+ "val117": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 15,
+   "v5": 17,
+   "archived": 17,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 17
+   }
+  }
+ },
+ "val118": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 24,
+   "v5": 16,
+   "archived": 16,
+   "source": "cam3",
+   "regions": {
+    "ring/ring": 2,
+    "middle/ring": 2,
+    "pinky/ring": 7,
+    "palm/pinky": 5
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val119": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val120": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val121": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val122": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 10,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam3",
+   "regions": {
+    "ring/ring": 2,
+    "palm/pinky": 4,
+    "pinky/ring": 2,
+    "middle/ring": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val123": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 4,
+   "v5": 24,
+   "archived": 24,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 20,
+    "middle/ring": 3,
+    "ring/ring": 1
+   }
+  }
+ },
+ "val124": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 8,
+   "v5": 6,
+   "archived": 6,
+   "source": "cam3",
+   "regions": {
+    "palm/pinky": 3,
+    "pinky/ring": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val125": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 95,
+   "v5": 96,
+   "archived": 96,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 60,
+    "pinky/ring": 2,
+    "index/index": 6,
+    "middle/ring": 26,
+    "palm/pinky": 2
+   }
+  }
+ },
+ "val126": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val127": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val128": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 143,
+   "v5": 134,
+   "archived": 134,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 42,
+    "index/thumb": 47,
+    "middle/ring": 43,
+    "ring/ring": 2
+   }
+  }
+ },
+ "val129": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 98,
+   "v5": 98,
+   "archived": 98,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 49,
+    "middle/ring": 49
+   }
+  }
+ },
+ "val130": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 53,
+   "v5": 51,
+   "archived": 51,
+   "source": "cam4",
+   "regions": {
+    "index/palm": 6,
+    "index/thumb": 45
+   }
+  }
+ },
+ "val131": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 3,
+   "v5": 5,
+   "archived": 5,
+   "source": "cam4",
+   "regions": {
+    "thumb/thumb": 5
+   }
+  }
+ },
+ "val132": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val133": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 6,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 12,
+   "v5": 1,
+   "archived": 1,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 1
+   }
+  }
+ },
+ "val134": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 22,
+   "v5": 51,
+   "archived": 51,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 32,
+    "middle/ring": 19
+   }
+  }
+ },
+ "val135": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 39,
+   "v5": 39,
+   "archived": 39,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 39
+   }
+  }
+ },
+ "val136": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val137": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 120,
+   "v5": 119,
+   "archived": 119,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 72,
+    "index/thumb": 21,
+    "pinky/ring": 12,
+    "index/palm": 6,
+    "palm/pinky": 7,
+    "middle/palm": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 117,
+   "v5": 117,
+   "archived": 117,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 10,
+    "palm/ring": 2,
+    "middle/palm": 16,
+    "index/middle": 53,
+    "pinky/ring": 5,
+    "middle/ring": 30,
+    "palm/pinky": 1
+   }
+  }
+ },
+ "val138": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 131,
+   "v5": 139,
+   "archived": 139,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 80,
+    "middle/palm": 7,
+    "index/index": 13,
+    "ring/ring": 2,
+    "pinky/ring": 19,
+    "middle/ring": 1,
+    "palm/ring": 6,
+    "palm/pinky": 11
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 130,
+   "v5": 115,
+   "archived": 115,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 14,
+    "middle/palm": 18,
+    "palm/ring": 2,
+    "index/middle": 39,
+    "index/index": 1,
+    "pinky/ring": 4,
+    "middle/ring": 31,
+    "middle/middle": 1,
+    "palm/pinky": 5
+   }
+  }
+ },
+ "val139": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 161,
+   "v5": 141,
+   "archived": 141,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 10,
+    "index/palm": 11,
+    "index/middle": 73,
+    "pinky/ring": 44,
+    "index/index": 1,
+    "palm/pinky": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 84,
+   "v5": 87,
+   "archived": 87,
+   "source": "cam4",
+   "regions": {
+    "index/index": 6,
+    "index/middle": 56,
+    "middle/palm": 3,
+    "middle/ring": 20,
+    "index/palm": 2
+   }
+  }
+ },
+ "val140": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 146,
+   "v5": 160,
+   "archived": 160,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 65,
+    "index/thumb": 45,
+    "middle/ring": 31,
+    "pinky/ring": 19
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val141": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 146,
+   "v5": 155,
+   "archived": 155,
+   "source": "cam4",
+   "regions": {
+    "index/thumb": 28,
+    "index/middle": 45,
+    "pinky/ring": 66,
+    "index/palm": 4,
+    "middle/ring": 10,
+    "palm/pinky": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 10,
+   "finger_only": 55,
+   "v5": 98,
+   "archived": 98,
+   "source": "cam3",
+   "regions": {
+    "palm/palm": 10,
+    "index/middle": 47,
+    "palm/pinky": 4,
+    "palm/ring": 2,
+    "middle/ring": 13,
+    "pinky/ring": 21,
+    "ring/ring": 1
+   }
+  }
+ },
+ "val142": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 129,
+   "v5": 132,
+   "archived": 132,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 52,
+    "middle/palm": 11,
+    "palm/ring": 4,
+    "middle/middle": 2,
+    "pinky/ring": 14,
+    "index/palm": 8,
+    "middle/ring": 31,
+    "palm/pinky": 8,
+    "index/index": 2
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 92,
+   "v5": 94,
+   "archived": 94,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 66,
+    "index/index": 5,
+    "middle/ring": 13,
+    "middle/middle": 3,
+    "pinky/ring": 7
+   }
+  }
+ },
+ "val143": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val144": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 34,
+   "v5": 40,
+   "archived": 40,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 40
+   }
+  }
+ },
+ "val145": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 43,
+   "v5": 31,
+   "archived": 31,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 23,
+    "ring/ring": 1,
+    "middle/ring": 3,
+    "palm/pinky": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 77,
+   "v5": 69,
+   "archived": 69,
+   "source": "cam4",
+   "regions": {
+    "index/palm": 6,
+    "middle/palm": 15,
+    "index/middle": 20,
+    "palm/ring": 2,
+    "index/thumb": 8,
+    "middle/ring": 17,
+    "middle/middle": 1
+   }
+  }
+ },
+ "val146": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 7,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val147": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val148": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 8,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam4",
+   "regions": {
+    "palm/pinky": 4,
+    "pinky/ring": 6
+   }
+  }
+ },
+ "val149": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val150": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val151": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 11,
+   "v5": 35,
+   "archived": 35,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 32,
+    "ring/ring": 3
+   }
+  }
+ },
+ "val152": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 10,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 9,
+    "middle/middle": 1
+   }
+  }
+ },
+ "val153": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val154": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val155": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 11,
+   "archived": 11,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 11
+   }
+  }
+ },
+ "val156": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val157": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val158": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val159": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 6,
+   "v5": 4,
+   "archived": 4,
+   "source": "cam3",
+   "regions": {
+    "ring/ring": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 14,
+   "v5": 12,
+   "archived": 12,
+   "source": "cam3",
+   "regions": {
+    "middle/ring": 12
+   }
+  }
+ },
+ "val160": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 10,
+   "archived": 10,
+   "source": "cam3",
+   "regions": {
+    "pinky/ring": 7,
+    "palm/pinky": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 2,
+   "v5": 3,
+   "archived": 3,
+   "source": "cam3",
+   "regions": {
+    "middle/palm": 1,
+    "palm/ring": 2
+   }
+  }
+ },
+ "val161": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 63,
+   "v5": 50,
+   "archived": 50,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 30,
+    "pinky/ring": 14,
+    "palm/pinky": 5,
+    "middle/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val162": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 42,
+   "v5": 40,
+   "archived": 40,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 40
+   }
+  }
+ },
+ "val163": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 53,
+   "v5": 23,
+   "archived": 23,
+   "source": "cam4",
+   "regions": {
+    "palm/ring": 1,
+    "middle/ring": 20,
+    "ring/ring": 2
+   }
+  }
+ },
+ "val164": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 24,
+   "v5": 24,
+   "archived": 24,
+   "source": "cam3",
+   "regions": {
+    "middle/ring": 24
+   }
+  }
+ },
+ "val165": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val166": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 29,
+   "v5": 34,
+   "archived": 34,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 34
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val167": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 58,
+   "v5": 58,
+   "archived": 58,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 58
+   }
+  }
+ },
+ "val168": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 73,
+   "v5": 94,
+   "archived": 94,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 13,
+    "index/middle": 67,
+    "middle/ring": 14
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 146,
+   "v5": 125,
+   "archived": 125,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 37,
+    "middle/ring": 36,
+    "index/thumb": 41,
+    "pinky/ring": 11
+   }
+  }
+ },
+ "val169": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 40,
+   "v5": 40,
+   "archived": 40,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 36,
+    "thumb/thumb": 4
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 134,
+   "v5": 111,
+   "archived": 111,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 35,
+    "middle/ring": 39,
+    "index/thumb": 37
+   }
+  }
+ },
+ "val170": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 40,
+   "v5": 26,
+   "archived": 26,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 19,
+    "ring/ring": 2,
+    "thumb/thumb": 5
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 133,
+   "v5": 117,
+   "archived": 117,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 39,
+    "middle/ring": 36,
+    "index/thumb": 42
+   }
+  }
+ },
+ "val171": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 43,
+   "v5": 43,
+   "archived": 43,
+   "source": "cam3",
+   "regions": {
+    "index/thumb": 42,
+    "thumb/thumb": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 89,
+   "v5": 55,
+   "archived": 55,
+   "source": "cam4",
+   "regions": {
+    "palm/ring": 3,
+    "middle/ring": 36,
+    "index/middle": 14,
+    "ring/ring": 2
+   }
+  }
+ },
+ "val172": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 33,
+   "v5": 26,
+   "archived": 26,
+   "source": "cam4",
+   "regions": {
+    "index/thumb": 26
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 111,
+   "v5": 105,
+   "archived": 105,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 38,
+    "index/thumb": 29,
+    "middle/ring": 36,
+    "ring/ring": 2
+   }
+  }
+ },
+ "val173": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 117,
+   "v5": 99,
+   "archived": 99,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 38,
+    "middle/ring": 31,
+    "index/thumb": 24,
+    "middle/middle": 3,
+    "pinky/pinky": 3
+   }
+  }
+ },
+ "val174": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 30,
+   "v5": 30,
+   "archived": 30,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 30
+   }
+  }
+ },
+ "val175": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 22,
+   "archived": 22,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 22
+   }
+  }
+ },
+ "val176": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 101,
+   "v5": 107,
+   "archived": 107,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 67,
+    "middle/ring": 40
+   }
+  }
+ },
+ "val177": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val178": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 8,
+   "archived": 8,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 8
+   }
+  }
+ },
+ "val179": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 22,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 97,
+   "v5": 120,
+   "archived": 120,
+   "source": "cam4",
+   "regions": {
+    "index/palm": 12,
+    "middle/palm": 22,
+    "index/index": 2,
+    "index/thumb": 35,
+    "middle/middle": 1,
+    "pinky/pinky": 17,
+    "palm/pinky": 31
+   }
+  }
+ },
+ "val180": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 4,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val181": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 137,
+   "v5": 90,
+   "archived": 90,
+   "source": "cam4",
+   "regions": {
+    "middle/palm": 12,
+    "index/middle": 17,
+    "index/index": 9,
+    "pinky/ring": 34,
+    "index/palm": 6,
+    "palm/pinky": 3,
+    "palm/ring": 8,
+    "ring/ring": 1
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 141,
+   "v5": 174,
+   "archived": 174,
+   "source": "cam3",
+   "regions": {
+    "index/palm": 10,
+    "palm/ring": 5,
+    "middle/palm": 15,
+    "index/middle": 56,
+    "pinky/ring": 2,
+    "middle/ring": 26,
+    "middle/middle": 1,
+    "pinky/pinky": 1,
+    "palm/pinky": 41,
+    "thumb/thumb": 17
+   }
+  }
+ },
+ "val182": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val183": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 1,
+   "v5": 1,
+   "archived": 1,
+   "source": "cam4",
+   "regions": {
+    "middle/ring": 1
+   }
+  }
+ },
+ "val184": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 209,
+   "v5": 233,
+   "archived": 233,
+   "source": "cam3",
+   "regions": {
+    "index/middle": 100,
+    "middle/ring": 63,
+    "pinky/ring": 54,
+    "thumb/thumb": 8,
+    "palm/pinky": 5,
+    "index/index": 3
+   }
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 13,
+   "finger_only": 112,
+   "v5": 183,
+   "archived": 183,
+   "source": "cam4",
+   "regions": {
+    "palm/palm": 13,
+    "index/middle": 64,
+    "index/index": 8,
+    "palm/pinky": 4,
+    "middle/ring": 57,
+    "pinky/ring": 37
+   }
+  }
+ },
+ "val185": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 19,
+   "v5": 36,
+   "archived": 36,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 36
+   }
+  }
+ },
+ "val186": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val187": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val188": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val189": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val190": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val191": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val192": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val193": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val194": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val195": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  }
+ },
+ "val196": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 24,
+   "v5": 25,
+   "archived": 25,
+   "source": "cam3",
+   "regions": {
+    "middle/ring": 25
+   }
+  }
+ },
+ "val197": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam4",
+   "regions": {}
+  }
+ },
+ "val198": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ },
+ "val199": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 43,
+   "v5": 49,
+   "archived": 49,
+   "source": "cam4",
+   "regions": {
+    "index/middle": 49
+   }
+  }
+ },
+ "val200": {
+  "left": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "no candidate",
+   "regions": {}
+  },
+  "right": {
+   "v4": 0,
+   "wrist_only": 0,
+   "finger_only": 0,
+   "v5": 0,
+   "archived": 0,
+   "source": "cam3",
+   "regions": {}
+  }
+ }
+}
