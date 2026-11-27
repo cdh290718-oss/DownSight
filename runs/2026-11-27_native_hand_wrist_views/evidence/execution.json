@@ -1,0 +1,12 @@
+{
+  "baseline": "9e01c57fe9c2d845852d6a4a97b7f08c2b983b55",
+  "dirty_worktree_before_run": true,
+  "commands": [
+    {"command": "bash <RUN>/run.sh", "attempt": "development", "exit": 2, "detail": "MANO recovery finished before rendering script was written."},
+    {"command": "bash <RUN>/run.sh", "attempt": "development", "exit": 1, "detail": "A 0.05 px replay check compared a hybrid two-source pose to an archived single-source whole body. Replayed each original source separately; reported the hybrid projection differences."},
+    {"command": "bash <RUN>/run.sh", "attempt": "integration", "exit": 1, "detail": "The last stage encountered a Python module-name collision. The local wrist comparison module was renamed."},
+    {"command": "bash <RUN>/run.sh", "attempt": "final", "exit": 0, "stages": ["recover.py","wrist_views.py","native_inputs.py"]}
+  ],
+  "photographs": "Real videos 003 and 004, previously archived center frames in each calibrated camera.",
+  "inference": "Replayed stored hand predictions and full-body parameters. The hand detectors were not run again."
+}

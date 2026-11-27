@@ -1,0 +1,41 @@
+{
+  "baseline": "9e01c57fe9c2d845852d6a4a97b7f08c2b983b55",
+  "remote_before_commit": "9e01c57fe9c2d845852d6a4a97b7f08c2b983b55",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 62,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "Only requested stereo mesh and keypoint overlays plus OBJ renders JPEGs, verified JPEG, no EXIF.",
+  "images": 10,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip003_body.jpg": "fc8ed120de07f1ba786086d423a179815b6aacd16024cbd48410eb1e99b28783",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip003_inputs.jpg": "579c7e79558e4d7eeeeccb266bc5d9372cc2e504c321f94dd428eb3812e05ad4",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip003_shape.jpg": "bcac7e3163ceee6a5ab48497ce2c9131ca551341949135b705306357bc055df6",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip003_source.jpg": "87b182d33b4f102fa405e61e63b6eb6052a88a5e1e14487a1b726222fdcdd40a",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip003_stereo.jpg": "816ba5d3096f089790e95e6c54dedbc70aef7aa8f743d8af2b23a0499c51fd97",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip004_body.jpg": "72a9a74bc5091967c5113562dff8b38977376e7051668f86d2bd34544effb6c5",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip004_inputs.jpg": "3e0313b7596345ac1ca4f1f02e1d6df86ad87855ae6f4baf8d822853ca6f33d7",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip004_shape.jpg": "807df6fe09ba251a205374b9e3529e23310de8d079d78f29e79b976dbd80917f",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip004_source.jpg": "2120a27286b17933651394e29ac10e0344045936e5489ffccbe01deb4a30956c",
+    "runs/2026-11-27_native_hand_wrist_views/assets/clip004_stereo.jpg": "14d0ae473d7ef83bf7e739a8aa4f65b34afa74e0602639aec7cc44964f3479c8",
+    "runs/2026-11-27_native_hand_wrist_views/brief.md": "ae389d833061526003488ba77fc7c1baf4cea1848e5ef710ef6e3451cdf22bec",
+    "runs/2026-11-27_native_hand_wrist_views/evidence/execution.json": "d49f20f0239f4726b8e8d40a96b72197987b8bef1fb6c5ee489cbc0aba152fa1",
+    "runs/2026-11-27_native_hand_wrist_views/evidence/mano_replay_mm.json": "975c8a7049d2354097cfca0f2bc49729041115c596b40fc6b6a411a738a3d8e4",
+    "runs/2026-11-27_native_hand_wrist_views/evidence/results.json": "0a536fa16edc6a527ece7e075473350abbce1a9101bf1863e15c54a085094f53",
+    "runs/2026-11-27_native_hand_wrist_views/native_inputs.py": "e887fcd5d8bc6e000e138e920e7d2feb6310f5279d86a9ca65df7e24f9a57fd9",
+    "runs/2026-11-27_native_hand_wrist_views/recover.py": "bf5cfc15ab757dc6d0b013a4ff3812f7f15af3ade41da37d3144f380cfcbb20a",
+    "runs/2026-11-27_native_hand_wrist_views/report.md": "9ceaed95d7d877e6751dd20107acb615826410283e9c581b7c1267513ee8e356",
+    "runs/2026-11-27_native_hand_wrist_views/review.md": "041bb14d3c1708b68c37ad99a96490fb30d3bd30d019be95b11d7abdc20704a2",
+    "runs/2026-11-27_native_hand_wrist_views/run.sh": "92e52dc3ace55a3e762e0072e39372cd493ef9258540537f63c8350430794798",
+    "runs/2026-11-27_native_hand_wrist_views/wrist_views.py": "4c400e4dac4de9c9c4e3548c03daaade085561e55aaec5e078258282a18f8f23"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}
