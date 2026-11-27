@@ -2,15 +2,14 @@
 
 DownSight 探索从头戴下视双目图像恢复人体姿态与体型。
 
-**当前黄金 D 为 `golden-d-2d-v4`。** 从同帧黄金 D v3 姿态出发，保留完整双目轮廓，再拟合一具标准体型的 SMPL-X 人体。手指、双踝及双前脚掌的局部旋转从轮廓拟合第一步起固定，直到最终选姿。
+**当前黄金 D 为 `golden-d-2d-v5`。** 每对同步鱼眼图像共享一具 SMPL-X 人体。身体沿用 v4 的双目轮廓拟合；身体定位完成后，将透视 WiLoR 指姿映射到 SMPL-X，固定指节，只用双目手点估计各候选腕向。每只手独立选源，输出连续的全身网格。
 
-[黄金 D v4 架构图与技术说明](docs/downsight/golden-d-v4/README.md) · [当前版本清单](configs/golden_d.current.json) · [24 对重新拟合结果](runs/2026-11-25_floor24_foot_lock/report.md) · [定版与回放核查](runs/2026-11-25_golden_d_v4/report.md)
-
-参考实验固定均值体型和手指姿态，使用标注辅助的 Head 位置、会话外参和画内掩码。地面视角用于网格展示。[原 EgoSMPLX 部署入口](README_LEGACY.md)
+[黄金 D v5 架构与回放说明](docs/downsight/golden-d-v5/README.md) · [当前版本清单](configs/golden_d.current.json) · [全身与双手渲染](runs/2026-11-27_perspective_wrist_gallery/report.md) · [定版核验](runs/2026-11-27_golden_d_v5/report.md) · [原 EgoSMPLX 部署入口](README_LEGACY.md)
 
 | 版本 | 识别特征 | 用途 |
 |---|---|---|
-| 黄金 D v4 | v3 起步，完整双目轮廓，手指、踝及前脚掌全程固定 | 当前研究基线 |
+| 黄金 D v5 | v4 身体，WiLoR 固定指姿，双目只转腕 | [当前研究基线](docs/downsight/golden-d-v5/README.md) |
+| 黄金 D v4 | v3 起步，完整双目轮廓，手指、踝及前脚掌在身体阶段固定 | [v5 的身体阶段](docs/downsight/golden-d-v4/README.md) |
 | 黄金 D v3 | v2 起步，四肢与根或上段脊柱联合搜索 | [v4 起点与对照](docs/downsight/golden-d-v3/README.md) |
 | 黄金 D v2 | RW20000、肩髋初始化、Head 位置约束、Adam 选解 | [v3 的起点及对照](docs/downsight/golden-d-v2/README.md) |
 | 黄金 D v1 | 全二维重投影、历史 Head 朝向初始化并参与拟合 | [前版清单](configs/golden_d.2d-v1.json) |

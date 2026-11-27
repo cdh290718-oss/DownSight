@@ -8,7 +8,7 @@ from pathlib import Path
 RUN = Path(__file__).resolve().parent
 ROOT = RUN.parents[1]
 BASE = '4a32d40765230fcf8db903cc102b1caef54484b1'
-CFG = 'configs/golden_d.current.json'
+CFG = 'configs/golden_d.2d-v4.json'
 
 
 def git_file(commit, name):
@@ -22,7 +22,7 @@ def read(path):
 def main():
     manifest = read(CFG)
     old = manifest['previous_manifest']
-    assert (ROOT/old).read_bytes()==git_file(BASE,CFG)
+    assert (ROOT/old).read_bytes()==git_file(BASE,'configs/golden_d.current.json')
     previous = read(old)
     assert (manifest['method_id'],previous['method_id'])==('golden-d-2d-v4','golden-d-2d-v3')
     for version in (previous,manifest):

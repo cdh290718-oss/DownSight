@@ -1,0 +1,95 @@
+{
+  "method_id": "golden-d-2d-v5",
+  "status": "current_default_research_baseline",
+  "source_commit": "927341aa7ef18dffa96ac1564be2cc9c60b17e9d",
+  "previous_manifest": "configs/golden_d.2d-v4.json",
+  "previous_manifest_sha256": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54",
+  "implementation": "runs/2026-11-27_wrist_only_default/wrist_only.py",
+  "body_stage": {
+    "method_id": "golden-d-2d-v4",
+    "manifest": "configs/golden_d.2d-v4.json",
+    "reference_seeds": {
+      "clip001/clip002": "archived v4-derived palm refinement",
+      "clip003/clip004": "archived purple placement and shoulder/elbow correction"
+    }
+  },
+  "hand_stage": {
+    "method": "perspective WiLoR MANO to full-body SMPL-X, fixed fingers per candidate; stereo wrist rotation only",
+    "perspective_size": [
+      640,
+      480
+    ],
+    "fit_points_per_hand": 15,
+    "excluded_from_fit": "five fingertips",
+    "robust_loss": "soft_l1",
+    "pixel_scale": 6,
+    "wrist_prior_rad": 0.65,
+    "max_function_evaluations": 180,
+    "selection": "mean robust non-tip score per available eye, select one source per anatomical hand",
+    "fallback": "preserve incoming wrist and finger parameters when no usable observations or source candidate"
+  },
+  "reference_cases": [
+    "clip001",
+    "clip002",
+    "clip003",
+    "clip004"
+  ],
+  "reference_results": "runs/2026-11-27_wrist_only_default/evidence/results.json",
+  "reference_gallery": "runs/2026-11-27_perspective_wrist_gallery/report.md",
+  "replay": "runs/2026-11-27_golden_d_v5/replay.sh",
+  "replay_scope": "archived pre-hand body seeds and perspective WiLoR observations to shared full-body parameters and cam3 OBJ in metres",
+  "locked_files": [
+    {
+      "path": "configs/real_stereo_hand.current.json",
+      "sha256": "48c83a2c4ee433159920ff0f4896c9cf213a1d2ea966bdb139d486abe0a0eca4"
+    },
+    {
+      "path": "runs/2026-11-27_wrist_only_default/wrist_only.py",
+      "sha256": "d58082a146c1ba3e29a5b992273116240b448978f7ed335cccf48417f919ef8c"
+    },
+    {
+      "path": "runs/2026-11-27_perspective_wrist_gallery/experiment.py",
+      "sha256": "0b0883a19373b3f73cb39eee7199ccc2c3bfc6145f6324987df21ddefc6ec40e"
+    },
+    {
+      "path": "runs/2026-11-27_perspective_wrist_gallery/predict_new.py",
+      "sha256": "66cf44770e85c0b20a851c247b54eba1945b627e11dd3991b4be852a4cdb4571"
+    },
+    {
+      "path": "runs/2026-11-27_vidihand2_comparison/predict.py",
+      "sha256": "172b9a390ec1239a652b2841abc6ebde8d7c1903a7de47227f0fa9905f785624"
+    },
+    {
+      "path": "runs/2026-11-27_hand_pose_transfer/transfer.py",
+      "sha256": "90ff5e092f3d50599972ec4e704063b96a3234cfe8e14903cebc62037d433e43"
+    },
+    {
+      "path": "runs/2026-11-27_wrist_only_default/evidence/results.json",
+      "sha256": "f833aa16d2e9d733645e87f77a00a25b452490969306d2c6232c97a112ebd2a8"
+    },
+    {
+      "path": "runs/2026-11-27_perspective_wrist_gallery/evidence/results.json",
+      "sha256": "5f4b3502410c126b0e4522df4608d22877d16dc70a8823853a2d6285451bdb2e"
+    },
+    {
+      "path": "runs/2026-11-25_realvideo4_dv3/evidence/calibration.json",
+      "sha256": "9483855429b939dacd3bb6374c6d025513550fe5a647fb76df545e5cd6977d39"
+    },
+    {
+      "path": "runs/2026-11-25_realvideo4_dv3/evidence/detection.json",
+      "sha256": "e203059da8a7788032344e20992174dfb666e8a96dbc7f9de698e75715adb369"
+    },
+    {
+      "path": "runs/2026-11-27_perspective_wrist_gallery/evidence/predictions.json",
+      "sha256": "9a6e1270930324e7f8d13e592088906925b8ce506b798a21f71ac279f50e90b8"
+    },
+    {
+      "path": "runs/2026-11-27_vidihand2_comparison/evidence/wilor.json",
+      "sha256": "17bf9d1350a944aa296cd7cd58644cd9ab88467f38e33a0cfafffdc9e44c3dfe"
+    },
+    {
+      "path": "runs/2026-11-27_vidihand2_wrist/video_inputs.py",
+      "sha256": "f179e617992882819074e333e42fef35363f2e82dadfb7cef6391cd0d2c2713e"
+    }
+  ]
+}

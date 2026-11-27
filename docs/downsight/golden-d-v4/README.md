@@ -1,6 +1,6 @@
 # 黄金 D v4 · 完整双目轮廓与固定手脚局部旋转
 
-`golden-d-2d-v4` 是 DownSight 的默认单帧双目人体研究方法。左右眼共享同一具均值体型的 SMPL-X 人体。原黄金 D v3 提供身体起点，v4 用两眼的完整轮廓重新拟合。正式实验分支为 `locked`。[版本清单](../../../configs/golden_d.current.json) · [参考实现](../../../runs/2026-11-25_floor24_foot_lock/lock.py)
+`golden-d-2d-v4` 是[黄金 D v5](../golden-d-v5/README.md) 的单帧双目身体阶段。左右眼共享同一具均值体型的 SMPL-X 人体。原黄金 D v3 提供身体起点，v4 用两眼的完整轮廓重新拟合。正式实验分支为 `locked`。[版本清单](../../../configs/golden_d.2d-v4.json) · [参考实现](../../../runs/2026-11-25_floor24_foot_lock/lock.py)
 
 [![黄金 D v4 架构图，从左右眼观测、v3 起点和分割边界，到锁定手脚的轮廓拟合与最终选姿](stereo-fit.png)](stereo-fit.png)
 
@@ -66,4 +66,4 @@ v4 从 v3 姿态开始再做 **72 步 Adam**。每次尝试更新时，先对身
 
 ## 如何复核
 
-开发机复现这 24 对可运行 `bash runs/2026-11-25_golden_d_v4/reproduce.sh`。入口读取当前清单，使用已封存的 v3 候选和 Sapiens2 分割概率，输出到本轮独立目录，再逐帧核对最终参数和选择。依赖资源及代码指纹见[复现核查](../../../runs/2026-11-25_golden_d_v4/report.md)。
+开发机复现这 24 对可运行 `bash runs/2026-11-25_golden_d_v4/reproduce.sh`。入口读取 v4 归档清单，使用已封存的 v3 候选和 Sapiens2 分割概率，输出到本轮独立目录，再逐帧核对最终参数和选择。依赖资源及代码指纹见[复现核查](../../../runs/2026-11-25_golden_d_v4/report.md)。

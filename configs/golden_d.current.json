@@ -1,330 +1,95 @@
 {
-  "method_id": "golden-d-2d-v4",
+  "method_id": "golden-d-2d-v5",
   "status": "current_default_research_baseline",
-  "decision": "User designated the full stereo contour refit with locked fingers, ankles and forefeet as Golden D v4.",
-  "source_commit": "f18af244dcdb5807d09ccca0c79d21a38eb89ad9",
-  "implementation": "runs/2026-11-25_floor24_foot_lock/lock.py",
-  "protocol": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
-  "methods": [
-    "2d"
+  "source_commit": "927341aa7ef18dffa96ac1564be2cc9c60b17e9d",
+  "previous_manifest": "configs/golden_d.2d-v4.json",
+  "previous_manifest_sha256": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54",
+  "implementation": "runs/2026-11-27_wrist_only_default/wrist_only.py",
+  "body_stage": {
+    "method_id": "golden-d-2d-v4",
+    "manifest": "configs/golden_d.2d-v4.json",
+    "reference_seeds": {
+      "clip001/clip002": "archived v4-derived palm refinement",
+      "clip003/clip004": "archived purple placement and shoulder/elbow correction"
+    }
+  },
+  "hand_stage": {
+    "method": "perspective WiLoR MANO to full-body SMPL-X, fixed fingers per candidate; stereo wrist rotation only",
+    "perspective_size": [
+      640,
+      480
+    ],
+    "fit_points_per_hand": 15,
+    "excluded_from_fit": "five fingertips",
+    "robust_loss": "soft_l1",
+    "pixel_scale": 6,
+    "wrist_prior_rad": 0.65,
+    "max_function_evaluations": 180,
+    "selection": "mean robust non-tip score per available eye, select one source per anatomical hand",
+    "fallback": "preserve incoming wrist and finger parameters when no usable observations or source candidate"
+  },
+  "reference_cases": [
+    "clip001",
+    "clip002",
+    "clip003",
+    "clip004"
   ],
-  "conditions": [
-    "rw20000"
-  ],
-  "body_observation_loss": "dual-view calibrated 2D reprojection, normalized Huber; no triangulated body 3D residual",
-  "head_constraints": "3D Head position soft anchor only. Neck and Head local rotations fixed at identity relative to their parents.",
-  "initialization": "Template pose and mean shape. Per-frame stereo shoulders and hips initialize root rotation; same four points via reprojection on unstable rays. Initial translation matches the Head point.",
-  "shape_policy": "reference experiment has zero-rank shape basis and fixed mean shape; shape optimization requires a separately identified variant",
-  "hand_policy": "All 30 local finger rotations stay at their v3 start throughout contour fitting and candidate selection. Full hand boundaries remain active.",
-  "step_budget": 20000,
-  "checkpoint_selection": "Select the feasible complete pose with lowest original body objective plus the full stereo contour term from the v3 start, contour Adam result, archived v3 branches and regenerated branches.",
-  "reference_detector": "RW20000 epoch 1; exact Sapiens2 base plus trained adapter identified by the checkpoint record.",
-  "reference_results": "runs/2026-11-25_floor24_foot_lock/evidence/results.json",
-  "comparisons": [
-    "runs/2026-11-25_floor24_foot_lock/report.md",
-    "runs/2026-11-25_validation200_fingers/report.md",
-    "runs/2026-11-25_frozen100_fingers/report.md"
-  ],
-  "legacy_archive": "experiments/synthetic_template_head_stereo_20261109/golden_d.json",
-  "deployment_status": "research baseline designation; legacy EgoSMPLX CLI remains a separate pipeline",
-  "limitations": [
-    "24 archived stereo pairs evaluated with all v4 locks. Larger hand-only and v3 evaluations apply to their respective methods.",
-    "Reference uses annotation-assisted Head, per-session extrinsics, in-image masks, standard shape and external assets.",
-    "Local foot rotations fixed relative to the kinematic chain. Ground contact and self-intersection are not enforced."
-  ],
+  "reference_results": "runs/2026-11-27_wrist_only_default/evidence/results.json",
+  "reference_gallery": "runs/2026-11-27_perspective_wrist_gallery/report.md",
+  "replay": "runs/2026-11-27_golden_d_v5/replay.sh",
+  "replay_scope": "archived pre-hand body seeds and perspective WiLoR observations to shared full-body parameters and cam3 OBJ in metres",
   "locked_files": [
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/run_fit.py",
-      "sha256": "078717ea018f1a4490525e14edca29bfea7ecebb78d31e4ecb4e118cc05d455e"
+      "path": "configs/real_stereo_hand.current.json",
+      "sha256": "48c83a2c4ee433159920ff0f4896c9cf213a1d2ea966bdb139d486abe0a0eca4"
     },
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/measure.py",
-      "sha256": "796e5a8f050affb0f63ead09b8ddcdb23df04bf0cd1f6a47abf6e27f9b31025d"
+      "path": "runs/2026-11-27_wrist_only_default/wrist_only.py",
+      "sha256": "d58082a146c1ba3e29a5b992273116240b448978f7ed335cccf48417f919ef8c"
     },
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/settings.json",
-      "sha256": "696e82956fc19ccdf53f9ae1da3e5477cfc419f739b6c384608e034467ec0bf9"
+      "path": "runs/2026-11-27_perspective_wrist_gallery/experiment.py",
+      "sha256": "0b0883a19373b3f73cb39eee7199ccc2c3bfc6145f6324987df21ddefc6ec40e"
     },
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/inputs.json",
-      "sha256": "817c1d4aca2885014a257932d46aea8f6e3fc15ea78d29a32b777bde13762b2e"
+      "path": "runs/2026-11-27_perspective_wrist_gallery/predict_new.py",
+      "sha256": "66cf44770e85c0b20a851c247b54eba1945b627e11dd3991b4be852a4cdb4571"
     },
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/summary.json",
-      "sha256": "4047ca1776119f7fa1eef6c2c9013a1aba2cb0999877665e5f3f2d5f41f2e91f"
+      "path": "runs/2026-11-27_vidihand2_comparison/predict.py",
+      "sha256": "172b9a390ec1239a652b2841abc6ebde8d7c1903a7de47227f0fa9905f785624"
     },
     {
-      "path": "runs/2026-11-19_rw_frozen200_free12/evidence/execution.json",
-      "sha256": "43a4e372427370b94beb3bad0ab52b621b75a8061520a88adebe83c8b44839bf"
+      "path": "runs/2026-11-27_hand_pose_transfer/transfer.py",
+      "sha256": "90ff5e092f3d50599972ec4e704063b96a3234cfe8e14903cebc62037d433e43"
     },
     {
-      "path": "runs/2026-11-19_rw_three_free12/experiment.py",
-      "sha256": "d6e8456ebf272bfc211d1fa1459bf4b5bfef18e4d3f3672b37c34f4f580ef299"
+      "path": "runs/2026-11-27_wrist_only_default/evidence/results.json",
+      "sha256": "f833aa16d2e9d733645e87f77a00a25b452490969306d2c6232c97a112ebd2a8"
     },
     {
-      "path": "runs/2026-11-19_rw_three_free12/metrics.py",
-      "sha256": "6e4ce6fb31cfeacbc8d7827b519e4f0db226b633ca181a7a2bc1f1da3ebcc788"
+      "path": "runs/2026-11-27_perspective_wrist_gallery/evidence/results.json",
+      "sha256": "5f4b3502410c126b0e4522df4608d22877d16dc70a8823853a2d6285451bdb2e"
     },
     {
-      "path": "runs/2026-11-19_rw_position_only/trial.py",
-      "sha256": "170d6744eb89591125180114d4c31aaaa6a4c9f34205291ad3ec46e86db76f56"
+      "path": "runs/2026-11-25_realvideo4_dv3/evidence/calibration.json",
+      "sha256": "9483855429b939dacd3bb6374c6d025513550fe5a647fb76df545e5cd6977d39"
     },
     {
-      "path": "runs/2026-11-19_rw_landmarks_head_views/study.py",
-      "sha256": "de769b2d60198241fed9ef13b992aa48249f67b5d410ad8ae2da1ad12bd34c4a"
+      "path": "runs/2026-11-25_realvideo4_dv3/evidence/detection.json",
+      "sha256": "e203059da8a7788032344e20992174dfb666e8a96dbc7f9de698e75715adb369"
     },
     {
-      "path": "runs/2026-11-19_rw_landmarks_head_views/evidence/calibration.json",
-      "sha256": "c1247e182c3a252139e4d117abccecaf8ab5710692899ca46b85a69c3cd47c09"
+      "path": "runs/2026-11-27_perspective_wrist_gallery/evidence/predictions.json",
+      "sha256": "9a6e1270930324e7f8d13e592088906925b8ce506b798a21f71ac279f50e90b8"
     },
     {
-      "path": "runs/2026-11-18_rw_frozen200_golden_d/protocol.json",
-      "sha256": "4f4547506cc7c1200a0362ca065130adedd9cbe26245a2d7a596305d33072a98"
+      "path": "runs/2026-11-27_vidihand2_comparison/evidence/wilor.json",
+      "sha256": "17bf9d1350a944aa296cd7cd58644cd9ab88467f38e33a0cfafffdc9e44c3dfe"
     },
     {
-      "path": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
-      "sha256": "31d1549c521ba63e0fed77cb88f016d8c8b8e98fd48f2617c0e62b0a22ab9a7d"
-    },
-    {
-      "path": "runs/2026-11-17_newdetector_d10/fit.py",
-      "sha256": "702a821aaf307b42387106e1bfd82eda0849f6c3773e5dea5bd579a52843ff22"
-    },
-    {
-      "path": "runs/2026-11-17_newdetector_d10/geometry.py",
-      "sha256": "80768c61056a19aea232803ca5cd23107fbb34b517dfd3c947100658e5417d1b"
-    },
-    {
-      "path": "runs/2026-11-17_newdetector_d10/common.py",
-      "sha256": "553a6a3ea3c83dcd1cc5763f66cfcd05a94b293813f7bb395230959d909a783e"
-    },
-    {
-      "path": "runs/2026-11-17_newdetector_d10/evaluate.py",
-      "sha256": "5fdbfd63eaadc09d3471bea47ead5053e8c56c5277c121c6b156d16fee628bcf"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/body.py",
-      "sha256": "5bc8910c377720892560faa1e6b24f701b1640f2b8cd3bbff66cbdea0ceda052"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/detect.py",
-      "sha256": "26841f039d168cbb790cadc88f74b44877a718e5fdb574c9652a92f2fc3f592a"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/score.py",
-      "sha256": "eb7a879abf809acb8679d535144c4d1f45835ca79d0cfc806bea9e8d59b0c24a"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/paths.py",
-      "sha256": "5892ccbcc4a656e85cef29b16f0159f4f059aea78acd44652759ce0c820346e0"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/paired.sh",
-      "sha256": "be641b7a38373b0b03fbbac2f55f0f27a2d3e5239c27500a8b4762180169d686"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/run.sh",
-      "sha256": "655ed28ad4546676922ebcf72e643f50c3d1713fc15f026dfba763deb4478bc0"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/sample.py",
-      "sha256": "df663698daa9ef3b9d42346503c70cf5b03a3a6a0dc2030d0ba18c40184d10aa"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/evidence/results.json",
-      "sha256": "076b5df8e15234c303fa072a1576770c6d9b28b377590752af15aecc3531d360"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/evidence/inputs.json",
-      "sha256": "c2b66b159405f00b8abdea9ca37c2e7459f5dc80164f53d1bbc236998761baec"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/evidence/detection.json",
-      "sha256": "8c3fa13a9c6053d30bfe82874ed8089dced305f0f16a900198264fd2bcf643b4"
-    },
-    {
-      "path": "runs/2026-11-23_test500_joint/evidence/verification.json",
-      "sha256": "3bf742c2519d3ede5247b5219f212a02ad1694efe60e7253e065dbbe45b9c38c"
-    },
-    {
-      "path": "runs/2026-11-23_fullbody_joint_candidates/search.py",
-      "sha256": "b6527e9fa518dc6ed5d137eeb18d20bfbaa567c8d3d9d9fca881ab6477d35912"
-    },
-    {
-      "path": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
-      "sha256": "9cfb7b2467f7af686e5cdb624f44b0c438295fe8fe21cf14c0081e2a7a7e6fa0"
-    },
-    {
-      "path": "runs/2026-11-23_stereo_wrist_candidates/shared.py",
-      "sha256": "686c861bc56a1d87d2d21d8887afb6fd561065e21e51e22072a4eb092da65e3f"
-    },
-    {
-      "path": "runs/2026-11-18_rw20000_frozen200/code/evaluate_2d.py",
-      "sha256": "9cba879adda449350e8ed921b6481ab74c41afca09a8fa2c98a3d5314ba69a0b"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/lock.py",
-      "sha256": "095ce0302dba7deb96719d41fa28079577cd7785a501336a7ac95284e45f6b10"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/assess_feet.py",
-      "sha256": "2c053e415d75c4a7522cdd148cbed45ff7982e0a22376a7776cb7a599f3c04c2"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/run.sh",
-      "sha256": "40964f05851a416e55a3a0206e63866cf0754411c77f3b4b649efd160a9163fa"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/workers.sh",
-      "sha256": "11d1f1b47cf715f05766b5f375f80955c957bf1fe57350a18a8ca267e3cd2a5d"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/evidence/results.json",
-      "sha256": "b586d7fbd683f6fdb46da6854b482d5f410c1ecb467fdedc6fd039b9b18d05d5"
-    },
-    {
-      "path": "runs/2026-11-25_floor24_foot_lock/evidence/checks.json",
-      "sha256": "e53214be54761b78ea3069bd888f47d649a3e0f4abf0abec375ab8212fbdbdfc"
-    },
-    {
-      "path": "runs/2026-11-25_validation200_fingers/inputs.py",
-      "sha256": "574434933b1f568c43779f8d90d6fc3ed7ee7c36498d5b665782d90a6f9e2c65"
-    },
-    {
-      "path": "runs/2026-11-25_validation200_fingers/segment.py",
-      "sha256": "a54c8878e20ed1904c6f3f8f5875ede0e88f38e0a35f831ac6184912afb61367"
-    },
-    {
-      "path": "runs/2026-11-25_validation200_fingers/evidence/segmentation.json",
-      "sha256": "15abd50f6ea6b1600846b8e063ffc0a996d9396ff52de773db7da44547e71fd7"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_fingers/fit.py",
-      "sha256": "8ecc3ad6cba905c368c96e7d4ee94dffebd4d2980a252e684fdbfd7d6d341986"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_fingers/geometry_inputs.py",
-      "sha256": "db13ea7af9c4c7b8663ea44d8a4ac8b58a6b71191d65a652cbde310f690f163e"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_fingers/hand_edges.py",
-      "sha256": "7e9eff053bd73dced12686e75fbe1523917499dd242d07e34d88ad45b389cf69"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_outline/compare.py",
-      "sha256": "52d3c33dbd865cc8b7de2759c8744d98624cc7364c5f2d90df83c698b0dbc524"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_outline/segment.py",
-      "sha256": "f20727dd9d3b2bc107e3e730594cd2df0ac30db43935838a6467bdb46790782c"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_outline/shared_run.py",
-      "sha256": "db1c584099363fbd2e19877b2166164ce6b6db1bc57bd6aa5bb6d1df630f3cf5"
-    },
-    {
-      "path": "runs/2026-11-25_frozen100_outline/evidence/segmentation.json",
-      "sha256": "1e42c47246b5c43498b1ffa9f17b675dae5675b97a8936d928fa59937709a145"
-    },
-    {
-      "path": "runs/2026-11-24_two_stereo_contact/fit_probe.py",
-      "sha256": "daaa93c6fe025d9eef1223ffe6c2cab28f845f68d0d3f15a0c6c56f8bac42d49"
-    },
-    {
-      "path": "runs/2026-11-24_two_stereo_contact/outline.py",
-      "sha256": "df53b2c37ded8cbe177d12e3d1cc086eb39a397682c1baadede16b3ed5b163d2"
-    },
-    {
-      "path": "runs/2026-11-24_two_stereo_contact/common_run.py",
-      "sha256": "c1544a0d109f9a653062fd2dba830f4b0f75a7d1a3f5abf3dfce13fa19ec97b5"
-    },
-    {
-      "path": "runs/2026-11-23_fixed_floor24/evidence/sample.json",
-      "sha256": "5bc50e75e8fb62a08c4421b599186d791d21fd2fd60ab5bcc098d5456c392038"
-    },
-    {
-      "path": "runs/2026-11-23_fullbody_joint_candidates/evidence/test_search.json",
-      "sha256": "ec62d68cc75e883ba1009a2820b91bbbf0f267119822b999baa216ffdffff63d"
-    },
-    {
-      "path": "runs/2026-11-23_fullbody_joint_candidates/evidence/validation_search.json",
-      "sha256": "14a1e94b26610683e9cb93ac23c9a2c78457a71162ac3574dfdffc17658ab85c"
-    },
-    {
-      "path": "runs/2026-11-24_v3_contact/contact.py",
-      "sha256": "56769581b430a655a45310521e2d7bbe81e18f02990537a605f1c97fada41894"
-    },
-    {
-      "path": "runs/2026-11-24_v3_contact/select_pose.py",
-      "sha256": "ccb5ca8ecb5eeca1423b9d1fb18560dee3d8041fc8b694a0d69062a3d5a5a1df"
-    },
-    {
-      "path": "runs/2026-11-24_two_stereo_contact/repair_local.py",
-      "sha256": "120501d8e5c1358ef19cb8a325d4142834a2bdf20a287cf9cf98c3e2ee7ed1ea"
+      "path": "runs/2026-11-27_vidihand2_wrist/video_inputs.py",
+      "sha256": "f179e617992882819074e333e42fef35363f2e82dadfb7cef6391cd0d2c2713e"
     }
-  ],
-  "previous_manifest": "configs/golden_d.2d-v3.json",
-  "detector_assets": "runs/2026-11-18_rw20000_frozen200/evidence/checkpoints.json",
-  "reference_result_key": "summary.locked",
-  "observations": "12 bilateral shoulder, elbow, wrist, hip, knee and ankle joints. Reference in-image masks without a confidence threshold.",
-  "feet_policy": "During the contour refit both ankle and both forefoot local rotations stay at the v3 start (identity in the reference). Knees and hips can move the feet.",
-  "reprojection_groups": {
-    "body": 1.0,
-    "shoulder": 0.25,
-    "wrist": 1.0
-  },
-  "primary_evaluation": "12-joint per-frame similarity PA-MPJPE and left-camera non-PA MPJPE, in mm.",
-  "protocol_scope": "The v2 settings and v3 candidates supply the start. The v4 contour stage refits each stereo frame from that start.",
-  "candidate_search": {
-    "wrist_seed": "runs/2026-11-23_stereo_wrist_candidates/candidates.py",
-    "implementation": "runs/2026-11-23_fullbody_joint_candidates/search.py",
-    "trunk_seeds": "Identity plus single-axis root (camera) or spine3 (local) rotation, preserving the fitted Head position by compensating translation.",
-    "trunk_rotation_deg": [
-      -4,
-      4
-    ],
-    "four_limb_depth_offsets_mm": [
-      -240,
-      -120,
-      -60,
-      -20,
-      0,
-      20,
-      60,
-      120,
-      240
-    ],
-    "bend_plane_angles_deg": [
-      -90,
-      -30,
-      0,
-      30,
-      90,
-      180
-    ],
-    "selected_method": "joint",
-    "fixed_trunk_control": "fixed"
-  },
-  "refinement": {
-    "start": "golden-d-2d-v3",
-    "steps": 72,
-    "optimizer": "Adam",
-    "contour_weight": 0.008,
-    "boundary": "full binocular Sapiens2 foreground and supported part boundaries including hands",
-    "finger_joints": 30,
-    "foot_body_pose_indices_zero_based": [
-      6,
-      7,
-      9,
-      10
-    ],
-    "constraint_start": "first contour update and every subsequent trial and final candidate",
-    "output_array": "locked",
-    "reference_split_sizes": {
-      "test": 12,
-      "validation": 12
-    },
-    "implementation_entrypoint": "run(start, stride)",
-    "segmentation_weights_sha256": "4b73c44963b377e93fcb4c4053f72a189836a22d05e12c30383046b9cd3c5bd4"
-  },
-  "step_budget_scope": "20,000 steps in the inherited v2 initialization, then v3 search, then 72 contour refinement steps."
+  ]
 }

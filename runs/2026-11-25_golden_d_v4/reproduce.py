@@ -16,7 +16,7 @@ def main():
     args = parser.parse_args()
     if not 0 <= args.start < args.stride:
         parser.error('require 0 <= start < stride')
-    manifest = json.loads((ROOT/'configs/golden_d.current.json').read_text())
+    manifest = json.loads((ROOT/'configs/golden_d.2d-v4.json').read_text())
     assert manifest['method_id']=='golden-d-2d-v4'
     entry = ROOT/manifest['implementation']
     sys.path.insert(0,str(entry.parent))

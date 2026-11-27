@@ -22,7 +22,7 @@ def run(i):
     torch.set_num_threads(1)
     cv2.setNumThreads(1)
     sys.addaudithook(guard)
-    manifest=read(ROOT/'configs/golden_d.current.json')
+    manifest=read(ROOT/'configs/golden_d.2d-v4.json')
     assert manifest['method_id']=='golden-d-2d-v4' and all(sha(ROOT/x['path'])==x['sha256'] for x in manifest['locked_files'])
     compare.OUT=OUT
     prev.ref.camera_files=prev.base.fit.camera_files=cameras

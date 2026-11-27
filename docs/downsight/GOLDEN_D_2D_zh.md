@@ -1,6 +1,6 @@
 # 当前黄金 D 的单帧双目身体拟合
 
-当前默认研究基线为 **`golden-d-2d-v4`**。v4 在 v3 的单帧解上用完整双目轮廓重新拟合，从第一步固定手指、双踝和双前脚掌，并在最终候选中维持这些局部角。[v4 方法](golden-d-v4/README.md) · [当前清单](../../configs/golden_d.current.json)
+当前默认研究基线为 **`golden-d-2d-v5`**。身体沿用 v4 的完整双目轮廓拟合；在身体和腕中心定位后，将透视 WiLoR 指姿映射到 SMPL-X，再用双目手点逐手求腕旋转、选择候选。[v5 架构与回放](golden-d-v5/README.md) · [当前清单](../../configs/golden_d.current.json)
 
 ## 历史连续拟合基线 v1 与 v2
 

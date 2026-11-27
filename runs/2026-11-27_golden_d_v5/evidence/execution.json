@@ -1,0 +1,45 @@
+{
+  "baseline": "927341aa7ef18dffa96ac1564be2cc9c60b17e9d",
+  "worktree_dirty_before_run": true,
+  "commands": [
+    {
+      "command": "bash <V5_RUN>/replay.sh",
+      "exit": 0
+    },
+    {
+      "command": "v4 verify.main() with isolated evidence output",
+      "exit": 0,
+      "existing_v4_replays": [
+        "pair001",
+        "pair022",
+        "pair028",
+        "pair034",
+        "pair036",
+        "pair037",
+        "pair045",
+        "pair055",
+        "pair068",
+        "pair078",
+        "pair088",
+        "pair094",
+        "val017",
+        "val031",
+        "val042",
+        "val055",
+        "val073",
+        "val100",
+        "val102",
+        "val122",
+        "val134",
+        "val168",
+        "val178",
+        "val181"
+      ]
+    },
+    {
+      "command": "compare archived v4 against baseline current bytes; compare v5 current against frozen bytes; check v5 implementation inputs against baseline commit",
+      "exit": 0
+    }
+  ],
+  "v4_manifest_sha256": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54"
+}

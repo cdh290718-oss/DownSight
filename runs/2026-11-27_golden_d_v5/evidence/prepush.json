@@ -1,0 +1,33 @@
+{
+  "baseline": "927341aa7ef18dffa96ac1564be2cc9c60b17e9d",
+  "manifest": {
+    "README.md": "6afa828d98864f2b1c61e143a385f4196097b5cf87951293438bd113b1e95f0e",
+    "configs/golden_d.2d-v4.json": "038eacf59c1000d89989a2a294064059057a3e40275cfcaf9c93489e00358e54",
+    "configs/golden_d.2d-v5.json": "debb1c17a52208283efdc62b7a282ce71147630d62e3c3796111d3328fa068f8",
+    "configs/golden_d.current.json": "debb1c17a52208283efdc62b7a282ce71147630d62e3c3796111d3328fa068f8",
+    "docs/downsight/GOLDEN_D_2D_zh.md": "32a441e36d9c83e004c600755f0ca60aa704b40bdf49bab3ec85090400a0b165",
+    "docs/downsight/WORKFLOW_zh.md": "f6e55ccad7abf11d8f9d62f92b4d9c7105ef5355a5349fb66e2804bb05933fb7",
+    "docs/downsight/golden-d-v2/README.md": "b0c083777286627e9f1c4a01ae586f89ca64f58b28565a1ab8c0f4a230fbb5b5",
+    "docs/downsight/golden-d-v4/README.md": "1d0359006777d7bd05191662f3c67f2f94de698e69ab00dfb83a3285fe953647",
+    "docs/downsight/golden-d-v5/README.md": "23a57a4974d08475f15a3a78e4e65095eae1879dd18146bfd06a5392cf057580",
+    "runs/2026-11-25_golden_d_v4/reproduce.py": "3bdf93059622d65f22592690a9fa675b8cc8eab93cd2b1fcc549b286232c3f22",
+    "runs/2026-11-25_golden_d_v4/verify.py": "181ac66bf1d71d7c59a9ed3f6e0ed3348e9b00099bc67ae6db55043b6dc6a305",
+    "runs/2026-11-25_realvideo4_dv4/refit.py": "08ce313695ba472befe3ab3e561deac3490d95e583d620f4170a772870072f17",
+    "runs/2026-11-27_golden_d_v5/brief.md": "b71804b863aedff3433ced960fd0399bf764ce16f10b838696590d5f05e9b97c",
+    "runs/2026-11-27_golden_d_v5/evidence/execution.json": "1a5713ac9de259e3aa17444c1a8dfeea4b9659844717ba0dc98e9596ae342c2c",
+    "runs/2026-11-27_golden_d_v5/evidence/verification.json": "5b83dd17371a066b618cae2d1ab2634db49aaf7a529b6ca0941d476b35e061f9",
+    "runs/2026-11-27_golden_d_v5/replay.py": "aa2de53d46587124d30cb20cfe2a7c769354d6bc7105652f6236cfaead7c2a0e",
+    "runs/2026-11-27_golden_d_v5/replay.sh": "67293e8735ff0f77f24f62ed531be5513035030eb1605fc08eabe77e79b4ea23",
+    "runs/2026-11-27_golden_d_v5/report.md": "efa91de50d58908acf9ad61c7988929799e09c1c5c70501c0b14128c103a676e",
+    "runs/2026-11-27_golden_d_v5/review.md": "e6f4ec94591597ac940a6217265051192da7bffad629f8e2288c4ef751ad834c"
+  },
+  "reviewed_worktree": true,
+  "scoped_increment_only": true,
+  "staged_files_before_receipt": 19,
+  "unrelated_changes_excluded": true,
+  "worktree_status_lines": 81,
+  "no_binary_raw_arrays_weights_private_paths_or_credentials": true,
+  "local_links_checked": true,
+  "files_under_50MB": true,
+  "remote_checked": true
+}
