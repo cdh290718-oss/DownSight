@@ -1,0 +1,212 @@
+{
+ "val023_left": {
+  "outside_hand_chain_weight_range": [
+   0.33254241943359375,
+   0.5695620179176331
+  ],
+  "dist_from_wrist_mm": [
+   6.105619256038786,
+   32.54573814225521
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 3,
+   "correctives_only": 0,
+   "both": 4
+  },
+  "parts": {
+   "palm/palm": 4
+  },
+  "max_vertex_difference_from_rigid_mm": 32.8222111285279
+ },
+ "val037_left": {
+  "outside_hand_chain_weight_range": [
+   0.3680000305175781,
+   0.5673756003379822
+  ],
+  "dist_from_wrist_mm": [
+   5.514059743767296,
+   11.514026045113864
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 2,
+   "correctives_only": 0,
+   "both": 3
+  },
+  "parts": {
+   "palm/palm": 3
+  },
+  "max_vertex_difference_from_rigid_mm": 33.989465923625694
+ },
+ "val053_right": {
+  "outside_hand_chain_weight_range": [
+   0.3027559518814087,
+   0.5893617868423462
+  ],
+  "dist_from_wrist_mm": [
+   6.689169013126788,
+   16.087335255930025
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 3,
+   "correctives_only": 0,
+   "both": 2
+  },
+  "parts": {
+   "palm/palm": 2
+  },
+  "max_vertex_difference_from_rigid_mm": 33.819820583300775
+ },
+ "val072_right": {
+  "outside_hand_chain_weight_range": [
+   0.3119305968284607,
+   0.585135817527771
+  ],
+  "dist_from_wrist_mm": [
+   7.60895226043142,
+   18.287170254634265
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 3,
+   "correctives_only": 0,
+   "both": 2
+  },
+  "parts": {
+   "palm/palm": 2
+  },
+  "max_vertex_difference_from_rigid_mm": 18.99715635091206
+ },
+ "val080_right": {
+  "outside_hand_chain_weight_range": [
+   0.35780519247055054,
+   0.5520602464675903
+  ],
+  "dist_from_wrist_mm": [
+   9.993749446238361,
+   16.66112534286986
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 1,
+   "correctives_only": 0,
+   "both": 1
+  },
+  "parts": {
+   "palm/palm": 1
+  },
+  "max_vertex_difference_from_rigid_mm": 32.15807197634853
+ },
+ "val084_left": {
+  "outside_hand_chain_weight_range": [
+   0.33254241943359375,
+   0.5608221292495728
+  ],
+  "dist_from_wrist_mm": [
+   13.111005998122566,
+   25.153176962493855
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 1,
+   "correctives_only": 0,
+   "both": 3
+  },
+  "parts": {
+   "palm/palm": 3
+  },
+  "max_vertex_difference_from_rigid_mm": 29.198704568349164
+ },
+ "val090_right": {
+  "outside_hand_chain_weight_range": [
+   0.23652535676956177,
+   0.585135817527771
+  ],
+  "dist_from_wrist_mm": [
+   7.9718320357267025,
+   21.831792521604058
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 13,
+   "correctives_only": 0,
+   "both": 17
+  },
+  "parts": {
+   "palm/palm": 17
+  },
+  "max_vertex_difference_from_rigid_mm": 34.75342350511498
+ },
+ "val093_right": {
+  "outside_hand_chain_weight_range": [
+   0.3119305968284607,
+   0.585135817527771
+  ],
+  "dist_from_wrist_mm": [
+   3.2872561528762194,
+   16.405877928657766
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 13,
+   "correctives_only": 0,
+   "both": 12
+  },
+  "parts": {
+   "palm/palm": 12
+  },
+  "max_vertex_difference_from_rigid_mm": 36.16071622244851
+ },
+ "val141_right": {
+  "outside_hand_chain_weight_range": [
+   0.3119305968284607,
+   0.585135817527771
+  ],
+  "dist_from_wrist_mm": [
+   2.966735386912847,
+   16.144004842930173
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 8,
+   "correctives_only": 0,
+   "both": 10
+  },
+  "parts": {
+   "palm/palm": 10
+  },
+  "max_vertex_difference_from_rigid_mm": 35.106341147865514
+ },
+ "val184_right": {
+  "outside_hand_chain_weight_range": [
+   0.3119305968284607,
+   0.5893617868423462
+  ],
+  "dist_from_wrist_mm": [
+   4.985439641267807,
+   16.06433306890901
+  ],
+  "counts": {
+   "v4": 0,
+   "rigid": 0,
+   "weights_only": 18,
+   "correctives_only": 0,
+   "both": 13
+  },
+  "parts": {
+   "palm/palm": 13
+  },
+  "max_vertex_difference_from_rigid_mm": 36.416990310775695
+ }
+}

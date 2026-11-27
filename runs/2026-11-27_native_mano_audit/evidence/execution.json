@@ -1,0 +1,28 @@
+{
+  "base": "fe16f83422c3996d138638d2510b789764f4c675",
+  "dirty_tree": true,
+  "stages": {
+    "predict_new": 0,
+    "measure wrist": 0,
+    "measure native": 0,
+    "gallery": 0
+  },
+  "inputs_and_sources_sha256": {
+    "runs/2026-11-27_validation200_v5/evidence/selection.json": "80decc607f5c9d0848bcbb495fbb7cfb692f610f7265a277f4baf009402505ed",
+    "runs/2026-11-27_validation200_v5/evidence/predictions.json": "d3e00dc37f2b036ca798ec8150c0dc6b379ac1652dfadd8729f365ee0192a1d1",
+    "runs/2026-11-27_v5_hand_self_review/evidence/hands.json": "486aecfc385b7c8b995bfdecd28a8ce9aa90366c9995abd178eccc10cd64b941",
+    "runs/2026-11-27_native_mano_audit/predict_new.py": "b2bbe1885c0cee44041421005d8f731573abaa92c2e2a86a2e9eaf41d0f8fbaf",
+    "runs/2026-11-27_native_mano_audit/gallery.py": "0af652d3c15764c42457496681f6c983e751cec3c7f56fda5ab39fe6c413a00e",
+    "runs/2026-11-27_native_mano_audit/launch.py": "ba6aadfa3c156926104ce58231d7dbd68eddc618daf1ac9de82f1ff733a6aa23",
+    "runs/2026-11-27_native_mano_audit/mesh_audit.py": "a38730340c752088606f301589fe4a512bb30285ec01a957ad2ab645a0fd5d4b",
+    "runs/2026-11-27_native_mano_audit/assets/val184_left.jpg": "c2aa39b8bac55d5eddabdf542913363e1431336231fe5c43fba2e635d4e7709b",
+    "runs/2026-11-27_native_mano_audit/assets/val001_left.jpg": "141624411dff730c4b9513bd18fb179867b3185c32d6fda23b965b6f1fce32b6",
+    "runs/2026-11-27_native_mano_audit/assets/val155_right.jpg": "d9cd6f38f0d7d7da032dda423442985e26328b18f58bcff300f3adc5a509cf69",
+    "runs/2026-11-27_native_mano_audit/assets/val072_right.jpg": "1b5d5daa850f038c2ebd6ee17b09390caaf3199461754f059ab9ac0499989d72"
+  },
+  "recovered": [
+    "Additional skin-weight query initially rejected unsigned vertex indices; repeated with signed indices.",
+    "Initial gallery import collided with an archived module name; renamed this run module and reran."
+  ],
+  "published_scope": "reviewed staged and outgoing blobs only; no raw geometry or images"
+}
