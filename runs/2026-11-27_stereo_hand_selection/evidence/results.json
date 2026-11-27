@@ -1,0 +1,103 @@
+{
+  "images": {
+    "clip003_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "8ef487b63f8dc6d420a2e9457b8ec3599423ca4ade48be0d174cdb62e0776073"
+    },
+    "clip003_hand_OBJ": {
+      "size": [
+        1024,
+        564
+      ],
+      "sha256": "2227ef0bae787adc232e4cd143ec16d0498ecd59dfa8a3da4a96f9fdf55da4a2"
+    },
+    "clip003_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "3a14f63b87749407c4e9ba72de0d711f2e2b7f56634e8afdd3edc5e67daef1ce"
+    },
+    "clip003_cam3_points": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "bc6184eac822ccc03e1e2f91d8768ca278c4ae0ee2ca2bf3da055c874dd4a976"
+    },
+    "clip003_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "562c3bb28557724c932530215d833f88c6020b3660a15c22f27252eeecb521e5"
+    },
+    "clip003_cam4_points": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "ce844af1318167827c9f5566e44fa056d592e9d6a3f24ce1bbea8677652c8ab9"
+    },
+    "clip003_hands": {
+      "size": [
+        1160,
+        1264
+      ],
+      "sha256": "94d3664e495b4ea6a2743b8a8383d2faf8314e34542f3633953d93a7eac48c73"
+    },
+    "clip004_body": {
+      "size": [
+        700,
+        506
+      ],
+      "sha256": "c820f9b52b6d4d18f54d91c0ad2ce7e0526bcc335320f55998ff50d97c0de70b"
+    },
+    "clip004_hand_OBJ": {
+      "size": [
+        1024,
+        564
+      ],
+      "sha256": "d1a717548ebbc9a3ed9188ebd98fe62efe36dd9d44f176782318c4fd3f586de7"
+    },
+    "clip004_cam3": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "f325f9b0ee3aa7597b067d091f04874cb52da3f7aa99ec9780de185e0cd73f06"
+    },
+    "clip004_cam3_points": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "b9ec30af7eef706e6df79e8f00e0379a09ee65ac2d192e741acc0e5d6117cc40"
+    },
+    "clip004_cam4": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "8904056de15e68f5b633ef8c80fb75352a1dfc478e2a7caff961059374ac35bc"
+    },
+    "clip004_cam4_points": {
+      "size": [
+        1280,
+        720
+      ],
+      "sha256": "a25a1fc47681678cd2fa171eaebbf3f255b34439969ff45af684c993f2e7c0da"
+    },
+    "clip004_hands": {
+      "size": [
+        1160,
+        1264
+      ],
+      "sha256": "e0a1cea410775ff7fbeb7dc80b216cbd3025a724d90f8a20c497370958110ec4"
+    }
+  },
+  "exit_status": 0
+}

@@ -1,0 +1,29 @@
+{
+  "baseline": "1961fa4f69cd63dcd5088f7a7d774065cc3e54ca",
+  "input_run": "2026-11-27_hand_pose_transfer",
+  "run_paths_relative": true,
+  "worktree": "New run files plus unrelated existing modifications. Only this run is included.",
+  "commands": [
+    {
+      "command": "bash <RUN>/run.sh choose",
+      "exit": 0
+    },
+    {
+      "command": "bash <RUN>/run.sh render_selection",
+      "initial_exit": 1,
+      "error": "The name visuals resolved to the older B comparison run. Its module has no mark helper.",
+      "retry_exit": 0,
+      "final_visual_check": "Local zoom framing adjusted after viewing; scores and model parameters unchanged."
+    }
+  ],
+  "device": "CPU",
+  "joint_indexing": "MANO wrist then thumb/index/middle/ring/pinky, four joints per finger including tip.",
+  "unit": "pixel Euclidean distance; holdout uses every in-frame automatic fingertip",
+  "fit_scope": "Pre-existing archived B wrists and candidate fingers; discrete selection only.",
+  "files": {
+    "per_hand_scores": "selection.json",
+    "final_geometry_and_holdout": "metrics.json",
+    "image_audit": "results.json",
+    "attachment_audit": "attachment_audit.json"
+  }
+}
