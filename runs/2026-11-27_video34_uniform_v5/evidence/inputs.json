@@ -1,0 +1,110 @@
+{
+  "shards": {
+    "0": "c703596eaed23fe6944fc3bbc92bafdf1ca8e9cd73357f7b7760b02d3c402f9c"
+  },
+  "protocol": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "method": "golden-d-2d-v3",
+  "backend_native_roundtrip_max_px": [
+    0.00025502448258122,
+    0.0002710574132752017
+  ],
+  "baseline_m": 0.1520187234608972,
+  "brow_cam3_m": [
+    0.0768831729972209,
+    0.0467993041606615,
+    -0.05173225213179377
+  ],
+  "head_cam3_m": [
+    0.0686145073787291,
+    0.1387879203018692,
+    0.008860490984699682
+  ],
+  "template_brow_to_head_m": [
+    0.011097215116024017,
+    -0.06269940733909607,
+    -0.09026291035115719
+  ],
+  "summary": {
+    "v003_01": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_02": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_03": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_04": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_05": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_06": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_07": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_08": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_09": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v003_10": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_01": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_02": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_03": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_04": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_05": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_06": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_07": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_08": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_09": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    },
+    "v004_10": {
+      "valid_joint_views": 24,
+      "fallback_reason": null
+    }
+  },
+  "exit_status": 0
+}

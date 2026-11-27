@@ -1,0 +1,189 @@
+{
+  "hashes": {
+    "v004_03_obj.jpg": "e5bab369a32534e711647489d10f542df9d30d761a16d7b0ff651cc511abd230",
+    "v004_03_handobj.jpg": "80bbd3fcf10c948539a3974c08352defe11a6910844cb4a9162b697e3b625e56",
+    "v004_03_mesh.jpg": "a364236d53bea1c743942260b8cf62b2655f8600fb86cd33394ae51e0fbac293",
+    "v004_03_points.jpg": "0f4731ccdf510cf146b59de60c3a5b721b6a4332698810506a8aa54177d7ec4b",
+    "v004_03_both.jpg": "a11026596262e31c250cf9a4b5777e28b95b49bb937fc9f1129070e606fc2822",
+    "v004_03_hands.jpg": "af0229f4b0dbbd449f348db90b4892828335ff6b1f5d120540f119e731dd7595",
+    "v004_03_overview.jpg": "aabfe545fdca6d22fcf6b9f0f58a6d1db55101a38526e3b94fea3425e6110b06"
+  },
+  "source": {
+    "v4_sha256": "5391794d655103ca99b1bc728751e341555a018afe9ba53d939c495f6ae9024f",
+    "palm_sha256": "8f63561b534a279aec292067d5cf7d6e1bdd62a58990a34188f78fef719775b3",
+    "palm_fallback": "",
+    "valid_elbow_wrist_by_eye": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "purple_translation_m": [
+      0.01690917498210326,
+      0.03986037069715783,
+      0.0724130816925413
+    ]
+  },
+  "obj": "v004_03_v5_cam3_m.obj",
+  "obj_sha256": "6287bc0cc53cd4222e1083f42d2d0f33bc7d5b81a8845484c0b7e8272818e183",
+  "drift_mm": 0.0,
+  "hands": {
+    "left": {
+      "source": "cam3",
+      "candidates": {
+        "cam3": {
+          "score": 5.502644397965765,
+          "evaluations": 21,
+          "source_sha256": "86d55162be699e57da7b4250b8686d435df96af965adab0c2ce92d4c49fcb3bc"
+        },
+        "cam4": {
+          "score": 5.7626435732442935,
+          "evaluations": 20,
+          "source_sha256": "ef5cdf69f1f1bd31a20a35b8dd3a5088eedf456c6e46117b8905c3e9129adfb6"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "right": {
+      "source": "cam4",
+      "candidates": {
+        "cam3": {
+          "score": 7.287635090552078,
+          "evaluations": 20,
+          "source_sha256": "5b84dbcbb7b765a2b332424b91285539aedc2f74c722d354f81397569bdc9b6e"
+        },
+        "cam4": {
+          "score": 7.266540580583145,
+          "evaluations": 21,
+          "source_sha256": "31a5c04f3be86539df9735ce07706dec9672b4d914c48a0905f1431c61c79227"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    }
+  },
+  "errors": {
+    "body": [
+      46.038719080843684,
+      9.137557627636205,
+      3.547599450651005,
+      43.78168291609702,
+      4.0934054420411625,
+      0.7774504022334573,
+      44.503140533051734,
+      35.76941348081344,
+      28.840299938775356,
+      42.140607868512134,
+      31.968740546394883,
+      28.6432068644428,
+      8.007954692682631,
+      12.074244522520969,
+      2.578742077099756,
+      64.57955516094366,
+      5.367168108480833,
+      0.785899189833428,
+      28.030423689599882,
+      24.381715018450762,
+      17.726110930617807,
+      41.31760123706581,
+      24.89125393566462,
+      13.14252418240362
+    ],
+    "tips": [
+      9.330022991516243,
+      24.283621960808546,
+      32.80037453988427,
+      25.27615759772206,
+      24.854427877805033,
+      47.68834469332457,
+      49.543271439046045,
+      54.1360094091892,
+      48.81195228125674,
+      44.38705775183635,
+      20.537728958044315,
+      31.08808445611951,
+      33.36618163603363,
+      26.706464212498975,
+      29.50009694004565,
+      40.66494101761806,
+      47.50632826645006,
+      44.22247185984356,
+      40.75450008293541,
+      35.30893287271369
+    ]
+  },
+  "exit_status": 0
+}

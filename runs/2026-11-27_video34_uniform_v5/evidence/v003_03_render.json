@@ -1,0 +1,175 @@
+{
+  "hashes": {
+    "v003_03_obj.jpg": "658a142864b4b9ba76537a4745187eaa183a99b1c842d65db4eefa2d9ee4d43f",
+    "v003_03_handobj.jpg": "3dc87d4e82db09f9e34e7f1a3b488afe7a00248868d2cc8e5e6f02a4e519bf86",
+    "v003_03_mesh.jpg": "037383a75a5edb0a51a1c365a3888e012f776af2d674a1cfd6660b02ae9a4c91",
+    "v003_03_points.jpg": "12def6d064104fa457e521b811e49a375090a15ab675fce563b52c72f8e360dd",
+    "v003_03_both.jpg": "80a3e42d62171d3f7dbc7d160c394557bfb999e14b4a42f2715871309b0e59ee",
+    "v003_03_hands.jpg": "21034e5795a0cc32f3810da01b2445baf5f7797beffd27bb9d692b3231406e9c",
+    "v003_03_overview.jpg": "83057cfddd6801189f9b7ecccd77038d4ad92e55b2b50596dc8a95233b5a60d7"
+  },
+  "source": {
+    "v4_sha256": "483ff4a23aa4f35c17583a4b039e09e3dd9410580ef4c9bfced9038467ea50fa",
+    "palm_sha256": "483ff4a23aa4f35c17583a4b039e09e3dd9410580ef4c9bfced9038467ea50fa",
+    "palm_fallback": "palm seed points outside image",
+    "valid_elbow_wrist_by_eye": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "purple_translation_m": [
+      0.01690917498210326,
+      0.03986037069715783,
+      0.0724130816925413
+    ]
+  },
+  "obj": "v003_03_v5_cam3_m.obj",
+  "obj_sha256": "a3bc1b4638cd22438c764ffec0f7cf13c5725958cb738e9010c720150ab301da",
+  "drift_mm": 0.0,
+  "hands": {
+    "left": {
+      "source": "cam3",
+      "candidates": {
+        "cam3": {
+          "score": 13.010842328529405,
+          "evaluations": 10,
+          "source_sha256": "3d9f9760f5c9421b11ba06715925c519703179b6fc2a59869ca1eff9c2cf0d7d"
+        },
+        "cam4": {
+          "score": 13.54039828916021,
+          "evaluations": 8,
+          "source_sha256": "9dbc7d91e2de1856ed96b9ec25ddcd9043608a7cf7fd230954f683c417b5490d"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "right": {
+      "source": "no candidate",
+      "candidates": {},
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ]
+      ]
+    }
+  },
+  "errors": {
+    "body": [
+      44.00961783728796,
+      9.77644704671435,
+      6.468688118834787,
+      41.48846474371242,
+      22.057438831414938,
+      3.622369429756948,
+      37.12090173638984,
+      35.03612854241853,
+      32.49542510513762,
+      43.1254704363377,
+      28.164219927463783,
+      19.87568779334289,
+      20.733759789220812,
+      17.48393295449674,
+      5.082692780831271,
+      63.30100326621632,
+      21.926044393172944,
+      3.911840336461703,
+      24.980932948438717,
+      16.60262903019705,
+      7.721213817727389,
+      30.779944991741502,
+      23.693831688674482,
+      20.73884471546812
+    ],
+    "tips": [
+      23.039510804011066,
+      220.81726313272586,
+      231.9276819691325,
+      5.306474074546174,
+      4.338974904138434,
+      257.1408687025475,
+      247.364295550926,
+      652.108120732545,
+      82.37405069912766,
+      13.270108970740079,
+      265.9226043455882,
+      272.0423203159655,
+      24.823302130033916,
+      9.987754588961925,
+      242.83898016220317,
+      227.6318992264589,
+      101.24504895913871
+    ]
+  },
+  "exit_status": 0
+}
