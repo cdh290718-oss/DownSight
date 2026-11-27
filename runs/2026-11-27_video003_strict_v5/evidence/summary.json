@@ -1,0 +1,28 @@
+{
+  "body_rmse_px": 10.150797915380956,
+  "body_n": 240,
+  "tips_rmse_px": 122.41693134941919,
+  "tips_n": 166,
+  "fallback": [
+    {
+      "pair": "v003_03",
+      "side": "right",
+      "reason": "no candidate"
+    }
+  ],
+  "members": {
+    "v003_01_v5_cam3_m.obj": "e302d4239942d2158e77c4e1ab8cd3272d51b83a16af35aea9a8653e530a1780",
+    "v003_02_v5_cam3_m.obj": "411aaa7609148ee5df956f6c684cc3463e6e5cc169de506491f74a74205f229e",
+    "v003_03_v5_cam3_m.obj": "a892a501e75695a29880114babc91b2aaf51b6dd65e2608ebe110202cafb613b",
+    "v003_04_v5_cam3_m.obj": "f763d9ce175851d4014b7822fd084854111a6f41c709f41035fe384b9bab9c41",
+    "v003_05_v5_cam3_m.obj": "044620e7995982e6f450e39e93266cdc79cd96452bd21e4fd9b3fcc5973d7f40",
+    "v003_06_v5_cam3_m.obj": "ed0b2d4f2a3690a4c1b683af18955c31faf1827e37fffb2736d1583d46e8df7e",
+    "v003_07_v5_cam3_m.obj": "27004aa3427e4a5c79f27c7840ef693873c5cfa3cab48debe21a15819c39c5da",
+    "v003_08_v5_cam3_m.obj": "8b3e78f8d2c5cc0d0308b7087e53994f7527eba7797a13397936c0a04d9c1eb2",
+    "v003_09_v5_cam3_m.obj": "18ca21db4f585247a628126762dc74702acd4afb2b88cf6212844eb4f6c1399c",
+    "v003_10_v5_cam3_m.obj": "4e3bff9afa8656af44cc43da353d04c7e1b63f9f5c600c9ec63672fe1ed802b5"
+  },
+  "archive_sha256": "150c42308afa7604d03a4b51eaaa888e5d52ade220537aca5fe740597d49a679",
+  "montage_sha256": "f443005b1800b9909b4e6ab6fccef46c036ab4c30e853e3e7faf7eadff56bdc4",
+  "exit_status": 0
+}

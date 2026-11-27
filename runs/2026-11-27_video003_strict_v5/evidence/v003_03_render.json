@@ -1,0 +1,158 @@
+{
+  "hashes": {
+    "v003_03_obj.jpg": "7c44fd4c34cb45a8299cbb248aa1a3e60376efedf39b6da6eb6ce4dd72e1c552",
+    "v003_03_handobj.jpg": "8bc6a48a1fe38bf871c425718e7fe24b985093d4dd32536a9899fd821449c66f",
+    "v003_03_mesh.jpg": "0f0d50058308434c144fc56d29e39b362517c36d905c1856b0934da85237e054",
+    "v003_03_points.jpg": "da0a656c9cd3d27f1bdfc9db4d6c18f1fa633a215b3f4667774bf1fc8b802c98",
+    "v003_03_both.jpg": "4442b4efcaea9bbfcc32982b79b423ea259e392762f184de8b2ea181d68fee71",
+    "v003_03_hands.jpg": "1a7abea9393a6463ff21e612195b25a55d4b192750aaa082f598e549a6e576e1",
+    "v003_03_overview.jpg": "bc54e6ebd7098d26e97d252dd120825257504d68ca0a37b7509383a70cef5e49"
+  },
+  "source": {
+    "v4_sha256": "483ff4a23aa4f35c17583a4b039e09e3dd9410580ef4c9bfced9038467ea50fa"
+  },
+  "obj": "v003_03_v5_cam3_m.obj",
+  "obj_sha256": "a892a501e75695a29880114babc91b2aaf51b6dd65e2608ebe110202cafb613b",
+  "drift_mm": 0.0,
+  "hands": {
+    "left": {
+      "source": "cam3",
+      "candidates": {
+        "cam3": {
+          "score": 12.940247764486868,
+          "evaluations": 8,
+          "source_sha256": "3d9f9760f5c9421b11ba06715925c519703179b6fc2a59869ca1eff9c2cf0d7d"
+        },
+        "cam4": {
+          "score": 13.457538936165781,
+          "evaluations": 8,
+          "source_sha256": "9dbc7d91e2de1856ed96b9ec25ddcd9043608a7cf7fd230954f683c417b5490d"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "right": {
+      "source": "no candidate",
+      "candidates": {},
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true
+        ]
+      ]
+    }
+  },
+  "errors": {
+    "body": [
+      9.722742816414485,
+      8.327672011146609,
+      2.440289491674367,
+      5.324773300697882,
+      5.528580577418737,
+      1.1840514830152047,
+      8.568597912228414,
+      10.92457109069152,
+      12.864284300923611,
+      16.63406464420192,
+      4.703489570384358,
+      5.998496379624382,
+      7.9743045699635084,
+      6.061050214651332,
+      3.192988853077847,
+      7.380030567144609,
+      5.420210584263535,
+      3.9924843074791085,
+      16.91210123366635,
+      10.98840904600927,
+      13.179249375958442,
+      10.858201440159391,
+      4.65028265993926,
+      5.9434488259566365
+    ],
+    "tips": [
+      16.790895989175226,
+      225.54662572710484,
+      236.45084075603734,
+      4.105373143981293,
+      4.8329619591036,
+      271.19555880013297,
+      260.54470331285086,
+      664.4845177714017,
+      88.7940081063178,
+      10.050581094722924,
+      267.72334418050434,
+      273.13016903296585,
+      22.976307729801825,
+      9.296081689937429,
+      255.77924002464175,
+      241.215303506358,
+      105.98346763806227
+    ]
+  },
+  "exit_status": 0
+}

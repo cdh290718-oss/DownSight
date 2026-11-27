@@ -1,0 +1,172 @@
+{
+  "hashes": {
+    "v003_09_obj.jpg": "244788fd2cb6062c50a143186ce913a18d8b48cf75c7edf27691fd5ccaa33d32",
+    "v003_09_handobj.jpg": "197a8c35e3cf47ec6c39dca4b46fdfbca7513c8027e03dc4eb3d1a01749af874",
+    "v003_09_mesh.jpg": "997566c5e322cfccc0ac8ef826e89fccf9f456ee6b1f601725668d149ff78591",
+    "v003_09_points.jpg": "13888c8d60bccfe92ad89affc95afcd391ec627cb238ae155c90339887a6179a",
+    "v003_09_both.jpg": "69bdb3342c36b7fd5d1a42043da0591c2b7956794d76530e8a548b09c24dfb5c",
+    "v003_09_hands.jpg": "55fb029e63faf43f6b6f6bb098f1c4970b276325e1bcecc2a13d612a1f460848",
+    "v003_09_overview.jpg": "2d769e1ddd3fb28aa06b1a51a05c6ccfdd3317e7285a3ee7d1727a08b787dffc"
+  },
+  "source": {
+    "v4_sha256": "4c1c01aeaca49ff477f221ef5f505fb374d01f99695a21e3feade58b712568e9"
+  },
+  "obj": "v003_09_v5_cam3_m.obj",
+  "obj_sha256": "18ca21db4f585247a628126762dc74702acd4afb2b88cf6212844eb4f6c1399c",
+  "drift_mm": 0.0,
+  "hands": {
+    "left": {
+      "source": "cam3",
+      "candidates": {
+        "cam3": {
+          "score": 5.148250429106927,
+          "evaluations": 12,
+          "source_sha256": "ed895b3ca6c04efb28002da0b5c1e2cf0d380c2ee84e6abec5b287d7f0f1eb9d"
+        },
+        "cam4": {
+          "score": 5.194575361764829,
+          "evaluations": 11,
+          "source_sha256": "97ec2e6bf33654a13b15b2a6c969eca23e97e3f5f1c93386b6b6e4d4b8060b0e"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "right": {
+      "source": "cam4",
+      "candidates": {
+        "cam3": {
+          "score": 4.8489341318437695,
+          "evaluations": 20,
+          "source_sha256": "76c27307b3990328c247692f1931a4e1db7a5bb5cfe4467e283400aa8d4fb1b0"
+        },
+        "cam4": {
+          "score": 4.534815506032315,
+          "evaluations": 15,
+          "source_sha256": "b19b04d12f8adaa38c1e2cfd20f1db3d1c39b47474c55014cb3195b393752f12"
+        }
+      },
+      "fit_mask": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    }
+  },
+  "errors": {
+    "body": [
+      2.1769048432116747,
+      4.436041535448157,
+      6.084702086365164,
+      2.370413546065114,
+      14.069635600118442,
+      4.796554169360326,
+      11.167397606076653,
+      8.954312351145669,
+      10.829504849211757,
+      17.19101311274835,
+      9.790181051669917,
+      3.4920771498005942,
+      1.8062038552958912,
+      3.7534665451855984,
+      4.950128540431633,
+      5.867601178572428,
+      11.133748532749513,
+      9.665452421613674,
+      19.07994024427361,
+      8.739712150474409,
+      10.750397361233068,
+      4.718903805352708,
+      9.55260296492462,
+      2.771691939834019
+    ],
+    "tips": [
+      20.75760093007905,
+      15.004086088261204,
+      25.9634924511811,
+      4.870179747209682,
+      25.15424828588337,
+      23.163151845350132,
+      29.805828681861506,
+      30.10378251984763,
+      19.869801765228992,
+      16.787625536457437,
+      16.80705418761467,
+      25.677874312297952,
+      32.828256342940605,
+      11.36734709522761,
+      4.6759986050296805,
+      12.34262285536659,
+      11.890225302178234,
+      19.019759659658444,
+      11.151576103057097,
+      29.513480079693707
+    ]
+  },
+  "exit_status": 0
+}
