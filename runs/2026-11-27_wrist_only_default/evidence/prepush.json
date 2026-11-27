@@ -1,0 +1,29 @@
+{
+  "baseline": "be61d4ac3843642f7d65b106dc9ecbdd06122c7f",
+  "remote_before_commit": "be61d4ac3843642f7d65b106dc9ecbdd06122c7f",
+  "worktree_reviewed": true,
+  "unrelated_status_lines_excluded": 62,
+  "scoped_delta_only": true,
+  "under_50MB": true,
+  "git_binary_files": "No binary files in this publication.",
+  "images": 0,
+  "no_raw_mesh_arrays_original_images_weights_or_full_outputs": true,
+  "no_machine_paths_or_secrets_found": true,
+  "staged_manifest_before_this_record": {
+    "configs/real_stereo_hand.current.json": "48c83a2c4ee433159920ff0f4896c9cf213a1d2ea966bdb139d486abe0a0eca4",
+    "runs/2026-11-27_wrist_only_default/brief.md": "59c625bc782cc1d0d5658ca461059a5fc09b67bdb5ffb9b3605091958fab9315",
+    "runs/2026-11-27_wrist_only_default/evidence/execution.json": "60bdb94680903782d21b9eb9203ee91f7d5b89edac76ec6a6ce22fd2dff9aa12",
+    "runs/2026-11-27_wrist_only_default/evidence/results.json": "f833aa16d2e9d733645e87f77a00a25b452490969306d2c6232c97a112ebd2a8",
+    "runs/2026-11-27_wrist_only_default/report.md": "c40116c7e7c2544c76a069d01701f20e6470890795493ab0d9e5d299a045f896",
+    "runs/2026-11-27_wrist_only_default/review.md": "70365dc92693f5808eb67902a7bf2faa78c559cd9caef491ea783b105dfa581a",
+    "runs/2026-11-27_wrist_only_default/run.sh": "4bf6cb7d3e54cca5d3bd1e513dd8393cdd6d83c85ffd3844e1009b2c5215a715",
+    "runs/2026-11-27_wrist_only_default/wrist_only.py": "d58082a146c1ba3e29a5b992273116240b448978f7ed335cccf48417f919ef8c"
+  },
+  "checks": [
+    "git diff --cached --check",
+    "check.py record and verify",
+    "git diff --check <baseline> HEAD",
+    "check.py commit",
+    "remote HEAD checked before push"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "DownSight real stereo hand stage after body fitting",
+  "decision": "Use perspective WiLoR finger rotations mapped to full-body SMPL-X and fit each candidate wrist rotation to calibrated stereo observations.",
+  "inputs": ["pre-hand body parameters with wrist centers and initial wrist rotation", "camera calibration", "per-eye hand landmarks", "camera-specific perspective WiLoR MANO finger candidates"],
+  "candidate_scoring": "Use up to 15 screened non-tip landmarks for each available eye; select one candidate per anatomical hand for the shared body.",
+  "reference_solver": "runs/2026-11-27_perspective_wrist_gallery/experiment.py",
+  "standalone_replay": "runs/2026-11-27_wrist_only_default/run.sh",
+  "comparison_gallery": "runs/2026-11-27_perspective_wrist_gallery/report.md"
+}

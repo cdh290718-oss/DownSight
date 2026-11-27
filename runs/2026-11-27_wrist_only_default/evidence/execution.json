@@ -1,0 +1,9 @@
+{
+  "baseline": "be61d4ac3843642f7d65b106dc9ecbdd06122c7f",
+  "worktree_dirty_before_start": true,
+  "commands": [
+    {"command": "bash <RUN>/run.sh fit", "attempt": 1, "exit": 1, "detail": "An archived dependency used the same Python module name as the gallery. Loaded the gallery with its own module name for the successful run."},
+    {"command": "bash <RUN>/run.sh fit", "attempt": 2, "exit": 0, "inputs": "Pre-hand body seeds, camera calibration, raw 2D detections, perspective WiLoR candidate caches and their provenance. Full B pose files and comparison metrics were blocked during fitting."},
+    {"command": "bash <RUN>/run.sh verify", "exit": 0, "checks": ["archived selected finger and wrist parameters and all other stored body arrays", "source per anatomical hand", "serialized full-body OBJ SHA-256"]}
+  ]
+}
