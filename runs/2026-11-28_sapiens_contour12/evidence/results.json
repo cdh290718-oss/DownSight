@@ -1,0 +1,1333 @@
+{
+  "base_commit": "bbc60839d3635be7da15690f48c1f89e3dbb3cb5",
+  "dirty_worktree": true,
+  "command": "python -B <RUN>/render.py",
+  "preparation_sha256": "9ecf1b4c2ec98490e7d6fc1e44c80757806090f2d88984b0bc0ba2fddde775a8",
+  "segmentation_sha256": "1e42c47246b5c43498b1ffa9f17b675dae5675b97a8936d928fa59937709a145",
+  "gallery_sha256": "2c974fb0d47d61ff59c25b3a035af3b63a1c5e176efe806ee03f529d743eb664",
+  "frames": 12,
+  "views": 24,
+  "rows": [
+    {
+      "pair": "pair001",
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "image_sha256": "b76e5c7170d860968f7e4de330068a70bb336cb8fee1d7934205303dba6a23ff",
+          "probability_sha256": "017231255e7da3b6be9cdf3da3911bd459fc1b27f88b69e15b77dc9d51c561ef",
+          "render_sha256": "57d47779048f6f1dc7ea0a7b11232dfa65f43461fefa278566f932e685a85f48",
+          "channels": {
+            "foreground": {
+              "area": 13904,
+              "boundary": 847,
+              "used": true
+            },
+            "left_hand": {
+              "area": 211,
+              "boundary": 67,
+              "used": true
+            },
+            "right_hand": {
+              "area": 163,
+              "boundary": 59,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 257,
+              "boundary": 87,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 344,
+              "boundary": 88,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "ff894f0f3b940081d65b810138a20f00cd3fb06b1a5dbe4682ccb0cea9b0cb1b",
+          "probability_sha256": "6747294a843465fa7d6a582e6971190f8d2a6c7bb6284774f60698dcf32d5383",
+          "render_sha256": "cd227f926721176c8577638c100d22b79322c944121468c85bb9b46f367aab00",
+          "channels": {
+            "foreground": {
+              "area": 12653,
+              "boundary": 814,
+              "used": true
+            },
+            "left_hand": {
+              "area": 129,
+              "boundary": 64,
+              "used": true
+            },
+            "right_hand": {
+              "area": 111,
+              "boundary": 50,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 292,
+              "boundary": 91,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 289,
+              "boundary": 82,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair022",
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "image_sha256": "2e9139454b938e6cc21c32248beb22f4d65b8fe555747448989f08f8728bd2ac",
+          "probability_sha256": "fa47697c58c878309736002fceaacc97eec4205ccb6aa1b3605555126db98215",
+          "render_sha256": "9d6ccdcc1b1c0e064c9c3e519554f4d47069a275004cdd9d77a678bc72a0da9a",
+          "channels": {
+            "foreground": {
+              "area": 13137,
+              "boundary": 835,
+              "used": true
+            },
+            "left_hand": {
+              "area": 111,
+              "boundary": 53,
+              "used": true
+            },
+            "right_hand": {
+              "area": 448,
+              "boundary": 98,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 29,
+              "boundary": 20,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 15,
+              "boundary": 15,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "c6b09ba986324fcf501091ccebb20f60661dd4228096958382dcfab2c508eda5",
+          "probability_sha256": "9e220f0abfaf0efd69df4f87b18540cc4b2b347ccfea816af6f75713e719ebee",
+          "render_sha256": "f319a1e5cf6d84956816c9c71b8774b4c6322566c99e3e37d52c07fc546dbd8c",
+          "channels": {
+            "foreground": {
+              "area": 11608,
+              "boundary": 703,
+              "used": true
+            },
+            "left_hand": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_hand": {
+              "area": 332,
+              "boundary": 80,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 87,
+              "boundary": 35,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair028",
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "image_sha256": "dfe4fe9b3402c25deaa442d3cba348480519ebcfa5f4cd3238333ccc7f6c41d9",
+          "probability_sha256": "da65d4bfba506aec8ad9aec2911148387c7551c8bc6e79d1b14293218d7354d4",
+          "render_sha256": "47282631969a7f30743a068f18c59e6f5695626a9c0d1c54bda3f9bfe590eebd",
+          "channels": {
+            "foreground": {
+              "area": 13646,
+              "boundary": 775,
+              "used": true
+            },
+            "left_hand": {
+              "area": 80,
+              "boundary": 46,
+              "used": true
+            },
+            "right_hand": {
+              "area": 238,
+              "boundary": 78,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 81,
+              "boundary": 32,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 232,
+              "boundary": 38,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "d096b8fce137e8920c6c4cd96d8caaff036f13f735cb7cc61b1c545d0eaf8b7a",
+          "probability_sha256": "0c3906ddc7c25386dc4f56c4bafdb7ee50f8c544c81519be2f27697842277806",
+          "render_sha256": "fd58787cd64bd0532620dc83cc2354f0f83e3878f0e4f4a4305104ec5b0ed2e9",
+          "channels": {
+            "foreground": {
+              "area": 13494,
+              "boundary": 771,
+              "used": true
+            },
+            "left_hand": {
+              "area": 47,
+              "boundary": 30,
+              "used": true
+            },
+            "right_hand": {
+              "area": 132,
+              "boundary": 56,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 123,
+              "boundary": 59,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 216,
+              "boundary": 82,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair034",
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "image_sha256": "e481f7c9364ad044cb59a090aea397d280dfce58f5350c731637bfe1449f7f4a",
+          "probability_sha256": "c8df2c242dd0606e19401e1748a41b1588a867c682b2d95fed832b5265107608",
+          "render_sha256": "c9402424d3549c4188e90e372c935c1a46e96cfd0b10b8292a4124bc3d1d294f",
+          "channels": {
+            "foreground": {
+              "area": 12142,
+              "boundary": 819,
+              "used": true
+            },
+            "left_hand": {
+              "area": 184,
+              "boundary": 65,
+              "used": true
+            },
+            "right_hand": {
+              "area": 205,
+              "boundary": 82,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 113,
+              "boundary": 55,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 81,
+              "boundary": 37,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "f58be139565910e514674810cbd4d1b06db88ea66fe75a3059c0acb712339ae6",
+          "probability_sha256": "4cb2ab23934f7bccd3385d03d52c9fa01e47cd7803139d46cf0a56ea8614eef0",
+          "render_sha256": "e0497c46319862ae536cee1e61af65e18e18408acdcb8ece2b1c08765d181738",
+          "channels": {
+            "foreground": {
+              "area": 9990,
+              "boundary": 715,
+              "used": true
+            },
+            "left_hand": {
+              "area": 128,
+              "boundary": 54,
+              "used": true
+            },
+            "right_hand": {
+              "area": 245,
+              "boundary": 93,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 11,
+              "boundary": 11,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 177,
+              "boundary": 68,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair036",
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "image_sha256": "5d9c49e65e59710f94ee7b0f655f1cceba8487e05b9be06cb698e9df24953d6c",
+          "probability_sha256": "3b2963613be26aa91399bdb6dbd30019796a2164edbbb1de332771beca45a2f7",
+          "render_sha256": "a946c0ab1ba8230fb86f55bbc278f2183647c58c3ca8beb272e55e36d4113ba5",
+          "channels": {
+            "foreground": {
+              "area": 10693,
+              "boundary": 754,
+              "used": true
+            },
+            "left_hand": {
+              "area": 323,
+              "boundary": 91,
+              "used": true
+            },
+            "right_hand": {
+              "area": 380,
+              "boundary": 123,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "6cc0b524294bd053791a7fab31bee314c412cefef3967f0230a6f9ff8f54b0a2",
+          "probability_sha256": "b8f591e95833d03497532beb70a33c3fac9710097e0bc59c4863086136ff56d6",
+          "render_sha256": "2afea44477f460e8744ba1dbb7acb3f43190c1ff9a118e506b2479e19b5b95a8",
+          "channels": {
+            "foreground": {
+              "area": 11171,
+              "boundary": 770,
+              "used": true
+            },
+            "left_hand": {
+              "area": 153,
+              "boundary": 57,
+              "used": true
+            },
+            "right_hand": {
+              "area": 310,
+              "boundary": 86,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 13,
+              "boundary": 10,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 42,
+              "boundary": 31,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair037",
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "image_sha256": "442f7c10b563697d5d38b1674cb0d0b6df7c6fbb80af6e8578c441efb1a744ad",
+          "probability_sha256": "3a4fcad47af6e4235a16119609b8bc6b479607b07c257f71d8a1a9c1e552b00e",
+          "render_sha256": "6f33c72e5adb993d20644eaeed8aede9ac71ad455e33b85ce3d8af5bd7b3d5d9",
+          "channels": {
+            "foreground": {
+              "area": 12804,
+              "boundary": 952,
+              "used": true
+            },
+            "left_hand": {
+              "area": 691,
+              "boundary": 142,
+              "used": true
+            },
+            "right_hand": {
+              "area": 266,
+              "boundary": 96,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 8,
+              "boundary": 8,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 75,
+              "boundary": 44,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 5,
+              "boundary": 5,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "852d3b685d618bb5fb695fe6c72088e108ff02eec6d21a479b3d6209d8e9c746",
+          "probability_sha256": "5885d1aea90ffe36f8db526f48f66d9c3e3b7ce2a4e7333bf57675e783aae877",
+          "render_sha256": "150b1d7d29c4ff2f6c5bd3a11e52561b6d97fa100cb92fead232a89a10ffeb65",
+          "channels": {
+            "foreground": {
+              "area": 12158,
+              "boundary": 945,
+              "used": true
+            },
+            "left_hand": {
+              "area": 394,
+              "boundary": 117,
+              "used": true
+            },
+            "right_hand": {
+              "area": 485,
+              "boundary": 153,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 151,
+              "boundary": 78,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 32,
+              "boundary": 30,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 3,
+              "boundary": 3,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 2,
+              "boundary": 2,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair045",
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "image_sha256": "5b72bf9f3328979759514c3608b0dbaf7a69a9cea22e42c52b423d0e61238a22",
+          "probability_sha256": "dcea891737d752aec8b316cb9bf829fbfc8509b44eca73a656b4142e6aed4a6e",
+          "render_sha256": "8dd3c835ff44f24bfad29b898af928c0a51d9e4717e147269c226fdcca30d8fb",
+          "channels": {
+            "foreground": {
+              "area": 12590,
+              "boundary": 853,
+              "used": true
+            },
+            "left_hand": {
+              "area": 266,
+              "boundary": 98,
+              "used": true
+            },
+            "right_hand": {
+              "area": 1146,
+              "boundary": 220,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 2,
+              "boundary": 2,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "73fcfa2fc888df5ea6db0ffccf89a97edae91d5b931858e8f48d4d72cbd78366",
+          "probability_sha256": "fafad8ccec56073653c731cf6d65d84fe8b2dafb4335ed42d13ad782539aae8c",
+          "render_sha256": "8432e2bc065929669ad8d692c8bbb661625496527fd104e5748375f9c8686c0f",
+          "channels": {
+            "foreground": {
+              "area": 13404,
+              "boundary": 924,
+              "used": true
+            },
+            "left_hand": {
+              "area": 99,
+              "boundary": 46,
+              "used": true
+            },
+            "right_hand": {
+              "area": 1375,
+              "boundary": 200,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 34,
+              "boundary": 21,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 199,
+              "boundary": 71,
+              "used": true
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 70,
+              "boundary": 49,
+              "used": true
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair055",
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "image_sha256": "32555be5fc0533426d376d6e6a56a57330f20fdf76d068c8e5b493fd0739621a",
+          "probability_sha256": "4a93587b2f2b204beff94b354d33e1cf59a182cd853cdef053ff53301897d28d",
+          "render_sha256": "818444dada4d63738561666e4ba17ec459c652b3e4f88b10a5af625ee778de27",
+          "channels": {
+            "foreground": {
+              "area": 13069,
+              "boundary": 797,
+              "used": true
+            },
+            "left_hand": {
+              "area": 310,
+              "boundary": 100,
+              "used": true
+            },
+            "right_hand": {
+              "area": 247,
+              "boundary": 90,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 22,
+              "boundary": 22,
+              "used": true
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 22,
+              "boundary": 22,
+              "used": true
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "9852acda17c82809eea1363332b104b841f5f74f12e5da4ae100c6497bf6f76e",
+          "probability_sha256": "e9aeacc313e8b5bdd8d5330ee0f3b7b0ba4997ed83fafb7c0b0da9956d280496",
+          "render_sha256": "23f3f9326aec7a3a2e72bd10a61bdea19638d1bcfafce4b75cc9994fa505941f",
+          "channels": {
+            "foreground": {
+              "area": 11210,
+              "boundary": 784,
+              "used": true
+            },
+            "left_hand": {
+              "area": 122,
+              "boundary": 55,
+              "used": true
+            },
+            "right_hand": {
+              "area": 424,
+              "boundary": 127,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 3,
+              "boundary": 3,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 1,
+              "boundary": 1,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair068",
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "image_sha256": "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+          "probability_sha256": "0f409149e87bfed296e3ee620ae3808f6557aa41b942bbd851099c1b95eb7ecc",
+          "render_sha256": "8c1ab716533474f4383f95e95fdd080a2b8784aea644e3e42cdea364e5f43bd3",
+          "channels": {
+            "foreground": {
+              "area": 11681,
+              "boundary": 794,
+              "used": true
+            },
+            "left_hand": {
+              "area": 99,
+              "boundary": 44,
+              "used": true
+            },
+            "right_hand": {
+              "area": 94,
+              "boundary": 49,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21",
+          "probability_sha256": "19ec2716dcf9fb1e7e9baaa1c3fd887e23667f8a5ff71486fb9c7addabc926a2",
+          "render_sha256": "b0b858f2c9bf0e23dadc2e4928cbe730fc8ebd04a3285a73d783c44f18b42ca1",
+          "channels": {
+            "foreground": {
+              "area": 11510,
+              "boundary": 822,
+              "used": true
+            },
+            "left_hand": {
+              "area": 71,
+              "boundary": 40,
+              "used": true
+            },
+            "right_hand": {
+              "area": 73,
+              "boundary": 50,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair078",
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "image_sha256": "43955ab392ef2e81f49c38bae7ce5d50b93cd5065714c8ecea7eaf8bbd5309e4",
+          "probability_sha256": "9ea816e558cc61d576a8054aa056ee1410585623de6e88e1d6e4718b5558ff8c",
+          "render_sha256": "fdb1fb53a00955b4c74981d0e7ed43066d6e449648aa93a867e7d6f5ba0ab327",
+          "channels": {
+            "foreground": {
+              "area": 10600,
+              "boundary": 722,
+              "used": true
+            },
+            "left_hand": {
+              "area": 39,
+              "boundary": 25,
+              "used": true
+            },
+            "right_hand": {
+              "area": 36,
+              "boundary": 24,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "b0a60176f158795019dbb9443d735a856148e424116cc4ed11d75bf0569670f2",
+          "probability_sha256": "8e8d542180f500705ef1d82a356cdfb57c5899f7c2a9a03911da1164901eaae7",
+          "render_sha256": "b57454c14340f78fe275c174550a31b3e84a503c858fbe5cfcf4617465e48aa8",
+          "channels": {
+            "foreground": {
+              "area": 11449,
+              "boundary": 726,
+              "used": true
+            },
+            "left_hand": {
+              "area": 37,
+              "boundary": 20,
+              "used": true
+            },
+            "right_hand": {
+              "area": 31,
+              "boundary": 21,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair088",
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "image_sha256": "3c5e1198d287f2d5239eaf8e5e8ad48e91815be85618648a2556db035e7d1741",
+          "probability_sha256": "1192191a81d0796d43376da8955225d8fa2f7a2fae20bfe8fdb28d7bf09daef0",
+          "render_sha256": "e99dcc6264dc67cf3f3ee17e9b03ab64ef0c323bbbedef0ce1fdca4772c4b1ed",
+          "channels": {
+            "foreground": {
+              "area": 10542,
+              "boundary": 793,
+              "used": true
+            },
+            "left_hand": {
+              "area": 289,
+              "boundary": 74,
+              "used": true
+            },
+            "right_hand": {
+              "area": 246,
+              "boundary": 86,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 1,
+              "boundary": 1,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "f110644da8704ca8df07614bf00ca360515eec867e62f0761211353eb4ef6f72",
+          "probability_sha256": "e98f4d32be2875e915aeb6af501c66dd856b9202cd090b3e3f36a19e72259ca7",
+          "render_sha256": "906162f9d2dc6af05ce005614d303cc60fc946dd4e3fa2d5195e789079fce88a",
+          "channels": {
+            "foreground": {
+              "area": 13176,
+              "boundary": 896,
+              "used": true
+            },
+            "left_hand": {
+              "area": 256,
+              "boundary": 76,
+              "used": true
+            },
+            "right_hand": {
+              "area": 367,
+              "boundary": 102,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "pair": "pair094",
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "image_sha256": "264f2ecc6459a059d752d551f1b3053c331f36262d19a6c6b127efb80e69baf8",
+          "probability_sha256": "19216fc43aba8de1836714a26bfae5afd3d57550d1686b0515852d6440c05b69",
+          "render_sha256": "972667024ba0012da9f639f7c9b8391b97ec41a83f1372988a2c8b141bae922e",
+          "channels": {
+            "foreground": {
+              "area": 12072,
+              "boundary": 923,
+              "used": true
+            },
+            "left_hand": {
+              "area": 231,
+              "boundary": 103,
+              "used": true
+            },
+            "right_hand": {
+              "area": 125,
+              "boundary": 67,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        },
+        "right": {
+          "image_sha256": "40e98291e1f2131a2f8511c49872acd14f68a9c5292fe0345d57f9980b608ca6",
+          "probability_sha256": "81df3a349b1aa5d059a8e30a5ff71972c9d512c435a1038a32c0f77d2f01e758",
+          "render_sha256": "bc1af7c64d173ff94077f3759f51dda6f12d7c69c93233ec78299d46be77f268",
+          "channels": {
+            "foreground": {
+              "area": 11929,
+              "boundary": 895,
+              "used": true
+            },
+            "left_hand": {
+              "area": 168,
+              "boundary": 88,
+              "used": true
+            },
+            "right_hand": {
+              "area": 158,
+              "boundary": 75,
+              "used": true
+            },
+            "left_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_forearm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_upperarm": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "left_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            },
+            "right_thigh": {
+              "area": 0,
+              "boundary": 0,
+              "used": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "exit_status": 0
+}

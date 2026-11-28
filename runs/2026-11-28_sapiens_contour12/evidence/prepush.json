@@ -1,0 +1,11 @@
+{
+  "base_commit": "bbc60839d3635be7da15690f48c1f89e3dbb3cb5",
+  "workspace": "存在既有未跟踪数据与修改，本轮未纳入",
+  "increment": "本轮代码、报告、脱敏证据、原图上的轮廓派生叠图，样本原图已在原图库公开",
+  "forbidden_assets": "无权重、数据集文件、视频、npz、npy、完整原始输出",
+  "max_file_bytes": 142856,
+  "sensitive": "文本无凭据、环境文件及机器绝对路径",
+  "provenance": "不包含完整本地 provenance 和 patch",
+  "remote_before_push": "bbc60839d3635be7da15690f48c1f89e3dbb3cb5",
+  "history": "本轮增量检查"
+}
