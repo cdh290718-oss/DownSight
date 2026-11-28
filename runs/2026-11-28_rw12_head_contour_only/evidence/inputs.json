@@ -1,0 +1,106 @@
+{
+  "body_inputs_sha256": "f8b7214c1ef6b0686459313f4cc50a3686974ff5a269a4d7df6e58c051cb34d6",
+  "protocol_sha256": "23b1c19d6820547def31d3e39516275f30ca037e5c58548166a3e32cf560e727",
+  "source_observations_sha256": "fb12239083f4ffd7cf899d1ae7fd0c3e17ac324d279e20b9760dc95a569ea225",
+  "source_receipt_sha256": "9c90471e980da83d09a9cbd2900ae9923f482cc04e9e71670a38f8e70fcfbeab",
+  "rows": {
+    "pair001": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        0.021368133948682692,
+        0.31072595074935266,
+        0.6580505401995025
+      ]
+    },
+    "pair022": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        0.039441740246668675,
+        0.2770535602714035,
+        0.7131496780127105
+      ]
+    },
+    "pair028": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.10993150704658133,
+        0.4117720926156183,
+        0.4874804288167931
+      ]
+    },
+    "pair034": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        0.08055860219737926,
+        0.12595542420942485,
+        0.6333015303948442
+      ]
+    },
+    "pair036": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.09636773719617964,
+        0.050126151015275164,
+        0.5944282752016216
+      ]
+    },
+    "pair037": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.043580347462362175,
+        0.106983831727897,
+        0.5662946227506245
+      ]
+    },
+    "pair045": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.03309797136851528,
+        0.13710935511413444,
+        0.5497491316557945
+      ]
+    },
+    "pair055": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        0.0691307529546861,
+        0.15577814236514556,
+        0.5459128465866493
+      ]
+    },
+    "pair068": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.08961758202388753,
+        -0.012175055495102796,
+        0.686374835542043
+      ]
+    },
+    "pair078": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.12496852831472163,
+        0.23648787761774415,
+        0.676693340527973
+      ]
+    },
+    "pair088": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.23391895358648018,
+        0.2857909993578598,
+        0.6270005705089703
+      ]
+    },
+    "pair094": {
+      "torso_points": 4,
+      "initial_translation_m": [
+        -0.01916055288531244,
+        0.2401741637442613,
+        0.7219195340383888
+      ]
+    }
+  },
+  "head_position_weight": 0.0,
+  "head_rotation_weight": 0.0
+}

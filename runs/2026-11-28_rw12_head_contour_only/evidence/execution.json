@@ -1,0 +1,21 @@
+{
+  "commands": [
+    "bash <RUN>/run.sh body_only prepare",
+    "bash <RUN>/run.sh body_only fit",
+    "bash <RUN>/fit_contours.sh",
+    "bash <RUN>/run.sh score"
+  ],
+  "exit_statuses": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "checked_pairs": 12,
+  "cpu_workers": 6,
+  "used_gpu": false,
+  "head_position_input_absent": true,
+  "head_weights_zero": true,
+  "nose_observation_used": false,
+  "redaction": "用 <RUN> 表示本轮路径。完整日志和模型留在开发机。"
+}

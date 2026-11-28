@@ -1,0 +1,1111 @@
+{
+  "base_commit": "9bb5130e748d31249fd873669afce70a14dfb21b",
+  "dirty_worktree": true,
+  "fit_steps": 20000,
+  "head_fit_input_sha256": "602cb2535064c097d07c317095440431755ed84f69be3f8181e64853f25c2e77",
+  "scoring_reference_sha256": "45e42af1c2ab65957c56f1b234e6fa1bf2a27f6e6d340f546fc2def06f98b6fe",
+  "source_sha256": {
+    "body_only.py": "159b410695c1ee9b55b138f2d7ba87efd1167d4a058d7900fbd37c099d724a0e",
+    "score.py": "4499dfe380c3a4d2991ccf9b4ca688a6f6fe9924e1a86cd9eb6d9a9866a8fabb",
+    "head_contour.py": "cf1402387aaaa96137262fb4fc15faaa3f9bdd8c9770433a5b7cd7faaea630c6"
+  },
+  "position_limit_mm": 180,
+  "outline_clip_px": 128,
+  "rows": [
+    {
+      "pair": "pair001",
+      "subject": "S1",
+      "initial_head_m": [
+        -0.0728579547180847,
+        -0.21294081441180612,
+        -0.010260295061536695
+      ],
+      "final_head_m": [
+        -0.032857954718084705,
+        -0.1329408144118061,
+        0.10223970493846331
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -55.54436840668022,
+        9.871008063262485,
+        8.146407508793995
+      ],
+      "transform_delta": [
+        43.0,
+        3.0,
+        -10.0,
+        40.0,
+        80.0,
+        112.5
+      ],
+      "silhouette_points": [
+        226,
+        265
+      ],
+      "contour_before_px": 104.95870109798139,
+      "contour_after_px": 8.570700874393696,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            9.0,
+            16.0,
+            5.0,
+            40.0,
+            100.0,
+            70.0
+          ],
+          "loss": 9.028504047608106
+        },
+        {
+          "transform": [
+            43.0,
+            2.0,
+            -12.0,
+            40.0,
+            80.0,
+            115.0
+          ],
+          "loss": 8.587375683018454
+        },
+        {
+          "transform": [
+            43.0,
+            3.0,
+            -10.0,
+            40.0,
+            80.0,
+            112.5
+          ],
+          "loss": 8.570700874393696
+        }
+      ],
+      "evaluations": 793,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.05308960750699043,
+        -0.14387038350105286,
+        0.083500437438488
+      ],
+      "previous_head_error_mm": 69.81298880585118,
+      "body_head_error_mm": 118.12106897838635,
+      "contour_head_error_mm": 29.663705120619802,
+      "delta_xyz_mm": [
+        20.231652788905727,
+        10.92956908924675,
+        18.739267499975302
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 39.18818839756572
+    },
+    {
+      "pair": "pair022",
+      "subject": "S1",
+      "initial_head_m": [
+        0.003041593522278733,
+        -0.10206653725197612,
+        0.001356419111442908
+      ],
+      "final_head_m": [
+        -0.05695840647772127,
+        -0.11706653725197612,
+        0.05885641911144291
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -80.54402198732443,
+        8.550610713996319,
+        -35.621654738788926
+      ],
+      "transform_delta": [
+        -13.0,
+        -13.0,
+        0.0,
+        -60.0,
+        -15.0,
+        57.5
+      ],
+      "silhouette_points": [
+        225,
+        248
+      ],
+      "contour_before_px": 61.36701633442883,
+      "contour_after_px": 16.312092286285235,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -13.0,
+            -13.0,
+            0.0,
+            -60.0,
+            -15.0,
+            57.5
+          ],
+          "loss": 16.312092286285235
+        },
+        {
+          "transform": [
+            -8.0,
+            -29.0,
+            -17.0,
+            -77.5,
+            -10.0,
+            35.0
+          ],
+          "loss": 21.84024524160918
+        },
+        {
+          "transform": [
+            8.0,
+            -33.0,
+            -10.0,
+            -12.5,
+            0.0,
+            7.5
+          ],
+          "loss": 53.16853617735817
+        }
+      ],
+      "evaluations": 874,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.03726174682378769,
+        -0.14361725747585297,
+        0.09035229682922363
+      ],
+      "previous_head_error_mm": 84.94086003966514,
+      "body_head_error_mm": 106.16537969098934,
+      "contour_head_error_mm": 45.66058978093553,
+      "delta_xyz_mm": [
+        -19.69665965393358,
+        26.550720223876848,
+        -31.495877717780722
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 0.0
+    },
+    {
+      "pair": "pair028",
+      "subject": "S1",
+      "initial_head_m": [
+        -0.2330624257041055,
+        -0.2646671305772572,
+        0.2445803945741794
+      ],
+      "final_head_m": [
+        -0.2330624257041055,
+        -0.10466713057725721,
+        0.0845803945741794
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -147.53339738699214,
+        92.22937696242272,
+        -42.51760939989068
+      ],
+      "transform_delta": [
+        18.0,
+        -27.0,
+        -9.0,
+        0.0,
+        160.0,
+        -160.0
+      ],
+      "silhouette_points": [
+        181,
+        249
+      ],
+      "contour_before_px": 108.75011826905163,
+      "contour_after_px": 76.28988397206027,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -27.0,
+            36.0,
+            -74.0,
+            100.0,
+            -180.0,
+            77.5
+          ],
+          "loss": 94.17177596890299
+        },
+        {
+          "transform": [
+            -22.0,
+            36.0,
+            -74.0,
+            110.0,
+            -130.0,
+            35.0
+          ],
+          "loss": 94.33176142838754
+        },
+        {
+          "transform": [
+            18.0,
+            -27.0,
+            -9.0,
+            0.0,
+            160.0,
+            -160.0
+          ],
+          "loss": 76.28988397206027
+        }
+      ],
+      "evaluations": 687,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.04849855974316597,
+        -0.13409122824668884,
+        0.08908770233392715
+      ],
+      "previous_head_error_mm": 96.6019801371979,
+      "body_head_error_mm": 274.3936300791467,
+      "contour_head_error_mm": 186.9489608565637,
+      "delta_xyz_mm": [
+        -184.56386596093955,
+        29.42409766943163,
+        -4.507307759747753
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 0.0
+    },
+    {
+      "pair": "pair034",
+      "subject": "S1",
+      "initial_head_m": [
+        -0.00840963766585047,
+        -0.05565698075591333,
+        0.043731373121721984
+      ],
+      "final_head_m": [
+        -0.02840963766585047,
+        -0.11815698075591333,
+        0.053731373121721986
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -80.62320135999333,
+        10.445453360574579,
+        30.80638995087955
+      ],
+      "transform_delta": [
+        -33.0,
+        14.0,
+        37.0,
+        -20.0,
+        -62.5,
+        10.0
+      ],
+      "silhouette_points": [
+        224,
+        238
+      ],
+      "contour_before_px": 81.3242965705235,
+      "contour_after_px": 8.673806390468478,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -59.0,
+            -8.0,
+            -17.0,
+            -40.0,
+            -60.0,
+            10.0
+          ],
+          "loss": 12.700642778928742
+        },
+        {
+          "transform": [
+            -33.0,
+            14.0,
+            37.0,
+            -20.0,
+            -62.5,
+            10.0
+          ],
+          "loss": 8.673806390468478
+        },
+        {
+          "transform": [
+            -28.0,
+            26.0,
+            91.0,
+            -15.0,
+            -40.0,
+            -20.0
+          ],
+          "loss": 11.041644188208224
+        }
+      ],
+      "evaluations": 758,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.03828222304582596,
+        -0.1527770608663559,
+        0.07612808048725128
+      ],
+      "previous_head_error_mm": 62.34123796820285,
+      "body_head_error_mm": 106.65002562620624,
+      "contour_head_error_mm": 42.398471549756614,
+      "delta_xyz_mm": [
+        9.872585379975488,
+        34.62008011044257,
+        -22.396707365529295
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 0.0
+    },
+    {
+      "pair": "pair036",
+      "subject": "S9",
+      "initial_head_m": [
+        -0.0916323555928654,
+        -0.004924338690897756,
+        0.05682191705596085
+      ],
+      "final_head_m": [
+        -0.0316323555928654,
+        0.05507566130910224,
+        0.05932191705596085
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -53.30389880650905,
+        40.590732563291986,
+        -0.17771887099068212
+      ],
+      "transform_delta": [
+        -20.0,
+        26.0,
+        -4.0,
+        60.0,
+        60.0,
+        2.5
+      ],
+      "silhouette_points": [
+        15,
+        32
+      ],
+      "contour_before_px": 106.76082327392805,
+      "contour_after_px": 41.81476533700301,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -8.0,
+            4.0,
+            -25.0,
+            -40.0,
+            0.0,
+            60.0
+          ],
+          "loss": 44.733052189895176
+        },
+        {
+          "transform": [
+            -20.0,
+            26.0,
+            -4.0,
+            60.0,
+            60.0,
+            2.5
+          ],
+          "loss": 41.81476533700301
+        },
+        {
+          "transform": [
+            -9.0,
+            13.0,
+            -28.0,
+            -62.5,
+            -5.0,
+            40.0
+          ],
+          "loss": 44.18215963589023
+        }
+      ],
+      "evaluations": 517,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.059907276183366776,
+        -0.16432131826877594,
+        0.07617352157831192
+      ],
+      "previous_head_error_mm": 73.14096062387601,
+      "body_head_error_mm": 163.67150747664965,
+      "contour_head_error_mm": 221.85238866704316,
+      "delta_xyz_mm": [
+        28.274920590501377,
+        219.39697957787817,
+        -16.85160452235107
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 8.074671368829471e-16
+    },
+    {
+      "pair": "pair037",
+      "subject": "S9",
+      "initial_head_m": [
+        -0.043768276907085665,
+        0.0015425922224586719,
+        0.05803024126999906
+      ],
+      "final_head_m": [
+        -0.058768276907085665,
+        0.0015425922224586719,
+        0.11803024126999906
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -27.787906162086966,
+        20.385398851808144,
+        11.866264483518075
+      ],
+      "transform_delta": [
+        0.0,
+        18.0,
+        8.0,
+        -15.0,
+        0.0,
+        60.0
+      ],
+      "silhouette_points": [
+        23,
+        28
+      ],
+      "contour_before_px": 117.71087220109652,
+      "contour_after_px": 52.22756200970598,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            0.0,
+            18.0,
+            8.0,
+            -15.0,
+            0.0,
+            60.0
+          ],
+          "loss": 52.22756200970598
+        },
+        {
+          "transform": [
+            -8.0,
+            -2.0,
+            -20.0,
+            -40.0,
+            60.0,
+            0.0
+          ],
+          "loss": 55.20898111585328
+        },
+        {
+          "transform": [
+            18.0,
+            -42.0,
+            10.0,
+            -70.0,
+            0.0,
+            40.0
+          ],
+          "loss": 52.798897884259546
+        }
+      ],
+      "evaluations": 476,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.04302120953798294,
+        -0.17158359289169312,
+        0.07703907787799835
+      ],
+      "previous_head_error_mm": 74.64117210095066,
+      "body_head_error_mm": 174.16822313792818,
+      "contour_head_error_mm": 178.60829090256786,
+      "delta_xyz_mm": [
+        -15.747067369102725,
+        173.12618511415178,
+        40.99116339200071
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 62.59213832915331
+    },
+    {
+      "pair": "pair045",
+      "subject": "S9",
+      "initial_head_m": [
+        -0.040653151808622806,
+        0.004102308430926127,
+        0.06678379715489052
+      ],
+      "final_head_m": [
+        -0.1406531518086228,
+        0.004102308430926127,
+        0.10678379715489053
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -24.761316212863687,
+        17.17383621810341,
+        -58.88740992378895
+      ],
+      "transform_delta": [
+        -1.0,
+        0.0,
+        -58.0,
+        -100.0,
+        0.0,
+        40.0
+      ],
+      "silhouette_points": [
+        22,
+        29
+      ],
+      "contour_before_px": 107.62763934897029,
+      "contour_after_px": 38.104607975187605,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -18.0,
+            -22.0,
+            0.0,
+            0.0,
+            60.0,
+            0.0
+          ],
+          "loss": 57.73723052655241
+        },
+        {
+          "transform": [
+            0.0,
+            6.0,
+            18.0,
+            -40.0,
+            0.0,
+            60.0
+          ],
+          "loss": 52.89411277438215
+        },
+        {
+          "transform": [
+            -1.0,
+            0.0,
+            -58.0,
+            -100.0,
+            0.0,
+            40.0
+          ],
+          "loss": 38.104607975187605
+        }
+      ],
+      "evaluations": 369,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.03901508077979088,
+        -0.16800570487976074,
+        0.07569408416748047
+      ],
+      "previous_head_error_mm": 72.18314434455247,
+      "body_head_error_mm": 172.34629307616046,
+      "contour_head_error_mm": 202.28207034201768,
+      "delta_xyz_mm": [
+        -101.63807102883193,
+        172.10801331068686,
+        31.089712987410064
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 0.0
+    },
+    {
+      "pair": "pair055",
+      "subject": "S9",
+      "initial_head_m": [
+        -0.11078147575714425,
+        0.006351409693100579,
+        0.09421831029528416
+      ],
+      "final_head_m": [
+        -0.13078147575714424,
+        0.006351409693100579,
+        0.09421831029528416
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -41.790663029145215,
+        30.132203897474003,
+        -24.09412751198434
+      ],
+      "transform_delta": [
+        -29.0,
+        0.0,
+        -36.0,
+        -20.0,
+        0.0,
+        0.0
+      ],
+      "silhouette_points": [
+        25,
+        38
+      ],
+      "contour_before_px": 66.87469143268315,
+      "contour_after_px": 47.06783054066919,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -17.0,
+            -8.0,
+            -61.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "loss": 48.814559304990716
+        },
+        {
+          "transform": [
+            -12.0,
+            -43.0,
+            -48.0,
+            -35.0,
+            5.0,
+            5.0
+          ],
+          "loss": 47.9419873027653
+        },
+        {
+          "transform": [
+            -29.0,
+            0.0,
+            -36.0,
+            -20.0,
+            0.0,
+            0.0
+          ],
+          "loss": 47.06783054066919
+        }
+      ],
+      "evaluations": 559,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.03470951318740845,
+        -0.1772722750902176,
+        0.07206674665212631
+      ],
+      "previous_head_error_mm": 75.43926264106727,
+      "body_head_error_mm": 199.9882318399049,
+      "contour_head_error_mm": 208.4182606616824,
+      "delta_xyz_mm": [
+        -96.0719625697358,
+        183.62368478331817,
+        22.151563643157846
+      ],
+      "observations": 2,
+      "near_minimum_angular_spread_deg": 46.47100628273637
+    },
+    {
+      "pair": "pair068",
+      "subject": "S11",
+      "initial_head_m": [
+        -0.09194623671261556,
+        -0.200447130581751,
+        -0.0291253957454064
+      ],
+      "final_head_m": [
+        -0.03194623671261557,
+        -0.160447130581751,
+        0.030874604254593596
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -93.68089228975711,
+        21.302758152362646,
+        15.151850796139806
+      ],
+      "transform_delta": [
+        -9.0,
+        19.0,
+        9.0,
+        60.0,
+        40.0,
+        60.0
+      ],
+      "silhouette_points": [
+        28,
+        3
+      ],
+      "contour_before_px": 122.46990839670246,
+      "contour_after_px": 17.165565245624308,
+      "body_only_pose_step": 20000,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            -9.0,
+            19.0,
+            9.0,
+            60.0,
+            40.0,
+            60.0
+          ],
+          "loss": 17.165565245624308
+        },
+        {
+          "transform": [
+            49.0,
+            4.0,
+            0.0,
+            80.0,
+            0.0,
+            60.0
+          ],
+          "loss": 30.90828832628083
+        },
+        {
+          "transform": [
+            7.0,
+            28.0,
+            -4.0,
+            40.0,
+            20.0,
+            80.0
+          ],
+          "loss": 21.47662077253168
+        }
+      ],
+      "evaluations": 490,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.07381294667720795,
+        -0.18795061111450195,
+        0.07553090900182724
+      ],
+      "previous_head_error_mm": 87.34170384425386,
+      "body_head_error_mm": 106.9482179825797,
+      "contour_head_error_mm": 67.10773724655387,
+      "delta_xyz_mm": [
+        41.86670996459238,
+        27.503480532750952,
+        -44.65630474723364
+      ],
+      "observations": 1,
+      "near_minimum_angular_spread_deg": 0.0
+    },
+    {
+      "pair": "pair078",
+      "subject": "S11",
+      "initial_head_m": [
+        -0.19095603150599355,
+        -0.39700442017705595,
+        0.12178499856232416
+      ],
+      "final_head_m": [
+        -0.030956031505993548,
+        -0.25700442017705594,
+        0.19678499856232418
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -154.05840821681298,
+        -17.281344854309054,
+        0.7669909713806988
+      ],
+      "transform_delta": [
+        1.0,
+        -1.0,
+        35.0,
+        160.0,
+        140.0,
+        75.0
+      ],
+      "silhouette_points": [
+        21,
+        0
+      ],
+      "contour_before_px": 128.0,
+      "contour_after_px": 28.171289501827992,
+      "body_only_pose_step": 19980,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            18.0,
+            4.0,
+            -13.0,
+            180.0,
+            60.0,
+            80.0
+          ],
+          "loss": 30.376885672437364
+        },
+        {
+          "transform": [
+            1.0,
+            -1.0,
+            35.0,
+            160.0,
+            140.0,
+            75.0
+          ],
+          "loss": 28.171289501827992
+        },
+        {
+          "transform": [
+            45.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "loss": 128.0
+        }
+      ],
+      "evaluations": 462,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.08759498596191406,
+        -0.16154132783412933,
+        0.08829741179943085
+      ],
+      "previous_head_error_mm": 86.25022200384556,
+      "body_head_error_mm": 259.32179248736725,
+      "contour_head_error_mm": 155.2118862818511,
+      "delta_xyz_mm": [
+        56.63895445592051,
+        -95.4630923429266,
+        108.48758676289333
+      ],
+      "observations": 1,
+      "near_minimum_angular_spread_deg": 2.897759585396685e-16
+    },
+    {
+      "pair": "pair088",
+      "subject": "S11",
+      "initial_head_m": [
+        -0.15645410920232738,
+        -0.36471987574647047,
+        0.05836358880666298
+      ],
+      "final_head_m": [
+        -0.046454109202327384,
+        -0.2747198757464705,
+        0.23836358880666297
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -154.15507981789375,
+        -3.8437394426687606,
+        -0.8336548653108833
+      ],
+      "transform_delta": [
+        -9.0,
+        9.0,
+        13.0,
+        110.0,
+        90.0,
+        180.0
+      ],
+      "silhouette_points": [
+        27,
+        6
+      ],
+      "contour_before_px": 127.31769237987326,
+      "contour_after_px": 31.597762191963703,
+      "body_only_pose_step": 19980,
+      "search_limit_hit": true,
+      "search_finals": [
+        {
+          "transform": [
+            -18.0,
+            -18.0,
+            8.0,
+            100.0,
+            80.0,
+            180.0
+          ],
+          "loss": 32.188544875562094
+        },
+        {
+          "transform": [
+            -9.0,
+            9.0,
+            13.0,
+            110.0,
+            90.0,
+            180.0
+          ],
+          "loss": 31.597762191963703
+        },
+        {
+          "transform": [
+            -36.0,
+            59.0,
+            1.0,
+            120.0,
+            80.0,
+            160.0
+          ],
+          "loss": 31.72064794694112
+        }
+      ],
+      "evaluations": 593,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.1045820415019989,
+        -0.15750516951084137,
+        0.0946492925286293
+      ],
+      "previous_head_error_mm": 99.56536494964811,
+      "body_head_error_mm": 216.66863682227716,
+      "contour_head_error_mm": 194.3500522923276,
+      "delta_xyz_mm": [
+        58.127932299671514,
+        -117.21470623562912,
+        143.71429627803366
+      ],
+      "observations": 1,
+      "near_minimum_angular_spread_deg": 57.89474655375157
+    },
+    {
+      "pair": "pair094",
+      "subject": "S11",
+      "initial_head_m": [
+        -0.07824470620918442,
+        -0.1908774605484942,
+        -0.004864272471610698
+      ],
+      "final_head_m": [
+        -0.038244706209184416,
+        -0.15087746054849419,
+        0.0551357275283893
+      ],
+      "orientation_cam3_rotvec_deg": [
+        -110.81031538667534,
+        4.675303054747031,
+        -9.99407608974416
+      ],
+      "transform_delta": [
+        -26.0,
+        -4.0,
+        0.0,
+        40.0,
+        40.0,
+        60.0
+      ],
+      "silhouette_points": [
+        13,
+        0
+      ],
+      "contour_before_px": 104.3735826812416,
+      "contour_after_px": 15.365701233781824,
+      "body_only_pose_step": 19960,
+      "search_limit_hit": false,
+      "search_finals": [
+        {
+          "transform": [
+            4.0,
+            14.0,
+            0.0,
+            60.0,
+            -5.0,
+            7.5
+          ],
+          "loss": 19.25110247865489
+        },
+        {
+          "transform": [
+            -26.0,
+            -4.0,
+            0.0,
+            40.0,
+            40.0,
+            60.0
+          ],
+          "loss": 15.365701233781824
+        },
+        {
+          "transform": [
+            -2.0,
+            45.0,
+            0.0,
+            40.0,
+            0.0,
+            20.0
+          ],
+          "loss": 16.233674315961387
+        }
+      ],
+      "evaluations": 357,
+      "exit_status": 0,
+      "official_head_m": [
+        -0.0737111046910286,
+        -0.16620561480522156,
+        0.09075216948986053
+      ],
+      "previous_head_error_mm": 86.33050475977926,
+      "body_head_error_mm": 98.8522002207167,
+      "contour_head_error_mm": 52.548536346751256,
+      "delta_xyz_mm": [
+        35.46639848184418,
+        15.328154256727371,
+        -35.61644196147123
+      ],
+      "observations": 1,
+      "near_minimum_angular_spread_deg": 54.232743903481975
+    }
+  ],
+  "summary": {
+    "all": {
+      "pairs": 12,
+      "mean_final_mm": 132.08757917072253,
+      "median_final_mm": 166.9100885922095,
+      "min_final_mm": 29.663705120619802,
+      "max_final_mm": 221.85238866704316,
+      "mean_initial_mm": 166.4412672848594,
+      "mean_previous_mm": 80.71578351824085,
+      "mean_contour_start_px": 103.12794516554008,
+      "mean_contour_end_px": 31.780130629914268,
+      "improved": 8,
+      "worsened": 4,
+      "tied": 0,
+      "position_limit_hits": 1,
+      "max_near_minimum_angular_spread_deg": 62.59213832915331
+    },
+    "stereo": {
+      "pairs": 8,
+      "mean_final_mm": 139.47909223514833,
+      "median_final_mm": 182.77862587956577,
+      "min_final_mm": 29.663705120619802,
+      "max_final_mm": 221.85238866704316,
+      "mean_initial_mm": 164.4380449881715,
+      "mean_previous_mm": 76.13770083267043,
+      "mean_contour_start_px": 94.42176981608293,
+      "mean_contour_end_px": 36.13265617322168,
+      "improved": 4,
+      "worsened": 4,
+      "tied": 0,
+      "position_limit_hits": 0,
+      "max_near_minimum_angular_spread_deg": 62.59213832915331
+    },
+    "mono": {
+      "pairs": 4,
+      "mean_final_mm": 117.30455304187095,
+      "median_final_mm": 111.15981176420249,
+      "min_final_mm": 52.548536346751256,
+      "max_final_mm": 194.3500522923276,
+      "mean_initial_mm": 170.4477118782352,
+      "mean_previous_mm": 89.87194888938171,
+      "mean_contour_start_px": 120.54029586445434,
+      "mean_contour_end_px": 23.075079543299456,
+      "improved": 4,
+      "worsened": 0,
+      "tied": 0,
+      "position_limit_hits": 1,
+      "max_near_minimum_angular_spread_deg": 57.89474655375157
+    }
+  },
+  "exit_status": 0
+}
