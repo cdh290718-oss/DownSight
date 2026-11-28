@@ -1,0 +1,44 @@
+{
+  "commands": [
+    "bash <RUN>/run.sh body_start prepare",
+    "bash <RUN>/run.sh body_start fit",
+    "bash <RUN>/run.sh body_start candidates",
+    "bash <RUN>/fit_heads.sh"
+  ],
+  "exit_statuses": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "failed_attempts": [
+    {
+      "stage": "prepare",
+      "exit_status": 1,
+      "reason": "初版误要求标定序列完全不同，改为检查实际标定帧与评测帧不重合"
+    }
+  ],
+  "peak_worker_processes": 4,
+  "gpu_used": false,
+  "fit_steps": 20000,
+  "independently_recomputed_error_rows": 12,
+  "max_non_head_joint_drift_mm": 0.0,
+  "signed_mean_delta_mm": {
+    "mount": [
+      6.2874760730229005,
+      21.001018800381207,
+      -71.5087275146885
+    ],
+    "initial": [
+      6.235400293843112,
+      21.50945019675815,
+      -71.54773852666494
+    ],
+    "final": [
+      0.24026512553899793,
+      36.1006650110152,
+      -67.24437795079272
+    ]
+  },
+  "redaction": "机器路径用 <RUN> 等占位符，完整执行日志及姿态参数留在开发机"
+}

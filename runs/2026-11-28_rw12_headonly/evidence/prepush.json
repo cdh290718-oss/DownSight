@@ -1,0 +1,8 @@
+{
+  "remote_head": "8459affaffbdee353511042b95305fb4acd5de8c",
+  "max_file_bytes": 61724,
+  "existing_workspace_changes": "保留已有改动和未跟踪文件，本轮只纳入指定 run",
+  "file_types": "代码、报告、脱敏 JSON 与误差图表",
+  "checked": "模型权重、数据集、视频、数组、完整输出、凭据、环境文件、开发机路径、完整 provenance 和 patch 均未加入",
+  "scope": "工作区、暂存和本次远端增量，不含历史审查"
+}

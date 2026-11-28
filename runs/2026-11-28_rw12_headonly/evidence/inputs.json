@@ -1,0 +1,393 @@
+{
+  "shards": {
+    "0": "fb12239083f4ffd7cf899d1ae7fd0c3e17ac324d279e20b9760dc95a569ea225"
+  },
+  "protocol": "de02f6e6dbd43246df944c98ebf150f726708d2dd4dc7558940c5804444efc22",
+  "calibration": "9ecf1b4c2ec98490e7d6fc1e44c80757806090f2d88984b0bc0ba2fddde775a8",
+  "cameras": [
+    "4513f42faff6367ae63070b5f4c445419effb3f68abb99da3a9796d2ceff5132",
+    "7b0024ca4e4a03b85fe063164efa8442e51325b1080543711528a7f0c5e56821"
+  ],
+  "body_prediction": "5c1d9f14d2504e4d155c36e4b1362cff9df2ef945b8b4eeb66c2090c1a799592",
+  "nose_prediction": "512069467e0456941c495abd39ebe8b248c676cc8cab989f28d0a1ef1a225c7b",
+  "video003_mount_cam3_m": [
+    0.0686145073787291,
+    0.1387879203018692,
+    0.008860490984699682
+  ],
+  "rows": {
+    "pair001": {
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            180.92778578353796,
+            379.4803203640615
+          ],
+          "score": 0.6875,
+          "rw20000_score": 0.016357421875,
+          "image_sha256": "b76e5c7170d860968f7e4de330068a70bb336cb8fee1d7934205303dba6a23ff",
+          "probability_sha256": "017231255e7da3b6be9cdf3da3911bd459fc1b27f88b69e15b77dc9d51c561ef"
+        },
+        "right": {
+          "nose_xy": [
+            696.9383532139643,
+            383.33661499179016
+          ],
+          "score": 0.796875,
+          "rw20000_score": 0.017822265625,
+          "image_sha256": "ff894f0f3b940081d65b810138a20f00cd3fb06b1a5dbe4682ccb0cea9b0cb1b",
+          "probability_sha256": "6747294a843465fa7d6a582e6971190f8d2a6c7bb6284774f60698dcf32d5383"
+        }
+      },
+      "mount_cam3_m": [
+        -0.04805401662770433,
+        -0.14055755444816764,
+        0.012079118371361233
+      ],
+      "body_seed_fallback": null
+    },
+    "pair022": {
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            197.3459128734329,
+            376.93676432879533
+          ],
+          "score": 0.7578125,
+          "rw20000_score": 0.014892578125,
+          "image_sha256": "2e9139454b938e6cc21c32248beb22f4d65b8fe555747448989f08f8728bd2ac",
+          "probability_sha256": "fa47697c58c878309736002fceaacc97eec4205ccb6aa1b3605555126db98215"
+        },
+        "right": {
+          "nose_xy": [
+            713.5038178928235,
+            384.8547217317255
+          ],
+          "score": 0.71875,
+          "rw20000_score": 0.01153564453125,
+          "image_sha256": "c6b09ba986324fcf501091ccebb20f60661dd4228096958382dcfab2c508eda5",
+          "probability_sha256": "9e220f0abfaf0efd69df4f87b18540cc4b2b347ccfea816af6f75713e719ebee"
+        }
+      },
+      "mount_cam3_m": [
+        -0.04805401662770433,
+        -0.14055755444816764,
+        0.012079118371361233
+      ],
+      "body_seed_fallback": null
+    },
+    "pair028": {
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            161.19998360678778,
+            384.03394486285106
+          ],
+          "score": 0.6796875,
+          "rw20000_score": 0.01611328125,
+          "image_sha256": "dfe4fe9b3402c25deaa442d3cba348480519ebcfa5f4cd3238333ccc7f6c41d9",
+          "probability_sha256": "da65d4bfba506aec8ad9aec2911148387c7551c8bc6e79d1b14293218d7354d4"
+        },
+        "right": {
+          "nose_xy": [
+            720.7028091190996,
+            391.26683447763116
+          ],
+          "score": 0.6953125,
+          "rw20000_score": 0.0162353515625,
+          "image_sha256": "d096b8fce137e8920c6c4cd96d8caaff036f13f735cb7cc61b1c545d0eaf8b7a",
+          "probability_sha256": "0c3906ddc7c25386dc4f56c4bafdb7ee50f8c544c81519be2f27697842277806"
+        }
+      },
+      "mount_cam3_m": [
+        -0.04805401662770433,
+        -0.14055755444816764,
+        0.012079118371361233
+      ],
+      "body_seed_fallback": null
+    },
+    "pair034": {
+      "subject": "S1",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            213.46507614694963,
+            372.22473285112756
+          ],
+          "score": 0.71875,
+          "rw20000_score": 0.0152587890625,
+          "image_sha256": "e481f7c9364ad044cb59a090aea397d280dfce58f5350c731637bfe1449f7f4a",
+          "probability_sha256": "c8df2c242dd0606e19401e1748a41b1588a867c682b2d95fed832b5265107608"
+        },
+        "right": {
+          "nose_xy": [
+            713.7679283581479,
+            382.02665928339275
+          ],
+          "score": 0.71875,
+          "rw20000_score": 0.0164794921875,
+          "image_sha256": "f58be139565910e514674810cbd4d1b06db88ea66fe75a3059c0acb712339ae6",
+          "probability_sha256": "4cb2ab23934f7bccd3385d03d52c9fa01e47cd7803139d46cf0a56ea8614eef0"
+        }
+      },
+      "mount_cam3_m": [
+        -0.04805401662770433,
+        -0.14055755444816764,
+        0.012079118371361233
+      ],
+      "body_seed_fallback": null
+    },
+    "pair036": {
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            231.9768207410243,
+            361.4150110443179
+          ],
+          "score": 0.734375,
+          "rw20000_score": 0.013916015625,
+          "image_sha256": "5d9c49e65e59710f94ee7b0f655f1cceba8487e05b9be06cb698e9df24953d6c",
+          "probability_sha256": "3b2963613be26aa91399bdb6dbd30019796a2164edbbb1de332771beca45a2f7"
+        },
+        "right": {
+          "nose_xy": [
+            622.6937056137003,
+            359.89277346084873
+          ],
+          "score": 0.703125,
+          "rw20000_score": 0.0159912109375,
+          "image_sha256": "6cc0b524294bd053791a7fab31bee314c412cefef3967f0230a6f9ff8f54b0a2",
+          "probability_sha256": "b8f591e95833d03497532beb70a33c3fac9710097e0bc59c4863086136ff56d6"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05051377273861508,
+        -0.14012424310273125,
+        0.010431418970664276
+      ],
+      "body_seed_fallback": null
+    },
+    "pair037": {
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            255.47148427913316,
+            356.6717156034838
+          ],
+          "score": 0.875,
+          "rw20000_score": 0.01556396484375,
+          "image_sha256": "442f7c10b563697d5d38b1674cb0d0b6df7c6fbb80af6e8578c441efb1a744ad",
+          "probability_sha256": "3a4fcad47af6e4235a16119609b8bc6b479607b07c257f71d8a1a9c1e552b00e"
+        },
+        "right": {
+          "nose_xy": [
+            620.5481237441459,
+            354.49763091038903
+          ],
+          "score": 0.8984375,
+          "rw20000_score": 0.0155029296875,
+          "image_sha256": "852d3b685d618bb5fb695fe6c72088e108ff02eec6d21a479b3d6209d8e9c746",
+          "probability_sha256": "5885d1aea90ffe36f8db526f48f66d9c3e3b7ce2a4e7333bf57675e783aae877"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05051377273861508,
+        -0.14012424310273125,
+        0.010431418970664276
+      ],
+      "body_seed_fallback": null
+    },
+    "pair045": {
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            256.1672015764327,
+            357.85722421510695
+          ],
+          "score": 0.8984375,
+          "rw20000_score": 0.0152587890625,
+          "image_sha256": "5b72bf9f3328979759514c3608b0dbaf7a69a9cea22e42c52b423d0e61238a22",
+          "probability_sha256": "dcea891737d752aec8b316cb9bf829fbfc8509b44eca73a656b4142e6aed4a6e"
+        },
+        "right": {
+          "nose_xy": [
+            623.5943632275646,
+            353.95940373922303
+          ],
+          "score": 0.8828125,
+          "rw20000_score": 0.01513671875,
+          "image_sha256": "73fcfa2fc888df5ea6db0ffccf89a97edae91d5b931858e8f48d4d72cbd78366",
+          "probability_sha256": "fafad8ccec56073653c731cf6d65d84fe8b2dafb4335ed42d13ad782539aae8c"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05051377273861508,
+        -0.14012424310273125,
+        0.010431418970664276
+      ],
+      "body_seed_fallback": null
+    },
+    "pair055": {
+      "subject": "S9",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            259.77479553222656,
+            362.23213537785705
+          ],
+          "score": 0.8515625,
+          "rw20000_score": 0.01513671875,
+          "image_sha256": "32555be5fc0533426d376d6e6a56a57330f20fdf76d068c8e5b493fd0739621a",
+          "probability_sha256": "4a93587b2f2b204beff94b354d33e1cf59a182cd853cdef053ff53301897d28d"
+        },
+        "right": {
+          "nose_xy": [
+            634.0230257523622,
+            359.6826222313898
+          ],
+          "score": 0.7578125,
+          "rw20000_score": 0.0137939453125,
+          "image_sha256": "9852acda17c82809eea1363332b104b841f5f74f12e5da4ae100c6497bf6f76e",
+          "probability_sha256": "e9aeacc313e8b5bdd8d5330ee0f3b7b0ba4997ed83fafb7c0b0da9956d280496"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05051377273861508,
+        -0.14012424310273125,
+        0.010431418970664276
+      ],
+      "body_seed_fallback": null
+    },
+    "pair068": {
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            286.12728146857614,
+            352.5582216125749
+          ],
+          "score": 0.84375,
+          "rw20000_score": 0.0166015625,
+          "image_sha256": "b0ad3b7941a559a6ec42de4b7d24987711b2dd0e4ae683e021c94432fbd26fd7",
+          "probability_sha256": "0f409149e87bfed296e3ee620ae3808f6557aa41b942bbd851099c1b95eb7ecc"
+        },
+        "right": {
+          "nose_xy": [
+            594.8713704853158,
+            351.409847110192
+          ],
+          "score": 0.86328125,
+          "rw20000_score": 0.018310546875,
+          "image_sha256": "41a8edf98a9b495544d6ee38fbc2206ed48a8df49ebe9ed19380146f4ee93d21",
+          "probability_sha256": "19ec2716dcf9fb1e7e9baaa1c3fd887e23667f8a5ff71486fb9c7addabc926a2"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05594135632472904,
+        -0.13850053216923053,
+        0.010281212660047778
+      ],
+      "body_seed_fallback": null
+    },
+    "pair078": {
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            289.98022037526084,
+            360.5420985817909
+          ],
+          "score": 0.60546875,
+          "rw20000_score": 0.01495361328125,
+          "image_sha256": "43955ab392ef2e81f49c38bae7ce5d50b93cd5065714c8ecea7eaf8bbd5309e4",
+          "probability_sha256": "9ea816e558cc61d576a8054aa056ee1410585623de6e88e1d6e4718b5558ff8c"
+        },
+        "right": {
+          "nose_xy": [
+            633.5597657208668,
+            363.8343373956268
+          ],
+          "score": 0.671875,
+          "rw20000_score": 0.015380859375,
+          "image_sha256": "b0a60176f158795019dbb9443d735a856148e424116cc4ed11d75bf0569670f2",
+          "probability_sha256": "8e8d542180f500705ef1d82a356cdfb57c5899f7c2a9a03911da1164901eaae7"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05594135632472904,
+        -0.13850053216923053,
+        0.010281212660047778
+      ],
+      "body_seed_fallback": null
+    },
+    "pair088": {
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            260.758526467528,
+            364.12223544864764
+          ],
+          "score": 0.6796875,
+          "rw20000_score": 0.01507568359375,
+          "image_sha256": "3c5e1198d287f2d5239eaf8e5e8ad48e91815be85618648a2556db035e7d1741",
+          "probability_sha256": "1192191a81d0796d43376da8955225d8fa2f7a2fae20bfe8fdb28d7bf09daef0"
+        },
+        "right": {
+          "nose_xy": [
+            606.4277489946776,
+            362.3204919469158
+          ],
+          "score": 0.859375,
+          "rw20000_score": 0.0159912109375,
+          "image_sha256": "f110644da8704ca8df07614bf00ca360515eec867e62f0761211353eb4ef6f72",
+          "probability_sha256": "e98f4d32be2875e915aeb6af501c66dd856b9202cd090b3e3f36a19e72259ca7"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05594135632472904,
+        -0.13850053216923053,
+        0.010281212660047778
+      ],
+      "body_seed_fallback": null
+    },
+    "pair094": {
+      "subject": "S11",
+      "eyes": {
+        "left": {
+          "nose_xy": [
+            292.6532394648847,
+            353.0541837320061
+          ],
+          "score": 0.703125,
+          "rw20000_score": 0.015380859375,
+          "image_sha256": "264f2ecc6459a059d752d551f1b3053c331f36262d19a6c6b127efb80e69baf8",
+          "probability_sha256": "19216fc43aba8de1836714a26bfae5afd3d57550d1686b0515852d6440c05b69"
+        },
+        "right": {
+          "nose_xy": [
+            644.6930711356758,
+            357.6005031601253
+          ],
+          "score": 0.765625,
+          "rw20000_score": 0.01513671875,
+          "image_sha256": "40e98291e1f2131a2f8511c49872acd14f68a9c5292fe0345d57f9980b608ca6",
+          "probability_sha256": "81df3a349b1aa5d059a8e30a5ff71972c9d512c435a1038a32c0f77d2f01e758"
+        }
+      },
+      "mount_cam3_m": [
+        -0.05594135632472904,
+        -0.13850053216923053,
+        0.010281212660047778
+      ],
+      "body_seed_fallback": null
+    }
+  },
+  "exit_status": 0
+}
