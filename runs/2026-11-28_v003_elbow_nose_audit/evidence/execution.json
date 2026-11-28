@@ -1,0 +1,12 @@
+{
+  "base": "ae475d02b574ca217500f3512b60570863c09740",
+  "exit_status": 0,
+  "hashes": {
+    "audit.py": "d89de25df0b446a2cf22bd45c18e34f9dc1786e1ef2d7311566a834f77a5d997",
+    "run.sh": "d332a2cc89b21b7992f477ff0dc0078388b8c745537b5d43e59212d6ee2f0708",
+    "evidence/results.json": "9c8949a9296fee7ece6415e19027d8b7438000ca4d5b45652071fc53d927f446",
+    "assets/v003_03_stages.jpg": "425ac91b85e2a1dc8002ee1bf07fd1b5b13da6321d918630b4155d91af312666",
+    "assets/v003_08_stages.jpg": "f307ccd89b93d9536fe129834a447d12ba449770574dab279dd74e88526a8e7a"
+  },
+  "private_archive_sha256": "3c98758b6614992d247b6aae5c32eb0ee4b81bd9c8fe34496ef23eede42481c6"
+}
