@@ -1,0 +1,14 @@
+{
+  "base_commit": "68da491eaa477f4f4306fd4d01015f33e328a33e",
+  "scope": "本 run 的代码、报告、数值和 OBJ 派生渲染",
+  "workspace": "存在既有未跟踪数据和修改，排除本次暂存",
+  "checks": {
+    "forbidden_asset_types": "本轮公开增量无权重、数据集、视频、npz、npy、OBJ 或完整原始输出",
+    "max_file_size": "小于 50 MB",
+    "secrets_env_paths": "文本检查未发现凭据、环境文件或开发机绝对路径",
+    "provenance_patch": "不含完整本地 provenance 或 patch",
+    "render_images": "48 张可读取的 OBJ 渲染，展示人体几何",
+    "remote_head": "68da491eaa477f4f4306fd4d01015f33e328a33e",
+    "history": "仅检查本轮增量"
+  }
+}
