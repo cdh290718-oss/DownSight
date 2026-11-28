@@ -1,0 +1,11 @@
+{
+  "baseline": "92f6b76ba23e68cc2f700bec37d8228def5cc70e",
+  "workspace": "已有无关修改和未跟踪文件，本轮增量单独暂存",
+  "files": "只包含代码、报告、脱敏数值",
+  "forbidden_types": "无权重、数据集、视频、npz、npy 或完整原始输出",
+  "size": "小于 50 MB",
+  "sensitive": "文本检查无凭据、环境文件或开发机绝对路径",
+  "provenance": "不含完整本地 provenance 和 patch",
+  "history": "仅检查本轮增量",
+  "remote_before_push": "92f6b76ba23e68cc2f700bec37d8228def5cc70e"
+}
