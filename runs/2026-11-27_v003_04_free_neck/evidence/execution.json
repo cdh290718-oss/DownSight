@@ -1,0 +1,13 @@
+{
+  "base": "965d1cf4b1aab97a97f5233f628d9b20eca4cd87",
+  "command": "bash runs/2026-11-27_v003_04_free_neck/run.sh",
+  "exit_status": 0,
+  "device": "CPU",
+  "files": {
+    "trial.py": "ec11779f212c603eec779a941bc200d1dda263a9a74da9436242ac8ef1b1ddea",
+    "run.sh": "2c773c47335113faa5f4dca4c1aaba17695b5eaf2d6fda78717e50ed7e466ff9",
+    "assets/body.jpg": "65d37800442f845b91f404c3e41de3af7a10a8f4323af3265bf3b22562376f6f",
+    "assets/contour.png": "321fc5981e143099bd6323071b6f7d5e52731a59d8297c41a1ed537243f9bf3f",
+    "evidence/results.json": "dc5d081a08bd59ed020c6960319dcc988eba6c78eb309001cde358bc683b0df3"
+  }
+}
