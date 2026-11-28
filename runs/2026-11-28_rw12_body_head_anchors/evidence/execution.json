@@ -1,0 +1,25 @@
+{
+  "commands": [
+    "bash <RUN>/run.sh fit prepare",
+    "bash <RUN>/run.sh fit fit",
+    "bash <RUN>/run.sh fit seal",
+    "bash <RUN>/run.sh score_body"
+  ],
+  "exit_statuses": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fits": 24,
+  "steps": 20000,
+  "head_sources_matched_published": true,
+  "mean_head_anchor_separation_mm": 137.79440105643405,
+  "max_anchor_residual_mm": 0.00020545812464880698,
+  "source_sha256": {
+    "score_body.py": "96d17a1a6995b71dda116ee2551e7439c7535d35a9d92aed3ff87764c456723c",
+    "fit.py": "5b47a283ce9ccd7f3ac1f77cf33177d46d39cd63e3caf8d1864231358abf8f43",
+    "run.sh": "43033f1db4e92d773efd892c521af8175556efceb0a8926fb4aa77184f8dbef9"
+  },
+  "redaction": "本机路径写作 <RUN> 或仓库相对路径。完整本机日志、身体真值文件和拟合参数保存在开发机。"
+}

@@ -1,0 +1,227 @@
+{
+  "observations_sha256": "f8b7214c1ef6b0686459313f4cc50a3686974ff5a269a4d7df6e58c051cb34d6",
+  "prepared_sha256": "296ee81b625c47e013db31bc624d820d6b9835a8cdfb884b3ba0e39de36b456d",
+  "protocol_sha256": "d0dfb0b55e06cec49d2e431f98927a98e12a8fd65ac4f6031ba87fca813cbd10",
+  "previous_control_protocol_sha256": "23b1c19d6820547def31d3e39516275f30ca037e5c58548166a3e32cf560e727",
+  "anchor_type": "exact",
+  "head_rotation_weight": 0,
+  "rows": {
+    "pair001": {
+      "mount_nose": {
+        "position_m": [
+          -0.046658373179660276,
+          -0.12635623417127462,
+          0.0162267635066512
+        ],
+        "source_sha256": "2f652bfff2af6c054b50e2b13de623a31f919d0dba94fc01104e4d9af779de70"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.032857954718084705,
+          -0.1329408144118061,
+          0.10223970493846331
+        ],
+        "source_sha256": "cd276220b9189c98e893bf81eeab02a53c8af8b5a983b98977c91aefea3ecffa"
+      }
+    },
+    "pair022": {
+      "mount_nose": {
+        "position_m": [
+          -0.07058466836221287,
+          -0.12456973725142295,
+          0.014578128554528114
+        ],
+        "source_sha256": "47fb67b44b0c9e0e0e4e1499f0670c5ac9f555c994ad5773298d6c51401f9eb9"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.05695840647772127,
+          -0.11706653725197612,
+          0.05885641911144291
+        ],
+        "source_sha256": "70d30a17d83e6bf10bf86ef70ea6d8071c04b4ebcad5181e1e5b96b26c04fbc7"
+      }
+    },
+    "pair028": {
+      "mount_nose": {
+        "position_m": [
+          -0.0823735397723218,
+          -0.11813527037947069,
+          3.8077388105905996e-05
+        ],
+        "source_sha256": "e2961079a28cf464908e1d4c8aac6008ed10044d78473f2ea0ba0892869b7bf7"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.2330624257041055,
+          -0.10466713057725721,
+          0.0845803945741794
+        ],
+        "source_sha256": "0b257345704ecec1c5a3c58b2555d92c039ed73d31c5f237224d66c517e00b5a"
+      }
+    },
+    "pair034": {
+      "mount_nose": {
+        "position_m": [
+          -0.04591796914609664,
+          -0.1274215898185387,
+          0.019690279140604172
+        ],
+        "source_sha256": "ee498c97385899d4e9b83122568c976b8ed1ffc48756e3b3465b8ac4b5244b43"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.02840963766585047,
+          -0.11815698075591333,
+          0.053731373121721986
+        ],
+        "source_sha256": "e76cd3d5bbbd6e126a205daf6b972d6965c329ff8cc33f83d3bac1a65bbf2dc0"
+      }
+    },
+    "pair036": {
+      "mount_nose": {
+        "position_m": [
+          -0.059685000257986974,
+          -0.12666530051574545,
+          0.013471248562257454
+        ],
+        "source_sha256": "afdd3c3852fe4f18f68cb1b2ee39a8c3600b3fc76e5af417c4cc1dbc1541bddd"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.0316323555928654,
+          0.05507566130910224,
+          0.05932191705596085
+        ],
+        "source_sha256": "5950882898a490a10ceba25a3b44abf21d28c937268e868153f94fe86f2038b2"
+      }
+    },
+    "pair037": {
+      "mount_nose": {
+        "position_m": [
+          -0.05122764745003201,
+          -0.12775684304865853,
+          0.01717945085280309
+        ],
+        "source_sha256": "dc2e8dc5ac1ab8fe8cdff8f9d961ba9f92329327218293f52285ba377f2221b3"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.058768276907085665,
+          0.0015425922224586719,
+          0.11803024126999906
+        ],
+        "source_sha256": "7bbca7c99d4a8f0f014b23eb167c4f8704f61272dfe6a0096ec7c00ece0157df"
+      }
+    },
+    "pair045": {
+      "mount_nose": {
+        "position_m": [
+          -0.0503619246179685,
+          -0.12719102779668676,
+          0.01724908782918899
+        ],
+        "source_sha256": "0133a4501718c7eec094fac565eb23f96f9e8f583bc5fde592cb4fc89c84a5c5"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.1406531518086228,
+          0.004102308430926127,
+          0.10678379715489053
+        ],
+        "source_sha256": "b205ce7a70ebef2b2f5f1d106d55e602bd6f326dc936ea7a488978866f48574e"
+      }
+    },
+    "pair055": {
+      "mount_nose": {
+        "position_m": [
+          -0.049744519237581525,
+          -0.12693309461666005,
+          0.017928055772591822
+        ],
+        "source_sha256": "19e41b60b8f12f5e3ff79505b337b8665aad0fb5f73d1152e653b531f11110ef"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.13078147575714424,
+          0.006351409693100579,
+          0.09421831029528416
+        ],
+        "source_sha256": "5df1fe1c7d1535481898b15bc48afa665e83d53d6c92d2dc0108ac79975dfe65"
+      }
+    },
+    "pair068": {
+      "mount_nose": {
+        "position_m": [
+          -0.059815980013299366,
+          -0.12277063937705382,
+          0.019101932057953408
+        ],
+        "source_sha256": "bbfa329450b38a1a518da10a1fc5166a62bf5b18cbaeb09c6d775fa507a12949"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.03194623671261557,
+          -0.160447130581751,
+          0.030874604254593596
+        ],
+        "source_sha256": "9f8734f7495d2f5954b80bb7245f6b4c88904b1e3dc2aec62fe93dfb0bcc7af9"
+      }
+    },
+    "pair078": {
+      "mount_nose": {
+        "position_m": [
+          -0.06014638868747672,
+          -0.12205216249730622,
+          0.0166993592813669
+        ],
+        "source_sha256": "c54a9016767dd84c6596ec860f97f24a04b1929f346eb220caa98af708e802be"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.030956031505993548,
+          -0.25700442017705594,
+          0.19678499856232418
+        ],
+        "source_sha256": "182e88f81f3616b55c90c80d4f10c3c27d8d63aaae86a252da0d5d76cf6e86d9"
+      }
+    },
+    "pair088": {
+      "mount_nose": {
+        "position_m": [
+          -0.06314705715831506,
+          -0.1191231978530855,
+          0.01265399862917116
+        ],
+        "source_sha256": "950d8f7dd86ebe04050ef976006dfa51cfaaff8f6198b8a5a17433f14f6c415f"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.046454109202327384,
+          -0.2747198757464705,
+          0.23836358880666297
+        ],
+        "source_sha256": "7b71e9fbd74b0d65eb27004aaa1c9baa482c8c03e2e7035748d1d3f7b15aebc2"
+      }
+    },
+    "pair094": {
+      "mount_nose": {
+        "position_m": [
+          -0.05094004625104887,
+          -0.12655846702700646,
+          0.017522813199820186
+        ],
+        "source_sha256": "a2c3535f82645d60c184c63888ba72707dcbdd12a140695fd5ea376aa5cbbfba"
+      },
+      "body_contour": {
+        "position_m": [
+          -0.038244706209184416,
+          -0.15087746054849419,
+          0.0551357275283893
+        ],
+        "source_sha256": "7bfda0fe95bf538e321678867b9123ccdc9079aede44f94f8ecb3d70a606e8c2"
+      }
+    }
+  },
+  "exit_status": 0
+}
